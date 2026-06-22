@@ -1,0 +1,8 @@
+{
+  "appId": "com.benjaminlocher.foreheadfrenzy",
+  "appName": "Forehead Frenzy",
+  "webDir": "dist",
+  "server": {
+    "iosScheme": "https"
+  }
+}

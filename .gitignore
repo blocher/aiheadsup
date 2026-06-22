@@ -1,0 +1,8 @@
+node_modules/
+dist/
+ios/App/App/public/
+.env
+.env.*
+!.env.example
+*.xcuserstate
+DerivedData/
