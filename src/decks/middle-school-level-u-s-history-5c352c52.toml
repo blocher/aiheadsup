@@ -1,0 +1,234 @@
+id = "deck_middle-school-level-u-s-history_5c352c52"
+revision = 1
+name = "Middle School Level U.S. History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include colonial America, the Revolution, Constitution, Civil War, Reconstruction, immigration, westward expansion, industrialization, major presidents, social movements, wars, and key historical documents."
+photo_file_name = "middle-school-level-u-s-history-5c352c52-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "U.S. Constitution"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "Valley Forge"
+
+[[cards]]
+text = "Louisiana Purchase"
+
+[[cards]]
+text = "Lewis and Clark"
+
+[[cards]]
+text = "War of 1812"
+
+[[cards]]
+text = "Oregon Trail"
+
+[[cards]]
+text = "California Gold Rush"
+
+[[cards]]
+text = "Underground Railroad"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "American Civil War"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "Emancipation Proclamation"
+
+[[cards]]
+text = "Reconstruction Era"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Thomas Edison"
+
+[[cards]]
+text = "Alexander Graham Bell"
+
+[[cards]]
+text = "Wright Brothers"
+
+[[cards]]
+text = "Boston Massacre"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Plymouth Colony"
+
+[[cards]]
+text = "Jamestown Settlement"
+
+[[cards]]
+text = "Mayflower Compact"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Battle of Yorktown"
+
+[[cards]]
+text = "Articles of Confederation"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Frederick Douglass"
+
+[[cards]]
+text = "Susan B. Anthony"
+
+[[cards]]
+text = "Women's Suffrage"
+
+[[cards]]
+text = "Trail of Tears"
+
+[[cards]]
+text = "The Alamo"
+
+[[cards]]
+text = "Transcontinental Railroad"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "World War I"
+
+[[cards]]
+text = "Great Depression"
+
+[[cards]]
+text = "Pearl Harbor"
+
+[[cards]]
+text = "World War II"
+
+[[cards]]
+text = "Cold War"
+
+[[cards]]
+text = "Martin Luther King Jr."
+
+[[cards]]
+text = "Civil Rights Movement"
+
+[[cards]]
+text = "Space Race"
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Rosa Parks"
+
+[[cards]]
+text = "Watergate Scandal"
+
+[[cards]]
+text = "Teddy Roosevelt"
+
+[[cards]]
+text = "Jamestown Colony"
+
+[[cards]]
+text = "Plymouth Rock"
+
+[[cards]]
+text = "Salem Witch Trials"
+
+[[cards]]
+text = "Paul Revere's Ride"
+
+[[cards]]
+text = "US Constitution"
+
+[[cards]]
+text = "Erie Canal"
+
+[[cards]]
+text = "Cotton Gin"
+
+[[cards]]
+text = "Telegraph"
+
+[[cards]]
+text = "Steam Locomotive"
+
+[[cards]]
+text = "Battle of Gettysburg"
+
+[[cards]]
+text = "Ulysses S. Grant"
+
+[[cards]]
+text = "Robert E. Lee"
+
+[[cards]]
+text = "Henry Ford"
+
+[[cards]]
+text = "Franklin D. Roosevelt"
+
+[[cards]]
+text = "The Constitution"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "Jamestown"
+
+[[cards]]
+text = "Industrial Revolution"
+
+[[cards]]
+text = "Monroe Doctrine"
+
+[[cards]]
+text = "Fort Sumter"
+
+[[cards]]
+text = "Stamp Act"
+
+[[cards]]
+text = "Sons of Liberty"
+
+[[cards]]
+text = "Star-Spangled Banner"
+
+[[cards]]
+text = "Battle of Saratoga"
+
+[[cards]]
+text = "Reconstruction"

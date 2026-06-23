@@ -1,0 +1,282 @@
+id = "deck_cooking-and-kitchen_2b4e871b"
+revision = 1
+name = "Cooking and Kitchen"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include kitchen tools, cooking methods, ingredients, measurements, appliances, recipes, chef terms, baking items, and common meal-prep actions."
+photo_file_name = "cooking-and-kitchen-2b4e871b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Whisk"
+
+[[cards]]
+text = "Rolling Pin"
+
+[[cards]]
+text = "Garlic Press"
+
+[[cards]]
+text = "Colander"
+
+[[cards]]
+text = "Vegetable Peeler"
+
+[[cards]]
+text = "Box Grater"
+
+[[cards]]
+text = "Meat Thermometer"
+
+[[cards]]
+text = "Basting Brush"
+
+[[cards]]
+text = "Spatula"
+
+[[cards]]
+text = "Ladle"
+
+[[cards]]
+text = "Tongs"
+
+[[cards]]
+text = "Flour Sifter"
+
+[[cards]]
+text = "Sautéing"
+
+[[cards]]
+text = "Poaching"
+
+[[cards]]
+text = "Simmering"
+
+[[cards]]
+text = "Roasting"
+
+[[cards]]
+text = "Grilling"
+
+[[cards]]
+text = "Steaming"
+
+[[cards]]
+text = "Braising"
+
+[[cards]]
+text = "Broiling"
+
+[[cards]]
+text = "Baking"
+
+[[cards]]
+text = "Deep Frying"
+
+[[cards]]
+text = "Active Dry Yeast"
+
+[[cards]]
+text = "Olive Oil"
+
+[[cards]]
+text = "Garlic Cloves"
+
+[[cards]]
+text = "Sea Salt"
+
+[[cards]]
+text = "Vanilla Extract"
+
+[[cards]]
+text = "Maple Syrup"
+
+[[cards]]
+text = "Brown Sugar"
+
+[[cards]]
+text = "Fresh Basil"
+
+[[cards]]
+text = "Heavy Cream"
+
+[[cards]]
+text = "Parmesan Cheese"
+
+[[cards]]
+text = "Teaspoon"
+
+[[cards]]
+text = "Tablespoon"
+
+[[cards]]
+text = "Measuring Cup"
+
+[[cards]]
+text = "Pinch of Salt"
+
+[[cards]]
+text = "Food Processor"
+
+[[cards]]
+text = "Stand Mixer"
+
+[[cards]]
+text = "Blender"
+
+[[cards]]
+text = "Slow Cooker"
+
+[[cards]]
+text = "Air Fryer"
+
+[[cards]]
+text = "Toaster Oven"
+
+[[cards]]
+text = "Rice Cooker"
+
+[[cards]]
+text = "Chocolate Chip Cookies"
+
+[[cards]]
+text = "Scrambled Eggs"
+
+[[cards]]
+text = "Mashed Potatoes"
+
+[[cards]]
+text = "Julienne"
+
+[[cards]]
+text = "Kneading Dough"
+
+[[cards]]
+text = "Mincing Garlic"
+
+[[cards]]
+text = "Al Dente"
+
+[[cards]]
+text = "Sauté"
+
+[[cards]]
+text = "Cutting Board"
+
+[[cards]]
+text = "Simmer"
+
+[[cards]]
+text = "Oven Mitts"
+
+[[cards]]
+text = "Yeast"
+
+[[cards]]
+text = "Parchment Paper"
+
+[[cards]]
+text = "Chef's Knife"
+
+[[cards]]
+text = "Grater"
+
+[[cards]]
+text = "Mixing Bowl"
+
+[[cards]]
+text = "Caramelize"
+
+[[cards]]
+text = "Cast Iron Skillet"
+
+[[cards]]
+text = "Knead"
+
+[[cards]]
+text = "Dutch Oven"
+
+[[cards]]
+text = "Zest"
+
+[[cards]]
+text = "Baking Sheet"
+
+[[cards]]
+text = "Marinade"
+
+[[cards]]
+text = "Slotted Spoon"
+
+[[cards]]
+text = "Peeler"
+
+[[cards]]
+text = "Sift"
+
+[[cards]]
+text = "Rolling Boil"
+
+[[cards]]
+text = "Squeeze Bottle"
+
+[[cards]]
+text = "Pastry Brush"
+
+[[cards]]
+text = "Mortar and Pestle"
+
+[[cards]]
+text = "Double Boiler"
+
+[[cards]]
+text = "Potato Masher"
+
+[[cards]]
+text = "Apron"
+
+[[cards]]
+text = "Kitchen Shears"
+
+[[cards]]
+text = "Whisking Eggs"
+
+[[cards]]
+text = "Bread Flour"
+
+[[cards]]
+text = "Deglaze"
+
+[[cards]]
+text = "Steamer Basket"
+
+[[cards]]
+text = "Hand Mixer"
+
+[[cards]]
+text = "Julienne Cut"
+
+[[cards]]
+text = "Sous Vide"
+
+[[cards]]
+text = "Measuring Cups"
+
+[[cards]]
+text = "Measuring Spoon"
+
+[[cards]]
+text = "Immersion Blender"
+
+[[cards]]
+text = "Silicone Spatula"
+
+[[cards]]
+text = "Salad Spinner"
+
+[[cards]]
+text = "Zesting a Lemon"
+
+[[cards]]
+text = "Hollandaise Sauce"

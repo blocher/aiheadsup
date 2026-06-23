@@ -1,0 +1,270 @@
+id = "deck_kennywood-deep-cuts_df19753d"
+revision = 1
+name = "Kennywood: Deep Cuts"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include obscure Kennywood ride history, former attractions, old names, defunct areas, classic advertisements, coaster details, and longtime local fan references."
+photo_file_name = "kennywood-deep-cuts-df19753d-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "The Pippin"
+
+[[cards]]
+text = "Laser Loop"
+
+[[cards]]
+text = "Steel Phantom"
+
+[[cards]]
+text = "Log Jammer"
+
+[[cards]]
+text = "Pitt Fall"
+
+[[cards]]
+text = "The Kangaroo"
+
+[[cards]]
+text = "Bayern Kurve"
+
+[[cards]]
+text = "Noah's Ark Whale Mouth"
+
+[[cards]]
+text = "The Turnpike"
+
+[[cards]]
+text = "Garfield's Nightmare"
+
+[[cards]]
+text = "Le Cachot"
+
+[[cards]]
+text = "Gold Rusher"
+
+[[cards]]
+text = "Laff In the Dark"
+
+[[cards]]
+text = "Ghost Ship"
+
+[[cards]]
+text = "Caterpillar"
+
+[[cards]]
+text = "Tumble Bug"
+
+[[cards]]
+text = "Auto Race"
+
+[[cards]]
+text = "The Teddy Bear"
+
+[[cards]]
+text = "Mushroom Fountain"
+
+[[cards]]
+text = "Kennywood Arrow"
+
+[[cards]]
+text = "Potato Patch Fries"
+
+[[cards]]
+text = "Lost Kennywood"
+
+[[cards]]
+text = "Steel Curtain"
+
+[[cards]]
+text = "Exterminator"
+
+[[cards]]
+text = "Phantom's Revenge"
+
+[[cards]]
+text = "Aero 360"
+
+[[cards]]
+text = "Raging Rapids"
+
+[[cards]]
+text = "Volcano"
+
+[[cards]]
+text = "Flying Carpet"
+
+[[cards]]
+text = "Swing Around"
+
+[[cards]]
+text = "Dipper"
+
+[[cards]]
+text = "Scenic Railway"
+
+[[cards]]
+text = "Racer Ravine"
+
+[[cards]]
+text = "Hard Headed Harold"
+
+[[cards]]
+text = "Kenny Kangaroo"
+
+[[cards]]
+text = "Parkside Cafe"
+
+[[cards]]
+text = "Pagoda"
+
+[[cards]]
+text = "Sanger Hall"
+
+[[cards]]
+text = "SS Kennywood"
+
+[[cards]]
+text = "Monongahela River Overlook"
+
+[[cards]]
+text = "Lil' Phantom"
+
+[[cards]]
+text = "Whip Pavilion"
+
+[[cards]]
+text = "Lion Fountain"
+
+[[cards]]
+text = "Gran Prix"
+
+[[cards]]
+text = "Cosmic Chaos"
+
+[[cards]]
+text = "Black Widow"
+
+[[cards]]
+text = "Sky Rocket"
+
+[[cards]]
+text = "Thomas Town"
+
+[[cards]]
+text = "Playland"
+
+[[cards]]
+text = "Thunderbolt Double Dip"
+
+[[cards]]
+text = "The Old Mill"
+
+[[cards]]
+text = "Noah's Ark"
+
+[[cards]]
+text = "Laffin' Sal"
+
+[[cards]]
+text = "King Kahuna"
+
+[[cards]]
+text = "Road Runner"
+
+[[cards]]
+text = "The Rotor"
+
+[[cards]]
+text = "Tri-Star"
+
+[[cards]]
+text = "Phantom Fright Nights"
+
+[[cards]]
+text = "Fall Fantasy Parade"
+
+[[cards]]
+text = "The Exterminator"
+
+[[cards]]
+text = "Musik Express"
+
+[[cards]]
+text = "Jack Rabbit Double Dip"
+
+[[cards]]
+text = "Thunderbolt Ravine"
+
+[[cards]]
+text = "Racer Parallel Tracks"
+
+[[cards]]
+text = "Kennywood Lagoon"
+
+[[cards]]
+text = "Pagoda Food Stand"
+
+[[cards]]
+text = "George Washington Statue"
+
+[[cards]]
+text = "Laser Storm"
+
+[[cards]]
+text = "Kiddieland"
+
+[[cards]]
+text = "Gran Prix Bumper Cars"
+
+[[cards]]
+text = "Wonder Wheel"
+
+[[cards]]
+text = "Roll-O-Plane"
+
+[[cards]]
+text = "The Dipper"
+
+[[cards]]
+text = "Swing Shot"
+
+[[cards]]
+text = "Skycoaster"
+
+[[cards]]
+text = "The Laser Loop"
+
+[[cards]]
+text = "The Gold Rusher"
+
+[[cards]]
+text = "The Tumble Bug"
+
+[[cards]]
+text = "The Caterpillar"
+
+[[cards]]
+text = "The Flying Carpet"
+
+[[cards]]
+text = "Potato Patch Cheese"
+
+[[cards]]
+text = "Moebius Loop Racer"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "Volcano Ride"
+
+[[cards]]
+text = "Luna Park"
+
+[[cards]]
+text = "The Whip Pavilion"
+
+[[cards]]
+text = "Noah's Ark Whale"

@@ -1,0 +1,240 @@
+id = "deck_sushi_58f131e2"
+revision = 1
+name = "Sushi"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include sushi rolls, ingredients, fish, sauces, sides, Japanese food terms, restaurant items, utensils, and family-friendly sushi concepts."
+photo_file_name = "sushi-58f131e2-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "California Roll"
+
+[[cards]]
+text = "Spicy Tuna Roll"
+
+[[cards]]
+text = "Dragon Roll"
+
+[[cards]]
+text = "Rainbow Roll"
+
+[[cards]]
+text = "Spider Roll"
+
+[[cards]]
+text = "Caterpillar Roll"
+
+[[cards]]
+text = "Philadelphia Roll"
+
+[[cards]]
+text = "Shrimp Tempura Roll"
+
+[[cards]]
+text = "Cucumber Roll"
+
+[[cards]]
+text = "Avocado Roll"
+
+[[cards]]
+text = "Salmon Nigiri"
+
+[[cards]]
+text = "Tuna Nigiri"
+
+[[cards]]
+text = "Yellowtail"
+
+[[cards]]
+text = "Eel"
+
+[[cards]]
+text = "Tamago"
+
+[[cards]]
+text = "Nori Seaweed"
+
+[[cards]]
+text = "Sushi Rice"
+
+[[cards]]
+text = "Tobiko"
+
+[[cards]]
+text = "Octopus"
+
+[[cards]]
+text = "Squid"
+
+[[cards]]
+text = "Red Snapper"
+
+[[cards]]
+text = "Smoked Salmon"
+
+[[cards]]
+text = "Crab Stick"
+
+[[cards]]
+text = "Wasabi"
+
+[[cards]]
+text = "Pickled Ginger"
+
+[[cards]]
+text = "Soy Sauce"
+
+[[cards]]
+text = "Spicy Mayo"
+
+[[cards]]
+text = "Eel Sauce"
+
+[[cards]]
+text = "Ponzu Sauce"
+
+[[cards]]
+text = "Sesame Seeds"
+
+[[cards]]
+text = "Edamame"
+
+[[cards]]
+text = "Miso Soup"
+
+[[cards]]
+text = "Gyoza"
+
+[[cards]]
+text = "Seaweed Salad"
+
+[[cards]]
+text = "Mixed Tempura"
+
+[[cards]]
+text = "Agedashi Tofu"
+
+[[cards]]
+text = "Nigiri"
+
+[[cards]]
+text = "Sashimi"
+
+[[cards]]
+text = "Maki"
+
+[[cards]]
+text = "Hand Roll"
+
+[[cards]]
+text = "Bento Box"
+
+[[cards]]
+text = "Omakase"
+
+[[cards]]
+text = "Chirashi Bowl"
+
+[[cards]]
+text = "Chopsticks"
+
+[[cards]]
+text = "Bamboo Rolling Mat"
+
+[[cards]]
+text = "Soy Sauce Dish"
+
+[[cards]]
+text = "Sushi Boat"
+
+[[cards]]
+text = "Conveyor Belt Sushi"
+
+[[cards]]
+text = "Wasabi Peas"
+
+[[cards]]
+text = "Green Tea Ice Cream"
+
+[[cards]]
+text = "Tempura Shrimp"
+
+[[cards]]
+text = "Yellowtail Fish"
+
+[[cards]]
+text = "Nori Sheets"
+
+[[cards]]
+text = "Bamboo Mat"
+
+[[cards]]
+text = "Green Tea"
+
+[[cards]]
+text = "Salmon Roe"
+
+[[cards]]
+text = "Octopus Nigiri"
+
+[[cards]]
+text = "Teriyaki Chicken"
+
+[[cards]]
+text = "Tuna Sashimi"
+
+[[cards]]
+text = "Sweet Egg Omelet"
+
+[[cards]]
+text = "Sushi Chef"
+
+[[cards]]
+text = "Sake Cup"
+
+[[cards]]
+text = "Red Ginger"
+
+[[cards]]
+text = "Panko Breadcrumbs"
+
+[[cards]]
+text = "Sea Urchin"
+
+[[cards]]
+text = "Fried Tofu Skin"
+
+[[cards]]
+text = "Mochi Ice Cream"
+
+[[cards]]
+text = "Oshibori Wet Towel"
+
+[[cards]]
+text = "Mirin"
+
+[[cards]]
+text = "Rice Vinegar"
+
+[[cards]]
+text = "Flying Fish Roe"
+
+[[cards]]
+text = "Shrimp Tempura"
+
+[[cards]]
+text = "Seaweed Sheet"
+
+[[cards]]
+text = "Fish Roe"
+
+[[cards]]
+text = "Wasabi Paste"
+
+[[cards]]
+text = "Seaweed Wrap"
+
+[[cards]]
+text = "Avocado"

@@ -1,0 +1,258 @@
+id = "deck_space-exploration_187174e8"
+revision = 1
+name = "Space Exploration"
+category = "Science"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include astronauts, rockets, missions, probes, telescopes, space stations, moon landings, Mars exploration, and major space agencies."
+photo_file_name = "space-exploration-187174e8-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Buzz Aldrin"
+
+[[cards]]
+text = "Sally Ride"
+
+[[cards]]
+text = "Yuri Gagarin"
+
+[[cards]]
+text = "John Glenn"
+
+[[cards]]
+text = "Hubble Space Telescope"
+
+[[cards]]
+text = "James Webb Telescope"
+
+[[cards]]
+text = "International Space Station"
+
+[[cards]]
+text = "Mir Space Station"
+
+[[cards]]
+text = "Saturn V"
+
+[[cards]]
+text = "Space Shuttle Discovery"
+
+[[cards]]
+text = "Falcon Heavy"
+
+[[cards]]
+text = "Apollo 11"
+
+[[cards]]
+text = "Curiosity Rover"
+
+[[cards]]
+text = "Perseverance Rover"
+
+[[cards]]
+text = "Voyager 1"
+
+[[cards]]
+text = "Voyager 2"
+
+[[cards]]
+text = "Cassini"
+
+[[cards]]
+text = "New Horizons"
+
+[[cards]]
+text = "Sputnik 1"
+
+[[cards]]
+text = "NASA"
+
+[[cards]]
+text = "European Space Agency"
+
+[[cards]]
+text = "SpaceX"
+
+[[cards]]
+text = "Mars Pathfinder"
+
+[[cards]]
+text = "Kepler Space Telescope"
+
+[[cards]]
+text = "Chandra X-ray Observatory"
+
+[[cards]]
+text = "Artemis Mission"
+
+[[cards]]
+text = "Lunar Rover"
+
+[[cards]]
+text = "Lunar Module"
+
+[[cards]]
+text = "Spacewalk"
+
+[[cards]]
+text = "Mission Control"
+
+[[cards]]
+text = "Cape Canaveral"
+
+[[cards]]
+text = "Baikonur Cosmodrome"
+
+[[cards]]
+text = "Space Suit"
+
+[[cards]]
+text = "Zero Gravity"
+
+[[cards]]
+text = "Heat Shield"
+
+[[cards]]
+text = "Solar Panels"
+
+[[cards]]
+text = "Rover"
+
+[[cards]]
+text = "Splashdown"
+
+[[cards]]
+text = "Rocket Launch"
+
+[[cards]]
+text = "Space Tourism"
+
+[[cards]]
+text = "Astronaut Food"
+
+[[cards]]
+text = "Space Debris"
+
+[[cards]]
+text = "Launch Pad"
+
+[[cards]]
+text = "Escape Velocity"
+
+[[cards]]
+text = "Orbit"
+
+[[cards]]
+text = "Rocket Booster"
+
+[[cards]]
+text = "Payload"
+
+[[cards]]
+text = "Space Shuttle Atlantis"
+
+[[cards]]
+text = "Alan Shepard"
+
+[[cards]]
+text = "Chris Hadfield"
+
+[[cards]]
+text = "Mae Jemison"
+
+[[cards]]
+text = "Space Shuttle"
+
+[[cards]]
+text = "SLS Rocket"
+
+[[cards]]
+text = "Soyuz Rocket"
+
+[[cards]]
+text = "Artemis Program"
+
+[[cards]]
+text = "Gemini Program"
+
+[[cards]]
+text = "Mercury Program"
+
+[[cards]]
+text = "Opportunity Rover"
+
+[[cards]]
+text = "Cassini Probe"
+
+[[cards]]
+text = "Viking 1"
+
+[[cards]]
+text = "Juno Probe"
+
+[[cards]]
+text = "Chandra Observatory"
+
+[[cards]]
+text = "Skylab"
+
+[[cards]]
+text = "Tiangong Space Station"
+
+[[cards]]
+text = "Moon Landing"
+
+[[cards]]
+text = "Sea of Tranquility"
+
+[[cards]]
+text = "ESA"
+
+[[cards]]
+text = "JAXA"
+
+[[cards]]
+text = "Roscosmos"
+
+[[cards]]
+text = "ISRO"
+
+[[cards]]
+text = "Laika the Dog"
+
+[[cards]]
+text = "Solar Sails"
+
+[[cards]]
+text = "Saturn V Rocket"
+
+[[cards]]
+text = "Space Shuttle Challenger"
+
+[[cards]]
+text = "SpaceX Falcon 9"
+
+[[cards]]
+text = "Space Walk"
+
+[[cards]]
+text = "Kennedy Space Center"
+
+[[cards]]
+text = "Voyager Golden Record"
+
+[[cards]]
+text = "Mars Curiosity Rover"
+
+[[cards]]
+text = "Falcon 9"
+
+[[cards]]
+text = "Sputnik"
+
+[[cards]]
+text = "Lunar Lander"

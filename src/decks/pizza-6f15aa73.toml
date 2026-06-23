@@ -1,0 +1,240 @@
+id = "deck_pizza_6f15aa73"
+revision = 1
+name = "Pizza"
+category = "Food"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include pizza toppings, styles, sauces, cheeses, crusts, ovens, restaurants, side dishes, pizza tools, and common pizza-ordering phrases."
+photo_file_name = "pizza-6f15aa73-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Pepperoni"
+
+[[cards]]
+text = "Mozzarella Cheese"
+
+[[cards]]
+text = "Pizza Cutter"
+
+[[cards]]
+text = "Pineapple"
+
+[[cards]]
+text = "Mushrooms"
+
+[[cards]]
+text = "Garlic Knots"
+
+[[cards]]
+text = "Pizza Buffet"
+
+[[cards]]
+text = "Deep Dish Pizza"
+
+[[cards]]
+text = "Pizza Box"
+
+[[cards]]
+text = "Tomato Sauce"
+
+[[cards]]
+text = "Extra Cheese"
+
+[[cards]]
+text = "Thin Crust"
+
+[[cards]]
+text = "Calzone"
+
+[[cards]]
+text = "Black Olives"
+
+[[cards]]
+text = "Sausage"
+
+[[cards]]
+text = "Wood-Fired Oven"
+
+[[cards]]
+text = "Pesto Sauce"
+
+[[cards]]
+text = "Parmesan Cheese"
+
+[[cards]]
+text = "Stuffed Crust"
+
+[[cards]]
+text = "Pizza Chef"
+
+[[cards]]
+text = "Anchovies"
+
+[[cards]]
+text = "Pizza Party"
+
+[[cards]]
+text = "Margherita Pizza"
+
+[[cards]]
+text = "Jalapeños"
+
+[[cards]]
+text = "BBQ Chicken Pizza"
+
+[[cards]]
+text = "Pizza Peel"
+
+[[cards]]
+text = "Green Peppers"
+
+[[cards]]
+text = "Stromboli"
+
+[[cards]]
+text = "Garlic Butter"
+
+[[cards]]
+text = "White Pizza"
+
+[[cards]]
+text = "Meat Lovers Pizza"
+
+[[cards]]
+text = "Oregano"
+
+[[cards]]
+text = "Red Pepper Flakes"
+
+[[cards]]
+text = "Rolling Pin"
+
+[[cards]]
+text = "Pizza Stone"
+
+[[cards]]
+text = "Breadsticks"
+
+[[cards]]
+text = "Caesar Salad"
+
+[[cards]]
+text = "Veggie Pizza"
+
+[[cards]]
+text = "Marinara Sauce"
+
+[[cards]]
+text = "Bacon Strips"
+
+[[cards]]
+text = "Onions"
+
+[[cards]]
+text = "Supreme Pizza"
+
+[[cards]]
+text = "Cheesy Bread"
+
+[[cards]]
+text = "Provolone Cheese"
+
+[[cards]]
+text = "Ricotta Cheese"
+
+[[cards]]
+text = "New York Style"
+
+[[cards]]
+text = "Basil Leaves"
+
+[[cards]]
+text = "Pizza Dough"
+
+[[cards]]
+text = "Delivery Driver"
+
+[[cards]]
+text = "Personal Pan Pizza"
+
+[[cards]]
+text = "Thin Crust Pizza"
+
+[[cards]]
+text = "Pizza Hut"
+
+[[cards]]
+text = "Domino's"
+
+[[cards]]
+text = "BBQ Sauce"
+
+[[cards]]
+text = "Hawaiian Pizza"
+
+[[cards]]
+text = "Brick Oven"
+
+[[cards]]
+text = "White Sauce"
+
+[[cards]]
+text = "Papa Johns"
+
+[[cards]]
+text = "Chicken Wings"
+
+[[cards]]
+text = "Sicilian Pizza"
+
+[[cards]]
+text = "Mozzarella Sticks"
+
+[[cards]]
+text = "Flatbread Pizza"
+
+[[cards]]
+text = "Pizza Delivery"
+
+[[cards]]
+text = "Slice of Pizza"
+
+[[cards]]
+text = "Gluten-Free Crust"
+
+[[cards]]
+text = "Pizzeria"
+
+[[cards]]
+text = "Carryout"
+
+[[cards]]
+text = "Buffalo Wings"
+
+[[cards]]
+text = "New York Slice"
+
+[[cards]]
+text = "Ham and Pineapple"
+
+[[cards]]
+text = "Pizza Saver"
+
+[[cards]]
+text = "Chicago Deep Dish"
+
+[[cards]]
+text = "Parmesan"
+
+[[cards]]
+text = "Meat Lovers"
+
+[[cards]]
+text = "Delivery or Takeout"
+
+[[cards]]
+text = "Parmesan Shaker"
+
+[[cards]]
+text = "Half and Half"

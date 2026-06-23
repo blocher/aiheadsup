@@ -1,0 +1,267 @@
+id = "deck_fast-food_69a8211b"
+revision = 1
+name = "Fast Food"
+category = "Food"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include burgers, fries, nuggets, milkshakes, sauces, drive-thru items, popular chains, kids’ meals, mascots, and common fast-food phrases."
+photo_file_name = "fast-food-69a8211b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Cheeseburger"
+
+[[cards]]
+text = "French Fries"
+
+[[cards]]
+text = "Chicken Nuggets"
+
+[[cards]]
+text = "Chocolate Milkshake"
+
+[[cards]]
+text = "Onion Rings"
+
+[[cards]]
+text = "Drive-Thru Window"
+
+[[cards]]
+text = "McDonald's"
+
+[[cards]]
+text = "Burger King"
+
+[[cards]]
+text = "Wendy's"
+
+[[cards]]
+text = "Taco Bell"
+
+[[cards]]
+text = "Happy Meal"
+
+[[cards]]
+text = "Ronald McDonald"
+
+[[cards]]
+text = "Tomato Ketchup"
+
+[[cards]]
+text = "Mustard Packet"
+
+[[cards]]
+text = "Barbecue Sauce"
+
+[[cards]]
+text = "Soft Serve Cone"
+
+[[cards]]
+text = "Hot Dog"
+
+[[cards]]
+text = "Apple Pie"
+
+[[cards]]
+text = "Curly Fries"
+
+[[cards]]
+text = "Mozzarella Sticks"
+
+[[cards]]
+text = "Chicken Tenders"
+
+[[cards]]
+text = "Fish Sandwich"
+
+[[cards]]
+text = "Subway"
+
+[[cards]]
+text = "Hash Browns"
+
+[[cards]]
+text = "Root Beer Float"
+
+[[cards]]
+text = "Big Mac"
+
+[[cards]]
+text = "Whopper"
+
+[[cards]]
+text = "Toy Surprise"
+
+[[cards]]
+text = "Paper Bag"
+
+[[cards]]
+text = "Plastic Straw"
+
+[[cards]]
+text = "Ice Cream Machine"
+
+[[cards]]
+text = "Waffle Fries"
+
+[[cards]]
+text = "Tater Tots"
+
+[[cards]]
+text = "Chicken Sandwich"
+
+[[cards]]
+text = "Soda Fountain"
+
+[[cards]]
+text = "Cheese Quesadilla"
+
+[[cards]]
+text = "Beef Burrito"
+
+[[cards]]
+text = "Colonel Sanders"
+
+[[cards]]
+text = "Dairy Queen"
+
+[[cards]]
+text = "Dunkin' Donuts"
+
+[[cards]]
+text = "Pizza Delivery"
+
+[[cards]]
+text = "Chicken Bucket"
+
+[[cards]]
+text = "Honey Mustard"
+
+[[cards]]
+text = "Onion Petals"
+
+[[cards]]
+text = "Bacon Cheeseburger"
+
+[[cards]]
+text = "Slushie"
+
+[[cards]]
+text = "Chili Cheese Fries"
+
+[[cards]]
+text = "Garlic Bread"
+
+[[cards]]
+text = "Mozzarella Bites"
+
+[[cards]]
+text = "Drive-In"
+
+[[cards]]
+text = "Ketchup Packet"
+
+[[cards]]
+text = "Yellow Mustard"
+
+[[cards]]
+text = "Warm Apple Pie"
+
+[[cards]]
+text = "Kids Meal Toy"
+
+[[cards]]
+text = "Bacon Double Cheeseburger"
+
+[[cards]]
+text = "Brown Paper Bag"
+
+[[cards]]
+text = "Breakfast Burrito"
+
+[[cards]]
+text = "Hot Sauce"
+
+[[cards]]
+text = "Sweet and Sour Sauce"
+
+[[cards]]
+text = "Crunchy Taco"
+
+[[cards]]
+text = "Paper Crown"
+
+[[cards]]
+text = "Drive-Thru Speaker"
+
+[[cards]]
+text = "Takeout Box"
+
+[[cards]]
+text = "Combo Meal"
+
+[[cards]]
+text = "Double Patty"
+
+[[cards]]
+text = "Extra Pickles"
+
+[[cards]]
+text = "Sesame Seed Bun"
+
+[[cards]]
+text = "Apple Dippers"
+
+[[cards]]
+text = "Crispy Chicken Sandwich"
+
+[[cards]]
+text = "Cherry Slushie"
+
+[[cards]]
+text = "Value Menu"
+
+[[cards]]
+text = "Paper Napkins"
+
+[[cards]]
+text = "Onion Ring Tower"
+
+[[cards]]
+text = "Ranch Dressing"
+
+[[cards]]
+text = "Cheesy Quesadilla"
+
+[[cards]]
+text = "Fish and Chips"
+
+[[cards]]
+text = "Crushed Ice"
+
+[[cards]]
+text = "Loaded Potato Skins"
+
+[[cards]]
+text = "Drive-Thru"
+
+[[cards]]
+text = "Spicy Chicken Sandwich"
+
+[[cards]]
+text = "Dipping Sauce"
+
+[[cards]]
+text = "Soft Drink"
+
+[[cards]]
+text = "Ice Cream Cone"
+
+[[cards]]
+text = "Extra Napkins"
+
+[[cards]]
+text = "Double Cheeseburger"
+
+[[cards]]
+text = "Taco"

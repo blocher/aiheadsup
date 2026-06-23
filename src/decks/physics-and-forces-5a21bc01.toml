@@ -1,0 +1,225 @@
+id = "deck_physics-and-forces_5a21bc01"
+revision = 1
+name = "Physics and Forces"
+category = "Science"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include motion, gravity, energy, electricity, magnetism, light, sound, simple machines, famous physicists, and everyday physics examples."
+photo_file_name = "physics-and-forces-5a21bc01-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Gravity"
+
+[[cards]]
+text = "Friction"
+
+[[cards]]
+text = "Kinetic Energy"
+
+[[cards]]
+text = "Potential Energy"
+
+[[cards]]
+text = "Inertia"
+
+[[cards]]
+text = "Velocity"
+
+[[cards]]
+text = "Acceleration"
+
+[[cards]]
+text = "Centrifugal Force"
+
+[[cards]]
+text = "Air Resistance"
+
+[[cards]]
+text = "Terminal Velocity"
+
+[[cards]]
+text = "Isaac Newton"
+
+[[cards]]
+text = "Albert Einstein"
+
+[[cards]]
+text = "Nikola Tesla"
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Galileo Galilei"
+
+[[cards]]
+text = "Lever"
+
+[[cards]]
+text = "Pulley"
+
+[[cards]]
+text = "Wheel and Axle"
+
+[[cards]]
+text = "Inclined Plane"
+
+[[cards]]
+text = "Screw"
+
+[[cards]]
+text = "Wedge"
+
+[[cards]]
+text = "Magnet"
+
+[[cards]]
+text = "Electromagnet"
+
+[[cards]]
+text = "Compass"
+
+[[cards]]
+text = "Static Electricity"
+
+[[cards]]
+text = "Lightning"
+
+[[cards]]
+text = "Battery"
+
+[[cards]]
+text = "Electric Circuit"
+
+[[cards]]
+text = "Light Bulb"
+
+[[cards]]
+text = "Laser Beam"
+
+[[cards]]
+text = "Prism"
+
+[[cards]]
+text = "Rainbow"
+
+[[cards]]
+text = "Reflection"
+
+[[cards]]
+text = "Refraction"
+
+[[cards]]
+text = "Sound Wave"
+
+[[cards]]
+text = "Echo"
+
+[[cards]]
+text = "Speed of Sound"
+
+[[cards]]
+text = "Speed of Light"
+
+[[cards]]
+text = "Black Hole"
+
+[[cards]]
+text = "Supernova"
+
+[[cards]]
+text = "Buoyancy"
+
+[[cards]]
+text = "Pendulum"
+
+[[cards]]
+text = "Gyroscope"
+
+[[cards]]
+text = "Roller Coaster"
+
+[[cards]]
+text = "Solar Panel"
+
+[[cards]]
+text = "Wind Turbine"
+
+[[cards]]
+text = "Geothermal Energy"
+
+[[cards]]
+text = "Thermostat"
+
+[[cards]]
+text = "X-Ray"
+
+[[cards]]
+text = "Simple Machine"
+
+[[cards]]
+text = "Tuning Fork"
+
+[[cards]]
+text = "Laser"
+
+[[cards]]
+text = "Atmosphere"
+
+[[cards]]
+text = "Surface Tension"
+
+[[cards]]
+text = "Gear"
+
+[[cards]]
+text = "Electron"
+
+[[cards]]
+text = "Proton"
+
+[[cards]]
+text = "Neutron"
+
+[[cards]]
+text = "Thermometer"
+
+[[cards]]
+text = "Electromagnetic Field"
+
+[[cards]]
+text = "Electric Current"
+
+[[cards]]
+text = "Momentum"
+
+[[cards]]
+text = "Newton's Cradle"
+
+[[cards]]
+text = "Telescope"
+
+[[cards]]
+text = "Microscope"
+
+[[cards]]
+text = "Hot Air Balloon"
+
+[[cards]]
+text = "Parachute"
+
+[[cards]]
+text = "Tesla Coil"
+
+[[cards]]
+text = "Magnetic Pole"
+
+[[cards]]
+text = "Lightning Bolt"
+
+[[cards]]
+text = "Evaporation"
+
+[[cards]]
+text = "Atom"

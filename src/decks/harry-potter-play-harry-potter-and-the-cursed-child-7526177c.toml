@@ -1,0 +1,349 @@
+id = "deck_harry-potter-play-harry-potter-and-the-cursed-child_7526177c"
+revision = 1
+name = "Harry Potter Play: Harry Potter and the Cursed Child"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-play-harry-potter-and-the-cursed-child-7526177c-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Albus Severus Potter"
+first_revealed_book = 7
+
+[[cards]]
+text = "Scorpius Malfoy"
+first_revealed_book = 7
+
+[[cards]]
+text = "Delphini"
+first_revealed_book = 8
+
+[[cards]]
+text = "Rose Granger-Weasley"
+first_revealed_book = 7
+
+[[cards]]
+text = "Amos Diggory"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Trolley Witch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogwarts Express Roof"
+first_revealed_book = 8
+
+[[cards]]
+text = "St Oswald's Home"
+first_revealed_book = 8
+
+[[cards]]
+text = "The Augurey"
+first_revealed_book = 8
+
+[[cards]]
+text = "Experimental Time-Turner"
+first_revealed_book = 8
+
+[[cards]]
+text = "Hermione's Ministry Office"
+first_revealed_book = 8
+
+[[cards]]
+text = "Panju Weasley"
+first_revealed_book = 8
+
+[[cards]]
+text = "Craig Bowker Jr."
+first_revealed_book = 8
+
+[[cards]]
+text = "Polly Chapman"
+first_revealed_book = 8
+
+[[cards]]
+text = "Yann Fredericks"
+first_revealed_book = 8
+
+[[cards]]
+text = "Lily's Blanket"
+first_revealed_book = 8
+
+[[cards]]
+text = "Godric's Hollow"
+first_revealed_book = 7
+
+[[cards]]
+text = "Platform 9 3/4"
+first_revealed_book = 1
+
+[[cards]]
+text = "Slytherin House"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogwarts Express"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ministry of Magic"
+first_revealed_book = 5
+
+[[cards]]
+text = "Triwizard Tournament"
+first_revealed_book = 4
+
+[[cards]]
+text = "Cedric Diggory"
+first_revealed_book = 4
+
+[[cards]]
+text = "Severus Snape"
+first_revealed_book = 1
+
+[[cards]]
+text = "Moaning Myrtle"
+first_revealed_book = 2
+
+[[cards]]
+text = "Prefects' Bathroom"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Black Lake"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Triwizard Maze"
+first_revealed_book = 4
+
+[[cards]]
+text = "Polyjuice Potion"
+first_revealed_book = 2
+
+[[cards]]
+text = "Albus Dumbledore's Portrait"
+first_revealed_book = 6
+
+[[cards]]
+text = "Bane the Centaur"
+first_revealed_book = 1
+
+[[cards]]
+text = "Forbidden Forest"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dark Mark"
+first_revealed_book = 4
+
+[[cards]]
+text = "Golden Snitch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Elder Wand"
+first_revealed_book = 7
+
+[[cards]]
+text = "Invisibility Cloak"
+first_revealed_book = 1
+
+[[cards]]
+text = "Marauder's Map"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sorting Hat"
+first_revealed_book = 1
+
+[[cards]]
+text = "Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Pumpkin Pasty"
+first_revealed_book = 1
+
+[[cards]]
+text = "Chocolate Frog"
+first_revealed_book = 1
+
+[[cards]]
+text = "Time-Turner"
+first_revealed_book = 3
+
+[[cards]]
+text = "Howler"
+first_revealed_book = 2
+
+[[cards]]
+text = "Gillyweed"
+first_revealed_book = 4
+
+[[cards]]
+text = "Floo Powder"
+first_revealed_book = 2
+
+[[cards]]
+text = "Expelliarmus"
+first_revealed_book = 2
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_book = 1
+
+[[cards]]
+text = "Albus Potter"
+first_revealed_book = 7
+
+[[cards]]
+text = "Trolley Witch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Draco's Time-Turner"
+first_revealed_book = 8
+
+[[cards]]
+text = "Harry's Baby Blanket"
+first_revealed_book = 8
+
+[[cards]]
+text = "Astoria Malfoy"
+first_revealed_book = 8
+
+[[cards]]
+text = "Euphemia Rowle"
+first_revealed_book = 8
+
+[[cards]]
+text = "Hermione's Bookcase"
+first_revealed_book = 8
+
+[[cards]]
+text = "The First Task"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Second Task"
+first_revealed_book = 4
+
+[[cards]]
+text = "Department of Magical Law"
+first_revealed_book = 5
+
+[[cards]]
+text = "Minister for Magic"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dumbledore's Portrait"
+first_revealed_book = 6
+
+[[cards]]
+text = "Hogwarts Express Platform"
+first_revealed_book = 1
+
+[[cards]]
+text = "James Sirius Potter"
+first_revealed_book = 7
+
+[[cards]]
+text = "Lily Luna Potter"
+first_revealed_book = 7
+
+[[cards]]
+text = "Hugo Granger-Weasley"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Dark Mark"
+first_revealed_book = 4
+
+[[cards]]
+text = "Pumpkin Pastie"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bathilda Bagshot"
+first_revealed_book = 7
+
+[[cards]]
+text = "Theodore Nott"
+first_revealed_book = 5
+
+[[cards]]
+text = "Harry's Scar"
+first_revealed_book = 1
+
+[[cards]]
+text = "Professor McGonagall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Weasleys' Wizard Wheezes"
+first_revealed_book = 5
+
+[[cards]]
+text = "Alternate Timeline"
+first_revealed_book = 8
+
+[[cards]]
+text = "Voldemort's Daughter"
+first_revealed_book = 8
+
+[[cards]]
+text = "Delphi Diggory"
+first_revealed_book = 8
+
+[[cards]]
+text = "Karl Jenkins"
+first_revealed_book = 8
+
+[[cards]]
+text = "Ludo Bagman"
+first_revealed_book = 4
+
+[[cards]]
+text = "Delphi"
+first_revealed_book = 8
+
+[[cards]]
+text = "Lord Voldemort's Daughter"
+first_revealed_book = 8
+
+[[cards]]
+text = "Delphini Diggory"
+first_revealed_book = 8
+
+[[cards]]
+text = "Minister Hermione Granger"
+first_revealed_book = 8
+
+[[cards]]
+text = "Lily Potter Junior"
+first_revealed_book = 7
+
+[[cards]]
+text = "Triwizard Maze"
+first_revealed_book = 4
+
+[[cards]]
+text = "Slytherin Albus"
+first_revealed_book = 8

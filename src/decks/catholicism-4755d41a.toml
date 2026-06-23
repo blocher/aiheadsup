@@ -1,0 +1,264 @@
+id = "deck_catholicism_4755d41a"
+revision = 1
+name = "Catholicism"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include popes, saints, sacraments, feast days, devotions, religious orders, church terms, Vatican landmarks, liturgy, and Catholic practices."
+photo_file_name = "catholicism-4755d41a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Saint Peter"
+
+[[cards]]
+text = "Pope Francis"
+
+[[cards]]
+text = "Pope John Paul II"
+
+[[cards]]
+text = "Saint Francis of Assisi"
+
+[[cards]]
+text = "Saint Therese of Lisieux"
+
+[[cards]]
+text = "Saint Joan of Arc"
+
+[[cards]]
+text = "Saint Anthony of Padua"
+
+[[cards]]
+text = "Saint Jude"
+
+[[cards]]
+text = "Baptism"
+
+[[cards]]
+text = "Confirmation"
+
+[[cards]]
+text = "Holy Eucharist"
+
+[[cards]]
+text = "Holy Matrimony"
+
+[[cards]]
+text = "Holy Orders"
+
+[[cards]]
+text = "Anointing of the Sick"
+
+[[cards]]
+text = "Penance"
+
+[[cards]]
+text = "The Rosary"
+
+[[cards]]
+text = "Stations of the Cross"
+
+[[cards]]
+text = "Divine Mercy Chaplet"
+
+[[cards]]
+text = "Novena"
+
+[[cards]]
+text = "Eucharistic Adoration"
+
+[[cards]]
+text = "Christmas"
+
+[[cards]]
+text = "Easter"
+
+[[cards]]
+text = "Pentecost"
+
+[[cards]]
+text = "All Saints' Day"
+
+[[cards]]
+text = "Ash Wednesday"
+
+[[cards]]
+text = "Assumption of Mary"
+
+[[cards]]
+text = "Good Friday"
+
+[[cards]]
+text = "Palm Sunday"
+
+[[cards]]
+text = "Jesuits"
+
+[[cards]]
+text = "Franciscans"
+
+[[cards]]
+text = "Dominicans"
+
+[[cards]]
+text = "Benedictines"
+
+[[cards]]
+text = "Carmelites"
+
+[[cards]]
+text = "Saint Peter's Basilica"
+
+[[cards]]
+text = "Sistine Chapel"
+
+[[cards]]
+text = "Swiss Guard"
+
+[[cards]]
+text = "Tabernacle"
+
+[[cards]]
+text = "Altar"
+
+[[cards]]
+text = "Holy Water"
+
+[[cards]]
+text = "Incense"
+
+[[cards]]
+text = "Chalice"
+
+[[cards]]
+text = "Genuflection"
+
+[[cards]]
+text = "Sign of the Cross"
+
+[[cards]]
+text = "Catechism"
+
+[[cards]]
+text = "Purgatory"
+
+[[cards]]
+text = "Conclave"
+
+[[cards]]
+text = "Angelus"
+
+[[cards]]
+text = "Liturgy of the Hours"
+
+[[cards]]
+text = "Sanctuary Lamp"
+
+[[cards]]
+text = "Monasticism"
+
+[[cards]]
+text = "Rosary Beads"
+
+[[cards]]
+text = "Holy Communion"
+
+[[cards]]
+text = "Our Lady of Guadalupe"
+
+[[cards]]
+text = "The Eucharist"
+
+[[cards]]
+text = "Saint Joseph"
+
+[[cards]]
+text = "Lent"
+
+[[cards]]
+text = "Advent"
+
+[[cards]]
+text = "Easter Sunday"
+
+[[cards]]
+text = "Saint Patrick"
+
+[[cards]]
+text = "Miraculous Medal"
+
+[[cards]]
+text = "Holy Thursday"
+
+[[cards]]
+text = "Cardinal"
+
+[[cards]]
+text = "Archbishop"
+
+[[cards]]
+text = "Altar Server"
+
+[[cards]]
+text = "Monstrance"
+
+[[cards]]
+text = "Thurible"
+
+[[cards]]
+text = "Saint Augustine"
+
+[[cards]]
+text = "Saint Thomas Aquinas"
+
+[[cards]]
+text = "Our Lady of Fatima"
+
+[[cards]]
+text = "Papal Conclave"
+
+[[cards]]
+text = "Crucifix"
+
+[[cards]]
+text = "Saint Mother Teresa"
+
+[[cards]]
+text = "Confession"
+
+[[cards]]
+text = "Guardian Angel"
+
+[[cards]]
+text = "Monastery"
+
+[[cards]]
+text = "The Angelus"
+
+[[cards]]
+text = "Saint Thérèse of Lisieux"
+
+[[cards]]
+text = "The Assumption"
+
+[[cards]]
+text = "St. Peter's Basilica"
+
+[[cards]]
+text = "Cathedral"
+
+[[cards]]
+text = "The Holy Rosary"
+
+[[cards]]
+text = "First Holy Communion"
+
+[[cards]]
+text = "The Vatican Swiss Guard"
+
+[[cards]]
+text = "Benedictine Monks"
+
+[[cards]]
+text = "Genuflect"

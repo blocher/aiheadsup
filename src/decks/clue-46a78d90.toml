@@ -1,0 +1,216 @@
+id = "deck_clue_46a78d90"
+revision = 1
+name = "Clue"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, rooms, weapons, clues, quotes, suspects, secret passages, endings, dinner-party details, and memorable scenes from the 1985 movie."
+photo_file_name = "clue-46a78d90-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Wadsworth"
+
+[[cards]]
+text = "Mr. Boddy"
+
+[[cards]]
+text = "Mrs. Peacock"
+
+[[cards]]
+text = "Mrs. White"
+
+[[cards]]
+text = "Professor Plum"
+
+[[cards]]
+text = "Miss Scarlet"
+
+[[cards]]
+text = "Colonel Mustard"
+
+[[cards]]
+text = "Mr. Green"
+
+[[cards]]
+text = "Yvette"
+
+[[cards]]
+text = "The Cook"
+
+[[cards]]
+text = "The Motorist"
+
+[[cards]]
+text = "Singing Telegram Girl"
+
+[[cards]]
+text = "The Cop"
+
+[[cards]]
+text = "Hill House"
+
+[[cards]]
+text = "The Study"
+
+[[cards]]
+text = "The Hall"
+
+[[cards]]
+text = "The Lounge"
+
+[[cards]]
+text = "The Library"
+
+[[cards]]
+text = "The Kitchen"
+
+[[cards]]
+text = "The Ballroom"
+
+[[cards]]
+text = "The Conservatory"
+
+[[cards]]
+text = "The Billiard Room"
+
+[[cards]]
+text = "The Dining Room"
+
+[[cards]]
+text = "Candlestick"
+
+[[cards]]
+text = "Dagger"
+
+[[cards]]
+text = "Lead Pipe"
+
+[[cards]]
+text = "Revolver"
+
+[[cards]]
+text = "Rope"
+
+[[cards]]
+text = "Wrench"
+
+[[cards]]
+text = "Secret Passage"
+
+[[cards]]
+text = "Red Herring"
+
+[[cards]]
+text = "Communism"
+
+[[cards]]
+text = "To Crime"
+
+[[cards]]
+text = "Shark Fin Soup"
+
+[[cards]]
+text = "Monkey Brains"
+
+[[cards]]
+text = "Flames On My Face"
+
+[[cards]]
+text = "The Gong"
+
+[[cards]]
+text = "Three Endings"
+
+[[cards]]
+text = "Blackmail"
+
+[[cards]]
+text = "Double Negative"
+
+[[cards]]
+text = "The Chandelier"
+
+[[cards]]
+text = "The Cupboard Key"
+
+[[cards]]
+text = "Chief of Police"
+
+[[cards]]
+text = "The Front Gate"
+
+[[cards]]
+text = "Letter of Invitation"
+
+[[cards]]
+text = "The Attic"
+
+[[cards]]
+text = "Husbands Should Be Murdered"
+
+[[cards]]
+text = "Mr. Boddy's Body"
+
+[[cards]]
+text = "The Secret Panel"
+
+[[cards]]
+text = "The Dinner Party"
+
+[[cards]]
+text = "The Candlestick"
+
+[[cards]]
+text = "The Knife"
+
+[[cards]]
+text = "The Lead Pipe"
+
+[[cards]]
+text = "The Revolver"
+
+[[cards]]
+text = "The Rope"
+
+[[cards]]
+text = "The Wrench"
+
+[[cards]]
+text = "The Tape Recorder"
+
+[[cards]]
+text = "The Briefcase"
+
+[[cards]]
+text = "The Cellar Key"
+
+[[cards]]
+text = "Wadsworth's Math"
+
+[[cards]]
+text = "The Chief"
+
+[[cards]]
+text = "Three Different Endings"
+
+[[cards]]
+text = "The Front Door"
+
+[[cards]]
+text = "Blackmail Letters"
+
+[[cards]]
+text = "Confidential Envelope"
+
+[[cards]]
+text = "Monkey's Brains"
+
+[[cards]]
+text = "Just A Game"
+
+[[cards]]
+text = "The Fireplace"
+
+[[cards]]
+text = "The Dagger"

@@ -1,0 +1,273 @@
+id = "deck_home-alone-movies_de5af16b"
+revision = 1
+name = "Home Alone Movies"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, traps, burglars, family members, locations, holiday objects, quotes, travel mishaps, sequel references, and memorable moments from Home Alone and its sequels."
+photo_file_name = "home-alone-movies-de5af16b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Kevin McCallister"
+
+[[cards]]
+text = "Harry Lyme"
+
+[[cards]]
+text = "Marv Murchins"
+
+[[cards]]
+text = "Buzz McCallister"
+
+[[cards]]
+text = "Kate McCallister"
+
+[[cards]]
+text = "Uncle Frank"
+
+[[cards]]
+text = "Old Man Marley"
+
+[[cards]]
+text = "The Pigeon Lady"
+
+[[cards]]
+text = "Gus Polinski"
+
+[[cards]]
+text = "Fuller McCallister"
+
+[[cards]]
+text = "Johnny the Gangster"
+
+[[cards]]
+text = "Cedric the Bellhop"
+
+[[cards]]
+text = "Mr. Hector"
+
+[[cards]]
+text = "Alex Pruitt"
+
+[[cards]]
+text = "Peter McCallister"
+
+[[cards]]
+text = "The Wet Bandits"
+
+[[cards]]
+text = "The Sticky Bandits"
+
+[[cards]]
+text = "Talkboy"
+
+[[cards]]
+text = "Plaza Hotel"
+
+[[cards]]
+text = "Duncan's Toy Chest"
+
+[[cards]]
+text = "McCallister House"
+
+[[cards]]
+text = "Central Park"
+
+[[cards]]
+text = "O'Hare Airport"
+
+[[cards]]
+text = "Paris France"
+
+[[cards]]
+text = "Paint Cans Trap"
+
+[[cards]]
+text = "Tar and Feathers"
+
+[[cards]]
+text = "Micro Machines Trap"
+
+[[cards]]
+text = "Blowtorch Trap"
+
+[[cards]]
+text = "Hot Iron Trap"
+
+[[cards]]
+text = "Ice Covered Stairs"
+
+[[cards]]
+text = "Flying Bricks Trap"
+
+[[cards]]
+text = "Electrocuted Sink"
+
+[[cards]]
+text = "Lightbulb Pull Cord"
+
+[[cards]]
+text = "Tool Chest Trap"
+
+[[cards]]
+text = "Cheese Pizza"
+
+[[cards]]
+text = "Two Turtledoves"
+
+[[cards]]
+text = "Red Shovel"
+
+[[cards]]
+text = "Bronze Statue"
+
+[[cards]]
+text = "Toothbrush"
+
+[[cards]]
+text = "\"Keep the Change\""
+
+[[cards]]
+text = "\"Filthy Animal\""
+
+[[cards]]
+text = "Angels with Filthy Souls"
+
+[[cards]]
+text = "Ken's Shower Cap"
+
+[[cards]]
+text = "Polka Band"
+
+[[cards]]
+text = "Lost in New York"
+
+[[cards]]
+text = "Underneath the Bed"
+
+[[cards]]
+text = "The Attic Room"
+
+[[cards]]
+text = "Toy Remote Control Car"
+
+[[cards]]
+text = "Pet Tarantula"
+
+[[cards]]
+text = "Talkboy Recorder"
+
+[[cards]]
+text = "Wet Bandits"
+
+[[cards]]
+text = "Sticky Bandits"
+
+[[cards]]
+text = "Micro Machines"
+
+[[cards]]
+text = "Swinging Paint Cans"
+
+[[cards]]
+text = "BB Gun"
+
+[[cards]]
+text = "Rockefeller Christmas Tree"
+
+[[cards]]
+text = "Cardboard Cutouts"
+
+[[cards]]
+text = "Wollman Rink"
+
+[[cards]]
+text = "Turtle Doves"
+
+[[cards]]
+text = "Paris Airport"
+
+[[cards]]
+text = "Miami Florida"
+
+[[cards]]
+text = "Attic Bedroom"
+
+[[cards]]
+text = "Kenosha Kickers"
+
+[[cards]]
+text = "Limo Ride"
+
+[[cards]]
+text = "Stolen Credit Card"
+
+[[cards]]
+text = "Falling Bricks"
+
+[[cards]]
+text = "Staple Gun"
+
+[[cards]]
+text = "Sledding Down Stairs"
+
+[[cards]]
+text = "Heated Doorknob"
+
+[[cards]]
+text = "Toolbox Trap"
+
+[[cards]]
+text = "Electrocution Spark"
+
+[[cards]]
+text = "Kerosene Rope"
+
+[[cards]]
+text = "Aftershave Face"
+
+[[cards]]
+text = "Cedric the Bellman"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Home Alone"
+
+[[cards]]
+text = "Harry and Marv"
+
+[[cards]]
+text = "Paint Can Trap"
+
+[[cards]]
+text = "Tarantula on the Face"
+
+[[cards]]
+text = "LaGuardia Airport"
+
+[[cards]]
+text = "Super Soaker"
+
+[[cards]]
+text = "Iron to the Face"
+
+[[cards]]
+text = "Ice Cream in Bed"
+
+[[cards]]
+text = "Buzz's Tarantula"
+
+[[cards]]
+text = "Pigeon Lady"
+
+[[cards]]
+text = "Overheated Doorknob"
+
+[[cards]]
+text = "Micro Machine Trap"
+
+[[cards]]
+text = "Running Through Airport"

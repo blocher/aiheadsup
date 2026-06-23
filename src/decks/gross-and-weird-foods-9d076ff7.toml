@@ -1,0 +1,276 @@
+id = "deck_gross-and-weird-foods_9d076ff7"
+revision = 1
+name = "Gross and Weird Foods"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include unusual foods, strange textures, funny food names, bold flavors, food challenges, novelty snacks, and family-friendly gross-out food terms."
+photo_file_name = "gross-and-weird-foods-9d076ff7-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Durian Fruit"
+
+[[cards]]
+text = "Century Egg"
+
+[[cards]]
+text = "Fried Tarantula"
+
+[[cards]]
+text = "Escargot"
+
+[[cards]]
+text = "Haggis"
+
+[[cards]]
+text = "Vegemite"
+
+[[cards]]
+text = "Stinky Tofu"
+
+[[cards]]
+text = "Lutefisk"
+
+[[cards]]
+text = "Black Pudding"
+
+[[cards]]
+text = "Chicken Feet"
+
+[[cards]]
+text = "Frog Legs"
+
+[[cards]]
+text = "Octopus Tentacles"
+
+[[cards]]
+text = "Sea Urchin"
+
+[[cards]]
+text = "Jellyfish Salad"
+
+[[cards]]
+text = "Tripe Soup"
+
+[[cards]]
+text = "Natto"
+
+[[cards]]
+text = "Moldy Blue Cheese"
+
+[[cards]]
+text = "Anchovy Pizza"
+
+[[cards]]
+text = "Pickled Eggs"
+
+[[cards]]
+text = "Wasabi Peas"
+
+[[cards]]
+text = "Pork Rinds"
+
+[[cards]]
+text = "Garlic Ice Cream"
+
+[[cards]]
+text = "Beef Tongue"
+
+[[cards]]
+text = "Liver and Onions"
+
+[[cards]]
+text = "Raw Oysters"
+
+[[cards]]
+text = "Squid Ink Pasta"
+
+[[cards]]
+text = "Spam"
+
+[[cards]]
+text = "Scorpion Lollipop"
+
+[[cards]]
+text = "Mealworm Cookies"
+
+[[cards]]
+text = "Fried Grasshoppers"
+
+[[cards]]
+text = "Fish Eyes"
+
+[[cards]]
+text = "Chocolate Covered Crickets"
+
+[[cards]]
+text = "BeanBoozled Jelly Beans"
+
+[[cards]]
+text = "Oxtail Soup"
+
+[[cards]]
+text = "Ghost Pepper Chips"
+
+[[cards]]
+text = "Sour Gummy Worms"
+
+[[cards]]
+text = "Bubble Gum Soda"
+
+[[cards]]
+text = "Head Cheese"
+
+[[cards]]
+text = "Seaweed Salad"
+
+[[cards]]
+text = "Pickled Garlic"
+
+[[cards]]
+text = "Bitter Melon"
+
+[[cards]]
+text = "Sardines in Oil"
+
+[[cards]]
+text = "Limburger Cheese"
+
+[[cards]]
+text = "Spicy Kimchi"
+
+[[cards]]
+text = "Dried Squid"
+
+[[cards]]
+text = "Bird's Nest Soup"
+
+[[cards]]
+text = "Beef Jerky Soda"
+
+[[cards]]
+text = "Fried Silkworms"
+
+[[cards]]
+text = "Sea Cucumber"
+
+[[cards]]
+text = "Deep Fried Butter"
+
+[[cards]]
+text = "Fermented Herring"
+
+[[cards]]
+text = "Fertilized Duck Egg"
+
+[[cards]]
+text = "Fried Crickets"
+
+[[cards]]
+text = "Grasshopper Tacos"
+
+[[cards]]
+text = "Mealworm Fries"
+
+[[cards]]
+text = "Rocky Mountain Oysters"
+
+[[cards]]
+text = "Blood Pudding"
+
+[[cards]]
+text = "Chocolate Covered Ants"
+
+[[cards]]
+text = "Pickled Pigs Feet"
+
+[[cards]]
+text = "Octopus Ice Cream"
+
+[[cards]]
+text = "Maggot Cheese"
+
+[[cards]]
+text = "Fish Eyeballs"
+
+[[cards]]
+text = "Miracle Berry"
+
+[[cards]]
+text = "Sourtoe Cocktail"
+
+[[cards]]
+text = "Snake Soup"
+
+[[cards]]
+text = "Fermented Shark"
+
+[[cards]]
+text = "Kimchi"
+
+[[cards]]
+text = "Geoduck"
+
+[[cards]]
+text = "Poi"
+
+[[cards]]
+text = "Marmite"
+
+[[cards]]
+text = "Chitterlings"
+
+[[cards]]
+text = "Sardines in Mustard"
+
+[[cards]]
+text = "Blue Cheese Ice Cream"
+
+[[cards]]
+text = "Gummy Maggots"
+
+[[cards]]
+text = "Cricket Flour"
+
+[[cards]]
+text = "Garlic Soda"
+
+[[cards]]
+text = "Fried Rattlesnake"
+
+[[cards]]
+text = "Sardines"
+
+[[cards]]
+text = "Spam Fries"
+
+[[cards]]
+text = "Geoduck Clam"
+
+[[cards]]
+text = "Wasabi Ice Cream"
+
+[[cards]]
+text = "Snail Eggs"
+
+[[cards]]
+text = "Gelatin Salad"
+
+[[cards]]
+text = "Gummy Earthworms"
+
+[[cards]]
+text = "Spotted Dick"
+
+[[cards]]
+text = "Jellied Eels"
+
+[[cards]]
+text = "Surströmming"
+
+[[cards]]
+text = "Pickled Pig's Feet"
+
+[[cards]]
+text = "Vegemite Toast"

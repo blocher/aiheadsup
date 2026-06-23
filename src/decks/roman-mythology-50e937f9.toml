@@ -1,0 +1,219 @@
+id = "deck_roman-mythology_50e937f9"
+revision = 1
+name = "Roman Mythology"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Roman gods, heroes, founding myths, legendary kings, temples, festivals, mythological places, household gods, and Roman versions of Greek figures."
+photo_file_name = "roman-mythology-50e937f9-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Jupiter"
+
+[[cards]]
+text = "Juno"
+
+[[cards]]
+text = "Neptune"
+
+[[cards]]
+text = "Minerva"
+
+[[cards]]
+text = "Mars"
+
+[[cards]]
+text = "Venus"
+
+[[cards]]
+text = "Apollo"
+
+[[cards]]
+text = "Diana"
+
+[[cards]]
+text = "Vulcan"
+
+[[cards]]
+text = "Vesta"
+
+[[cards]]
+text = "Mercury"
+
+[[cards]]
+text = "Ceres"
+
+[[cards]]
+text = "Pluto"
+
+[[cards]]
+text = "Bacchus"
+
+[[cards]]
+text = "Janus"
+
+[[cards]]
+text = "Saturn"
+
+[[cards]]
+text = "Cupid"
+
+[[cards]]
+text = "Romulus"
+
+[[cards]]
+text = "Remus"
+
+[[cards]]
+text = "Aeneas"
+
+[[cards]]
+text = "The She-Wolf"
+
+[[cards]]
+text = "Pantheon"
+
+[[cards]]
+text = "Vestal Virgins"
+
+[[cards]]
+text = "Saturnalia"
+
+[[cards]]
+text = "Lupercalia"
+
+[[cards]]
+text = "Proserpina"
+
+[[cards]]
+text = "Lares"
+
+[[cards]]
+text = "Penates"
+
+[[cards]]
+text = "Capitoline Hill"
+
+[[cards]]
+text = "Palatine Hill"
+
+[[cards]]
+text = "Quirinus"
+
+[[cards]]
+text = "Fortuna"
+
+[[cards]]
+text = "Pax"
+
+[[cards]]
+text = "Numa Pompilius"
+
+[[cards]]
+text = "Tarquin the Proud"
+
+[[cards]]
+text = "Horatius at the Bridge"
+
+[[cards]]
+text = "Mucius Scaevola"
+
+[[cards]]
+text = "Sibyl of Cumae"
+
+[[cards]]
+text = "Rhea Silvia"
+
+[[cards]]
+text = "Mount Aventine"
+
+[[cards]]
+text = "Temple of Janus"
+
+[[cards]]
+text = "Campus Martius"
+
+[[cards]]
+text = "Lemures"
+
+[[cards]]
+text = "Hercules"
+
+[[cards]]
+text = "Faustulus"
+
+[[cards]]
+text = "Tarpeian Rock"
+
+[[cards]]
+text = "Flora"
+
+[[cards]]
+text = "Pomona"
+
+[[cards]]
+text = "Vulcanalia"
+
+[[cards]]
+text = "Ancile"
+
+[[cards]]
+text = "Romulus and Remus"
+
+[[cards]]
+text = "Capitoline Wolf"
+
+[[cards]]
+text = "Lares and Penates"
+
+[[cards]]
+text = "The Pantheon"
+
+[[cards]]
+text = "Faunus"
+
+[[cards]]
+text = "Victoria"
+
+[[cards]]
+text = "Bellona"
+
+[[cards]]
+text = "Somnus"
+
+[[cards]]
+text = "Nox"
+
+[[cards]]
+text = "Aventine Hill"
+
+[[cards]]
+text = "Elysium"
+
+[[cards]]
+text = "Tartarus"
+
+[[cards]]
+text = "River Tiber"
+
+[[cards]]
+text = "Sibylline Books"
+
+[[cards]]
+text = "Cornucopia"
+
+[[cards]]
+text = "Palladium"
+
+[[cards]]
+text = "Vulcan's Forge"
+
+[[cards]]
+text = "Temple of Jupiter"
+
+[[cards]]
+text = "Temple of Vesta"
+
+[[cards]]
+text = "The Capitoline Wolf"

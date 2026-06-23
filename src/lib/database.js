@@ -1,5 +1,5 @@
 import { openDB } from 'idb'
-import { seedPacks } from './seed-data.js'
+import { bundledDeckRecord, bundledTomlDecks } from './toml-decks.js'
 
 const database = openDB('forehead-frenzy', 2, {
   upgrade(db, oldVersion) {
@@ -18,23 +18,44 @@ const database = openDB('forehead-frenzy', 2, {
 
 async function db() { return database }
 
-export async function seedDatabase() {
+async function replaceDeckCards(tx, deck, previousCards = []) {
+  const seenAt = new Map(previousCards.map((card) => [card.normalizedPrompt, card.firstShownAt]))
+  await Promise.all(previousCards.map((card) => tx.objectStore('cards').delete(card.id)))
+  await Promise.all(deck.cards.map((card) => tx.objectStore('cards').put({ ...card, packId: deck.id, firstShownAt: seenAt.get(card.normalizedPrompt) ?? null })))
+}
+
+async function deleteDeck(tx, pack) {
+  await tx.objectStore('packs').delete(pack.id)
+  const cards = await tx.objectStore('cards').index('packId').getAll(pack.id)
+  await Promise.all(cards.map((card) => tx.objectStore('cards').delete(card.id)))
+}
+
+export async function syncBundledDecks() {
   const store = await db()
   const tx = store.transaction(['packs', 'cards'], 'readwrite')
-  for (const seed of seedPacks) {
-    const { cards, ...pack } = seed
-    const existing = await tx.objectStore('packs').get(seed.id)
+  const bundledIds = new Set(bundledTomlDecks.map((deck) => deck.id))
+  for (const deck of bundledTomlDecks) {
+    const pack = bundledDeckRecord(deck)
+    const existing = await tx.objectStore('packs').get(deck.id)
     if (existing) {
-      if (existing.seedVersion !== pack.seedVersion) {
-        await tx.objectStore('packs').put({ ...existing, ...pack })
+      if (existing.source !== 'bundled_toml' || existing.revision !== pack.revision) {
         const oldCards = await tx.objectStore('cards').index('packId').getAll(pack.id)
-        await Promise.all(oldCards.map((card) => tx.objectStore('cards').delete(card.id)))
-        await Promise.all(cards.map((card) => tx.objectStore('cards').put({ ...card, packId: pack.id })))
+        await tx.objectStore('packs').put({ ...existing, ...pack })
+        await replaceDeckCards(tx, deck, oldCards)
       }
       continue
     }
     await tx.objectStore('packs').put(pack)
-    for (const card of cards) await tx.objectStore('cards').put({ ...card, packId: pack.id })
+    await replaceDeckCards(tx, deck)
+  }
+  const allPacks = await tx.objectStore('packs').getAll()
+  for (const pack of allPacks) {
+    if (pack.source === 'custom' && !pack.isAiGenerated) {
+      await tx.objectStore('packs').put({ ...pack, source: 'ai', isAiGenerated: true })
+      continue
+    }
+    const isSupportedLocalDeck = ['bundled_toml', 'imported_toml', 'ai'].includes(pack.source)
+    if (!isSupportedLocalDeck || (pack.source === 'bundled_toml' && !bundledIds.has(pack.id))) await deleteDeck(tx, pack)
   }
   await tx.done
   await navigator.storage?.persist?.()
@@ -98,10 +119,29 @@ export async function saveCustomPack(pack, cards) {
   await tx.done
 }
 
+export async function saveImportedTomlDeck(deck, cover) {
+  const store = await db()
+  const tx = store.transaction(['packs', 'cards'], 'readwrite')
+  const existing = await tx.objectStore('packs').get(deck.id)
+  const existingCards = existing ? await tx.objectStore('cards').index('packId').getAll(deck.id) : []
+  const pack = {
+    ...existing,
+    ...bundledDeckRecord(deck),
+    source: 'imported_toml',
+    isAiGenerated: false,
+    cover: cover || existing?.cover || null,
+    createdAt: existing?.createdAt || new Date().toISOString()
+  }
+  await tx.objectStore('packs').put(pack)
+  await replaceDeckCards(tx, deck, existingCards)
+  await tx.done
+  return pack
+}
+
 export async function deleteCustomPack(packId) {
   const store = await db()
   const pack = await store.get('packs', packId)
-  if (!pack || pack.source !== 'custom') throw new Error('Only custom packs can be deleted.')
+  if (!pack || !['ai', 'imported_toml', 'custom'].includes(pack.source)) throw new Error('Only AI-created or imported packs can be deleted.')
   const tx = store.transaction(['packs', 'cards', 'rounds'], 'readwrite')
   await tx.objectStore('packs').delete(packId)
   const [cards, rounds] = await Promise.all([

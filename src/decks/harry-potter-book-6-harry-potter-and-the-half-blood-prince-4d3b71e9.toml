@@ -1,0 +1,317 @@
+id = "deck_harry-potter-book-6-harry-potter-and-the-half-blood-prince_4d3b71e9"
+revision = 1
+name = "Harry Potter Book 6: Harry Potter and the Half-Blood Prince"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-book-6-harry-potter-and-the-half-blood-prince-4d3b71e9-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Horcrux"
+first_revealed_book = 6
+
+[[cards]]
+text = "Felix Felicis"
+first_revealed_book = 6
+
+[[cards]]
+text = "Amortentia"
+first_revealed_book = 6
+
+[[cards]]
+text = "Sectumsempra"
+first_revealed_book = 6
+
+[[cards]]
+text = "Professor Slughorn"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Half-Blood Prince"
+first_revealed_book = 6
+
+[[cards]]
+text = "Unbreakable Vow"
+first_revealed_book = 6
+
+[[cards]]
+text = "Merope Gaunt"
+first_revealed_book = 6
+
+[[cards]]
+text = "Marvolo Gaunt"
+first_revealed_book = 6
+
+[[cards]]
+text = "Morfin Gaunt"
+first_revealed_book = 6
+
+[[cards]]
+text = "Hepzibah Smith"
+first_revealed_book = 6
+
+[[cards]]
+text = "Slug Club"
+first_revealed_book = 6
+
+[[cards]]
+text = "U-No-Poo"
+first_revealed_book = 6
+
+[[cards]]
+text = "Pygmy Puff"
+first_revealed_book = 6
+
+[[cards]]
+text = "Instant Darkness Powder"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Inferi"
+first_revealed_book = 6
+
+[[cards]]
+text = "Fenrir Greyback"
+first_revealed_book = 6
+
+[[cards]]
+text = "Spinner's End"
+first_revealed_book = 6
+
+[[cards]]
+text = "Rufus Scrimgeour"
+first_revealed_book = 5
+
+[[cards]]
+text = "Won-Won"
+first_revealed_book = 6
+
+[[cards]]
+text = "Advanced Potion-Making"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Gaunt Ring"
+first_revealed_book = 6
+
+[[cards]]
+text = "Slytherin's Locket"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hufflepuff's Cup"
+first_revealed_book = 6
+
+[[cards]]
+text = "Poisoned Mead"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Seaside Cave"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Lightning-Struck Tower"
+first_revealed_book = 6
+
+[[cards]]
+text = "Sanguini the Vampire"
+first_revealed_book = 6
+
+[[cards]]
+text = "Eldred Worple"
+first_revealed_book = 6
+
+[[cards]]
+text = "Libatius Borage"
+first_revealed_book = 6
+
+[[cards]]
+text = "Vanishing Cabinet"
+first_revealed_book = 2
+
+[[cards]]
+text = "Cursed Necklace"
+first_revealed_book = 2
+
+[[cards]]
+text = "Tom Riddle's Diary"
+first_revealed_book = 2
+
+[[cards]]
+text = "The Pensieve"
+first_revealed_book = 4
+
+[[cards]]
+text = "Borgin and Burkes"
+first_revealed_book = 2
+
+[[cards]]
+text = "Katie Bell"
+first_revealed_book = 1
+
+[[cards]]
+text = "Romilda Vane"
+first_revealed_book = 6
+
+[[cards]]
+text = "Bezoar"
+first_revealed_book = 1
+
+[[cards]]
+text = "Narcissa Malfoy"
+first_revealed_book = 4
+
+[[cards]]
+text = "Love Potion"
+first_revealed_book = 2
+
+[[cards]]
+text = "Lavender Brown"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dean Thomas"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bill Weasley"
+first_revealed_book = 3
+
+[[cards]]
+text = "Fleur Delacour"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Astronomy Tower"
+first_revealed_book = 1
+
+[[cards]]
+text = "Weasleys' Wizard Wheezes"
+first_revealed_book = 4
+
+[[cards]]
+text = "Apparition Lessons"
+first_revealed_book = 6
+
+[[cards]]
+text = "Aragog's Funeral"
+first_revealed_book = 6
+
+[[cards]]
+text = "Hand of Glory"
+first_revealed_book = 2
+
+[[cards]]
+text = "Bob Ogden"
+first_revealed_book = 6
+
+[[cards]]
+text = "Inferi"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Slug Club"
+first_revealed_book = 6
+
+[[cards]]
+text = "Marvolo Gaunt's Ring"
+first_revealed_book = 6
+
+[[cards]]
+text = "Cormac McLaggen"
+first_revealed_book = 6
+
+[[cards]]
+text = "Wilkie Twycross"
+first_revealed_book = 6
+
+[[cards]]
+text = "Apparition Class"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Cave"
+first_revealed_book = 6
+
+[[cards]]
+text = "R.A.B."
+first_revealed_book = 6
+
+[[cards]]
+text = "The White Tomb"
+first_revealed_book = 6
+
+[[cards]]
+text = "Peruvian Instant Darkness Powder"
+first_revealed_book = 6
+
+[[cards]]
+text = "Opal Necklace"
+first_revealed_book = 2
+
+[[cards]]
+text = "Muffliato"
+first_revealed_book = 6
+
+[[cards]]
+text = "Langlock"
+first_revealed_book = 6
+
+[[cards]]
+text = "Aragog's Burial"
+first_revealed_book = 6
+
+[[cards]]
+text = "Slughorn's Memory"
+first_revealed_book = 6
+
+[[cards]]
+text = "Bellatrix Lestrange"
+first_revealed_book = 4
+
+[[cards]]
+text = "Madam Rosmerta"
+first_revealed_book = 3
+
+[[cards]]
+text = "Drink of Despair"
+first_revealed_book = 6
+
+[[cards]]
+text = "Demelza Robins"
+first_revealed_book = 6
+
+[[cards]]
+text = "Wolf Patronus"
+first_revealed_book = 6
+
+[[cards]]
+text = "Sanguini"
+first_revealed_book = 6
+
+[[cards]]
+text = "Aguamenti"
+first_revealed_book = 6
+
+[[cards]]
+text = "Liquid Luck"
+first_revealed_book = 6
+
+[[cards]]
+text = "Astronomy Tower"
+first_revealed_book = 1
+
+[[cards]]
+text = "Horace Slughorn"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Sea Cave"
+first_revealed_book = 6
+
+[[cards]]
+text = "Armando Dippet"
+first_revealed_book = 2

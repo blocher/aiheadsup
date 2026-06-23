@@ -1,0 +1,255 @@
+id = "deck_animals-and-habitats_bd6482af"
+revision = 1
+name = "Animals and Habitats"
+category = "Science"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include common animals, animal groups, habitats, adaptations, food chains, migration, camouflage, and family-friendly nature terms."
+photo_file_name = "animals-and-habitats-bd6482af-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Lion"
+
+[[cards]]
+text = "Elephant"
+
+[[cards]]
+text = "Dolphin"
+
+[[cards]]
+text = "Kangaroo"
+
+[[cards]]
+text = "Penguin"
+
+[[cards]]
+text = "Giraffe"
+
+[[cards]]
+text = "Giant Panda"
+
+[[cards]]
+text = "Cheetah"
+
+[[cards]]
+text = "Bald Eagle"
+
+[[cards]]
+text = "Sea Turtle"
+
+[[cards]]
+text = "Grizzly Bear"
+
+[[cards]]
+text = "Chimpanzee"
+
+[[cards]]
+text = "Honeybee"
+
+[[cards]]
+text = "Beaver"
+
+[[cards]]
+text = "Platypus"
+
+[[cards]]
+text = "Koala"
+
+[[cards]]
+text = "Pack of Wolves"
+
+[[cards]]
+text = "School of Fish"
+
+[[cards]]
+text = "Pride of Lions"
+
+[[cards]]
+text = "Herd of Elephants"
+
+[[cards]]
+text = "Flock of Birds"
+
+[[cards]]
+text = "Coral Reef"
+
+[[cards]]
+text = "Rainforest"
+
+[[cards]]
+text = "Desert"
+
+[[cards]]
+text = "Arctic Tundra"
+
+[[cards]]
+text = "Savanna"
+
+[[cards]]
+text = "Wetland"
+
+[[cards]]
+text = "Forest"
+
+[[cards]]
+text = "Ocean"
+
+[[cards]]
+text = "Camouflage"
+
+[[cards]]
+text = "Hibernation"
+
+[[cards]]
+text = "Migration"
+
+[[cards]]
+text = "Nocturnal"
+
+[[cards]]
+text = "Herbivore"
+
+[[cards]]
+text = "Carnivore"
+
+[[cards]]
+text = "Omnivore"
+
+[[cards]]
+text = "Predator"
+
+[[cards]]
+text = "Prey"
+
+[[cards]]
+text = "Food Web"
+
+[[cards]]
+text = "Decomposer"
+
+[[cards]]
+text = "Producer"
+
+[[cards]]
+text = "Mammal"
+
+[[cards]]
+text = "Reptile"
+
+[[cards]]
+text = "Amphibian"
+
+[[cards]]
+text = "Bird"
+
+[[cards]]
+text = "Fish"
+
+[[cards]]
+text = "Insect"
+
+[[cards]]
+text = "Life Cycle"
+
+[[cards]]
+text = "Pollination"
+
+[[cards]]
+text = "Metamorphosis"
+
+[[cards]]
+text = "Frog"
+
+[[cards]]
+text = "Polar Bear"
+
+[[cards]]
+text = "Chameleon"
+
+[[cards]]
+text = "Butterfly"
+
+[[cards]]
+text = "Wolf Pack"
+
+[[cards]]
+text = "Eagle"
+
+[[cards]]
+text = "Beaver Dam"
+
+[[cards]]
+text = "Tadpole"
+
+[[cards]]
+text = "Owl"
+
+[[cards]]
+text = "Squirrel"
+
+[[cards]]
+text = "Shark"
+
+[[cards]]
+text = "Cave"
+
+[[cards]]
+text = "Octopus"
+
+[[cards]]
+text = "Hibernate"
+
+[[cards]]
+text = "Food Chain"
+
+[[cards]]
+text = "Zebra"
+
+[[cards]]
+text = "Monkey"
+
+[[cards]]
+text = "Deer"
+
+[[cards]]
+text = "Grassland"
+
+[[cards]]
+text = "Spider Web"
+
+[[cards]]
+text = "Duck"
+
+[[cards]]
+text = "Crocodile"
+
+[[cards]]
+text = "Panda"
+
+[[cards]]
+text = "Bird Nest"
+
+[[cards]]
+text = "Sloth"
+
+[[cards]]
+text = "Snail"
+
+[[cards]]
+text = "Flamingo"
+
+[[cards]]
+text = "Kangaroo Pouch"
+
+[[cards]]
+text = "Whale"
+
+[[cards]]
+text = "Earthworm"
+
+[[cards]]
+text = "Tiger"
+
+[[cards]]
+text = "Ant Hill"

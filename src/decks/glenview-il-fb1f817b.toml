@@ -1,0 +1,267 @@
+id = "deck_glenview-il_fb1f817b"
+revision = 1
+name = "Glenview, IL"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include local landmarks, parks, schools, neighborhoods, nearby North Shore places, Chicago-area references, transportation, history, and family-friendly destinations."
+photo_file_name = "glenview-il-fb1f817b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Historic Wagner Farm"
+
+[[cards]]
+text = "Kohl Children's Museum"
+
+[[cards]]
+text = "The Grove"
+
+[[cards]]
+text = "Gallery Park"
+
+[[cards]]
+text = "Glenview Public Library"
+
+[[cards]]
+text = "Naval Air Station Glenview"
+
+[[cards]]
+text = "Glenbrook South High School"
+
+[[cards]]
+text = "Glenview Ice Center"
+
+[[cards]]
+text = "Splash Landings Water Park"
+
+[[cards]]
+text = "Hackney's on Harms"
+
+[[cards]]
+text = "Glenview Dairy Bar"
+
+[[cards]]
+text = "Harms Woods"
+
+[[cards]]
+text = "Skokie Lagoons"
+
+[[cards]]
+text = "Walker Bros Pancake House"
+
+[[cards]]
+text = "Baha'i House of Worship"
+
+[[cards]]
+text = "Chicago Botanic Garden"
+
+[[cards]]
+text = "Ravinia Festival"
+
+[[cards]]
+text = "Westfield Old Orchard"
+
+[[cards]]
+text = "Glenview Metra Station"
+
+[[cards]]
+text = "Village of Golf"
+
+[[cards]]
+text = "Redfield Estate"
+
+[[cards]]
+text = "Flick Park"
+
+[[cards]]
+text = "Roosevelt Pool"
+
+[[cards]]
+text = "Patriot Boulevard"
+
+[[cards]]
+text = "Waukegan Road"
+
+[[cards]]
+text = "Shermer Road"
+
+[[cards]]
+text = "Milwaukee District North Line"
+
+[[cards]]
+text = "Kennicott House"
+
+[[cards]]
+text = "The Glen Town Center"
+
+[[cards]]
+text = "Sleepy Hollow Neighborhood"
+
+[[cards]]
+text = "Glenview Grind"
+
+[[cards]]
+text = "Valley Lo Club"
+
+[[cards]]
+text = "Glenview Club"
+
+[[cards]]
+text = "Sunset Ridge Country Club"
+
+[[cards]]
+text = "Northbrook Court"
+
+[[cards]]
+text = "Gillson Beach"
+
+[[cards]]
+text = "Des Plaines River Trail"
+
+[[cards]]
+text = "Hangar Two"
+
+[[cards]]
+text = "The Glen Control Tower"
+
+[[cards]]
+text = "Attea Middle School"
+
+[[cards]]
+text = "Springman Middle School"
+
+[[cards]]
+text = "Techny Basin"
+
+[[cards]]
+text = "Glenayre Equestrian Estates"
+
+[[cards]]
+text = "North Shore"
+
+[[cards]]
+text = "Amtrak Hiawatha"
+
+[[cards]]
+text = "Lake Michigan Beach"
+
+[[cards]]
+text = "Plaza Del Prado"
+
+[[cards]]
+text = "Lyon School"
+
+[[cards]]
+text = "Henking School"
+
+[[cards]]
+text = "Glenview Park District"
+
+[[cards]]
+text = "Kohl Childrens Museum"
+
+[[cards]]
+text = "Glenbrook North High School"
+
+[[cards]]
+text = "Hackneys on Harms"
+
+[[cards]]
+text = "Metra Train"
+
+[[cards]]
+text = "Glenview Road"
+
+[[cards]]
+text = "Lake Michigan"
+
+[[cards]]
+text = "Beck Lake"
+
+[[cards]]
+text = "Potawatomi Woods"
+
+[[cards]]
+text = "Blue Star Memorial Woods"
+
+[[cards]]
+text = "Glenview Golf Club"
+
+[[cards]]
+text = "Park Center"
+
+[[cards]]
+text = "Little Bear Garden"
+
+[[cards]]
+text = "Swainwood Neighborhood"
+
+[[cards]]
+text = "Sunset Ridge Woods"
+
+[[cards]]
+text = "Chicago River North Branch"
+
+[[cards]]
+text = "Glenview Summer Fest"
+
+[[cards]]
+text = "Fourth of July Parade"
+
+[[cards]]
+text = "Hoffman School"
+
+[[cards]]
+text = "Westbrook School"
+
+[[cards]]
+text = "Glen of Glenview Station"
+
+[[cards]]
+text = "Park District Fieldhouse"
+
+[[cards]]
+text = "Johns Park"
+
+[[cards]]
+text = "Cole Park"
+
+[[cards]]
+text = "Wagner Farm"
+
+[[cards]]
+text = "Glenbrook South"
+
+[[cards]]
+text = "The Glen"
+
+[[cards]]
+text = "Glen Town Center"
+
+[[cards]]
+text = "Golf Road"
+
+[[cards]]
+text = "Baha'i Temple"
+
+[[cards]]
+text = "Glenbrook North"
+
+[[cards]]
+text = "Lake Glenview"
+
+[[cards]]
+text = "Naval Air Station"
+
+[[cards]]
+text = "Glenbrook Hospital"
+
+[[cards]]
+text = "Downtown Glenview"
+
+[[cards]]
+text = "The North Shore"
+
+[[cards]]
+text = "Hackney's Restaurant"

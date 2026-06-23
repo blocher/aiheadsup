@@ -1,0 +1,261 @@
+id = "deck_hokkaido-pittsburgh_c9122258"
+revision = 1
+name = "Hokkaido Pittsburgh"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include buffet foods, sushi items, hibachi foods, seafood, desserts, sauces, restaurant experiences, Pittsburgh-area references, and family-friendly dining terms associated with Hokkaido."
+photo_file_name = "hokkaido-pittsburgh-c9122258-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Crab Legs"
+
+[[cards]]
+text = "Sushi Roll"
+
+[[cards]]
+text = "Hibachi Grill"
+
+[[cards]]
+text = "Yum Yum Sauce"
+
+[[cards]]
+text = "Chocolate Fountain"
+
+[[cards]]
+text = "McKnight Road"
+
+[[cards]]
+text = "All You Can Eat"
+
+[[cards]]
+text = "California Roll"
+
+[[cards]]
+text = "Coconut Shrimp"
+
+[[cards]]
+text = "Salmon Nigiri"
+
+[[cards]]
+text = "Spicy Tuna Roll"
+
+[[cards]]
+text = "Tempura Shrimp"
+
+[[cards]]
+text = "Raw Oysters"
+
+[[cards]]
+text = "Steamed Clams"
+
+[[cards]]
+text = "Baked Mussels"
+
+[[cards]]
+text = "Crawfish"
+
+[[cards]]
+text = "Fried Rice"
+
+[[cards]]
+text = "Lo Mein Noodles"
+
+[[cards]]
+text = "General Tso Chicken"
+
+[[cards]]
+text = "Beef and Broccoli"
+
+[[cards]]
+text = "Pork Potstickers"
+
+[[cards]]
+text = "Spring Rolls"
+
+[[cards]]
+text = "Egg Drop Soup"
+
+[[cards]]
+text = "Hot and Sour Soup"
+
+[[cards]]
+text = "Seaweed Salad"
+
+[[cards]]
+text = "Edamame"
+
+[[cards]]
+text = "Hibachi Steak"
+
+[[cards]]
+text = "Hibachi Chicken"
+
+[[cards]]
+text = "Grilled Zucchini"
+
+[[cards]]
+text = "Wasabi and Ginger"
+
+[[cards]]
+text = "Soy Sauce"
+
+[[cards]]
+text = "Eel Sauce"
+
+[[cards]]
+text = "Spicy Mayo"
+
+[[cards]]
+text = "Cream Puffs"
+
+[[cards]]
+text = "Soft Serve Ice Cream"
+
+[[cards]]
+text = "Jello Cubes"
+
+[[cards]]
+text = "Fortune Cookie"
+
+[[cards]]
+text = "Chopsticks"
+
+[[cards]]
+text = "Buffet Plate"
+
+[[cards]]
+text = "North Hills"
+
+[[cards]]
+text = "Rainbow Roll"
+
+[[cards]]
+text = "Dragon Roll"
+
+[[cards]]
+text = "Hibachi Chef"
+
+[[cards]]
+text = "Onion Volcano"
+
+[[cards]]
+text = "Fried Bananas"
+
+[[cards]]
+text = "Pepper Steak"
+
+[[cards]]
+text = "Sweet and Sour Chicken"
+
+[[cards]]
+text = "Garlic Butter Shrimp"
+
+[[cards]]
+text = "Octopus Salad"
+
+[[cards]]
+text = "Weekend Buffet"
+
+[[cards]]
+text = "Snow Crab Legs"
+
+[[cards]]
+text = "Steamed Dumplings"
+
+[[cards]]
+text = "Green Tea Ice Cream"
+
+[[cards]]
+text = "General Tso's Chicken"
+
+[[cards]]
+text = "Teppanyaki Grill"
+
+[[cards]]
+text = "Crawfish Boil"
+
+[[cards]]
+text = "Sneeze Guard"
+
+[[cards]]
+text = "Plate Stacking"
+
+[[cards]]
+text = "Fried Calamari"
+
+[[cards]]
+text = "Egg Roll"
+
+[[cards]]
+text = "Soft Serve Machine"
+
+[[cards]]
+text = "Crab Rangoon"
+
+[[cards]]
+text = "Teriyaki Beef"
+
+[[cards]]
+text = "Tempura Vegetables"
+
+[[cards]]
+text = "Shrimp Cocktail"
+
+[[cards]]
+text = "Edamame Pods"
+
+[[cards]]
+text = "Gyoza"
+
+[[cards]]
+text = "West Mifflin Buffet"
+
+[[cards]]
+text = "Steel City Seafood"
+
+[[cards]]
+text = "Waterfront Dining"
+
+[[cards]]
+text = "Melon Slices"
+
+[[cards]]
+text = "Hot Tea Cup"
+
+[[cards]]
+text = "Buffet Tongs"
+
+[[cards]]
+text = "Dinner Plate"
+
+[[cards]]
+text = "Sesame Chicken"
+
+[[cards]]
+text = "Sushi Boat"
+
+[[cards]]
+text = "Salmon Sashimi"
+
+[[cards]]
+text = "Steamed Crawfish"
+
+[[cards]]
+text = "Takeout Box"
+
+[[cards]]
+text = "Ginger Dressing"
+
+[[cards]]
+text = "Miso Soup"
+
+[[cards]]
+text = "Mochi Ice Cream"
+
+[[cards]]
+text = "West Mifflin"
+
+[[cards]]
+text = "Peel and Eat Shrimp"

@@ -1,0 +1,210 @@
+id = "deck_planets-and-dwarf-planets_3600a4c0"
+revision = 1
+name = "Planets and Dwarf Planets"
+category = "Science"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include planets, dwarf planets, moons, rings, spacecraft, solar system regions, famous astronomy terms, and basic facts about each world."
+photo_file_name = "planets-and-dwarf-planets-3600a4c0-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mercury"
+
+[[cards]]
+text = "Venus"
+
+[[cards]]
+text = "Earth"
+
+[[cards]]
+text = "Mars"
+
+[[cards]]
+text = "Jupiter"
+
+[[cards]]
+text = "Saturn"
+
+[[cards]]
+text = "Uranus"
+
+[[cards]]
+text = "Neptune"
+
+[[cards]]
+text = "Pluto"
+
+[[cards]]
+text = "Ceres"
+
+[[cards]]
+text = "Eris"
+
+[[cards]]
+text = "Haumea"
+
+[[cards]]
+text = "Makemake"
+
+[[cards]]
+text = "The Moon"
+
+[[cards]]
+text = "Phobos"
+
+[[cards]]
+text = "Deimos"
+
+[[cards]]
+text = "Io"
+
+[[cards]]
+text = "Europa"
+
+[[cards]]
+text = "Ganymede"
+
+[[cards]]
+text = "Callisto"
+
+[[cards]]
+text = "Titan"
+
+[[cards]]
+text = "Enceladus"
+
+[[cards]]
+text = "Triton"
+
+[[cards]]
+text = "Asteroid Belt"
+
+[[cards]]
+text = "Kuiper Belt"
+
+[[cards]]
+text = "Oort Cloud"
+
+[[cards]]
+text = "The Sun"
+
+[[cards]]
+text = "Planetary Rings"
+
+[[cards]]
+text = "Great Red Spot"
+
+[[cards]]
+text = "Solar System"
+
+[[cards]]
+text = "Deep Space"
+
+[[cards]]
+text = "Voyager 1"
+
+[[cards]]
+text = "Voyager 2"
+
+[[cards]]
+text = "Hubble Space Telescope"
+
+[[cards]]
+text = "James Webb Telescope"
+
+[[cards]]
+text = "Mars Rover"
+
+[[cards]]
+text = "New Horizons"
+
+[[cards]]
+text = "Apollo 11"
+
+[[cards]]
+text = "International Space Station"
+
+[[cards]]
+text = "Astronaut"
+
+[[cards]]
+text = "Orbit"
+
+[[cards]]
+text = "Gravity"
+
+[[cards]]
+text = "Atmosphere"
+
+[[cards]]
+text = "Gas Giant"
+
+[[cards]]
+text = "Ice Giant"
+
+[[cards]]
+text = "Terrestrial Planet"
+
+[[cards]]
+text = "Eclipse"
+
+[[cards]]
+text = "Crater"
+
+[[cards]]
+text = "Meteorite"
+
+[[cards]]
+text = "Satellite"
+
+[[cards]]
+text = "Charon"
+
+[[cards]]
+text = "Milky Way"
+
+[[cards]]
+text = "Space Shuttle"
+
+[[cards]]
+text = "Voyager Spacecraft"
+
+[[cards]]
+text = "Rocket Ship"
+
+[[cards]]
+text = "Asteroid"
+
+[[cards]]
+text = "Comet"
+
+[[cards]]
+text = "Meteor"
+
+[[cards]]
+text = "Telescope"
+
+[[cards]]
+text = "Black Hole"
+
+[[cards]]
+text = "Solar Eclipse"
+
+[[cards]]
+text = "Lunar Eclipse"
+
+[[cards]]
+text = "The Asteroid Belt"
+
+[[cards]]
+text = "Red Spot"
+
+[[cards]]
+text = "Saturn's Rings"
+
+[[cards]]
+text = "Shooting Star"
+
+[[cards]]
+text = "The Red Spot"

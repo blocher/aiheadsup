@@ -1,0 +1,249 @@
+id = "deck_pittsburgh-penguins_b87fceb6"
+revision = 1
+name = "Pittsburgh Penguins"
+category = "Pittsburgh Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Penguins history, famous current and past players, Stanley Cup moments, arenas, mascots, goal celebrations, uniforms, rivals, hockey terms, playoff traditions, announcer phrases, and Pittsburgh hockey culture, but should not be mostly player names."
+photo_file_name = "pittsburgh-penguins-b87fceb6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mario Lemieux"
+
+[[cards]]
+text = "Sidney Crosby"
+
+[[cards]]
+text = "Evgeni Malkin"
+
+[[cards]]
+text = "Jaromir Jagr"
+
+[[cards]]
+text = "Marc-Andre Fleury"
+
+[[cards]]
+text = "Kris Letang"
+
+[[cards]]
+text = "Iceburgh"
+
+[[cards]]
+text = "Civic Arena"
+
+[[cards]]
+text = "PPG Paints Arena"
+
+[[cards]]
+text = "The Igloo"
+
+[[cards]]
+text = "Mellon Arena"
+
+[[cards]]
+text = "Black and Gold"
+
+[[cards]]
+text = "Robo-Penguin"
+
+[[cards]]
+text = "Badger Bob Johnson"
+
+[[cards]]
+text = "Mike Lange"
+
+[[cards]]
+text = "Scratch My Back"
+
+[[cards]]
+text = "Elvis Has Left"
+
+[[cards]]
+text = "Buy Sam A Drink"
+
+[[cards]]
+text = "Philadelphia Flyers"
+
+[[cards]]
+text = "Washington Capitals"
+
+[[cards]]
+text = "Battle of Pennsylvania"
+
+[[cards]]
+text = "Playoff Beard"
+
+[[cards]]
+text = "Goal Horn"
+
+[[cards]]
+text = "Hat Trick"
+
+[[cards]]
+text = "Let's Go Pens"
+
+[[cards]]
+text = "Student Rush"
+
+[[cards]]
+text = "Gold Rush"
+
+[[cards]]
+text = "Back-To-Back Cups"
+
+[[cards]]
+text = "Lord Stanley"
+
+[[cards]]
+text = "Victory Parade"
+
+[[cards]]
+text = "Diagonal Pittsburgh Jersey"
+
+[[cards]]
+text = "Winter Classic"
+
+[[cards]]
+text = "The Golden Triangle"
+
+[[cards]]
+text = "Two-Headed Monster"
+
+[[cards]]
+text = "Phil Bourque"
+
+[[cards]]
+text = "Bob Errey"
+
+[[cards]]
+text = "Tom Barrasso"
+
+[[cards]]
+text = "Paul Coffey"
+
+[[cards]]
+text = "Ron Francis"
+
+[[cards]]
+text = "Power Play"
+
+[[cards]]
+text = "Penalty Kill"
+
+[[cards]]
+text = "Five-Hole"
+
+[[cards]]
+text = "Zamboni"
+
+[[cards]]
+text = "Stanley Cup Ring"
+
+[[cards]]
+text = "Raising The Banner"
+
+[[cards]]
+text = "Horn Guy"
+
+[[cards]]
+text = "Broad Street Bullies"
+
+[[cards]]
+text = "Vegas Gold"
+
+[[cards]]
+text = "Locker Room Celebration"
+
+[[cards]]
+text = "Overtime Game Winner"
+
+[[cards]]
+text = "Phil Kessel"
+
+[[cards]]
+text = "Mike Sullivan"
+
+[[cards]]
+text = "It's A Great Day"
+
+[[cards]]
+text = "Skating Penguin"
+
+[[cards]]
+text = "Playoff Beards"
+
+[[cards]]
+text = "Gold Out"
+
+[[cards]]
+text = "The Stanley Cup"
+
+[[cards]]
+text = "Five-Overtime Game"
+
+[[cards]]
+text = "Mario's Comeback"
+
+[[cards]]
+text = "Penalty Box"
+
+[[cards]]
+text = "Shorthanded Goal"
+
+[[cards]]
+text = "One-Timer"
+
+[[cards]]
+text = "Slap Shot"
+
+[[cards]]
+text = "Overtime Winner"
+
+[[cards]]
+text = "Consol Energy Center"
+
+[[cards]]
+text = "Handshake Line"
+
+[[cards]]
+text = "Empty Net Goal"
+
+[[cards]]
+text = "Sudden Death Overtime"
+
+[[cards]]
+text = "Crosby's Backhand"
+
+[[cards]]
+text = "Patric Hornqvist"
+
+[[cards]]
+text = "The Horn Guy"
+
+[[cards]]
+text = "Great Day For Hockey"
+
+[[cards]]
+text = "The Goal Horn"
+
+[[cards]]
+text = "Zombie Nation"
+
+[[cards]]
+text = "Stanley Cup Parade"
+
+[[cards]]
+text = "The Winter Classic"
+
+[[cards]]
+text = "Pittsburgh Gold"
+
+[[cards]]
+text = "The Civic Arena"
+
+[[cards]]
+text = "Back-to-Back Champions"
+
+[[cards]]
+text = "Lord Stanley's Cup"

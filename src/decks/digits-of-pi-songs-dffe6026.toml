@@ -1,0 +1,303 @@
+id = "deck_digits-of-pi-songs_dffe6026"
+revision = 1
+name = "Digits of Pi Songs"
+category = "Science"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include items, people, foods, objects, places, jokes, visual gags, lyrics references, and concepts featured in ASAP Science's 100, 200, 300, and 400 Digits of Pi songs, not the digits themselves."
+photo_file_name = "digits-of-pi-songs-dffe6026-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Apple Pie"
+
+[[cards]]
+text = "Greek Letter Pi"
+
+[[cards]]
+text = "Albert Einstein"
+
+[[cards]]
+text = "March 14th"
+
+[[cards]]
+text = "Circumference"
+
+[[cards]]
+text = "Diameter"
+
+[[cards]]
+text = "Disco Ball"
+
+[[cards]]
+text = "Microphone"
+
+[[cards]]
+text = "Brain Expansion"
+
+[[cards]]
+text = "Marathon Runner"
+
+[[cards]]
+text = "Chalkboard"
+
+[[cards]]
+text = "Whiteboard Marker"
+
+[[cards]]
+text = "Sunglasses"
+
+[[cards]]
+text = "Stopwatch"
+
+[[cards]]
+text = "Calculator"
+
+[[cards]]
+text = "Drawing Compass"
+
+[[cards]]
+text = "Pizza Slice"
+
+[[cards]]
+text = "Infinite Sign"
+
+[[cards]]
+text = "Trophy"
+
+[[cards]]
+text = "Party Hat"
+
+[[cards]]
+text = "Rocket Ship"
+
+[[cards]]
+text = "William Jones"
+
+[[cards]]
+text = "Archimedes"
+
+[[cards]]
+text = "Supercomputer"
+
+[[cards]]
+text = "Protractor"
+
+[[cards]]
+text = "Guitar"
+
+[[cards]]
+text = "Periodic Table"
+
+[[cards]]
+text = "Lab Coat"
+
+[[cards]]
+text = "Lightbulb"
+
+[[cards]]
+text = "Globe"
+
+[[cards]]
+text = "Confetti Popper"
+
+[[cards]]
+text = "Buffon's Needle"
+
+[[cards]]
+text = "Memory Palace"
+
+[[cards]]
+text = "Stop Sign"
+
+[[cards]]
+text = "Bicycle Wheel"
+
+[[cards]]
+text = "Coffee Mug"
+
+[[cards]]
+text = "Gold Medal"
+
+[[cards]]
+text = "DJ Turntable"
+
+[[cards]]
+text = "Megaphone"
+
+[[cards]]
+text = "Telescope"
+
+[[cards]]
+text = "DNA Strand"
+
+[[cards]]
+text = "Atom"
+
+[[cards]]
+text = "Bar Graph"
+
+[[cards]]
+text = "Measuring Tape"
+
+[[cards]]
+text = "Hourglass"
+
+[[cards]]
+text = "Laser Pointer"
+
+[[cards]]
+text = "Ludolph van Ceulen"
+
+[[cards]]
+text = "Dartboard"
+
+[[cards]]
+text = "Musical Note"
+
+[[cards]]
+text = "Yellow Notepad"
+
+[[cards]]
+text = "Can-Can Music"
+
+[[cards]]
+text = "Dry Erase Marker"
+
+[[cards]]
+text = "Nerd Glasses"
+
+[[cards]]
+text = "Party Horn"
+
+[[cards]]
+text = "Confetti"
+
+[[cards]]
+text = "AsapSCIENCE"
+
+[[cards]]
+text = "Brain on Fire"
+
+[[cards]]
+text = "Sweatband"
+
+[[cards]]
+text = "Energy Drink"
+
+[[cards]]
+text = "Abacus"
+
+[[cards]]
+text = "Graduation Cap"
+
+[[cards]]
+text = "Pointer Finger"
+
+[[cards]]
+text = "Chalkboard Eraser"
+
+[[cards]]
+text = "Astronaut Helmet"
+
+[[cards]]
+text = "Alien"
+
+[[cards]]
+text = "DNA Helix"
+
+[[cards]]
+text = "Microscope"
+
+[[cards]]
+text = "Infinite Loop"
+
+[[cards]]
+text = "Laboratory Flask"
+
+[[cards]]
+text = "Test Tube"
+
+[[cards]]
+text = "Virtual Reality Headset"
+
+[[cards]]
+text = "Brain in a Jar"
+
+[[cards]]
+text = "Black Hole"
+
+[[cards]]
+text = "Time Machine"
+
+[[cards]]
+text = "T-Rex"
+
+[[cards]]
+text = "Fireworks"
+
+[[cards]]
+text = "Finish Line"
+
+[[cards]]
+text = "Crown"
+
+[[cards]]
+text = "Champagne Bottle"
+
+[[cards]]
+text = "Pumpkin Pie"
+
+[[cards]]
+text = "Can-Can Dance"
+
+[[cards]]
+text = "Helium Balloon"
+
+[[cards]]
+text = "Treadmill"
+
+[[cards]]
+text = "Whipped Cream"
+
+[[cards]]
+text = "Mitch and Greg"
+
+[[cards]]
+text = "Scientific Calculator"
+
+[[cards]]
+text = "Banana Suit"
+
+[[cards]]
+text = "Einstein Wig"
+
+[[cards]]
+text = "Party Blower"
+
+[[cards]]
+text = "Sombrero"
+
+[[cards]]
+text = "Brain Model"
+
+[[cards]]
+text = "Can-Can Kicks"
+
+[[cards]]
+text = "Deep Voice"
+
+[[cards]]
+text = "Cherry Pie"
+
+[[cards]]
+text = "Triangle"
+
+[[cards]]
+text = "Pi Day"
+
+[[cards]]
+text = "Albert Einstein Mask"
+
+[[cards]]
+text = "Slice of Pumpkin Pie"

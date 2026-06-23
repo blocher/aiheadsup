@@ -1,0 +1,255 @@
+id = "deck_middle-school-level-world-history_dfbdfb10"
+revision = 1
+name = "Middle School Level World History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include ancient empires, world religions, medieval history, exploration, revolutions, imperialism, world wars, inventions, trade routes, major leaders, and important cultural developments."
+photo_file_name = "middle-school-level-world-history-dfbdfb10-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Julius Caesar"
+
+[[cards]]
+text = "Cleopatra"
+
+[[cards]]
+text = "Alexander the Great"
+
+[[cards]]
+text = "Genghis Khan"
+
+[[cards]]
+text = "King Tutankhamun"
+
+[[cards]]
+text = "Marco Polo"
+
+[[cards]]
+text = "Christopher Columbus"
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "Charlemagne"
+
+[[cards]]
+text = "Napoleon Bonaparte"
+
+[[cards]]
+text = "Queen Elizabeth I"
+
+[[cards]]
+text = "Mahatma Gandhi"
+
+[[cards]]
+text = "Magna Carta"
+
+[[cards]]
+text = "Silk Road"
+
+[[cards]]
+text = "Black Death"
+
+[[cards]]
+text = "The Renaissance"
+
+[[cards]]
+text = "Printing Press"
+
+[[cards]]
+text = "Great Wall of China"
+
+[[cards]]
+text = "Roman Colosseum"
+
+[[cards]]
+text = "Pyramids of Giza"
+
+[[cards]]
+text = "Machu Picchu"
+
+[[cards]]
+text = "Taj Mahal"
+
+[[cards]]
+text = "Parthenon"
+
+[[cards]]
+text = "Code of Hammurabi"
+
+[[cards]]
+text = "Nile River"
+
+[[cards]]
+text = "Aztec Empire"
+
+[[cards]]
+text = "Inca Empire"
+
+[[cards]]
+text = "Mayan Calendar"
+
+[[cards]]
+text = "Feudalism"
+
+[[cards]]
+text = "The Crusades"
+
+[[cards]]
+text = "Viking Longship"
+
+[[cards]]
+text = "Samurai"
+
+[[cards]]
+text = "Medieval Knight"
+
+[[cards]]
+text = "Gladiator"
+
+[[cards]]
+text = "Egyptian Mummy"
+
+[[cards]]
+text = "Hieroglyphics"
+
+[[cards]]
+text = "Cuneiform"
+
+[[cards]]
+text = "Pax Romana"
+
+[[cards]]
+text = "French Revolution"
+
+[[cards]]
+text = "Industrial Revolution"
+
+[[cards]]
+text = "World War I"
+
+[[cards]]
+text = "World War II"
+
+[[cards]]
+text = "Astrolabe"
+
+[[cards]]
+text = "Magnetic Compass"
+
+[[cards]]
+text = "Terracotta Army"
+
+[[cards]]
+text = "Socrates"
+
+[[cards]]
+text = "Aristotle"
+
+[[cards]]
+text = "King Henry VIII"
+
+[[cards]]
+text = "Ferdinand Magellan"
+
+[[cards]]
+text = "Gunpowder"
+
+[[cards]]
+text = "Roman Empire"
+
+[[cards]]
+text = "The Great Pyramid"
+
+[[cards]]
+text = "Ancient Greece"
+
+[[cards]]
+text = "Buddhism"
+
+[[cards]]
+text = "Hinduism"
+
+[[cards]]
+text = "Islam"
+
+[[cards]]
+text = "Christianity"
+
+[[cards]]
+text = "Judaism"
+
+[[cards]]
+text = "Confucius"
+
+[[cards]]
+text = "Black Plague"
+
+[[cards]]
+text = "Vasco da Gama"
+
+[[cards]]
+text = "American Revolution"
+
+[[cards]]
+text = "Ottoman Empire"
+
+[[cards]]
+text = "Mongol Empire"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "Mansa Musa"
+
+[[cards]]
+text = "Trench Warfare"
+
+[[cards]]
+text = "Winston Churchill"
+
+[[cards]]
+text = "The Cold War"
+
+[[cards]]
+text = "Space Race"
+
+[[cards]]
+text = "Renaissance"
+
+[[cards]]
+text = "The Silk Road"
+
+[[cards]]
+text = "The Printing Press"
+
+[[cards]]
+text = "Colosseum"
+
+[[cards]]
+text = "King Tut"
+
+[[cards]]
+text = "Acropolis"
+
+[[cards]]
+text = "Augustus"
+
+[[cards]]
+text = "Ancient Egypt"
+
+[[cards]]
+text = "Treaty of Versailles"
+
+[[cards]]
+text = "Storming of the Bastille"
+
+[[cards]]
+text = "The Black Death"
+
+[[cards]]
+text = "Hammurabi's Code"

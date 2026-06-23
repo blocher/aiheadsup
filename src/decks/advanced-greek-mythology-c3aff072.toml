@@ -1,0 +1,306 @@
+id = "deck_advanced-greek-mythology_c3aff072"
+revision = 1
+name = "Advanced Greek Mythology"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include lesser-known gods, obscure heroes, alternate myth versions, genealogies, ancient sources, minor monsters, regional cults, tragic figures, and deep-cut mythological references."
+photo_file_name = "advanced-greek-mythology-c3aff072-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Melinoe"
+
+[[cards]]
+text = "Bellerophon"
+
+[[cards]]
+text = "The Ophiotaurus"
+
+[[cards]]
+text = "Philoctetes"
+
+[[cards]]
+text = "The Kabeiroi"
+
+[[cards]]
+text = "Palaemon"
+
+[[cards]]
+text = "Erichthonius"
+
+[[cards]]
+text = "Typhon"
+
+[[cards]]
+text = "Orthrus"
+
+[[cards]]
+text = "Kampe"
+
+[[cards]]
+text = "Ladon"
+
+[[cards]]
+text = "Dodona"
+
+[[cards]]
+text = "Samothrace"
+
+[[cards]]
+text = "Pausanias"
+
+[[cards]]
+text = "Apollodorus"
+
+[[cards]]
+text = "The Bibliotheca"
+
+[[cards]]
+text = "Hesiod's Theogony"
+
+[[cards]]
+text = "The Aegis"
+
+[[cards]]
+text = "Ichor"
+
+[[cards]]
+text = "Psychopomp"
+
+[[cards]]
+text = "Momus"
+
+[[cards]]
+text = "Plutus"
+
+[[cards]]
+text = "Melanippe"
+
+[[cards]]
+text = "Palamedes"
+
+[[cards]]
+text = "Protesilaus"
+
+[[cards]]
+text = "Neoptolemus"
+
+[[cards]]
+text = "Penthesilea"
+
+[[cards]]
+text = "Memnon"
+
+[[cards]]
+text = "Eris"
+
+[[cards]]
+text = "Astraeus"
+
+[[cards]]
+text = "Amphisbaena"
+
+[[cards]]
+text = "Karkinos"
+
+[[cards]]
+text = "Empusa"
+
+[[cards]]
+text = "Lamia"
+
+[[cards]]
+text = "Mount Cithaeron"
+
+[[cards]]
+text = "Eleusis"
+
+[[cards]]
+text = "Tethys"
+
+[[cards]]
+text = "Themis"
+
+[[cards]]
+text = "Cercopes"
+
+[[cards]]
+text = "Oread"
+
+[[cards]]
+text = "Dryad"
+
+[[cards]]
+text = "Nereid"
+
+[[cards]]
+text = "Naiad"
+
+[[cards]]
+text = "Hesperides"
+
+[[cards]]
+text = "Aether"
+
+[[cards]]
+text = "Hemera"
+
+[[cards]]
+text = "Tartarus"
+
+[[cards]]
+text = "Erebos"
+
+[[cards]]
+text = "Nyx"
+
+[[cards]]
+text = "Hippolytus"
+
+[[cards]]
+text = "Zagreus"
+
+[[cards]]
+text = "The Telchines"
+
+[[cards]]
+text = "Erichthonius of Athens"
+
+[[cards]]
+text = "Phrixus and Helle"
+
+[[cards]]
+text = "Cleobis and Biton"
+
+[[cards]]
+text = "Salmoneus"
+
+[[cards]]
+text = "Myrtilus the Charioteer"
+
+[[cards]]
+text = "The Aloadae Giants"
+
+[[cards]]
+text = "Melampus the Seer"
+
+[[cards]]
+text = "Triptolemus"
+
+[[cards]]
+text = "Ascalaphus"
+
+[[cards]]
+text = "Autolycus the Thief"
+
+[[cards]]
+text = "Ceyx and Alcyone"
+
+[[cards]]
+text = "Telegonus"
+
+[[cards]]
+text = "The Corybantes"
+
+[[cards]]
+text = "Marsyas the Satyr"
+
+[[cards]]
+text = "Linus of Thrace"
+
+[[cards]]
+text = "The Cercopes"
+
+[[cards]]
+text = "Chrysaor"
+
+[[cards]]
+text = "Ladon the Dragon"
+
+[[cards]]
+text = "Achelous the River God"
+
+[[cards]]
+text = "Phorcys and Ceto"
+
+[[cards]]
+text = "The Calydonian Boar"
+
+[[cards]]
+text = "Talos of Crete"
+
+[[cards]]
+text = "Pelias of Iolcus"
+
+[[cards]]
+text = "Eurystheus"
+
+[[cards]]
+text = "Hesperus"
+
+[[cards]]
+text = "Philomela and Procne"
+
+[[cards]]
+text = "Cecrops of Athens"
+
+[[cards]]
+text = "Baucis and Philemon"
+
+[[cards]]
+text = "Glaucus the Sea God"
+
+[[cards]]
+text = "Acis and Galatea"
+
+[[cards]]
+text = "Lycurgus of Thrace"
+
+[[cards]]
+text = "Pentheus of Thebes"
+
+[[cards]]
+text = "Athamas and Ino"
+
+[[cards]]
+text = "Meleager's Brand"
+
+[[cards]]
+text = "The Symplegades"
+
+[[cards]]
+text = "Cyrene the Huntress"
+
+[[cards]]
+text = "The Graeae Sisters"
+
+[[cards]]
+text = "Orestes and Pylades"
+
+[[cards]]
+text = "The Empusa"
+
+[[cards]]
+text = "Orthrus the Two-Headed Dog"
+
+[[cards]]
+text = "Niobe's Tears"
+
+[[cards]]
+text = "Erysichthon's Hunger"
+
+[[cards]]
+text = "Procrustes' Bed"
+
+[[cards]]
+text = "Ixion's Wheel"
+
+[[cards]]
+text = "The Aloadae"
+
+[[cards]]
+text = "Philyra"
+
+[[cards]]
+text = "Necklace of Harmonia"

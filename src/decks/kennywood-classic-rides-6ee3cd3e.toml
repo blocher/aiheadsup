@@ -1,0 +1,234 @@
+id = "deck_kennywood-classic-rides_6ee3cd3e"
+revision = 1
+name = "Kennywood: Classic Rides"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Kennywood roller coasters, classic rides, thrill rides, water rides, kiddie rides, retired rides, ride vehicles, and recognizable ride features."
+photo_file_name = "kennywood-classic-rides-6ee3cd3e-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Phantom's Revenge"
+
+[[cards]]
+text = "Thunderbolt"
+
+[[cards]]
+text = "Jack Rabbit"
+
+[[cards]]
+text = "Racer"
+
+[[cards]]
+text = "Noah's Ark"
+
+[[cards]]
+text = "Kangaroo"
+
+[[cards]]
+text = "The Turtle"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "Auto Race"
+
+[[cards]]
+text = "Log Jammer"
+
+[[cards]]
+text = "Raging Rapids"
+
+[[cards]]
+text = "Pittsburg Plunge"
+
+[[cards]]
+text = "Steel Curtain"
+
+[[cards]]
+text = "Sky Rocket"
+
+[[cards]]
+text = "Exterminator"
+
+[[cards]]
+text = "Ghostwood Estate"
+
+[[cards]]
+text = "Old Mill"
+
+[[cards]]
+text = "Garfield's Nightmare"
+
+[[cards]]
+text = "Pitt Fall"
+
+[[cards]]
+text = "Steel Phantom"
+
+[[cards]]
+text = "Laser Loop"
+
+[[cards]]
+text = "Bayern Kurve"
+
+[[cards]]
+text = "Grand Carousel"
+
+[[cards]]
+text = "Aero 360"
+
+[[cards]]
+text = "Black Widow"
+
+[[cards]]
+text = "Cosmic Chaos"
+
+[[cards]]
+text = "SwingShot"
+
+[[cards]]
+text = "Musik Express"
+
+[[cards]]
+text = "Wave Swinger"
+
+[[cards]]
+text = "Lil' Phantom"
+
+[[cards]]
+text = "Turtle Car"
+
+[[cards]]
+text = "Whip Car"
+
+[[cards]]
+text = "Noah's Ark Whale Mouth"
+
+[[cards]]
+text = "Jack Rabbit Double Dip"
+
+[[cards]]
+text = "Racer Split Tracks"
+
+[[cards]]
+text = "Turnpike"
+
+[[cards]]
+text = "Gold Rusher"
+
+[[cards]]
+text = "Ghost Ship"
+
+[[cards]]
+text = "SS Kenny"
+
+[[cards]]
+text = "Red Baron"
+
+[[cards]]
+text = "Whippersnapper"
+
+[[cards]]
+text = "Racer Coaster Car"
+
+[[cards]]
+text = "Auto Race Wooden Track"
+
+[[cards]]
+text = "Carousel Organ"
+
+[[cards]]
+text = "Phantom's Revenge Ravine Drop"
+
+[[cards]]
+text = "Spinvasion"
+
+[[cards]]
+text = "Pirate Ship"
+
+[[cards]]
+text = "Kenny's Kabooses"
+
+[[cards]]
+text = "Kiddieland Carousel"
+
+[[cards]]
+text = "Thunderbolt Lift Hill"
+
+[[cards]]
+text = "The Racer"
+
+[[cards]]
+text = "The Old Mill"
+
+[[cards]]
+text = "Kennywood Railroad"
+
+[[cards]]
+text = "Merry-Go-Round"
+
+[[cards]]
+text = "Swing Shot"
+
+[[cards]]
+text = "Volcano"
+
+[[cards]]
+text = "Skycoaster"
+
+[[cards]]
+text = "Paddle Boats"
+
+[[cards]]
+text = "Gran Prix"
+
+[[cards]]
+text = "Kiddieland"
+
+[[cards]]
+text = "Wacky Wheel"
+
+[[cards]]
+text = "Steel Curtain Train"
+
+[[cards]]
+text = "Turtle Tub"
+
+[[cards]]
+text = "Auto Race Car"
+
+[[cards]]
+text = "Racer Split Track"
+
+[[cards]]
+text = "Phantom's Second Drop"
+
+[[cards]]
+text = "Log Jammer Spillway"
+
+[[cards]]
+text = "Le Cachot"
+
+[[cards]]
+text = "Noah's Ark Whale"
+
+[[cards]]
+text = "Jack Rabbit Train"
+
+[[cards]]
+text = "The Thunderbolt"
+
+[[cards]]
+text = "Potato Patch Fries"
+
+[[cards]]
+text = "The Kangaroo"
+
+[[cards]]
+text = "The Exterminator"
+
+[[cards]]
+text = "Laffin' Sal"

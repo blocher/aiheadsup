@@ -43,17 +43,17 @@ export class GeminiProvider {
     localStorage.removeItem(WEB_KEY_STORAGE)
   }
 
-  async generateCards({ category, audience, difficulty, count, excludedPrompts, harryPotterMode = false }) {
+  async generateCards({ category, audience, difficulty, count, excludedPrompts, harryPotterMode = false, specialPromptNote = '' }) {
     const exclusions = excludedPrompts.slice(-300).join(', ')
     const schema = harryPotterMode ? '{"cards":[{"prompt":"item","earliestBook":1}]}' : '{"cards":[{"prompt":"item"}]}'
-    const spoilerRule = harryPotterMode ? 'For every card, set earliestBook to the earliest numbered Harry Potter novel (1 through 7) where that person, place, object, creature, spell, or concept is revealed. ' : ''
-    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for the category "${category}". Audience: ${audience}. Difficulty: ${difficulty}. Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words. No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
+    const spoilerRule = harryPotterMode ? 'For every card, set earliestBook to the earliest numbered Harry Potter story (1 through 7 for the novels, or 8 for Harry Potter and the Cursed Child) where that person, place, object, creature, spell, or concept is revealed. ' : ''
+    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for the category "${category}". Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words. No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
     const { text } = isNative() ? await SecureGemini.generateText({ model: TEXT_MODEL, prompt }) : await webGenerate({ model: TEXT_MODEL, prompt, wantsImage: false })
     let parsed
     try { parsed = JSON.parse(text) } catch { throw new Error('Gemini returned an unreadable card batch. Please retry.') }
     const cards = Array.isArray(parsed.cards) ? parsed.cards : []
     return cards.map((card) => ({ prompt: typeof card === 'string' ? card : card?.prompt, earliestBook: harryPotterMode ? Number(card?.earliestBook) : null }))
-      .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!harryPotterMode || Number.isInteger(card.earliestBook) && card.earliestBook >= 1 && card.earliestBook <= 7))
+      .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!harryPotterMode || Number.isInteger(card.earliestBook) && card.earliestBook >= 1 && card.earliestBook <= 8))
       .map((card) => ({ ...card, prompt: card.prompt.trim() }))
   }
 
@@ -92,9 +92,12 @@ export async function generateCustomPack(provider, request, onProgress) {
     pack: {
       id,
       title: request.category.trim(),
+      category: request.category.trim(),
       audience: request.audience,
       difficulty: request.difficulty,
-      source: 'custom',
+      specialPromptNote: request.specialPromptNote?.trim() || '',
+      source: 'ai',
+      isAiGenerated: true,
       spoilerMode: request.harryPotterMode,
       cover: { kind: 'blob', value: cover },
       createdAt: new Date().toISOString()

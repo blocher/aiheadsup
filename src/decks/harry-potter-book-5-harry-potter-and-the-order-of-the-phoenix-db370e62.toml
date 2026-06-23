@@ -1,0 +1,313 @@
+id = "deck_harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix_db370e62"
+revision = 1
+name = "Harry Potter Book 5: Harry Potter and the Order of the Phoenix"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix-db370e62-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Sirius Black"
+first_revealed_book = 3
+
+[[cards]]
+text = "Luna Lovegood"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dolores Umbridge"
+first_revealed_book = 5
+
+[[cards]]
+text = "Albus Dumbledore"
+first_revealed_book = 1
+
+[[cards]]
+text = "Severus Snape"
+first_revealed_book = 1
+
+[[cards]]
+text = "Lord Voldemort"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bellatrix Lestrange"
+first_revealed_book = 4
+
+[[cards]]
+text = "Neville Longbottom"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ginny Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Fred and George"
+first_revealed_book = 1
+
+[[cards]]
+text = "Kreacher"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dobby"
+first_revealed_book = 2
+
+[[cards]]
+text = "Nymphadora Tonks"
+first_revealed_book = 5
+
+[[cards]]
+text = "Kingsley Shacklebolt"
+first_revealed_book = 5
+
+[[cards]]
+text = "Mundungus Fletcher"
+first_revealed_book = 2
+
+[[cards]]
+text = "Arabella Figg"
+first_revealed_book = 1
+
+[[cards]]
+text = "Grawp"
+first_revealed_book = 5
+
+[[cards]]
+text = "Sybill Trelawney"
+first_revealed_book = 3
+
+[[cards]]
+text = "Minerva McGonagall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Rubeus Hagrid"
+first_revealed_book = 1
+
+[[cards]]
+text = "Cho Chang"
+first_revealed_book = 3
+
+[[cards]]
+text = "Seamus Finnigan"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dean Thomas"
+first_revealed_book = 1
+
+[[cards]]
+text = "Zacharias Smith"
+first_revealed_book = 5
+
+[[cards]]
+text = "Marietta Edgecombe"
+first_revealed_book = 5
+
+[[cards]]
+text = "Grimmauld Place"
+first_revealed_book = 5
+
+[[cards]]
+text = "Department of Mysteries"
+first_revealed_book = 4
+
+[[cards]]
+text = "Room of Requirement"
+first_revealed_book = 4
+
+[[cards]]
+text = "St Mungo's Hospital"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Hog's Head"
+first_revealed_book = 3
+
+[[cards]]
+text = "Ministry of Magic"
+first_revealed_book = 1
+
+[[cards]]
+text = "Azkaban"
+first_revealed_book = 2
+
+[[cards]]
+text = "Thestral"
+first_revealed_book = 5
+
+[[cards]]
+text = "Bowtruckle"
+first_revealed_book = 5
+
+[[cards]]
+text = "Order of the Phoenix"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dumbledore's Army"
+first_revealed_book = 5
+
+[[cards]]
+text = "Inquisitorial Squad"
+first_revealed_book = 5
+
+[[cards]]
+text = "Educational Decree"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Quibbler"
+first_revealed_book = 5
+
+[[cards]]
+text = "Daily Prophet"
+first_revealed_book = 1
+
+[[cards]]
+text = "Prefect Badge"
+first_revealed_book = 1
+
+[[cards]]
+text = "Extendable Ears"
+first_revealed_book = 5
+
+[[cards]]
+text = "Skiving Snackboxes"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Black Quill"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hall of Prophecy"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Veil"
+first_revealed_book = 5
+
+[[cards]]
+text = "Occlumency"
+first_revealed_book = 5
+
+[[cards]]
+text = "Legilimency"
+first_revealed_book = 5
+
+[[cards]]
+text = "Skiving Snackbox"
+first_revealed_book = 5
+
+[[cards]]
+text = "Phineas Nigellus Black"
+first_revealed_book = 5
+
+[[cards]]
+text = "Weasleys' Wildfire Whiz-bangs"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hog's Head Inn"
+first_revealed_book = 1
+
+[[cards]]
+text = "Michael Corner"
+first_revealed_book = 5
+
+[[cards]]
+text = "Puking Pastilles"
+first_revealed_book = 5
+
+[[cards]]
+text = "Fever Fudge"
+first_revealed_book = 5
+
+[[cards]]
+text = "Nosebleed Nougat"
+first_revealed_book = 5
+
+[[cards]]
+text = "Fainting Fancies"
+first_revealed_book = 5
+
+[[cards]]
+text = "Remus Lupin"
+first_revealed_book = 3
+
+[[cards]]
+text = "Arthur Weasley"
+first_revealed_book = 2
+
+[[cards]]
+text = "Lucius Malfoy"
+first_revealed_book = 2
+
+[[cards]]
+text = "Cornelius Fudge"
+first_revealed_book = 2
+
+[[cards]]
+text = "Percy Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Fred and George's Escape"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Black Family Tree"
+first_revealed_book = 5
+
+[[cards]]
+text = "Regulus Black"
+first_revealed_book = 5
+
+[[cards]]
+text = "Sturgis Podmore"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hestia Jones"
+first_revealed_book = 5
+
+[[cards]]
+text = "Elphias Doge"
+first_revealed_book = 5
+
+[[cards]]
+text = "Emmeline Vance"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dumbledore's Army Coin"
+first_revealed_book = 5
+
+[[cards]]
+text = "Phineas Nigellus"
+first_revealed_book = 5
+
+[[cards]]
+text = "St Mungos Hospital"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Brain Room"
+first_revealed_book = 5

@@ -1,0 +1,228 @@
+id = "deck_playground-and-recess_1ae5ed37"
+revision = 1
+name = "Playground and Recess"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include playground equipment, recess games, sports, outdoor toys, running games, playground rules, and common kid activities."
+photo_file_name = "playground-and-recess-1ae5ed37-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Slide"
+
+[[cards]]
+text = "Swing Set"
+
+[[cards]]
+text = "Monkey Bars"
+
+[[cards]]
+text = "Sandbox"
+
+[[cards]]
+text = "Seesaw"
+
+[[cards]]
+text = "Merry-Go-Round"
+
+[[cards]]
+text = "Jungle Gym"
+
+[[cards]]
+text = "Hopscotch"
+
+[[cards]]
+text = "Four Square"
+
+[[cards]]
+text = "Tetherball"
+
+[[cards]]
+text = "Dodgeball"
+
+[[cards]]
+text = "Kickball"
+
+[[cards]]
+text = "Tag"
+
+[[cards]]
+text = "Hide and Seek"
+
+[[cards]]
+text = "Jump Rope"
+
+[[cards]]
+text = "Hula Hoop"
+
+[[cards]]
+text = "Sandbox Shovel"
+
+[[cards]]
+text = "Bubbles"
+
+[[cards]]
+text = "Sidewalk Chalk"
+
+[[cards]]
+text = "Frisbee"
+
+[[cards]]
+text = "Tricycle"
+
+[[cards]]
+text = "Scooter"
+
+[[cards]]
+text = "Soccer Ball"
+
+[[cards]]
+text = "Basketball Hoop"
+
+[[cards]]
+text = "Climbing Wall"
+
+[[cards]]
+text = "Balance Beam"
+
+[[cards]]
+text = "Tire Swing"
+
+[[cards]]
+text = "Puddle Jumping"
+
+[[cards]]
+text = "Sandcastle"
+
+[[cards]]
+text = "Red Light Green Light"
+
+[[cards]]
+text = "Simon Says"
+
+[[cards]]
+text = "Duck Duck Goose"
+
+[[cards]]
+text = "Tug of War"
+
+[[cards]]
+text = "Freeze Tag"
+
+[[cards]]
+text = "Capture the Flag"
+
+[[cards]]
+text = "Sack Race"
+
+[[cards]]
+text = "Wheelbarrow Race"
+
+[[cards]]
+text = "Relay Race"
+
+[[cards]]
+text = "Leapfrog"
+
+[[cards]]
+text = "Handstand"
+
+[[cards]]
+text = "Cartwheel"
+
+[[cards]]
+text = "Juice Box"
+
+[[cards]]
+text = "Recess Bell"
+
+[[cards]]
+text = "Playground Rules"
+
+[[cards]]
+text = "Line Leader"
+
+[[cards]]
+text = "Snack Time"
+
+[[cards]]
+text = "Water Fountain"
+
+[[cards]]
+text = "Band-Aid"
+
+[[cards]]
+text = "Buddy Bench"
+
+[[cards]]
+text = "Wood Chips"
+
+[[cards]]
+text = "Soccer"
+
+[[cards]]
+text = "Basketball"
+
+[[cards]]
+text = "Bubble Wand"
+
+[[cards]]
+text = "Double Dutch"
+
+[[cards]]
+text = "Fireman's Pole"
+
+[[cards]]
+text = "Kick the Can"
+
+[[cards]]
+text = "Parachute Game"
+
+[[cards]]
+text = "Whistle"
+
+[[cards]]
+text = "Lunch Box"
+
+[[cards]]
+text = "Picnic Table"
+
+[[cards]]
+text = "Grass Field"
+
+[[cards]]
+text = "Three-Legged Race"
+
+[[cards]]
+text = "Water Balloon"
+
+[[cards]]
+text = "Wallball"
+
+[[cards]]
+text = "Heads Up Seven Up"
+
+[[cards]]
+text = "Line Up"
+
+[[cards]]
+text = "Swings"
+
+[[cards]]
+text = "Monkey Rings"
+
+[[cards]]
+text = "Obstacle Course"
+
+[[cards]]
+text = "Taking Turns"
+
+[[cards]]
+text = "Tic Tac Toe"
+
+[[cards]]
+text = "Jumping Jacks"
+
+[[cards]]
+text = "Referee Whistle"

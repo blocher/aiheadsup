@@ -1,0 +1,213 @@
+id = "deck_pittsburgh-sports-legends_e4696125"
+revision = 1
+name = "Pittsburgh Sports Legends"
+category = "Pittsburgh Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include famous Pittsburgh athletes, coaches, broadcasters, championship moments, nicknames, famous numbers, trophies, rivalries, iconic plays, and cross-sport Pittsburgh sports culture, while balancing names with events and concepts."
+photo_file_name = "pittsburgh-sports-legends-e4696125-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Roberto Clemente"
+
+[[cards]]
+text = "Mario Lemieux"
+
+[[cards]]
+text = "Terry Bradshaw"
+
+[[cards]]
+text = "Sidney Crosby"
+
+[[cards]]
+text = "Mean Joe Greene"
+
+[[cards]]
+text = "Franco Harris"
+
+[[cards]]
+text = "Ben Roethlisberger"
+
+[[cards]]
+text = "Honus Wagner"
+
+[[cards]]
+text = "Jerome Bettis"
+
+[[cards]]
+text = "Willie Stargell"
+
+[[cards]]
+text = "Troy Polamalu"
+
+[[cards]]
+text = "Jaromir Jagr"
+
+[[cards]]
+text = "Evgeni Malkin"
+
+[[cards]]
+text = "Dan Marino"
+
+[[cards]]
+text = "Arnold Palmer"
+
+[[cards]]
+text = "Mike Tomlin"
+
+[[cards]]
+text = "Chuck Noll"
+
+[[cards]]
+text = "Bill Cowher"
+
+[[cards]]
+text = "Myron Cope"
+
+[[cards]]
+text = "Mike Lange"
+
+[[cards]]
+text = "Bob Prince"
+
+[[cards]]
+text = "Bill Mazeroski"
+
+[[cards]]
+text = "Santonio Holmes"
+
+[[cards]]
+text = "Jack Lambert"
+
+[[cards]]
+text = "Hines Ward"
+
+[[cards]]
+text = "Marc-Andre Fleury"
+
+[[cards]]
+text = "Tony Dorsett"
+
+[[cards]]
+text = "Mike Ditka"
+
+[[cards]]
+text = "Terrible Towel"
+
+[[cards]]
+text = "Immaculate Reception"
+
+[[cards]]
+text = "Steel Curtain"
+
+[[cards]]
+text = "Three Rivers Stadium"
+
+[[cards]]
+text = "PNC Park"
+
+[[cards]]
+text = "Heinz Field"
+
+[[cards]]
+text = "PPG Paints Arena"
+
+[[cards]]
+text = "City of Champions"
+
+[[cards]]
+text = "The Pierogi Race"
+
+[[cards]]
+text = "Battle of Pennsylvania"
+
+[[cards]]
+text = "The Lumber Company"
+
+[[cards]]
+text = "The Bus"
+
+[[cards]]
+text = "We Are Family"
+
+[[cards]]
+text = "Steely McBeam"
+
+[[cards]]
+text = "Pirate Parrot"
+
+[[cards]]
+text = "Iceburgh"
+
+[[cards]]
+text = "Forbes Field"
+
+[[cards]]
+text = "Pitt Panthers"
+
+[[cards]]
+text = "Civic Arena"
+
+[[cards]]
+text = "The Green Weenie"
+
+[[cards]]
+text = "Lanny Frattare"
+
+[[cards]]
+text = "Mazeroski's Home Run"
+
+[[cards]]
+text = "Lynn Swann"
+
+[[cards]]
+text = "Phil Kessel"
+
+[[cards]]
+text = "The Steel Curtain"
+
+[[cards]]
+text = "Art Rooney"
+
+[[cards]]
+text = "Dan Rooney"
+
+[[cards]]
+text = "Josh Gibson"
+
+[[cards]]
+text = "Homestead Grays"
+
+[[cards]]
+text = "Pittsburgh Crawfords"
+
+[[cards]]
+text = "Dave Parker"
+
+[[cards]]
+text = "Kent Tekulve"
+
+[[cards]]
+text = "Duquesne Dukes"
+
+[[cards]]
+text = "Acrisure Stadium"
+
+[[cards]]
+text = "Black and Gold"
+
+[[cards]]
+text = "The Terrible Towel"
+
+[[cards]]
+text = "The Immaculate Reception"
+
+[[cards]]
+text = "The Great Pierogi Race"
+
+[[cards]]
+text = "Stanley Cup"
+
+[[cards]]
+text = "T.J. Watt"

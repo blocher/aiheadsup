@@ -1,0 +1,305 @@
+id = "deck_harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban_16215fba"
+revision = 1
+name = "Harry Potter Book 3: Harry Potter and the Prisoner of Azkaban"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban-16215fba-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Remus Lupin"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sirius Black"
+first_revealed_book = 1
+
+[[cards]]
+text = "Peter Pettigrew"
+first_revealed_book = 3
+
+[[cards]]
+text = "Dementor"
+first_revealed_book = 3
+
+[[cards]]
+text = "Hippogriff"
+first_revealed_book = 3
+
+[[cards]]
+text = "Buckbeak"
+first_revealed_book = 3
+
+[[cards]]
+text = "Boggart"
+first_revealed_book = 3
+
+[[cards]]
+text = "Marauder's Map"
+first_revealed_book = 3
+
+[[cards]]
+text = "Time-Turner"
+first_revealed_book = 3
+
+[[cards]]
+text = "Firebolt"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Knight Bus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Hogsmeade"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Shrieking Shack"
+first_revealed_book = 3
+
+[[cards]]
+text = "Honeydukes"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Three Broomsticks"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sybill Trelawney"
+first_revealed_book = 3
+
+[[cards]]
+text = "Crookshanks"
+first_revealed_book = 3
+
+[[cards]]
+text = "Expecto Patronum"
+first_revealed_book = 3
+
+[[cards]]
+text = "Riddikulus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Zonko's Joke Shop"
+first_revealed_book = 3
+
+[[cards]]
+text = "Aunt Marge"
+first_revealed_book = 1
+
+[[cards]]
+text = "Stan Shunpike"
+first_revealed_book = 3
+
+[[cards]]
+text = "Ernie Prang"
+first_revealed_book = 3
+
+[[cards]]
+text = "Monster Book of Monsters"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Grim"
+first_revealed_book = 3
+
+[[cards]]
+text = "Animagus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Padfoot"
+first_revealed_book = 3
+
+[[cards]]
+text = "Moony"
+first_revealed_book = 3
+
+[[cards]]
+text = "Wormtail"
+first_revealed_book = 3
+
+[[cards]]
+text = "Prongs"
+first_revealed_book = 3
+
+[[cards]]
+text = "Cho Chang"
+first_revealed_book = 3
+
+[[cards]]
+text = "Cedric Diggory"
+first_revealed_book = 3
+
+[[cards]]
+text = "Florean Fortescue"
+first_revealed_book = 3
+
+[[cards]]
+text = "Dervish and Banges"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sir Cadogan"
+first_revealed_book = 3
+
+[[cards]]
+text = "Madam Rosmerta"
+first_revealed_book = 3
+
+[[cards]]
+text = "Flobberworm"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sneakoscope"
+first_revealed_book = 3
+
+[[cards]]
+text = "Whomping Willow"
+first_revealed_book = 2
+
+[[cards]]
+text = "Chocolate Frog"
+first_revealed_book = 1
+
+[[cards]]
+text = "Scabbers"
+first_revealed_book = 1
+
+[[cards]]
+text = "Cornelius Fudge"
+first_revealed_book = 2
+
+[[cards]]
+text = "Azkaban"
+first_revealed_book = 2
+
+[[cards]]
+text = "Divination Class"
+first_revealed_book = 3
+
+[[cards]]
+text = "Care of Magical Creatures"
+first_revealed_book = 3
+
+[[cards]]
+text = "Dissendium"
+first_revealed_book = 3
+
+[[cards]]
+text = "Hogwarts Express"
+first_revealed_book = 1
+
+[[cards]]
+text = "Quidditch Cup"
+first_revealed_book = 1
+
+[[cards]]
+text = "Tea Leaves"
+first_revealed_book = 3
+
+[[cards]]
+text = "Crystal Ball"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Marauder's Map"
+first_revealed_book = 3
+
+[[cards]]
+text = "Azkaban Prison"
+first_revealed_book = 2
+
+[[cards]]
+text = "Professor Trelawney"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Firebolt"
+first_revealed_book = 3
+
+[[cards]]
+text = "Hogsmeade Village"
+first_revealed_book = 3
+
+[[cards]]
+text = "Honeydukes Sweetshop"
+first_revealed_book = 3
+
+[[cards]]
+text = "Walden Macnair"
+first_revealed_book = 3
+
+[[cards]]
+text = "Madame Rosmerta"
+first_revealed_book = 3
+
+[[cards]]
+text = "Werewolf"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dementor's Kiss"
+first_revealed_book = 3
+
+[[cards]]
+text = "One-Eyed Witch Statue"
+first_revealed_book = 3
+
+[[cards]]
+text = "Pocket Sneakoscope"
+first_revealed_book = 3
+
+[[cards]]
+text = "Arithmancy Class"
+first_revealed_book = 3
+
+[[cards]]
+text = "Muggle Studies"
+first_revealed_book = 3
+
+[[cards]]
+text = "Chudley Cannons"
+first_revealed_book = 2
+
+[[cards]]
+text = "The Whomping Willow"
+first_revealed_book = 2
+
+[[cards]]
+text = "Fat Lady's Portrait"
+first_revealed_book = 1
+
+[[cards]]
+text = "Inflating Aunt Marge"
+first_revealed_book = 3
+
+[[cards]]
+text = "Stag Patronus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Knight Bus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Shrieking Shack"
+first_revealed_book = 3
+
+[[cards]]
+text = "Three Broomsticks"
+first_revealed_book = 3
+
+[[cards]]
+text = "Butterbeer"
+first_revealed_book = 3
+
+[[cards]]
+text = "Patronus Charm"
+first_revealed_book = 3

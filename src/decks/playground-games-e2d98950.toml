@@ -1,0 +1,225 @@
+id = "deck_playground-games_e2d98950"
+revision = 1
+name = "Playground Games"
+category = "Games"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include recess games, tag variants, ball games, playground equipment, outdoor rules, running games, jump rope, hide-and-seek, and common kid game terms."
+photo_file_name = "playground-games-e2d98950-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Tag"
+
+[[cards]]
+text = "Freeze Tag"
+
+[[cards]]
+text = "Duck Duck Goose"
+
+[[cards]]
+text = "Hopscotch"
+
+[[cards]]
+text = "Four Square"
+
+[[cards]]
+text = "Tetherball"
+
+[[cards]]
+text = "Kickball"
+
+[[cards]]
+text = "Dodgeball"
+
+[[cards]]
+text = "Red Light Green Light"
+
+[[cards]]
+text = "Simon Says"
+
+[[cards]]
+text = "Hide and Seek"
+
+[[cards]]
+text = "Capture the Flag"
+
+[[cards]]
+text = "Double Dutch"
+
+[[cards]]
+text = "Red Rover"
+
+[[cards]]
+text = "Keep Away"
+
+[[cards]]
+text = "Shadow Tag"
+
+[[cards]]
+text = "TV Tag"
+
+[[cards]]
+text = "Sardines"
+
+[[cards]]
+text = "Wallball"
+
+[[cards]]
+text = "SPUD"
+
+[[cards]]
+text = "Slide"
+
+[[cards]]
+text = "Swings"
+
+[[cards]]
+text = "Monkey Bars"
+
+[[cards]]
+text = "See-Saw"
+
+[[cards]]
+text = "Sandbox"
+
+[[cards]]
+text = "Merry-Go-Round"
+
+[[cards]]
+text = "Jungle Gym"
+
+[[cards]]
+text = "Tire Swing"
+
+[[cards]]
+text = "Balance Beam"
+
+[[cards]]
+text = "Fireman Pole"
+
+[[cards]]
+text = "Jump Rope"
+
+[[cards]]
+text = "Hula Hoop"
+
+[[cards]]
+text = "Sack Race"
+
+[[cards]]
+text = "Three-Legged Race"
+
+[[cards]]
+text = "Tug of War"
+
+[[cards]]
+text = "Freeze Dance"
+
+[[cards]]
+text = "Musical Chairs"
+
+[[cards]]
+text = "Leapfrog"
+
+[[cards]]
+text = "Kick the Can"
+
+[[cards]]
+text = "Marco Polo"
+
+[[cards]]
+text = "Safe Zone"
+
+[[cards]]
+text = "Not It"
+
+[[cards]]
+text = "Rock Paper Scissors"
+
+[[cards]]
+text = "Olly Olly Oxen Free"
+
+[[cards]]
+text = "King of the Hill"
+
+[[cards]]
+text = "Sidewalk Chalk"
+
+[[cards]]
+text = "Flashlight Tag"
+
+[[cards]]
+text = "Ghost in the Graveyard"
+
+[[cards]]
+text = "Heads Up Seven Up"
+
+[[cards]]
+text = "Hand Ball"
+
+[[cards]]
+text = "Seesaw"
+
+[[cards]]
+text = "Sharks and Minnows"
+
+[[cards]]
+text = "British Bulldog"
+
+[[cards]]
+text = "Blind Man's Bluff"
+
+[[cards]]
+text = "Hot Potato"
+
+[[cards]]
+text = "Telephone"
+
+[[cards]]
+text = "Frisbee"
+
+[[cards]]
+text = "Egg and Spoon Race"
+
+[[cards]]
+text = "Wheelbarrow Race"
+
+[[cards]]
+text = "Trampoline"
+
+[[cards]]
+text = "Climbing Wall"
+
+[[cards]]
+text = "Water Balloon Fight"
+
+[[cards]]
+text = "Snowball Fight"
+
+[[cards]]
+text = "Marbles"
+
+[[cards]]
+text = "Jacks"
+
+[[cards]]
+text = "Swing Set"
+
+[[cards]]
+text = "Home Base"
+
+[[cards]]
+text = "Tag You're It"
+
+[[cards]]
+text = "Blob Tag"
+
+[[cards]]
+text = "Pinky Promise"
+
+[[cards]]
+text = "Do-Over"
+
+[[cards]]
+text = "The Slide"

@@ -1,0 +1,222 @@
+id = "deck_chicago_1e0cfe28"
+revision = 1
+name = "Chicago"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include neighborhoods, landmarks, foods, sports teams, museums, architecture, transit, historical events, famous Chicagoans, and lakefront places."
+photo_file_name = "chicago-1e0cfe28-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "The Bean"
+
+[[cards]]
+text = "Wrigley Field"
+
+[[cards]]
+text = "Navy Pier"
+
+[[cards]]
+text = "Deep Dish Pizza"
+
+[[cards]]
+text = "Chicago Hot Dog"
+
+[[cards]]
+text = "Willis Tower"
+
+[[cards]]
+text = "Lake Michigan"
+
+[[cards]]
+text = "Chicago River"
+
+[[cards]]
+text = "Magnificent Mile"
+
+[[cards]]
+text = "Shedd Aquarium"
+
+[[cards]]
+text = "Field Museum"
+
+[[cards]]
+text = "Art Institute of Chicago"
+
+[[cards]]
+text = "Lincoln Park Zoo"
+
+[[cards]]
+text = "Soldier Field"
+
+[[cards]]
+text = "Millennium Park"
+
+[[cards]]
+text = "Chicago Bulls"
+
+[[cards]]
+text = "Chicago Cubs"
+
+[[cards]]
+text = "Chicago White Sox"
+
+[[cards]]
+text = "Chicago Bears"
+
+[[cards]]
+text = "Chicago Blackhawks"
+
+[[cards]]
+text = "Sue the T-Rex"
+
+[[cards]]
+text = "Wrigleyville"
+
+[[cards]]
+text = "Lincoln Park"
+
+[[cards]]
+text = "Hyde Park"
+
+[[cards]]
+text = "Wicker Park"
+
+[[cards]]
+text = "Centennial Wheel"
+
+[[cards]]
+text = "Chicago Style Popcorn"
+
+[[cards]]
+text = "Italian Beef Sandwich"
+
+[[cards]]
+text = "The L Train"
+
+[[cards]]
+text = "Buckingham Fountain"
+
+[[cards]]
+text = "Great Chicago Fire"
+
+[[cards]]
+text = "Al Capone"
+
+[[cards]]
+text = "Michael Jordan"
+
+[[cards]]
+text = "Oprah Winfrey"
+
+[[cards]]
+text = "Ferris Bueller"
+
+[[cards]]
+text = "Green Chicago River"
+
+[[cards]]
+text = "Adler Planetarium"
+
+[[cards]]
+text = "Water Tower"
+
+[[cards]]
+text = "The Loop"
+
+[[cards]]
+text = "DuSable Bridge"
+
+[[cards]]
+text = "Chicago Theatre"
+
+[[cards]]
+text = "Grant Park"
+
+[[cards]]
+text = "Lake Shore Drive"
+
+[[cards]]
+text = "Union Station"
+
+[[cards]]
+text = "Billy Goat Tavern"
+
+[[cards]]
+text = "The Second City"
+
+[[cards]]
+text = "Pilsen"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Tribune Tower"
+
+[[cards]]
+text = "Picasso Statue"
+
+[[cards]]
+text = "Cloud Gate"
+
+[[cards]]
+text = "Art Institute"
+
+[[cards]]
+text = "Museum of Contemporary Art"
+
+[[cards]]
+text = "Hancock Building"
+
+[[cards]]
+text = "Chicago Riverwalk"
+
+[[cards]]
+text = "River North"
+
+[[cards]]
+text = "Italian Beef"
+
+[[cards]]
+text = "Garrett Popcorn"
+
+[[cards]]
+text = "Rainbow Cone"
+
+[[cards]]
+text = "Chicago Fire"
+
+[[cards]]
+text = "Benny the Bull"
+
+[[cards]]
+text = "Marina City"
+
+[[cards]]
+text = "Carl Sandburg"
+
+[[cards]]
+text = "DuSable Museum"
+
+[[cards]]
+text = "Chicago Worlds Fair"
+
+[[cards]]
+text = "The Great Chicago Fire"
+
+[[cards]]
+text = "Science and Industry Museum"
+
+[[cards]]
+text = "1893 World's Fair"
+
+[[cards]]
+text = "CTA El Train"
+
+[[cards]]
+text = "Chicago Style Hot Dog"
+
+[[cards]]
+text = "Chicago Cultural Center"

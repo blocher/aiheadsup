@@ -1,0 +1,246 @@
+id = "deck_high-school-level-world-history_d42e0cfe"
+revision = 1
+name = "High School Level World History"
+category = "History"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include advanced world history terms, empires, ideologies, revolutions, colonialism, decolonization, world wars, Cold War events, philosophers, religious movements, trade systems, treaties, and global historical themes."
+photo_file_name = "high-school-level-world-history-d42e0cfe-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Ottoman Empire"
+
+[[cards]]
+text = "Mughal Empire"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "Meiji Restoration"
+
+[[cards]]
+text = "Tokugawa Shogunate"
+
+[[cards]]
+text = "Qing Dynasty"
+
+[[cards]]
+text = "Safavid Empire"
+
+[[cards]]
+text = "Songhai Empire"
+
+[[cards]]
+text = "Mercantilism"
+
+[[cards]]
+text = "Social Darwinism"
+
+[[cards]]
+text = "Absolutism"
+
+[[cards]]
+text = "Communism"
+
+[[cards]]
+text = "Fascism"
+
+[[cards]]
+text = "Utilitarianism"
+
+[[cards]]
+text = "Divine Right of Kings"
+
+[[cards]]
+text = "Enlightenment"
+
+[[cards]]
+text = "French Revolution"
+
+[[cards]]
+text = "Haitian Revolution"
+
+[[cards]]
+text = "Boxer Rebellion"
+
+[[cards]]
+text = "Sepoy Mutiny"
+
+[[cards]]
+text = "Bolshevik Revolution"
+
+[[cards]]
+text = "Taiping Rebellion"
+
+[[cards]]
+text = "Spanish Civil War"
+
+[[cards]]
+text = "Glorious Revolution"
+
+[[cards]]
+text = "Scramble for Africa"
+
+[[cards]]
+text = "Berlin Conference"
+
+[[cards]]
+text = "Proxy War"
+
+[[cards]]
+text = "Non-Aligned Movement"
+
+[[cards]]
+text = "Suez Crisis"
+
+[[cards]]
+text = "Apartheid"
+
+[[cards]]
+text = "Treaty of Versailles"
+
+[[cards]]
+text = "League of Nations"
+
+[[cards]]
+text = "Cuban Missile Crisis"
+
+[[cards]]
+text = "Marshall Plan"
+
+[[cards]]
+text = "Iron Curtain"
+
+[[cards]]
+text = "NATO"
+
+[[cards]]
+text = "Warsaw Pact"
+
+[[cards]]
+text = "Triple Entente"
+
+[[cards]]
+text = "Silk Road"
+
+[[cards]]
+text = "Columbian Exchange"
+
+[[cards]]
+text = "Triangular Trade"
+
+[[cards]]
+text = "Hanseatic League"
+
+[[cards]]
+text = "British East India Company"
+
+[[cards]]
+text = "Protestant Reformation"
+
+[[cards]]
+text = "Council of Trent"
+
+[[cards]]
+text = "Karl Marx"
+
+[[cards]]
+text = "John Locke"
+
+[[cards]]
+text = "Simon Bolivar"
+
+[[cards]]
+text = "Adam Smith"
+
+[[cards]]
+text = "Treaty of Westphalia"
+
+[[cards]]
+text = "Abbasid Caliphate"
+
+[[cards]]
+text = "Holy Roman Empire"
+
+[[cards]]
+text = "Maurya Empire"
+
+[[cards]]
+text = "Confucianism"
+
+[[cards]]
+text = "Bandung Conference"
+
+[[cards]]
+text = "Berlin Airlift"
+
+[[cards]]
+text = "Trans-Saharan Trade"
+
+[[cards]]
+text = "East India Company"
+
+[[cards]]
+text = "Otto von Bismarck"
+
+[[cards]]
+text = "Sun Yat-sen"
+
+[[cards]]
+text = "Niccolo Machiavelli"
+
+[[cards]]
+text = "Mahatma Gandhi"
+
+[[cards]]
+text = "Magna Carta"
+
+[[cards]]
+text = "Treaty of Tordesillas"
+
+[[cards]]
+text = "Peace of Westphalia"
+
+[[cards]]
+text = "Congress of Vienna"
+
+[[cards]]
+text = "Reign of Terror"
+
+[[cards]]
+text = "Code of Hammurabi"
+
+[[cards]]
+text = "Scientific Revolution"
+
+[[cards]]
+text = "Pax Romana"
+
+[[cards]]
+text = "Industrial Revolution"
+
+[[cards]]
+text = "Bolsheviks"
+
+[[cards]]
+text = "Opium Wars"
+
+[[cards]]
+text = "The Silk Road"
+
+[[cards]]
+text = "The Cold War"
+
+[[cards]]
+text = "Berlin Wall"
+
+[[cards]]
+text = "Decolonization"
+
+[[cards]]
+text = "The Enlightenment"
+
+[[cards]]
+text = "Appeasement Policy"

@@ -1,0 +1,258 @@
+id = "deck_pittsburgh-pirates_e56fa43a"
+revision = 1
+name = "Pittsburgh Pirates"
+category = "Pittsburgh Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Pirates history, ballparks, uniforms, mascots, famous current and past players, World Series moments, nicknames, fan traditions, baseball terms, rivalries, Pittsburgh baseball culture, and famous plays, but should not be mostly player names."
+photo_file_name = "pittsburgh-pirates-e56fa43a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "PNC Park"
+
+[[cards]]
+text = "Forbes Field"
+
+[[cards]]
+text = "Three Rivers Stadium"
+
+[[cards]]
+text = "Roberto Clemente"
+
+[[cards]]
+text = "Honus Wagner"
+
+[[cards]]
+text = "Willie Stargell"
+
+[[cards]]
+text = "Andrew McCutchen"
+
+[[cards]]
+text = "Bill Mazeroski"
+
+[[cards]]
+text = "Pirate Parrot"
+
+[[cards]]
+text = "The Great Pierogi Race"
+
+[[cards]]
+text = "Raise the Jolly Roger"
+
+[[cards]]
+text = "We Are Family"
+
+[[cards]]
+text = "The Lumber Company"
+
+[[cards]]
+text = "Roberto Clemente Bridge"
+
+[[cards]]
+text = "Black and Gold"
+
+[[cards]]
+text = "Pillbox Hat"
+
+[[cards]]
+text = "Stargell Stars"
+
+[[cards]]
+text = "Mazeroski's Home Run"
+
+[[cards]]
+text = "Dock Ellis No-Hitter"
+
+[[cards]]
+text = "Allegheny River"
+
+[[cards]]
+text = "Manny's BBQ"
+
+[[cards]]
+text = "The Green Weenie"
+
+[[cards]]
+text = "Clemente Wall"
+
+[[cards]]
+text = "Dave Parker"
+
+[[cards]]
+text = "Ralph Kiner"
+
+[[cards]]
+text = "Paul Waner"
+
+[[cards]]
+text = "Kent Tekulve"
+
+[[cards]]
+text = "Barry Bonds"
+
+[[cards]]
+text = "1960 World Series"
+
+[[cards]]
+text = "1979 World Series"
+
+[[cards]]
+text = "1971 World Series"
+
+[[cards]]
+text = "Exposition Park"
+
+[[cards]]
+text = "Danny Murtaugh"
+
+[[cards]]
+text = "Fred Clarke"
+
+[[cards]]
+text = "The Cueto Chant"
+
+[[cards]]
+text = "Blackout Game"
+
+[[cards]]
+text = "Captain Jolly Roger"
+
+[[cards]]
+text = "Bucco Nation"
+
+[[cards]]
+text = "Battlin' Bucs"
+
+[[cards]]
+text = "Primanti Sandwich"
+
+[[cards]]
+text = "Ke'Bryan Hayes"
+
+[[cards]]
+text = "Oneil Cruz"
+
+[[cards]]
+text = "Chuck Tanner"
+
+[[cards]]
+text = "Pie Traynor"
+
+[[cards]]
+text = "Jason Bay"
+
+[[cards]]
+text = "AJ Burnett"
+
+[[cards]]
+text = "Neil Walker"
+
+[[cards]]
+text = "Manny Sanguillen"
+
+[[cards]]
+text = "Steve Blass"
+
+[[cards]]
+text = "Bob Prince"
+
+[[cards]]
+text = "The Great Pierogy Race"
+
+[[cards]]
+text = "Jolly Roger"
+
+[[cards]]
+text = "Green Weenie"
+
+[[cards]]
+text = "The Great One"
+
+[[cards]]
+text = "Sister Sledge"
+
+[[cards]]
+text = "Cueto Chant"
+
+[[cards]]
+text = "Game Seven Walk-Off"
+
+[[cards]]
+text = "Mustard Yellow Jersey"
+
+[[cards]]
+text = "Pittsburgh Crawfords"
+
+[[cards]]
+text = "Homestead Grays"
+
+[[cards]]
+text = "The Battlin' Bucs"
+
+[[cards]]
+text = "Pierogy Mascot"
+
+[[cards]]
+text = "KDKA Radio"
+
+[[cards]]
+text = "A.J. Burnett"
+
+[[cards]]
+text = "Jason Kendall"
+
+[[cards]]
+text = "Starling Marte"
+
+[[cards]]
+text = "Paul Skenes"
+
+[[cards]]
+text = "Cutch"
+
+[[cards]]
+text = "Elroy Face"
+
+[[cards]]
+text = "Fred Rogers"
+
+[[cards]]
+text = "Roberto Clemente Wall"
+
+[[cards]]
+text = "Great Pierogi Race"
+
+[[cards]]
+text = "Jolly Roger Flag"
+
+[[cards]]
+text = "Bradenton Florida"
+
+[[cards]]
+text = "Cincinnati Reds"
+
+[[cards]]
+text = "The Clemente Wall"
+
+[[cards]]
+text = "Buccos"
+
+[[cards]]
+text = "Johnny Cueto Chant"
+
+[[cards]]
+text = "Philadelphia Phillies"
+
+[[cards]]
+text = "The Pirate Parrot"
+
+[[cards]]
+text = "Mazeroski Walk-Off Home Run"
+
+[[cards]]
+text = "Great Pirate Pierogi Race"
+
+[[cards]]
+text = "The Roberto Clemente Bridge"

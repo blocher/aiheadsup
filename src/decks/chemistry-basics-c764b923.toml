@@ -1,0 +1,234 @@
+id = "deck_chemistry-basics_c764b923"
+revision = 1
+name = "Chemistry Basics"
+category = "Science"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include elements, atoms, molecules, reactions, states of matter, lab equipment, household chemistry, famous discoveries, and common chemical terms."
+photo_file_name = "chemistry-basics-c764b923-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Atom"
+
+[[cards]]
+text = "Molecule"
+
+[[cards]]
+text = "Proton"
+
+[[cards]]
+text = "Neutron"
+
+[[cards]]
+text = "Electron"
+
+[[cards]]
+text = "Nucleus"
+
+[[cards]]
+text = "Element"
+
+[[cards]]
+text = "Compound"
+
+[[cards]]
+text = "Periodic Table"
+
+[[cards]]
+text = "Chemical Reaction"
+
+[[cards]]
+text = "Oxygen"
+
+[[cards]]
+text = "Hydrogen"
+
+[[cards]]
+text = "Carbon Dioxide"
+
+[[cards]]
+text = "Helium"
+
+[[cards]]
+text = "Gold"
+
+[[cards]]
+text = "Silver"
+
+[[cards]]
+text = "Copper"
+
+[[cards]]
+text = "Iron"
+
+[[cards]]
+text = "Water"
+
+[[cards]]
+text = "Table Salt"
+
+[[cards]]
+text = "Baking Soda"
+
+[[cards]]
+text = "Vinegar"
+
+[[cards]]
+text = "Bunsen Burner"
+
+[[cards]]
+text = "Beaker"
+
+[[cards]]
+text = "Test Tube"
+
+[[cards]]
+text = "Flask"
+
+[[cards]]
+text = "Pipette"
+
+[[cards]]
+text = "pH Scale"
+
+[[cards]]
+text = "Acid"
+
+[[cards]]
+text = "Base"
+
+[[cards]]
+text = "Solid"
+
+[[cards]]
+text = "Liquid"
+
+[[cards]]
+text = "Gas"
+
+[[cards]]
+text = "Plasma"
+
+[[cards]]
+text = "Melting"
+
+[[cards]]
+text = "Freezing"
+
+[[cards]]
+text = "Evaporation"
+
+[[cards]]
+text = "Condensation"
+
+[[cards]]
+text = "Sublimation"
+
+[[cards]]
+text = "Rust"
+
+[[cards]]
+text = "Catalyst"
+
+[[cards]]
+text = "Solution"
+
+[[cards]]
+text = "Mixture"
+
+[[cards]]
+text = "Polymer"
+
+[[cards]]
+text = "Crystal"
+
+[[cards]]
+text = "Alchemy"
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Dmitri Mendeleev"
+
+[[cards]]
+text = "Combustion"
+
+[[cards]]
+text = "Temperature"
+
+[[cards]]
+text = "Nitrogen"
+
+[[cards]]
+text = "Graduated Cylinder"
+
+[[cards]]
+text = "Safety Goggles"
+
+[[cards]]
+text = "Boiling"
+
+[[cards]]
+text = "Soap"
+
+[[cards]]
+text = "Bleach"
+
+[[cards]]
+text = "Water Molecule"
+
+[[cards]]
+text = "Carbon"
+
+[[cards]]
+text = "Solubility"
+
+[[cards]]
+text = "Filter Paper"
+
+[[cards]]
+text = "Thermometer"
+
+[[cards]]
+text = "Goggles"
+
+[[cards]]
+text = "Helium Balloon"
+
+[[cards]]
+text = "Rusting"
+
+[[cards]]
+text = "Photosynthesis"
+
+[[cards]]
+text = "Microscope"
+
+[[cards]]
+text = "Food Coloring"
+
+[[cards]]
+text = "Dry Ice"
+
+[[cards]]
+text = "Yeast"
+
+[[cards]]
+text = "Soap Bubbles"
+
+[[cards]]
+text = "Crystallization"
+
+[[cards]]
+text = "Alloy"
+
+[[cards]]
+text = "Sodium"
+
+[[cards]]
+text = "Liquid Nitrogen"
+
+[[cards]]
+text = "Chemical Bond"

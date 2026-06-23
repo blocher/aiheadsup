@@ -1,0 +1,231 @@
+id = "deck_weather-and-natural-disasters_ef21bc1a"
+revision = 1
+name = "Weather and Natural Disasters"
+category = "Science"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include weather events, clouds, storms, seasons, climate terms, natural disasters, instruments, and safety-related science concepts."
+photo_file_name = "weather-and-natural-disasters-ef21bc1a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Hurricane"
+
+[[cards]]
+text = "Tornado"
+
+[[cards]]
+text = "Earthquake"
+
+[[cards]]
+text = "Tsunami"
+
+[[cards]]
+text = "Volcano"
+
+[[cards]]
+text = "Blizzard"
+
+[[cards]]
+text = "Thunderstorm"
+
+[[cards]]
+text = "Rainbow"
+
+[[cards]]
+text = "Lightning"
+
+[[cards]]
+text = "Raindrop"
+
+[[cards]]
+text = "Snowflake"
+
+[[cards]]
+text = "Hailstone"
+
+[[cards]]
+text = "Fog"
+
+[[cards]]
+text = "Mist"
+
+[[cards]]
+text = "Dew"
+
+[[cards]]
+text = "Frost"
+
+[[cards]]
+text = "Cumulus Cloud"
+
+[[cards]]
+text = "Stratus Cloud"
+
+[[cards]]
+text = "Cirrus Cloud"
+
+[[cards]]
+text = "Thermometer"
+
+[[cards]]
+text = "Rain Gauge"
+
+[[cards]]
+text = "Wind Vane"
+
+[[cards]]
+text = "Barometer"
+
+[[cards]]
+text = "Spring"
+
+[[cards]]
+text = "Summer"
+
+[[cards]]
+text = "Autumn"
+
+[[cards]]
+text = "Winter"
+
+[[cards]]
+text = "Solar Eclipse"
+
+[[cards]]
+text = "Avalanche"
+
+[[cards]]
+text = "Landslide"
+
+[[cards]]
+text = "Flood"
+
+[[cards]]
+text = "Drought"
+
+[[cards]]
+text = "Wildfire"
+
+[[cards]]
+text = "Heat Wave"
+
+[[cards]]
+text = "Cold Front"
+
+[[cards]]
+text = "Warm Front"
+
+[[cards]]
+text = "Atmosphere"
+
+[[cards]]
+text = "Greenhouse Effect"
+
+[[cards]]
+text = "Weather Balloon"
+
+[[cards]]
+text = "Meteorologist"
+
+[[cards]]
+text = "Hurricane Shelter"
+
+[[cards]]
+text = "Umbrella"
+
+[[cards]]
+text = "Raincoat"
+
+[[cards]]
+text = "Snow Boots"
+
+[[cards]]
+text = "Sunscreen"
+
+[[cards]]
+text = "Windmill"
+
+[[cards]]
+text = "Climate Change"
+
+[[cards]]
+text = "Evaporation"
+
+[[cards]]
+text = "Condensation"
+
+[[cards]]
+text = "Precipitation"
+
+[[cards]]
+text = "Thunder"
+
+[[cards]]
+text = "Sunburn"
+
+[[cards]]
+text = "Hailstorm"
+
+[[cards]]
+text = "Hurricane Eye"
+
+[[cards]]
+text = "Weather Forecast"
+
+[[cards]]
+text = "Storm Chaser"
+
+[[cards]]
+text = "Weather Vane"
+
+[[cards]]
+text = "Acid Rain"
+
+[[cards]]
+text = "Eclipse"
+
+[[cards]]
+text = "Humidity"
+
+[[cards]]
+text = "Dewdrop"
+
+[[cards]]
+text = "Frostbite"
+
+[[cards]]
+text = "Mudslide"
+
+[[cards]]
+text = "Dust Storm"
+
+[[cards]]
+text = "Typhoon"
+
+[[cards]]
+text = "Sandstorm"
+
+[[cards]]
+text = "Icicle"
+
+[[cards]]
+text = "Hail"
+
+[[cards]]
+text = "Snowman"
+
+[[cards]]
+text = "Monsoon"
+
+[[cards]]
+text = "Sunshine"
+
+[[cards]]
+text = "Storm Shelter"
+
+[[cards]]
+text = "Snowball"
+
+[[cards]]
+text = "Ice Storm"

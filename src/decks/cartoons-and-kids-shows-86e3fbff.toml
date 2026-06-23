@@ -1,0 +1,156 @@
+id = "deck_cartoons-and-kids-shows_86e3fbff"
+revision = 1
+name = "Cartoons and Kids Shows"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include family-friendly characters, shows, settings, catchphrases, objects, songs, and concepts from preschool and elementary-age entertainment."
+photo_file_name = "cartoons-and-kids-shows-86e3fbff-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "SpongeBob SquarePants"
+
+[[cards]]
+text = "Mickey Mouse"
+
+[[cards]]
+text = "Bluey"
+
+[[cards]]
+text = "Peppa Pig"
+
+[[cards]]
+text = "Pikachu"
+
+[[cards]]
+text = "Scooby-Doo"
+
+[[cards]]
+text = "PAW Patrol"
+
+[[cards]]
+text = "Bugs Bunny"
+
+[[cards]]
+text = "Dora the Explorer"
+
+[[cards]]
+text = "Elmo"
+
+[[cards]]
+text = "Lightning McQueen"
+
+[[cards]]
+text = "Buzz Lightyear"
+
+[[cards]]
+text = "Winnie the Pooh"
+
+[[cards]]
+text = "Barbie"
+
+[[cards]]
+text = "Shrek"
+
+[[cards]]
+text = "Patrick Star"
+
+[[cards]]
+text = "Thomas the Tank Engine"
+
+[[cards]]
+text = "PJ Masks"
+
+[[cards]]
+text = "Curious George"
+
+[[cards]]
+text = "The Powerpuff Girls"
+
+[[cards]]
+text = "Kermit the Frog"
+
+[[cards]]
+text = "Minions"
+
+[[cards]]
+text = "Donald Duck"
+
+[[cards]]
+text = "Big Bird"
+
+[[cards]]
+text = "Blue's Clues"
+
+[[cards]]
+text = "Phineas and Ferb"
+
+[[cards]]
+text = "Arthur"
+
+[[cards]]
+text = "Daniel Tiger"
+
+[[cards]]
+text = "Doc McStuffins"
+
+[[cards]]
+text = "My Little Pony"
+
+[[cards]]
+text = "Bob the Builder"
+
+[[cards]]
+text = "Ninja Turtles"
+
+[[cards]]
+text = "Tom and Jerry"
+
+[[cards]]
+text = "The Grinch"
+
+[[cards]]
+text = "Mystery Machine"
+
+[[cards]]
+text = "Bikini Bottom"
+
+[[cards]]
+text = "Wile E. Coyote"
+
+[[cards]]
+text = "Daffy Duck"
+
+[[cards]]
+text = "Road Runner"
+
+[[cards]]
+text = "The Muppets"
+
+[[cards]]
+text = "Cookie Monster"
+
+[[cards]]
+text = "Ash Ketchum"
+
+[[cards]]
+text = "Inspector Gadget"
+
+[[cards]]
+text = "Garfield"
+
+[[cards]]
+text = "Jimmy Neutron"
+
+[[cards]]
+text = "Danny Phantom"
+
+[[cards]]
+text = "Fairly OddParents"
+
+[[cards]]
+text = "Rugrats"
+
+[[cards]]
+text = "The Flintstones"

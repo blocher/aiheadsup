@@ -1,0 +1,189 @@
+id = "deck_greek-mythology_88ccf811"
+revision = 1
+name = "Greek Mythology"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Olympian gods, heroes, monsters, places, myths, quests, magical objects, Titans, demigods, and well-known ancient Greek stories."
+photo_file_name = "greek-mythology-88ccf811-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Zeus"
+
+[[cards]]
+text = "Poseidon"
+
+[[cards]]
+text = "Hades"
+
+[[cards]]
+text = "Hera"
+
+[[cards]]
+text = "Athena"
+
+[[cards]]
+text = "Apollo"
+
+[[cards]]
+text = "Artemis"
+
+[[cards]]
+text = "Ares"
+
+[[cards]]
+text = "Aphrodite"
+
+[[cards]]
+text = "Hermes"
+
+[[cards]]
+text = "Hephaestus"
+
+[[cards]]
+text = "Dionysus"
+
+[[cards]]
+text = "Hercules"
+
+[[cards]]
+text = "Perseus"
+
+[[cards]]
+text = "Theseus"
+
+[[cards]]
+text = "Jason"
+
+[[cards]]
+text = "Odysseus"
+
+[[cards]]
+text = "Achilles"
+
+[[cards]]
+text = "Medusa"
+
+[[cards]]
+text = "Minotaur"
+
+[[cards]]
+text = "Pegasus"
+
+[[cards]]
+text = "Cerberus"
+
+[[cards]]
+text = "Hydra"
+
+[[cards]]
+text = "Cyclops"
+
+[[cards]]
+text = "Centaur"
+
+[[cards]]
+text = "Mount Olympus"
+
+[[cards]]
+text = "River Styx"
+
+[[cards]]
+text = "Elysian Fields"
+
+[[cards]]
+text = "Pandora's Box"
+
+[[cards]]
+text = "Golden Fleece"
+
+[[cards]]
+text = "Trojan Horse"
+
+[[cards]]
+text = "Achilles' Heel"
+
+[[cards]]
+text = "Labyrinth"
+
+[[cards]]
+text = "Cronus"
+
+[[cards]]
+text = "Atlas"
+
+[[cards]]
+text = "Prometheus"
+
+[[cards]]
+text = "Icarus"
+
+[[cards]]
+text = "King Midas"
+
+[[cards]]
+text = "Orpheus"
+
+[[cards]]
+text = "Helen of Troy"
+
+[[cards]]
+text = "Chimera"
+
+[[cards]]
+text = "Sphinx"
+
+[[cards]]
+text = "Siren"
+
+[[cards]]
+text = "Persephone"
+
+[[cards]]
+text = "Trident"
+
+[[cards]]
+text = "Charon"
+
+[[cards]]
+text = "Narcissus"
+
+[[cards]]
+text = "Arachne"
+
+[[cards]]
+text = "Daedalus"
+
+[[cards]]
+text = "Underworld"
+
+[[cards]]
+text = "Demeter"
+
+[[cards]]
+text = "Jason and the Argonauts"
+
+[[cards]]
+text = "Kronos"
+
+[[cards]]
+text = "The Labyrinth"
+
+[[cards]]
+text = "Satyr"
+
+[[cards]]
+text = "Sirens"
+
+[[cards]]
+text = "Sisyphus"
+
+[[cards]]
+text = "The Underworld"
+
+[[cards]]
+text = "Parthenon"
+
+[[cards]]
+text = "Chiron"

@@ -1,0 +1,282 @@
+id = "deck_elementary-school-level-world-history_9284a4a5"
+revision = 1
+name = "Elementary School Level World History"
+category = "History"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include ancient civilizations, famous rulers, explorers, inventions, landmarks, world cultures, major events, and simple geography-linked history appropriate for elementary school."
+photo_file_name = "elementary-school-level-world-history-9284a4a5-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Pyramids of Giza"
+
+[[cards]]
+text = "Great Wall of China"
+
+[[cards]]
+text = "Roman Colosseum"
+
+[[cards]]
+text = "Ancient Egypt"
+
+[[cards]]
+text = "Ancient Greece"
+
+[[cards]]
+text = "Ancient Rome"
+
+[[cards]]
+text = "Cleopatra"
+
+[[cards]]
+text = "Julius Caesar"
+
+[[cards]]
+text = "King Tut"
+
+[[cards]]
+text = "Alexander the Great"
+
+[[cards]]
+text = "Mummy"
+
+[[cards]]
+text = "Pharaoh"
+
+[[cards]]
+text = "Sphinx"
+
+[[cards]]
+text = "Christopher Columbus"
+
+[[cards]]
+text = "Marco Polo"
+
+[[cards]]
+text = "Ferdinand Magellan"
+
+[[cards]]
+text = "Viking Ship"
+
+[[cards]]
+text = "Printing Press"
+
+[[cards]]
+text = "The Wheel"
+
+[[cards]]
+text = "Magnetic Compass"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "Pocahontas"
+
+[[cards]]
+text = "Albert Einstein"
+
+[[cards]]
+text = "Leonardo da Vinci"
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Mahatma Gandhi"
+
+[[cards]]
+text = "Wright Brothers"
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Knight in Armor"
+
+[[cards]]
+text = "Medieval Castle"
+
+[[cards]]
+text = "Gladiator"
+
+[[cards]]
+text = "Pirate Ship"
+
+[[cards]]
+text = "Caveman"
+
+[[cards]]
+text = "Trojan Horse"
+
+[[cards]]
+text = "Royal Crown"
+
+[[cards]]
+text = "Sarcophagus"
+
+[[cards]]
+text = "Papyrus"
+
+[[cards]]
+text = "Hieroglyphics"
+
+[[cards]]
+text = "Roman Chariot"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Taj Mahal"
+
+[[cards]]
+text = "Mount Olympus"
+
+[[cards]]
+text = "Stonehenge"
+
+[[cards]]
+text = "Eiffel Tower"
+
+[[cards]]
+text = "Silk Road"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Wright Flyer"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "The Great Wall"
+
+[[cards]]
+text = "Vikings"
+
+[[cards]]
+text = "Knights"
+
+[[cards]]
+text = "Castles"
+
+[[cards]]
+text = "Mount Everest"
+
+[[cards]]
+text = "Magna Carta"
+
+[[cards]]
+text = "The Wright Brothers"
+
+[[cards]]
+text = "Mona Lisa"
+
+[[cards]]
+text = "Great Sphinx"
+
+[[cards]]
+text = "Athens"
+
+[[cards]]
+text = "Sparta"
+
+[[cards]]
+text = "The Mayans"
+
+[[cards]]
+text = "Aztecs"
+
+[[cards]]
+text = "Incas"
+
+[[cards]]
+text = "Machu Picchu"
+
+[[cards]]
+text = "Tower of London"
+
+[[cards]]
+text = "Thomas Edison"
+
+[[cards]]
+text = "Isaac Newton"
+
+[[cards]]
+text = "Gutenberg Printing Press"
+
+[[cards]]
+text = "Chariot"
+
+[[cards]]
+text = "Pompeii"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Titanic"
+
+[[cards]]
+text = "The Great Pyramids"
+
+[[cards]]
+text = "Roman Empire"
+
+[[cards]]
+text = "Medieval Knights"
+
+[[cards]]
+text = "Mummies"
+
+[[cards]]
+text = "The Silk Road"
+
+[[cards]]
+text = "The Printing Press"
+
+[[cards]]
+text = "The Colosseum"
+
+[[cards]]
+text = "Mayan Ruins"
+
+[[cards]]
+text = "The Stone Age"
+
+[[cards]]
+text = "The Rosetta Stone"
+
+[[cards]]
+text = "Great Sphinx of Giza"
+
+[[cards]]
+text = "The Olympic Games"
+
+[[cards]]
+text = "The Mummy"
+
+[[cards]]
+text = "Greek Temple"
+
+[[cards]]
+text = "The Renaissance"
+
+[[cards]]
+text = "Viking Longship"
+
+[[cards]]
+text = "Colosseum"

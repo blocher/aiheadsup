@@ -1,0 +1,156 @@
+id = "deck_kids-movies_cc6428d1"
+revision = 1
+name = "Kids Movies"
+category = "Kids"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include family-friendly movie characters, titles, settings, songs, objects, animals, heroes, villains, and memorable kid-movie moments."
+photo_file_name = "kids-movies-cc6428d1-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Buzz Lightyear"
+
+[[cards]]
+text = "Lightning McQueen"
+
+[[cards]]
+text = "Elsa"
+
+[[cards]]
+text = "Shrek"
+
+[[cards]]
+text = "Simba"
+
+[[cards]]
+text = "Paddington Bear"
+
+[[cards]]
+text = "Moana"
+
+[[cards]]
+text = "Po the Panda"
+
+[[cards]]
+text = "Baymax"
+
+[[cards]]
+text = "Gru"
+
+[[cards]]
+text = "Donkey"
+
+[[cards]]
+text = "Stitch"
+
+[[cards]]
+text = "Woody"
+
+[[cards]]
+text = "Olaf"
+
+[[cards]]
+text = "Maui"
+
+[[cards]]
+text = "Captain Hook"
+
+[[cards]]
+text = "Ursula"
+
+[[cards]]
+text = "Cruella de Vil"
+
+[[cards]]
+text = "Jafar"
+
+[[cards]]
+text = "Scar"
+
+[[cards]]
+text = "Pride Rock"
+
+[[cards]]
+text = "Arendelle"
+
+[[cards]]
+text = "Monstropolis"
+
+[[cards]]
+text = "Radiator Springs"
+
+[[cards]]
+text = "Neverland"
+
+[[cards]]
+text = "Bikini Bottom"
+
+[[cards]]
+text = "Hakuna Matata"
+
+[[cards]]
+text = "Poison Apple"
+
+[[cards]]
+text = "Magic Carpet"
+
+[[cards]]
+text = "Glass Slipper"
+
+[[cards]]
+text = "Golden Ticket"
+
+[[cards]]
+text = "Shrink Ray"
+
+[[cards]]
+text = "Toothless"
+
+[[cards]]
+text = "Remy"
+
+[[cards]]
+text = "Sebastian"
+
+[[cards]]
+text = "Cheshire Cat"
+
+[[cards]]
+text = "Minions"
+
+[[cards]]
+text = "Dory"
+
+[[cards]]
+text = "Dug the Dog"
+
+[[cards]]
+text = "Sven"
+
+[[cards]]
+text = "To Infinity and Beyond"
+
+[[cards]]
+text = "Under the Sea"
+
+[[cards]]
+text = "Let It Go"
+
+[[cards]]
+text = "The Circle of Life"
+
+[[cards]]
+text = "Supercalifragilisticexpialidocious"
+
+[[cards]]
+text = "Wall-E"
+
+[[cards]]
+text = "Judy Hopps"
+
+[[cards]]
+text = "Megamind"
+
+[[cards]]
+text = "The Lorax"

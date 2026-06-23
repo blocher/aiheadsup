@@ -1,0 +1,329 @@
+id = "deck_harry-potter-book-7-harry-potter-and-the-deathly-hallows_f41ee6be"
+revision = 1
+name = "Harry Potter Book 7: Harry Potter and the Deathly Hallows"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-book-7-harry-potter-and-the-deathly-hallows-f41ee6be-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Elder Wand"
+first_revealed_book = 7
+
+[[cards]]
+text = "Resurrection Stone"
+first_revealed_book = 7
+
+[[cards]]
+text = "Invisibility Cloak"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Deathly Hallows"
+first_revealed_book = 7
+
+[[cards]]
+text = "Gellert Grindelwald"
+first_revealed_book = 1
+
+[[cards]]
+text = "Godric's Hollow"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bathilda Bagshot"
+first_revealed_book = 1
+
+[[cards]]
+text = "Xenophilius Lovegood"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Silver Doe"
+first_revealed_book = 7
+
+[[cards]]
+text = "Battle of Hogwarts"
+first_revealed_book = 7
+
+[[cards]]
+text = "Shell Cottage"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Seven Potters"
+first_revealed_book = 7
+
+[[cards]]
+text = "Potterwatch"
+first_revealed_book = 7
+
+[[cards]]
+text = "Gringotts Dragon"
+first_revealed_book = 1
+
+[[cards]]
+text = "Sword of Gryffindor"
+first_revealed_book = 2
+
+[[cards]]
+text = "Slytherin's Locket"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hufflepuff's Cup"
+first_revealed_book = 6
+
+[[cards]]
+text = "Ravenclaw's Diadem"
+first_revealed_book = 6
+
+[[cards]]
+text = "Nagini"
+first_revealed_book = 4
+
+[[cards]]
+text = "Tom Riddle's Diary"
+first_revealed_book = 2
+
+[[cards]]
+text = "Marvolo Gaunt's Ring"
+first_revealed_book = 6
+
+[[cards]]
+text = "Deluminator"
+first_revealed_book = 1
+
+[[cards]]
+text = "Beedle the Bard"
+first_revealed_book = 7
+
+[[cards]]
+text = "King's Cross Station"
+first_revealed_book = 1
+
+[[cards]]
+text = "Malfoy Manor"
+first_revealed_book = 2
+
+[[cards]]
+text = "Gringotts Bank"
+first_revealed_book = 1
+
+[[cards]]
+text = "Narcissa Malfoy"
+first_revealed_book = 4
+
+[[cards]]
+text = "Lucius Malfoy"
+first_revealed_book = 2
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_book = 1
+
+[[cards]]
+text = "Remus Lupin"
+first_revealed_book = 3
+
+[[cards]]
+text = "Nymphadora Tonks"
+first_revealed_book = 5
+
+[[cards]]
+text = "Teddy Lupin"
+first_revealed_book = 7
+
+[[cards]]
+text = "Kingsley Shacklebolt"
+first_revealed_book = 5
+
+[[cards]]
+text = "Aberforth Dumbledore"
+first_revealed_book = 4
+
+[[cards]]
+text = "Kreacher"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dobby"
+first_revealed_book = 2
+
+[[cards]]
+text = "Griphook"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ollivander"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gregorovitch"
+first_revealed_book = 4
+
+[[cards]]
+text = "Severus Snape"
+first_revealed_book = 1
+
+[[cards]]
+text = "Lily Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "James Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "Albus Dumbledore"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_book = 1
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "Lord Voldemort"
+first_revealed_book = 1
+
+[[cards]]
+text = "Neville Longbottom"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bellatrix Lestrange"
+first_revealed_book = 4
+
+[[cards]]
+text = "Fred Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Deluminator"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ariana Dumbledore"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Battle of Hogwarts"
+first_revealed_book = 7
+
+[[cards]]
+text = "Fiendfyre"
+first_revealed_book = 7
+
+[[cards]]
+text = "Ted Tonks"
+first_revealed_book = 7
+
+[[cards]]
+text = "Regulus Black"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Grey Lady"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Bloody Baron"
+first_revealed_book = 1
+
+[[cards]]
+text = "Harry's Scar"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Forest of Dean"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Hog's Head"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hermione's Beaded Bag"
+first_revealed_book = 7
+
+[[cards]]
+text = "Pius Thicknesse"
+first_revealed_book = 7
+
+[[cards]]
+text = "Scabior"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Snatchers"
+first_revealed_book = 7
+
+[[cards]]
+text = "Charity Burbage"
+first_revealed_book = 7
+
+[[cards]]
+text = "Lee Jordan"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Taboo Curse"
+first_revealed_book = 7
+
+[[cards]]
+text = "Nurmengard"
+first_revealed_book = 7
+
+[[cards]]
+text = "Auntie Muriel"
+first_revealed_book = 6
+
+[[cards]]
+text = "Elphias Doge"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Wedding Tent"
+first_revealed_book = 7
+
+[[cards]]
+text = "Silver Hand"
+first_revealed_book = 4
+
+[[cards]]
+text = "Master of Death"
+first_revealed_book = 7
+
+[[cards]]
+text = "Helena Ravenclaw"
+first_revealed_book = 1
+
+[[cards]]
+text = "R.A.B."
+first_revealed_book = 6
+
+[[cards]]
+text = "Albert Runcorn"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Elder Wand"
+first_revealed_book = 7
+
+[[cards]]
+text = "Cloak of Invisibility"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bill and Fleur's Wedding"
+first_revealed_book = 7

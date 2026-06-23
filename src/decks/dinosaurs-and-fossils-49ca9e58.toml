@@ -1,0 +1,228 @@
+id = "deck_dinosaurs-and-fossils_49ca9e58"
+revision = 1
+name = "Dinosaurs and Fossils"
+category = "Science"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include dinosaurs, prehistoric animals, fossils, paleontology tools, geologic eras, extinction events, museums, and family-friendly dinosaur facts."
+photo_file_name = "dinosaurs-and-fossils-49ca9e58-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Tyrannosaurus Rex"
+
+[[cards]]
+text = "Triceratops"
+
+[[cards]]
+text = "Velociraptor"
+
+[[cards]]
+text = "Stegosaurus"
+
+[[cards]]
+text = "Brachiosaurus"
+
+[[cards]]
+text = "Pterodactyl"
+
+[[cards]]
+text = "Woolly Mammoth"
+
+[[cards]]
+text = "Sabre-Toothed Tiger"
+
+[[cards]]
+text = "Paleontologist"
+
+[[cards]]
+text = "Fossil Dig Site"
+
+[[cards]]
+text = "Dinosaur Egg"
+
+[[cards]]
+text = "Coprolite"
+
+[[cards]]
+text = "Petrified Wood"
+
+[[cards]]
+text = "Amber Insect"
+
+[[cards]]
+text = "Ammonite"
+
+[[cards]]
+text = "Trilobite"
+
+[[cards]]
+text = "Mesozoic Era"
+
+[[cards]]
+text = "Jurassic Period"
+
+[[cards]]
+text = "Cretaceous Period"
+
+[[cards]]
+text = "Triassic Period"
+
+[[cards]]
+text = "Ankylosaurus"
+
+[[cards]]
+text = "Spinosaurus"
+
+[[cards]]
+text = "Parasaurolophus"
+
+[[cards]]
+text = "Pachycephalosaurus"
+
+[[cards]]
+text = "Archaeopteryx"
+
+[[cards]]
+text = "Plesiosaur"
+
+[[cards]]
+text = "Mosasaurus"
+
+[[cards]]
+text = "Megalodon"
+
+[[cards]]
+text = "Ichthyosaurus"
+
+[[cards]]
+text = "Pteranodon"
+
+[[cards]]
+text = "Diplodocus"
+
+[[cards]]
+text = "Iguanodon"
+
+[[cards]]
+text = "Dilophosaurus"
+
+[[cards]]
+text = "Carnivore"
+
+[[cards]]
+text = "Herbivore"
+
+[[cards]]
+text = "Asteroid Impact"
+
+[[cards]]
+text = "Mass Extinction"
+
+[[cards]]
+text = "Tar Pits"
+
+[[cards]]
+text = "Natural History Museum"
+
+[[cards]]
+text = "Plaster Jacket"
+
+[[cards]]
+text = "Paleontology Brush"
+
+[[cards]]
+text = "Sedimentary Rock"
+
+[[cards]]
+text = "Fossilized Footprint"
+
+[[cards]]
+text = "Skeleton Reconstruction"
+
+[[cards]]
+text = "Ice Age"
+
+[[cards]]
+text = "Theropod"
+
+[[cards]]
+text = "Sauropod"
+
+[[cards]]
+text = "Hadrosaur"
+
+[[cards]]
+text = "Allosaurus"
+
+[[cards]]
+text = "Carnotaurus"
+
+[[cards]]
+text = "Saber-Toothed Cat"
+
+[[cards]]
+text = "Giganotosaurus"
+
+[[cards]]
+text = "Amber"
+
+[[cards]]
+text = "Fossil Dig"
+
+[[cards]]
+text = "Rock Hammer"
+
+[[cards]]
+text = "Chisel"
+
+[[cards]]
+text = "Soft Brush"
+
+[[cards]]
+text = "Excavation Site"
+
+[[cards]]
+text = "Volcanic Eruption"
+
+[[cards]]
+text = "Pangea"
+
+[[cards]]
+text = "Woolly Rhinoceros"
+
+[[cards]]
+text = "Ichthyosaur"
+
+[[cards]]
+text = "Saber-Toothed Tiger"
+
+[[cards]]
+text = "Chisel and Hammer"
+
+[[cards]]
+text = "Magnifying Glass"
+
+[[cards]]
+text = "Plaster Cast"
+
+[[cards]]
+text = "Dinosaur Bone"
+
+[[cards]]
+text = "Fossil Dig Kit"
+
+[[cards]]
+text = "Skeleton Exhibit"
+
+[[cards]]
+text = "Mammoth Tusk"
+
+[[cards]]
+text = "Excavation Brush"
+
+[[cards]]
+text = "Dig Site"
+
+[[cards]]
+text = "Skeletal Reconstruction"

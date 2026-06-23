@@ -1,0 +1,219 @@
+id = "deck_international-foods_f396f33b"
+revision = 1
+name = "International Foods"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include famous dishes, ingredients, cuisines, sauces, breads, noodles, rice dishes, street foods, and recognizable foods from around the world."
+photo_file_name = "international-foods-f396f33b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Pad Thai"
+
+[[cards]]
+text = "Tacos al Pastor"
+
+[[cards]]
+text = "Croissant"
+
+[[cards]]
+text = "Sushi Roll"
+
+[[cards]]
+text = "Gelato"
+
+[[cards]]
+text = "Chicken Tikka Masala"
+
+[[cards]]
+text = "Poutine"
+
+[[cards]]
+text = "Peking Duck"
+
+[[cards]]
+text = "Pho"
+
+[[cards]]
+text = "Falafel"
+
+[[cards]]
+text = "Hummus"
+
+[[cards]]
+text = "Dim Sum"
+
+[[cards]]
+text = "Paella"
+
+[[cards]]
+text = "Pierogi"
+
+[[cards]]
+text = "Gyoza"
+
+[[cards]]
+text = "Baklava"
+
+[[cards]]
+text = "Ramen"
+
+[[cards]]
+text = "Quesadilla"
+
+[[cards]]
+text = "Kimchi"
+
+[[cards]]
+text = "Naan Bread"
+
+[[cards]]
+text = "Fish and Chips"
+
+[[cards]]
+text = "Crepe"
+
+[[cards]]
+text = "Churros"
+
+[[cards]]
+text = "Guacamole"
+
+[[cards]]
+text = "Biryani"
+
+[[cards]]
+text = "Miso Soup"
+
+[[cards]]
+text = "Bruschetta"
+
+[[cards]]
+text = "Empanada"
+
+[[cards]]
+text = "Macaron"
+
+[[cards]]
+text = "Cannoli"
+
+[[cards]]
+text = "Tiramisu"
+
+[[cards]]
+text = "Eggs Benedict"
+
+[[cards]]
+text = "Shakshuka"
+
+[[cards]]
+text = "Ceviche"
+
+[[cards]]
+text = "Chimichanga"
+
+[[cards]]
+text = "Escargot"
+
+[[cards]]
+text = "Goulash"
+
+[[cards]]
+text = "Wiener Schnitzel"
+
+[[cards]]
+text = "Samosa"
+
+[[cards]]
+text = "Edamame"
+
+[[cards]]
+text = "Bibimbap"
+
+[[cards]]
+text = "Arepa"
+
+[[cards]]
+text = "Bao Bun"
+
+[[cards]]
+text = "Yorkshire Pudding"
+
+[[cards]]
+text = "Beef Wellington"
+
+[[cards]]
+text = "Clam Chowder"
+
+[[cards]]
+text = "Moussaka"
+
+[[cards]]
+text = "Chicken Satay"
+
+[[cards]]
+text = "Spring Roll"
+
+[[cards]]
+text = "Margherita Pizza"
+
+[[cards]]
+text = "Taco Al Pastor"
+
+[[cards]]
+text = "French Onion Soup"
+
+[[cards]]
+text = "Butter Chicken"
+
+[[cards]]
+text = "Pad See Ew"
+
+[[cards]]
+text = "Gyro"
+
+[[cards]]
+text = "Macarons"
+
+[[cards]]
+text = "Jerk Chicken"
+
+[[cards]]
+text = "Schnitzel"
+
+[[cards]]
+text = "Tom Yum Soup"
+
+[[cards]]
+text = "Bao Buns"
+
+[[cards]]
+text = "Tandoori Chicken"
+
+[[cards]]
+text = "Spring Rolls"
+
+[[cards]]
+text = "Baba Ghanoush"
+
+[[cards]]
+text = "French Macarons"
+
+[[cards]]
+text = "Sushi"
+
+[[cards]]
+text = "Tacos"
+
+[[cards]]
+text = "Beef Stroganoff"
+
+[[cards]]
+text = "Crepes"
+
+[[cards]]
+text = "Borscht"
+
+[[cards]]
+text = "Taco"

@@ -1,0 +1,349 @@
+id = "deck_harry-potter-ministry-and-wizarding-law_fdde6e7d"
+revision = 1
+name = "Harry Potter: Ministry and Wizarding Law"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include departments, officials, laws, trials, punishments, political groups, and bureaucracy."
+photo_file_name = "harry-potter-ministry-and-wizarding-law-fdde6e7d-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Decree for Underage Sorcery"
+first_revealed_book = 2
+
+[[cards]]
+text = "Statute of Secrecy"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Wizengamot"
+first_revealed_book = 1
+
+[[cards]]
+text = "Department of Mysteries"
+first_revealed_book = 4
+
+[[cards]]
+text = "Misuse of Muggle Artefacts"
+first_revealed_book = 2
+
+[[cards]]
+text = "Committee for Dangerous Creatures"
+first_revealed_book = 3
+
+[[cards]]
+text = "Accidental Magic Reversal Squad"
+first_revealed_book = 3
+
+[[cards]]
+text = "Muggle-Born Registration Commission"
+first_revealed_book = 7
+
+[[cards]]
+text = "Unspeakable"
+first_revealed_book = 4
+
+[[cards]]
+text = "Obliviator"
+first_revealed_book = 3
+
+[[cards]]
+text = "Auror Office"
+first_revealed_book = 4
+
+[[cards]]
+text = "Inquisitorial Squad"
+first_revealed_book = 5
+
+[[cards]]
+text = "Chief Warlock"
+first_revealed_book = 1
+
+[[cards]]
+text = "Courtroom Ten"
+first_revealed_book = 5
+
+[[cards]]
+text = "The Veil"
+first_revealed_book = 5
+
+[[cards]]
+text = "Hall of Prophecy"
+first_revealed_book = 5
+
+[[cards]]
+text = "Ministry Memo"
+first_revealed_book = 5
+
+[[cards]]
+text = "Magical Maintenance"
+first_revealed_book = 7
+
+[[cards]]
+text = "Font of Magical Brethren"
+first_revealed_book = 5
+
+[[cards]]
+text = "Amelia Bones"
+first_revealed_book = 4
+
+[[cards]]
+text = "Rufus Scrimgeour"
+first_revealed_book = 6
+
+[[cards]]
+text = "Pius Thicknesse"
+first_revealed_book = 7
+
+[[cards]]
+text = "John Dawlish"
+first_revealed_book = 5
+
+[[cards]]
+text = "Albert Runcorn"
+first_revealed_book = 7
+
+[[cards]]
+text = "Mafalda Hopkirk"
+first_revealed_book = 2
+
+[[cards]]
+text = "Reg Cattermole"
+first_revealed_book = 7
+
+[[cards]]
+text = "Bob Ogden"
+first_revealed_book = 6
+
+[[cards]]
+text = "Dirk Cresswell"
+first_revealed_book = 7
+
+[[cards]]
+text = "Wilkie Twycross"
+first_revealed_book = 6
+
+[[cards]]
+text = "Ludovic Bagman"
+first_revealed_book = 4
+
+[[cards]]
+text = "Bartemius Crouch Senior"
+first_revealed_book = 4
+
+[[cards]]
+text = "Broderick Bode"
+first_revealed_book = 4
+
+[[cards]]
+text = "Amos Diggory"
+first_revealed_book = 4
+
+[[cards]]
+text = "Bertha Jorkins"
+first_revealed_book = 4
+
+[[cards]]
+text = "Ban on Experimental Breeding"
+first_revealed_book = 4
+
+[[cards]]
+text = "Code of Wand Use"
+first_revealed_book = 4
+
+[[cards]]
+text = "Educational Decree Twenty-Four"
+first_revealed_book = 5
+
+[[cards]]
+text = "Educational Decree Twenty-Six"
+first_revealed_book = 5
+
+[[cards]]
+text = "Improper Use of Magic"
+first_revealed_book = 2
+
+[[cards]]
+text = "Goblin Liaison Office"
+first_revealed_book = 4
+
+[[cards]]
+text = "Office for House-Elf Relocation"
+first_revealed_book = 4
+
+[[cards]]
+text = "Beast Division"
+first_revealed_book = 4
+
+[[cards]]
+text = "Being Division"
+first_revealed_book = 4
+
+[[cards]]
+text = "Spirit Division"
+first_revealed_book = 4
+
+[[cards]]
+text = "Pest Sub-Division"
+first_revealed_book = 2
+
+[[cards]]
+text = "Magical Law Enforcement Patrol"
+first_revealed_book = 5
+
+[[cards]]
+text = "Floo Network Authority"
+first_revealed_book = 4
+
+[[cards]]
+text = "Minister Hermione Granger"
+first_revealed_book = 8
+
+[[cards]]
+text = "Azkaban"
+first_revealed_book = 2
+
+[[cards]]
+text = "Dementor's Kiss"
+first_revealed_book = 3
+
+[[cards]]
+text = "Wizengamot"
+first_revealed_book = 4
+
+[[cards]]
+text = "Underage Magic Office"
+first_revealed_book = 2
+
+[[cards]]
+text = "Underage Sorcery Decree"
+first_revealed_book = 2
+
+[[cards]]
+text = "Magical Law Enforcement"
+first_revealed_book = 2
+
+[[cards]]
+text = "Dangerous Creatures Committee"
+first_revealed_book = 3
+
+[[cards]]
+text = "Magical Games and Sports"
+first_revealed_book = 4
+
+[[cards]]
+text = "International Magical Cooperation"
+first_revealed_book = 4
+
+[[cards]]
+text = "Magical Creatures Department"
+first_revealed_book = 4
+
+[[cards]]
+text = "Obliviator Headquarters"
+first_revealed_book = 3
+
+[[cards]]
+text = "Gamp's Law"
+first_revealed_book = 7
+
+[[cards]]
+text = "Nurmengard"
+first_revealed_book = 7
+
+[[cards]]
+text = "Wizengamot Trial"
+first_revealed_book = 4
+
+[[cards]]
+text = "Disciplinary Hearing"
+first_revealed_book = 5
+
+[[cards]]
+text = "Junior Assistant"
+first_revealed_book = 5
+
+[[cards]]
+text = "Barty Crouch Senior"
+first_revealed_book = 4
+
+[[cards]]
+text = "Kingsley Shacklebolt"
+first_revealed_book = 5
+
+[[cards]]
+text = "Dolores Umbridge"
+first_revealed_book = 5
+
+[[cards]]
+text = "Corban Yaxley"
+first_revealed_book = 7
+
+[[cards]]
+text = "Ludo Bagman"
+first_revealed_book = 4
+
+[[cards]]
+text = "Magical Maintenance Department"
+first_revealed_book = 7
+
+[[cards]]
+text = "Fountain of Magical Brethren"
+first_revealed_book = 5
+
+[[cards]]
+text = "Ministry Visitor's Entrance"
+first_revealed_book = 5
+
+[[cards]]
+text = "Brain Room"
+first_revealed_book = 5
+
+[[cards]]
+text = "Ludicrous Patents Office"
+first_revealed_book = 4
+
+[[cards]]
+text = "Experimental Charms Committee"
+first_revealed_book = 2
+
+[[cards]]
+text = "Proscribed Charmable Objects Registry"
+first_revealed_book = 2
+
+[[cards]]
+text = "International Statute of Secrecy"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dangerous Creatures Disposal Committee"
+first_revealed_book = 3
+
+[[cards]]
+text = "House-Elf Relocation Office"
+first_revealed_book = 4
+
+[[cards]]
+text = "Griselda Marchbanks"
+first_revealed_book = 5
+
+[[cards]]
+text = "Muggle Artefacts Office"
+first_revealed_book = 2
+
+[[cards]]
+text = "Interdepartmental Memos"
+first_revealed_book = 5
+
+[[cards]]
+text = "Disposal of Dangerous Creatures"
+first_revealed_book = 3
+
+[[cards]]
+text = "Werewolf Registry"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Dementor's Kiss"
+first_revealed_book = 3

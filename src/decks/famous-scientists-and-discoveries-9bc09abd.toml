@@ -1,0 +1,231 @@
+id = "deck_famous-scientists-and-discoveries_9bc09abd"
+revision = 1
+name = "Famous Scientists and Discoveries"
+category = "Science"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include scientists, inventors, discoveries, theories, experiments, Nobel Prize ideas, scientific instruments, and major breakthroughs across fields."
+photo_file_name = "famous-scientists-and-discoveries-9bc09abd-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Albert Einstein"
+
+[[cards]]
+text = "Rosalind Franklin"
+
+[[cards]]
+text = "Nikola Tesla"
+
+[[cards]]
+text = "Ada Lovelace"
+
+[[cards]]
+text = "Alan Turing"
+
+[[cards]]
+text = "Barbara McClintock"
+
+[[cards]]
+text = "Richard Feynman"
+
+[[cards]]
+text = "Niels Bohr"
+
+[[cards]]
+text = "Charles Darwin"
+
+[[cards]]
+text = "Louis Pasteur"
+
+[[cards]]
+text = "Dmitri Mendeleev"
+
+[[cards]]
+text = "Carl Sagan"
+
+[[cards]]
+text = "Stephen Hawking"
+
+[[cards]]
+text = "Tu Youyou"
+
+[[cards]]
+text = "Katherine Johnson"
+
+[[cards]]
+text = "Werner Heisenberg"
+
+[[cards]]
+text = "Rachel Carson"
+
+[[cards]]
+text = "Gregor Mendel"
+
+[[cards]]
+text = "Isaac Newton"
+
+[[cards]]
+text = "Theory of Relativity"
+
+[[cards]]
+text = "Double Helix Structure"
+
+[[cards]]
+text = "Quantum Entanglement"
+
+[[cards]]
+text = "Penicillin Discovery"
+
+[[cards]]
+text = "Cosmic Microwave Background"
+
+[[cards]]
+text = "Plate Tectonics"
+
+[[cards]]
+text = "Higgs Boson"
+
+[[cards]]
+text = "CRISPR Gene Editing"
+
+[[cards]]
+text = "Photoelectric Effect"
+
+[[cards]]
+text = "Gravitational Waves"
+
+[[cards]]
+text = "Natural Selection"
+
+[[cards]]
+text = "Event Horizon"
+
+[[cards]]
+text = "Dark Matter"
+
+[[cards]]
+text = "Big Bang Theory"
+
+[[cards]]
+text = "Superconductivity"
+
+[[cards]]
+text = "Continental Drift"
+
+[[cards]]
+text = "Schrödinger's Cat"
+
+[[cards]]
+text = "Double Slit Experiment"
+
+[[cards]]
+text = "Michelson-Morley Experiment"
+
+[[cards]]
+text = "Miller-Urey Experiment"
+
+[[cards]]
+text = "Pavlovian Conditioning"
+
+[[cards]]
+text = "Large Hadron Collider"
+
+[[cards]]
+text = "Hubble Space Telescope"
+
+[[cards]]
+text = "Geiger Counter"
+
+[[cards]]
+text = "Scanning Electron Microscope"
+
+[[cards]]
+text = "James Webb Telescope"
+
+[[cards]]
+text = "Seismograph"
+
+[[cards]]
+text = "Mass Spectrometer"
+
+[[cards]]
+text = "Particle Accelerator"
+
+[[cards]]
+text = "Cloud Chamber"
+
+[[cards]]
+text = "Galileo Galilei"
+
+[[cards]]
+text = "Dmitry Mendeleev"
+
+[[cards]]
+text = "Max Planck"
+
+[[cards]]
+text = "Jane Goodall"
+
+[[cards]]
+text = "Double Helix"
+
+[[cards]]
+text = "Penicillin"
+
+[[cards]]
+text = "Periodic Table"
+
+[[cards]]
+text = "Quantum Mechanics"
+
+[[cards]]
+text = "CRISPR Cas9"
+
+[[cards]]
+text = "Photosynthesis"
+
+[[cards]]
+text = "Gravity"
+
+[[cards]]
+text = "Radioactive Decay"
+
+[[cards]]
+text = "Electron Microscope"
+
+[[cards]]
+text = "Schrodinger's Cat"
+
+[[cards]]
+text = "Pavlov's Dog"
+
+[[cards]]
+text = "Nuclear Fission"
+
+[[cards]]
+text = "Black Hole"
+
+[[cards]]
+text = "Electromagnetism"
+
+[[cards]]
+text = "Carbon Dating"
+
+[[cards]]
+text = "Nicolaus Copernicus"
+
+[[cards]]
+text = "Brownian Motion"
+
+[[cards]]
+text = "Keck Observatory"
+
+[[cards]]
+text = "CRISPR"
+
+[[cards]]
+text = "The Big Bang"

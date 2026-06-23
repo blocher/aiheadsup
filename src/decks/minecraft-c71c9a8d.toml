@@ -1,0 +1,273 @@
+id = "deck_minecraft_c71c9a8d"
+revision = 1
+name = "Minecraft"
+category = "Games"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include mobs, blocks, biomes, tools, weapons, crafting items, dimensions, structures, enchantments, game modes, Minecraft YouTube-style terms, and common player actions."
+photo_file_name = "minecraft-c71c9a8d-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Creeper"
+
+[[cards]]
+text = "Enderman"
+
+[[cards]]
+text = "Ender Dragon"
+
+[[cards]]
+text = "Iron Golem"
+
+[[cards]]
+text = "Ghast"
+
+[[cards]]
+text = "The Wither"
+
+[[cards]]
+text = "Zombified Piglin"
+
+[[cards]]
+text = "Wandering Trader"
+
+[[cards]]
+text = "Phantom"
+
+[[cards]]
+text = "Axolotl"
+
+[[cards]]
+text = "Obsidian"
+
+[[cards]]
+text = "Redstone Dust"
+
+[[cards]]
+text = "Bedrock"
+
+[[cards]]
+text = "Crafting Table"
+
+[[cards]]
+text = "Sticky Piston"
+
+[[cards]]
+text = "Glowstone"
+
+[[cards]]
+text = "Soul Sand"
+
+[[cards]]
+text = "Sponge Block"
+
+[[cards]]
+text = "The Nether"
+
+[[cards]]
+text = "The End"
+
+[[cards]]
+text = "Mushroom Island"
+
+[[cards]]
+text = "Cherry Grove"
+
+[[cards]]
+text = "Netherite Sword"
+
+[[cards]]
+text = "Diamond Pickaxe"
+
+[[cards]]
+text = "Elytra"
+
+[[cards]]
+text = "Trident"
+
+[[cards]]
+text = "Golden Apple"
+
+[[cards]]
+text = "Flint and Steel"
+
+[[cards]]
+text = "Eye of Ender"
+
+[[cards]]
+text = "Ender Pearl"
+
+[[cards]]
+text = "Blaze Rod"
+
+[[cards]]
+text = "Totem of Undying"
+
+[[cards]]
+text = "Nether Star"
+
+[[cards]]
+text = "Silk Touch"
+
+[[cards]]
+text = "Mending"
+
+[[cards]]
+text = "Stronghold"
+
+[[cards]]
+text = "Ocean Monument"
+
+[[cards]]
+text = "Nether Fortress"
+
+[[cards]]
+text = "Woodland Mansion"
+
+[[cards]]
+text = "Bastion Remnant"
+
+[[cards]]
+text = "Creative Mode"
+
+[[cards]]
+text = "Hardcore Mode"
+
+[[cards]]
+text = "Survival Mode"
+
+[[cards]]
+text = "Speedrunning"
+
+[[cards]]
+text = "Mining Diamonds"
+
+[[cards]]
+text = "Defeating the Dragon"
+
+[[cards]]
+text = "Taming a Wolf"
+
+[[cards]]
+text = "Brewing Potions"
+
+[[cards]]
+text = "Herobrine"
+
+[[cards]]
+text = "Redstone Repeater"
+
+[[cards]]
+text = "Wither"
+
+[[cards]]
+text = "Baby Zombie"
+
+[[cards]]
+text = "Blaze"
+
+[[cards]]
+text = "Netherite Block"
+
+[[cards]]
+text = "Mushroom Fields"
+
+[[cards]]
+text = "Soul Sand Valley"
+
+[[cards]]
+text = "Fishing Rod"
+
+[[cards]]
+text = "Shield"
+
+[[cards]]
+text = "Brewing Stand"
+
+[[cards]]
+text = "Bucket of Lava"
+
+[[cards]]
+text = "Village"
+
+[[cards]]
+text = "Fortune III"
+
+[[cards]]
+text = "Sharpness"
+
+[[cards]]
+text = "Feather Falling"
+
+[[cards]]
+text = "Bedwars"
+
+[[cards]]
+text = "Piglin"
+
+[[cards]]
+text = "Redstone Ore"
+
+[[cards]]
+text = "Desert Temple"
+
+[[cards]]
+text = "Birch Forest"
+
+[[cards]]
+text = "Netherite Ingot"
+
+[[cards]]
+text = "Bucket of Water"
+
+[[cards]]
+text = "Fortune Three"
+
+[[cards]]
+text = "Sharpness Five"
+
+[[cards]]
+text = "Mining for Diamonds"
+
+[[cards]]
+text = "Crafting a Bed"
+
+[[cards]]
+text = "Redstone Engineering"
+
+[[cards]]
+text = "Griefing"
+
+[[cards]]
+text = "Nether Portal"
+
+[[cards]]
+text = "Spawning the Wither"
+
+[[cards]]
+text = "Mob Trap"
+
+[[cards]]
+text = "Cobblestone Generator"
+
+[[cards]]
+text = "Netherite Armor"
+
+[[cards]]
+text = "Badlands Biome"
+
+[[cards]]
+text = "Defeating a Raid"
+
+[[cards]]
+text = "Speedrun"
+
+[[cards]]
+text = "Netherite Pickaxe"
+
+[[cards]]
+text = "Elytra Wings"
+
+[[cards]]
+text = "Village Raid"

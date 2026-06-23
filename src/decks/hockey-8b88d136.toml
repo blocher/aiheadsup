@@ -1,0 +1,231 @@
+id = "deck_hockey_8b88d136"
+revision = 1
+name = "Hockey"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include positions, rules, equipment, penalties, rink markings, shots, saves, line changes, trophies, hockey slang, famous moments, and famous current and past players, but should not be mostly player names."
+photo_file_name = "hockey-8b88d136-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Stanley Cup"
+
+[[cards]]
+text = "Wayne Gretzky"
+
+[[cards]]
+text = "Slap Shot"
+
+[[cards]]
+text = "Offside"
+
+[[cards]]
+text = "Penalty Box"
+
+[[cards]]
+text = "Goalie Mask"
+
+[[cards]]
+text = "Hat Trick"
+
+[[cards]]
+text = "The Crease"
+
+[[cards]]
+text = "Connor McDavid"
+
+[[cards]]
+text = "Blue Line"
+
+[[cards]]
+text = "Zamboni"
+
+[[cards]]
+text = "Wrist Shot"
+
+[[cards]]
+text = "Icing"
+
+[[cards]]
+text = "Sidney Crosby"
+
+[[cards]]
+text = "Power Play"
+
+[[cards]]
+text = "Faceoff Circle"
+
+[[cards]]
+text = "One-Timer"
+
+[[cards]]
+text = "Penalty Shot"
+
+[[cards]]
+text = "Five-Hole"
+
+[[cards]]
+text = "Ice Skates"
+
+[[cards]]
+text = "Glove Save"
+
+[[cards]]
+text = "Red Line"
+
+[[cards]]
+text = "Butterfly Style"
+
+[[cards]]
+text = "Tripping"
+
+[[cards]]
+text = "Boarding"
+
+[[cards]]
+text = "Slashing"
+
+[[cards]]
+text = "Gordie Howe Hat Trick"
+
+[[cards]]
+text = "Alex Ovechkin"
+
+[[cards]]
+text = "Mario Lemieux"
+
+[[cards]]
+text = "Bobby Orr"
+
+[[cards]]
+text = "Miracle on Ice"
+
+[[cards]]
+text = "Hand Pass"
+
+[[cards]]
+text = "Line Change"
+
+[[cards]]
+text = "Changing on the Fly"
+
+[[cards]]
+text = "Biscuit in the Basket"
+
+[[cards]]
+text = "Barn Burner"
+
+[[cards]]
+text = "Hart Trophy"
+
+[[cards]]
+text = "Calder Trophy"
+
+[[cards]]
+text = "Shoulder Pads"
+
+[[cards]]
+text = "Mouthguard"
+
+[[cards]]
+text = "Center"
+
+[[cards]]
+text = "Left Wing"
+
+[[cards]]
+text = "Defenseman"
+
+[[cards]]
+text = "Goalie"
+
+[[cards]]
+text = "High-Sticking"
+
+[[cards]]
+text = "Delay of Game"
+
+[[cards]]
+text = "Chirping"
+
+[[cards]]
+text = "Faceoff"
+
+[[cards]]
+text = "The Golden Goal"
+
+[[cards]]
+text = "Hockey Puck"
+
+[[cards]]
+text = "Puck"
+
+[[cards]]
+text = "Hockey Stick"
+
+[[cards]]
+text = "Goaltender"
+
+[[cards]]
+text = "Goal Crease"
+
+[[cards]]
+text = "Barnburner"
+
+[[cards]]
+text = "Sin Bin"
+
+[[cards]]
+text = "Alexander Ovechkin"
+
+[[cards]]
+text = "Body Check"
+
+[[cards]]
+text = "Pulling the Goalie"
+
+[[cards]]
+text = "Shootout"
+
+[[cards]]
+text = "Sudden Death Overtime"
+
+[[cards]]
+text = "Deke"
+
+[[cards]]
+text = "Breakaway"
+
+[[cards]]
+text = "Helmet"
+
+[[cards]]
+text = "Blocker"
+
+[[cards]]
+text = "Enforcer"
+
+[[cards]]
+text = "Sudden Death"
+
+[[cards]]
+text = "Poke Check"
+
+[[cards]]
+text = "Backhand Shot"
+
+[[cards]]
+text = "Hart Memorial Trophy"
+
+[[cards]]
+text = "Face-off"
+
+[[cards]]
+text = "Red Light"
+
+[[cards]]
+text = "Puck Drop"
+
+[[cards]]
+text = "Goal Light"

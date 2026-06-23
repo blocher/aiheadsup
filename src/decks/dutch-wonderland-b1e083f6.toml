@@ -1,0 +1,267 @@
+id = "deck_dutch-wonderland_b1e083f6"
+revision = 1
+name = "Dutch Wonderland"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include rides, themed areas, characters, shows, water attractions, family attractions, Lancaster County references, and kid-friendly amusement park terms."
+photo_file_name = "dutch-wonderland-b1e083f6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Duke the Dragon"
+
+[[cards]]
+text = "Princess Brooke"
+
+[[cards]]
+text = "Kingdom Coaster"
+
+[[cards]]
+text = "Merlin's Mayhem"
+
+[[cards]]
+text = "Exploration Island"
+
+[[cards]]
+text = "Duke's Lagoon"
+
+[[cards]]
+text = "Dino Dig"
+
+[[cards]]
+text = "Prehistoric Path"
+
+[[cards]]
+text = "The Monorail"
+
+[[cards]]
+text = "Gondola Cruise"
+
+[[cards]]
+text = "Sky Ride"
+
+[[cards]]
+text = "Dutch Wonder House"
+
+[[cards]]
+text = "Wonder Whip"
+
+[[cards]]
+text = "Turtle Whirl"
+
+[[cards]]
+text = "Choo Choo Charlie"
+
+[[cards]]
+text = "Joust Coaster"
+
+[[cards]]
+text = "The Royal Castle"
+
+[[cards]]
+text = "Knight of Safety"
+
+[[cards]]
+text = "Pipeline Plunge"
+
+[[cards]]
+text = "Double Decader Carousel"
+
+[[cards]]
+text = "Off-Road Rally"
+
+[[cards]]
+text = "Leap Frogge"
+
+[[cards]]
+text = "Astroliner"
+
+[[cards]]
+text = "Flying Trapeze"
+
+[[cards]]
+text = "Bumper Cars"
+
+[[cards]]
+text = "Shoofly Pie"
+
+[[cards]]
+text = "Whoopie Pie"
+
+[[cards]]
+text = "Horse and Buggy"
+
+[[cards]]
+text = "Amish Country"
+
+[[cards]]
+text = "Soft Pretzel"
+
+[[cards]]
+text = "Funnel Cake"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Souvenir Cup"
+
+[[cards]]
+text = "Season Pass"
+
+[[cards]]
+text = "Face Painting"
+
+[[cards]]
+text = "Midway Games"
+
+[[cards]]
+text = "Skee-Ball"
+
+[[cards]]
+text = "High Dive Show"
+
+[[cards]]
+text = "Day Out With Thomas"
+
+[[cards]]
+text = "Happy Hauntings"
+
+[[cards]]
+text = "Winter Wonderland"
+
+[[cards]]
+text = "Kettle Corn"
+
+[[cards]]
+text = "Dinosaur Puppets"
+
+[[cards]]
+text = "Aqua Stadium"
+
+[[cards]]
+text = "Royal Theater"
+
+[[cards]]
+text = "Castle Gift Shop"
+
+[[cards]]
+text = "Wiggle Wyrm"
+
+[[cards]]
+text = "Wonderland Special"
+
+[[cards]]
+text = "Pony Rides"
+
+[[cards]]
+text = "Miniature Golf"
+
+[[cards]]
+text = "Monorail"
+
+[[cards]]
+text = "Double Splash Flume"
+
+[[cards]]
+text = "Sunoco Turnpike"
+
+[[cards]]
+text = "The Castle Gate"
+
+[[cards]]
+text = "Sir Brandon"
+
+[[cards]]
+text = "Royal High Dive Show"
+
+[[cards]]
+text = "Merry-Go-Round"
+
+[[cards]]
+text = "Leap the Frogs"
+
+[[cards]]
+text = "Kite Flyer"
+
+[[cards]]
+text = "Tug Boat"
+
+[[cards]]
+text = "Sky Fighter"
+
+[[cards]]
+text = "Panda Party"
+
+[[cards]]
+text = "Silo Slide"
+
+[[cards]]
+text = "Wiggle Wyatt's"
+
+[[cards]]
+text = "Duke's Dozers"
+
+[[cards]]
+text = "Dragon's Lair"
+
+[[cards]]
+text = "Kingdom for Kids"
+
+[[cards]]
+text = "Lancaster County"
+
+[[cards]]
+text = "Dutch Winter Wonderland"
+
+[[cards]]
+text = "Mill Stream Eatery"
+
+[[cards]]
+text = "Pretzel"
+
+[[cards]]
+text = "Thomas the Tank Engine"
+
+[[cards]]
+text = "Storytime Corner"
+
+[[cards]]
+text = "Bean Bag Toss"
+
+[[cards]]
+text = "Knight Sir Sam"
+
+[[cards]]
+text = "Scenic Monorail"
+
+[[cards]]
+text = "Double Decker Carousel"
+
+[[cards]]
+text = "Tug Boat Link"
+
+[[cards]]
+text = "Castle Gatehouse"
+
+[[cards]]
+text = "Amish Buggy"
+
+[[cards]]
+text = "Storybook Lane"
+
+[[cards]]
+text = "The Joust"
+
+[[cards]]
+text = "Sir Knight"
+
+[[cards]]
+text = "Pretzel Bakery"
+
+[[cards]]
+text = "Pretzel Twist"
+
+[[cards]]
+text = "Chomp the Gator"

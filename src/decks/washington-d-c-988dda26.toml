@@ -1,0 +1,237 @@
+id = "deck_washington-d-c_988dda26"
+revision = 1
+name = "Washington, D.C."
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include monuments, museums, government buildings, neighborhoods, Metro stops, historical events, presidents, political concepts, and local landmarks."
+photo_file_name = "washington-d-c-988dda26-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "The White House"
+
+[[cards]]
+text = "United States Capitol"
+
+[[cards]]
+text = "Washington Monument"
+
+[[cards]]
+text = "Lincoln Memorial"
+
+[[cards]]
+text = "Jefferson Memorial"
+
+[[cards]]
+text = "Smithsonian Castle"
+
+[[cards]]
+text = "Air and Space Museum"
+
+[[cards]]
+text = "Natural History Museum"
+
+[[cards]]
+text = "National Zoo"
+
+[[cards]]
+text = "Library of Congress"
+
+[[cards]]
+text = "Supreme Court Building"
+
+[[cards]]
+text = "Georgetown"
+
+[[cards]]
+text = "Dupont Circle"
+
+[[cards]]
+text = "Adams Morgan"
+
+[[cards]]
+text = "Foggy Bottom"
+
+[[cards]]
+text = "Union Station"
+
+[[cards]]
+text = "The Pentagon"
+
+[[cards]]
+text = "Ford's Theatre"
+
+[[cards]]
+text = "Cherry Blossom Festival"
+
+[[cards]]
+text = "Presidential Inauguration"
+
+[[cards]]
+text = "National Archives"
+
+[[cards]]
+text = "MLK Memorial"
+
+[[cards]]
+text = "FDR Memorial"
+
+[[cards]]
+text = "Vietnam Veterans Memorial"
+
+[[cards]]
+text = "World War II Memorial"
+
+[[cards]]
+text = "National Gallery of Art"
+
+[[cards]]
+text = "American History Museum"
+
+[[cards]]
+text = "National Portrait Gallery"
+
+[[cards]]
+text = "Spy Museum"
+
+[[cards]]
+text = "Hirshhorn Museum"
+
+[[cards]]
+text = "Holocaust Memorial Museum"
+
+[[cards]]
+text = "Blair House"
+
+[[cards]]
+text = "Capitol Hill"
+
+[[cards]]
+text = "Navy Yard"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Penn Quarter"
+
+[[cards]]
+text = "Metro Center"
+
+[[cards]]
+text = "L'Enfant Plaza"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Pierre L'Enfant"
+
+[[cards]]
+text = "Benjamin Banneker"
+
+[[cards]]
+text = "State of the Union"
+
+[[cards]]
+text = "March on Washington"
+
+[[cards]]
+text = "Filibuster"
+
+[[cards]]
+text = "Gerrymandering"
+
+[[cards]]
+text = "Executive Order"
+
+[[cards]]
+text = "Albert Einstein Memorial"
+
+[[cards]]
+text = "National Mall"
+
+[[cards]]
+text = "The Capitol"
+
+[[cards]]
+text = "Supreme Court"
+
+[[cards]]
+text = "Potomac River"
+
+[[cards]]
+text = "Tidal Basin"
+
+[[cards]]
+text = "Oval Office"
+
+[[cards]]
+text = "Rock Creek Park"
+
+[[cards]]
+text = "National Arboretum"
+
+[[cards]]
+text = "Watergate Complex"
+
+[[cards]]
+text = "Arlington Cemetery"
+
+[[cards]]
+text = "National Cathedral"
+
+[[cards]]
+text = "Eastern Market"
+
+[[cards]]
+text = "Constitution Avenue"
+
+[[cards]]
+text = "Martin Luther King Memorial"
+
+[[cards]]
+text = "Roosevelt Memorial"
+
+[[cards]]
+text = "International Spy Museum"
+
+[[cards]]
+text = "US Capitol"
+
+[[cards]]
+text = "Pennsylvania Avenue"
+
+[[cards]]
+text = "Inauguration Day"
+
+[[cards]]
+text = "Supreme Court Justice"
+
+[[cards]]
+text = "Smithsonian Institution"
+
+[[cards]]
+text = "Ben's Chili Bowl"
+
+[[cards]]
+text = "US Capitol Building"
+
+[[cards]]
+text = "The Capitol Building"
+
+[[cards]]
+text = "Smithsonian Museum"
+
+[[cards]]
+text = "Cherry Blossoms"
+
+[[cards]]
+text = "Electoral College"

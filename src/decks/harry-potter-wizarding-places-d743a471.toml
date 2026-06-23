@@ -1,0 +1,313 @@
+id = "deck_harry-potter-wizarding-places_d743a471"
+revision = 1
+name = "Harry Potter: Wizarding Places"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include locations inside Hogwarts, wizarding villages, shops, homes, ministries, and hidden places."
+photo_file_name = "harry-potter-wizarding-places-d743a471-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Diagon Alley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gringotts Wizarding Bank"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Leaky Cauldron"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ollivanders"
+first_revealed_book = 1
+
+[[cards]]
+text = "Flourish and Blotts"
+first_revealed_book = 1
+
+[[cards]]
+text = "Eeylops Owl Emporium"
+first_revealed_book = 1
+
+[[cards]]
+text = "Platform Nine and Three-Quarters"
+first_revealed_book = 1
+
+[[cards]]
+text = "Trophy Room"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gryffindor Common Room"
+first_revealed_book = 1
+
+[[cards]]
+text = "Slytherin Common Room"
+first_revealed_book = 2
+
+[[cards]]
+text = "Hagrid's Cabin"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Forbidden Forest"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogwarts Library"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Owlery"
+first_revealed_book = 4
+
+[[cards]]
+text = "Astronomy Tower"
+first_revealed_book = 1
+
+[[cards]]
+text = "Potions Dungeon"
+first_revealed_book = 1
+
+[[cards]]
+text = "Chamber of Secrets"
+first_revealed_book = 2
+
+[[cards]]
+text = "The Burrow"
+first_revealed_book = 2
+
+[[cards]]
+text = "Knockturn Alley"
+first_revealed_book = 2
+
+[[cards]]
+text = "Borgin and Burkes"
+first_revealed_book = 2
+
+[[cards]]
+text = "Whomping Willow"
+first_revealed_book = 2
+
+[[cards]]
+text = "Hogsmeade Village"
+first_revealed_book = 3
+
+[[cards]]
+text = "Honeydukes"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Three Broomsticks"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Shrieking Shack"
+first_revealed_book = 3
+
+[[cards]]
+text = "Zonko's Joke Shop"
+first_revealed_book = 3
+
+[[cards]]
+text = "The Hog's Head Tavern"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ministry of Magic"
+first_revealed_book = 1
+
+[[cards]]
+text = "Department of Mysteries"
+first_revealed_book = 5
+
+[[cards]]
+text = "Number Twelve Grimmauld Place"
+first_revealed_book = 5
+
+[[cards]]
+text = "St. Mungo's Hospital"
+first_revealed_book = 4
+
+[[cards]]
+text = "Room of Requirement"
+first_revealed_book = 5
+
+[[cards]]
+text = "Prefects' Bathroom"
+first_revealed_book = 4
+
+[[cards]]
+text = "Little Hangleton Cemetery"
+first_revealed_book = 4
+
+[[cards]]
+text = "Quidditch World Cup Campsite"
+first_revealed_book = 4
+
+[[cards]]
+text = "Godric's Hollow"
+first_revealed_book = 1
+
+[[cards]]
+text = "Malfoy Manor"
+first_revealed_book = 2
+
+[[cards]]
+text = "Shell Cottage"
+first_revealed_book = 7
+
+[[cards]]
+text = "Spinner's End"
+first_revealed_book = 6
+
+[[cards]]
+text = "Lovegood House"
+first_revealed_book = 7
+
+[[cards]]
+text = "Nurmengard Castle"
+first_revealed_book = 7
+
+[[cards]]
+text = "Azkaban Prison"
+first_revealed_book = 2
+
+[[cards]]
+text = "Madam Puddifoot's Tea Shop"
+first_revealed_book = 5
+
+[[cards]]
+text = "Scrivenshaft's Quill Shop"
+first_revealed_book = 3
+
+[[cards]]
+text = "Dervish and Banges"
+first_revealed_book = 3
+
+[[cards]]
+text = "Weasleys' Wizard Wheezes"
+first_revealed_book = 6
+
+[[cards]]
+text = "The Black Lake"
+first_revealed_book = 1
+
+[[cards]]
+text = "Divination Classroom"
+first_revealed_book = 3
+
+[[cards]]
+text = "Headmaster's Office"
+first_revealed_book = 2
+
+[[cards]]
+text = "Hagrid's Hut"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ravenclaw Common Room"
+first_revealed_book = 7
+
+[[cards]]
+text = "Dumbledore's Office"
+first_revealed_book = 2
+
+[[cards]]
+text = "The Chamber of Secrets"
+first_revealed_book = 2
+
+[[cards]]
+text = "Gringotts Bank"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Hog's Head"
+first_revealed_book = 5
+
+[[cards]]
+text = "Grimmauld Place"
+first_revealed_book = 5
+
+[[cards]]
+text = "Little Hangleton Graveyard"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Riddle House"
+first_revealed_book = 4
+
+[[cards]]
+text = "Hospital Wing"
+first_revealed_book = 1
+
+[[cards]]
+text = "Quidditch Pitch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Madam Malkin's"
+first_revealed_book = 1
+
+[[cards]]
+text = "Nurmengard"
+first_revealed_book = 7
+
+[[cards]]
+text = "The Crystal Cave"
+first_revealed_book = 6
+
+[[cards]]
+text = "Gringotts"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogsmeade"
+first_revealed_book = 3
+
+[[cards]]
+text = "Forbidden Forest"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogwarts Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ollivanders Wand Shop"
+first_revealed_book = 1
+
+[[cards]]
+text = "Moaning Myrtle's Bathroom"
+first_revealed_book = 2
+
+[[cards]]
+text = "The Beauxbatons Carriage"
+first_revealed_book = 4
+
+[[cards]]
+text = "Durmstrang Ship"
+first_revealed_book = 4
+
+[[cards]]
+text = "The Astronomy Tower"
+first_revealed_book = 6
+
+[[cards]]
+text = "Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Azkaban"
+first_revealed_book = 3
+
+[[cards]]
+text = "Shrieking Shack"
+first_revealed_book = 3

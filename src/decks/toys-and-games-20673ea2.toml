@@ -1,0 +1,231 @@
+id = "deck_toys-and-games_20673ea2"
+revision = 1
+name = "Toys and Games"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include common toys, board games, pretend-play items, playground equipment, video game basics, puzzles, building toys, dolls, stuffed animals, and party games."
+photo_file_name = "toys-and-games-20673ea2-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Teddy Bear"
+
+[[cards]]
+text = "LEGO Bricks"
+
+[[cards]]
+text = "Barbie Doll"
+
+[[cards]]
+text = "Hula Hoop"
+
+[[cards]]
+text = "Yo-Yo"
+
+[[cards]]
+text = "Rubik's Cube"
+
+[[cards]]
+text = "Play-Doh"
+
+[[cards]]
+text = "Monopoly"
+
+[[cards]]
+text = "Slinky"
+
+[[cards]]
+text = "Toy Car"
+
+[[cards]]
+text = "Jump Rope"
+
+[[cards]]
+text = "Frisbee"
+
+[[cards]]
+text = "Swing Set"
+
+[[cards]]
+text = "Playground Slide"
+
+[[cards]]
+text = "See-Saw"
+
+[[cards]]
+text = "Sandbox"
+
+[[cards]]
+text = "Chess"
+
+[[cards]]
+text = "Checkers"
+
+[[cards]]
+text = "Jigsaw Puzzle"
+
+[[cards]]
+text = "Video Game Controller"
+
+[[cards]]
+text = "Duck Duck Goose"
+
+[[cards]]
+text = "Hide and Seek"
+
+[[cards]]
+text = "Tag"
+
+[[cards]]
+text = "Hot Potato"
+
+[[cards]]
+text = "Musical Chairs"
+
+[[cards]]
+text = "Action Figure"
+
+[[cards]]
+text = "Water Gun"
+
+[[cards]]
+text = "Kite"
+
+[[cards]]
+text = "Bubbles"
+
+[[cards]]
+text = "Rocking Horse"
+
+[[cards]]
+text = "Sidewalk Chalk"
+
+[[cards]]
+text = "Marbles"
+
+[[cards]]
+text = "Pinwheel"
+
+[[cards]]
+text = "Tricycle"
+
+[[cards]]
+text = "Roller Skates"
+
+[[cards]]
+text = "Skateboard"
+
+[[cards]]
+text = "Toy Soldiers"
+
+[[cards]]
+text = "Dollhouse"
+
+[[cards]]
+text = "Tic-Tac-Toe"
+
+[[cards]]
+text = "Connect Four"
+
+[[cards]]
+text = "Scrabble"
+
+[[cards]]
+text = "Candyland"
+
+[[cards]]
+text = "Uno Cards"
+
+[[cards]]
+text = "Jenga"
+
+[[cards]]
+text = "Sock Puppet"
+
+[[cards]]
+text = "Piggy Bank"
+
+[[cards]]
+text = "Remote Control Car"
+
+[[cards]]
+text = "Rubber Duck"
+
+[[cards]]
+text = "Finger Paint"
+
+[[cards]]
+text = "Bounce House"
+
+[[cards]]
+text = "Bubble Wand"
+
+[[cards]]
+text = "Toy Slime"
+
+[[cards]]
+text = "Toy Soldier"
+
+[[cards]]
+text = "Jack-in-the-Box"
+
+[[cards]]
+text = "Seesaw"
+
+[[cards]]
+text = "Trampoline"
+
+[[cards]]
+text = "Stuffed Animal"
+
+[[cards]]
+text = "Play Kitchen"
+
+[[cards]]
+text = "Crayons"
+
+[[cards]]
+text = "Chess Board"
+
+[[cards]]
+text = "Freeze Tag"
+
+[[cards]]
+text = "Pin the Tail"
+
+[[cards]]
+text = "Game Controller"
+
+[[cards]]
+text = "Arcade Game"
+
+[[cards]]
+text = "Kaleidoscope"
+
+[[cards]]
+text = "Model Train"
+
+[[cards]]
+text = "Building Blocks"
+
+[[cards]]
+text = "RC Car"
+
+[[cards]]
+text = "Pinball Machine"
+
+[[cards]]
+text = "Lego Blocks"
+
+[[cards]]
+text = "Slide"
+
+[[cards]]
+text = "Toy Kitchen"
+
+[[cards]]
+text = "Bubble Blower"
+
+[[cards]]
+text = "Puppet"

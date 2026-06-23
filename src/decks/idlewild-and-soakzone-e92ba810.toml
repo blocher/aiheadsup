@@ -1,0 +1,264 @@
+id = "deck_idlewild-and-soakzone_e92ba810"
+revision = 1
+name = "Idlewild and SoakZone"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Idlewild rides, Story Book Forest, Daniel Tiger references, SoakZone attractions, family rides, park areas, landmarks, and Ligonier-area references."
+photo_file_name = "idlewild-and-soakzone-e92ba810-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Story Book Forest"
+
+[[cards]]
+text = "Mother Goose"
+
+[[cards]]
+text = "The Three Little Pigs"
+
+[[cards]]
+text = "Little Red Riding Hood"
+
+[[cards]]
+text = "Billy Goats Gruff"
+
+[[cards]]
+text = "Jack and the Beanstalk"
+
+[[cards]]
+text = "Snow White's Castle"
+
+[[cards]]
+text = "Crooked House"
+
+[[cards]]
+text = "Good Ship Lollipop"
+
+[[cards]]
+text = "Daniel Tiger"
+
+[[cards]]
+text = "Neighborhood Trolley"
+
+[[cards]]
+text = "Neighborhood of Make-Believe"
+
+[[cards]]
+text = "King Friday XIII"
+
+[[cards]]
+text = "O the Owl"
+
+[[cards]]
+text = "Katerina Kittycat"
+
+[[cards]]
+text = "Prince Wednesday"
+
+[[cards]]
+text = "Henrietta Pussycat"
+
+[[cards]]
+text = "Rollo Coaster"
+
+[[cards]]
+text = "Wild Mouse"
+
+[[cards]]
+text = "Flying Aces"
+
+[[cards]]
+text = "Turtle Whirl"
+
+[[cards]]
+text = "Grand Carousel"
+
+[[cards]]
+text = "Balloon Race"
+
+[[cards]]
+text = "Scrambler"
+
+[[cards]]
+text = "Ferris Wheel"
+
+[[cards]]
+text = "Caterpillar Ride"
+
+[[cards]]
+text = "Loyalhanna Limited Railroad"
+
+[[cards]]
+text = "Confusion Hill"
+
+[[cards]]
+text = "SoakZone"
+
+[[cards]]
+text = "Pipeline Plunge"
+
+[[cards]]
+text = "Hydro Racers"
+
+[[cards]]
+text = "Giant Tipping Bucket"
+
+[[cards]]
+text = "Captain Kid's Shipwreck Cove"
+
+[[cards]]
+text = "Little Squirts"
+
+[[cards]]
+text = "Float Away Bay"
+
+[[cards]]
+text = "Wowabunga Family Slides"
+
+[[cards]]
+text = "Olde Idlewild"
+
+[[cards]]
+text = "Jumpin' Jungle"
+
+[[cards]]
+text = "Raccoon Lagoon"
+
+[[cards]]
+text = "Hootin' Holler"
+
+[[cards]]
+text = "Historic Bandstand"
+
+[[cards]]
+text = "Loyalhanna Creek"
+
+[[cards]]
+text = "Ligonier Valley"
+
+[[cards]]
+text = "Fort Ligonier"
+
+[[cards]]
+text = "Laurel Highlands"
+
+[[cards]]
+text = "Ricky Raccoon"
+
+[[cards]]
+text = "Duke the Dragon"
+
+[[cards]]
+text = "Mister Rogers"
+
+[[cards]]
+text = "Paul Bunyan"
+
+[[cards]]
+text = "Foot Bridge"
+
+[[cards]]
+text = "Daniel Tiger's Neighborhood"
+
+[[cards]]
+text = "Miss Elaina"
+
+[[cards]]
+text = "Captain Kidd's Adventure Galley"
+
+[[cards]]
+text = "Three Little Pigs"
+
+[[cards]]
+text = "Jack and Jill Hill"
+
+[[cards]]
+text = "The Crooked House"
+
+[[cards]]
+text = "Little Red Schoolhouse"
+
+[[cards]]
+text = "C.P. Huntington Train"
+
+[[cards]]
+text = "Tilt-A-Whirl"
+
+[[cards]]
+text = "Ligonier Highland Games"
+
+[[cards]]
+text = "Idlewild Fries"
+
+[[cards]]
+text = "Waffle Ice Cream Sandwich"
+
+[[cards]]
+text = "King Friday's Castle"
+
+[[cards]]
+text = "Centennial Wheel"
+
+[[cards]]
+text = "Doozy Cars"
+
+[[cards]]
+text = "Howler"
+
+[[cards]]
+text = "Neighbor Trolley"
+
+[[cards]]
+text = "Loggin' Toboggan"
+
+[[cards]]
+text = "Old Woman's Shoe"
+
+[[cards]]
+text = "Crooked Little House"
+
+[[cards]]
+text = "Captain Kidney Pond"
+
+[[cards]]
+text = "Tipping Bucket"
+
+[[cards]]
+text = "The Howler"
+
+[[cards]]
+text = "Classic Carousel"
+
+[[cards]]
+text = "Daniel Tiger's Trolley"
+
+[[cards]]
+text = "Loyalhanna Limited"
+
+[[cards]]
+text = "Captain Kid's Backyard"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "Balloon Chase"
+
+[[cards]]
+text = "Cinderella's Castle"
+
+[[cards]]
+text = "Spider's Web"
+
+[[cards]]
+text = "Captain Kid's Playland"
+
+[[cards]]
+text = "Wojo's Slide"
+
+[[cards]]
+text = "King Friday"
+
+[[cards]]
+text = "Storybook Castle"

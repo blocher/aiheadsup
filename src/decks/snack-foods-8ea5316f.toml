@@ -1,0 +1,261 @@
+id = "deck_snack-foods_8ea5316f"
+revision = 1
+name = "Snack Foods"
+category = "Food"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include chips, crackers, popcorn, pretzels, dips, granola bars, fruit snacks, party snacks, lunchbox snacks, and movie-night foods."
+photo_file_name = "snack-foods-8ea5316f-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Potato Chips"
+
+[[cards]]
+text = "Tortilla Chips"
+
+[[cards]]
+text = "Barbecue Chips"
+
+[[cards]]
+text = "Sour Cream Chips"
+
+[[cards]]
+text = "Corn Chips"
+
+[[cards]]
+text = "Kettle Chips"
+
+[[cards]]
+text = "Veggie Straws"
+
+[[cards]]
+text = "Pringles"
+
+[[cards]]
+text = "Goldfish Crackers"
+
+[[cards]]
+text = "Animal Crackers"
+
+[[cards]]
+text = "Cheese Crackers"
+
+[[cards]]
+text = "Graham Crackers"
+
+[[cards]]
+text = "Saltine Crackers"
+
+[[cards]]
+text = "Ritz Crackers"
+
+[[cards]]
+text = "Butter Popcorn"
+
+[[cards]]
+text = "Caramel Corn"
+
+[[cards]]
+text = "Kettle Corn"
+
+[[cards]]
+text = "Soft Pretzel"
+
+[[cards]]
+text = "Pretzel Sticks"
+
+[[cards]]
+text = "Guacamole"
+
+[[cards]]
+text = "Salsa"
+
+[[cards]]
+text = "Queso Dip"
+
+[[cards]]
+text = "Hummus"
+
+[[cards]]
+text = "French Onion Dip"
+
+[[cards]]
+text = "Spinach Dip"
+
+[[cards]]
+text = "Granola Bar"
+
+[[cards]]
+text = "Fruit Snacks"
+
+[[cards]]
+text = "Fruit Leather"
+
+[[cards]]
+text = "Fruit Roll-Up"
+
+[[cards]]
+text = "Rice Crispy Treat"
+
+[[cards]]
+text = "Gummy Bears"
+
+[[cards]]
+text = "String Cheese"
+
+[[cards]]
+text = "Beef Jerky"
+
+[[cards]]
+text = "Mixed Nuts"
+
+[[cards]]
+text = "Sunflower Seeds"
+
+[[cards]]
+text = "Pigs in a Blanket"
+
+[[cards]]
+text = "Nachos"
+
+[[cards]]
+text = "Mozzarella Sticks"
+
+[[cards]]
+text = "Jalapeno Poppers"
+
+[[cards]]
+text = "Potato Skins"
+
+[[cards]]
+text = "Milk Duds"
+
+[[cards]]
+text = "Red Vines"
+
+[[cards]]
+text = "Raisinets"
+
+[[cards]]
+text = "Junior Mints"
+
+[[cards]]
+text = "Gummy Worms"
+
+[[cards]]
+text = "Cheese Balls"
+
+[[cards]]
+text = "Peanut Butter Cups"
+
+[[cards]]
+text = "Trail Mix"
+
+[[cards]]
+text = "Onion Rings"
+
+[[cards]]
+text = "Doritos"
+
+[[cards]]
+text = "French Fries"
+
+[[cards]]
+text = "Rice Cakes"
+
+[[cards]]
+text = "Applesauce"
+
+[[cards]]
+text = "Rice Krispies Treat"
+
+[[cards]]
+text = "Roasted Peanuts"
+
+[[cards]]
+text = "Pita Chips"
+
+[[cards]]
+text = "Pizza Rolls"
+
+[[cards]]
+text = "Tater Tots"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Chocolate Chip Cookie"
+
+[[cards]]
+text = "Brownies"
+
+[[cards]]
+text = "Cupcakes"
+
+[[cards]]
+text = "Sour Candy"
+
+[[cards]]
+text = "Jelly Beans"
+
+[[cards]]
+text = "Cheese Fries"
+
+[[cards]]
+text = "Toaster Pastry"
+
+[[cards]]
+text = "Yogurt Parfait"
+
+[[cards]]
+text = "Corn Dog"
+
+[[cards]]
+text = "Soft Baked Cookie"
+
+[[cards]]
+text = "BBQ Chips"
+
+[[cards]]
+text = "Buttered Popcorn"
+
+[[cards]]
+text = "Pretzel Twists"
+
+[[cards]]
+text = "Yogurt Pretzels"
+
+[[cards]]
+text = "Fruit Roll-Ups"
+
+[[cards]]
+text = "Cheese Puffs"
+
+[[cards]]
+text = "Rice Krispies Treats"
+
+[[cards]]
+text = "Chocolate Granola Bar"
+
+[[cards]]
+text = "Mild Salsa"
+
+[[cards]]
+text = "Cheese Dip"
+
+[[cards]]
+text = "Caramel Popcorn"
+
+[[cards]]
+text = "Yogurt Raisins"
+
+[[cards]]
+text = "Peanut Butter Crackers"
+
+[[cards]]
+text = "Hummus and Pita"
+
+[[cards]]
+text = "Salsa Dip"

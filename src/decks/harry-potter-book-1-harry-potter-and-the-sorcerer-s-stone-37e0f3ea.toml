@@ -1,0 +1,321 @@
+id = "deck_harry-potter-book-1-harry-potter-and-the-sorcerer-s-stone_37e0f3ea"
+revision = 1
+name = "Harry Potter Book 1: Harry Potter and the Sorcerer’s Stone"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = ""
+photo_file_name = "harry-potter-book-1-harry-potter-and-the-sorcerer-s-stone-37e0f3ea-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_book = 1
+
+[[cards]]
+text = "Albus Dumbledore"
+first_revealed_book = 1
+
+[[cards]]
+text = "Rubeus Hagrid"
+first_revealed_book = 1
+
+[[cards]]
+text = "Professor McGonagall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Professor Snape"
+first_revealed_book = 1
+
+[[cards]]
+text = "Professor Quirrell"
+first_revealed_book = 1
+
+[[cards]]
+text = "Neville Longbottom"
+first_revealed_book = 1
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_book = 1
+
+[[cards]]
+text = "Dudley Dursley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Vernon Dursley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Petunia Dursley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Lord Voldemort"
+first_revealed_book = 1
+
+[[cards]]
+text = "Nicolas Flamel"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hedwig"
+first_revealed_book = 1
+
+[[cards]]
+text = "Fang"
+first_revealed_book = 1
+
+[[cards]]
+text = "Fluffy"
+first_revealed_book = 1
+
+[[cards]]
+text = "Norbert"
+first_revealed_book = 1
+
+[[cards]]
+text = "Peeves"
+first_revealed_book = 1
+
+[[cards]]
+text = "Nearly Headless Nick"
+first_revealed_book = 1
+
+[[cards]]
+text = "Scabbers"
+first_revealed_book = 1
+
+[[cards]]
+text = "Griphook"
+first_revealed_book = 1
+
+[[cards]]
+text = "Oliver Wood"
+first_revealed_book = 1
+
+[[cards]]
+text = "Madam Hooch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Argus Filch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Mrs. Norris"
+first_revealed_book = 1
+
+[[cards]]
+text = "Sorcerer's Stone"
+first_revealed_book = 1
+
+[[cards]]
+text = "Invisibility Cloak"
+first_revealed_book = 1
+
+[[cards]]
+text = "Mirror of Erised"
+first_revealed_book = 1
+
+[[cards]]
+text = "Sorting Hat"
+first_revealed_book = 1
+
+[[cards]]
+text = "Remembrall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Golden Snitch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Nimbus 2000"
+first_revealed_book = 1
+
+[[cards]]
+text = "Chocolate Frogs"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bertie Bott's Beans"
+first_revealed_book = 1
+
+[[cards]]
+text = "Devil's Snare"
+first_revealed_book = 1
+
+[[cards]]
+text = "Privet Drive"
+first_revealed_book = 1
+
+[[cards]]
+text = "Diagon Alley"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gringotts"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hogwarts Express"
+first_revealed_book = 1
+
+[[cards]]
+text = "Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Forbidden Forest"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gryffindor Tower"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ollivanders"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Leaky Cauldron"
+first_revealed_book = 1
+
+[[cards]]
+text = "Wizard's Chess"
+first_revealed_book = 1
+
+[[cards]]
+text = "Quidditch"
+first_revealed_book = 1
+
+[[cards]]
+text = "Daily Prophet"
+first_revealed_book = 1
+
+[[cards]]
+text = "Professor Sprout"
+first_revealed_book = 1
+
+[[cards]]
+text = "Platform Nine and Three-Quarters"
+first_revealed_book = 1
+
+[[cards]]
+text = "Chocolate Frog"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Great Hall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Gryffindor"
+first_revealed_book = 1
+
+[[cards]]
+text = "Slytherin"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hufflepuff"
+first_revealed_book = 1
+
+[[cards]]
+text = "Ravenclaw"
+first_revealed_book = 1
+
+[[cards]]
+text = "Bludger"
+first_revealed_book = 1
+
+[[cards]]
+text = "Quaffle"
+first_revealed_book = 1
+
+[[cards]]
+text = "Nimbus Two Thousand"
+first_revealed_book = 1
+
+[[cards]]
+text = "Wingardium Leviosa"
+first_revealed_book = 1
+
+[[cards]]
+text = "Firenze"
+first_revealed_book = 1
+
+[[cards]]
+text = "Uncle Vernon"
+first_revealed_book = 1
+
+[[cards]]
+text = "Aunt Petunia"
+first_revealed_book = 1
+
+[[cards]]
+text = "Marcus Flint"
+first_revealed_book = 1
+
+[[cards]]
+text = "Seamus Finnigan"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Fat Lady"
+first_revealed_book = 1
+
+[[cards]]
+text = "Alohomora"
+first_revealed_book = 1
+
+[[cards]]
+text = "Petrificus Totalus"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Sorting Hat"
+first_revealed_book = 1
+
+[[cards]]
+text = "Norbert the Dragon"
+first_revealed_book = 1
+
+[[cards]]
+text = "Rememberall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Centaur Firenze"
+first_revealed_book = 1
+
+[[cards]]
+text = "Quirrell's Turban"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Forbidden Forest"
+first_revealed_book = 1
+
+[[cards]]
+text = "Flying Keys"
+first_revealed_book = 1
+
+[[cards]]
+text = "The Remembrall"
+first_revealed_book = 1
+
+[[cards]]
+text = "Hagrid's Hut"
+first_revealed_book = 1

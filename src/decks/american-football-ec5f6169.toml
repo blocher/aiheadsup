@@ -1,0 +1,240 @@
+id = "deck_american-football_ec5f6169"
+revision = 1
+name = "American Football"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include positions, rules, equipment, plays, formations, penalties, scoring terms, stadium traditions, championships, football slang, famous moments, and famous current and past players, but should not be mostly player names."
+photo_file_name = "american-football-ec5f6169-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Touchdown"
+
+[[cards]]
+text = "Quarterback"
+
+[[cards]]
+text = "Super Bowl"
+
+[[cards]]
+text = "Hail Mary"
+
+[[cards]]
+text = "Yellow Penalty Flag"
+
+[[cards]]
+text = "Interception"
+
+[[cards]]
+text = "Field Goal"
+
+[[cards]]
+text = "Tailgate Party"
+
+[[cards]]
+text = "Pigskin"
+
+[[cards]]
+text = "Linebacker"
+
+[[cards]]
+text = "False Start"
+
+[[cards]]
+text = "Lombardi Trophy"
+
+[[cards]]
+text = "Wide Receiver"
+
+[[cards]]
+text = "Gatorade Shower"
+
+[[cards]]
+text = "Blitz"
+
+[[cards]]
+text = "Safety"
+
+[[cards]]
+text = "Flea Flicker"
+
+[[cards]]
+text = "Red Zone"
+
+[[cards]]
+text = "Running Back"
+
+[[cards]]
+text = "Play Action"
+
+[[cards]]
+text = "Holding"
+
+[[cards]]
+text = "Two-Point Conversion"
+
+[[cards]]
+text = "Sacked"
+
+[[cards]]
+text = "Fumble"
+
+[[cards]]
+text = "Tom Brady"
+
+[[cards]]
+text = "Shotgun Formation"
+
+[[cards]]
+text = "End Zone"
+
+[[cards]]
+text = "Halftime Show"
+
+[[cards]]
+text = "Coin Toss"
+
+[[cards]]
+text = "First Down"
+
+[[cards]]
+text = "Pass Interference"
+
+[[cards]]
+text = "Patrick Mahomes"
+
+[[cards]]
+text = "Punt Return"
+
+[[cards]]
+text = "Mouthguard"
+
+[[cards]]
+text = "Chains and Markers"
+
+[[cards]]
+text = "Pick Six"
+
+[[cards]]
+text = "The Immaculate Reception"
+
+[[cards]]
+text = "Quarterback Sneak"
+
+[[cards]]
+text = "Shoulder Pads"
+
+[[cards]]
+text = "Jerry Rice"
+
+[[cards]]
+text = "Extra Point"
+
+[[cards]]
+text = "Roughing the Passer"
+
+[[cards]]
+text = "Goal Post"
+
+[[cards]]
+text = "Draft Day"
+
+[[cards]]
+text = "Gridiron"
+
+[[cards]]
+text = "Peyton Manning"
+
+[[cards]]
+text = "Water Boy"
+
+[[cards]]
+text = "Coffin Corner"
+
+[[cards]]
+text = "Touchback"
+
+[[cards]]
+text = "Face Mask"
+
+[[cards]]
+text = "Tight End"
+
+[[cards]]
+text = "Cornerback"
+
+[[cards]]
+text = "Placekicker"
+
+[[cards]]
+text = "Free Safety"
+
+[[cards]]
+text = "Football Helmet"
+
+[[cards]]
+text = "Yard Marker"
+
+[[cards]]
+text = "Holding Penalty"
+
+[[cards]]
+text = "Offside"
+
+[[cards]]
+text = "Delay of Game"
+
+[[cards]]
+text = "Intentional Grounding"
+
+[[cards]]
+text = "Hail Mary Pass"
+
+[[cards]]
+text = "Onside Kick"
+
+[[cards]]
+text = "Tailgating"
+
+[[cards]]
+text = "Gatorade Bath"
+
+[[cards]]
+text = "Two-Minute Warning"
+
+[[cards]]
+text = "Chain Gang"
+
+[[cards]]
+text = "Pro Bowl"
+
+[[cards]]
+text = "NFL Draft"
+
+[[cards]]
+text = "Huddle"
+
+[[cards]]
+text = "Sack"
+
+[[cards]]
+text = "Lambeau Leap"
+
+[[cards]]
+text = "Down and Distance"
+
+[[cards]]
+text = "Immaculate Reception"
+
+[[cards]]
+text = "Chain Crew"
+
+[[cards]]
+text = "Lineman"
+
+[[cards]]
+text = "Yellow Flag"
+
+[[cards]]
+text = "Heisman Trophy"

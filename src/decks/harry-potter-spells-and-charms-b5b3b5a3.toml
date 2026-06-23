@@ -1,0 +1,269 @@
+id = "deck_harry-potter-spells-and-charms_b5b3b5a3"
+revision = 1
+name = "Harry Potter: Spells and Charms"
+category = "Harry Potter"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include spell names, magical effects, curses, charms, jinxes, and famous spell moments."
+photo_file_name = "harry-potter-spells-and-charms-b5b3b5a3-cover.jpg"
+spoiler_mode = true
+
+[[cards]]
+text = "Expelliarmus"
+first_revealed_book = 2
+
+[[cards]]
+text = "Lumos"
+first_revealed_book = 2
+
+[[cards]]
+text = "Alohomora"
+first_revealed_book = 1
+
+[[cards]]
+text = "Wingardium Leviosa"
+first_revealed_book = 1
+
+[[cards]]
+text = "Avada Kedavra"
+first_revealed_book = 4
+
+[[cards]]
+text = "Expecto Patronum"
+first_revealed_book = 3
+
+[[cards]]
+text = "Accio"
+first_revealed_book = 4
+
+[[cards]]
+text = "Sectumsempra"
+first_revealed_book = 6
+
+[[cards]]
+text = "Petrificus Totalus"
+first_revealed_book = 1
+
+[[cards]]
+text = "Crucio"
+first_revealed_book = 4
+
+[[cards]]
+text = "Imperio"
+first_revealed_book = 4
+
+[[cards]]
+text = "Riddikulus"
+first_revealed_book = 3
+
+[[cards]]
+text = "Obliviate"
+first_revealed_book = 2
+
+[[cards]]
+text = "Stupefy"
+first_revealed_book = 4
+
+[[cards]]
+text = "Protego"
+first_revealed_book = 5
+
+[[cards]]
+text = "Nox"
+first_revealed_book = 2
+
+[[cards]]
+text = "Diffindo"
+first_revealed_book = 4
+
+[[cards]]
+text = "Reducto"
+first_revealed_book = 5
+
+[[cards]]
+text = "Aguamenti"
+first_revealed_book = 6
+
+[[cards]]
+text = "Incendio"
+first_revealed_book = 4
+
+[[cards]]
+text = "Silencio"
+first_revealed_book = 5
+
+[[cards]]
+text = "Duro"
+first_revealed_book = 7
+
+[[cards]]
+text = "Flagrate"
+first_revealed_book = 5
+
+[[cards]]
+text = "Glisseo"
+first_revealed_book = 7
+
+[[cards]]
+text = "Episkey"
+first_revealed_book = 6
+
+[[cards]]
+text = "Muffliato"
+first_revealed_book = 6
+
+[[cards]]
+text = "Levicorpus"
+first_revealed_book = 5
+
+[[cards]]
+text = "Liberacorpus"
+first_revealed_book = 6
+
+[[cards]]
+text = "Priori Incantatem"
+first_revealed_book = 4
+
+[[cards]]
+text = "Finite Incantatem"
+first_revealed_book = 2
+
+[[cards]]
+text = "Locomotor Mortis"
+first_revealed_book = 1
+
+[[cards]]
+text = "Tarantallegra"
+first_revealed_book = 2
+
+[[cards]]
+text = "Rictusempra"
+first_revealed_book = 2
+
+[[cards]]
+text = "Serpensortia"
+first_revealed_book = 2
+
+[[cards]]
+text = "Waddiwasi"
+first_revealed_book = 3
+
+[[cards]]
+text = "Piertotum Locomotor"
+first_revealed_book = 7
+
+[[cards]]
+text = "Oppugno"
+first_revealed_book = 6
+
+[[cards]]
+text = "Langlock"
+first_revealed_book = 6
+
+[[cards]]
+text = "Defodio"
+first_revealed_book = 7
+
+[[cards]]
+text = "Scourgify"
+first_revealed_book = 5
+
+[[cards]]
+text = "Legilimens"
+first_revealed_book = 5
+
+[[cards]]
+text = "Portus"
+first_revealed_book = 5
+
+[[cards]]
+text = "Incarcerous"
+first_revealed_book = 5
+
+[[cards]]
+text = "Densaugeo"
+first_revealed_book = 4
+
+[[cards]]
+text = "Morsmordre"
+first_revealed_book = 4
+
+[[cards]]
+text = "Furnunculus"
+first_revealed_book = 4
+
+[[cards]]
+text = "Confundo"
+first_revealed_book = 6
+
+[[cards]]
+text = "Homenum Revelio"
+first_revealed_book = 7
+
+[[cards]]
+text = "Fidelius Charm"
+first_revealed_book = 3
+
+[[cards]]
+text = "Orchideus"
+first_revealed_book = 4
+
+[[cards]]
+text = "Dissendium"
+first_revealed_book = 3
+
+[[cards]]
+text = "Impervius"
+first_revealed_book = 3
+
+[[cards]]
+text = "Sonorus"
+first_revealed_book = 4
+
+[[cards]]
+text = "Impedimenta"
+first_revealed_book = 4
+
+[[cards]]
+text = "Engorgio"
+first_revealed_book = 4
+
+[[cards]]
+text = "Colloportus"
+first_revealed_book = 5
+
+[[cards]]
+text = "Tergeo"
+first_revealed_book = 6
+
+[[cards]]
+text = "Geminio"
+first_revealed_book = 7
+
+[[cards]]
+text = "Protego Totalum"
+first_revealed_book = 7
+
+[[cards]]
+text = "Cave Inimicum"
+first_revealed_book = 7
+
+[[cards]]
+text = "Prior Incantato"
+first_revealed_book = 4
+
+[[cards]]
+text = "Fiendfyre"
+first_revealed_book = 7
+
+[[cards]]
+text = "Unbreakable Vow"
+first_revealed_book = 6
+
+[[cards]]
+text = "Taboo Curse"
+first_revealed_book = 7
+
+[[cards]]
+text = "Deletrius"
+first_revealed_book = 4

@@ -1,0 +1,222 @@
+id = "deck_pittsburgh_61c711d8"
+revision = 1
+name = "Pittsburgh"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include neighborhoods, landmarks, bridges, rivers, sports teams, universities, museums, foods, local phrases, historical events, and famous Pittsburghers."
+photo_file_name = "pittsburgh-61c711d8-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Pittsburgh Steelers"
+
+[[cards]]
+text = "Pittsburgh Penguins"
+
+[[cards]]
+text = "Pittsburgh Pirates"
+
+[[cards]]
+text = "Ohio River"
+
+[[cards]]
+text = "Allegheny River"
+
+[[cards]]
+text = "Monongahela River"
+
+[[cards]]
+text = "Duquesne Incline"
+
+[[cards]]
+text = "Monongahela Incline"
+
+[[cards]]
+text = "Mount Washington"
+
+[[cards]]
+text = "Kennywood"
+
+[[cards]]
+text = "Cathedral of Learning"
+
+[[cards]]
+text = "Phipps Conservatory"
+
+[[cards]]
+text = "Point State Park"
+
+[[cards]]
+text = "Strip District"
+
+[[cards]]
+text = "Heinz Field"
+
+[[cards]]
+text = "PNC Park"
+
+[[cards]]
+text = "PPG Place"
+
+[[cards]]
+text = "Andy Warhol Museum"
+
+[[cards]]
+text = "Carnegie Museum"
+
+[[cards]]
+text = "Carnegie Science Center"
+
+[[cards]]
+text = "Mattress Factory"
+
+[[cards]]
+text = "Roberto Clemente Bridge"
+
+[[cards]]
+text = "Fort Pitt Tunnel"
+
+[[cards]]
+text = "Squirrel Hill"
+
+[[cards]]
+text = "Lawrenceville"
+
+[[cards]]
+text = "Shadyside"
+
+[[cards]]
+text = "Bloomfield"
+
+[[cards]]
+text = "Oakland"
+
+[[cards]]
+text = "South Side"
+
+[[cards]]
+text = "University of Pittsburgh"
+
+[[cards]]
+text = "Carnegie Mellon University"
+
+[[cards]]
+text = "Duquesne University"
+
+[[cards]]
+text = "Primanti Brothers"
+
+[[cards]]
+text = "Pierogi"
+
+[[cards]]
+text = "Klondike Bar"
+
+[[cards]]
+text = "Pittsburgh Salad"
+
+[[cards]]
+text = "Heinz Ketchup"
+
+[[cards]]
+text = "Chipped Chopped Ham"
+
+[[cards]]
+text = "Yinz"
+
+[[cards]]
+text = "Yinzer"
+
+[[cards]]
+text = "Fred Rogers"
+
+[[cards]]
+text = "Andy Warhol"
+
+[[cards]]
+text = "Andrew Carnegie"
+
+[[cards]]
+text = "Steely McBeam"
+
+[[cards]]
+text = "Heinz Hall"
+
+[[cards]]
+text = "National Aviary"
+
+[[cards]]
+text = "Rachel Carson Bridge"
+
+[[cards]]
+text = "Cookie Table"
+
+[[cards]]
+text = "Pittsburgh Potty"
+
+[[cards]]
+text = "Great Pierogi Race"
+
+[[cards]]
+text = "PPG Paints Arena"
+
+[[cards]]
+text = "Three Rivers"
+
+[[cards]]
+text = "Roberto Clemente"
+
+[[cards]]
+text = "Smiley Cookie"
+
+[[cards]]
+text = "Iron City Beer"
+
+[[cards]]
+text = "Jagoff"
+
+[[cards]]
+text = "Nebby"
+
+[[cards]]
+text = "Smithfield Street Bridge"
+
+[[cards]]
+text = "Liberty Tubes"
+
+[[cards]]
+text = "Schenley Park"
+
+[[cards]]
+text = "Frick Park"
+
+[[cards]]
+text = "Heinz History Center"
+
+[[cards]]
+text = "Steel City"
+
+[[cards]]
+text = "South Side Flats"
+
+[[cards]]
+text = "Pierogies"
+
+[[cards]]
+text = "Mister Rogers"
+
+[[cards]]
+text = "Gene Kelly"
+
+[[cards]]
+text = "Rachel Carson"
+
+[[cards]]
+text = "Pittsburgh Zoo"
+
+[[cards]]
+text = "Acrisure Stadium"
+
+[[cards]]
+text = "Liberty Bridge"

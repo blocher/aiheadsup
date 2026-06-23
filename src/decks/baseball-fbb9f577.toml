@@ -1,0 +1,246 @@
+id = "deck_baseball_fbb9f577"
+revision = 1
+name = "Baseball"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include positions, rules, equipment, famous plays, stadium terms, baseball slang, scoring terms, strategies, championships, mascots, and famous current and past players, but should not be mostly player names."
+photo_file_name = "baseball-fbb9f577-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Shortstop"
+
+[[cards]]
+text = "Catcher"
+
+[[cards]]
+text = "Pitcher"
+
+[[cards]]
+text = "Outfielder"
+
+[[cards]]
+text = "Pinch Hitter"
+
+[[cards]]
+text = "Infield Fly Rule"
+
+[[cards]]
+text = "Ground Rule Double"
+
+[[cards]]
+text = "Balk"
+
+[[cards]]
+text = "Tag Out"
+
+[[cards]]
+text = "Force Play"
+
+[[cards]]
+text = "Batting Helmet"
+
+[[cards]]
+text = "Pine Tar"
+
+[[cards]]
+text = "Catcher's Mask"
+
+[[cards]]
+text = "Baseball Glove"
+
+[[cards]]
+text = "Cleats"
+
+[[cards]]
+text = "Home Plate Umpire"
+
+[[cards]]
+text = "Double Play"
+
+[[cards]]
+text = "Triple Play"
+
+[[cards]]
+text = "Walk-Off Home Run"
+
+[[cards]]
+text = "Grand Slam"
+
+[[cards]]
+text = "Perfect Game"
+
+[[cards]]
+text = "No-Hitter"
+
+[[cards]]
+text = "Bullpen"
+
+[[cards]]
+text = "Dugout"
+
+[[cards]]
+text = "Batter's Box"
+
+[[cards]]
+text = "The Green Monster"
+
+[[cards]]
+text = "Warning Track"
+
+[[cards]]
+text = "Foul Pole"
+
+[[cards]]
+text = "Can of Corn"
+
+[[cards]]
+text = "Chin Music"
+
+[[cards]]
+text = "Southpaw"
+
+[[cards]]
+text = "Knuckleball"
+
+[[cards]]
+text = "Curveball"
+
+[[cards]]
+text = "Fastball"
+
+[[cards]]
+text = "RBI"
+
+[[cards]]
+text = "Strikeout"
+
+[[cards]]
+text = "Base on Balls"
+
+[[cards]]
+text = "Seventh-Inning Stretch"
+
+[[cards]]
+text = "Error"
+
+[[cards]]
+text = "Bunt"
+
+[[cards]]
+text = "Squeeze Play"
+
+[[cards]]
+text = "Hit and Run"
+
+[[cards]]
+text = "Stealing Second"
+
+[[cards]]
+text = "Intentional Walk"
+
+[[cards]]
+text = "World Series"
+
+[[cards]]
+text = "Phillie Phanatic"
+
+[[cards]]
+text = "Mr. Met"
+
+[[cards]]
+text = "Babe Ruth"
+
+[[cards]]
+text = "Jackie Robinson"
+
+[[cards]]
+text = "Shohei Ohtani"
+
+[[cards]]
+text = "Catcher's Mitt"
+
+[[cards]]
+text = "Green Monster"
+
+[[cards]]
+text = "Designated Hitter"
+
+[[cards]]
+text = "Batting Gloves"
+
+[[cards]]
+text = "Doubleheader"
+
+[[cards]]
+text = "Strike Zone"
+
+[[cards]]
+text = "Cooperstown"
+
+[[cards]]
+text = "Bat Boy"
+
+[[cards]]
+text = "Stolen Base"
+
+[[cards]]
+text = "Bleachers"
+
+[[cards]]
+text = "Golden Sombrero"
+
+[[cards]]
+text = "Around the Horn"
+
+[[cards]]
+text = "On-Deck Circle"
+
+[[cards]]
+text = "Cracker Jack"
+
+[[cards]]
+text = "Cy Young Award"
+
+[[cards]]
+text = "Rosin Bag"
+
+[[cards]]
+text = "Slider"
+
+[[cards]]
+text = "Double Steal"
+
+[[cards]]
+text = "Major League Baseball"
+
+[[cards]]
+text = "Ken Griffey Jr."
+
+[[cards]]
+text = "Caught Stealing"
+
+[[cards]]
+text = "Relief Pitcher"
+
+[[cards]]
+text = "Full Count"
+
+[[cards]]
+text = "Batter's Helmet"
+
+[[cards]]
+text = "Extra Innings"
+
+[[cards]]
+text = "Bunt Single"
+
+[[cards]]
+text = "Philly Phanatic"
+
+[[cards]]
+text = "Home Run Derby"
+
+[[cards]]
+text = "Batter's Eye"

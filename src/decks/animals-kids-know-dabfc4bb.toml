@@ -1,0 +1,255 @@
+id = "deck_animals-kids-know_dabfc4bb"
+revision = 1
+name = "Animals Kids Know"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include pets, farm animals, zoo animals, ocean animals, bugs, dinosaurs, animal sounds, baby animals, habitats, and simple animal traits."
+photo_file_name = "animals-kids-know-dabfc4bb-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Dog"
+
+[[cards]]
+text = "Cat"
+
+[[cards]]
+text = "Lion"
+
+[[cards]]
+text = "Elephant"
+
+[[cards]]
+text = "Monkey"
+
+[[cards]]
+text = "Giraffe"
+
+[[cards]]
+text = "Zebra"
+
+[[cards]]
+text = "Pig"
+
+[[cards]]
+text = "Cow"
+
+[[cards]]
+text = "Horse"
+
+[[cards]]
+text = "Sheep"
+
+[[cards]]
+text = "Chicken"
+
+[[cards]]
+text = "Duck"
+
+[[cards]]
+text = "Frog"
+
+[[cards]]
+text = "Dolphin"
+
+[[cards]]
+text = "Shark"
+
+[[cards]]
+text = "Whale"
+
+[[cards]]
+text = "Octopus"
+
+[[cards]]
+text = "Starfish"
+
+[[cards]]
+text = "Crab"
+
+[[cards]]
+text = "Sea Turtle"
+
+[[cards]]
+text = "Butterfly"
+
+[[cards]]
+text = "Honeybee"
+
+[[cards]]
+text = "Ladybug"
+
+[[cards]]
+text = "Spider"
+
+[[cards]]
+text = "Caterpillar"
+
+[[cards]]
+text = "T-Rex"
+
+[[cards]]
+text = "Triceratops"
+
+[[cards]]
+text = "Puppy"
+
+[[cards]]
+text = "Kitten"
+
+[[cards]]
+text = "Baby Chick"
+
+[[cards]]
+text = "Duckling"
+
+[[cards]]
+text = "Goldfish"
+
+[[cards]]
+text = "Hamster"
+
+[[cards]]
+text = "Rabbit"
+
+[[cards]]
+text = "Penguin"
+
+[[cards]]
+text = "Kangaroo"
+
+[[cards]]
+text = "Hippo"
+
+[[cards]]
+text = "Panda"
+
+[[cards]]
+text = "Koala"
+
+[[cards]]
+text = "Fox"
+
+[[cards]]
+text = "Squirrel"
+
+[[cards]]
+text = "Owl"
+
+[[cards]]
+text = "Bird Nest"
+
+[[cards]]
+text = "Animal Tail"
+
+[[cards]]
+text = "Rooster Crow"
+
+[[cards]]
+text = "Lion Roar"
+
+[[cards]]
+text = "Cow Moo"
+
+[[cards]]
+text = "Dog Bark"
+
+[[cards]]
+text = "Cat Meow"
+
+[[cards]]
+text = "Bunny"
+
+[[cards]]
+text = "Rooster"
+
+[[cards]]
+text = "Snail"
+
+[[cards]]
+text = "Dinosaur Fossil"
+
+[[cards]]
+text = "Dinosaur Egg"
+
+[[cards]]
+text = "Dino Footprint"
+
+[[cards]]
+text = "Meow"
+
+[[cards]]
+text = "Woof"
+
+[[cards]]
+text = "Moo"
+
+[[cards]]
+text = "Oink"
+
+[[cards]]
+text = "Roar"
+
+[[cards]]
+text = "Chick"
+
+[[cards]]
+text = "Piglet"
+
+[[cards]]
+text = "Beehive"
+
+[[cards]]
+text = "Spiderweb"
+
+[[cards]]
+text = "Fish Tank"
+
+[[cards]]
+text = "Doghouse"
+
+[[cards]]
+text = "Elephant Trunk"
+
+[[cards]]
+text = "Giraffe Neck"
+
+[[cards]]
+text = "Kangaroo Pouch"
+
+[[cards]]
+text = "Lion Mane"
+
+[[cards]]
+text = "Turtle Shell"
+
+[[cards]]
+text = "Bear"
+
+[[cards]]
+text = "Bee"
+
+[[cards]]
+text = "Dinosaur"
+
+[[cards]]
+text = "Long Trunk"
+
+[[cards]]
+text = "Spider Web"
+
+[[cards]]
+text = "Bark"
+
+[[cards]]
+text = "Ocean"
+
+[[cards]]
+text = "Jungle"
+
+[[cards]]
+text = "Long Neck"
+
+[[cards]]
+text = "Fluffy Tail"

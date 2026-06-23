@@ -1,0 +1,270 @@
+id = "deck_breakfast-foods_558b2b9d"
+revision = 1
+name = "Breakfast Foods"
+category = "Food"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include breakfast dishes, cereals, pastries, drinks, eggs, meats, fruits, diner foods, toppings, and morning meal routines."
+photo_file_name = "breakfast-foods-558b2b9d-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Pancakes"
+
+[[cards]]
+text = "Waffles"
+
+[[cards]]
+text = "French Toast"
+
+[[cards]]
+text = "Crispy Bacon"
+
+[[cards]]
+text = "Sausage Links"
+
+[[cards]]
+text = "Scrambled Eggs"
+
+[[cards]]
+text = "Hard-Boiled Eggs"
+
+[[cards]]
+text = "Eggs Benedict"
+
+[[cards]]
+text = "Cheese Omelet"
+
+[[cards]]
+text = "Avocado Toast"
+
+[[cards]]
+text = "Breakfast Burrito"
+
+[[cards]]
+text = "Breakfast Sandwich"
+
+[[cards]]
+text = "Biscuits and Gravy"
+
+[[cards]]
+text = "Hash Browns"
+
+[[cards]]
+text = "Home Fries"
+
+[[cards]]
+text = "Bagel and Cream Cheese"
+
+[[cards]]
+text = "English Muffin"
+
+[[cards]]
+text = "Butter Croissant"
+
+[[cards]]
+text = "Blueberry Muffin"
+
+[[cards]]
+text = "Cinnamon Roll"
+
+[[cards]]
+text = "Glazed Donuts"
+
+[[cards]]
+text = "Sweet Crepes"
+
+[[cards]]
+text = "Oatmeal"
+
+[[cards]]
+text = "Yogurt Parfait"
+
+[[cards]]
+text = "Fruit Salad"
+
+[[cards]]
+text = "Grapefruit Half"
+
+[[cards]]
+text = "Sliced Banana"
+
+[[cards]]
+text = "Orange Juice"
+
+[[cards]]
+text = "Apple Juice"
+
+[[cards]]
+text = "Hot Coffee"
+
+[[cards]]
+text = "Hot Tea"
+
+[[cards]]
+text = "Cold Milk"
+
+[[cards]]
+text = "Hot Chocolate"
+
+[[cards]]
+text = "Fruit Smoothie"
+
+[[cards]]
+text = "Maple Syrup"
+
+[[cards]]
+text = "Salted Butter"
+
+[[cards]]
+text = "Strawberry Jam"
+
+[[cards]]
+text = "Peanut Butter"
+
+[[cards]]
+text = "Sweet Honey"
+
+[[cards]]
+text = "Pop-Tarts"
+
+[[cards]]
+text = "Cornflakes"
+
+[[cards]]
+text = "Warm Grits"
+
+[[cards]]
+text = "Electric Toaster"
+
+[[cards]]
+text = "Waffle Iron"
+
+[[cards]]
+text = "Coffee Maker"
+
+[[cards]]
+text = "Frying Pan"
+
+[[cards]]
+text = "Sliced Bread"
+
+[[cards]]
+text = "Sunny-Side Up Egg"
+
+[[cards]]
+text = "Breakfast Buffet"
+
+[[cards]]
+text = "Corned Beef Hash"
+
+[[cards]]
+text = "Warm Oatmeal"
+
+[[cards]]
+text = "Buttered Toast"
+
+[[cards]]
+text = "Croissant"
+
+[[cards]]
+text = "Sunny-Side Up Eggs"
+
+[[cards]]
+text = "Breakfast Sausage"
+
+[[cards]]
+text = "Chocolate Milk"
+
+[[cards]]
+text = "Bowl of Cereal"
+
+[[cards]]
+text = "Fresh Grapefruit"
+
+[[cards]]
+text = "Pop-Tart"
+
+[[cards]]
+text = "Crunchy Granola"
+
+[[cards]]
+text = "Glazed Donut"
+
+[[cards]]
+text = "Hot Cocoa"
+
+[[cards]]
+text = "Blueberry Scone"
+
+[[cards]]
+text = "Spinach Quiche"
+
+[[cards]]
+text = "Honey Jar"
+
+[[cards]]
+text = "Fresh Strawberries"
+
+[[cards]]
+text = "Bran Flakes"
+
+[[cards]]
+text = "Breakfast Tea"
+
+[[cards]]
+text = "Canadian Bacon"
+
+[[cards]]
+text = "Poached Eggs"
+
+[[cards]]
+text = "Omelet"
+
+[[cards]]
+text = "Cereal and Milk"
+
+[[cards]]
+text = "Toast and Jelly"
+
+[[cards]]
+text = "Granola"
+
+[[cards]]
+text = "Pouring Milk"
+
+[[cards]]
+text = "Fried Egg"
+
+[[cards]]
+text = "Belgian Waffle"
+
+[[cards]]
+text = "Bacon"
+
+[[cards]]
+text = "Cereal Bowl"
+
+[[cards]]
+text = "Chocolate Chip Muffin"
+
+[[cards]]
+text = "Toasted Bagel"
+
+[[cards]]
+text = "Cream Cheese"
+
+[[cards]]
+text = "Sliced Bananas"
+
+[[cards]]
+text = "Greek Yogurt"
+
+[[cards]]
+text = "Blueberry Jam"
+
+[[cards]]
+text = "Cereal"
+
+[[cards]]
+text = "Blueberries"

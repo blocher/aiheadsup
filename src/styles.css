@@ -18,6 +18,7 @@ button:disabled { cursor: not-allowed; opacity: .5; }
 .hero::after { content: '✦'; position: absolute; right: 24px; top: -18px; color: #ffe663; font-size: 9rem; opacity: .75; }
 .hero p { margin: 0 0 8px; font-weight: 700; }
 .hero h2 { max-width: 300px; margin-bottom: 22px; font-size: clamp(2rem, 8vw, 3rem); }
+.deck-library-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 18px; }.deck-library-actions button { padding: 0; border: 0; color: white; background: transparent; font-size: .76rem; font-weight: 800; text-decoration: underline; }.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); }
 .primary-button, .secondary-button { border: 0; border-radius: 16px; min-height: 50px; padding: 13px 18px; font-weight: 800; transition: transform .15s ease, filter .15s ease; }
 .primary-button { color: #191632; background: #ffe663; box-shadow: 0 4px 0 #d0ad34; }
 .secondary-button { color: white; background: #2b3158; }

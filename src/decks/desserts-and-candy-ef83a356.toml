@@ -1,0 +1,213 @@
+id = "deck_desserts-and-candy_ef83a356"
+revision = 1
+name = "Desserts and Candy"
+category = "Food"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include cakes, cookies, ice cream, candy, chocolate, pies, pastries, toppings, dessert shops, and sweet treats kids and adults would know."
+photo_file_name = "desserts-and-candy-ef83a356-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Chocolate Chip Cookie"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Gummy Bears"
+
+[[cards]]
+text = "Ice Cream Cone"
+
+[[cards]]
+text = "Apple Pie"
+
+[[cards]]
+text = "Marshmallow"
+
+[[cards]]
+text = "Lollipop"
+
+[[cards]]
+text = "Birthday Cake"
+
+[[cards]]
+text = "Brownie"
+
+[[cards]]
+text = "Cupcake"
+
+[[cards]]
+text = "Jelly Beans"
+
+[[cards]]
+text = "Candy Corn"
+
+[[cards]]
+text = "Whipped Cream"
+
+[[cards]]
+text = "Chocolate Bar"
+
+[[cards]]
+text = "Donut"
+
+[[cards]]
+text = "Cinnamon Roll"
+
+[[cards]]
+text = "Milkshake"
+
+[[cards]]
+text = "Hot Fudge Sundae"
+
+[[cards]]
+text = "Gingerbread House"
+
+[[cards]]
+text = "Caramel Apple"
+
+[[cards]]
+text = "Fudge"
+
+[[cards]]
+text = "Macaron"
+
+[[cards]]
+text = "Banana Split"
+
+[[cards]]
+text = "Cheesecake"
+
+[[cards]]
+text = "Pumpkin Pie"
+
+[[cards]]
+text = "Chocolate Truffle"
+
+[[cards]]
+text = "Peppermint Bark"
+
+[[cards]]
+text = "S'mores"
+
+[[cards]]
+text = "Bubble Gum"
+
+[[cards]]
+text = "Lemon Bars"
+
+[[cards]]
+text = "Key Lime Pie"
+
+[[cards]]
+text = "Snickerdoodle"
+
+[[cards]]
+text = "Red Velvet Cupcake"
+
+[[cards]]
+text = "Ice Cream Parlor"
+
+[[cards]]
+text = "Candy Cane"
+
+[[cards]]
+text = "Rainbow Sprinkles"
+
+[[cards]]
+text = "Toffee"
+
+[[cards]]
+text = "Baklava"
+
+[[cards]]
+text = "Cannoli"
+
+[[cards]]
+text = "Crepe"
+
+[[cards]]
+text = "Waffle Cone"
+
+[[cards]]
+text = "Peanut Butter Cup"
+
+[[cards]]
+text = "Gummy Worms"
+
+[[cards]]
+text = "Sugar Cookie"
+
+[[cards]]
+text = "Strawberry Shortcake"
+
+[[cards]]
+text = "Fruit Tart"
+
+[[cards]]
+text = "Tiramisu"
+
+[[cards]]
+text = "Blue Raspberry Slushie"
+
+[[cards]]
+text = "Caramel Popcorn"
+
+[[cards]]
+text = "Sorbet"
+
+[[cards]]
+text = "Chocolate Brownie"
+
+[[cards]]
+text = "Blueberry Muffin"
+
+[[cards]]
+text = "Glazed Donut"
+
+[[cards]]
+text = "Red Velvet Cake"
+
+[[cards]]
+text = "Lemon Meringue Pie"
+
+[[cards]]
+text = "Mint Chocolate Chip"
+
+[[cards]]
+text = "Chocolate Pudding"
+
+[[cards]]
+text = "Gelato"
+
+[[cards]]
+text = "Ice Cream Truck"
+
+[[cards]]
+text = "Bakery"
+
+[[cards]]
+text = "Candy Shop"
+
+[[cards]]
+text = "Crepes"
+
+[[cards]]
+text = "Vanilla Ice Cream"
+
+[[cards]]
+text = "Gingerbread Man"
+
+[[cards]]
+text = "Sprinkles"
+
+[[cards]]
+text = "Waffles"
+
+[[cards]]
+text = "Blueberry Pie"
+
+[[cards]]
+text = "Chocolate Chip"

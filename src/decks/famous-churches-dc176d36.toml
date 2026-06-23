@@ -1,0 +1,252 @@
+id = "deck_famous-churches_dc176d36"
+revision = 1
+name = "Famous Churches"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include famous churches, cathedrals, basilicas, chapels, shrines, architectural features, cities, saints, historical events, and pilgrimage sites from around the world."
+photo_file_name = "famous-churches-dc176d36-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Notre-Dame de Paris"
+
+[[cards]]
+text = "Saint Peter's Basilica"
+
+[[cards]]
+text = "Sagrada Família"
+
+[[cards]]
+text = "Westminster Abbey"
+
+[[cards]]
+text = "Hagia Sophia"
+
+[[cards]]
+text = "Saint Basil's Cathedral"
+
+[[cards]]
+text = "Cologne Cathedral"
+
+[[cards]]
+text = "Milan Cathedral"
+
+[[cards]]
+text = "Sistine Chapel"
+
+[[cards]]
+text = "St. Patrick's Cathedral"
+
+[[cards]]
+text = "Canterbury Cathedral"
+
+[[cards]]
+text = "Basilica of Guadalupe"
+
+[[cards]]
+text = "Sanctuary of Lourdes"
+
+[[cards]]
+text = "Chartres Cathedral"
+
+[[cards]]
+text = "Florence Cathedral"
+
+[[cards]]
+text = "Santiago de Compostela"
+
+[[cards]]
+text = "Mont-Saint-Michel"
+
+[[cards]]
+text = "St. Paul's Cathedral"
+
+[[cards]]
+text = "Basilica of San Vitale"
+
+[[cards]]
+text = "Saint Mark's Basilica"
+
+[[cards]]
+text = "Hallgrímskirkja"
+
+[[cards]]
+text = "Church of the Nativity"
+
+[[cards]]
+text = "Holy Sepulchre"
+
+[[cards]]
+text = "Ulm Minster"
+
+[[cards]]
+text = "Notre-Dame Basilica"
+
+[[cards]]
+text = "Washington National Cathedral"
+
+[[cards]]
+text = "St. Stephen's Cathedral"
+
+[[cards]]
+text = "Gothic Arch"
+
+[[cards]]
+text = "Flying Buttress"
+
+[[cards]]
+text = "Stained Glass"
+
+[[cards]]
+text = "Gargoyle"
+
+[[cards]]
+text = "Rose Window"
+
+[[cards]]
+text = "Bell Tower"
+
+[[cards]]
+text = "Vatican City"
+
+[[cards]]
+text = "Jerusalem"
+
+[[cards]]
+text = "Rome"
+
+[[cards]]
+text = "Saint Francis of Assisi"
+
+[[cards]]
+text = "Saint Jude"
+
+[[cards]]
+text = "Saint Nicholas"
+
+[[cards]]
+text = "Cathedral of Seville"
+
+[[cards]]
+text = "Reims Cathedral"
+
+[[cards]]
+text = "Salt Cathedral of Zipaquirá"
+
+[[cards]]
+text = "Las Lajas Sanctuary"
+
+[[cards]]
+text = "Borgund Stave Church"
+
+[[cards]]
+text = "Sanctuary of Fátima"
+
+[[cards]]
+text = "Canterbury"
+
+[[cards]]
+text = "Pilgrimage Route"
+
+[[cards]]
+text = "Cathedral of Bourges"
+
+[[cards]]
+text = "Ely Cathedral"
+
+[[cards]]
+text = "Saint Joan of Arc"
+
+[[cards]]
+text = "St. Peter's Basilica"
+
+[[cards]]
+text = "St. Basil's Cathedral"
+
+[[cards]]
+text = "Duomo di Milano"
+
+[[cards]]
+text = "Sainte-Chapelle"
+
+[[cards]]
+text = "St. Mark's Basilica"
+
+[[cards]]
+text = "Church of Holy Sepulchre"
+
+[[cards]]
+text = "Lourdes Shrine"
+
+[[cards]]
+text = "Salisbury Cathedral"
+
+[[cards]]
+text = "St. Vitus Cathedral"
+
+[[cards]]
+text = "Cathedral Spire"
+
+[[cards]]
+text = "High Altar"
+
+[[cards]]
+text = "Saint Peter"
+
+[[cards]]
+text = "Saint Paul"
+
+[[cards]]
+text = "Saint Patrick"
+
+[[cards]]
+text = "Assisi"
+
+[[cards]]
+text = "Canterbury Tales"
+
+[[cards]]
+text = "Lalibela Rock Churches"
+
+[[cards]]
+text = "Crypt"
+
+[[cards]]
+text = "Gothic Architecture"
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "Saint Benedict"
+
+[[cards]]
+text = "Shrine of Fátima"
+
+[[cards]]
+text = "Protestant Reformation"
+
+[[cards]]
+text = "Guadalupe Basilica"
+
+[[cards]]
+text = "Sacré-Cœur Basilica"
+
+[[cards]]
+text = "Seville Cathedral"
+
+[[cards]]
+text = "Lourdes"
+
+[[cards]]
+text = "Stained Glass Window"
+
+[[cards]]
+text = "Saint Paul's Cathedral"
+
+[[cards]]
+text = "Notre-Dame Cathedral"
+
+[[cards]]
+text = "Church Bell"

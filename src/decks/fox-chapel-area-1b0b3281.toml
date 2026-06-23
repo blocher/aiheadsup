@@ -1,0 +1,234 @@
+id = "deck_fox-chapel-area_1b0b3281"
+revision = 1
+name = "Fox Chapel Area"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include O'Hara Township, Sharpsburg, Aspinwall, Fox Chapel, Etna, Indiana Township, Blawnox, local parks, schools, rivers, bridges, neighborhoods, roads, restaurants, landmarks, history, and Pittsburgh-area references. Include all Fox Chapel School District schools"
+photo_file_name = "fox-chapel-area-1b0b3281-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "O'Hara Township"
+
+[[cards]]
+text = "Sharpsburg"
+
+[[cards]]
+text = "Aspinwall"
+
+[[cards]]
+text = "Fox Chapel"
+
+[[cards]]
+text = "Etna"
+
+[[cards]]
+text = "Indiana Township"
+
+[[cards]]
+text = "Blawnox"
+
+[[cards]]
+text = "Fox Chapel High School"
+
+[[cards]]
+text = "Dorseyville Middle School"
+
+[[cards]]
+text = "Fairview Elementary School"
+
+[[cards]]
+text = "Hartwood Elementary School"
+
+[[cards]]
+text = "Kerr Elementary School"
+
+[[cards]]
+text = "O'Hara Elementary School"
+
+[[cards]]
+text = "Hartwood Acres"
+
+[[cards]]
+text = "Beechwood Farms"
+
+[[cards]]
+text = "Trillium Trail"
+
+[[cards]]
+text = "O'Hara Community Park"
+
+[[cards]]
+text = "McCahill Park"
+
+[[cards]]
+text = "Emmerling Park"
+
+[[cards]]
+text = "Salamander Park"
+
+[[cards]]
+text = "Allegheny River"
+
+[[cards]]
+text = "Highland Park Bridge"
+
+[[cards]]
+text = "Hulton Bridge"
+
+[[cards]]
+text = "Sixty-Second Street Bridge"
+
+[[cards]]
+text = "Freeport Road"
+
+[[cards]]
+text = "Route 28"
+
+[[cards]]
+text = "Fox Chapel Road"
+
+[[cards]]
+text = "Powers Run Road"
+
+[[cards]]
+text = "Delafield Road"
+
+[[cards]]
+text = "Pittsburgh Field Club"
+
+[[cards]]
+text = "Fox Chapel Yacht Club"
+
+[[cards]]
+text = "Shady Side Academy"
+
+[[cards]]
+text = "The Waterworks Mall"
+
+[[cards]]
+text = "Lauri Ann West Center"
+
+[[cards]]
+text = "Cooper-Siegel Library"
+
+[[cards]]
+text = "UPMC St. Margaret"
+
+[[cards]]
+text = "Atria's Restaurant"
+
+[[cards]]
+text = "Caliente Pizza"
+
+[[cards]]
+text = "Aspinwall Riverfront Park"
+
+[[cards]]
+text = "Camp Guyasuta"
+
+[[cards]]
+text = "Guyasuta Run"
+
+[[cards]]
+text = "Chapel Harbor"
+
+[[cards]]
+text = "Hitchhiker Brewing"
+
+[[cards]]
+text = "Dancing Gnome Brewery"
+
+[[cards]]
+text = "The Cornerstone Restaurant"
+
+[[cards]]
+text = "Fox Chapel Golf Club"
+
+[[cards]]
+text = "Squaw Run Road"
+
+[[cards]]
+text = "Old Freeport Road"
+
+[[cards]]
+text = "Brilliant Bridge"
+
+[[cards]]
+text = "KDKA Transmitter Tower"
+
+[[cards]]
+text = "Sharpsburg Borough"
+
+[[cards]]
+text = "Fox Chapel Borough"
+
+[[cards]]
+text = "Etna Borough"
+
+[[cards]]
+text = "Hartwood Acres Park"
+
+[[cards]]
+text = "Beechwood Farms Nature Reserve"
+
+[[cards]]
+text = "Sycamore Island"
+
+[[cards]]
+text = "Squaw Valley Park"
+
+[[cards]]
+text = "Brilliant Railroad Bridge"
+
+[[cards]]
+text = "Lock and Dam Two"
+
+[[cards]]
+text = "Little Pine Creek"
+
+[[cards]]
+text = "Deer Creek"
+
+[[cards]]
+text = "Sixmile Island"
+
+[[cards]]
+text = "Chapel Gate Swim Club"
+
+[[cards]]
+text = "Bryn Mawr Road"
+
+[[cards]]
+text = "Dorseyville Road"
+
+[[cards]]
+text = "KDKA Transmitter"
+
+[[cards]]
+text = "Alpha Drive"
+
+[[cards]]
+text = "Sharpsburg Library"
+
+[[cards]]
+text = "Aspinwall Marina"
+
+[[cards]]
+text = "Fairview Elementary"
+
+[[cards]]
+text = "Hartwood Elementary"
+
+[[cards]]
+text = "Kerr Elementary"
+
+[[cards]]
+text = "O'Hara Elementary"
+
+[[cards]]
+text = "Waterworks Mall"
+
+[[cards]]
+text = "62nd Street Bridge"

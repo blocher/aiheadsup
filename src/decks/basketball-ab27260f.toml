@@ -1,0 +1,228 @@
+id = "deck_basketball_ab27260f"
+revision = 1
+name = "Basketball"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include positions, rules, shots, passes, fouls, court markings, equipment, famous moves, tournaments, team concepts, basketball slang, and famous current and past players, but should not be mostly player names."
+photo_file_name = "basketball-ab27260f-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Point Guard"
+
+[[cards]]
+text = "Shooting Guard"
+
+[[cards]]
+text = "Small Forward"
+
+[[cards]]
+text = "Power Forward"
+
+[[cards]]
+text = "Center"
+
+[[cards]]
+text = "Traveling"
+
+[[cards]]
+text = "Double Dribble"
+
+[[cards]]
+text = "Shot Clock"
+
+[[cards]]
+text = "Backcourt Violation"
+
+[[cards]]
+text = "Slam Dunk"
+
+[[cards]]
+text = "Alley-Oop"
+
+[[cards]]
+text = "Fadeaway"
+
+[[cards]]
+text = "Hook Shot"
+
+[[cards]]
+text = "Layup"
+
+[[cards]]
+text = "Three-Pointer"
+
+[[cards]]
+text = "Free Throw"
+
+[[cards]]
+text = "Bounce Pass"
+
+[[cards]]
+text = "Chest Pass"
+
+[[cards]]
+text = "No-Look Pass"
+
+[[cards]]
+text = "Charging"
+
+[[cards]]
+text = "Blocking Foul"
+
+[[cards]]
+text = "Technical Foul"
+
+[[cards]]
+text = "The Key"
+
+[[cards]]
+text = "Three-Point Line"
+
+[[cards]]
+text = "Half-Court Line"
+
+[[cards]]
+text = "Baseline"
+
+[[cards]]
+text = "Backboard"
+
+[[cards]]
+text = "Basketball Hoop"
+
+[[cards]]
+text = "Whistle"
+
+[[cards]]
+text = "Air Jordan"
+
+[[cards]]
+text = "Crossover Dribble"
+
+[[cards]]
+text = "Eurostep"
+
+[[cards]]
+text = "Fast Break"
+
+[[cards]]
+text = "Full-Court Press"
+
+[[cards]]
+text = "Pick and Roll"
+
+[[cards]]
+text = "Airball"
+
+[[cards]]
+text = "Nothing But Net"
+
+[[cards]]
+text = "Double-Double"
+
+[[cards]]
+text = "Triple-Double"
+
+[[cards]]
+text = "Sixth Man"
+
+[[cards]]
+text = "NBA Finals"
+
+[[cards]]
+text = "March Madness"
+
+[[cards]]
+text = "Michael Jordan"
+
+[[cards]]
+text = "LeBron James"
+
+[[cards]]
+text = "Stephen Curry"
+
+[[cards]]
+text = "Shaquille O'Neal"
+
+[[cards]]
+text = "Kobe Bryant"
+
+[[cards]]
+text = "Man-to-Man Defense"
+
+[[cards]]
+text = "Zone Defense"
+
+[[cards]]
+text = "Jump Ball"
+
+[[cards]]
+text = "Three-Second Violation"
+
+[[cards]]
+text = "Jump Shot"
+
+[[cards]]
+text = "Charging Foul"
+
+[[cards]]
+text = "Flagrant Foul"
+
+[[cards]]
+text = "Free Throw Line"
+
+[[cards]]
+text = "Basketball Net"
+
+[[cards]]
+text = "Euro Step"
+
+[[cards]]
+text = "Crossover"
+
+[[cards]]
+text = "Dream Shake"
+
+[[cards]]
+text = "Skyhook"
+
+[[cards]]
+text = "Slam Dunk Contest"
+
+[[cards]]
+text = "Double Team"
+
+[[cards]]
+text = "Ankle Breaker"
+
+[[cards]]
+text = "Buzzer Beater"
+
+[[cards]]
+text = "Fadeaway Shot"
+
+[[cards]]
+text = "Referee Whistle"
+
+[[cards]]
+text = "Air Ball"
+
+[[cards]]
+text = "Brick"
+
+[[cards]]
+text = "Swish"
+
+[[cards]]
+text = "Fadeaway Jump Shot"
+
+[[cards]]
+text = "Air Jordans"
+
+[[cards]]
+text = "Finger Roll"
+
+[[cards]]
+text = "Rebound"

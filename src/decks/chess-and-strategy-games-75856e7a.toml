@@ -1,0 +1,243 @@
+id = "deck_chess-and-strategy-games_75856e7a"
+revision = 1
+name = "Chess and Strategy Games"
+category = "Games"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include chess pieces, moves, openings, tactics, checkmate patterns, famous strategy games, abstract games, planning terms, and beginner-friendly strategy concepts."
+photo_file_name = "chess-and-strategy-games-75856e7a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "King"
+
+[[cards]]
+text = "Queen"
+
+[[cards]]
+text = "Rook"
+
+[[cards]]
+text = "Bishop"
+
+[[cards]]
+text = "Knight"
+
+[[cards]]
+text = "Pawn"
+
+[[cards]]
+text = "Castling"
+
+[[cards]]
+text = "En Passant"
+
+[[cards]]
+text = "Fork"
+
+[[cards]]
+text = "Pin"
+
+[[cards]]
+text = "Skewer"
+
+[[cards]]
+text = "Pawn Promotion"
+
+[[cards]]
+text = "Checkmate"
+
+[[cards]]
+text = "Stalemate"
+
+[[cards]]
+text = "Double Check"
+
+[[cards]]
+text = "Queen's Gambit"
+
+[[cards]]
+text = "Sicilian Defense"
+
+[[cards]]
+text = "King's Indian Defense"
+
+[[cards]]
+text = "Ruy Lopez"
+
+[[cards]]
+text = "Italian Game"
+
+[[cards]]
+text = "French Defense"
+
+[[cards]]
+text = "Caro-Kann Defense"
+
+[[cards]]
+text = "Scholar's Mate"
+
+[[cards]]
+text = "Fool's Mate"
+
+[[cards]]
+text = "Smothered Mate"
+
+[[cards]]
+text = "Back Rank Mate"
+
+[[cards]]
+text = "Go"
+
+[[cards]]
+text = "Shogi"
+
+[[cards]]
+text = "Xiangqi"
+
+[[cards]]
+text = "Checkers"
+
+[[cards]]
+text = "Backgammon"
+
+[[cards]]
+text = "Risk"
+
+[[cards]]
+text = "Catan"
+
+[[cards]]
+text = "Carcassonne"
+
+[[cards]]
+text = "Othello"
+
+[[cards]]
+text = "Reversi"
+
+[[cards]]
+text = "Connect Four"
+
+[[cards]]
+text = "Battleship"
+
+[[cards]]
+text = "Grandmaster"
+
+[[cards]]
+text = "Endgame"
+
+[[cards]]
+text = "Middlegame"
+
+[[cards]]
+text = "Chess Clock"
+
+[[cards]]
+text = "Time Control"
+
+[[cards]]
+text = "Zugzwang"
+
+[[cards]]
+text = "Fianchetto"
+
+[[cards]]
+text = "Blunder"
+
+[[cards]]
+text = "Tactical Sacrifice"
+
+[[cards]]
+text = "Stratego"
+
+[[cards]]
+text = "Diplomacy"
+
+[[cards]]
+text = "Blokus"
+
+[[cards]]
+text = "Gambit"
+
+[[cards]]
+text = "Discovered Attack"
+
+[[cards]]
+text = "Japanese Chess"
+
+[[cards]]
+text = "Chinese Chess"
+
+[[cards]]
+text = "Mancala"
+
+[[cards]]
+text = "Ticket to Ride"
+
+[[cards]]
+text = "Hive"
+
+[[cards]]
+text = "Chessboard"
+
+[[cards]]
+text = "Piece Sacrifice"
+
+[[cards]]
+text = "Center Control"
+
+[[cards]]
+text = "Blockade"
+
+[[cards]]
+text = "The Queen's Gambit"
+
+[[cards]]
+text = "Knight Fork"
+
+[[cards]]
+text = "Pinning a Piece"
+
+[[cards]]
+text = "Settlers of Catan"
+
+[[cards]]
+text = "Opening Novelty"
+
+[[cards]]
+text = "Sacrifice"
+
+[[cards]]
+text = "Skewer Tactic"
+
+[[cards]]
+text = "Draw by Agreement"
+
+[[cards]]
+text = "Blindfold Chess"
+
+[[cards]]
+text = "Tactical Puzzle"
+
+[[cards]]
+text = "The Knight"
+
+[[cards]]
+text = "The Queen"
+
+[[cards]]
+text = "Check"
+
+[[cards]]
+text = "The Rook"
+
+[[cards]]
+text = "The Bishop"
+
+[[cards]]
+text = "Tic-Tac-Toe"
+
+[[cards]]
+text = "Capture"

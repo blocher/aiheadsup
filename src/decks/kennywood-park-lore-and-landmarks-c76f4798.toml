@@ -1,0 +1,243 @@
+id = "deck_kennywood-park-lore-and-landmarks_c76f4798"
+revision = 1
+name = "Kennywood: Park Lore and Landmarks"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Kennywood history, themed areas, park landmarks, food stands, games, mascots, seasonal events, local traditions, and Pittsburgh-area references."
+photo_file_name = "kennywood-park-lore-and-landmarks-c76f4798-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Phantom's Revenge"
+
+[[cards]]
+text = "Thunderbolt"
+
+[[cards]]
+text = "Jack Rabbit"
+
+[[cards]]
+text = "The Racer"
+
+[[cards]]
+text = "Noah's Ark"
+
+[[cards]]
+text = "Potato Patch Fries"
+
+[[cards]]
+text = "Kenny Kangaroo"
+
+[[cards]]
+text = "Lost Kennywood"
+
+[[cards]]
+text = "Ghostwood Estate"
+
+[[cards]]
+text = "The Kangaroo"
+
+[[cards]]
+text = "Auto Race"
+
+[[cards]]
+text = "The Turtle"
+
+[[cards]]
+text = "Bayern Kurve"
+
+[[cards]]
+text = "Exterminator"
+
+[[cards]]
+text = "Steel Curtain"
+
+[[cards]]
+text = "Sky Rocket"
+
+[[cards]]
+text = "Kiddieland"
+
+[[cards]]
+text = "Thomas Town"
+
+[[cards]]
+text = "Pittsburg Plunge"
+
+[[cards]]
+text = "Old Mill"
+
+[[cards]]
+text = "Aero 360"
+
+[[cards]]
+text = "Black Widow"
+
+[[cards]]
+text = "Cosmic Chaos"
+
+[[cards]]
+text = "Raging Rapids"
+
+[[cards]]
+text = "Wave Swinger"
+
+[[cards]]
+text = "Swing Shot"
+
+[[cards]]
+text = "Lil' Phantom"
+
+[[cards]]
+text = "Phantom Fright Nights"
+
+[[cards]]
+text = "Holiday Lights"
+
+[[cards]]
+text = "Steel Phantom"
+
+[[cards]]
+text = "Laser Loop"
+
+[[cards]]
+text = "Log Jammer"
+
+[[cards]]
+text = "Garfield's Nightmare"
+
+[[cards]]
+text = "Golden Dome"
+
+[[cards]]
+text = "Pagoda"
+
+[[cards]]
+text = "Kennywood Arrow"
+
+[[cards]]
+text = "Park Fountain"
+
+[[cards]]
+text = "Kandy Kaleidoscope"
+
+[[cards]]
+text = "Carousel Pavilion"
+
+[[cards]]
+text = "Noah's Ark Whale"
+
+[[cards]]
+text = "West Mifflin"
+
+[[cards]]
+text = "School Picnic Day"
+
+[[cards]]
+text = "Potato Patch Cheese"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Funnel Cake"
+
+[[cards]]
+text = "Dip Cone"
+
+[[cards]]
+text = "Penn Brewery Garden"
+
+[[cards]]
+text = "Paddle Boats"
+
+[[cards]]
+text = "Arcade"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "The Thunderbolt"
+
+[[cards]]
+text = "Kangaroo"
+
+[[cards]]
+text = "The Exterminator"
+
+[[cards]]
+text = "Musik Express"
+
+[[cards]]
+text = "Gran Prix"
+
+[[cards]]
+text = "Fall Fantasy Parade"
+
+[[cards]]
+text = "Phantom Fall Fest"
+
+[[cards]]
+text = "Kennywood Railroad"
+
+[[cards]]
+text = "Garbage Eating Lion"
+
+[[cards]]
+text = "The Old Mill"
+
+[[cards]]
+text = "Pitt Fall"
+
+[[cards]]
+text = "Pippin"
+
+[[cards]]
+text = "Dippin' Dots"
+
+[[cards]]
+text = "Pagoda Food Stand"
+
+[[cards]]
+text = "Parkside Cafe"
+
+[[cards]]
+text = "Kennywood Arrows"
+
+[[cards]]
+text = "Grand Carousel"
+
+[[cards]]
+text = "Carousel Music Organ"
+
+[[cards]]
+text = "Garden Stage"
+
+[[cards]]
+text = "Playland Arcade"
+
+[[cards]]
+text = "Kennywood Lagoon"
+
+[[cards]]
+text = "Racer"
+
+[[cards]]
+text = "Pittsburgh Plunge"
+
+[[cards]]
+text = "The Kennywood Arrow"
+
+[[cards]]
+text = "Skyrocket"
+
+[[cards]]
+text = "Kennywood Day"
+
+[[cards]]
+text = "The Lagoon"
+
+[[cards]]
+text = "The Pagoda"

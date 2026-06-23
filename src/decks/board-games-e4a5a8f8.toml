@@ -1,0 +1,261 @@
+id = "deck_board-games_e4a5a8f8"
+revision = 1
+name = "Board Games"
+category = "Games"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include classic and modern board games, pieces, cards, dice, game mechanics, rules terms, family games, strategy games, party games, and common tabletop phrases."
+photo_file_name = "board-games-e4a5a8f8-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Monopoly"
+
+[[cards]]
+text = "Scrabble"
+
+[[cards]]
+text = "Clue"
+
+[[cards]]
+text = "Risk"
+
+[[cards]]
+text = "Battleship"
+
+[[cards]]
+text = "Sorry!"
+
+[[cards]]
+text = "Candy Land"
+
+[[cards]]
+text = "Chutes and Ladders"
+
+[[cards]]
+text = "The Game of Life"
+
+[[cards]]
+text = "Chess"
+
+[[cards]]
+text = "Checkers"
+
+[[cards]]
+text = "Yahtzee"
+
+[[cards]]
+text = "Connect Four"
+
+[[cards]]
+text = "Trouble"
+
+[[cards]]
+text = "Operation"
+
+[[cards]]
+text = "Guess Who?"
+
+[[cards]]
+text = "Jenga"
+
+[[cards]]
+text = "Catan"
+
+[[cards]]
+text = "Ticket to Ride"
+
+[[cards]]
+text = "Carcassonne"
+
+[[cards]]
+text = "Codenames"
+
+[[cards]]
+text = "Dixit"
+
+[[cards]]
+text = "Uno"
+
+[[cards]]
+text = "Pictionary"
+
+[[cards]]
+text = "Cranium"
+
+[[cards]]
+text = "Taboo"
+
+[[cards]]
+text = "Bananagrams"
+
+[[cards]]
+text = "Rummikub"
+
+[[cards]]
+text = "Kerplunk"
+
+[[cards]]
+text = "Dice"
+
+[[cards]]
+text = "Hourglass Timer"
+
+[[cards]]
+text = "Game Board"
+
+[[cards]]
+text = "Meeple"
+
+[[cards]]
+text = "Play Money"
+
+[[cards]]
+text = "Token"
+
+[[cards]]
+text = "Spinner"
+
+[[cards]]
+text = "Playing Cards"
+
+[[cards]]
+text = "Score Pad"
+
+[[cards]]
+text = "Dominoes"
+
+[[cards]]
+text = "Pawns"
+
+[[cards]]
+text = "Property Cards"
+
+[[cards]]
+text = "Dice Tower"
+
+[[cards]]
+text = "Rulebook"
+
+[[cards]]
+text = "Free Parking"
+
+[[cards]]
+text = "Pass Go"
+
+[[cards]]
+text = "Roll the Dice"
+
+[[cards]]
+text = "Shuffle"
+
+[[cards]]
+text = "House Rules"
+
+[[cards]]
+text = "Winner's Circle"
+
+[[cards]]
+text = "Wild Card"
+
+[[cards]]
+text = "Twister"
+
+[[cards]]
+text = "Hungry Hungry Hippos"
+
+[[cards]]
+text = "Rolling Dice"
+
+[[cards]]
+text = "Hourglass"
+
+[[cards]]
+text = "Game Spinner"
+
+[[cards]]
+text = "Chess Pawn"
+
+[[cards]]
+text = "Deck of Cards"
+
+[[cards]]
+text = "Scorecard"
+
+[[cards]]
+text = "Sand Timer"
+
+[[cards]]
+text = "Double Word Score"
+
+[[cards]]
+text = "Roll a Six"
+
+[[cards]]
+text = "Shuffle the Cards"
+
+[[cards]]
+text = "Draw a Card"
+
+[[cards]]
+text = "Game Banker"
+
+[[cards]]
+text = "Game Token"
+
+[[cards]]
+text = "Strategy Game"
+
+[[cards]]
+text = "Board Game Night"
+
+[[cards]]
+text = "Dice Cup"
+
+[[cards]]
+text = "Trivia Game"
+
+[[cards]]
+text = "Game Piece"
+
+[[cards]]
+text = "Six-Sided Die"
+
+[[cards]]
+text = "Card Deck"
+
+[[cards]]
+text = "Puzzle Piece"
+
+[[cards]]
+text = "Banker"
+
+[[cards]]
+text = "Chance Card"
+
+[[cards]]
+text = "Card Shuffler"
+
+[[cards]]
+text = "Tic-Tac-Toe"
+
+[[cards]]
+text = "Rolling the Dice"
+
+[[cards]]
+text = "Jenga Tower"
+
+[[cards]]
+text = "Game Night"
+
+[[cards]]
+text = "Pass Your Turn"
+
+[[cards]]
+text = "Scorepad"
+
+[[cards]]
+text = "Meeples"
+
+[[cards]]
+text = "Cardboard Tile"

@@ -1,0 +1,255 @@
+id = "deck_christian-history_3fb9b0e8"
+revision = 1
+name = "Christian History"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include major figures, councils, denominations, saints, reformers, missionaries, Bible events, early Church terms, historical movements, and important Christian dates."
+photo_file_name = "christian-history-3fb9b0e8-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Martin Luther"
+
+[[cards]]
+text = "Council of Nicaea"
+
+[[cards]]
+text = "Saint Augustine"
+
+[[cards]]
+text = "The Ninety-Five Theses"
+
+[[cards]]
+text = "John Calvin"
+
+[[cards]]
+text = "Mother Teresa"
+
+[[cards]]
+text = "Saint Francis of Assisi"
+
+[[cards]]
+text = "The Great Schism"
+
+[[cards]]
+text = "Billy Graham"
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "Saint Patrick"
+
+[[cards]]
+text = "William Carey"
+
+[[cards]]
+text = "Hudson Taylor"
+
+[[cards]]
+text = "Thomas Aquinas"
+
+[[cards]]
+text = "John Wesley"
+
+[[cards]]
+text = "Constantine the Great"
+
+[[cards]]
+text = "Dietrich Bonhoeffer"
+
+[[cards]]
+text = "C.S. Lewis"
+
+[[cards]]
+text = "The Protestant Reformation"
+
+[[cards]]
+text = "Council of Chalcedon"
+
+[[cards]]
+text = "The Crusades"
+
+[[cards]]
+text = "Puritans"
+
+[[cards]]
+text = "Pentecost"
+
+[[cards]]
+text = "Monasticism"
+
+[[cards]]
+text = "Catacombs of Rome"
+
+[[cards]]
+text = "The Great Awakening"
+
+[[cards]]
+text = "Diet of Worms"
+
+[[cards]]
+text = "Edict of Milan"
+
+[[cards]]
+text = "Gutenberg Bible"
+
+[[cards]]
+text = "Azusa Street Revival"
+
+[[cards]]
+text = "Vatican II"
+
+[[cards]]
+text = "Geneva"
+
+[[cards]]
+text = "Wittenberg Castle Church"
+
+[[cards]]
+text = "Canterbury"
+
+[[cards]]
+text = "The Nicene Creed"
+
+[[cards]]
+text = "Book of Common Prayer"
+
+[[cards]]
+text = "Gregorian Chant"
+
+[[cards]]
+text = "Saint Valentine"
+
+[[cards]]
+text = "Saint Nicholas"
+
+[[cards]]
+text = "King James Bible"
+
+[[cards]]
+text = "George Whitefield"
+
+[[cards]]
+text = "John Wycliffe"
+
+[[cards]]
+text = "William Tyndale"
+
+[[cards]]
+text = "Saint Benedict"
+
+[[cards]]
+text = "Council of Trent"
+
+[[cards]]
+text = "Jonathan Edwards"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Ignatius of Loyola"
+
+[[cards]]
+text = "Salvation Army"
+
+[[cards]]
+text = "Methodism"
+
+[[cards]]
+text = "The Council of Nicaea"
+
+[[cards]]
+text = "The Gutenberg Bible"
+
+[[cards]]
+text = "Saint Paul the Apostle"
+
+[[cards]]
+text = "The Catacombs"
+
+[[cards]]
+text = "The Puritans"
+
+[[cards]]
+text = "Nicene Creed"
+
+[[cards]]
+text = "Ninety-Five Theses"
+
+[[cards]]
+text = "The Coptic Church"
+
+[[cards]]
+text = "Saint Jerome"
+
+[[cards]]
+text = "The Vulgate"
+
+[[cards]]
+text = "Anabaptists"
+
+[[cards]]
+text = "Eastern Orthodoxy"
+
+[[cards]]
+text = "First Vatican Council"
+
+[[cards]]
+text = "Martyrdom"
+
+[[cards]]
+text = "Augustine of Canterbury"
+
+[[cards]]
+text = "The Waldensians"
+
+[[cards]]
+text = "Gnosticism"
+
+[[cards]]
+text = "Fall of Jerusalem"
+
+[[cards]]
+text = "Mary Magdalene"
+
+[[cards]]
+text = "Saint Peter"
+
+[[cards]]
+text = "The Jesuits"
+
+[[cards]]
+text = "Augustine of Hippo"
+
+[[cards]]
+text = "John the Baptist"
+
+[[cards]]
+text = "The 95 Theses"
+
+[[cards]]
+text = "Francis of Assisi"
+
+[[cards]]
+text = "The Pentecost"
+
+[[cards]]
+text = "The Pilgrim Fathers"
+
+[[cards]]
+text = "The Council of Trent"
+
+[[cards]]
+text = "The Spanish Inquisition"
+
+[[cards]]
+text = "Methodist Church"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "Protestant Reformation"

@@ -1,0 +1,240 @@
+id = "deck_card-games_d92a21f6"
+revision = 1
+name = "Card Games"
+category = "Games"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include playing-card games, card suits, ranks, special cards, family card games, rules terms, tricks, hands, decks, and common card-table phrases."
+photo_file_name = "card-games-d92a21f6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Ace of Spades"
+
+[[cards]]
+text = "Queen of Hearts"
+
+[[cards]]
+text = "King of Diamonds"
+
+[[cards]]
+text = "Jack of Clubs"
+
+[[cards]]
+text = "Joker"
+
+[[cards]]
+text = "Deck of Cards"
+
+[[cards]]
+text = "Go Fish"
+
+[[cards]]
+text = "Crazy Eights"
+
+[[cards]]
+text = "Uno"
+
+[[cards]]
+text = "War"
+
+[[cards]]
+text = "Solitaire"
+
+[[cards]]
+text = "Old Maid"
+
+[[cards]]
+text = "Shuffling"
+
+[[cards]]
+text = "Dealing the Cards"
+
+[[cards]]
+text = "Face Cards"
+
+[[cards]]
+text = "Wild Card"
+
+[[cards]]
+text = "Full House"
+
+[[cards]]
+text = "Royal Flush"
+
+[[cards]]
+text = "Straight"
+
+[[cards]]
+text = "Three of a Kind"
+
+[[cards]]
+text = "Double Down"
+
+[[cards]]
+text = "Bluffing"
+
+[[cards]]
+text = "Card Shark"
+
+[[cards]]
+text = "Poker Face"
+
+[[cards]]
+text = "Trump Card"
+
+[[cards]]
+text = "Discard Pile"
+
+[[cards]]
+text = "Draw Pile"
+
+[[cards]]
+text = "Hearts"
+
+[[cards]]
+text = "Spades"
+
+[[cards]]
+text = "Diamonds"
+
+[[cards]]
+text = "Clubs"
+
+[[cards]]
+text = "Bridge"
+
+[[cards]]
+text = "Gin Rummy"
+
+[[cards]]
+text = "Cribbage"
+
+[[cards]]
+text = "Speed"
+
+[[cards]]
+text = "Blackjack"
+
+[[cards]]
+text = "Slapjack"
+
+[[cards]]
+text = "Cut the Deck"
+
+[[cards]]
+text = "Dealer's Choice"
+
+[[cards]]
+text = "High Card"
+
+[[cards]]
+text = "Pair of Aces"
+
+[[cards]]
+text = "Spoons"
+
+[[cards]]
+text = "All In"
+
+[[cards]]
+text = "Texas Hold 'em"
+
+[[cards]]
+text = "Euchre"
+
+[[cards]]
+text = "Skip Card"
+
+[[cards]]
+text = "Reverse Card"
+
+[[cards]]
+text = "Poker Chips"
+
+[[cards]]
+text = "Dealer"
+
+[[cards]]
+text = "Card Table"
+
+[[cards]]
+text = "Poker"
+
+[[cards]]
+text = "King"
+
+[[cards]]
+text = "Queen"
+
+[[cards]]
+text = "Jack"
+
+[[cards]]
+text = "Ace"
+
+[[cards]]
+text = "Shuffle the Deck"
+
+[[cards]]
+text = "Deal the Cards"
+
+[[cards]]
+text = "Flush"
+
+[[cards]]
+text = "Pair"
+
+[[cards]]
+text = "Bluff"
+
+[[cards]]
+text = "Face Down"
+
+[[cards]]
+text = "Face Up"
+
+[[cards]]
+text = "Card Sleeve"
+
+[[cards]]
+text = "Skip-Bo"
+
+[[cards]]
+text = "Phase 10"
+
+[[cards]]
+text = "I Doubt It"
+
+[[cards]]
+text = "Ante Up"
+
+[[cards]]
+text = "Deal Me In"
+
+[[cards]]
+text = "Dealing"
+
+[[cards]]
+text = "Face Card"
+
+[[cards]]
+text = "Card Suit"
+
+[[cards]]
+text = "Trick"
+
+[[cards]]
+text = "House of Cards"
+
+[[cards]]
+text = "King of Hearts"
+
+[[cards]]
+text = "Queen of Diamonds"
+
+[[cards]]
+text = "Card Trick"
+
+[[cards]]
+text = "Rummy"

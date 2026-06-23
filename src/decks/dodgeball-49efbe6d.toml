@@ -1,0 +1,294 @@
+id = "deck_dodgeball_49efbe6d"
+revision = 1
+name = "Dodgeball"
+category = "Sports"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include rules, throws, catches, dodges, gym-class terms, team strategies, equipment, funny moments, elimination rules, playground variations, and family-friendly dodgeball concepts."
+photo_file_name = "dodgeball-49efbe6d-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Red Rubber Ball"
+
+[[cards]]
+text = "Gym Whistle"
+
+[[cards]]
+text = "Dodge"
+
+[[cards]]
+text = "Overhand Throw"
+
+[[cards]]
+text = "Clean Catch"
+
+[[cards]]
+text = "Double Play"
+
+[[cards]]
+text = "Opening Rush"
+
+[[cards]]
+text = "Gym Teacher"
+
+[[cards]]
+text = "Jailbreak"
+
+[[cards]]
+text = "Center Line"
+
+[[cards]]
+text = "Squeaky Sneakers"
+
+[[cards]]
+text = "Underhand Toss"
+
+[[cards]]
+text = "Headband"
+
+[[cards]]
+text = "Doctor Dodgeball"
+
+[[cards]]
+text = "Team Captain"
+
+[[cards]]
+text = "Gym Class Pinnies"
+
+[[cards]]
+text = "Benchwarmer"
+
+[[cards]]
+text = "Bounce Shot"
+
+[[cards]]
+text = "Giant Leap"
+
+[[cards]]
+text = "Foam Ball"
+
+[[cards]]
+text = "Water Break"
+
+[[cards]]
+text = "Out of Bounds"
+
+[[cards]]
+text = "Line Violation"
+
+[[cards]]
+text = "Back Line"
+
+[[cards]]
+text = "The Bleachers"
+
+[[cards]]
+text = "Fake Throw"
+
+[[cards]]
+text = "Double Elimination"
+
+[[cards]]
+text = "Side Step"
+
+[[cards]]
+text = "Knee Pads"
+
+[[cards]]
+text = "Sacrifice Fly"
+
+[[cards]]
+text = "Butterfingers"
+
+[[cards]]
+text = "Windmill Throw"
+
+[[cards]]
+text = "High Jump"
+
+[[cards]]
+text = "Corner Thrower"
+
+[[cards]]
+text = "Sitting on the Bench"
+
+[[cards]]
+text = "Gym Floor"
+
+[[cards]]
+text = "Recess"
+
+[[cards]]
+text = "Playground"
+
+[[cards]]
+text = "Deflection"
+
+[[cards]]
+text = "Shielding"
+
+[[cards]]
+text = "Teamwork"
+
+[[cards]]
+text = "Target Practice"
+
+[[cards]]
+text = "Duck and Cover"
+
+[[cards]]
+text = "Running Grab"
+
+[[cards]]
+text = "Direct Hit"
+
+[[cards]]
+text = "Quick Reflexes"
+
+[[cards]]
+text = "Prisoner Dodgeball"
+
+[[cards]]
+text = "King of the Court"
+
+[[cards]]
+text = "Half-Court Line"
+
+[[cards]]
+text = "Airball"
+
+[[cards]]
+text = "The Opening Rush"
+
+[[cards]]
+text = "Sneaker Squeak"
+
+[[cards]]
+text = "Kneepads"
+
+[[cards]]
+text = "Pinnie Vest"
+
+[[cards]]
+text = "Sudden Death"
+
+[[cards]]
+text = "Last Player Standing"
+
+[[cards]]
+text = "Dodgeball Tournament"
+
+[[cards]]
+text = "Two Handed Catch"
+
+[[cards]]
+text = "Rebound Catch"
+
+[[cards]]
+text = "Underhand Throw"
+
+[[cards]]
+text = "Friendly Fire"
+
+[[cards]]
+text = "Human Shield"
+
+[[cards]]
+text = "Ball Hog"
+
+[[cards]]
+text = "The Matrix Dodge"
+
+[[cards]]
+text = "Victory Dance"
+
+[[cards]]
+text = "Back Wall"
+
+[[cards]]
+text = "Corner Trap"
+
+[[cards]]
+text = "Safe Zone"
+
+[[cards]]
+text = "Fastball"
+
+[[cards]]
+text = "Behind the Back"
+
+[[cards]]
+text = "Quick Pass"
+
+[[cards]]
+text = "Throwing Arm"
+
+[[cards]]
+text = "Gym Court"
+
+[[cards]]
+text = "Duck"
+
+[[cards]]
+text = "Dive"
+
+[[cards]]
+text = "The Dodge"
+
+[[cards]]
+text = "Spectacular Catch"
+
+[[cards]]
+text = "The Bench"
+
+[[cards]]
+text = "Pegged"
+
+[[cards]]
+text = "Referee Whistle"
+
+[[cards]]
+text = "Head Duck"
+
+[[cards]]
+text = "Corner Throw"
+
+[[cards]]
+text = "Line Fault"
+
+[[cards]]
+text = "Jumping Jack"
+
+[[cards]]
+text = "Super Catch"
+
+[[cards]]
+text = "Gym Class Whistle"
+
+[[cards]]
+text = "One-Handed Catch"
+
+[[cards]]
+text = "Double Dodge"
+
+[[cards]]
+text = "Getting Hit"
+
+[[cards]]
+text = "Behind the Back Throw"
+
+[[cards]]
+text = "Screaming and Running"
+
+[[cards]]
+text = "Backboard Rebound"
+
+[[cards]]
+text = "Deflecting"
+
+[[cards]]
+text = "Gym Class"
+
+[[cards]]
+text = "Duck and Dodge"

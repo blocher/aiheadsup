@@ -1,0 +1,300 @@
+id = "deck_silly-kid-stuff_9b025229"
+revision = 1
+name = "Silly Kid Stuff"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include jokes, funny sounds, silly actions, costumes, pretend play, bathroom-humor-adjacent but family-friendly terms, goofy animals, and things that make kids laugh."
+photo_file_name = "silly-kid-stuff-9b025229-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Whoopee Cushion"
+
+[[cards]]
+text = "Silly Walk"
+
+[[cards]]
+text = "Wet Willie"
+
+[[cards]]
+text = "The Floor Is Lava"
+
+[[cards]]
+text = "Tickle Monster"
+
+[[cards]]
+text = "Smelly Socks"
+
+[[cards]]
+text = "Robot Dance"
+
+[[cards]]
+text = "Pillow Fight"
+
+[[cards]]
+text = "Banana Peel Slip"
+
+[[cards]]
+text = "Fart Noise"
+
+[[cards]]
+text = "Screaming Goat"
+
+[[cards]]
+text = "Mustache Glasses"
+
+[[cards]]
+text = "Cardboard Box Castle"
+
+[[cards]]
+text = "Clumsy Ninja"
+
+[[cards]]
+text = "Wobbly Jello"
+
+[[cards]]
+text = "Fake Sneeze"
+
+[[cards]]
+text = "Burping the Alphabet"
+
+[[cards]]
+text = "Giggle Box"
+
+[[cards]]
+text = "Dinosaur Roar"
+
+[[cards]]
+text = "Bubble Wrap Pop"
+
+[[cards]]
+text = "Squeaky Shoes"
+
+[[cards]]
+text = "Feather Tickle"
+
+[[cards]]
+text = "Pig Oink"
+
+[[cards]]
+text = "Toilet Plunger"
+
+[[cards]]
+text = "Dancing Monkey"
+
+[[cards]]
+text = "Cream Pie Face"
+
+[[cards]]
+text = "Spooky Ghost"
+
+[[cards]]
+text = "Slime Monster"
+
+[[cards]]
+text = "Flying Spaghetti"
+
+[[cards]]
+text = "Squirting Flower"
+
+[[cards]]
+text = "Melting Ice Cream"
+
+[[cards]]
+text = "Baby Babble"
+
+[[cards]]
+text = "Funny Face"
+
+[[cards]]
+text = "Wiggly Ears"
+
+[[cards]]
+text = "Chicken Dance"
+
+[[cards]]
+text = "Duck Duck Goose"
+
+[[cards]]
+text = "Stinky Cheese"
+
+[[cards]]
+text = "Toothless Smile"
+
+[[cards]]
+text = "Pirate Hook"
+
+[[cards]]
+text = "Fairy Wand"
+
+[[cards]]
+text = "Balloon Squeak"
+
+[[cards]]
+text = "Clapping Seal"
+
+[[cards]]
+text = "Mud Puddle Jump"
+
+[[cards]]
+text = "Booger"
+
+[[cards]]
+text = "Bedhead Hair"
+
+[[cards]]
+text = "Crayons in Nose"
+
+[[cards]]
+text = "Talking Dog"
+
+[[cards]]
+text = "Monster Under Bed"
+
+[[cards]]
+text = "Wobbly Penguin"
+
+[[cards]]
+text = "Sleepy Sloth"
+
+[[cards]]
+text = "Loud Burp"
+
+[[cards]]
+text = "Stinky Socks"
+
+[[cards]]
+text = "Wobbly Jelly"
+
+[[cards]]
+text = "Silly Putty"
+
+[[cards]]
+text = "Underwear On Head"
+
+[[cards]]
+text = "Goofy Giggle"
+
+[[cards]]
+text = "Bubble Bath Dinosaur"
+
+[[cards]]
+text = "Flying Pig"
+
+[[cards]]
+text = "Itchy Sweater"
+
+[[cards]]
+text = "Spaghetti Hair"
+
+[[cards]]
+text = "Giant Pillow Fort"
+
+[[cards]]
+text = "Red Clown Nose"
+
+[[cards]]
+text = "Mud Pie"
+
+[[cards]]
+text = "The Chicken Dance"
+
+[[cards]]
+text = "Googly Eyes"
+
+[[cards]]
+text = "Running Nose"
+
+[[cards]]
+text = "Giggling Baby"
+
+[[cards]]
+text = "Bubble Gum Pop"
+
+[[cards]]
+text = "Fake Mustache"
+
+[[cards]]
+text = "Pajama Party"
+
+[[cards]]
+text = "Belly Button"
+
+[[cards]]
+text = "Wobbly Tooth"
+
+[[cards]]
+text = "Piggyback Ride"
+
+[[cards]]
+text = "Sneezing Panda"
+
+[[cards]]
+text = "Sour Lemon Face"
+
+[[cards]]
+text = "Talking Donkey"
+
+[[cards]]
+text = "Diaper Baby"
+
+[[cards]]
+text = "Frog Hop"
+
+[[cards]]
+text = "Crazy Hair Day"
+
+[[cards]]
+text = "Puppy Licks"
+
+[[cards]]
+text = "Marshmallow Nose"
+
+[[cards]]
+text = "Tongue Twister"
+
+[[cards]]
+text = "Snail Race"
+
+[[cards]]
+text = "Hiccup Attack"
+
+[[cards]]
+text = "Banana Telephone"
+
+[[cards]]
+text = "Superhero Cape"
+
+[[cards]]
+text = "Dancing Llama"
+
+[[cards]]
+text = "Wiggling Your Ears"
+
+[[cards]]
+text = "Bubble Bath Beard"
+
+[[cards]]
+text = "Walking Like A Penguin"
+
+[[cards]]
+text = "Spaghetti Mohawk"
+
+[[cards]]
+text = "Pirate Eyepatch"
+
+[[cards]]
+text = "Chicken Cluck"
+
+[[cards]]
+text = "Monster Under The Bed"
+
+[[cards]]
+text = "Making A Funny Face"
+
+[[cards]]
+text = "Green Slime"
+
+[[cards]]
+text = "Silly String"

@@ -1,0 +1,231 @@
+id = "deck_human-body_1fd0a302"
+revision = 1
+name = "Human Body"
+category = "Science"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include organs, bones, muscles, senses, body systems, cells, health terms, digestion, breathing, circulation, and age-appropriate anatomy."
+photo_file_name = "human-body-1fd0a302-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Brain"
+
+[[cards]]
+text = "Heart"
+
+[[cards]]
+text = "Lungs"
+
+[[cards]]
+text = "Stomach"
+
+[[cards]]
+text = "Liver"
+
+[[cards]]
+text = "Kidneys"
+
+[[cards]]
+text = "Pancreas"
+
+[[cards]]
+text = "Small Intestine"
+
+[[cards]]
+text = "Large Intestine"
+
+[[cards]]
+text = "Gallbladder"
+
+[[cards]]
+text = "Skull"
+
+[[cards]]
+text = "Femur"
+
+[[cards]]
+text = "Spine"
+
+[[cards]]
+text = "Rib Cage"
+
+[[cards]]
+text = "Clavicle"
+
+[[cards]]
+text = "Patella"
+
+[[cards]]
+text = "Pelvis"
+
+[[cards]]
+text = "Biceps"
+
+[[cards]]
+text = "Gluteus Maximus"
+
+[[cards]]
+text = "Achilles Tendon"
+
+[[cards]]
+text = "Diaphragm"
+
+[[cards]]
+text = "Esophagus"
+
+[[cards]]
+text = "Trachea"
+
+[[cards]]
+text = "Epiglottis"
+
+[[cards]]
+text = "Red Blood Cell"
+
+[[cards]]
+text = "White Blood Cell"
+
+[[cards]]
+text = "Platelets"
+
+[[cards]]
+text = "Neuron"
+
+[[cards]]
+text = "DNA"
+
+[[cards]]
+text = "Retina"
+
+[[cards]]
+text = "Eardrum"
+
+[[cards]]
+text = "Taste Buds"
+
+[[cards]]
+text = "Olfactory Nerve"
+
+[[cards]]
+text = "Sweat Glands"
+
+[[cards]]
+text = "Fingerprint"
+
+[[cards]]
+text = "Capillaries"
+
+[[cards]]
+text = "Arteries"
+
+[[cards]]
+text = "Veins"
+
+[[cards]]
+text = "Spinal Cord"
+
+[[cards]]
+text = "Cartilage"
+
+[[cards]]
+text = "Ligament"
+
+[[cards]]
+text = "Salivary Glands"
+
+[[cards]]
+text = "Thyroid Gland"
+
+[[cards]]
+text = "Pulse"
+
+[[cards]]
+text = "Lymph Nodes"
+
+[[cards]]
+text = "Immune System"
+
+[[cards]]
+text = "Digestive System"
+
+[[cards]]
+text = "Nervous System"
+
+[[cards]]
+text = "Respiratory System"
+
+[[cards]]
+text = "Skin"
+
+[[cards]]
+text = "Triceps"
+
+[[cards]]
+text = "Heartbeat"
+
+[[cards]]
+text = "Blood Vessels"
+
+[[cards]]
+text = "Red Blood Cells"
+
+[[cards]]
+text = "White Blood Cells"
+
+[[cards]]
+text = "Tongue"
+
+[[cards]]
+text = "Skeletal System"
+
+[[cards]]
+text = "Joint"
+
+[[cards]]
+text = "Tendon"
+
+[[cards]]
+text = "Saliva"
+
+[[cards]]
+text = "Fingernails"
+
+[[cards]]
+text = "Bladder"
+
+[[cards]]
+text = "Oxygen"
+
+[[cards]]
+text = "Carbon Dioxide"
+
+[[cards]]
+text = "Antibodies"
+
+[[cards]]
+text = "Hormones"
+
+[[cards]]
+text = "Nerve"
+
+[[cards]]
+text = "Reflex"
+
+[[cards]]
+text = "Windpipe"
+
+[[cards]]
+text = "Joints"
+
+[[cards]]
+text = "Sweat Gland"
+
+[[cards]]
+text = "Skeleton"
+
+[[cards]]
+text = "Blood Vessel"
+
+[[cards]]
+text = "Reflexes"

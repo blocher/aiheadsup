@@ -1,0 +1,279 @@
+id = "deck_enola-holmes_01bcfd99"
+revision = 1
+name = "Enola Holmes"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, mysteries, disguises, clues, places, Victorian-era objects, Holmes family references, reform politics, sequel references, and memorable moments from the Enola Holmes movies."
+photo_file_name = "enola-holmes-01bcfd99-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Enola Holmes"
+
+[[cards]]
+text = "Sherlock Holmes"
+
+[[cards]]
+text = "Mycroft Holmes"
+
+[[cards]]
+text = "Eudoria Holmes"
+
+[[cards]]
+text = "Viscount Tewkesbury"
+
+[[cards]]
+text = "Edith"
+
+[[cards]]
+text = "Inspector Lestrade"
+
+[[cards]]
+text = "Linthorn"
+
+[[cards]]
+text = "The Dowager"
+
+[[cards]]
+text = "Sarah Chapman"
+
+[[cards]]
+text = "Mae"
+
+[[cards]]
+text = "William Lyon"
+
+[[cards]]
+text = "Superintendent Grail"
+
+[[cards]]
+text = "Ferndell Hall"
+
+[[cards]]
+text = "Basilwether Hall"
+
+[[cards]]
+text = "Match Factory"
+
+[[cards]]
+text = "Paragon Music Hall"
+
+[[cards]]
+text = "221B Baker Street"
+
+[[cards]]
+text = "Widow's Weeds"
+
+[[cards]]
+text = "Corset"
+
+[[cards]]
+text = "Matchgirl Disguise"
+
+[[cards]]
+text = "Newsboy Cap"
+
+[[cards]]
+text = "Evening Gown"
+
+[[cards]]
+text = "Chrysanthemums"
+
+[[cards]]
+text = "Coded Message"
+
+[[cards]]
+text = "Cipher"
+
+[[cards]]
+text = "Pinecone Toy"
+
+[[cards]]
+text = "Anagram"
+
+[[cards]]
+text = "Ribbon Map"
+
+[[cards]]
+text = "Red Thread"
+
+[[cards]]
+text = "Missing Ledger"
+
+[[cards]]
+text = "Phosphorus Match"
+
+[[cards]]
+text = "Secret Compartment"
+
+[[cards]]
+text = "Penny Farthing"
+
+[[cards]]
+text = "Jiu-Jitsu"
+
+[[cards]]
+text = "Reform Bill"
+
+[[cards]]
+text = "Women's Suffrage"
+
+[[cards]]
+text = "Gunpowder"
+
+[[cards]]
+text = "Printing Press"
+
+[[cards]]
+text = "Treehouse"
+
+[[cards]]
+text = "Chess Set"
+
+[[cards]]
+text = "Pocket Watch"
+
+[[cards]]
+text = "Carriage Ride"
+
+[[cards]]
+text = "Lord Tewkesbury"
+
+[[cards]]
+text = "Cicely"
+
+[[cards]]
+text = "Devoy's Tea Shop"
+
+[[cards]]
+text = "Limehouse"
+
+[[cards]]
+text = "Threadneedle Street"
+
+[[cards]]
+text = "London"
+
+[[cards]]
+text = "Gentleman's Suit"
+
+[[cards]]
+text = "Moriarty"
+
+[[cards]]
+text = "Dr. John Watson"
+
+[[cards]]
+text = "Superintendent Graimere"
+
+[[cards]]
+text = "The Match Factory"
+
+[[cards]]
+text = "Miss Harrison's Academy"
+
+[[cards]]
+text = "The Paragon Theatre"
+
+[[cards]]
+text = "The Reform Bill"
+
+[[cards]]
+text = "Match Girls' Strike"
+
+[[cards]]
+text = "Flower Language"
+
+[[cards]]
+text = "Chrysanthemum"
+
+[[cards]]
+text = "Newspaper Classifieds"
+
+[[cards]]
+text = "Secret Cipher"
+
+[[cards]]
+text = "Widow Disguise"
+
+[[cards]]
+text = "Penny Farthing Bicycle"
+
+[[cards]]
+text = "Carpet Bag"
+
+[[cards]]
+text = "Treehouse Laboratory"
+
+[[cards]]
+text = "Bow Street Runners"
+
+[[cards]]
+text = "Ballroom Waltz"
+
+[[cards]]
+text = "Poisoned Tea"
+
+[[cards]]
+text = "Cecily Carter"
+
+[[cards]]
+text = "Lord Share"
+
+[[cards]]
+text = "Charles Lyon"
+
+[[cards]]
+text = "Music Box Clue"
+
+[[cards]]
+text = "White Phosphorus"
+
+[[cards]]
+text = "Scapula"
+
+[[cards]]
+text = "The Daily Chronicle"
+
+[[cards]]
+text = "Fancy Dress Ball"
+
+[[cards]]
+text = "Elizabeth Gate"
+
+[[cards]]
+text = "Corkscrew Hill"
+
+[[cards]]
+text = "Lady Tewkesbury"
+
+[[cards]]
+text = "Darning Needle"
+
+[[cards]]
+text = "Detective Agency"
+
+[[cards]]
+text = "Basilwether Estate"
+
+[[cards]]
+text = "Jujitsu"
+
+[[cards]]
+text = "Widow's Veil"
+
+[[cards]]
+text = "London Slums"
+
+[[cards]]
+text = "Language of Flowers"
+
+[[cards]]
+text = "Matchgirl Strike"
+
+[[cards]]
+text = "Jujitsu Training"
+
+[[cards]]
+text = "Victorian Corset"

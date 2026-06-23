@@ -1,0 +1,228 @@
+id = "deck_new-york-city_684a3c86"
+revision = 1
+name = "New York City"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include boroughs, neighborhoods, landmarks, subway lines, museums, foods, sports teams, famous streets, historical events, and cultural institutions."
+photo_file_name = "new-york-city-684a3c86-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Empire State Building"
+
+[[cards]]
+text = "Central Park"
+
+[[cards]]
+text = "Times Square"
+
+[[cards]]
+text = "Brooklyn Bridge"
+
+[[cards]]
+text = "Broadway"
+
+[[cards]]
+text = "Grand Central Terminal"
+
+[[cards]]
+text = "Rockefeller Center"
+
+[[cards]]
+text = "Chrysler Building"
+
+[[cards]]
+text = "Flatiron Building"
+
+[[cards]]
+text = "One World Trade Center"
+
+[[cards]]
+text = "The High Line"
+
+[[cards]]
+text = "Coney Island"
+
+[[cards]]
+text = "Manhattan"
+
+[[cards]]
+text = "Brooklyn"
+
+[[cards]]
+text = "Queens"
+
+[[cards]]
+text = "The Bronx"
+
+[[cards]]
+text = "Staten Island Ferry"
+
+[[cards]]
+text = "Greenwich Village"
+
+[[cards]]
+text = "Harlem"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Little Italy"
+
+[[cards]]
+text = "SoHo"
+
+[[cards]]
+text = "Williamsburg"
+
+[[cards]]
+text = "DUMBO"
+
+[[cards]]
+text = "Astoria"
+
+[[cards]]
+text = "The Met Museum"
+
+[[cards]]
+text = "MoMA"
+
+[[cards]]
+text = "Guggenheim Museum"
+
+[[cards]]
+text = "Natural History Museum"
+
+[[cards]]
+text = "Bronx Zoo"
+
+[[cards]]
+text = "New York Public Library"
+
+[[cards]]
+text = "Radio City Music Hall"
+
+[[cards]]
+text = "Carnegie Hall"
+
+[[cards]]
+text = "Madison Square Garden"
+
+[[cards]]
+text = "Wall Street"
+
+[[cards]]
+text = "Fifth Avenue"
+
+[[cards]]
+text = "Madison Avenue"
+
+[[cards]]
+text = "Yellow Taxi Cab"
+
+[[cards]]
+text = "MetroCard"
+
+[[cards]]
+text = "New York Cheesecake"
+
+[[cards]]
+text = "Bagel and Shmear"
+
+[[cards]]
+text = "Dollar Slice Pizza"
+
+[[cards]]
+text = "Black and White Cookie"
+
+[[cards]]
+text = "Nathan's Famous Hot Dog"
+
+[[cards]]
+text = "New York Yankees"
+
+[[cards]]
+text = "New York Mets"
+
+[[cards]]
+text = "New York Knicks"
+
+[[cards]]
+text = "New York Rangers"
+
+[[cards]]
+text = "New York Marathon"
+
+[[cards]]
+text = "Metropolitan Museum of Art"
+
+[[cards]]
+text = "High Line"
+
+[[cards]]
+text = "Museum of Natural History"
+
+[[cards]]
+text = "Yellow Cab"
+
+[[cards]]
+text = "Brooklyn Heights"
+
+[[cards]]
+text = "Chelsea Market"
+
+[[cards]]
+text = "New York Pizza"
+
+[[cards]]
+text = "Bagel and Lox"
+
+[[cards]]
+text = "Manhattan Clam Chowder"
+
+[[cards]]
+text = "Waldorf Salad"
+
+[[cards]]
+text = "Brooklyn Nets"
+
+[[cards]]
+text = "Apollo Theater"
+
+[[cards]]
+text = "Lincoln Center"
+
+[[cards]]
+text = "Prospect Park"
+
+[[cards]]
+text = "Staten Island"
+
+[[cards]]
+text = "Broadway Theater"
+
+[[cards]]
+text = "The Met"
+
+[[cards]]
+text = "Bagel with Lox"
+
+[[cards]]
+text = "L Train"
+
+[[cards]]
+text = "The Metropolitan Museum"
+
+[[cards]]
+text = "The L Train"
+
+[[cards]]
+text = "High Line Park"
+
+[[cards]]
+text = "Hot Dog Stand"

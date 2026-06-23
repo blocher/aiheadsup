@@ -1,0 +1,249 @@
+id = "deck_soccer_4c69933f"
+revision = 1
+name = "Soccer"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include positions, rules, equipment, field markings, fouls, formations, tournaments, clubs, national teams, chants, soccer slang, famous moments, and famous current and past players, but should not be mostly player names."
+photo_file_name = "soccer-4c69933f-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Goalkeeper"
+
+[[cards]]
+text = "Striker"
+
+[[cards]]
+text = "Center Back"
+
+[[cards]]
+text = "Winger"
+
+[[cards]]
+text = "Midfielder"
+
+[[cards]]
+text = "Offside"
+
+[[cards]]
+text = "Yellow Card"
+
+[[cards]]
+text = "Red Card"
+
+[[cards]]
+text = "Penalty Kick"
+
+[[cards]]
+text = "Hand Ball"
+
+[[cards]]
+text = "Corner Kick"
+
+[[cards]]
+text = "Throw-In"
+
+[[cards]]
+text = "Direct Free Kick"
+
+[[cards]]
+text = "Offside Trap"
+
+[[cards]]
+text = "Penalty Box"
+
+[[cards]]
+text = "Shin Guards"
+
+[[cards]]
+text = "Soccer Cleats"
+
+[[cards]]
+text = "Goalpost"
+
+[[cards]]
+text = "Corner Flag"
+
+[[cards]]
+text = "Center Circle"
+
+[[cards]]
+text = "Touchline"
+
+[[cards]]
+text = "Tiki-Taka"
+
+[[cards]]
+text = "Park the Bus"
+
+[[cards]]
+text = "Counterattack"
+
+[[cards]]
+text = "Bicycle Kick"
+
+[[cards]]
+text = "Diving Header"
+
+[[cards]]
+text = "World Cup"
+
+[[cards]]
+text = "Champions League"
+
+[[cards]]
+text = "Copa America"
+
+[[cards]]
+text = "Premier League"
+
+[[cards]]
+text = "Golden Boot"
+
+[[cards]]
+text = "Real Madrid"
+
+[[cards]]
+text = "Manchester United"
+
+[[cards]]
+text = "FC Barcelona"
+
+[[cards]]
+text = "Brazil National Team"
+
+[[cards]]
+text = "Argentina National Team"
+
+[[cards]]
+text = "Nutmeg"
+
+[[cards]]
+text = "Clean Sheet"
+
+[[cards]]
+text = "Hat Trick"
+
+[[cards]]
+text = "Own Goal"
+
+[[cards]]
+text = "Video Assistant Referee"
+
+[[cards]]
+text = "Derby Match"
+
+[[cards]]
+text = "Injury Time"
+
+[[cards]]
+text = "Ole Ole Ole"
+
+[[cards]]
+text = "Lionel Messi"
+
+[[cards]]
+text = "Pelé"
+
+[[cards]]
+text = "Cristiano Ronaldo"
+
+[[cards]]
+text = "David Beckham"
+
+[[cards]]
+text = "Diego Maradona"
+
+[[cards]]
+text = "Group of Death"
+
+[[cards]]
+text = "Indirect Free Kick"
+
+[[cards]]
+text = "Cleats"
+
+[[cards]]
+text = "Goalie Gloves"
+
+[[cards]]
+text = "Goal Post"
+
+[[cards]]
+text = "Four Four Two"
+
+[[cards]]
+text = "FIFA World Cup"
+
+[[cards]]
+text = "UEFA Champions League"
+
+[[cards]]
+text = "Bayern Munich"
+
+[[cards]]
+text = "England National Team"
+
+[[cards]]
+text = "Header"
+
+[[cards]]
+text = "Upper Ninety"
+
+[[cards]]
+text = "Penalty Shootout"
+
+[[cards]]
+text = "Extra Time"
+
+[[cards]]
+text = "Pele"
+
+[[cards]]
+text = "VAR"
+
+[[cards]]
+text = "Assistant Referee"
+
+[[cards]]
+text = "Penalty Spot"
+
+[[cards]]
+text = "World Cup Trophy"
+
+[[cards]]
+text = "Wall Pass"
+
+[[cards]]
+text = "Cruyff Turn"
+
+[[cards]]
+text = "Goalkeeper Gloves"
+
+[[cards]]
+text = "Pitch"
+
+[[cards]]
+text = "4-4-2 Formation"
+
+[[cards]]
+text = "Goal Line Technology"
+
+[[cards]]
+text = "Hand of God"
+
+[[cards]]
+text = "Sliding Tackle"
+
+[[cards]]
+text = "Olé Olé Olé"
+
+[[cards]]
+text = "Defensive Wall"
+
+[[cards]]
+text = "Copa América"
+
+[[cards]]
+text = "Brazil"

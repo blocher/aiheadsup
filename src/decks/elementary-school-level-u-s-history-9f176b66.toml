@@ -1,0 +1,225 @@
+id = "deck_elementary-school-level-u-s-history_9f176b66"
+revision = 1
+name = "Elementary School Level U.S. History"
+category = "History"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include famous Americans, presidents, founding events, national symbols, holidays, explorers, inventors, wars, documents, places, and simple civic concepts appropriate for elementary school."
+photo_file_name = "elementary-school-level-u-s-history-9f176b66-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Rosa Parks"
+
+[[cards]]
+text = "Martin Luther King Jr."
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Susan B. Anthony"
+
+[[cards]]
+text = "Sacagawea"
+
+[[cards]]
+text = "Amelia Earhart"
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Jackie Robinson"
+
+[[cards]]
+text = "Theodore Roosevelt"
+
+[[cards]]
+text = "Barack Obama"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "Thomas Edison"
+
+[[cards]]
+text = "The Wright Brothers"
+
+[[cards]]
+text = "Christopher Columbus"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "The Constitution"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "The Revolutionary War"
+
+[[cards]]
+text = "The Civil War"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "The Mayflower"
+
+[[cards]]
+text = "Bald Eagle"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "White House"
+
+[[cards]]
+text = "Uncle Sam"
+
+[[cards]]
+text = "The American Flag"
+
+[[cards]]
+text = "Thanksgiving"
+
+[[cards]]
+text = "Fourth of July"
+
+[[cards]]
+text = "Memorial Day"
+
+[[cards]]
+text = "Washington Monument"
+
+[[cards]]
+text = "Lincoln Memorial"
+
+[[cards]]
+text = "Plymouth Rock"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "Oregon Trail"
+
+[[cards]]
+text = "Star-Spangled Banner"
+
+[[cards]]
+text = "Supreme Court"
+
+[[cards]]
+text = "The Great Depression"
+
+[[cards]]
+text = "Jamestown"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "The Bald Eagle"
+
+[[cards]]
+text = "The White House"
+
+[[cards]]
+text = "Pocahontas"
+
+[[cards]]
+text = "Lewis and Clark"
+
+[[cards]]
+text = "Pilgrims"
+
+[[cards]]
+text = "Civil War"
+
+[[cards]]
+text = "Revolutionary War"
+
+[[cards]]
+text = "Johnny Appleseed"
+
+[[cards]]
+text = "Wright Brothers"
+
+[[cards]]
+text = "Alexander Graham Bell"
+
+[[cards]]
+text = "Helen Keller"
+
+[[cards]]
+text = "George Washington Carver"
+
+[[cards]]
+text = "Pledge of Allegiance"
+
+[[cards]]
+text = "National Anthem"
+
+[[cards]]
+text = "Congress"
+
+[[cards]]
+text = "The President"
+
+[[cards]]
+text = "Grand Canyon"
+
+[[cards]]
+text = "Independence Day"
+
+[[cards]]
+text = "American Flag"
+
+[[cards]]
+text = "Mayflower"
+
+[[cards]]
+text = "The Pilgrims"
+
+[[cards]]
+text = "The Gold Rush"

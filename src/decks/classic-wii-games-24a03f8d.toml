@@ -1,0 +1,252 @@
+id = "deck_classic-wii-games_24a03f8d"
+revision = 1
+name = "Classic Wii Games"
+category = "Games"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include well-known Wii games, characters, controllers, Miis, motion controls, minigames, sports, racing, party-style modes, accessories, and family-friendly Wii gameplay moments."
+photo_file_name = "classic-wii-games-24a03f8d-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Wii Sports"
+
+[[cards]]
+text = "Wii Remote"
+
+[[cards]]
+text = "Nunchuk"
+
+[[cards]]
+text = "Mii Creator"
+
+[[cards]]
+text = "Wii Balance Board"
+
+[[cards]]
+text = "Mario Kart Wii"
+
+[[cards]]
+text = "Super Mario Galaxy"
+
+[[cards]]
+text = "Wii Sports Resort"
+
+[[cards]]
+text = "Wii Wheel"
+
+[[cards]]
+text = "Super Smash Bros. Brawl"
+
+[[cards]]
+text = "Just Dance"
+
+[[cards]]
+text = "Wii Safety Strap"
+
+[[cards]]
+text = "Mii Channel"
+
+[[cards]]
+text = "Wii Sensor Bar"
+
+[[cards]]
+text = "Wii Play"
+
+[[cards]]
+text = "Wii MotionPlus"
+
+[[cards]]
+text = "Wii Party"
+
+[[cards]]
+text = "Bowling"
+
+[[cards]]
+text = "Table Tennis"
+
+[[cards]]
+text = "Boxing"
+
+[[cards]]
+text = "Swordplay Showdown"
+
+[[cards]]
+text = "Matt the Mii"
+
+[[cards]]
+text = "Coconut Mall"
+
+[[cards]]
+text = "Rainbow Road"
+
+[[cards]]
+text = "Donkey Kong Country Returns"
+
+[[cards]]
+text = "Kirby's Epic Yarn"
+
+[[cards]]
+text = "WarioWare: Smooth Moves"
+
+[[cards]]
+text = "Wii Fit"
+
+[[cards]]
+text = "Punch-Out!!"
+
+[[cards]]
+text = "Animal Crossing: City Folk"
+
+[[cards]]
+text = "Wii Music"
+
+[[cards]]
+text = "Wii Classic Controller"
+
+[[cards]]
+text = "Metroid Prime 3"
+
+[[cards]]
+text = "Mario Party 8"
+
+[[cards]]
+text = "Wii Menu"
+
+[[cards]]
+text = "Wii Zapper"
+
+[[cards]]
+text = "Frisbee Dog"
+
+[[cards]]
+text = "Link's Crossbow Training"
+
+[[cards]]
+text = "Wii Speak"
+
+[[cards]]
+text = "Poképark Wii"
+
+[[cards]]
+text = "Sonic Colors"
+
+[[cards]]
+text = "Zelda: Skyward Sword"
+
+[[cards]]
+text = "Golf"
+
+[[cards]]
+text = "Tennis"
+
+[[cards]]
+text = "Archery"
+
+[[cards]]
+text = "Rhythm Heaven Fever"
+
+[[cards]]
+text = "Go Vacation"
+
+[[cards]]
+text = "Boom Blox"
+
+[[cards]]
+text = "de Blob"
+
+[[cards]]
+text = "Mario Sports Mix"
+
+[[cards]]
+text = "Sensor Bar"
+
+[[cards]]
+text = "Classic Controller"
+
+[[cards]]
+text = "Wrist Strap"
+
+[[cards]]
+text = "Wii Shop Channel"
+
+[[cards]]
+text = "Mii Plaza"
+
+[[cards]]
+text = "Check Mii Out Channel"
+
+[[cards]]
+text = "Everybody Votes Channel"
+
+[[cards]]
+text = "Wii Bowling"
+
+[[cards]]
+text = "Wii Tennis"
+
+[[cards]]
+text = "Wii Boxing"
+
+[[cards]]
+text = "Wii Golf"
+
+[[cards]]
+text = "Wii Baseball"
+
+[[cards]]
+text = "Swordplay"
+
+[[cards]]
+text = "Wii Fit Trainer"
+
+[[cards]]
+text = "Home Button"
+
+[[cards]]
+text = "Disc Channel"
+
+[[cards]]
+text = "Wii Pointer"
+
+[[cards]]
+text = "Cow Racing"
+
+[[cards]]
+text = "Balance Board"
+
+[[cards]]
+text = "Mii Maker"
+
+[[cards]]
+text = "Wuhu Island"
+
+[[cards]]
+text = "Rayman Raving Rabbids"
+
+[[cards]]
+text = "Bowling Strike"
+
+[[cards]]
+text = "Swordplay Duel"
+
+[[cards]]
+text = "Disc Dog"
+
+[[cards]]
+text = "Cooking Mama"
+
+[[cards]]
+text = "Resort Archery"
+
+[[cards]]
+text = "Disc Golf"
+
+[[cards]]
+text = "Mii Channel Music"
+
+[[cards]]
+text = "Mii Character"
+
+[[cards]]
+text = "Wii Fit Board"
