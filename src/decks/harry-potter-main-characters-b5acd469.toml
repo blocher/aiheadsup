@@ -7,239 +7,240 @@ difficulty = "Easy"
 special_prompt_note = "Cards should focus on well-known students, teachers, villains, and allies from the books and films."
 photo_file_name = "harry-potter-main-characters-b5acd469-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Harry Potter"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Hermione Granger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ron Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Albus Dumbledore"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Lord Voldemort"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Severus Snape"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Rubeus Hagrid"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Draco Malfoy"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Neville Longbottom"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ginny Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Fred Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "George Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Percy Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Minerva McGonagall"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Sirius Black"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Remus Lupin"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Peter Pettigrew"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Bellatrix Lestrange"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Luna Lovegood"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Cho Chang"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Cedric Diggory"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Alastor Moody"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Dolores Umbridge"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Dudley Dursley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Petunia Dursley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Vernon Dursley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Lily Potter"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "James Potter"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Arthur Weasley"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Molly Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dobby"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Kreacher"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Lucius Malfoy"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Narcissa Malfoy"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Sybill Trelawney"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Gilderoy Lockhart"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Quirinus Quirrell"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Fleur Delacour"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Viktor Krum"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Nymphadora Tonks"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Kingsley Shacklebolt"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Cornelius Fudge"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Ollivander"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Moaning Myrtle"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Nearly Headless Nick"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Seamus Finnigan"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dean Thomas"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Lavender Brown"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Argus Filch"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Filius Flitwick"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Bill Weasley"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Griphook"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Madam Pomfrey"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Oliver Wood"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gregory Goyle"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Vincent Crabbe"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Professor McGonagall"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Professor Flitwick"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Professor Sprout"
-first_revealed_book = 1
+first_revealed_installment = 1

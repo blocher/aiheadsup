@@ -2,7 +2,7 @@
 
 Any `*.toml` file in this directory becomes a built-in deck the next time the app starts. Put its optional cover image in [`public/covers`](../../public/covers), and use the same filename in `photo_file_name`.
 
-Required fields are `id`, `name`, `category`, and `cards`. Cards must be simple, one-to-four-word prompts. Set `spoiler_mode = true` for a Harry Potter deck and give every card a `first_revealed_book` from 1 through 8, where 8 is *Harry Potter and the Cursed Child*.
+Required fields are `id`, `name`, `category`, and `cards`. Cards must be simple, one-to-four-word prompts. For spoiler-protected decks, set `spoiler_mode = true`, choose a `spoiler_series`, and give every card a `first_revealed_installment`. Supported series are `harry_potter` (1–8), `indiana_jones` (1–5), and `star_wars` (1–13). Star Wars uses release order: Episodes IV–VI, I–III, VII, *Rogue One*, VIII, *Solo*, IX, *The Mandalorian*, then general lore. Legacy Harry Potter `first_revealed_book` fields remain supported when importing older deck packages.
 
 ```toml
 id = "wizarding-basics"
@@ -14,10 +14,11 @@ difficulty = "Easy"
 special_prompt_note = "Use recognizable people, places, objects, or spells."
 photo_file_name = "wizarding-basics.png"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 cards = [
-  { text = "Harry Potter", first_revealed_book = 1 },
-  { text = "Golden Snitch", first_revealed_book = 1 },
+  { text = "Harry Potter", first_revealed_installment = 1 },
+  { text = "Golden Snitch", first_revealed_installment = 1 },
 ]
 ```
 

@@ -1,5 +1,6 @@
 import { openDB } from 'idb'
 import { bundledDeckRecord, bundledTomlDecks } from './toml-decks.js'
+import { spoilerLimitFor } from './spoiler-series.js'
 
 const database = openDB('forehead-frenzy', 2, {
   upgrade(db, oldVersion) {
@@ -38,7 +39,7 @@ export async function syncBundledDecks() {
     const pack = bundledDeckRecord(deck)
     const existing = await tx.objectStore('packs').get(deck.id)
     if (existing) {
-      if (existing.source !== 'bundled_toml' || existing.revision !== pack.revision) {
+      if (existing.source !== 'bundled_toml' || existing.bundledContentSignature !== pack.bundledContentSignature) {
         const oldCards = await tx.objectStore('cards').index('packId').getAll(pack.id)
         await tx.objectStore('packs').put({ ...existing, ...pack })
         await replaceDeckCards(tx, deck, oldCards)
@@ -73,9 +74,13 @@ export async function getCards(packId) {
   return (await db()).getAllFromIndex('cards', 'packId', packId)
 }
 
-export async function getUnusedCards(packId, maxSpoilerBook = 7) {
+export async function getUnusedCards(packId, spoilerLimits) {
   const pack = await getPack(packId)
-  return (await getCards(packId)).filter((card) => !card.firstShownAt && (!pack?.spoilerMode || !card.earliestBook || card.earliestBook <= maxSpoilerBook))
+  const limit = spoilerLimitFor(pack, spoilerLimits)
+  return (await getCards(packId)).filter((card) => {
+    const earliestInstallment = card.earliestInstallment ?? card.earliestBook
+    return !card.firstShownAt && (!pack?.spoilerMode || !earliestInstallment || earliestInstallment <= limit)
+  })
 }
 
 export async function markCardShown(cardId) {
@@ -109,6 +114,20 @@ export async function resetPack(packId) {
   const rounds = await tx.objectStore('rounds').index('packId').getAll(packId)
   await Promise.all(rounds.map((round) => tx.objectStore('rounds').delete(round.id)))
   await tx.done
+}
+
+export async function resetAllPacks({ deleteAiGenerated = false } = {}) {
+  const store = await db()
+  const tx = store.transaction(['packs', 'cards', 'rounds'], 'readwrite')
+  const [packs, cards] = await Promise.all([tx.objectStore('packs').getAll(), tx.objectStore('cards').getAll()])
+  const deletedPackIds = new Set(deleteAiGenerated ? packs.filter((pack) => pack.isAiGenerated || pack.source === 'ai').map((pack) => pack.id) : [])
+  await Promise.all(cards.map((card) => deletedPackIds.has(card.packId)
+    ? tx.objectStore('cards').delete(card.id)
+    : tx.objectStore('cards').put({ ...card, firstShownAt: null })))
+  await Promise.all([...deletedPackIds].map((packId) => tx.objectStore('packs').delete(packId)))
+  await tx.objectStore('rounds').clear()
+  await tx.done
+  return { deletedAiPackCount: deletedPackIds.size }
 }
 
 export async function saveCustomPack(pack, cards) {

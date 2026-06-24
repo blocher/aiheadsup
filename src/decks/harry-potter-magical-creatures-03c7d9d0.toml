@@ -7,263 +7,264 @@ difficulty = "Medium"
 special_prompt_note = "Cards should include creatures, beasts, pets, species, and named magical animals."
 photo_file_name = "harry-potter-magical-creatures-03c7d9d0-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Hedwig"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Scabbers"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Crookshanks"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Buckbeak"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Fawkes"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Fluffy"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Aragog"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Nagini"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Fang"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Trevor the Toad"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Mrs. Norris"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dobby"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Kreacher"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Winky"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Griphook"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Firenze"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Grawp"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Norbert"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Pigwidgeon"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Errol"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Giant Squid"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Basilisk"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Dementor"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Boggart"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Thestral"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Niffler"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Bowtruckle"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Cornish Pixie"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Hungarian Horntail"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Blast-Ended Skrewt"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Pygmy Puff"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hippogriff"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Centaur"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Werewolf"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "House-Elf"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Goblin"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Mountain Troll"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Unicorn"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Phoenix"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Merperson"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Grindylow"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Sphinx"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Red Cap"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Hinkypunk"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Flobberworm"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Crumple-Horned Snorkack"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Leprechaun"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Veela"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Acromantula"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Ghoul"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Dobby the House-Elf"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Bane"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Magorian"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Norbert the Dragon"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Witherwings"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Chinese Fireball"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Swedish Short-Snout"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Common Welsh Green"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Kappa"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Gnome"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Merpeople"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Norwegian Ridgeback"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Giant"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ukrainian Ironbelly"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Erumpent"
-first_revealed_book = 7
+first_revealed_installment = 7

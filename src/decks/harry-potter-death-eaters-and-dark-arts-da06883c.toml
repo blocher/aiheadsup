@@ -7,327 +7,328 @@ difficulty = "Hard"
 special_prompt_note = "Cards should include dark wizards, curses, Horcruxes, artifacts, battles, alliances, and dark magic concepts."
 photo_file_name = "harry-potter-death-eaters-and-dark-arts-da06883c-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Lord Voldemort"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Dark Mark"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Avada Kedavra"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Cruciatus Curse"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Imperius Curse"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Bellatrix Lestrange"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Lucius Malfoy"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Sectumsempra"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Fiendfyre"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Tom Riddle's Diary"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Slytherin's Locket"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hufflepuff's Cup"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Ravenclaw's Diadem"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Marvolo Gaunt's Ring"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Nagini"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Borgin and Burkes"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Hand of Glory"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Knockturn Alley"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Dementor"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Inferi"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Basilisk"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Peter Pettigrew"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Barty Crouch Junior"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Gellert Grindelwald"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Fenrir Greyback"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Igor Karkaroff"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Regulus Black"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "The Elder Wand"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Deathly Hallows"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Azkaban"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Morsmordre"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Black Quill"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Vanishing Cabinet"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Severus Snape"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Narcissa Malfoy"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Alecto Carrow"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Amycus Carrow"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Corban Yaxley"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Antonin Dolohov"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Walden Macnair"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Augustus Rookwood"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Delphini"
-first_revealed_book = 8
+first_revealed_installment = 8
 
 [[cards]]
 text = "Thorfinn Rowle"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Drink of Despair"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "The Cave"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "The Taboo"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Opal Necklace"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Salazar Slytherin"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Chamber of Secrets"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Department of Mysteries"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Horcrux"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Basilisk Fang"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Resurrection Stone"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Department of Mysteries"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Horcrux Cave"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Little Hangleton Graveyard"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Malfoy Manor"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Nurmengard"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Snatchers"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Rabastan Lestrange"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Rodolphus Lestrange"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Travers"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Mulciber"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Augurey"
-first_revealed_book = 8
+first_revealed_installment = 8
 
 [[cards]]
 text = "For the Greater Good"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Lestranges' Vault"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Hand of Glory"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Gaunt Shack"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Salazar Slytherin's Locket"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Helga Hufflepuff's Cup"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Rowena Ravenclaw's Diadem"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Drink of Despair"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "The Vanishing Cabinet"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Lestrange Vault"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Veil"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "The Snatchers"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Taboo Curse"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Walburga Black"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Pius Thicknesse"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Inferius"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "The Opal Necklace"
-first_revealed_book = 2
+first_revealed_installment = 2

@@ -7,283 +7,284 @@ difficulty = "Easy"
 special_prompt_note = "Cards should include house names, mascots, founders, colors, traits, and famous members."
 photo_file_name = "harry-potter-hogwarts-houses-05817c99-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Gryffindor"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Slytherin"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ravenclaw"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Hufflepuff"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Godric Gryffindor"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Salazar Slytherin"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Rowena Ravenclaw"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Helga Hufflepuff"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Sorting Hat"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Sword of Gryffindor"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Slytherin's Locket"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Ravenclaw's Diadem"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Hufflepuff's Cup"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Nearly Headless Nick"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Bloody Baron"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Grey Lady"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Fat Friar"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Fat Lady"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Harry Potter"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Hermione Granger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ron Weasley"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Draco Malfoy"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Severus Snape"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Albus Dumbledore"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Minerva McGonagall"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Luna Lovegood"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Cho Chang"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Cedric Diggory"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Nymphadora Tonks"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Professor Sprout"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gilderoy Lockhart"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Gryffindor Common Room"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Slytherin Common Room"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Ravenclaw Tower"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Great Hall"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gryffindor Lion"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Slytherin Serpent"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ravenclaw Eagle"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Hufflepuff Badger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Scarlet and Gold"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Green and Silver"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Blue and Bronze"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Yellow and Black"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "House Cup"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "House Points"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Prefect"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Head Boy"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Head Girl"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Quidditch Captain"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "House Point Hourglasses"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Lion"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Serpent"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Eagle"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Badger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Bravery"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Cunning"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Intelligence"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Loyalty"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Patience"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Wit"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Courage"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ambition"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Lord Voldemort"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Sorting Hat"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Slytherin Locket"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Ravenclaw Diadem"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Hufflepuff Cup"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Slytherin Dungeon"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Neville Longbottom"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "House Ghost"
-first_revealed_book = 1
+first_revealed_installment = 1

@@ -7,279 +7,280 @@ difficulty = "Medium"
 special_prompt_note = ""
 photo_file_name = "harry-potter-book-4-harry-potter-and-the-goblet-of-fire-b139e472-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Goblet of Fire"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Triwizard Cup"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Yule Ball"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Portkey"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Cedric Diggory"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Viktor Krum"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Fleur Delacour"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Mad-Eye Moody"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Rita Skeeter"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Winky"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Ludo Bagman"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Barty Crouch Senior"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Barty Crouch Junior"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Madame Maxime"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Igor Karkaroff"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Hungarian Horntail"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Chinese Fireball"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Swedish Short-Snout"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Common Welsh Green"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gillyweed"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Golden Egg"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Omnioculars"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Quick-Quotes Quill"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Pensieve"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Riddle House"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Little Hangleton"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Quidditch World Cup"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Beauxbatons Academy"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Durmstrang Institute"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Blast-Ended Skrewt"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Dark Mark"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Priori Incantatem"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Veela"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Leprechaun"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Frank Bryce"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Bertha Jorkins"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Amos Diggory"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Weighing of the Wands"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Prefects' Bathroom"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Foe-Glass"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Secrecy Sensor"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Beauxbatons Carriage"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Durmstrang Ship"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Weird Sisters"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Death Eaters"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Cruciatus Curse"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Imperius Curse"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Killing Curse"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Bubotuber Pus"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Ton-Tongue Toffee"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Triwizard Tournament"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Winky the House-Elf"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Yule Ball"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Merpeople"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Pensieve"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "S.P.E.W."
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Third Task"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Tom Riddle Senior"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Canary Creams"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Grindylow"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Avada Kedavra"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Weird Sisters"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Bubble-Head Charm"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Triwizard Maze"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Riddle House"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Weasleys' Wizard Wheezes"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Sphinx"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Dark Mark"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Alastor Mad-Eye Moody"
-first_revealed_book = 4
+first_revealed_installment = 4

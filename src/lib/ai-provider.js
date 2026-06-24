@@ -1,5 +1,6 @@
 import { Capacitor, registerPlugin } from '@capacitor/core'
 import { createId, normalizePrompt } from './ids.js'
+import { getSpoilerSeries } from './spoiler-series.js'
 
 const SecureGemini = registerPlugin('SecureGemini')
 const TEXT_MODEL = 'gemini-3.5-flash'
@@ -43,17 +44,18 @@ export class GeminiProvider {
     localStorage.removeItem(WEB_KEY_STORAGE)
   }
 
-  async generateCards({ category, audience, difficulty, count, excludedPrompts, harryPotterMode = false, specialPromptNote = '' }) {
+  async generateCards({ category, audience, difficulty, count, excludedPrompts, spoilerSeries: requestedSpoilerSeries = '', harryPotterMode = false, specialPromptNote = '' }) {
     const exclusions = excludedPrompts.slice(-300).join(', ')
-    const schema = harryPotterMode ? '{"cards":[{"prompt":"item","earliestBook":1}]}' : '{"cards":[{"prompt":"item"}]}'
-    const spoilerRule = harryPotterMode ? 'For every card, set earliestBook to the earliest numbered Harry Potter story (1 through 7 for the novels, or 8 for Harry Potter and the Cursed Child) where that person, place, object, creature, spell, or concept is revealed. ' : ''
+    const spoilerSeries = getSpoilerSeries(requestedSpoilerSeries || (harryPotterMode ? 'harry_potter' : ''))
+    const schema = spoilerSeries ? '{"cards":[{"prompt":"item","earliestInstallment":1}]}' : '{"cards":[{"prompt":"item"}]}'
+    const spoilerRule = spoilerSeries ? `For every card, set earliestInstallment to the earliest ${spoilerSeries.label} installment where that person, place, object, creature, spell, or concept is revealed. Use a whole number from 1 through ${spoilerSeries.installments.length}. The order is: ${spoilerSeries.installments.map((installment, index) => `${index + 1}=${installment}`).join('; ')}. ` : ''
     const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for the category "${category}". Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words. No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
     const { text } = isNative() ? await SecureGemini.generateText({ model: TEXT_MODEL, prompt }) : await webGenerate({ model: TEXT_MODEL, prompt, wantsImage: false })
     let parsed
     try { parsed = JSON.parse(text) } catch { throw new Error('Gemini returned an unreadable card batch. Please retry.') }
     const cards = Array.isArray(parsed.cards) ? parsed.cards : []
-    return cards.map((card) => ({ prompt: typeof card === 'string' ? card : card?.prompt, earliestBook: harryPotterMode ? Number(card?.earliestBook) : null }))
-      .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!harryPotterMode || Number.isInteger(card.earliestBook) && card.earliestBook >= 1 && card.earliestBook <= 8))
+    return cards.map((card) => ({ prompt: typeof card === 'string' ? card : card?.prompt, earliestInstallment: spoilerSeries ? Number(card?.earliestInstallment ?? card?.earliestBook) : null }))
+      .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!spoilerSeries || Number.isInteger(card.earliestInstallment) && card.earliestInstallment >= 1 && card.earliestInstallment <= spoilerSeries.installments.length))
       .map((card) => ({ ...card, prompt: card.prompt.trim() }))
   }
 
@@ -71,20 +73,25 @@ export function fallbackCover(category) {
 }
 
 export async function generateCustomPack(provider, request, onProgress) {
+  const targetCardCount = Number(request.cardCount ?? 100)
+  if (!Number.isInteger(targetCardCount) || targetCardCount < 1 || targetCardCount > 350) throw new Error('Choose between 1 and 350 cards.')
+  const totalBatches = Math.ceil(targetCardCount / 50)
   const prompts = []
   let cover = null
   const coverTask = provider.generateCover(request).then((result) => { cover = result }).catch(() => { cover = fallbackCover(request.category) })
-  for (let batch = 1; batch <= 7; batch += 1) {
+  for (let batch = 1; batch <= totalBatches; batch += 1) {
+    const batchTarget = Math.min(50, targetCardCount - prompts.length)
+    const batchStart = prompts.length
     let complete = false
     for (let attempt = 0; attempt < 4 && !complete; attempt += 1) {
-      const batchCards = await provider.generateCards({ ...request, count: 50, excludedPrompts: prompts.map((card) => card.prompt) })
+      const stillNeeded = batchTarget - (prompts.length - batchStart)
+      const batchCards = await provider.generateCards({ ...request, count: stillNeeded, excludedPrompts: prompts.map((card) => card.prompt) })
       const unique = batchCards.filter((card) => !prompts.some((saved) => normalizePrompt(saved.prompt) === normalizePrompt(card.prompt)))
-      prompts.push(...unique)
-      if (unique.length >= 50) complete = true
+      prompts.push(...unique.slice(0, stillNeeded))
+      if (prompts.length - batchStart === batchTarget) complete = true
     }
-    if (prompts.length < batch * 50) throw new Error('Gemini could not supply enough unique prompts. Nothing was saved; please retry.')
-    prompts.splice(batch * 50)
-    onProgress?.({ batch, totalBatches: 7, cardCount: prompts.length })
+    if (!complete) throw new Error('Gemini could not supply enough unique prompts. Nothing was saved; please retry.')
+    onProgress?.({ batch, totalBatches, cardCount: prompts.length, targetCardCount })
   }
   await coverTask
   const id = createId('pack')
@@ -98,10 +105,11 @@ export async function generateCustomPack(provider, request, onProgress) {
       specialPromptNote: request.specialPromptNote?.trim() || '',
       source: 'ai',
       isAiGenerated: true,
-      spoilerMode: request.harryPotterMode,
+      spoilerMode: Boolean(request.spoilerSeries || request.harryPotterMode),
+      spoilerSeries: request.spoilerSeries || (request.harryPotterMode ? 'harry_potter' : null),
       cover: { kind: 'blob', value: cover },
       createdAt: new Date().toISOString()
     },
-    cards: prompts.map((card) => ({ id: createId('card'), prompt: card.prompt, normalizedPrompt: normalizePrompt(card.prompt), earliestBook: card.earliestBook, firstShownAt: null }))
+    cards: prompts.map((card) => ({ id: createId('card'), prompt: card.prompt, normalizedPrompt: normalizePrompt(card.prompt), earliestInstallment: card.earliestInstallment, firstShownAt: null }))
   }
 }

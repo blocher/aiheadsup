@@ -11,14 +11,15 @@ describe('deck transfer', () => {
       difficulty: 'Easy',
       specialPromptNote: 'Keep prompts short.',
       spoilerMode: true,
+      spoilerSeries: 'harry_potter',
       cover: { kind: 'blob', value: new Blob(['image'], { type: 'image/png' }) }
     }
-    const cards = [{ id: 'one', prompt: 'Golden Snitch', earliestBook: 1 }]
+    const cards = [{ id: 'one', prompt: 'Golden Snitch', earliestInstallment: 1 }]
     const packageBlob = await buildDeckPackage(pack, cards)
     const [imported] = await parseDeckPackages({ arrayBuffer: () => packageBlob.arrayBuffer() })
 
     expect(imported.deck).toMatchObject({ id: pack.id, title: pack.title, category: pack.category, spoilerMode: true })
-    expect(imported.deck.cards).toMatchObject([{ prompt: 'Golden Snitch', earliestBook: 1 }])
+    expect(imported.deck.cards).toMatchObject([{ prompt: 'Golden Snitch', earliestInstallment: 1 }])
     expect(imported.cover?.value.type).toBe('image/png')
   })
 })

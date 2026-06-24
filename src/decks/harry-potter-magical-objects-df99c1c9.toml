@@ -7,275 +7,276 @@ difficulty = "Easy"
 special_prompt_note = "Cards should include recognizable objects, artifacts, school supplies, and enchanted items."
 photo_file_name = "harry-potter-magical-objects-df99c1c9-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Golden Snitch"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Philosopher's Stone"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Invisibility Cloak"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Sorting Hat"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Elder Wand"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Resurrection Stone"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Marauder's Map"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Firebolt"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Nimbus 2000"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Time-Turner"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Remembrall"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Mirror of Erised"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Goblet of Fire"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Pensieve"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Monster Book of Monsters"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Howler"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Deluminator"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Floo Powder"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Portkey"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Sneakoscope"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Sword of Gryffindor"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Ravenclaw's Diadem"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Slytherin's Locket"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hufflepuff's Cup"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Tom Riddle's Diary"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Quick-Quotes Quill"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Omnioculars"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Extendable Ears"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Knight Bus"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Flying Ford Anglia"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Decoy Detonators"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Skiving Snackbox"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Liquid Luck"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Polyjuice Potion"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Veritaserum"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Vanishing Cabinet"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Two-way Mirror"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Bezoar"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Golden Egg"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Triwizard Cup"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Advanced Potion-Making"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hand of Glory"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Foe-Glass"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Secrecy Sensor"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Weasley Family Clock"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Pewter Cauldron"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Self-Writing Quill"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dungbomb"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Peruvian Instant Darkness"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Skele-Gro"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Sorcerer's Stone"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Basilisk Fang"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Flying Motorbike"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Instant Darkness Powder"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Decoy Detonator"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Bertie Bott's Beans"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Chocolate Frog"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Magic Wand"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Love Potion"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Weasley Sweater"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "D.A. Coin"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Bludger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Quaffle"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Mad-Eye Moody's Eye"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Marauder's Map"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "The Pensieve"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Flying Car"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Skelegro"
-first_revealed_book = 2
+first_revealed_installment = 2

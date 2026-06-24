@@ -7,391 +7,392 @@ difficulty = "Hard"
 special_prompt_note = "Cards should include lesser-known names, events, magical theory, family connections, historical references, and obscure book details."
 photo_file_name = "harry-potter-deep-cut-lore-ec9aef21-cover.jpg"
 spoiler_mode = true
+spoiler_series = "harry_potter"
 
 [[cards]]
 text = "Great-Uncle Algie"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Nicolas Flamel"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Bathilda Bagshot"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Adalbert Waffling"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Miranda Goshawk"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gregory the Smarmy"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Hengist of Woodcroft"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dedalus Diggle"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Madam Malkin"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Armando Dippet"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Mafalda Hopkirk"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Hand of Glory"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Vanishing Cabinet"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Aragog"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Colonel Fubster"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Uncle Bilius"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Professor Kettleburn"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Professor Vector"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Madam Rosmerta"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "The Weird Sisters"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Ludo Bagman"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Winky"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Frank Bryce"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Archie Aymslowe"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Ali Bashir"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Merchieftainess Murcus"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Stubby Boardman"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Phineas Nigellus Black"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Araminta Meliflua"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Elladora Black"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Griselda Marchbanks"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Professor Tofty"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Broderick Bode"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "St. Mungo's"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Karkus"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Golgomath"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Gubraithian Fire"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Umgubular Slashkilter"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Hepzibah Smith"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Marvolo Gaunt"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Morfin Gaunt"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Merope Gaunt"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Caractacus Burke"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Mrs. Cole"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Wilkie Twycross"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Galatea Merrythought"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Reginald Cattermole"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Albert Runcorn"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Delphi Diggory"
-first_revealed_book = 8
+first_revealed_installment = 8
 
 [[cards]]
 text = "Craig Bowker Jr."
-first_revealed_book = 8
+first_revealed_installment = 8
 
 [[cards]]
 text = "Uric the Oddball"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Arsenius Jigger"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Phyllida Spore"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Emeric the Evil"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Gunhilda of Gorsemoor"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Sir Cadogan"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Sir Nicholas de Mimsy-Porpington"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Fat Friar"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Wailing Widow"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Dilys Derwent"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Everard"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Hokey the House-Elf"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Otto Bagman"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Mrs. Skower's Mess Remover"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Sleekeazy's Hair Potion"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Dr. Ubbly's Oblivious Unction"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Mimbulus Mimbletonia"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Opal Necklace"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "Sturgis Podmore"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Hestia Jones"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Emmeline Vance"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Marlene McKinnon"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dorcas Meadowes"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Benjy Fenwick"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Caradoc Dearborn"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Gideon Prewett"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Regulus Black"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Andromeda Tonks"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Ted Tonks"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Eileen Prince"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Tobias Snape"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Witherwings"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Arnold the Pygmy Puff"
-first_revealed_book = 6
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hermes the Owl"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Aberforth Dumbledore"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Delphini"
-first_revealed_book = 8
+first_revealed_installment = 8
 
 [[cards]]
 text = "Blast-Ended Skrewt"
-first_revealed_book = 4
+first_revealed_installment = 4
 
 [[cards]]
 text = "Gurg"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Hog's Head Tavern"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Barney Weasley"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Madam Marsh"
-first_revealed_book = 3
+first_revealed_installment = 3
 
 [[cards]]
 text = "Nicholas de Mimsy-Porpington"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "Barnaby the Barmy"
-first_revealed_book = 5
+first_revealed_installment = 5
 
 [[cards]]
 text = "Spattergroit"
-first_revealed_book = 7
+first_revealed_installment = 7
 
 [[cards]]
 text = "Grunnings Drill Company"
-first_revealed_book = 1
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Hand of Glory"
-first_revealed_book = 2
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Deathday Party"
-first_revealed_book = 2
+first_revealed_installment = 2

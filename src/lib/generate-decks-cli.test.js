@@ -6,7 +6,7 @@ import { cardPrompt, generateCards, parseArguments, planDeckWork, readDefinition
 
 const source = `decks = [
   { name = "Gaga Ball", category = "Sports", difficulty = "easy", target = "family", number_of_cards = "100", special_instructions = "Use playground terms.", include_harry_potter_book_number = false },
-  { name = "Cursed Child", category = "Harry Potter", difficulty = "hard", target = "teens+", number_of_cards = "", special_instructions = "Use play details.", include_harry_potter_book_number = true }
+  { name = "Cursed Child", category = "Harry Potter", difficulty = "hard", target = "teens+", number_of_cards = "", special_instructions = "Use play details.", spoiler_series = "harry_potter" }
 ]`
 
 describe('deck generation CLI', () => {
@@ -16,13 +16,13 @@ describe('deck generation CLI', () => {
   it('reads special instructions and defaults blank card counts', () => {
     const [gaga, cursed] = readDefinitions(source, 20)
     expect(gaga).toMatchObject({ target: 'Family', numberOfCards: 100, specialInstructions: 'Use playground terms.' })
-    expect(cursed).toMatchObject({ target: 'Teens+', numberOfCards: 20, specialInstructions: 'Use play details.', includeHarryPotterBookNumber: true })
+    expect(cursed).toMatchObject({ target: 'Teens+', numberOfCards: 20, specialInstructions: 'Use play details.', spoilerSeries: 'harry_potter' })
   })
 
   it('builds the spoiler-aware prompt and removes invalid cards', () => {
     const [, deck] = readDefinitions(source)
     expect(cardPrompt(deck, 2)).toContain('Cursed Child')
-    expect(validateCards({ cards: [{ prompt: 'Delphi', earliest_book: 8 }, { prompt: 'A phrase with five words', earliest_book: 8 }, { prompt: 'Delphi', earliest_book: 8 }] }, deck)).toEqual([{ prompt: 'Delphi', earliestBook: 8 }])
+    expect(validateCards({ cards: [{ prompt: 'Delphi', earliest_installment: 8 }, { prompt: 'A phrase with five words', earliest_installment: 8 }, { prompt: 'Delphi', earliest_installment: 8 }] }, deck)).toEqual([{ prompt: 'Delphi', earliestInstallment: 8 }])
   })
 
   it('supports the requested testing flags', () => {
@@ -48,7 +48,7 @@ describe('deck generation CLI', () => {
     const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
     globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ candidates: [{ content: { parts: [{ text: '{"cards":[{"prompt":"Gaga Pit"}]}' }] } }] }) })
     const cards = await generateCards('test-key', deck, { model: 'test-model', batchSize: 4 })
-    expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestBook: null }])
+    expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestInstallment: null }])
     expect(warn).toHaveBeenCalledWith(expect.stringContaining('Saving the partial deck'))
     warn.mockRestore()
   })

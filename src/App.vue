@@ -4,7 +4,9 @@ import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
 import { GeminiProvider, generateCustomPack } from './lib/ai-provider.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
-import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
+import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
+import { prepareEndCueAudio } from './lib/end-cues.js'
+import { defaultSpoilerLimits, spoilerProgressLabel, spoilerSeriesOptions } from './lib/spoiler-series.js'
 
 const screen = ref('library')
 const packs = ref([])
@@ -13,8 +15,9 @@ const duration = ref(60)
 const activeCards = ref([])
 const finishedRound = ref(null)
 const history = ref([])
-const maxSpoilerBook = ref(7)
+const spoilerLimits = ref(defaultSpoilerLimits())
 const tiltOnly = ref(false)
+const endCueMode = ref('sound_haptics')
 const gameScreen = ref(null)
 const provider = new GeminiProvider()
 const webBuild = !Capacitor.isNativePlatform()
@@ -22,10 +25,12 @@ const hasKey = ref(false)
 const notice = ref('')
 const loading = ref(true)
 const keyDraft = ref('')
-const creation = ref({ category: 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', harryPotterMode: false, specialPromptNote: '' })
+const creation = ref({ category: 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' })
 const creating = ref(false)
 const progress = ref(null)
 const importInput = ref(null)
+const selectedCategory = ref('all')
+const deleteAiOnReset = ref(false)
 
 const remaining = ref({})
 const results = computed(() => {
@@ -34,8 +39,37 @@ const results = computed(() => {
   return finishedRound.value.outcomes.map((outcome) => ({ ...outcome, prompt: cards.get(outcome.cardId)?.prompt ?? 'Unknown card' }))
 })
 const score = computed(() => results.value.filter((result) => result.result === 'correct').length)
+function roundScore(round) { return (round.outcomes || []).filter((outcome) => outcome.result === 'correct').length }
+const highScores = computed(() => history.value
+  .map((round) => ({ ...round, score: roundScore(round) }))
+  .sort((left, right) => right.score - left.score || new Date(right.endedAt || right.startedAt) - new Date(left.endedAt || left.startedAt)))
 const categories = computed(() => [...new Set(packs.value.map((pack) => pack.category).filter(Boolean))].sort())
 const aiPacks = computed(() => packs.value.filter((pack) => pack.isAiGenerated))
+const categoryGroups = computed(() => categories.value
+  .filter((category) => selectedCategory.value === 'all' || selectedCategory.value === category)
+  .map((category) => ({
+    category,
+    packs: packs.value.filter((pack) => pack.category === category).sort((left, right) => left.title.localeCompare(right.title))
+  }))
+  .filter((group) => group.packs.length))
+
+const categoryIcons = {
+  'Harry Potter': '⚡',
+  'Indiana Jones': '🤠',
+  'Star Wars': '🚀',
+  Cities: '🏙️',
+  'Western PA Themeparks': '🎢',
+  Science: '🧪',
+  'Religion and Mythology': '🏛️',
+  History: '📜',
+  Kids: '🧸',
+  Movies: '🎬',
+  Food: '🍕',
+  Games: '🎲',
+  'Pittsburgh Sports': '🏆',
+  Sports: '⚽'
+}
+function categoryIcon(category) { return categoryIcons[category] || '✨' }
 
 const coverUrls = new Map()
 function coverUrl(pack) {
@@ -47,7 +81,8 @@ function coverUrl(pack) {
 
 async function refreshPacks() {
   packs.value = await getPacks()
-  const counts = await Promise.all(packs.value.map(async (pack) => [pack.id, (await getUnusedCards(pack.id, maxSpoilerBook.value)).length]))
+  if (selectedCategory.value !== 'all' && !packs.value.some((pack) => pack.category === selectedCategory.value)) selectedCategory.value = 'all'
+  const counts = await Promise.all(packs.value.map(async (pack) => [pack.id, (await getUnusedCards(pack.id, spoilerLimits.value)).length]))
   remaining.value = Object.fromEntries(counts)
 }
 
@@ -77,7 +112,8 @@ function keepBrowserInsideApp() {
 }
 
 async function beginGame() {
-  const cards = await getUnusedCards(selectedPack.value.id, maxSpoilerBook.value)
+  prepareEndCueAudio(endCueMode.value)
+  const cards = await getUnusedCards(selectedPack.value.id, spoilerLimits.value)
   if (!cards.length) { notice.value = 'This pack is out of fresh cards. Reset it to play again.'; return }
   activeCards.value = cards
   screen.value = 'game'
@@ -107,6 +143,17 @@ async function confirmReset() {
   notice.value = 'Pack reset. Every card is fresh again.'
 }
 
+async function confirmResetAll() {
+  const aiNote = deleteAiOnReset.value ? ` It will also permanently delete ${aiPacks.value.length} AI-created pack${aiPacks.value.length === 1 ? '' : 's'} and their cards.` : ''
+  if (!window.confirm(`Reset every pack? This clears every used-card history and deletes all ${history.value.length} recorded round${history.value.length === 1 ? '' : 's'}.${aiNote} This cannot be undone.`)) return
+  try {
+    const { deletedAiPackCount } = await resetAllPacks({ deleteAiGenerated: deleteAiOnReset.value })
+    selectedPack.value = null
+    await Promise.all([refreshPacks(), refreshHistory()])
+    notice.value = deletedAiPackCount ? `All pack history reset. ${deletedAiPackCount} AI pack${deletedAiPackCount === 1 ? '' : 's'} deleted.` : 'All pack history reset. Every remaining card is fresh again.'
+  } catch (error) { notice.value = error.message || 'Could not reset all packs.' }
+}
+
 async function removePack() {
   if (!window.confirm(`Delete “${selectedPack.value.title}” and its cards?`)) return
   await deleteCustomPack(selectedPack.value.id)
@@ -129,16 +176,24 @@ async function removeKey() {
   try { await provider.removeKey(); hasKey.value = false; notice.value = 'Gemini key removed.' } catch (error) { notice.value = error.message }
 }
 
-async function updateSpoilerBook() {
-  maxSpoilerBook.value = Number(maxSpoilerBook.value)
-  await saveSetting('maxSpoilerBook', maxSpoilerBook.value)
+async function updateSpoilerLimit(seriesId) {
+  spoilerLimits.value = { ...spoilerLimits.value, [seriesId]: Number(spoilerLimits.value[seriesId]) }
+  await saveSetting('spoilerLimits', spoilerLimits.value)
   await refreshPacks()
-  notice.value = `Harry Potter packs now avoid spoilers after Book ${maxSpoilerBook.value}.`
+  const series = spoilerSeriesOptions.find((option) => option.id === seriesId)
+  notice.value = `${series.label} packs now avoid spoilers after ${series.installments[spoilerLimits.value[seriesId] - 1]}.`
 }
+
+function spoilerLabel(pack) { return spoilerProgressLabel(pack, spoilerLimits.value) }
 
 async function updateTiltOnly() {
   await saveSetting('tiltOnly', tiltOnly.value)
   notice.value = tiltOnly.value ? 'Tilt-only mode is on. Correct and Pass buttons are hidden during rounds.' : 'Tap controls are back on for rounds.'
+}
+
+async function updateEndCueMode() {
+  await saveSetting('endCueMode', endCueMode.value)
+  notice.value = endCueMode.value === 'visual' ? 'End-of-round visual countdown only.' : endCueMode.value === 'sound' ? 'End-of-round sound cues are on.' : 'End-of-round sound and haptic cues are on.'
 }
 
 async function createPack() {
@@ -146,14 +201,14 @@ async function createPack() {
   if (category.length < 2) { notice.value = 'Choose or add a category.'; return }
   if (!hasKey.value) { notice.value = 'Add a Gemini key in Settings before generating a pack.'; return }
   creating.value = true
-  progress.value = { batch: 0, totalBatches: 7, cardCount: 0 }
-  notice.value = 'Creating your 350-card library…'
+  progress.value = { batch: 0, totalBatches: Math.ceil(creation.value.cardCount / 50), cardCount: 0, targetCardCount: creation.value.cardCount }
+  notice.value = `Creating your ${creation.value.cardCount}-card library…`
   try {
     const result = await generateCustomPack(provider, { ...creation.value, category }, (next) => { progress.value = next })
     await saveCustomPack(result.pack, result.cards)
     await refreshPacks()
     selectedPack.value = packs.value.find((pack) => pack.id === result.pack.id)
-    creation.value = { category: categories.value[0] || 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', harryPotterMode: false, specialPromptNote: '' }
+    creation.value = { category: categories.value[0] || 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' }
     screen.value = 'detail'
     notice.value = 'Your new pack is ready.'
   } catch (error) { notice.value = error.message || 'The pack was not saved. Please try again.' }
@@ -190,8 +245,10 @@ async function exportAllAiDecks() {
 
 onMounted(async () => {
   await syncBundledDecks()
-  maxSpoilerBook.value = await getSetting('maxSpoilerBook', 7)
+  const savedSpoilerLimits = await getSetting('spoilerLimits', null)
+  spoilerLimits.value = { ...defaultSpoilerLimits(), ...(savedSpoilerLimits || {}), ...(!savedSpoilerLimits ? { harry_potter: await getSetting('maxSpoilerBook', 7) } : {}) }
   tiltOnly.value = await getSetting('tiltOnly', false)
+  endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
   await Promise.all([refreshPacks(), refreshHistory(), checkKey()])
   window.history.replaceState({ foreheadFrenzy: true }, '', window.location.href)
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
@@ -203,7 +260,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
 </script>
 
 <template>
-  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" @finish="finishGame" />
+  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" :end-cue-mode="endCueMode" @finish="finishGame" />
   <main v-else class="app-shell">
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
@@ -216,31 +273,39 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
 
     <template v-else-if="screen === 'library'">
       <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button" @click="screen = 'create'">✨ Make a pack with AI</button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
+      <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>All-time high scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
       <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
-      <section class="pack-grid">
-        <button v-for="pack in packs" :key="pack.id" class="pack-tile" @click="openPack(pack)">
-          <img v-if="pack.cover" :src="coverUrl(pack)" alt="" />
-          <span class="pack-shade"></span>
-          <span class="pack-meta"><small>{{ pack.category }} · {{ pack.difficulty }}</small><strong>{{ pack.title }}</strong><em>{{ remaining[pack.id] }} fresh cards</em></span>
-        </button>
+      <nav v-if="categories.length" class="category-filter" aria-label="Filter packs by category">
+        <button :class="{ selected: selectedCategory === 'all' }" :aria-pressed="selectedCategory === 'all'" @click="selectedCategory = 'all'"><span class="category-filter-icon">✦</span><span>All packs</span><b>{{ packs.length }}</b></button>
+        <button v-for="category in categories" :key="category" :class="{ selected: selectedCategory === category }" :aria-pressed="selectedCategory === category" @click="selectedCategory = category"><span class="category-filter-icon">{{ categoryIcon(category) }}</span><span>{{ category }}</span><b>{{ packs.filter((pack) => pack.category === category).length }}</b></button>
+      </nav>
+      <section v-if="categoryGroups.length" class="category-sections">
+        <section v-for="group in categoryGroups" :key="group.category" class="category-section">
+          <header class="category-heading"><span class="category-heading-icon" aria-hidden="true">{{ categoryIcon(group.category) }}</span><div><p>Category</p><h2>{{ group.category }}</h2></div><span>{{ group.packs.length }} pack{{ group.packs.length === 1 ? '' : 's' }}</span></header>
+          <div class="pack-grid">
+            <button v-for="pack in group.packs" :key="pack.id" class="pack-tile" @click="openPack(pack)">
+              <img v-if="pack.cover" :src="coverUrl(pack)" alt="" />
+              <span class="pack-shade"></span>
+              <span class="pack-meta"><small>{{ pack.difficulty }} · {{ pack.audience }}</small><strong>{{ pack.title }}</strong><em>{{ remaining[pack.id] }} fresh cards</em></span>
+            </button>
+          </div>
+        </section>
       </section>
-      <section class="library-heading history-heading"><h2>Recent rounds</h2><button v-if="history.length" @click="screen = 'history'">View history</button></section>
-      <section v-if="history.length" class="recent-rounds"><button v-for="round in history.slice(0, 3)" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.outcomes.filter((outcome) => outcome.result === 'correct').length }}</strong><span><b>{{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleDateString() }}</small></span><em>View ›</em></button></section>
-      <p v-else class="empty-history">Your finished rounds will appear here.</p>
+      <p v-else class="empty-history">No packs in this category yet.</p>
     </template>
 
     <template v-else-if="screen === 'detail' && selectedPack">
-      <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ remaining[selectedPack.id] }} {{ selectedPack.spoilerMode ? `spoiler-safe through Book ${maxSpoilerBook}` : 'fresh' }} cards left</span></div></section>
+      <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ remaining[selectedPack.id] }} {{ selectedPack.spoilerMode ? `spoiler-safe through ${spoilerLabel(selectedPack)}` : 'fresh' }} cards left</span></div></section>
       <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. Tilt down for correct, up to pass{{ tiltOnly ? '. Tilt-only mode is on.' : ', or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!remaining[selectedPack.id]" @click="beginGame">Start {{ duration }}-second round</button></section>
       <div class="manage-row"><button @click="confirmReset">Reset card history</button><button v-if="selectedPack.isAiGenerated" @click="exportDeck(selectedPack)">Export TOML package</button><button v-if="selectedPack.source !== 'bundled_toml'" class="danger" @click="removePack">Delete deck</button></div>
     </template>
 
     <template v-else-if="screen === 'create'">
-      <section class="form-card"><p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>Gemini will create 350 simple, 1–4 word cards and a cover image. Your pack stays on this phone.</p><label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label class="checkbox-row"><input v-model="creation.harryPotterMode" type="checkbox" :disabled="creating" /><span><b>Harry Potter spoiler mode</b><small>Tag every card with its first-revealed book and respect your spoiler setting.</small></span></label><div v-if="progress" class="progress"><span>Batch {{ progress.batch }} of {{ progress.totalBatches }}</span><strong>{{ progress.cardCount }} / 350 cards</strong><i><b :style="{ width: `${(progress.cardCount / 350) * 100}%` }"></b></i></div><button class="primary-button wide" :disabled="creating" @click="createPack">{{ creating ? 'Creating your pack…' : 'Generate 350 cards' }}</button><p v-if="!hasKey" class="tiny-note">Add your Gemini key in Settings first. The key stays in iOS Keychain.</p></section>
+      <section class="form-card"><p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>Gemini creates simple, 1–4 word cards and a cover image. Your pack stays on this phone.</p><label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>Batch {{ progress.batch }} of {{ progress.totalBatches }}</span><strong>{{ progress.cardCount }} / {{ progress.targetCardCount }} cards</strong><i><b :style="{ width: `${(progress.cardCount / progress.targetCardCount) * 100}%` }"></b></i></div><button class="primary-button wide" :disabled="creating" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards` }}</button><p v-if="!hasKey" class="tiny-note">Add your Gemini key in Settings first. The key stays in iOS Keychain.</p></section>
     </template>
 
     <template v-else-if="screen === 'settings'">
-      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>Gemini connection</h2><p v-if="webBuild">Your key is stored only in this browser’s local storage. It is convenient for this local web app, but anyone with this browser profile can read it.</p><p v-else>Your key is stored in iOS Keychain, never in the app bundle or this repository.</p><template v-if="hasKey"><div class="key-status">✓ A Gemini key is saved {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</div><button class="secondary-button danger" @click="removeKey">Remove key</button></template><template v-else><label>Gemini API key<input v-model="keyDraft" type="password" autocapitalize="off" autocomplete="off" placeholder="Paste your key" /></label><button class="primary-button wide" @click="saveKey">{{ webBuild ? 'Save key in this browser' : 'Save key to Keychain' }}</button></template><hr /><h3>No-spoiler mode</h3><p>Harry Potter packs only draw cards revealed on or before this story.</p><label>Maximum spoiler book<select v-model="maxSpoilerBook" @change="updateSpoilerBook"><option v-for="book in [1, 2, 3, 4, 5, 6, 7, 8]" :key="book" :value="book">Book {{ book }}{{ book === 8 ? ' — Cursed Child / all stories' : '' }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
+      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>Gemini connection</h2><p v-if="webBuild">Your key is stored only in this browser’s local storage. It is convenient for this local web app, but anyone with this browser profile can read it.</p><p v-else>Your key is stored in iOS Keychain, never in the app bundle or this repository.</p><template v-if="hasKey"><div class="key-status">✓ A Gemini key is saved {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</div><button class="secondary-button danger" @click="removeKey">Remove key</button></template><template v-else><label>Gemini API key<input v-model="keyDraft" type="password" autocapitalize="off" autocomplete="off" placeholder="Paste your key" /></label><button class="primary-button wide" @click="saveKey">{{ webBuild ? 'Save key in this browser' : 'Save key to Keychain' }}</button></template><hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>End-of-round cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual countdown only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all packs</h3><p>Clear every viewed card and every recorded round across your library.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button danger wide" @click="confirmResetAll">Reset all pack history</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
     </template>
 
     <template v-else-if="screen === 'results'">
@@ -250,8 +315,15 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'history'">
-      <section class="library-heading"><h2>Game history</h2><span>{{ history.length }} rounds</span></section>
-      <section class="recent-rounds history-list"><button v-for="round in history" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.outcomes.filter((outcome) => outcome.result === 'correct').length }}</strong><span><b>{{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      <section class="library-heading"><h2>Recent rounds</h2><span>{{ history.length }} played</span></section>
+      <section v-if="history.length" class="recent-rounds history-list"><button v-for="round in history" :key="round.id" @click="openHistoryRound(round)"><strong>{{ roundScore(round) }}</strong><span><b>{{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      <p v-else class="empty-history">Your finished rounds will appear here.</p>
+    </template>
+
+    <template v-else-if="screen === 'scores'">
+      <section class="library-heading"><h2>All-time high scores</h2><span>{{ highScores.length }} rounds</span></section>
+      <section v-if="highScores.length" class="recent-rounds history-list"><button v-for="(round, index) in highScores" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>#{{ index + 1 }} · {{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleDateString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      <p v-else class="empty-history">Finish a round to start the leaderboard.</p>
     </template>
   </main>
 </template>

@@ -5,8 +5,9 @@ import { Motion } from '@capacitor/motion'
 import { ScreenOrientation } from '@capacitor/screen-orientation'
 import { createRound, createTiltDetector, recordOutcome, shuffle } from '../lib/game-engine.js'
 import { markCardShown } from '../lib/database.js'
+import { playCountdownTone, playFinishTone } from '../lib/end-cues.js'
 
-const props = defineProps({ pack: { type: Object, required: true }, cards: { type: Array, required: true }, duration: { type: Number, required: true }, showManualControls: { type: Boolean, default: true } })
+const props = defineProps({ pack: { type: Object, required: true }, cards: { type: Array, required: true }, duration: { type: Number, required: true }, showManualControls: { type: Boolean, default: true }, endCueMode: { type: String, default: 'sound_haptics' } })
 const emit = defineEmits(['finish'])
 const countdown = ref(3)
 const secondsLeft = ref(props.duration)
@@ -25,6 +26,9 @@ let motionListener
 let feedbackTimer
 
 const score = computed(() => round.value.outcomes.filter((outcome) => outcome.result === 'correct').length)
+const timeProgress = computed(() => `${Math.max(0, (secondsLeft.value / props.duration) * 100)}%`)
+const finalCountdown = computed(() => started.value && !paused.value && secondsLeft.value <= 5)
+const criticalCountdown = computed(() => finalCountdown.value && secondsLeft.value <= 3)
 
 async function showNext() {
   const next = available.value.shift() ?? null
@@ -63,6 +67,12 @@ function onVisibility() {
   paused.value = document.hidden
 }
 
+function playEndCue() {
+  if (props.endCueMode === 'visual') return
+  playCountdownTone(secondsLeft.value)
+  if (props.endCueMode === 'sound_haptics') Haptics.impact({ style: secondsLeft.value <= 2 ? ImpactStyle.Heavy : ImpactStyle.Light }).catch(() => {})
+}
+
 async function beginRound() {
   detector.calibrate(calibrationSamples.length ? calibrationSamples : [0])
   await showNext()
@@ -70,7 +80,12 @@ async function beginRound() {
   roundTimer = window.setInterval(() => {
     if (paused.value) return
     secondsLeft.value -= 1
-    if (secondsLeft.value <= 0) finish()
+    if (secondsLeft.value <= 0) {
+      if (props.endCueMode !== 'visual') playFinishTone()
+      finish()
+      return
+    }
+    if (secondsLeft.value <= 5) playEndCue()
   }, 1000)
 }
 
@@ -117,8 +132,9 @@ defineExpose({ endRound: finish })
 </script>
 
 <template>
-  <main class="game-screen" :class="feedback">
-    <div class="game-hud"><span>{{ secondsLeft }}s</span><span>{{ score }} correct</span></div>
+  <main class="game-screen" :class="[feedback, { 'time-warning': finalCountdown, 'time-critical': criticalCountdown }]">
+    <div class="game-hud"><span class="timer-pill"><b>{{ secondsLeft }}</b><small>sec</small></span><span>{{ score }} correct</span></div>
+    <div class="game-progress" aria-hidden="true"><i :style="{ width: timeProgress }"></i></div>
     <section v-if="!started" class="countdown-card">
       <p>Hold the phone to your forehead</p>
       <strong>{{ countdown }}</strong>

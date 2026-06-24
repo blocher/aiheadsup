@@ -4,6 +4,7 @@ import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parse, stringify } from 'smol-toml'
+import { getSpoilerSeries } from '../src/lib/spoiler-series.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const defaults = {
@@ -87,6 +88,8 @@ export function readDefinitions(source, defaultCards = defaults.defaultCards) {
     const numberOfCards = requested ? Number(requested) : defaultCards
     if (!name || !category || !['easy', 'medium', 'hard'].includes(difficulty)) throw new Error(`Deck ${index + 1} needs name, category, and easy/medium/hard difficulty.`)
     if (!Number.isInteger(numberOfCards) || numberOfCards < 1) throw new Error(`Deck “${name}” has an invalid number_of_cards.`)
+    const spoilerSeries = String(entry.spoiler_series || '').trim() || (entry.include_harry_potter_book_number ? 'harry_potter' : '')
+    if (spoilerSeries && !getSpoilerSeries(spoilerSeries)) throw new Error(`Deck “${name}” has an unknown spoiler_series.`)
     return {
       name,
       category,
@@ -94,7 +97,7 @@ export function readDefinitions(source, defaultCards = defaults.defaultCards) {
       target: audience(entry.target),
       numberOfCards,
       specialInstructions: String(entry.special_instructions ?? '').trim(),
-      includeHarryPotterBookNumber: Boolean(entry.include_harry_potter_book_number),
+      spoilerSeries,
       id: `deck_${slug(name)}_${hash(`${name}|${category}`)}`,
       fileStem: `${slug(name)}-${hash(`${name}|${category}`)}`
     }
@@ -102,11 +105,12 @@ export function readDefinitions(source, defaultCards = defaults.defaultCards) {
 }
 
 export function cardPrompt(deck, count, excludedPrompts = []) {
-  const spoilers = deck.includeHarryPotterBookNumber
-    ? 'For every card include earliest_book: the earliest Harry Potter story where it is revealed, using 1 through 7 for the novels and 8 for Harry Potter and the Cursed Child. Do not guess: use 8 only for Cursed Child revelations.'
-    : 'Do not include any Harry Potter book metadata.'
-  const schema = spoilers
-    ? '{"cards":[{"prompt":"Golden Snitch","earliest_book":1}]}'
+  const series = getSpoilerSeries(deck.spoilerSeries)
+  const spoilers = series
+    ? `For every card include earliest_installment: the earliest ${series.label} installment in which it is revealed. Use a whole number from 1 through ${series.installments.length}. The release/story order is: ${series.installments.map((installment, index) => `${index + 1}=${installment}`).join('; ')}.`
+    : 'Do not include spoiler metadata.'
+  const schema = series
+    ? '{"cards":[{"prompt":"Golden Snitch","earliest_installment":1}]}'
     : '{"cards":[{"prompt":"Golden Snitch"}]}'
   return `Create exactly ${count} unique, replayable Heads Up-style guessing cards.\n\nDeck name: ${deck.name}\nCategory: ${deck.category}\nDifficulty: ${deck.difficulty}\nTarget audience: ${deck.target}\nSpecial instructions: ${deck.specialInstructions || 'None.'}\n\nEvery card must be a guessable person, place, thing, creature, object, title, event, action, or game term appropriate to the specified difficulty and audience. Each prompt must be one word or a very short phrase of at most 4 words. Never return clues, definitions, full sentences, questions, descriptions, duplicate answers, or near-duplicates. ${spoilers}\n\nReturn only valid JSON in this exact shape: ${schema}\n\nDo not reuse or closely restate any of these already selected cards: ${excludedPrompts.slice(-350).join(', ') || 'None yet.'}`
 }
@@ -116,16 +120,17 @@ export function coverPrompt(deck) {
 }
 
 export function validateCards(payload, deck, knownCards = []) {
+  const series = getSpoilerSeries(deck.spoilerSeries)
   const seen = new Set(knownCards.map((card) => normalise(card.prompt)))
   const cards = Array.isArray(payload?.cards) ? payload.cards : []
   return cards.flatMap((card) => {
     const prompt = String(typeof card === 'string' ? card : card?.prompt || '').trim()
-    const earliestBook = Number(typeof card === 'object' ? card?.earliest_book ?? card?.earliestBook : NaN)
+    const earliestInstallment = Number(typeof card === 'object' ? card?.earliest_installment ?? card?.earliest_book ?? card?.earliestBook : NaN)
     const key = normalise(prompt)
-    const validBook = !deck.includeHarryPotterBookNumber || (Number.isInteger(earliestBook) && earliestBook >= 1 && earliestBook <= 8)
-    if (!key || prompt.split(/\s+/).length > 4 || !validBook || seen.has(key)) return []
+    const validInstallment = !series || (Number.isInteger(earliestInstallment) && earliestInstallment >= 1 && earliestInstallment <= series.installments.length)
+    if (!key || prompt.split(/\s+/).length > 4 || !validInstallment || seen.has(key)) return []
     seen.add(key)
-    return [{ prompt, earliestBook: deck.includeHarryPotterBookNumber ? earliestBook : null }]
+    return [{ prompt, earliestInstallment: series ? earliestInstallment : null }]
   })
 }
 
@@ -197,8 +202,9 @@ function outputToml(deck, cards, photoFileName = null) {
     difficulty: deck.difficulty[0].toUpperCase() + deck.difficulty.slice(1),
     special_prompt_note: deck.specialInstructions,
     ...(photoFileName ? { photo_file_name: photoFileName } : {}),
-    spoiler_mode: deck.includeHarryPotterBookNumber,
-    cards: cards.map((card) => ({ text: card.prompt, ...(deck.includeHarryPotterBookNumber ? { first_revealed_book: card.earliestBook } : {}) }))
+    spoiler_mode: Boolean(deck.spoilerSeries),
+    ...(deck.spoilerSeries ? { spoiler_series: deck.spoilerSeries } : {}),
+    cards: cards.map((card) => ({ text: card.prompt, ...(deck.spoilerSeries ? { first_revealed_installment: card.earliestInstallment } : {}) }))
   })
 }
 
