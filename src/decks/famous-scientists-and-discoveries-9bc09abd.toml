@@ -1,5 +1,5 @@
 id = "deck_famous-scientists-and-discoveries_9bc09abd"
-revision = 1
+revision = 2
 name = "Famous Scientists and Discoveries"
 category = "Science"
 audience = "Family"
@@ -72,13 +72,7 @@ text = "Isaac Newton"
 text = "Theory of Relativity"
 
 [[cards]]
-text = "Double Helix Structure"
-
-[[cards]]
 text = "Quantum Entanglement"
-
-[[cards]]
-text = "Penicillin Discovery"
 
 [[cards]]
 text = "Cosmic Microwave Background"
@@ -129,9 +123,6 @@ text = "Michelson-Morley Experiment"
 text = "Miller-Urey Experiment"
 
 [[cards]]
-text = "Pavlovian Conditioning"
-
-[[cards]]
 text = "Large Hadron Collider"
 
 [[cards]]
@@ -139,9 +130,6 @@ text = "Hubble Space Telescope"
 
 [[cards]]
 text = "Geiger Counter"
-
-[[cards]]
-text = "Scanning Electron Microscope"
 
 [[cards]]
 text = "James Webb Telescope"
@@ -162,9 +150,6 @@ text = "Cloud Chamber"
 text = "Galileo Galilei"
 
 [[cards]]
-text = "Dmitry Mendeleev"
-
-[[cards]]
 text = "Max Planck"
 
 [[cards]]
@@ -181,9 +166,6 @@ text = "Periodic Table"
 
 [[cards]]
 text = "Quantum Mechanics"
-
-[[cards]]
-text = "CRISPR Cas9"
 
 [[cards]]
 text = "Photosynthesis"
@@ -220,9 +202,3 @@ text = "Brownian Motion"
 
 [[cards]]
 text = "Keck Observatory"
-
-[[cards]]
-text = "CRISPR"
-
-[[cards]]
-text = "The Big Bang"

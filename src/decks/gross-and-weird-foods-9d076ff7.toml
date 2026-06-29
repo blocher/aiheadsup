@@ -1,5 +1,5 @@
 id = "deck_gross-and-weird-foods_9d076ff7"
-revision = 1
+revision = 2
 name = "Gross and Weird Foods"
 category = "Food"
 audience = "Family"
@@ -66,9 +66,6 @@ text = "Anchovy Pizza"
 text = "Pickled Eggs"
 
 [[cards]]
-text = "Wasabi Peas"
-
-[[cards]]
 text = "Pork Rinds"
 
 [[cards]]
@@ -99,9 +96,6 @@ text = "Mealworm Cookies"
 text = "Fried Grasshoppers"
 
 [[cards]]
-text = "Fish Eyes"
-
-[[cards]]
 text = "Chocolate Covered Crickets"
 
 [[cards]]
@@ -112,9 +106,6 @@ text = "Oxtail Soup"
 
 [[cards]]
 text = "Ghost Pepper Chips"
-
-[[cards]]
-text = "Sour Gummy Worms"
 
 [[cards]]
 text = "Bubble Gum Soda"
@@ -165,9 +156,6 @@ text = "Fermented Herring"
 text = "Fertilized Duck Egg"
 
 [[cards]]
-text = "Fried Crickets"
-
-[[cards]]
 text = "Grasshopper Tacos"
 
 [[cards]]
@@ -175,9 +163,6 @@ text = "Mealworm Fries"
 
 [[cards]]
 text = "Rocky Mountain Oysters"
-
-[[cards]]
-text = "Blood Pudding"
 
 [[cards]]
 text = "Chocolate Covered Ants"
@@ -192,9 +177,6 @@ text = "Octopus Ice Cream"
 text = "Maggot Cheese"
 
 [[cards]]
-text = "Fish Eyeballs"
-
-[[cards]]
 text = "Miracle Berry"
 
 [[cards]]
@@ -205,9 +187,6 @@ text = "Snake Soup"
 
 [[cards]]
 text = "Fermented Shark"
-
-[[cards]]
-text = "Kimchi"
 
 [[cards]]
 text = "Geoduck"
@@ -240,13 +219,7 @@ text = "Garlic Soda"
 text = "Fried Rattlesnake"
 
 [[cards]]
-text = "Sardines"
-
-[[cards]]
 text = "Spam Fries"
-
-[[cards]]
-text = "Geoduck Clam"
 
 [[cards]]
 text = "Wasabi Ice Cream"
@@ -270,7 +243,22 @@ text = "Jellied Eels"
 text = "Surströmming"
 
 [[cards]]
-text = "Pickled Pig's Feet"
+text = "Vegemite Toast"
 
 [[cards]]
-text = "Vegemite Toast"
+text = "Balut"
+
+[[cards]]
+text = "Casu Marzu"
+
+[[cards]]
+text = "Hákarl"
+
+[[cards]]
+text = "Shirako"
+
+[[cards]]
+text = "Stargazy Pie"
+
+[[cards]]
+text = "Bull Testicles"

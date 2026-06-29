@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-6-harry-potter-and-the-half-blood-prince_4d3b71e9"
-revision = 1
+revision = 2
 name = "Harry Potter Book 6: Harry Potter and the Half-Blood Prince"
 category = "Harry Potter"
 audience = "Family"
@@ -8,6 +8,42 @@ special_prompt_note = ""
 spoiler_mode = true
 spoiler_series = "harry_potter"
 photo_file_name = "harry-potter-book-6-harry-potter-and-the-half-blood-prince-4d3b71e9-cover.jpg"
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Albus Dumbledore"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Severus Snape"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ginny Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lord Voldemort"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rubeus Hagrid"
+first_revealed_installment = 1
 
 [[cards]]
 text = "Horcrux"
@@ -66,10 +102,6 @@ text = "Pygmy Puff"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Instant Darkness Powder"
-first_revealed_installment = 6
-
-[[cards]]
 text = "The Inferi"
 first_revealed_installment = 6
 
@@ -94,10 +126,6 @@ text = "Advanced Potion-Making"
 first_revealed_installment = 6
 
 [[cards]]
-text = "The Gaunt Ring"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Slytherin's Locket"
 first_revealed_installment = 5
 
@@ -107,14 +135,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Poisoned Mead"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Seaside Cave"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Lightning-Struck Tower"
 first_revealed_installment = 6
 
 [[cards]]
@@ -131,10 +151,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Vanishing Cabinet"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Cursed Necklace"
 first_revealed_installment = 2
 
 [[cards]]
@@ -186,10 +202,6 @@ text = "Fleur Delacour"
 first_revealed_installment = 4
 
 [[cards]]
-text = "The Astronomy Tower"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Weasleys' Wizard Wheezes"
 first_revealed_installment = 4
 
@@ -210,14 +222,6 @@ text = "Bob Ogden"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Inferi"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Slug Club"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Marvolo Gaunt's Ring"
 first_revealed_installment = 6
 
@@ -227,14 +231,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Wilkie Twycross"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Apparition Class"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Cave"
 first_revealed_installment = 6
 
 [[cards]]
@@ -262,10 +258,6 @@ text = "Langlock"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Aragog's Burial"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Slughorn's Memory"
 first_revealed_installment = 6
 
@@ -290,24 +282,12 @@ text = "Wolf Patronus"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Sanguini"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Aguamenti"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Liquid Luck"
 first_revealed_installment = 6
 
 [[cards]]
 text = "Astronomy Tower"
 first_revealed_installment = 1
-
-[[cards]]
-text = "Horace Slughorn"
-first_revealed_installment = 6
 
 [[cards]]
 text = "The Sea Cave"

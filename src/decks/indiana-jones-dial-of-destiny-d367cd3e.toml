@@ -1,5 +1,5 @@
 id = "deck_indiana-jones-dial-of-destiny_d367cd3e"
-revision = 1
+revision = 2
 name = "Indiana Jones: Dial of Destiny"
 category = "Indiana Jones"
 audience = "Family"
@@ -62,11 +62,11 @@ text = "Mutt Williams"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Dr. Schmidt"
+text = "Colonel Weber"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Dial of Destiny"
+text = "Roman Centurion"
 first_revealed_installment = 5
 
 [[cards]]
@@ -78,19 +78,23 @@ text = "Lance of Longinus"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Grafikos Tablet"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Phony Lance"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Retirement Watch"
+text = "Grafikos Tablet"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Fedora Hat"
+text = "Archimedes' Wristwatch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Polybius Cipher"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Fedora"
 first_revealed_installment = 1
 
 [[cards]]
@@ -98,55 +102,19 @@ text = "Bullwhip"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Tuk-Tuk"
+text = "Leather Jacket"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hunter College"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Heinkel Bomber"
+text = "Tangier"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Sallah's Taxi"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Renaldo's Boat"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Roman Trireme"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Tuk-Tuk Chase"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Subway Horse Ride"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Nazi Loot Train"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Deep Sea Dive"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Siege of Syracuse"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Apollo 11 Parade"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Tangier Auction"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Castle Plassenburg"
+text = "Sicily"
 first_revealed_installment = 5
 
 [[cards]]
@@ -158,127 +126,7 @@ text = "Archimedes' Tomb"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Hunter College"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Hotel L'Atlantique"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Syracuse Harbor"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Time Fissure"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Moray Eels"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Giant Centipedes"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Wombat"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Professor Jones"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Punching a Nazi"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Polybius Square"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Archimedes' Codex"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Nazi Gold"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Leather Jacket"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Teddy Rahaim"
-first_revealed_installment = 5
-
-[[cards]]
-text = "The Antikythera"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Spear of Longinus"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Heinkel He 111"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Subway Horse Chase"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Alps Train Chase"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Archimedes' Wristwatch"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Tangier Hotel"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Phanes Shipwreck"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Giant Eels"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Time Portal"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Polybius Cipher"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Continental Drift"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Greek Trireme"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Roman Centurion"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Indy's Fedora"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Nazi Train"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Graf von Schwerin"
 first_revealed_installment = 5
 
 [[cards]]
@@ -286,45 +134,61 @@ text = "Dr. Jones' Apartment"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Pliny the Elder"
+text = "Heinkel He 111"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Sicily"
+text = "Tuk-Tuk"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Tangier"
+text = "Roman Trireme"
 first_revealed_installment = 5
 
 [[cards]]
-text = "The Dial of Destiny"
+text = "Renaldo's Boat"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Professor of Archaeology"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Nazi Uniform"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Syracuse"
+text = "Apollo 11 Parade"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Deep Sea Eels"
+text = "Tuk-Tuk Chase"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Archimedes' Dial"
+text = "Subway Horse Chase"
 first_revealed_installment = 5
 
 [[cards]]
-text = "The Graphikos"
+text = "Alps Train Fight"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Alps Train"
+text = "Deep Sea Dive"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Siege of Syracuse"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tangier Auction"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Time Fissure"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Continental Drift"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Moray Eels"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wombat"
 first_revealed_installment = 5

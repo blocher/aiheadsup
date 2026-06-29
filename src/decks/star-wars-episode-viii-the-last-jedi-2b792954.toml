@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-viii-the-last-jedi_2b792954"
-revision = 1
+revision = 2
 name = "Star Wars Episode VIII: The Last Jedi"
 category = "Star Wars"
 audience = "Family"
@@ -198,10 +198,6 @@ text = "BB-8"
 first_revealed_installment = 7
 
 [[cards]]
-text = "The Prime Jedi"
-first_revealed_installment = 9
-
-[[cards]]
 text = "First Order Dreadnought"
 first_revealed_installment = 9
 
@@ -210,19 +206,7 @@ text = "R2-D2"
 first_revealed_installment = 1
 
 [[cards]]
-text = "TIE Silencer"
-first_revealed_installment = 9
-
-[[cards]]
-text = "The Caretakers"
-first_revealed_installment = 9
-
-[[cards]]
 text = "Prime Jedi Mosaic"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Red Salt Deserts"
 first_revealed_installment = 9
 
 [[cards]]
@@ -254,16 +238,8 @@ text = "Superlaser Siege Cannon"
 first_revealed_installment = 9
 
 [[cards]]
-text = "Canto Bight Casino"
-first_revealed_installment = 9
-
-[[cards]]
 text = "Burning Jedi Temple"
 first_revealed_installment = 9
-
-[[cards]]
-text = "Ahch-To Island"
-first_revealed_installment = 7
 
 [[cards]]
 text = "Stormtrooper Executioner"
@@ -278,37 +254,9 @@ text = "Anodyne"
 first_revealed_installment = 9
 
 [[cards]]
-text = "Mega-Class Star Destroyer"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Luke's Projection"
-first_revealed_installment = 9
-
-[[cards]]
 text = "Ninka"
 first_revealed_installment = 9
 
 [[cards]]
 text = "Canto Bight Police"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Luke's Force Projection"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Crystal Fox"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Elite Praetorian Guard"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Ahch-To Caregivers"
-first_revealed_installment = 9
-
-[[cards]]
-text = "Lanai Caregivers"
 first_revealed_installment = 9

@@ -1,5 +1,5 @@
 id = "deck_taylor-swift_934f5794"
-revision = 1
+revision = 2
 name = "Taylor Swift"
 category = "Music"
 audience = "Family"
@@ -46,9 +46,6 @@ text = "Surprise Song"
 
 [[cards]]
 text = "Glitter Gel Pen"
-
-[[cards]]
-text = "Red Album"
 
 [[cards]]
 text = "Reputation Stadium Tour"
@@ -132,7 +129,7 @@ text = "London Boy"
 text = "Anti-Hero"
 
 [[cards]]
-text = "Key Lime Green Dog"
+text = "Key-Lime Green Dog"
 
 [[cards]]
 text = "Getaway Car"
@@ -237,19 +234,22 @@ text = "Holiday House"
 text = "The Vault"
 
 [[cards]]
-text = "Cardigan Sweater"
-
-[[cards]]
-text = "Lucky Number Thirteen"
-
-[[cards]]
 text = "Reputation Snake"
 
 [[cards]]
 text = "Folklore Cabin"
 
 [[cards]]
-text = "Olivia Benson the Cat"
+text = "The Tortured Poets Department"
 
 [[cards]]
-text = "Junior Jewels Shirt"
+text = "Enchanted"
+
+[[cards]]
+text = "Delicate"
+
+[[cards]]
+text = "Is It Over Now?"
+
+[[cards]]
+text = "Ten Minute Version"

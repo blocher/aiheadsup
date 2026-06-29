@@ -1,5 +1,5 @@
 id = "deck_beatles_d4601945"
-revision = 1
+revision = 2
 name = "Beatles"
 category = "Music"
 audience = "Family"
@@ -168,12 +168,6 @@ text = "Lucy in the Sky"
 text = "Taxman"
 
 [[cards]]
-text = "Sgt. Pepper's Album"
-
-[[cards]]
-text = "Hofner Bass"
-
-[[cards]]
 text = "Salvation Army Home"
 
 [[cards]]
@@ -186,34 +180,16 @@ text = "Linda McCartney"
 text = "Pete Best"
 
 [[cards]]
-text = "Shea Stadium Concert"
-
-[[cards]]
 text = "Abbey Road Studios"
 
 [[cards]]
 text = "Blue Jay Way"
 
 [[cards]]
-text = "The Rooftop Concert"
-
-[[cards]]
 text = "Mellotron"
 
 [[cards]]
-text = "Ludwig Drums"
-
-[[cards]]
-text = "Ed Sullivan Show"
-
-[[cards]]
 text = "The Quarrymen"
-
-[[cards]]
-text = "Strawberry Fields"
-
-[[cards]]
-text = "Rickenbacker"
 
 [[cards]]
 text = "Norwegian Wood"
@@ -222,7 +198,28 @@ text = "Norwegian Wood"
 text = "Billy Shears"
 
 [[cards]]
-text = "Hamburg, Germany"
+text = "Double Tracking"
 
 [[cards]]
-text = "Double Tracking"
+text = "Hold Your Hand"
+
+[[cards]]
+text = "Need Is Love"
+
+[[cards]]
+text = "Get Back"
+
+[[cards]]
+text = "Helter Skelter"
+
+[[cards]]
+text = "Please Please Me"
+
+[[cards]]
+text = "With a Little Help"
+
+[[cards]]
+text = "Across the Universe"
+
+[[cards]]
+text = "In My Life"

@@ -1,5 +1,5 @@
 id = "deck_virginia-theological-seminary_e628f7b3"
-revision = 1
+revision = 2
 name = "Virginia Theological Seminary"
 category = "Colleges and Universities"
 audience = "Family"
@@ -111,9 +111,6 @@ text = "Meade Hall"
 text = "Vestry"
 
 [[cards]]
-text = "Bicentennial Hall"
-
-[[cards]]
 text = "Blessing of the Animals"
 
 [[cards]]
@@ -171,12 +168,6 @@ text = "Francis Scott Key"
 text = "Year 1823"
 
 [[cards]]
-text = "Clerical Collar"
-
-[[cards]]
-text = "Choral Evensong"
-
-[[cards]]
 text = "The Hymnal 1982"
 
 [[cards]]
@@ -207,9 +198,6 @@ text = "Vestments"
 text = "Welcome Center"
 
 [[cards]]
-text = "Bicentennial Plaza"
-
-[[cards]]
 text = "Ash Wednesday"
 
 [[cards]]
@@ -231,19 +219,7 @@ text = "Commemoration of Benefactors"
 text = "Bishop's Collar"
 
 [[cards]]
-text = "Archbishop Desmond Tutu"
-
-[[cards]]
 text = "Sparrow Hall"
-
-[[cards]]
-text = "Evening Prayer"
-
-[[cards]]
-text = "William Meade"
-
-[[cards]]
-text = "The Welcome Center"
 
 [[cards]]
 text = "Theology Class"

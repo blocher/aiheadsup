@@ -1,5 +1,5 @@
 id = "deck_famous-churches_dc176d36"
-revision = 1
+revision = 2
 name = "Famous Churches"
 category = "Religion and Mythology"
 audience = "Family"
@@ -159,25 +159,7 @@ text = "Ely Cathedral"
 text = "Saint Joan of Arc"
 
 [[cards]]
-text = "St. Peter's Basilica"
-
-[[cards]]
-text = "St. Basil's Cathedral"
-
-[[cards]]
-text = "Duomo di Milano"
-
-[[cards]]
 text = "Sainte-Chapelle"
-
-[[cards]]
-text = "St. Mark's Basilica"
-
-[[cards]]
-text = "Church of Holy Sepulchre"
-
-[[cards]]
-text = "Lourdes Shrine"
 
 [[cards]]
 text = "Salisbury Cathedral"
@@ -204,9 +186,6 @@ text = "Saint Patrick"
 text = "Assisi"
 
 [[cards]]
-text = "Canterbury Tales"
-
-[[cards]]
 text = "Lalibela Rock Churches"
 
 [[cards]]
@@ -216,37 +195,13 @@ text = "Crypt"
 text = "Gothic Architecture"
 
 [[cards]]
-text = "Joan of Arc"
-
-[[cards]]
 text = "Saint Benedict"
-
-[[cards]]
-text = "Shrine of Fátima"
 
 [[cards]]
 text = "Protestant Reformation"
 
 [[cards]]
-text = "Guadalupe Basilica"
-
-[[cards]]
 text = "Sacré-Cœur Basilica"
-
-[[cards]]
-text = "Seville Cathedral"
-
-[[cards]]
-text = "Lourdes"
-
-[[cards]]
-text = "Stained Glass Window"
-
-[[cards]]
-text = "Saint Paul's Cathedral"
-
-[[cards]]
-text = "Notre-Dame Cathedral"
 
 [[cards]]
 text = "Church Bell"

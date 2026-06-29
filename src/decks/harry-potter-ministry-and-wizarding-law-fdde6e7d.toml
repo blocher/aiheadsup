@@ -1,5 +1,5 @@
 id = "deck_harry-potter-ministry-and-wizarding-law_fdde6e7d"
-revision = 1
+revision = 2
 name = "Harry Potter: Ministry and Wizarding Law"
 category = "Harry Potter"
 audience = "Family"
@@ -30,7 +30,7 @@ text = "Misuse of Muggle Artefacts"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Committee for Dangerous Creatures"
+text = "Dangerous Creatures Disposal Committee"
 first_revealed_installment = 3
 
 [[cards]]
@@ -74,16 +74,8 @@ text = "Hall of Prophecy"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Ministry Memo"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Magical Maintenance"
 first_revealed_installment = 7
-
-[[cards]]
-text = "Font of Magical Brethren"
-first_revealed_installment = 5
 
 [[cards]]
 text = "Amelia Bones"
@@ -124,14 +116,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Wilkie Twycross"
 first_revealed_installment = 6
-
-[[cards]]
-text = "Ludovic Bagman"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Bartemius Crouch Senior"
-first_revealed_installment = 4
 
 [[cards]]
 text = "Broderick Bode"
@@ -210,24 +194,8 @@ text = "Dementor's Kiss"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Wizengamot"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Underage Magic Office"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Underage Sorcery Decree"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Magical Law Enforcement"
 first_revealed_installment = 2
-
-[[cards]]
-text = "Dangerous Creatures Committee"
-first_revealed_installment = 3
 
 [[cards]]
 text = "Magical Games and Sports"
@@ -244,14 +212,6 @@ first_revealed_installment = 4
 [[cards]]
 text = "Obliviator Headquarters"
 first_revealed_installment = 3
-
-[[cards]]
-text = "Gamp's Law"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Nurmengard"
-first_revealed_installment = 7
 
 [[cards]]
 text = "Wizengamot Trial"
@@ -286,10 +246,6 @@ text = "Ludo Bagman"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Magical Maintenance Department"
-first_revealed_installment = 7
-
-[[cards]]
 text = "Fountain of Magical Brethren"
 first_revealed_installment = 5
 
@@ -306,7 +262,7 @@ text = "Ludicrous Patents Office"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Experimental Charms Committee"
+text = "Committee on Experimental Charms"
 first_revealed_installment = 2
 
 [[cards]]
@@ -314,37 +270,13 @@ text = "Proscribed Charmable Objects Registry"
 first_revealed_installment = 2
 
 [[cards]]
-text = "International Statute of Secrecy"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Dangerous Creatures Disposal Committee"
-first_revealed_installment = 3
-
-[[cards]]
-text = "House-Elf Relocation Office"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Griselda Marchbanks"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Muggle Artefacts Office"
-first_revealed_installment = 2
 
 [[cards]]
 text = "Interdepartmental Memos"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Disposal of Dangerous Creatures"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Werewolf Registry"
-first_revealed_installment = 3
-
-[[cards]]
-text = "The Dementor's Kiss"
 first_revealed_installment = 3

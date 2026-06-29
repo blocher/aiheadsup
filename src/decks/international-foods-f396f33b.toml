@@ -1,5 +1,5 @@
 id = "deck_international-foods_f396f33b"
-revision = 1
+revision = 2
 name = "International Foods"
 category = "Food"
 audience = "Family"
@@ -72,9 +72,6 @@ text = "Naan Bread"
 text = "Fish and Chips"
 
 [[cards]]
-text = "Crepe"
-
-[[cards]]
 text = "Churros"
 
 [[cards]]
@@ -93,16 +90,10 @@ text = "Bruschetta"
 text = "Empanada"
 
 [[cards]]
-text = "Macaron"
-
-[[cards]]
 text = "Cannoli"
 
 [[cards]]
 text = "Tiramisu"
-
-[[cards]]
-text = "Eggs Benedict"
 
 [[cards]]
 text = "Shakshuka"
@@ -174,9 +165,6 @@ text = "Gyro"
 text = "Jerk Chicken"
 
 [[cards]]
-text = "Schnitzel"
-
-[[cards]]
 text = "Tom Yum Soup"
 
 [[cards]]
@@ -186,16 +174,28 @@ text = "Tandoori Chicken"
 text = "Baba Ghanoush"
 
 [[cards]]
-text = "French Macarons"
-
-[[cards]]
-text = "Sushi"
-
-[[cards]]
-text = "Tacos"
-
-[[cards]]
 text = "Beef Stroganoff"
 
 [[cards]]
 text = "Borscht"
+
+[[cards]]
+text = "Pad Kra Pao"
+
+[[cards]]
+text = "Moules-Frites"
+
+[[cards]]
+text = "Pierogies"
+
+[[cards]]
+text = "Jollof Rice"
+
+[[cards]]
+text = "Pav Bhaji"
+
+[[cards]]
+text = "Tom Kha Gai"
+
+[[cards]]
+text = "Mole Sauce"

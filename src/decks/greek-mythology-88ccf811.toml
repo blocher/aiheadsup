@@ -1,5 +1,5 @@
 id = "deck_greek-mythology_88ccf811"
-revision = 1
+revision = 2
 name = "Greek Mythology"
 category = "Religion and Mythology"
 audience = "Family"
@@ -45,7 +45,7 @@ text = "Hephaestus"
 text = "Dionysus"
 
 [[cards]]
-text = "Hercules"
+text = "Heracles"
 
 [[cards]]
 text = "Perseus"
@@ -165,19 +165,10 @@ text = "Demeter"
 text = "Jason and the Argonauts"
 
 [[cards]]
-text = "Kronos"
-
-[[cards]]
-text = "The Labyrinth"
-
-[[cards]]
 text = "Satyr"
 
 [[cards]]
 text = "Sisyphus"
-
-[[cards]]
-text = "The Underworld"
 
 [[cards]]
 text = "Parthenon"

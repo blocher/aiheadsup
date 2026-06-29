@@ -1,5 +1,5 @@
 id = "deck_ocean-city-md_625c3fff"
-revision = 1
+revision = 2
 name = "Ocean City, MD"
 category = "Cities"
 audience = "Family"
@@ -12,13 +12,10 @@ spoiler_mode = false
 text = "Ocean City Boardwalk"
 
 [[cards]]
-text = "Thrasher's French Fries"
+text = "Ocean City Pier"
 
 [[cards]]
-text = "Fisher's Popcorn"
-
-[[cards]]
-text = "Assateague Island Ponies"
+text = "Giant Wheel"
 
 [[cards]]
 text = "Trimper's Rides"
@@ -27,73 +24,73 @@ text = "Trimper's Rides"
 text = "Jolly Roger Amusement Park"
 
 [[cards]]
+text = "Splash Mountain Water Park"
+
+[[cards]]
+text = "Marty's Playland"
+
+[[cards]]
+text = "Boardwalk Arcade"
+
+[[cards]]
+text = "Haunted House Ride"
+
+[[cards]]
+text = "Believe It or Not"
+
+[[cards]]
+text = "Boardwalk Tram"
+
+[[cards]]
+text = "The Kite Loft"
+
+[[cards]]
+text = "Thrasher's French Fries"
+
+[[cards]]
+text = "Fisher's Popcorn"
+
+[[cards]]
 text = "Dumser's Dairyland"
 
 [[cards]]
 text = "Fractured Prune Donuts"
 
 [[cards]]
-text = "Maryland Blue Crab"
-
-[[cards]]
-text = "Old Bay Seasoning"
-
-[[cards]]
-text = "Boardwalk Tram"
-
-[[cards]]
-text = "Marty's Playland"
-
-[[cards]]
-text = "White Marlin Open"
-
-[[cards]]
-text = "Haunted House Ride"
-
-[[cards]]
-text = "Ocean City Inlet"
-
-[[cards]]
-text = "Northside Park"
-
-[[cards]]
-text = "Fenwick Island Lighthouse"
-
-[[cards]]
-text = "Life-Saving Museum"
-
-[[cards]]
-text = "Saltwater Taffy"
-
-[[cards]]
-text = "Route 50 Bridge"
-
-[[cards]]
-text = "Fager's Island"
+text = "Kohr Bros Frozen Custard"
 
 [[cards]]
 text = "Candy Kitchen"
 
 [[cards]]
-text = "Kohr Bros Frozen Custard"
+text = "Dolle's Candyland"
 
 [[cards]]
-text = "Sunfest"
+text = "Saltwater Taffy"
 
 [[cards]]
-text = "Winterfest of Lights"
+text = "Dough Roller"
 
 [[cards]]
-text = "Parasailing"
+text = "Grotto Pizza"
 
 [[cards]]
-text = "Building a Sandcastle"
+text = "Maryland Blue Crab"
 
 [[cards]]
-text = "Searching for Shark Teeth"
+text = "Crab Cakes"
 
 [[cards]]
-text = "Beach Patrol Lifeguard"
+text = "Old Bay Seasoning"
+
+[[cards]]
+text = "Phillips Crab House"
+
+[[cards]]
+text = "Higgins Crab House"
+
+[[cards]]
+text = "Harrison's Harbor Watch"
 
 [[cards]]
 text = "Bull on the Beach"
@@ -102,7 +99,28 @@ text = "Bull on the Beach"
 text = "Macky's Bayside Bar"
 
 [[cards]]
-text = "Carousel Ice Rink"
+text = "Fager's Island"
+
+[[cards]]
+text = "Shenanigans Irish Pub"
+
+[[cards]]
+text = "Seacrets"
+
+[[cards]]
+text = "The Wedge"
+
+[[cards]]
+text = "Embers Restaurant"
+
+[[cards]]
+text = "Coastal Highway"
+
+[[cards]]
+text = "Route 50 Bridge"
+
+[[cards]]
+text = "Ocean City Inlet"
 
 [[cards]]
 text = "Sinepuxent Bay"
@@ -111,22 +129,25 @@ text = "Sinepuxent Bay"
 text = "Isle of Wight"
 
 [[cards]]
-text = "Crab Cakes"
+text = "Assateague Island Ponies"
 
 [[cards]]
-text = "Harrison's Harbor Watch"
+text = "Fenwick Island Lighthouse"
+
+[[cards]]
+text = "Northside Park"
 
 [[cards]]
 text = "Sunset Park"
 
 [[cards]]
-text = "Springfest"
+text = "Ocean City Life-Saving Museum"
 
 [[cards]]
-text = "Jet Skiing"
+text = "Ocean City Convention Center"
 
 [[cards]]
-text = "Renting a Surrey"
+text = "Carousel Ice Rink"
 
 [[cards]]
 text = "Ocean Downs Casino"
@@ -135,22 +156,40 @@ text = "Ocean Downs Casino"
 text = "Frontier Town"
 
 [[cards]]
+text = "Berlin Maryland"
+
+[[cards]]
+text = "White Marlin Open"
+
+[[cards]]
+text = "Sunfest"
+
+[[cards]]
+text = "Springfest"
+
+[[cards]]
+text = "Winterfest of Lights"
+
+[[cards]]
+text = "Beach Patrol Lifeguard"
+
+[[cards]]
+text = "Building a Sandcastle"
+
+[[cards]]
+text = "Searching for Shark Teeth"
+
+[[cards]]
 text = "Shelling"
 
 [[cards]]
-text = "The Kite Loft"
+text = "Parasailing"
 
 [[cards]]
-text = "Boardwalk Arcade"
+text = "Jet Skiing"
 
 [[cards]]
 text = "Deep Sea Fishing"
 
 [[cards]]
-text = "Shenanigans Irish Pub"
-
-[[cards]]
-text = "Alley Oops"
-
-[[cards]]
-text = "Ocean City Convention Center"
+text = "Renting a Surrey"

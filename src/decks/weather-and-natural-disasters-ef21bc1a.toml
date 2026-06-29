@@ -1,5 +1,5 @@
 id = "deck_weather-and-natural-disasters_ef21bc1a"
-revision = 1
+revision = 2
 name = "Weather and Natural Disasters"
 category = "Science"
 audience = "Family"
@@ -40,9 +40,6 @@ text = "Raindrop"
 
 [[cards]]
 text = "Snowflake"
-
-[[cards]]
-text = "Hailstone"
 
 [[cards]]
 text = "Fog"
@@ -129,9 +126,6 @@ text = "Weather Balloon"
 text = "Meteorologist"
 
 [[cards]]
-text = "Hurricane Shelter"
-
-[[cards]]
 text = "Umbrella"
 
 [[cards]]
@@ -177,19 +171,10 @@ text = "Weather Forecast"
 text = "Storm Chaser"
 
 [[cards]]
-text = "Weather Vane"
-
-[[cards]]
 text = "Acid Rain"
 
 [[cards]]
-text = "Eclipse"
-
-[[cards]]
 text = "Humidity"
-
-[[cards]]
-text = "Dewdrop"
 
 [[cards]]
 text = "Frostbite"

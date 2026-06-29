@@ -1,5 +1,5 @@
 id = "deck_hockey_8b88d136"
-revision = 1
+revision = 2
 name = "Hockey"
 category = "Sports"
 audience = "Family"
@@ -156,28 +156,13 @@ text = "Faceoff"
 text = "The Golden Goal"
 
 [[cards]]
-text = "Hockey Puck"
-
-[[cards]]
 text = "Puck"
 
 [[cards]]
 text = "Hockey Stick"
 
 [[cards]]
-text = "Goaltender"
-
-[[cards]]
-text = "Goal Crease"
-
-[[cards]]
-text = "Barnburner"
-
-[[cards]]
 text = "Sin Bin"
-
-[[cards]]
-text = "Alexander Ovechkin"
 
 [[cards]]
 text = "Body Check"
@@ -207,22 +192,10 @@ text = "Blocker"
 text = "Enforcer"
 
 [[cards]]
-text = "Sudden Death"
-
-[[cards]]
 text = "Poke Check"
 
 [[cards]]
 text = "Backhand Shot"
-
-[[cards]]
-text = "Hart Memorial Trophy"
-
-[[cards]]
-text = "Face-off"
-
-[[cards]]
-text = "Red Light"
 
 [[cards]]
 text = "Puck Drop"

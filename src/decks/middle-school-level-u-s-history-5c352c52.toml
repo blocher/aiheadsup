@@ -1,5 +1,5 @@
 id = "deck_middle-school-level-u-s-history_5c352c52"
-revision = 1
+revision = 2
 name = "Middle School Level U.S. History"
 category = "History"
 audience = "Family"
@@ -159,9 +159,6 @@ text = "Watergate Scandal"
 text = "Teddy Roosevelt"
 
 [[cards]]
-text = "Jamestown Colony"
-
-[[cards]]
 text = "Plymouth Rock"
 
 [[cards]]
@@ -169,9 +166,6 @@ text = "Salem Witch Trials"
 
 [[cards]]
 text = "Paul Revere's Ride"
-
-[[cards]]
-text = "US Constitution"
 
 [[cards]]
 text = "Erie Canal"
@@ -201,13 +195,7 @@ text = "Henry Ford"
 text = "Franklin D. Roosevelt"
 
 [[cards]]
-text = "The Constitution"
-
-[[cards]]
 text = "Alexander Hamilton"
-
-[[cards]]
-text = "Jamestown"
 
 [[cards]]
 text = "Industrial Revolution"
@@ -229,6 +217,3 @@ text = "Star-Spangled Banner"
 
 [[cards]]
 text = "Battle of Saratoga"
-
-[[cards]]
-text = "Reconstruction"

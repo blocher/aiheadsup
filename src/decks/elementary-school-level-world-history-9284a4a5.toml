@@ -1,5 +1,5 @@
 id = "deck_elementary-school-level-world-history_9284a4a5"
-revision = 1
+revision = 2
 name = "Elementary School Level World History"
 category = "History"
 audience = "Family"
@@ -159,16 +159,7 @@ text = "Wright Flyer"
 text = "Mount Rushmore"
 
 [[cards]]
-text = "The Great Wall"
-
-[[cards]]
 text = "Vikings"
-
-[[cards]]
-text = "Knights"
-
-[[cards]]
-text = "Castles"
 
 [[cards]]
 text = "Mount Everest"
@@ -177,13 +168,7 @@ text = "Mount Everest"
 text = "Magna Carta"
 
 [[cards]]
-text = "The Wright Brothers"
-
-[[cards]]
 text = "Mona Lisa"
-
-[[cards]]
-text = "Great Sphinx"
 
 [[cards]]
 text = "Athens"
@@ -213,12 +198,6 @@ text = "Thomas Edison"
 text = "Isaac Newton"
 
 [[cards]]
-text = "Gutenberg Printing Press"
-
-[[cards]]
-text = "Chariot"
-
-[[cards]]
 text = "Pompeii"
 
 [[cards]]
@@ -231,22 +210,7 @@ text = "Liberty Bell"
 text = "Titanic"
 
 [[cards]]
-text = "The Great Pyramids"
-
-[[cards]]
 text = "Roman Empire"
-
-[[cards]]
-text = "Medieval Knights"
-
-[[cards]]
-text = "The Silk Road"
-
-[[cards]]
-text = "The Printing Press"
-
-[[cards]]
-text = "The Colosseum"
 
 [[cards]]
 text = "Mayan Ruins"
@@ -258,22 +222,10 @@ text = "The Stone Age"
 text = "The Rosetta Stone"
 
 [[cards]]
-text = "Great Sphinx of Giza"
-
-[[cards]]
 text = "The Olympic Games"
-
-[[cards]]
-text = "The Mummy"
 
 [[cards]]
 text = "Greek Temple"
 
 [[cards]]
 text = "The Renaissance"
-
-[[cards]]
-text = "Viking Longship"
-
-[[cards]]
-text = "Colosseum"

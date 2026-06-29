@@ -1,5 +1,5 @@
 id = "deck_toys-and-games_20673ea2"
-revision = 1
+revision = 2
 name = "Toys and Games"
 category = "Kids"
 audience = "Family"
@@ -168,9 +168,6 @@ text = "Toy Slime"
 text = "Jack-in-the-Box"
 
 [[cards]]
-text = "Seesaw"
-
-[[cards]]
 text = "Trampoline"
 
 [[cards]]
@@ -183,16 +180,10 @@ text = "Play Kitchen"
 text = "Crayons"
 
 [[cards]]
-text = "Chess Board"
-
-[[cards]]
 text = "Freeze Tag"
 
 [[cards]]
 text = "Pin the Tail"
-
-[[cards]]
-text = "Game Controller"
 
 [[cards]]
 text = "Arcade Game"
@@ -207,22 +198,4 @@ text = "Model Train"
 text = "Building Blocks"
 
 [[cards]]
-text = "RC Car"
-
-[[cards]]
 text = "Pinball Machine"
-
-[[cards]]
-text = "Lego Blocks"
-
-[[cards]]
-text = "Slide"
-
-[[cards]]
-text = "Toy Kitchen"
-
-[[cards]]
-text = "Bubble Blower"
-
-[[cards]]
-text = "Puppet"

@@ -1,5 +1,5 @@
 id = "deck_chess-and-strategy-games_75856e7a"
-revision = 1
+revision = 2
 name = "Chess and Strategy Games"
 category = "Games"
 audience = "Family"
@@ -147,9 +147,6 @@ text = "Fianchetto"
 text = "Blunder"
 
 [[cards]]
-text = "Tactical Sacrifice"
-
-[[cards]]
 text = "Stratego"
 
 [[cards]]
@@ -165,12 +162,6 @@ text = "Gambit"
 text = "Discovered Attack"
 
 [[cards]]
-text = "Japanese Chess"
-
-[[cards]]
-text = "Chinese Chess"
-
-[[cards]]
 text = "Mancala"
 
 [[cards]]
@@ -183,16 +174,10 @@ text = "Hive"
 text = "Chessboard"
 
 [[cards]]
-text = "Piece Sacrifice"
-
-[[cards]]
 text = "Center Control"
 
 [[cards]]
 text = "Blockade"
-
-[[cards]]
-text = "The Queen's Gambit"
 
 [[cards]]
 text = "Knight Fork"
@@ -201,16 +186,10 @@ text = "Knight Fork"
 text = "Pinning a Piece"
 
 [[cards]]
-text = "Settlers of Catan"
-
-[[cards]]
 text = "Opening Novelty"
 
 [[cards]]
 text = "Sacrifice"
-
-[[cards]]
-text = "Skewer Tactic"
 
 [[cards]]
 text = "Draw by Agreement"
@@ -222,19 +201,7 @@ text = "Blindfold Chess"
 text = "Tactical Puzzle"
 
 [[cards]]
-text = "The Knight"
-
-[[cards]]
-text = "The Queen"
-
-[[cards]]
 text = "Check"
-
-[[cards]]
-text = "The Rook"
-
-[[cards]]
-text = "The Bishop"
 
 [[cards]]
 text = "Tic-Tac-Toe"

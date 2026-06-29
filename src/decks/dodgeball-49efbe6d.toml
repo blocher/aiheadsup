@@ -1,5 +1,5 @@
 id = "deck_dodgeball_49efbe6d"
-revision = 1
+revision = 2
 name = "Dodgeball"
 category = "Sports"
 audience = "Family"
@@ -22,9 +22,6 @@ text = "Overhand Throw"
 
 [[cards]]
 text = "Clean Catch"
-
-[[cards]]
-text = "Double Play"
 
 [[cards]]
 text = "Opening Rush"
@@ -96,9 +93,6 @@ text = "Side Step"
 text = "Knee Pads"
 
 [[cards]]
-text = "Sacrifice Fly"
-
-[[cards]]
 text = "Butterfingers"
 
 [[cards]]
@@ -109,9 +103,6 @@ text = "High Jump"
 
 [[cards]]
 text = "Corner Thrower"
-
-[[cards]]
-text = "Sitting on the Bench"
 
 [[cards]]
 text = "Gym Floor"
@@ -153,24 +144,6 @@ text = "Prisoner Dodgeball"
 text = "King of the Court"
 
 [[cards]]
-text = "Half-Court Line"
-
-[[cards]]
-text = "Airball"
-
-[[cards]]
-text = "The Opening Rush"
-
-[[cards]]
-text = "Sneaker Squeak"
-
-[[cards]]
-text = "Kneepads"
-
-[[cards]]
-text = "Pinnie Vest"
-
-[[cards]]
 text = "Sudden Death"
 
 [[cards]]
@@ -184,9 +157,6 @@ text = "Two Handed Catch"
 
 [[cards]]
 text = "Rebound Catch"
-
-[[cards]]
-text = "Underhand Throw"
 
 [[cards]]
 text = "Friendly Fire"
@@ -225,16 +195,10 @@ text = "Quick Pass"
 text = "Throwing Arm"
 
 [[cards]]
-text = "Gym Court"
-
-[[cards]]
 text = "Duck"
 
 [[cards]]
 text = "Dive"
-
-[[cards]]
-text = "The Dodge"
 
 [[cards]]
 text = "Spectacular Catch"
@@ -249,24 +213,6 @@ text = "Pegged"
 text = "Referee Whistle"
 
 [[cards]]
-text = "Head Duck"
-
-[[cards]]
-text = "Corner Throw"
-
-[[cards]]
-text = "Line Fault"
-
-[[cards]]
-text = "Jumping Jack"
-
-[[cards]]
-text = "Super Catch"
-
-[[cards]]
-text = "Gym Class Whistle"
-
-[[cards]]
 text = "One-Handed Catch"
 
 [[cards]]
@@ -276,16 +222,7 @@ text = "Double Dodge"
 text = "Getting Hit"
 
 [[cards]]
-text = "Behind the Back Throw"
-
-[[cards]]
 text = "Screaming and Running"
-
-[[cards]]
-text = "Backboard Rebound"
-
-[[cards]]
-text = "Deflecting"
 
 [[cards]]
 text = "Gym Class"

@@ -1,5 +1,5 @@
 id = "deck_williamsburg-va_f22e9569"
-revision = 1
+revision = 2
 name = "Williamsburg, VA"
 category = "Cities"
 audience = "Family"
@@ -9,43 +9,19 @@ spoiler_mode = false
 photo_file_name = "williamsburg-va-f22e9569-cover.jpg"
 
 [[cards]]
-text = "Governor's Palace"
-
-[[cards]]
 text = "Colonial Williamsburg"
 
 [[cards]]
-text = "William and Mary"
+text = "Governor's Palace"
 
 [[cards]]
-text = "Duke of Gloucester Street"
-
-[[cards]]
-text = "Busch Gardens"
-
-[[cards]]
-text = "Water Country USA"
-
-[[cards]]
-text = "Jamestown Settlement"
-
-[[cards]]
-text = "Yorktown Battlefield"
-
-[[cards]]
-text = "The Wren Building"
+text = "Wren Building"
 
 [[cards]]
 text = "Bruton Parish Church"
 
 [[cards]]
-text = "Sunken Garden"
-
-[[cards]]
-text = "Merchants Square"
-
-[[cards]]
-text = "Fife and Drum Corps"
+text = "Colonial Capitol"
 
 [[cards]]
 text = "Raleigh Tavern"
@@ -54,34 +30,145 @@ text = "Raleigh Tavern"
 text = "Peyton Randolph House"
 
 [[cards]]
-text = "James River"
-
-[[cards]]
-text = "York River"
-
-[[cards]]
-text = "Colonial Parkway"
-
-[[cards]]
-text = "Grand Illumination"
-
-[[cards]]
-text = "Great Wolf Lodge"
-
-[[cards]]
 text = "George Wythe House"
 
 [[cards]]
 text = "The Public Gaol"
 
 [[cards]]
-text = "Tri-Corner Hat"
+text = "Powder Magazine"
+
+[[cards]]
+text = "Courthouse of 1770"
+
+[[cards]]
+text = "Bassett Hall"
+
+[[cards]]
+text = "Duke of Gloucester Street"
+
+[[cards]]
+text = "Merchants Square"
+
+[[cards]]
+text = "The Cheese Shop"
+
+[[cards]]
+text = "Kimball Theatre"
+
+[[cards]]
+text = "Grand Illumination"
+
+[[cards]]
+text = "Fife and Drum Corps"
+
+[[cards]]
+text = "Colonial Militia"
+
+[[cards]]
+text = "Town Crier"
+
+[[cards]]
+text = "Musket Demonstration"
+
+[[cards]]
+text = "Redcoat"
+
+[[cards]]
+text = "Stocks and Pillory"
+
+[[cards]]
+text = "Tricorn Hat"
+
+[[cards]]
+text = "Colonial Garden"
+
+[[cards]]
+text = "Butter Churn"
+
+[[cards]]
+text = "Cobblestone Street"
+
+[[cards]]
+text = "Wigmaker"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Cooper Shop"
+
+[[cards]]
+text = "Silversmith"
+
+[[cards]]
+text = "Milliner"
+
+[[cards]]
+text = "Shoemaker"
+
+[[cards]]
+text = "Brickmaker"
 
 [[cards]]
 text = "Chowning's Tavern"
 
 [[cards]]
 text = "King's Arms Tavern"
+
+[[cards]]
+text = "Shields Tavern"
+
+[[cards]]
+text = "Christiana Campbell's Tavern"
+
+[[cards]]
+text = "Williamsburg Inn"
+
+[[cards]]
+text = "Williamsburg Lodge"
+
+[[cards]]
+text = "Great Hopes Plantation"
+
+[[cards]]
+text = "Liberty's Ice Pavilion"
+
+[[cards]]
+text = "Horse-Drawn Carriage"
+
+[[cards]]
+text = "Ghost Tour"
+
+[[cards]]
+text = "DeWitt Wallace Museum"
+
+[[cards]]
+text = "Abby Aldrich Rockefeller Museum"
+
+[[cards]]
+text = "Muscarelle Museum of Art"
+
+[[cards]]
+text = "William and Mary"
+
+[[cards]]
+text = "Sir Christopher Wren"
+
+[[cards]]
+text = "Sunken Garden"
+
+[[cards]]
+text = "Crim Dell Bridge"
+
+[[cards]]
+text = "Lake Matoaka"
+
+[[cards]]
+text = "Lord Botetourt Statue"
+
+[[cards]]
+text = "William & Mary Griffin"
 
 [[cards]]
 text = "Thomas Jefferson"
@@ -93,121 +180,49 @@ text = "Patrick Henry"
 text = "George Washington"
 
 [[cards]]
-text = "Lake Matoaka"
+text = "Captain John Smith"
 
 [[cards]]
-text = "Jamestown Ferry"
+text = "Pocahontas"
 
 [[cards]]
-text = "Lord Botetourt Statue"
-
-[[cards]]
-text = "Crimson Dell"
-
-[[cards]]
-text = "Muscarelle Museum of Art"
-
-[[cards]]
-text = "Abby Aldrich Rockefeller Museum"
-
-[[cards]]
-text = "DeWitt Wallace Arts Museum"
+text = "Jamestown Settlement"
 
 [[cards]]
 text = "Historic Jamestowne"
 
 [[cards]]
-text = "Ghost Tour"
+text = "Jamestown Glasshouse"
 
 [[cards]]
-text = "Carriage Ride"
+text = "Jamestown Ferry"
 
 [[cards]]
-text = "Williamsburg Winery"
+text = "Yorktown Battlefield"
 
 [[cards]]
-text = "Capitol Building"
+text = "Yorktown Victory Monument"
 
 [[cards]]
-text = "The Wigmaker"
+text = "Colonial Parkway"
 
 [[cards]]
-text = "The Blacksmith"
+text = "Busch Gardens"
 
 [[cards]]
-text = "The Cooper"
+text = "Water Country USA"
 
 [[cards]]
-text = "Great Hopes Plantation"
-
-[[cards]]
-text = "Colonial Militia"
-
-[[cards]]
-text = "Kimball Theatre"
+text = "Great Wolf Lodge"
 
 [[cards]]
 text = "Williamsburg Premium Outlets"
 
 [[cards]]
-text = "College Creek"
-
-[[cards]]
-text = "Shields Tavern"
-
-[[cards]]
-text = "Liberty's Ice Pavilion"
-
-[[cards]]
-text = "Wren Building"
-
-[[cards]]
-text = "Crim Dell Bridge"
-
-[[cards]]
-text = "Tricorn Hat"
-
-[[cards]]
-text = "Stocks and Pillory"
-
-[[cards]]
-text = "Town Crier"
-
-[[cards]]
-text = "Wigmaker"
-
-[[cards]]
-text = "Blacksmith"
-
-[[cards]]
-text = "Colonial Capitol Building"
-
-[[cards]]
-text = "William & Mary Griffin"
-
-[[cards]]
 text = "Williamsburg Pottery"
 
 [[cards]]
-text = "Musket Demonstration"
-
-[[cards]]
-text = "Cobblestone Street"
-
-[[cards]]
-text = "Butter Churn"
-
-[[cards]]
-text = "Redcoat"
-
-[[cards]]
-text = "Cooper Shop"
-
-[[cards]]
-text = "Milliner"
-
-[[cards]]
-text = "Silversmith"
+text = "Williamsburg Winery"
 
 [[cards]]
 text = "Waller Mill Park"
@@ -216,46 +231,10 @@ text = "Waller Mill Park"
 text = "Freedom Park"
 
 [[cards]]
-text = "Sir Christopher Wren"
+text = "James River"
 
 [[cards]]
-text = "Colonial Garden"
+text = "York River"
 
 [[cards]]
-text = "Shoemaker"
-
-[[cards]]
-text = "Brickmaker"
-
-[[cards]]
-text = "Christiana Campbell's Tavern"
-
-[[cards]]
-text = "Colonial Capitol"
-
-[[cards]]
-text = "Williamsburg Inn"
-
-[[cards]]
-text = "The Griffin"
-
-[[cards]]
-text = "Tri-Cornered Hat"
-
-[[cards]]
-text = "Blacksmith Shop"
-
-[[cards]]
-text = "DeWitt Wallace Museum"
-
-[[cards]]
-text = "Merchant's Square"
-
-[[cards]]
-text = "The Williamsburg Griffin"
-
-[[cards]]
-text = "Rockefeller Folk Art Museum"
-
-[[cards]]
-text = "Horse-Drawn Carriage"
+text = "College Creek"

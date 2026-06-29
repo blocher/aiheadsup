@@ -1,5 +1,5 @@
 id = "deck_physics-and-forces_5a21bc01"
-revision = 1
+revision = 2
 name = "Physics and Forces"
 category = "Science"
 audience = "Family"
@@ -94,9 +94,6 @@ text = "Electric Circuit"
 
 [[cards]]
 text = "Light Bulb"
-
-[[cards]]
-text = "Laser Beam"
 
 [[cards]]
 text = "Prism"
@@ -214,9 +211,6 @@ text = "Tesla Coil"
 
 [[cards]]
 text = "Magnetic Pole"
-
-[[cards]]
-text = "Lightning Bolt"
 
 [[cards]]
 text = "Evaporation"

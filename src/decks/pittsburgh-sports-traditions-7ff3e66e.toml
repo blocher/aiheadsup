@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-sports-traditions_7ff3e66e"
-revision = 1
+revision = 2
 name = "Pittsburgh Sports Traditions"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -19,9 +19,6 @@ text = "Iceburgh"
 
 [[cards]]
 text = "Steely McBeam"
-
-[[cards]]
-text = "Primanti Bros Sandwich"
 
 [[cards]]
 text = "The Great Pierogi Race"
@@ -57,9 +54,6 @@ text = "Heinz Ketchup Bottles"
 text = "Here We Go Steelers"
 
 [[cards]]
-text = "Sweet Caroline"
-
-[[cards]]
 text = "We Are Family"
 
 [[cards]]
@@ -84,7 +78,7 @@ text = "Roc the Panther"
 text = "Let's Go Pens"
 
 [[cards]]
-text = "Jalapeno Hannah"
+text = "Jalapeño Hanna"
 
 [[cards]]
 text = "Cheese Chester"
@@ -96,7 +90,7 @@ text = "Sauerkraut Saul"
 text = "Oliver Onion"
 
 [[cards]]
-text = "Potato Pete"
+text = "Bacon Burt"
 
 [[cards]]
 text = "City of Champions"
@@ -159,15 +153,6 @@ text = "Steelers Training Camp"
 text = "The Igloo"
 
 [[cards]]
-text = "Great Pierogy Race"
-
-[[cards]]
-text = "Primanti Brothers Sandwich"
-
-[[cards]]
-text = "Renegade Song"
-
-[[cards]]
 text = "Tailgate Party"
 
 [[cards]]
@@ -184,9 +169,6 @@ text = "Jerome Bettis"
 
 [[cards]]
 text = "Blitzburgh"
-
-[[cards]]
-text = "North Shore Tailgate"
 
 [[cards]]
 text = "Monongahela River"
@@ -237,16 +219,7 @@ text = "Kielbasa on the Grill"
 text = "Free Shirt Friday"
 
 [[cards]]
-text = "The Steel Curtain"
-
-[[cards]]
 text = "Tailgating in Gold Lot"
-
-[[cards]]
-text = "Root for the Pirates"
-
-[[cards]]
-text = "The Pirate Ship"
 
 [[cards]]
 text = "Pittsburgh Steelers"
@@ -258,19 +231,10 @@ text = "Pittsburgh Penguins"
 text = "Pittsburgh Pirates"
 
 [[cards]]
-text = "The Pierogi Race"
-
-[[cards]]
 text = "Primanti Brothers"
-
-[[cards]]
-text = "Here We Go"
 
 [[cards]]
 text = "Tailgating"
 
 [[cards]]
 text = "Steelers Helmet"
-
-[[cards]]
-text = "Primanti Sandwiches"

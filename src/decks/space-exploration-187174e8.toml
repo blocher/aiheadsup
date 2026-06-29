@@ -1,5 +1,5 @@
 id = "deck_space-exploration_187174e8"
-revision = 1
+revision = 2
 name = "Space Exploration"
 category = "Science"
 audience = "Family"
@@ -87,9 +87,6 @@ text = "Kepler Space Telescope"
 text = "Chandra X-ray Observatory"
 
 [[cards]]
-text = "Artemis Mission"
-
-[[cards]]
 text = "Lunar Rover"
 
 [[cards]]
@@ -118,9 +115,6 @@ text = "Heat Shield"
 
 [[cards]]
 text = "Solar Panels"
-
-[[cards]]
-text = "Rover"
 
 [[cards]]
 text = "Splashdown"
@@ -186,16 +180,10 @@ text = "Mercury Program"
 text = "Opportunity Rover"
 
 [[cards]]
-text = "Cassini Probe"
-
-[[cards]]
 text = "Viking 1"
 
 [[cards]]
 text = "Juno Probe"
-
-[[cards]]
-text = "Chandra Observatory"
 
 [[cards]]
 text = "Skylab"
@@ -208,9 +196,6 @@ text = "Moon Landing"
 
 [[cards]]
 text = "Sea of Tranquility"
-
-[[cards]]
-text = "ESA"
 
 [[cards]]
 text = "JAXA"
@@ -228,31 +213,13 @@ text = "Laika the Dog"
 text = "Solar Sails"
 
 [[cards]]
-text = "Saturn V Rocket"
-
-[[cards]]
 text = "Space Shuttle Challenger"
 
 [[cards]]
 text = "SpaceX Falcon 9"
 
 [[cards]]
-text = "Space Walk"
-
-[[cards]]
 text = "Kennedy Space Center"
 
 [[cards]]
 text = "Voyager Golden Record"
-
-[[cards]]
-text = "Mars Curiosity Rover"
-
-[[cards]]
-text = "Falcon 9"
-
-[[cards]]
-text = "Sputnik"
-
-[[cards]]
-text = "Lunar Lander"

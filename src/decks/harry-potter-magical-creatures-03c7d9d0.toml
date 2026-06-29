@@ -1,5 +1,5 @@
 id = "deck_harry-potter-magical-creatures_03c7d9d0"
-revision = 1
+revision = 2
 name = "Harry Potter: Magical Creatures"
 category = "Harry Potter"
 audience = "Family"
@@ -166,10 +166,6 @@ text = "Phoenix"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Merperson"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Grindylow"
 first_revealed_installment = 3
 
@@ -210,24 +206,12 @@ text = "Ghoul"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Dobby the House-Elf"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Bane"
 first_revealed_installment = 1
 
 [[cards]]
 text = "Magorian"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Norbert the Dragon"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Witherwings"
-first_revealed_installment = 6
 
 [[cards]]
 text = "Chinese Fireball"

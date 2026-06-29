@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-7-harry-potter-and-the-deathly-hallows_f41ee6be"
-revision = 1
+revision = 2
 name = "Harry Potter Book 7: Harry Potter and the Deathly Hallows"
 category = "Harry Potter"
 audience = "Family"
@@ -210,15 +210,7 @@ text = "Fred Weasley"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Deluminator"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Ariana Dumbledore"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The Battle of Hogwarts"
 first_revealed_installment = 7
 
 [[cards]]
@@ -306,10 +298,6 @@ text = "Master of Death"
 first_revealed_installment = 7
 
 [[cards]]
-text = "Helena Ravenclaw"
-first_revealed_installment = 1
-
-[[cards]]
 text = "R.A.B."
 first_revealed_installment = 6
 
@@ -318,13 +306,41 @@ text = "Albert Runcorn"
 first_revealed_installment = 7
 
 [[cards]]
-text = "The Elder Wand"
+text = "Bill and Fleur's Wedding"
 first_revealed_installment = 7
 
 [[cards]]
-text = "Cloak of Invisibility"
+text = "Luna Lovegood"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ginny Weasley"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Bill and Fleur's Wedding"
-first_revealed_installment = 7
+text = "Molly Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hedwig"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mad-Eye Moody"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dolores Umbridge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Rubeus Hagrid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Minerva McGonagall"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peter Pettigrew"
+first_revealed_installment = 3

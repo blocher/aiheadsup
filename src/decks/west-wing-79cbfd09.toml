@@ -1,5 +1,5 @@
 id = "deck_west-wing_79cbfd09"
-revision = 1
+revision = 2
 name = "West Wing"
 category = "TV Shows"
 audience = "Family"
@@ -9,7 +9,7 @@ photo_file_name = "west-wing-79cbfd09-cover.jpg"
 spoiler_mode = false
 
 [[cards]]
-text = "Jed Bartlet"
+text = "President Josiah Bartlet"
 
 [[cards]]
 text = "Leo McGarry"
@@ -33,7 +33,7 @@ text = "Donna Moss"
 text = "Charlie Young"
 
 [[cards]]
-text = "Abigail Bartlet"
+text = "Abbey Bartlet"
 
 [[cards]]
 text = "Mrs. Landingham"
@@ -54,6 +54,30 @@ text = "Danny Concannon"
 text = "Ainsley Hayes"
 
 [[cards]]
+text = "Admiral Fitzwallace"
+
+[[cards]]
+text = "Vice President"
+
+[[cards]]
+text = "Kate Harper"
+
+[[cards]]
+text = "Margaret Hooper"
+
+[[cards]]
+text = "Zoey Bartlet"
+
+[[cards]]
+text = "Dr. Nancy McNally"
+
+[[cards]]
+text = "Joey Lucas"
+
+[[cards]]
+text = "Lord John Marbury"
+
+[[cards]]
 text = "The Oval Office"
 
 [[cards]]
@@ -72,6 +96,15 @@ text = "The Roosevelt Room"
 text = "Air Force One"
 
 [[cards]]
+text = "Marine One"
+
+[[cards]]
+text = "The West Wing"
+
+[[cards]]
+text = "The Mess Hall"
+
+[[cards]]
 text = "Walk and Talk"
 
 [[cards]]
@@ -87,10 +120,22 @@ text = "The Jackal"
 text = "Gail the Goldfish"
 
 [[cards]]
+text = "Pluie the Wolf"
+
+[[cards]]
 text = "Bartlet for America"
 
 [[cards]]
 text = "Two Cathedrals"
+
+[[cards]]
+text = "In Excelsis Deo"
+
+[[cards]]
+text = "What's Next"
+
+[[cards]]
+text = "Post Hoc Ergo Propter"
 
 [[cards]]
 text = "Chief of Staff"
@@ -105,7 +150,16 @@ text = "Communications Director"
 text = "Deputy Chief of Staff"
 
 [[cards]]
+text = "White House Speechwriter"
+
+[[cards]]
+text = "Congressional Liaison"
+
+[[cards]]
 text = "Secret Service"
+
+[[cards]]
+text = "Secret Service Codename"
 
 [[cards]]
 text = "State of the Union"
@@ -141,94 +195,13 @@ text = "Supreme Court"
 text = "Chief Justice"
 
 [[cards]]
-text = "The West Wing"
-
-[[cards]]
-text = "Marine One"
-
-[[cards]]
 text = "Congressional Hearing"
-
-[[cards]]
-text = "Admiral Fitzwallace"
-
-[[cards]]
-text = "Secret Service Codename"
-
-[[cards]]
-text = "Vice President"
-
-[[cards]]
-text = "President Josiah Bartlet"
-
-[[cards]]
-text = "Abbey Bartlet"
-
-[[cards]]
-text = "Kate Harper"
-
-[[cards]]
-text = "Oval Office"
-
-[[cards]]
-text = "West Wing"
-
-[[cards]]
-text = "Pluie the Wolf"
-
-[[cards]]
-text = "The Mess Hall"
-
-[[cards]]
-text = "In Excelsis Deo"
-
-[[cards]]
-text = "What's Next"
-
-[[cards]]
-text = "Margaret Hooper"
-
-[[cards]]
-text = "Zoey Bartlet"
-
-[[cards]]
-text = "Dr. Nancy McNally"
-
-[[cards]]
-text = "Joey Lucas"
-
-[[cards]]
-text = "Lord John Marbury"
-
-[[cards]]
-text = "Santos McGarry Campaign"
-
-[[cards]]
-text = "Congressional Liaison"
-
-[[cards]]
-text = "White House Speechwriter"
 
 [[cards]]
 text = "Federal Budget"
 
 [[cards]]
-text = "Campaign Season"
-
-[[cards]]
 text = "Commander in Chief"
-
-[[cards]]
-text = "Situation Room"
-
-[[cards]]
-text = "Roosevelt Room"
-
-[[cards]]
-text = "President Jed Bartlet"
-
-[[cards]]
-text = "Post Hoc Ergo Propter"
 
 [[cards]]
 text = "Santos for President"

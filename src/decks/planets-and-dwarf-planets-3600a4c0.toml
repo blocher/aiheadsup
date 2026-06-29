@@ -1,5 +1,5 @@
 id = "deck_planets-and-dwarf-planets_3600a4c0"
-revision = 1
+revision = 2
 name = "Planets and Dwarf Planets"
 category = "Science"
 audience = "Family"
@@ -147,9 +147,6 @@ text = "Ice Giant"
 text = "Terrestrial Planet"
 
 [[cards]]
-text = "Eclipse"
-
-[[cards]]
 text = "Crater"
 
 [[cards]]
@@ -166,9 +163,6 @@ text = "Milky Way"
 
 [[cards]]
 text = "Space Shuttle"
-
-[[cards]]
-text = "Voyager Spacecraft"
 
 [[cards]]
 text = "Rocket Ship"
@@ -195,16 +189,4 @@ text = "Solar Eclipse"
 text = "Lunar Eclipse"
 
 [[cards]]
-text = "The Asteroid Belt"
-
-[[cards]]
-text = "Red Spot"
-
-[[cards]]
 text = "Saturn's Rings"
-
-[[cards]]
-text = "Shooting Star"
-
-[[cards]]
-text = "The Red Spot"

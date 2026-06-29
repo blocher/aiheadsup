@@ -1,5 +1,5 @@
 id = "deck_middle-school-level-world-history_dfbdfb10"
-revision = 1
+revision = 2
 name = "Middle School Level World History"
 category = "History"
 audience = "Family"
@@ -162,9 +162,6 @@ text = "Gunpowder"
 text = "Roman Empire"
 
 [[cards]]
-text = "The Great Pyramid"
-
-[[cards]]
 text = "Ancient Greece"
 
 [[cards]]
@@ -184,9 +181,6 @@ text = "Judaism"
 
 [[cards]]
 text = "Confucius"
-
-[[cards]]
-text = "Black Plague"
 
 [[cards]]
 text = "Vasco da Gama"
@@ -219,21 +213,6 @@ text = "The Cold War"
 text = "Space Race"
 
 [[cards]]
-text = "Renaissance"
-
-[[cards]]
-text = "The Silk Road"
-
-[[cards]]
-text = "The Printing Press"
-
-[[cards]]
-text = "Colosseum"
-
-[[cards]]
-text = "King Tut"
-
-[[cards]]
 text = "Acropolis"
 
 [[cards]]
@@ -247,9 +226,3 @@ text = "Treaty of Versailles"
 
 [[cards]]
 text = "Storming of the Bastille"
-
-[[cards]]
-text = "The Black Death"
-
-[[cards]]
-text = "Hammurabi's Code"

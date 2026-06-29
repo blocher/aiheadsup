@@ -1,5 +1,5 @@
 id = "deck_kid-food-and-snacks_7ab6b2dd"
-revision = 1
+revision = 2
 name = "Kid Food and Snacks"
 category = "Kids"
 audience = "Family"
@@ -162,19 +162,10 @@ text = "Nachos"
 text = "Peanut Butter and Jelly"
 
 [[cards]]
-text = "Chocolate Chip Cookie"
-
-[[cards]]
 text = "Pizza Bagels"
 
 [[cards]]
-text = "Fish Crackers"
-
-[[cards]]
 text = "Applesauce Cup"
-
-[[cards]]
-text = "Grilled Cheese"
 
 [[cards]]
 text = "Popcorn"
@@ -183,16 +174,7 @@ text = "Popcorn"
 text = "Oatmeal"
 
 [[cards]]
-text = "Strawberry Yogurt"
-
-[[cards]]
 text = "Chicken Tenders"
-
-[[cards]]
-text = "Juice Pouch"
-
-[[cards]]
-text = "Carrot Sticks"
 
 [[cards]]
 text = "Celery with Peanut Butter"
@@ -202,9 +184,6 @@ text = "Graham Crackers"
 
 [[cards]]
 text = "Rice Crispy Treats"
-
-[[cards]]
-text = "Brownie"
 
 [[cards]]
 text = "Fruit Salad"
@@ -237,22 +216,4 @@ text = "Ring Pop"
 text = "Cheerios"
 
 [[cards]]
-text = "Mac and Cheese"
-
-[[cards]]
-text = "PB and J Sandwich"
-
-[[cards]]
-text = "Watermelon"
-
-[[cards]]
-text = "PB&J Sandwich"
-
-[[cards]]
 text = "Pizza Rolls"
-
-[[cards]]
-text = "Buttered Popcorn"
-
-[[cards]]
-text = "Cheese Stick"

@@ -1,5 +1,5 @@
 id = "deck_chicago_1e0cfe28"
-revision = 1
+revision = 2
 name = "Chicago"
 category = "Cities"
 audience = "Family"
@@ -159,12 +159,6 @@ text = "Tribune Tower"
 text = "Picasso Statue"
 
 [[cards]]
-text = "Cloud Gate"
-
-[[cards]]
-text = "Art Institute"
-
-[[cards]]
 text = "Museum of Contemporary Art"
 
 [[cards]]
@@ -175,9 +169,6 @@ text = "Chicago Riverwalk"
 
 [[cards]]
 text = "River North"
-
-[[cards]]
-text = "Italian Beef"
 
 [[cards]]
 text = "Garrett Popcorn"
@@ -201,22 +192,10 @@ text = "Carl Sandburg"
 text = "DuSable Museum"
 
 [[cards]]
-text = "Chicago Worlds Fair"
-
-[[cards]]
-text = "The Great Chicago Fire"
-
-[[cards]]
 text = "Science and Industry Museum"
 
 [[cards]]
 text = "1893 World's Fair"
-
-[[cards]]
-text = "CTA El Train"
-
-[[cards]]
-text = "Chicago Style Hot Dog"
 
 [[cards]]
 text = "Chicago Cultural Center"

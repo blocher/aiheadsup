@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-riverhounds_97815f60"
-revision = 1
+revision = 2
 name = "Pittsburgh Riverhounds"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -46,9 +46,6 @@ text = "Miracle on the Mon"
 
 [[cards]]
 text = "Clean Sheet"
-
-[[cards]]
-text = "Mon Pond"
 
 [[cards]]
 text = "US Open Cup"
@@ -153,13 +150,7 @@ text = "Riverhounds Crest"
 text = "Pittsburgh Soccer Culture"
 
 [[cards]]
-text = "Paul Child Cup"
-
-[[cards]]
-text = "Highmark Stadium Turf"
-
-[[cards]]
-text = "Amo the Mascot"
+text = "Paul Child Stand"
 
 [[cards]]
 text = "David Flavius"
@@ -168,25 +159,13 @@ text = "David Flavius"
 text = "Justin Evans"
 
 [[cards]]
-text = "Black and Gold Jersey"
-
-[[cards]]
-text = "Hounds Goal Horn"
-
-[[cards]]
 text = "Paul Child"
-
-[[cards]]
-text = "Gene Klein"
 
 [[cards]]
 text = "Tailgate Lot"
 
 [[cards]]
 text = "Three Rivers"
-
-[[cards]]
-text = "Inaugural Season"
 
 [[cards]]
 text = "Tifo Display"
@@ -204,22 +183,7 @@ text = "Derby Day"
 text = "USL Players Shield"
 
 [[cards]]
-text = "Riverhounds Mascot"
-
-[[cards]]
 text = "Hat Trick"
-
-[[cards]]
-text = "Dave Brandt"
-
-[[cards]]
-text = "Shady Side Academy"
-
-[[cards]]
-text = "Falconi Field"
-
-[[cards]]
-text = "Bethel Park Stadium"
 
 [[cards]]
 text = "Iron City Beer"
@@ -243,16 +207,7 @@ text = "Away Day Travel"
 text = "Coach of the Year"
 
 [[cards]]
-text = "The Steel Army"
-
-[[cards]]
-text = "Sweeper the Mascot"
-
-[[cards]]
 text = "Black and Gold"
-
-[[cards]]
-text = "U.S. Open Cup"
 
 [[cards]]
 text = "Robbie Mertz"
@@ -264,13 +219,4 @@ text = "Lilleyball"
 text = "Smithfield Street Bridge"
 
 [[cards]]
-text = "The Supporters Section"
-
-[[cards]]
-text = "Hamo the Riverhound"
-
-[[cards]]
 text = "Passing Trains"
-
-[[cards]]
-text = "The Paul Child Cup"

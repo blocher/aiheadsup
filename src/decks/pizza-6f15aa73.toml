@@ -1,5 +1,5 @@
 id = "deck_pizza_6f15aa73"
-revision = 1
+revision = 2
 name = "Pizza"
 category = "Food"
 audience = "Family"
@@ -159,9 +159,6 @@ text = "Delivery Driver"
 text = "Personal Pan Pizza"
 
 [[cards]]
-text = "Thin Crust Pizza"
-
-[[cards]]
 text = "Pizza Hut"
 
 [[cards]]
@@ -178,9 +175,6 @@ text = "Brick Oven"
 
 [[cards]]
 text = "White Sauce"
-
-[[cards]]
-text = "Papa Johns"
 
 [[cards]]
 text = "Chicken Wings"
@@ -210,9 +204,6 @@ text = "Pizzeria"
 text = "Carryout"
 
 [[cards]]
-text = "Buffalo Wings"
-
-[[cards]]
 text = "New York Slice"
 
 [[cards]]
@@ -222,15 +213,6 @@ text = "Ham and Pineapple"
 text = "Pizza Saver"
 
 [[cards]]
-text = "Chicago Deep Dish"
-
-[[cards]]
-text = "Parmesan"
-
-[[cards]]
-text = "Meat Lovers"
-
-[[cards]]
 text = "Delivery or Takeout"
 
 [[cards]]
@@ -238,3 +220,21 @@ text = "Parmesan Shaker"
 
 [[cards]]
 text = "Half and Half"
+
+[[cards]]
+text = "Little Caesars"
+
+[[cards]]
+text = "Neapolitan Pizza"
+
+[[cards]]
+text = "Detroit Style Pizza"
+
+[[cards]]
+text = "Focaccia"
+
+[[cards]]
+text = "Arugula"
+
+[[cards]]
+text = "San Marzano Tomatoes"

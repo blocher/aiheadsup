@@ -1,5 +1,5 @@
 id = "deck_livin-on-a-prayer-lyrics-things-mentioned-in-the-lyrics_14b0ea9c"
-revision = 1
+revision = 2
 name = "Livin’ on a Prayer Lyrics (things mentioned in the lyrics)"
 category = "Music"
 audience = "Family"
@@ -18,10 +18,16 @@ text = "Gina"
 text = "The Docks"
 
 [[cards]]
+text = "Dock Worker"
+
+[[cards]]
 text = "Union Strike"
 
 [[cards]]
 text = "Diner"
+
+[[cards]]
+text = "Diner Counter"
 
 [[cards]]
 text = "Waitress"
@@ -31,9 +37,6 @@ text = "Six-String Guitar"
 
 [[cards]]
 text = "Pawn Shop"
-
-[[cards]]
-text = "Talk Box"
 
 [[cards]]
 text = "Prayer"
@@ -48,7 +51,7 @@ text = "Running Away"
 text = "Whispering"
 
 [[cards]]
-text = "Crying"
+text = "Crying in the Night"
 
 [[cards]]
 text = "Bad Luck"
@@ -60,34 +63,7 @@ text = "Halfway There"
 text = "Holding Hands"
 
 [[cards]]
-text = "Jon Bon Jovi"
-
-[[cards]]
-text = "New Jersey"
-
-[[cards]]
-text = "Slippery When Wet"
-
-[[cards]]
-text = "Richie Sambora"
-
-[[cards]]
-text = "1980s Rock"
-
-[[cards]]
-text = "Hair Metal"
-
-[[cards]]
-text = "Leather Jacket"
-
-[[cards]]
-text = "Key Change"
-
-[[cards]]
-text = "Arena Anthem"
-
-[[cards]]
-text = "Dock Worker"
+text = "Holding On"
 
 [[cards]]
 text = "Dreams"
@@ -96,37 +72,7 @@ text = "Dreams"
 text = "Someday"
 
 [[cards]]
-text = "True Love"
-
-[[cards]]
-text = "Acoustic Guitar"
-
-[[cards]]
-text = "Stage Mic"
-
-[[cards]]
-text = "Rock Concert"
-
-[[cards]]
-text = "Music Video"
-
-[[cards]]
-text = "Stage Lights"
-
-[[cards]]
-text = "Guitar Solo"
-
-[[cards]]
-text = "Screaming Fans"
-
-[[cards]]
-text = "Vinyl Record"
-
-[[cards]]
-text = "Cassette Tape"
-
-[[cards]]
-text = "Karaoke Classic"
+text = "Love"
 
 [[cards]]
 text = "Working Class"
@@ -138,67 +84,10 @@ text = "Hard Times"
 text = "Hope"
 
 [[cards]]
-text = "High Notes"
-
-[[cards]]
-text = "Drum Fill"
-
-[[cards]]
-text = "Bass Line"
-
-[[cards]]
 text = "Giving It a Shot"
 
 [[cards]]
 text = "Nighttime"
-
-[[cards]]
-text = "Gold Record"
-
-[[cards]]
-text = "Stadium Tour"
-
-[[cards]]
-text = "Labor Union"
-
-[[cards]]
-text = "Strike"
-
-[[cards]]
-text = "Six-String"
-
-[[cards]]
-text = "Whisper"
-
-[[cards]]
-text = "Love"
-
-[[cards]]
-text = "Luck"
-
-[[cards]]
-text = "Hand"
-
-[[cards]]
-text = "Taking a Shot"
-
-[[cards]]
-text = "Swearing an Oath"
-
-[[cards]]
-text = "Bass Riff"
-
-[[cards]]
-text = "Faith"
-
-[[cards]]
-text = "Overtime"
-
-[[cards]]
-text = "Electric Guitar"
-
-[[cards]]
-text = "Drum Beat"
 
 [[cards]]
 text = "Struggle"
@@ -207,61 +96,43 @@ text = "Struggle"
 text = "Perseverance"
 
 [[cards]]
-text = "Devotion"
+text = "Baby"
 
 [[cards]]
-text = "Comfort"
+text = "Fight"
 
 [[cards]]
-text = "Music"
+text = "Down on His Luck"
 
 [[cards]]
-text = "Rock Anthem"
+text = "Make It or Not"
 
 [[cards]]
-text = "Arena Rock"
+text = "Six String in Hock"
 
 [[cards]]
-text = "Microphone"
+text = "Man"
 
 [[cards]]
-text = "Sing-Along"
+text = "Ready or Not"
 
 [[cards]]
-text = "Romance"
+text = "Live for the Fight"
 
 [[cards]]
-text = "Future"
+text = "Take My Hand"
 
 [[cards]]
-text = "A Diner"
+text = "For Love"
 
 [[cards]]
-text = "Hock Shop"
+text = "Diner All Day"
 
 [[cards]]
-text = "Pawn Ticket"
+text = "Working for Her Man"
 
 [[cards]]
-text = "Crying in the Night"
+text = "Bring Home Her Pay"
 
 [[cards]]
-text = "Tough Luck"
-
-[[cards]]
-text = "Guitarist"
-
-[[cards]]
-text = "Holding On"
-
-[[cards]]
-text = "Diner Counter"
-
-[[cards]]
-text = "Keeping the Faith"
-
-[[cards]]
-text = "A Prayer"
-
-[[cards]]
-text = "Half Way There"
+text = "What We Got"

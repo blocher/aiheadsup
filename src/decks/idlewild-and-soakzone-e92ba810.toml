@@ -1,5 +1,5 @@
 id = "deck_idlewild-and-soakzone_e92ba810"
-revision = 1
+revision = 2
 name = "Idlewild and SoakZone"
 category = "Western PA Themeparks"
 audience = "Family"
@@ -27,7 +27,7 @@ text = "Billy Goats Gruff"
 text = "Jack and the Beanstalk"
 
 [[cards]]
-text = "Snow White's Castle"
+text = "Snow White"
 
 [[cards]]
 text = "Crooked House"
@@ -37,9 +37,6 @@ text = "Good Ship Lollipop"
 
 [[cards]]
 text = "Daniel Tiger"
-
-[[cards]]
-text = "Neighborhood Trolley"
 
 [[cards]]
 text = "Neighborhood of Make-Believe"
@@ -69,10 +66,7 @@ text = "Wild Mouse"
 text = "Flying Aces"
 
 [[cards]]
-text = "Turtle Whirl"
-
-[[cards]]
-text = "Grand Carousel"
+text = "Merry-Go-Round"
 
 [[cards]]
 text = "Balloon Race"
@@ -105,16 +99,13 @@ text = "Hydro Racers"
 text = "Giant Tipping Bucket"
 
 [[cards]]
-text = "Captain Kid's Shipwreck Cove"
-
-[[cards]]
 text = "Little Squirts"
 
 [[cards]]
 text = "Float Away Bay"
 
 [[cards]]
-text = "Wowabunga Family Slides"
+text = "Wowabunga Family Wave Pool"
 
 [[cards]]
 text = "Olde Idlewild"
@@ -147,9 +138,6 @@ text = "Laurel Highlands"
 text = "Ricky Raccoon"
 
 [[cards]]
-text = "Duke the Dragon"
-
-[[cards]]
 text = "Mister Rogers"
 
 [[cards]]
@@ -168,13 +156,7 @@ text = "Miss Elaina"
 text = "Captain Kidd's Adventure Galley"
 
 [[cards]]
-text = "Three Little Pigs"
-
-[[cards]]
 text = "Jack and Jill Hill"
-
-[[cards]]
-text = "The Crooked House"
 
 [[cards]]
 text = "Little Red Schoolhouse"
@@ -198,16 +180,7 @@ text = "Waffle Ice Cream Sandwich"
 text = "King Friday's Castle"
 
 [[cards]]
-text = "Centennial Wheel"
-
-[[cards]]
-text = "Doozy Cars"
-
-[[cards]]
 text = "Howler"
-
-[[cards]]
-text = "Neighbor Trolley"
 
 [[cards]]
 text = "Loggin' Toboggan"
@@ -216,49 +189,13 @@ text = "Loggin' Toboggan"
 text = "Old Woman's Shoe"
 
 [[cards]]
-text = "Crooked Little House"
-
-[[cards]]
-text = "Captain Kidney Pond"
-
-[[cards]]
-text = "Tipping Bucket"
-
-[[cards]]
-text = "The Howler"
-
-[[cards]]
-text = "Classic Carousel"
-
-[[cards]]
 text = "Daniel Tiger's Trolley"
-
-[[cards]]
-text = "Loyalhanna Limited"
-
-[[cards]]
-text = "Captain Kid's Backyard"
 
 [[cards]]
 text = "The Whip"
 
 [[cards]]
-text = "Balloon Chase"
-
-[[cards]]
-text = "Cinderella's Castle"
-
-[[cards]]
-text = "Spider's Web"
-
-[[cards]]
-text = "Captain Kid's Playland"
-
-[[cards]]
-text = "Wojo's Slide"
-
-[[cards]]
-text = "King Friday"
+text = "Spider"
 
 [[cards]]
 text = "Storybook Castle"

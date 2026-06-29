@@ -1,5 +1,5 @@
 id = "deck_classic-wii-games_24a03f8d"
-revision = 1
+revision = 2
 name = "Classic Wii Games"
 category = "Games"
 audience = "Family"
@@ -16,9 +16,6 @@ text = "Wii Remote"
 
 [[cards]]
 text = "Nunchuk"
-
-[[cards]]
-text = "Mii Creator"
 
 [[cards]]
 text = "Wii Balance Board"
@@ -159,15 +156,6 @@ text = "de Blob"
 text = "Mario Sports Mix"
 
 [[cards]]
-text = "Sensor Bar"
-
-[[cards]]
-text = "Classic Controller"
-
-[[cards]]
-text = "Wrist Strap"
-
-[[cards]]
 text = "Wii Shop Channel"
 
 [[cards]]
@@ -180,22 +168,7 @@ text = "Check Mii Out Channel"
 text = "Everybody Votes Channel"
 
 [[cards]]
-text = "Wii Bowling"
-
-[[cards]]
-text = "Wii Tennis"
-
-[[cards]]
-text = "Wii Boxing"
-
-[[cards]]
-text = "Wii Golf"
-
-[[cards]]
 text = "Wii Baseball"
-
-[[cards]]
-text = "Swordplay"
 
 [[cards]]
 text = "Wii Fit Trainer"
@@ -213,9 +186,6 @@ text = "Wii Pointer"
 text = "Cow Racing"
 
 [[cards]]
-text = "Balance Board"
-
-[[cards]]
 text = "Mii Maker"
 
 [[cards]]
@@ -231,13 +201,7 @@ text = "Bowling Strike"
 text = "Swordplay Duel"
 
 [[cards]]
-text = "Disc Dog"
-
-[[cards]]
 text = "Cooking Mama"
-
-[[cards]]
-text = "Resort Archery"
 
 [[cards]]
 text = "Disc Golf"
@@ -247,6 +211,3 @@ text = "Mii Channel Music"
 
 [[cards]]
 text = "Mii Character"
-
-[[cards]]
-text = "Wii Fit Board"

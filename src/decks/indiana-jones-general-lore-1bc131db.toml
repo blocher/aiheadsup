@@ -1,5 +1,5 @@
 id = "deck_indiana-jones-general-lore_1bc131db"
-revision = 1
+revision = 2
 name = "Indiana Jones: General Lore"
 category = "Indiana Jones"
 audience = "Family"
@@ -10,6 +10,10 @@ spoiler_series = "indiana_jones"
 photo_file_name = "indiana-jones-general-lore-1bc131db-cover.jpg"
 
 [[cards]]
+text = "Indiana Jones"
+first_revealed_installment = 1
+
+[[cards]]
 text = "Ark of the Covenant"
 first_revealed_installment = 1
 
@@ -18,7 +22,7 @@ text = "René Belloq"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Major Arnold Toht"
+text = "Major Toht"
 first_revealed_installment = 1
 
 [[cards]]
@@ -26,7 +30,15 @@ text = "Marion Ravenwood"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Staff of Ra"
+text = "Sallah"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Marcus Brody"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Headpiece Staff of Ra"
 first_revealed_installment = 1
 
 [[cards]]
@@ -34,15 +46,7 @@ text = "Well of Souls"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Jock Lindsey"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Abner Ravenwood"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hovitos Temple"
+text = "Chachapoyan Fertility Idol"
 first_revealed_installment = 1
 
 [[cards]]
@@ -54,7 +58,19 @@ text = "Bantu Wind"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Marcus Brody"
+text = "Map Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tanis Dig Site"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hovitos Tribe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jock Lindsey"
 first_revealed_installment = 1
 
 [[cards]]
@@ -62,7 +78,7 @@ text = "Captain Katanga"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Tanis Map Room"
+text = "Abner Ravenwood"
 first_revealed_installment = 1
 
 [[cards]]
@@ -110,7 +126,19 @@ text = "Willie Scott"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Holy Grail"
+text = "Chattar Lal"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chilled Monkey Brains"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wu Han"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Holy Grail"
 first_revealed_installment = 3
 
 [[cards]]
@@ -122,15 +150,11 @@ text = "Elsa Schneider"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Cruciform Sword"
+text = "Cross of Coronado"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Grail Knight"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Coronado Crown"
+text = "The Grail Knight"
 first_revealed_installment = 3
 
 [[cards]]
@@ -147,6 +171,30 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Hatay"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cruciform Sword"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Crescent Moon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Leap of Faith"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Alexandretta"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Venice Catacombs"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Diary"
 first_revealed_installment = 3
 
 [[cards]]
@@ -175,6 +223,22 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "George McHale"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Crystal Skull of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Doom Town"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Siafu Ants"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Orellana's Tomb"
 first_revealed_installment = 4
 
 [[cards]]
@@ -210,143 +274,11 @@ text = "Lance of Longinus"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Chachapoyan Fertility Idol"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Sallah"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hovitos Tribe"
-first_revealed_installment = 1
-
-[[cards]]
-text = "German Flying Wing"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tanis Excavation Site"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Chattar Lal"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Chilled Monkey Brains"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Brotherhood of Cruciform Sword"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Canyon of Crescent Moon"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Leap of Faith"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Alexandretta"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Crystal Skull of Akator"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Akator Temple"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Doom Town"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Siberian Ice Ants"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Archimedes Dial"
+text = "Archimedes"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Belloq"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Major Toht"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hovitos"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tanis Dig Site"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Wu Han"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Cruciform Sword Brotherhood"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Crescent Moon Canyon"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Henry Jones Senior"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Orellana's Tomb"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Venice Catacombs"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Grail Diary"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Temple of Akator"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Arnold Toht"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Staff of Ra Headpiece"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ashes of Nurhaci"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Henry Jones Grail Diary"
-first_revealed_installment = 3
-
-[[cards]]
-text = "The Grail Knight"
-first_revealed_installment = 3
-
-[[cards]]
-text = "City of Akator"
-first_revealed_installment = 4
-
-[[cards]]
-text = "The Antikythera"
+text = "Ear of Dionysius"
 first_revealed_installment = 5
 
 [[cards]]

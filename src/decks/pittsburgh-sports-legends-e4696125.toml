@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-sports-legends_e4696125"
-revision = 1
+revision = 2
 name = "Pittsburgh Sports Legends"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -165,9 +165,6 @@ text = "Lynn Swann"
 text = "Phil Kessel"
 
 [[cards]]
-text = "The Steel Curtain"
-
-[[cards]]
 text = "Art Rooney"
 
 [[cards]]
@@ -198,16 +195,31 @@ text = "Acrisure Stadium"
 text = "Black and Gold"
 
 [[cards]]
-text = "The Terrible Towel"
-
-[[cards]]
-text = "The Immaculate Reception"
-
-[[cards]]
-text = "The Great Pierogi Race"
-
-[[cards]]
 text = "Stanley Cup"
 
 [[cards]]
 text = "T.J. Watt"
+
+[[cards]]
+text = "Number 21"
+
+[[cards]]
+text = "Number 66"
+
+[[cards]]
+text = "Number 32"
+
+[[cards]]
+text = "Lombardi Trophy"
+
+[[cards]]
+text = "1960 World Series"
+
+[[cards]]
+text = "Super Bowl IX"
+
+[[cards]]
+text = "Roberto Clemente Bridge"
+
+[[cards]]
+text = "Renegade"

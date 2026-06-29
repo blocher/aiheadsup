@@ -1,5 +1,5 @@
 id = "deck_clue_46a78d90"
-revision = 1
+revision = 2
 name = "Clue"
 category = "Movies"
 audience = "Family"
@@ -46,6 +46,9 @@ text = "Singing Telegram Girl"
 
 [[cards]]
 text = "The Cop"
+
+[[cards]]
+text = "Chief of Police"
 
 [[cards]]
 text = "Hill House"
@@ -105,9 +108,6 @@ text = "Red Herring"
 text = "Communism"
 
 [[cards]]
-text = "To Crime"
-
-[[cards]]
 text = "Shark Fin Soup"
 
 [[cards]]
@@ -117,16 +117,10 @@ text = "Monkey Brains"
 text = "Flames On My Face"
 
 [[cards]]
-text = "The Gong"
-
-[[cards]]
 text = "Three Endings"
 
 [[cards]]
 text = "Blackmail"
-
-[[cards]]
-text = "Double Negative"
 
 [[cards]]
 text = "The Chandelier"
@@ -135,82 +129,25 @@ text = "The Chandelier"
 text = "The Cupboard Key"
 
 [[cards]]
-text = "Chief of Police"
-
-[[cards]]
-text = "The Front Gate"
-
-[[cards]]
 text = "Letter of Invitation"
-
-[[cards]]
-text = "The Attic"
-
-[[cards]]
-text = "Husbands Should Be Murdered"
 
 [[cards]]
 text = "Mr. Boddy's Body"
 
 [[cards]]
-text = "The Secret Panel"
-
-[[cards]]
 text = "The Dinner Party"
-
-[[cards]]
-text = "The Candlestick"
-
-[[cards]]
-text = "The Knife"
-
-[[cards]]
-text = "The Lead Pipe"
-
-[[cards]]
-text = "The Revolver"
-
-[[cards]]
-text = "The Rope"
-
-[[cards]]
-text = "The Wrench"
-
-[[cards]]
-text = "The Tape Recorder"
-
-[[cards]]
-text = "The Briefcase"
-
-[[cards]]
-text = "The Cellar Key"
-
-[[cards]]
-text = "Wadsworth's Math"
-
-[[cards]]
-text = "The Chief"
-
-[[cards]]
-text = "Three Different Endings"
 
 [[cards]]
 text = "The Front Door"
 
 [[cards]]
-text = "Blackmail Letters"
+text = "Attack Dogs"
 
 [[cards]]
-text = "Confidential Envelope"
+text = "J. Edgar Hoover"
 
 [[cards]]
-text = "Monkey's Brains"
+text = "Undercover FBI Agent"
 
 [[cards]]
-text = "Just A Game"
-
-[[cards]]
-text = "The Fireplace"
-
-[[cards]]
-text = "The Dagger"
+text = "Washington D.C."

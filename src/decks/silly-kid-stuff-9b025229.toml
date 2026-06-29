@@ -1,5 +1,5 @@
 id = "deck_silly-kid-stuff_9b025229"
-revision = 1
+revision = 2
 name = "Silly Kid Stuff"
 category = "Kids"
 audience = "Family"
@@ -162,12 +162,6 @@ text = "Sleepy Sloth"
 text = "Loud Burp"
 
 [[cards]]
-text = "Stinky Socks"
-
-[[cards]]
-text = "Wobbly Jelly"
-
-[[cards]]
 text = "Silly Putty"
 
 [[cards]]
@@ -196,9 +190,6 @@ text = "Red Clown Nose"
 
 [[cards]]
 text = "Mud Pie"
-
-[[cards]]
-text = "The Chicken Dance"
 
 [[cards]]
 text = "Googly Eyes"
@@ -270,28 +261,13 @@ text = "Superhero Cape"
 text = "Dancing Llama"
 
 [[cards]]
-text = "Wiggling Your Ears"
-
-[[cards]]
 text = "Bubble Bath Beard"
-
-[[cards]]
-text = "Walking Like A Penguin"
-
-[[cards]]
-text = "Spaghetti Mohawk"
 
 [[cards]]
 text = "Pirate Eyepatch"
 
 [[cards]]
 text = "Chicken Cluck"
-
-[[cards]]
-text = "Monster Under The Bed"
-
-[[cards]]
-text = "Making A Funny Face"
 
 [[cards]]
 text = "Green Slime"

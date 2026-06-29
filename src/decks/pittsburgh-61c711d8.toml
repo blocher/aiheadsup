@@ -1,5 +1,5 @@
 id = "deck_pittsburgh_61c711d8"
-revision = 1
+revision = 2
 name = "Pittsburgh"
 category = "Cities"
 audience = "Family"
@@ -49,9 +49,6 @@ text = "Point State Park"
 
 [[cards]]
 text = "Strip District"
-
-[[cards]]
-text = "Heinz Field"
 
 [[cards]]
 text = "PNC Park"
@@ -198,15 +195,6 @@ text = "Heinz History Center"
 text = "Steel City"
 
 [[cards]]
-text = "South Side Flats"
-
-[[cards]]
-text = "Pierogies"
-
-[[cards]]
-text = "Mister Rogers"
-
-[[cards]]
 text = "Gene Kelly"
 
 [[cards]]
@@ -220,3 +208,6 @@ text = "Acrisure Stadium"
 
 [[cards]]
 text = "Liberty Bridge"
+
+[[cards]]
+text = "Terrible Towel"

@@ -1,5 +1,5 @@
 id = "deck_harry-potter-play-harry-potter-and-the-cursed-child_7526177c"
-revision = 1
+revision = 2
 name = "Harry Potter Play: Harry Potter and the Cursed Child"
 category = "Harry Potter"
 audience = "Family"
@@ -46,14 +46,6 @@ text = "The Augurey"
 first_revealed_installment = 8
 
 [[cards]]
-text = "Experimental Time-Turner"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Hermione's Ministry Office"
-first_revealed_installment = 8
-
-[[cards]]
 text = "Panju Weasley"
 first_revealed_installment = 8
 
@@ -67,10 +59,6 @@ first_revealed_installment = 8
 
 [[cards]]
 text = "Yann Fredericks"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Lily's Blanket"
 first_revealed_installment = 8
 
 [[cards]]
@@ -124,10 +112,6 @@ first_revealed_installment = 4
 [[cards]]
 text = "Polyjuice Potion"
 first_revealed_installment = 2
-
-[[cards]]
-text = "Albus Dumbledore's Portrait"
-first_revealed_installment = 6
 
 [[cards]]
 text = "Bane the Centaur"
@@ -210,11 +194,7 @@ text = "Draco Malfoy"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Albus Potter"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Trolley Witch"
+text = "Ginny Potter"
 first_revealed_installment = 1
 
 [[cards]]
@@ -258,10 +238,6 @@ text = "Dumbledore's Portrait"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Hogwarts Express Platform"
-first_revealed_installment = 1
-
-[[cards]]
 text = "James Sirius Potter"
 first_revealed_installment = 7
 
@@ -272,14 +248,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Hugo Granger-Weasley"
 first_revealed_installment = 7
-
-[[cards]]
-text = "The Dark Mark"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Pumpkin Pastie"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Bathilda Bagshot"
@@ -306,45 +274,9 @@ text = "Alternate Timeline"
 first_revealed_installment = 8
 
 [[cards]]
-text = "Voldemort's Daughter"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Delphi Diggory"
-first_revealed_installment = 8
-
-[[cards]]
 text = "Karl Jenkins"
 first_revealed_installment = 8
 
 [[cards]]
 text = "Ludo Bagman"
 first_revealed_installment = 4
-
-[[cards]]
-text = "Delphi"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Lord Voldemort's Daughter"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Delphini Diggory"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Minister Hermione Granger"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Lily Potter Junior"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Triwizard Maze"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Slytherin Albus"
-first_revealed_installment = 8

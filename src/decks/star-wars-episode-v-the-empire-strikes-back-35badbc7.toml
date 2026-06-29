@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-v-the-empire-strikes-back_35badbc7"
-revision = 1
+revision = 2
 name = "Star Wars Episode V: The Empire Strikes Back"
 category = "Star Wars"
 audience = "Family"
@@ -114,6 +114,14 @@ text = "Captain Needa"
 first_revealed_installment = 2
 
 [[cards]]
+text = "General Rieekan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Admiral Ozzel"
+first_revealed_installment = 2
+
+[[cards]]
 text = "Snowtrooper"
 first_revealed_installment = 2
 
@@ -162,7 +170,7 @@ text = "2-1B Medical Droid"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Meditation Chamber"
+text = "Vader's Meditation Chamber"
 first_revealed_installment = 2
 
 [[cards]]
@@ -178,19 +186,7 @@ text = "Luke's Prosthetic Hand"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Bounty Hunter Lineup"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Training Backpack"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Medical Frigate"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Imperial March"
 first_revealed_installment = 2
 
 [[cards]]
@@ -206,6 +202,14 @@ text = "I Know"
 first_revealed_installment = 2
 
 [[cards]]
+text = "Do or Do Not"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tell Me the Odds"
+first_revealed_installment = 2
+
+[[cards]]
 text = "FX-7"
 first_revealed_installment = 2
 
@@ -214,7 +218,27 @@ text = "Carbonite"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Imperial Probe Droid"
+text = "Executor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dak Ralter"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Emperor Palpatine"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bespin Security Guard"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Major Derlin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "TIE Bomber"
 first_revealed_installment = 2
 
 [[cards]]
@@ -252,51 +276,3 @@ first_revealed_installment = 1
 [[cards]]
 text = "Obi-Wan Kenobi"
 first_revealed_installment = 1
-
-[[cards]]
-text = "Executor"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Dak Ralter"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Vader's Meditation Chamber"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Emperor Palpatine"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Bespin Security Guard"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Major Derlin"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Viper Probe Droid"
-first_revealed_installment = 2
-
-[[cards]]
-text = "The Imperial March"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Twin-Pod Cloud Car"
-first_revealed_installment = 2
-
-[[cards]]
-text = "TIE Bomber"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Carbonite Freezing Chamber"
-first_revealed_installment = 2
-
-[[cards]]
-text = "The Executor"
-first_revealed_installment = 2

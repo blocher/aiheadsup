@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-iv-a-new-hope_e3da5004"
-revision = 1
+revision = 2
 name = "Star Wars Episode IV: A New Hope"
 category = "Star Wars"
 audience = "Family"
@@ -122,19 +122,7 @@ text = "Star Destroyer"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Escape Pod"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Y-wing"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Lightsaber"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Blaster"
+text = "Y-wing Starfighter"
 first_revealed_installment = 1
 
 [[cards]]
@@ -147,10 +135,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Restraining Bolt"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Jedi Knight"
 first_revealed_installment = 1
 
 [[cards]]
@@ -210,19 +194,11 @@ text = "Power Converter"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Jawa Sandcrawler"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Luke's Landspeeder"
 first_revealed_installment = 1
 
 [[cards]]
 text = "Death Star Trench"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Dejarik Hologame"
 first_revealed_installment = 1
 
 [[cards]]
@@ -238,15 +214,7 @@ text = "Womp Rats"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Imperial Star Destroyer"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Marksman-H Training Remote"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Y-wing Starfighter"
 first_revealed_installment = 1
 
 [[cards]]
@@ -258,10 +226,6 @@ text = "Red Squadron"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Princess Leia Organa"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Tantive IV"
 first_revealed_installment = 1
 
@@ -270,5 +234,21 @@ text = "Proton Torpedoes"
 first_revealed_installment = 1
 
 [[cards]]
-text = "X-wing"
+text = "Jedi Mind Trick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan's Sacrifice"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Leia's Hologram"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Exhaust Port"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Use the Force"
 first_revealed_installment = 1

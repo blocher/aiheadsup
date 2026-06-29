@@ -1,5 +1,5 @@
 id = "deck_roman-mythology_50e937f9"
-revision = 1
+revision = 2
 name = "Roman Mythology"
 category = "Religion and Mythology"
 audience = "Family"
@@ -159,16 +159,7 @@ text = "Vulcanalia"
 text = "Ancile"
 
 [[cards]]
-text = "Romulus and Remus"
-
-[[cards]]
 text = "Capitoline Wolf"
-
-[[cards]]
-text = "Lares and Penates"
-
-[[cards]]
-text = "The Pantheon"
 
 [[cards]]
 text = "Faunus"
@@ -184,9 +175,6 @@ text = "Somnus"
 
 [[cards]]
 text = "Nox"
-
-[[cards]]
-text = "Aventine Hill"
 
 [[cards]]
 text = "Elysium"
@@ -214,6 +202,3 @@ text = "Temple of Jupiter"
 
 [[cards]]
 text = "Temple of Vesta"
-
-[[cards]]
-text = "The Capitoline Wolf"

@@ -1,5 +1,5 @@
 id = "deck_basketball_ab27260f"
-revision = 1
+revision = 2
 name = "Basketball"
 category = "Sports"
 audience = "Family"
@@ -165,22 +165,10 @@ text = "Three-Second Violation"
 text = "Jump Shot"
 
 [[cards]]
-text = "Charging Foul"
-
-[[cards]]
 text = "Flagrant Foul"
 
 [[cards]]
 text = "Free Throw Line"
-
-[[cards]]
-text = "Basketball Net"
-
-[[cards]]
-text = "Euro Step"
-
-[[cards]]
-text = "Crossover"
 
 [[cards]]
 text = "Dream Shake"
@@ -201,22 +189,10 @@ text = "Ankle Breaker"
 text = "Buzzer Beater"
 
 [[cards]]
-text = "Fadeaway Shot"
-
-[[cards]]
-text = "Referee Whistle"
-
-[[cards]]
-text = "Air Ball"
-
-[[cards]]
 text = "Brick"
 
 [[cards]]
 text = "Swish"
-
-[[cards]]
-text = "Fadeaway Jump Shot"
 
 [[cards]]
 text = "Finger Roll"

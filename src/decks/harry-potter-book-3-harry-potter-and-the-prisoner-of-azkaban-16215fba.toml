@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban_16215fba"
-revision = 1
+revision = 2
 name = "Harry Potter Book 3: Harry Potter and the Prisoner of Azkaban"
 category = "Harry Potter"
 audience = "Family"
@@ -210,35 +210,7 @@ text = "Crystal Ball"
 first_revealed_installment = 3
 
 [[cards]]
-text = "The Marauder's Map"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Azkaban Prison"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Professor Trelawney"
-first_revealed_installment = 3
-
-[[cards]]
-text = "The Firebolt"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Hogsmeade Village"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Honeydukes Sweetshop"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Walden Macnair"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Madame Rosmerta"
 first_revealed_installment = 3
 
 [[cards]]
@@ -254,10 +226,6 @@ text = "One-Eyed Witch Statue"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Pocket Sneakoscope"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Arithmancy Class"
 first_revealed_installment = 3
 
@@ -267,10 +235,6 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Chudley Cannons"
-first_revealed_installment = 2
-
-[[cards]]
-text = "The Whomping Willow"
 first_revealed_installment = 2
 
 [[cards]]
@@ -286,21 +250,17 @@ text = "Stag Patronus"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Knight Bus"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Shrieking Shack"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Three Broomsticks"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Butterbeer"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Patronus Charm"
+text = "Grindylow"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wolfsbane Potion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hinkypunk"
 first_revealed_installment = 3

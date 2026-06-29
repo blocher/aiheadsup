@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-vi-return-of-the-jedi_61e5d251"
-revision = 1
+revision = 2
 name = "Star Wars Episode VI: Return of the Jedi"
 category = "Star Wars"
 audience = "Family"
@@ -94,7 +94,7 @@ text = "Speeder Bike"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Biker Scout"
+text = "Scout Trooper"
 first_revealed_installment = 3
 
 [[cards]]
@@ -134,7 +134,7 @@ text = "Sy Snootles"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Max Rebo"
+text = "Max Rebo Band"
 first_revealed_installment = 3
 
 [[cards]]
@@ -146,11 +146,11 @@ text = "Shield Generator"
 first_revealed_installment = 3
 
 [[cards]]
-text = "A-wing"
+text = "A-wing Starfighter"
 first_revealed_installment = 3
 
 [[cards]]
-text = "B-wing"
+text = "B-wing Starfighter"
 first_revealed_installment = 3
 
 [[cards]]
@@ -182,11 +182,7 @@ text = "EV-9D9"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Rancor Keeper"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Yub Nub"
+text = "Malakili"
 first_revealed_installment = 3
 
 [[cards]]
@@ -210,39 +206,11 @@ text = "Jabba's Palace"
 first_revealed_installment = 3
 
 [[cards]]
-text = "The Sarlacc"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Wicket the Ewok"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Ewok Village"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Scout Trooper"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Second Death Star"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Max Rebo Band"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Rancor Monster"
-first_revealed_installment = 3
-
-[[cards]]
 text = "General Madine"
-first_revealed_installment = 3
-
-[[cards]]
-text = "B-wing Starfighter"
 first_revealed_installment = 3
 
 [[cards]]
@@ -255,10 +223,6 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Ewok Glider"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Malakili"
 first_revealed_installment = 3
 
 [[cards]]
@@ -278,31 +242,11 @@ text = "Imperial Shuttle"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Rebel Briefing Room"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Yoda's Passing"
 first_revealed_installment = 3
 
 [[cards]]
 text = "Anakin's Ghost"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Ewok Celebration"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Forest Moon of Endor"
-first_revealed_installment = 3
-
-[[cards]]
-text = "A-wing Starfighter"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Lando in Disguise"
 first_revealed_installment = 3
 
 [[cards]]
@@ -326,9 +270,21 @@ text = "Green Squadron"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Sanctuary Moon"
+text = "It's a Trap"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Skiff Guard"
+text = "Slave Leia"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Han Unfrozen from Carbonite"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Executor Bridge Crash"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Arvel Crynyd"
 first_revealed_installment = 3

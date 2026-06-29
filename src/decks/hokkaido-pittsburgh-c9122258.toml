@@ -1,5 +1,5 @@
 id = "deck_hokkaido-pittsburgh_c9122258"
-revision = 1
+revision = 2
 name = "Hokkaido Pittsburgh"
 category = "Food"
 audience = "Family"
@@ -58,9 +58,6 @@ text = "Fried Rice"
 
 [[cards]]
 text = "Lo Mein Noodles"
-
-[[cards]]
-text = "General Tso Chicken"
 
 [[cards]]
 text = "Beef and Broccoli"
@@ -162,13 +159,7 @@ text = "Steamed Dumplings"
 text = "Green Tea Ice Cream"
 
 [[cards]]
-text = "General Tso's Chicken"
-
-[[cards]]
 text = "Teppanyaki Grill"
-
-[[cards]]
-text = "Crawfish Boil"
 
 [[cards]]
 text = "Sneeze Guard"
@@ -183,9 +174,6 @@ text = "Fried Calamari"
 text = "Egg Roll"
 
 [[cards]]
-text = "Chocolate Fountain"
-
-[[cards]]
 text = "Crab Rangoon"
 
 [[cards]]
@@ -198,19 +186,7 @@ text = "Tempura Vegetables"
 text = "Shrimp Cocktail"
 
 [[cards]]
-text = "Edamame Pods"
-
-[[cards]]
 text = "Gyoza"
-
-[[cards]]
-text = "West Mifflin Buffet"
-
-[[cards]]
-text = "Steel City Seafood"
-
-[[cards]]
-text = "Waterfront Dining"
 
 [[cards]]
 text = "Melon Slices"
@@ -253,3 +229,21 @@ text = "Chicken Feet"
 
 [[cards]]
 text = "Peel and Eat Shrimp"
+
+[[cards]]
+text = "Squirrel Hill"
+
+[[cards]]
+text = "Browns Hill Road"
+
+[[cards]]
+text = "Hibachi Station"
+
+[[cards]]
+text = "Soft Shell Crab"
+
+[[cards]]
+text = "Scallops"
+
+[[cards]]
+text = "Plate Waste Fee"

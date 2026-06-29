@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-vii-the-force-awakens_c98882e2"
-revision = 1
+revision = 2
 name = "Star Wars Episode VII: The Force Awakens"
 category = "Star Wars"
 audience = "Family"
@@ -214,27 +214,11 @@ text = "First Order"
 first_revealed_installment = 7
 
 [[cards]]
-text = "Rey's Staff"
-first_revealed_installment = 7
-
-[[cards]]
 text = "Poe's Black One"
 first_revealed_installment = 7
 
 [[cards]]
 text = "Grummgar"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Crimson Corsair"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Maz's Castle"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Kylo Ren's Shuttle"
 first_revealed_installment = 7
 
 [[cards]]
@@ -258,10 +242,6 @@ text = "Rey's Speeder"
 first_revealed_installment = 7
 
 [[cards]]
-text = "Captain Ithano"
-first_revealed_installment = 7
-
-[[cards]]
 text = "Han Solo"
 first_revealed_installment = 1
 
@@ -282,17 +262,5 @@ text = "Luke Skywalker"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Crossguard Lightsaber"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The First Order"
-first_revealed_installment = 7
-
-[[cards]]
 text = "The Resistance"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The Star Map"
 first_revealed_installment = 7

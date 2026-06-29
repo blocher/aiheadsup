@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-ix-the-rise-of-skywalker_2c7e5317"
-revision = 1
+revision = 2
 name = "Star Wars Episode IX: The Rise of Skywalker"
 category = "Star Wars"
 audience = "Family"
@@ -210,16 +210,8 @@ text = "Sith Runes"
 first_revealed_installment = 11
 
 [[cards]]
-text = "Yellow Lightsaber"
-first_revealed_installment = 11
-
-[[cards]]
 text = "Ben Solo"
 first_revealed_installment = 7
-
-[[cards]]
-text = "Vexis Snake"
-first_revealed_installment = 11
 
 [[cards]]
 text = "Treadspeeder"
@@ -227,14 +219,6 @@ first_revealed_installment = 11
 
 [[cards]]
 text = "Beaumont Kin"
-first_revealed_installment = 11
-
-[[cards]]
-text = "Citizen Fleet"
-first_revealed_installment = 11
-
-[[cards]]
-text = "Reforged Helmet"
 first_revealed_installment = 11
 
 [[cards]]
@@ -290,21 +274,5 @@ text = "Wicket"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Dagger of Ochi"
-first_revealed_installment = 11
-
-[[cards]]
-text = "Festival of Ancestors"
-first_revealed_installment = 11
-
-[[cards]]
 text = "Sith Jet Trooper"
-first_revealed_installment = 11
-
-[[cards]]
-text = "Dyad in the Force"
-first_revealed_installment = 11
-
-[[cards]]
-text = "First Order Treadspeeder"
 first_revealed_installment = 11

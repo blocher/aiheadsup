@@ -1,5 +1,5 @@
 id = "deck_card-games_d92a21f6"
-revision = 1
+revision = 2
 name = "Card Games"
 category = "Games"
 audience = "Family"
@@ -174,19 +174,10 @@ text = "Jack"
 text = "Ace"
 
 [[cards]]
-text = "Shuffle the Deck"
-
-[[cards]]
-text = "Deal the Cards"
-
-[[cards]]
 text = "Flush"
 
 [[cards]]
 text = "Pair"
-
-[[cards]]
-text = "Bluff"
 
 [[cards]]
 text = "Face Down"
@@ -211,9 +202,6 @@ text = "Ante Up"
 
 [[cards]]
 text = "Deal Me In"
-
-[[cards]]
-text = "Dealing"
 
 [[cards]]
 text = "Card Suit"

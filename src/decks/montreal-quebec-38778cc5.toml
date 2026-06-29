@@ -1,5 +1,5 @@
 id = "deck_montreal-quebec_38778cc5"
-revision = 1
+revision = 2
 name = "Montreal, Quebec"
 category = "Cities"
 audience = "Family"
@@ -12,28 +12,34 @@ spoiler_mode = false
 text = "Mount Royal"
 
 [[cards]]
+text = "Mount Royal Cross"
+
+[[cards]]
+text = "Mount Royal Chalet"
+
+[[cards]]
+text = "Beaver Lake"
+
+[[cards]]
 text = "Old Montreal"
 
 [[cards]]
-text = "Montreal Canadiens"
+text = "Old Port"
 
 [[cards]]
-text = "Poutine"
-
-[[cards]]
-text = "Fairmount Bagel Shop"
-
-[[cards]]
-text = "Saint Joseph's Oratory"
+text = "Clock Tower"
 
 [[cards]]
 text = "Notre-Dame Basilica"
 
 [[cards]]
-text = "Olympic Stadium"
+text = "Notre-Dame-de-Bon-Secours Chapel"
 
 [[cards]]
-text = "Biosphere"
+text = "Saint Joseph's Oratory"
+
+[[cards]]
+text = "Bonsecours Market"
 
 [[cards]]
 text = "Habitat 67"
@@ -42,7 +48,67 @@ text = "Habitat 67"
 text = "Jacques Cartier Bridge"
 
 [[cards]]
+text = "Olympic Stadium"
+
+[[cards]]
+text = "Montreal Tower"
+
+[[cards]]
+text = "Biodome"
+
+[[cards]]
+text = "Biosphere"
+
+[[cards]]
+text = "Montreal Botanical Garden"
+
+[[cards]]
+text = "Montreal Insectarium"
+
+[[cards]]
+text = "La Ronde"
+
+[[cards]]
+text = "Parc Jean-Drapeau"
+
+[[cards]]
+text = "Saint Helen's Island"
+
+[[cards]]
+text = "La Fontaine Park"
+
+[[cards]]
 text = "Lachine Canal"
+
+[[cards]]
+text = "Plateau Mont-Royal"
+
+[[cards]]
+text = "Mile End"
+
+[[cards]]
+text = "Little Italy"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Griffintown"
+
+[[cards]]
+text = "Westmount"
+
+[[cards]]
+text = "Saint Laurent Boulevard"
+
+[[cards]]
+text = "Saint Catherine Street"
+
+[[cards]]
+text = "Crescent Street"
+
+[[cards]]
+text = "Quartier des Spectacles"
 
 [[cards]]
 text = "Jean-Talon Market"
@@ -51,34 +117,64 @@ text = "Jean-Talon Market"
 text = "Atwater Market"
 
 [[cards]]
-text = "La Ronde"
+text = "Schwartz's Deli"
 
 [[cards]]
-text = "Montreal Botanical Garden"
+text = "Montreal Smoked Meat"
 
 [[cards]]
-text = "Mile End"
+text = "Fairmount Bagel Shop"
 
 [[cards]]
-text = "Le Plateau"
+text = "St. Viateur Bagel"
 
 [[cards]]
-text = "Little Italy"
+text = "Montreal Bagel"
 
 [[cards]]
-text = "Griffintown"
-
-[[cards]]
-text = "Smoked Meat Sandwich"
-
-[[cards]]
-text = "Maple Taffy"
+text = "Poutine"
 
 [[cards]]
 text = "Steamie"
 
 [[cards]]
+text = "Maple Taffy"
+
+[[cards]]
 text = "Spruce Beer"
+
+[[cards]]
+text = "Gibeau Orange Julep"
+
+[[cards]]
+text = "Dépanneur"
+
+[[cards]]
+text = "Montreal Canadiens"
+
+[[cards]]
+text = "Bell Centre"
+
+[[cards]]
+text = "Rocket Richard"
+
+[[cards]]
+text = "Youppi!"
+
+[[cards]]
+text = "Montreal Expos"
+
+[[cards]]
+text = "Montreal Alouettes"
+
+[[cards]]
+text = "CF Montreal"
+
+[[cards]]
+text = "Saputo Stadium"
+
+[[cards]]
+text = "Montreal Grand Prix"
 
 [[cards]]
 text = "Montreal Jazz Festival"
@@ -93,31 +189,7 @@ text = "Igloofest"
 text = "Osheaga"
 
 [[cards]]
-text = "Montreal Grand Prix"
-
-[[cards]]
-text = "Youppi!"
-
-[[cards]]
-text = "Bell Centre"
-
-[[cards]]
-text = "Rocket Richard"
-
-[[cards]]
-text = "Montreal Metro"
-
-[[cards]]
-text = "Bixi"
-
-[[cards]]
-text = "Underground City"
-
-[[cards]]
-text = "Orange Line"
-
-[[cards]]
-text = "STM Bus"
+text = "Tam-Tams"
 
 [[cards]]
 text = "Museum of Fine Arts"
@@ -129,109 +201,28 @@ text = "Pointe-à-Callière Museum"
 text = "Montreal Science Centre"
 
 [[cards]]
-text = "Parc Jean-Drapeau"
+text = "Place des Arts"
 
 [[cards]]
 text = "McGill University"
 
 [[cards]]
-text = "Dépanneur"
+text = "Montreal Metro"
 
 [[cards]]
-text = "Tam-Tams"
+text = "Orange Line"
 
 [[cards]]
-text = "Place des Arts"
-
-[[cards]]
-text = "Bonsecours Market"
-
-[[cards]]
-text = "Mount Royal Chalet"
-
-[[cards]]
-text = "Saint Lawrence River"
-
-[[cards]]
-text = "Montreal Alouettes"
-
-[[cards]]
-text = "CF Montreal"
-
-[[cards]]
-text = "Old Port"
-
-[[cards]]
-text = "Montreal Biosphere"
-
-[[cards]]
-text = "Saint Laurent Boulevard"
-
-[[cards]]
-text = "Clock Tower"
-
-[[cards]]
-text = "Plateau Mont-Royal"
-
-[[cards]]
-text = "La Fontaine Park"
-
-[[cards]]
-text = "Jean-Drapeau Park"
-
-[[cards]]
-text = "Montreal Bagel"
-
-[[cards]]
-text = "Saputo Stadium"
+text = "STM Bus"
 
 [[cards]]
 text = "Bixi Bike"
 
 [[cards]]
-text = "Pointe-à-Callière"
+text = "Underground City"
 
 [[cards]]
-text = "Saint Catherine Street"
-
-[[cards]]
-text = "Chalet du Mont-Royal"
-
-[[cards]]
-text = "Crescent Street"
-
-[[cards]]
-text = "Saint Helen's Island"
+text = "Saint Lawrence River"
 
 [[cards]]
 text = "Bonjour-Hi"
-
-[[cards]]
-text = "Mount Royal Park"
-
-[[cards]]
-text = "Old Port of Montreal"
-
-[[cards]]
-text = "The Biodome"
-
-[[cards]]
-text = "The Biosphere"
-
-[[cards]]
-text = "Botanical Garden"
-
-[[cards]]
-text = "Chinatown"
-
-[[cards]]
-text = "The Plateau"
-
-[[cards]]
-text = "Montreal Smoked Meat"
-
-[[cards]]
-text = "Montreal Biodome"
-
-[[cards]]
-text = "The Underground City"

@@ -1,5 +1,5 @@
 id = "deck_catholicism_4755d41a"
-revision = 1
+revision = 2
 name = "Catholicism"
 category = "Religion and Mythology"
 audience = "Family"
@@ -159,16 +159,10 @@ text = "Sanctuary Lamp"
 text = "Monasticism"
 
 [[cards]]
-text = "Rosary Beads"
-
-[[cards]]
 text = "Holy Communion"
 
 [[cards]]
 text = "Our Lady of Guadalupe"
-
-[[cards]]
-text = "The Eucharist"
 
 [[cards]]
 text = "Saint Joseph"
@@ -178,9 +172,6 @@ text = "Lent"
 
 [[cards]]
 text = "Advent"
-
-[[cards]]
-text = "Easter Sunday"
 
 [[cards]]
 text = "Saint Patrick"
@@ -216,13 +207,10 @@ text = "Saint Thomas Aquinas"
 text = "Our Lady of Fatima"
 
 [[cards]]
-text = "Papal Conclave"
-
-[[cards]]
 text = "Crucifix"
 
 [[cards]]
-text = "Saint Mother Teresa"
+text = "Mother Teresa"
 
 [[cards]]
 text = "Confession"
@@ -234,28 +222,7 @@ text = "Guardian Angel"
 text = "Monastery"
 
 [[cards]]
-text = "The Angelus"
-
-[[cards]]
-text = "The Assumption"
-
-[[cards]]
-text = "St. Peter's Basilica"
-
-[[cards]]
 text = "Cathedral"
 
 [[cards]]
-text = "The Holy Rosary"
-
-[[cards]]
 text = "First Holy Communion"
-
-[[cards]]
-text = "The Vatican Swiss Guard"
-
-[[cards]]
-text = "Benedictine Monks"
-
-[[cards]]
-text = "Genuflect"

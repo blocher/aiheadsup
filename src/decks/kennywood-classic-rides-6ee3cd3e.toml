@@ -1,5 +1,5 @@
 id = "deck_kennywood-classic-rides_6ee3cd3e"
-revision = 1
+revision = 2
 name = "Kennywood: Classic Rides"
 category = "Western PA Themeparks"
 audience = "Family"
@@ -75,9 +75,6 @@ text = "Laser Loop"
 text = "Bayern Kurve"
 
 [[cards]]
-text = "Grand Carousel"
-
-[[cards]]
 text = "Aero 360"
 
 [[cards]]
@@ -85,9 +82,6 @@ text = "Black Widow"
 
 [[cards]]
 text = "Cosmic Chaos"
-
-[[cards]]
-text = "SwingShot"
 
 [[cards]]
 text = "Musik Express"
@@ -99,19 +93,10 @@ text = "Wave Swinger"
 text = "Lil' Phantom"
 
 [[cards]]
-text = "Turtle Car"
-
-[[cards]]
-text = "Whip Car"
-
-[[cards]]
 text = "Noah's Ark Whale Mouth"
 
 [[cards]]
 text = "Jack Rabbit Double Dip"
-
-[[cards]]
-text = "Racer Split Tracks"
 
 [[cards]]
 text = "Turnpike"
@@ -123,19 +108,13 @@ text = "Gold Rusher"
 text = "Ghost Ship"
 
 [[cards]]
-text = "SS Kenny"
+text = "S.S. Kenny"
 
 [[cards]]
 text = "Red Baron"
 
 [[cards]]
 text = "Whippersnapper"
-
-[[cards]]
-text = "Racer Coaster Car"
-
-[[cards]]
-text = "Auto Race Wooden Track"
 
 [[cards]]
 text = "Carousel Organ"
@@ -150,19 +129,7 @@ text = "Spinvasion"
 text = "Pirate Ship"
 
 [[cards]]
-text = "Kenny's Kabooses"
-
-[[cards]]
-text = "Kiddieland Carousel"
-
-[[cards]]
 text = "Thunderbolt Lift Hill"
-
-[[cards]]
-text = "The Racer"
-
-[[cards]]
-text = "The Old Mill"
 
 [[cards]]
 text = "Kennywood Railroad"
@@ -192,40 +159,10 @@ text = "Kiddieland"
 text = "Wacky Wheel"
 
 [[cards]]
-text = "Steel Curtain Train"
-
-[[cards]]
-text = "Turtle Tub"
-
-[[cards]]
-text = "Auto Race Car"
-
-[[cards]]
-text = "Phantom's Second Drop"
-
-[[cards]]
 text = "Log Jammer Spillway"
 
 [[cards]]
 text = "Le Cachot"
-
-[[cards]]
-text = "Noah's Ark Whale"
-
-[[cards]]
-text = "Jack Rabbit Train"
-
-[[cards]]
-text = "The Thunderbolt"
-
-[[cards]]
-text = "Potato Patch Fries"
-
-[[cards]]
-text = "The Kangaroo"
-
-[[cards]]
-text = "The Exterminator"
 
 [[cards]]
 text = "Laffin' Sal"

@@ -1,5 +1,5 @@
 id = "deck_high-school-level-u-s-history_4cb89a8f"
-revision = 1
+revision = 2
 name = "High School Level U.S. History"
 category = "History"
 audience = "Family"
@@ -222,9 +222,6 @@ text = "Nuremberg Trials"
 text = "Prohibition"
 
 [[cards]]
-text = "Scopes Trial"
-
-[[cards]]
 text = "Sharecropping"
 
 [[cards]]
@@ -259,9 +256,6 @@ text = "Radical Republicans"
 
 [[cards]]
 text = "Seventeenth Amendment"
-
-[[cards]]
-text = "Ghost Dance"
 
 [[cards]]
 text = "Bonus Army"

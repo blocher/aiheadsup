@@ -1,5 +1,5 @@
 id = "deck_snack-foods_8ea5316f"
-revision = 1
+revision = 2
 name = "Snack Foods"
 category = "Food"
 audience = "Family"
@@ -93,12 +93,6 @@ text = "Fruit Snacks"
 text = "Fruit Leather"
 
 [[cards]]
-text = "Fruit Roll-Up"
-
-[[cards]]
-text = "Rice Crispy Treat"
-
-[[cards]]
 text = "Gummy Bears"
 
 [[cards]]
@@ -118,9 +112,6 @@ text = "Pigs in a Blanket"
 
 [[cards]]
 text = "Nachos"
-
-[[cards]]
-text = "Mozzarella Sticks"
 
 [[cards]]
 text = "Jalapeno Poppers"
@@ -153,13 +144,7 @@ text = "Peanut Butter Cups"
 text = "Trail Mix"
 
 [[cards]]
-text = "Onion Rings"
-
-[[cards]]
 text = "Doritos"
-
-[[cards]]
-text = "French Fries"
 
 [[cards]]
 text = "Rice Cakes"
@@ -180,21 +165,6 @@ text = "Pita Chips"
 text = "Pizza Rolls"
 
 [[cards]]
-text = "Tater Tots"
-
-[[cards]]
-text = "Cotton Candy"
-
-[[cards]]
-text = "Chocolate Chip Cookie"
-
-[[cards]]
-text = "Brownies"
-
-[[cards]]
-text = "Cupcakes"
-
-[[cards]]
 text = "Sour Candy"
 
 [[cards]]
@@ -207,19 +177,10 @@ text = "Cheese Fries"
 text = "Toaster Pastry"
 
 [[cards]]
-text = "Yogurt Parfait"
-
-[[cards]]
 text = "Corn Dog"
 
 [[cards]]
 text = "Soft Baked Cookie"
-
-[[cards]]
-text = "BBQ Chips"
-
-[[cards]]
-text = "Buttered Popcorn"
 
 [[cards]]
 text = "Pretzel Twists"
@@ -237,12 +198,6 @@ text = "Cheese Puffs"
 text = "Chocolate Granola Bar"
 
 [[cards]]
-text = "Mild Salsa"
-
-[[cards]]
-text = "Cheese Dip"
-
-[[cards]]
 text = "Caramel Popcorn"
 
 [[cards]]
@@ -252,7 +207,19 @@ text = "Yogurt Raisins"
 text = "Peanut Butter Crackers"
 
 [[cards]]
-text = "Hummus and Pita"
+text = "Cheetos"
 
 [[cards]]
-text = "Salsa Dip"
+text = "Popcorn Chicken"
+
+[[cards]]
+text = "Pretzel Bites"
+
+[[cards]]
+text = "Rice Crackers"
+
+[[cards]]
+text = "Seaweed Snacks"
+
+[[cards]]
+text = "Pita Bread"

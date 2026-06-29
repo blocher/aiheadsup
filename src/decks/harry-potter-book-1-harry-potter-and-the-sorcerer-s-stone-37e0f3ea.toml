@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-1-harry-potter-and-the-sorcerer-s-stone_37e0f3ea"
-revision = 1
+revision = 2
 name = "Harry Potter Book 1: Harry Potter and the Sorcerer’s Stone"
 category = "Harry Potter"
 audience = "Family"
@@ -214,10 +214,6 @@ text = "Platform Nine and Three-Quarters"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Great Hall"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Gryffindor"
 first_revealed_installment = 1
 
@@ -242,23 +238,11 @@ text = "Quaffle"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Nimbus Two Thousand"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Wingardium Leviosa"
 first_revealed_installment = 1
 
 [[cards]]
 text = "Firenze"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Uncle Vernon"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Aunt Petunia"
 first_revealed_installment = 1
 
 [[cards]]
@@ -282,27 +266,7 @@ text = "Petrificus Totalus"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Sorting Hat"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Norbert the Dragon"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Rememberall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Centaur Firenze"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Quirrell's Turban"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Forbidden Forest"
 first_revealed_installment = 1
 
 [[cards]]
@@ -310,9 +274,17 @@ text = "Flying Keys"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Remembrall"
+text = "Hagrid's Hut"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Hagrid's Hut"
+text = "Mountain Troll"
+first_revealed_installment = 1
+
+[[cards]]
+text = "James Potter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lily Potter"
 first_revealed_installment = 1

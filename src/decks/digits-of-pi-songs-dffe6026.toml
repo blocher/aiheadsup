@@ -1,5 +1,5 @@
 id = "deck_digits-of-pi-songs_dffe6026"
-revision = 1
+revision = 2
 name = "Digits of Pi Songs"
 category = "Science"
 audience = "Family"
@@ -9,16 +9,7 @@ spoiler_mode = false
 photo_file_name = "digits-of-pi-songs-dffe6026-cover.jpg"
 
 [[cards]]
-text = "Apple Pie"
-
-[[cards]]
 text = "Greek Letter Pi"
-
-[[cards]]
-text = "Albert Einstein"
-
-[[cards]]
-text = "March 14th"
 
 [[cards]]
 text = "Circumference"
@@ -27,277 +18,124 @@ text = "Circumference"
 text = "Diameter"
 
 [[cards]]
-text = "Disco Ball"
-
-[[cards]]
-text = "Microphone"
-
-[[cards]]
-text = "Brain Expansion"
-
-[[cards]]
-text = "Marathon Runner"
-
-[[cards]]
-text = "Chalkboard"
-
-[[cards]]
-text = "Whiteboard Marker"
-
-[[cards]]
-text = "Sunglasses"
-
-[[cards]]
-text = "Stopwatch"
-
-[[cards]]
-text = "Calculator"
-
-[[cards]]
-text = "Drawing Compass"
-
-[[cards]]
-text = "Pizza Slice"
-
-[[cards]]
-text = "Infinite Sign"
-
-[[cards]]
-text = "Trophy"
-
-[[cards]]
-text = "Party Hat"
-
-[[cards]]
-text = "Rocket Ship"
-
-[[cards]]
-text = "William Jones"
-
-[[cards]]
-text = "Archimedes"
-
-[[cards]]
-text = "Supercomputer"
-
-[[cards]]
-text = "Protractor"
-
-[[cards]]
-text = "Guitar"
-
-[[cards]]
-text = "Periodic Table"
-
-[[cards]]
-text = "Lab Coat"
-
-[[cards]]
-text = "Lightbulb"
-
-[[cards]]
-text = "Globe"
-
-[[cards]]
-text = "Confetti Popper"
-
-[[cards]]
-text = "Buffon's Needle"
-
-[[cards]]
-text = "Memory Palace"
-
-[[cards]]
-text = "Stop Sign"
-
-[[cards]]
-text = "Bicycle Wheel"
-
-[[cards]]
-text = "Coffee Mug"
-
-[[cards]]
-text = "Gold Medal"
-
-[[cards]]
-text = "DJ Turntable"
-
-[[cards]]
-text = "Megaphone"
-
-[[cards]]
-text = "Telescope"
-
-[[cards]]
-text = "DNA Strand"
-
-[[cards]]
-text = "Atom"
-
-[[cards]]
-text = "Bar Graph"
-
-[[cards]]
-text = "Measuring Tape"
-
-[[cards]]
-text = "Hourglass"
-
-[[cards]]
-text = "Laser Pointer"
-
-[[cards]]
-text = "Ludolph van Ceulen"
-
-[[cards]]
-text = "Dartboard"
-
-[[cards]]
-text = "Musical Note"
-
-[[cards]]
-text = "Yellow Notepad"
-
-[[cards]]
-text = "Can-Can Music"
-
-[[cards]]
-text = "Dry Erase Marker"
-
-[[cards]]
-text = "Nerd Glasses"
-
-[[cards]]
-text = "Party Horn"
-
-[[cards]]
-text = "Confetti"
-
-[[cards]]
 text = "AsapSCIENCE"
-
-[[cards]]
-text = "Brain on Fire"
-
-[[cards]]
-text = "Sweatband"
-
-[[cards]]
-text = "Energy Drink"
-
-[[cards]]
-text = "Abacus"
-
-[[cards]]
-text = "Graduation Cap"
-
-[[cards]]
-text = "Pointer Finger"
-
-[[cards]]
-text = "Chalkboard Eraser"
-
-[[cards]]
-text = "Astronaut Helmet"
-
-[[cards]]
-text = "Alien"
-
-[[cards]]
-text = "DNA Helix"
-
-[[cards]]
-text = "Microscope"
-
-[[cards]]
-text = "Infinite Loop"
-
-[[cards]]
-text = "Laboratory Flask"
-
-[[cards]]
-text = "Test Tube"
-
-[[cards]]
-text = "Virtual Reality Headset"
-
-[[cards]]
-text = "Brain in a Jar"
-
-[[cards]]
-text = "Black Hole"
-
-[[cards]]
-text = "Time Machine"
-
-[[cards]]
-text = "T-Rex"
-
-[[cards]]
-text = "Fireworks"
-
-[[cards]]
-text = "Finish Line"
-
-[[cards]]
-text = "Crown"
-
-[[cards]]
-text = "Champagne Bottle"
-
-[[cards]]
-text = "Pumpkin Pie"
-
-[[cards]]
-text = "Can-Can Dance"
-
-[[cards]]
-text = "Helium Balloon"
-
-[[cards]]
-text = "Treadmill"
-
-[[cards]]
-text = "Whipped Cream"
 
 [[cards]]
 text = "Mitch and Greg"
 
 [[cards]]
-text = "Scientific Calculator"
+text = "Mountain King"
 
 [[cards]]
-text = "Banana Suit"
-
-[[cards]]
-text = "Einstein Wig"
-
-[[cards]]
-text = "Party Blower"
-
-[[cards]]
-text = "Sombrero"
-
-[[cards]]
-text = "Brain Model"
-
-[[cards]]
-text = "Can-Can Kicks"
-
-[[cards]]
-text = "Deep Voice"
-
-[[cards]]
-text = "Cherry Pie"
-
-[[cards]]
-text = "Triangle"
+text = "Blue Danube Waltz"
 
 [[cards]]
 text = "Pi Day"
 
 [[cards]]
-text = "Albert Einstein Mask"
+text = "Apple Pie"
 
 [[cards]]
-text = "Slice of Pumpkin Pie"
+text = "Cherry Pie"
+
+[[cards]]
+text = "Pumpkin Pie"
+
+[[cards]]
+text = "Where's the Wine?"
+
+[[cards]]
+text = "High Five"
+
+[[cards]]
+text = "Bag of Tricks"
+
+[[cards]]
+text = "Let's Make a Stew"
+
+[[cards]]
+text = "Eight Blue Flying Bats"
+
+[[cards]]
+text = "Two Gold Cats"
+
+[[cards]]
+text = "23 Shoes"
+
+[[cards]]
+text = "172 Screws"
+
+[[cards]]
+text = "Five Well-Dressed Small Dogs"
+
+[[cards]]
+text = "35-Hour Jobs"
+
+[[cards]]
+text = "Taste Your Tongue"
+
+[[cards]]
+text = "Close That Door"
+
+[[cards]]
+text = "Learn to Skate"
+
+[[cards]]
+text = "The Sun Was There"
+
+[[cards]]
+text = "The Sky Was Blue"
+
+[[cards]]
+text = "The Grass Said Whoa"
+
+[[cards]]
+text = "At the Zoo"
+
+[[cards]]
+text = "Cute Shrew"
+
+[[cards]]
+text = "Sterling Silver"
+
+[[cards]]
+text = "Down the Drain"
+
+[[cards]]
+text = "Watch This Plant Grow"
+
+[[cards]]
+text = "Leaves Reaching Upward"
+
+[[cards]]
+text = "Sunscreen"
+
+[[cards]]
+text = "SPF 36 or More"
+
+[[cards]]
+text = "67 Creatures"
+
+[[cards]]
+text = "Honey from the Bees"
+
+[[cards]]
+text = "Big Horseshoe"
+
+[[cards]]
+text = "The Archive"
+
+[[cards]]
+text = "DJ Mix"
+
+[[cards]]
+text = "Just Finding Random Words"
+
+[[cards]]
+text = "So Absurd"
+
+[[cards]]
+text = "Brag to Your Friends"
+
+[[cards]]
+text = "Halfway Done"

@@ -1,5 +1,5 @@
 id = "deck_high-school-level-world-history_d42e0cfe"
-revision = 1
+revision = 2
 name = "High School Level World History"
 category = "History"
 audience = "Family"
@@ -180,9 +180,6 @@ text = "Berlin Airlift"
 text = "Trans-Saharan Trade"
 
 [[cards]]
-text = "East India Company"
-
-[[cards]]
 text = "Otto von Bismarck"
 
 [[cards]]
@@ -199,9 +196,6 @@ text = "Magna Carta"
 
 [[cards]]
 text = "Treaty of Tordesillas"
-
-[[cards]]
-text = "Peace of Westphalia"
 
 [[cards]]
 text = "Congress of Vienna"
@@ -228,9 +222,6 @@ text = "Bolsheviks"
 text = "Opium Wars"
 
 [[cards]]
-text = "The Silk Road"
-
-[[cards]]
 text = "The Cold War"
 
 [[cards]]
@@ -238,9 +229,6 @@ text = "Berlin Wall"
 
 [[cards]]
 text = "Decolonization"
-
-[[cards]]
-text = "The Enlightenment"
 
 [[cards]]
 text = "Appeasement Policy"

@@ -1,5 +1,5 @@
 id = "deck_desserts-and-candy_ef83a356"
-revision = 1
+revision = 2
 name = "Desserts and Candy"
 category = "Food"
 audience = "Family"
@@ -159,15 +159,6 @@ text = "Caramel Popcorn"
 text = "Sorbet"
 
 [[cards]]
-text = "Chocolate Brownie"
-
-[[cards]]
-text = "Blueberry Muffin"
-
-[[cards]]
-text = "Glazed Donut"
-
-[[cards]]
 text = "Red Velvet Cake"
 
 [[cards]]
@@ -198,13 +189,22 @@ text = "Vanilla Ice Cream"
 text = "Gingerbread Man"
 
 [[cards]]
-text = "Sprinkles"
-
-[[cards]]
-text = "Waffles"
-
-[[cards]]
 text = "Blueberry Pie"
 
 [[cards]]
-text = "Chocolate Chip"
+text = "Rocky Road Ice Cream"
+
+[[cards]]
+text = "Nougat"
+
+[[cards]]
+text = "Salt Water Taffy"
+
+[[cards]]
+text = "Eclairs"
+
+[[cards]]
+text = "Profiteroles"
+
+[[cards]]
+text = "Rock Candy"

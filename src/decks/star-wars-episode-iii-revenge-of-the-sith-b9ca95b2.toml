@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-iii-revenge-of-the-sith_b9ca95b2"
-revision = 1
+revision = 2
 name = "Star Wars Episode III: Revenge of the Sith"
 category = "Star Wars"
 audience = "Family"
@@ -27,10 +27,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Order 66"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Varactyl"
 first_revealed_installment = 6
 
 [[cards]]
@@ -62,35 +58,11 @@ text = "Polis Massa"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Commander Gree"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Tion Medon"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Felucia"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Mygeeto"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Cato Neimoidia"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Saleucami"
+text = "Mas Amedda"
 first_revealed_installment = 6
 
 [[cards]]
 text = "ARC-170 Starfighter"
-first_revealed_installment = 6
-
-[[cards]]
-text = "V-wing Starfighter"
 first_revealed_installment = 6
 
 [[cards]]
@@ -102,31 +74,11 @@ text = "Wheel Bike"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Wookiee Catamaran"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Soulless One"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Pau'an"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Utai"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Clone Turbo Tank"
-first_revealed_installment = 6
-
-[[cards]]
-text = "AT-AP Walker"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Coruscant Opera House"
+text = "Galactic Opera House"
 first_revealed_installment = 6
 
 [[cards]]
@@ -134,35 +86,11 @@ text = "Mustafar Mining Complex"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Jedi Temple Beacon"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Clone Shock Trooper"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Clone Airborne Trooper"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Cin Drallig"
-first_revealed_installment = 6
-
-[[cards]]
-text = "J-type Star Skiff"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Battle of Coruscant"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Mustafar Duel"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Anakin's Betrayal"
 first_revealed_installment = 6
 
 [[cards]]
@@ -175,18 +103,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Birth of Luke"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Darth Vader's Mask"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Commander Neyo"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Clone Commander Appo"
 first_revealed_installment = 6
 
 [[cards]]
@@ -206,23 +122,23 @@ text = "Padmé's Funeral"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Obi-Wan's High Ground"
+text = "The High Ground"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Opera House"
+text = "Hello There"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Grievous's Wheel Bike"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Shock Troopers"
+text = "I Am the Senate"
 first_revealed_installment = 6
 
 [[cards]]
 text = "Jedi Purge"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Kashyyyk"
 first_revealed_installment = 6
 
 [[cards]]
@@ -278,10 +194,6 @@ text = "Tantive IV"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Kashyyyk"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Jedi Temple"
 first_revealed_installment = 4
 
@@ -322,13 +234,9 @@ text = "Kit Fisto"
 first_revealed_installment = 5
 
 [[cards]]
-text = "The High Ground"
-first_revealed_installment = 6
+text = "Nute Gunray"
+first_revealed_installment = 4
 
 [[cards]]
-text = "Galactic Opera House"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Jedi Interceptor"
-first_revealed_installment = 6
+text = "Darth Vader's Mask"
+first_revealed_installment = 1

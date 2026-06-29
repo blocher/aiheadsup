@@ -1,5 +1,5 @@
 id = "deck_sushi_58f131e2"
-revision = 1
+revision = 2
 name = "Sushi"
 category = "Food"
 audience = "Family"
@@ -162,15 +162,6 @@ text = "Green Tea Ice Cream"
 text = "Tempura Shrimp"
 
 [[cards]]
-text = "Yellowtail Fish"
-
-[[cards]]
-text = "Nori Sheets"
-
-[[cards]]
-text = "Bamboo Mat"
-
-[[cards]]
 text = "Green Tea"
 
 [[cards]]
@@ -195,9 +186,6 @@ text = "Sushi Chef"
 text = "Sake Cup"
 
 [[cards]]
-text = "Red Ginger"
-
-[[cards]]
 text = "Panko Breadcrumbs"
 
 [[cards]]
@@ -219,22 +207,22 @@ text = "Mirin"
 text = "Rice Vinegar"
 
 [[cards]]
-text = "Flying Fish Roe"
-
-[[cards]]
-text = "Shrimp Tempura"
-
-[[cards]]
-text = "Seaweed Sheet"
-
-[[cards]]
-text = "Fish Roe"
-
-[[cards]]
-text = "Wasabi Paste"
-
-[[cards]]
-text = "Seaweed Wrap"
-
-[[cards]]
 text = "Avocado"
+
+[[cards]]
+text = "Uni"
+
+[[cards]]
+text = "Hamachi"
+
+[[cards]]
+text = "Inari"
+
+[[cards]]
+text = "Uramaki"
+
+[[cards]]
+text = "Temaki"
+
+[[cards]]
+text = "Daikon Radish"

@@ -1,5 +1,5 @@
 id = "deck_harry-potter-main-characters_b5acd469"
-revision = 1
+revision = 2
 name = "Harry Potter: Main Characters"
 category = "Harry Potter"
 audience = "Family"
@@ -186,10 +186,6 @@ text = "Moaning Myrtle"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Nearly Headless Nick"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Seamus Finnigan"
 first_revealed_installment = 1
 
@@ -231,14 +227,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Vincent Crabbe"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor McGonagall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor Flitwick"
 first_revealed_installment = 1
 
 [[cards]]

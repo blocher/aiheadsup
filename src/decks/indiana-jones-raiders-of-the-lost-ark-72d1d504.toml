@@ -1,5 +1,5 @@
 id = "deck_indiana-jones-raiders-of-the-lost-ark_72d1d504"
-revision = 1
+revision = 2
 name = "Indiana Jones: Raiders of the Lost Ark"
 category = "Indiana Jones"
 audience = "Family"
@@ -22,10 +22,6 @@ text = "René Belloq"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Ark of the Covenant"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Sallah"
 first_revealed_installment = 1
 
@@ -38,79 +34,7 @@ text = "Marcus Brody"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Golden Idol"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Giant Boulder"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Staff of Ra"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Well of Souls"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Cairo Swordsman"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Reggie the Snake"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Jock Lindsey"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Flying Wing"
-first_revealed_installment = 1
-
-[[cards]]
-text = "German U-Boat"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Headpiece of Ra"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Map Room"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tanis Dig Site"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Bantu Wind"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Captain Katanga"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Poison Darts"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hovitos Tribe"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Raven Tavern"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Government Warehouse"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Giant German Mechanic"
+text = "Colonel Dietrich"
 first_revealed_installment = 1
 
 [[cards]]
@@ -118,19 +42,55 @@ text = "Satipo"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Top Men"
+text = "Jock Lindsey"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Bad Dates"
+text = "Captain Katanga"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Cairo Chase"
+text = "The Imam"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Truck Drag"
+text = "Cairo Swordsman"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Giant German Mechanic"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Reggie the Snake"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nazi Spy Monkey"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Army Intelligence Officers"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hovitos Tribe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ark of the Covenant"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Golden Idol"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Staff of Ra"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Headpiece Staff of Ra"
 first_revealed_installment = 1
 
 [[cards]]
@@ -142,47 +102,7 @@ text = "Fedora"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Colonel Dietrich"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Flying Boat"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Melting Face"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ghost Spirits"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ceremonial Robes"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Monkey Spy"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Submarine Base"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Poison Dart Trap"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Flying Wing Propeller"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Egyptian Cobras"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Marion's Frying Pan"
+text = "Bag of Sand"
 first_revealed_installment = 1
 
 [[cards]]
@@ -190,7 +110,19 @@ text = "Red Line Map"
 first_revealed_installment = 1
 
 [[cards]]
-text = "German Convoy"
+text = "Ceremonial Robes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Well of Souls"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Map Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tanis Dig Site"
 first_revealed_installment = 1
 
 [[cards]]
@@ -198,39 +130,11 @@ text = "Chachapoyan Temple"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Golden Idol Pedestal"
+text = "Government Warehouse"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Cobwebs"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Nazi Desert Camp"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Arnold Toht"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Giant Rolling Boulder"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Peruvian Temple"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Map Room"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Indy's Bullwhip"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Indy's Fedora"
+text = "Marshall College"
 first_revealed_installment = 1
 
 [[cards]]
@@ -246,23 +150,43 @@ text = "Cairo"
 first_revealed_installment = 1
 
 [[cards]]
-text = "German Flying Wing"
+text = "Submarine Base"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Poisoned Dates"
+text = "Nazi Desert Camp"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Spy Monkey"
+text = "Flying Wing"
 first_revealed_installment = 1
 
 [[cards]]
-text = "The Imam"
+text = "German U-Boat"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Desert Truck Chase"
+text = "Pan Am Flying Boat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "German Truck Convoy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Giant Boulder"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cairo Chase"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dragged Under the Truck"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Melting Face"
 first_revealed_installment = 1
 
 [[cards]]
@@ -270,31 +194,19 @@ text = "Ark Spirits"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Secret Government Warehouse"
+text = "Drinking Contest"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Marshall College"
+text = "Bad Dates"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Army Intelligence Officers"
+text = "Top Men"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Red Map Line"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Booby-Trapped Temple"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Chamber of Snakes"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tarantulas"
+text = "Basket Chase"
 first_revealed_installment = 1
 
 [[cards]]
@@ -302,45 +214,9 @@ text = "Asps"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Katanga's Ship"
+text = "Tarantulas"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Drinking Contest"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Belloq's Panama Hat"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Raven Bar"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Bantu Wind"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Cairo Market"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Jock's Floatplane"
-first_revealed_installment = 1
-
-[[cards]]
-text = "German Submarine"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Major Arnold Toht"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tanis"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Flying Wing"
+text = "Poison Dart Trap"
 first_revealed_installment = 1

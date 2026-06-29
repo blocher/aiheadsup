@@ -1,5 +1,5 @@
 id = "deck_new-testament-stories_d4539714"
-revision = 1
+revision = 2
 name = "New Testament Stories"
 category = "Religion and Mythology"
 audience = "Family"
@@ -159,19 +159,7 @@ text = "Mary and Martha"
 text = "Timothy"
 
 [[cards]]
-text = "Jesus Christ"
-
-[[cards]]
-text = "Apostle Peter"
-
-[[cards]]
-text = "Apostle Paul"
-
-[[cards]]
 text = "Barnabas"
-
-[[cards]]
-text = "Douting Thomas"
 
 [[cards]]
 text = "Jerusalem"
@@ -181,9 +169,6 @@ text = "Island of Patmos"
 
 [[cards]]
 text = "The Crucifixion"
-
-[[cards]]
-text = "Water Into Wine"
 
 [[cards]]
 text = "The Transfiguration"
@@ -207,9 +192,6 @@ text = "Swaddling Clothes"
 text = "Book of Revelation"
 
 [[cards]]
-text = "The Road to Damascus"
-
-[[cards]]
 text = "The Wise Men"
 
 [[cards]]
@@ -225,40 +207,10 @@ text = "Raising of Lazarus"
 text = "Pearl of Great Price"
 
 [[cards]]
-text = "The Armor of God"
-
-[[cards]]
-text = "Calvary"
-
-[[cards]]
 text = "House on the Rock"
 
 [[cards]]
 text = "Road to Emmaus"
 
 [[cards]]
-text = "Zacchaeus the Tax Collector"
-
-[[cards]]
-text = "The Isle of Patmos"
-
-[[cards]]
-text = "Paul the Apostle"
-
-[[cards]]
-text = "The Star of Bethlehem"
-
-[[cards]]
-text = "The Mount of Olives"
-
-[[cards]]
 text = "The Wedding at Cana"
-
-[[cards]]
-text = "The Garden of Gethsemane"
-
-[[cards]]
-text = "The Sea of Galilee"
-
-[[cards]]
-text = "The Road to Emmaus"

@@ -1,5 +1,5 @@
 id = "deck_harry-potter-hogwarts-houses_05817c99"
-revision = 1
+revision = 2
 name = "Harry Potter: Hogwarts Houses"
 category = "Harry Potter"
 audience = "Family"
@@ -46,22 +46,6 @@ text = "The Sorting Hat"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Sword of Gryffindor"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Slytherin's Locket"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Ravenclaw's Diadem"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Hufflepuff's Cup"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Nearly Headless Nick"
 first_revealed_installment = 1
 
@@ -82,58 +66,6 @@ text = "The Fat Lady"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Harry Potter"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hermione Granger"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ron Weasley"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Draco Malfoy"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Severus Snape"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Albus Dumbledore"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Minerva McGonagall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Luna Lovegood"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Cho Chang"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Cedric Diggory"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Nymphadora Tonks"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Professor Sprout"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Gilderoy Lockhart"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Gryffindor Common Room"
 first_revealed_installment = 1
 
@@ -147,22 +79,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "The Great Hall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Gryffindor Lion"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Slytherin Serpent"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ravenclaw Eagle"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hufflepuff Badger"
 first_revealed_installment = 1
 
 [[cards]]
@@ -206,10 +122,6 @@ text = "Quidditch Captain"
 first_revealed_installment = 1
 
 [[cards]]
-text = "House Point Hourglasses"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Lion"
 first_revealed_installment = 1
 
@@ -250,41 +162,5 @@ text = "Wit"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Courage"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Ambition"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Lord Voldemort"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Sorting Hat"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Slytherin Locket"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Ravenclaw Diadem"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Hufflepuff Cup"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Slytherin Dungeon"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Neville Longbottom"
-first_revealed_installment = 1
-
-[[cards]]
-text = "House Ghost"
 first_revealed_installment = 1

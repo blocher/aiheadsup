@@ -1,5 +1,5 @@
 id = "deck_liturgy_ae2c847d"
-revision = 1
+revision = 2
 name = "Liturgy"
 category = "Religion and Mythology"
 audience = "Family"
@@ -165,13 +165,7 @@ text = "Pew"
 text = "Crosier"
 
 [[cards]]
-text = "Thurible"
-
-[[cards]]
 text = "Aspergillum"
-
-[[cards]]
-text = "Holy Matrimony"
 
 [[cards]]
 text = "Liturgy of the Word"
@@ -216,19 +210,10 @@ text = "Kneeling"
 text = "Crucifer"
 
 [[cards]]
-text = "Genuflect"
-
-[[cards]]
 text = "Advent Wreath"
 
 [[cards]]
 text = "Processional Cross"
-
-[[cards]]
-text = "The Doxology"
-
-[[cards]]
-text = "Holy Thursday"
 
 [[cards]]
 text = "Collect Prayer"
@@ -246,16 +231,7 @@ text = "Communion Rail"
 text = "Alleluia"
 
 [[cards]]
-text = "Incense Burner"
-
-[[cards]]
 text = "Passing the Peace"
 
 [[cards]]
 text = "Hymn"
-
-[[cards]]
-text = "Eucharist"
-
-[[cards]]
-text = "Passing of the Peace"

@@ -1,5 +1,5 @@
 id = "deck_human-body_1fd0a302"
-revision = 1
+revision = 2
 name = "Human Body"
 category = "Science"
 audience = "Family"
@@ -205,12 +205,3 @@ text = "Nerve"
 
 [[cards]]
 text = "Reflex"
-
-[[cards]]
-text = "Windpipe"
-
-[[cards]]
-text = "Skeleton"
-
-[[cards]]
-text = "Reflexes"

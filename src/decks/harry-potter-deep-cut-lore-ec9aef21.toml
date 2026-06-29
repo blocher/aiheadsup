@@ -1,5 +1,5 @@
 id = "deck_harry-potter-deep-cut-lore_ec9aef21"
-revision = 1
+revision = 2
 name = "Harry Potter: Deep Cut Lore"
 category = "Harry Potter"
 audience = "Family"
@@ -42,27 +42,7 @@ text = "Dedalus Diggle"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Madam Malkin"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Armando Dippet"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Mafalda Hopkirk"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Hand of Glory"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Vanishing Cabinet"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Aragog"
 first_revealed_installment = 2
 
 [[cards]]
@@ -87,14 +67,6 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "The Weird Sisters"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Ludo Bagman"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Winky"
 first_revealed_installment = 4
 
 [[cards]]
@@ -130,19 +102,7 @@ text = "Elladora Black"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Griselda Marchbanks"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Professor Tofty"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Broderick Bode"
-first_revealed_installment = 5
-
-[[cards]]
-text = "St. Mungo's"
 first_revealed_installment = 5
 
 [[cards]]
@@ -186,24 +146,8 @@ text = "Mrs. Cole"
 first_revealed_installment = 6
 
 [[cards]]
-text = "Wilkie Twycross"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Galatea Merrythought"
 first_revealed_installment = 6
-
-[[cards]]
-text = "Reginald Cattermole"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Albert Runcorn"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Delphi Diggory"
-first_revealed_installment = 8
 
 [[cards]]
 text = "Craig Bowker Jr."
@@ -278,10 +222,6 @@ text = "Mimbulus Mimbletonia"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Opal Necklace"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Sturgis Podmore"
 first_revealed_installment = 5
 
@@ -311,10 +251,6 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Gideon Prewett"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Regulus Black"
 first_revealed_installment = 5
 
 [[cards]]
@@ -350,32 +286,16 @@ text = "Aberforth Dumbledore"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Delphini"
-first_revealed_installment = 8
-
-[[cards]]
-text = "Blast-Ended Skrewt"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Gurg"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Hog's Head Tavern"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Barney Weasley"
+text = "Barny Weasley"
 first_revealed_installment = 7
 
 [[cards]]
 text = "Madam Marsh"
 first_revealed_installment = 3
-
-[[cards]]
-text = "Nicholas de Mimsy-Porpington"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Barnaby the Barmy"
@@ -388,10 +308,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Grunnings Drill Company"
 first_revealed_installment = 1
-
-[[cards]]
-text = "The Hand of Glory"
-first_revealed_installment = 2
 
 [[cards]]
 text = "The Deathday Party"

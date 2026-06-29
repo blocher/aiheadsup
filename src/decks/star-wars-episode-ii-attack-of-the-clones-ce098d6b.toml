@@ -1,5 +1,5 @@
 id = "deck_star-wars-episode-ii-attack-of-the-clones_ce098d6b"
-revision = 1
+revision = 2
 name = "Star Wars Episode II: Attack of the Clones"
 category = "Star Wars"
 audience = "Family"
@@ -58,20 +58,8 @@ text = "Acklay"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Geonosian Arena"
+text = "Petranaki Arena"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Padmé Amidala"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Anakin Skywalker"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Obi-Wan Kenobi"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Jocasta Nu"
@@ -86,24 +74,8 @@ text = "Geonosians"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Boba Fett"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Shmi Skywalker"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Cliegg Lars"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Owen Lars"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Beru Lars"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Death Sticks"
@@ -122,11 +94,7 @@ text = "Jedi Starfighter"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Slave I"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Droid Factory"
+text = "Geonosian Droid Factory"
 first_revealed_installment = 5
 
 [[cards]]
@@ -154,15 +122,7 @@ text = "Count Dooku's Lightsaber"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Purple Lightsaber"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Mace Windu"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Yoda's Lightsaber Duel"
+text = "Yoda vs Count Dooku"
 first_revealed_installment = 5
 
 [[cards]]
@@ -174,7 +134,7 @@ text = "Captain Typho"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Shaak"
+text = "Shaak Ti"
 first_revealed_installment = 5
 
 [[cards]]
@@ -206,14 +166,6 @@ text = "Tusken Raider Camp"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Senator Palpatine"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Petranaki Arena"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Seismic Charge"
 first_revealed_installment = 5
 
@@ -227,14 +179,6 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "San Hill"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Kamino Sabre Dart"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Senator Bail Organa"
 first_revealed_installment = 5
 
 [[cards]]
@@ -270,10 +214,6 @@ text = "Kaminoan"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Clone Army"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Jedi Archives"
 first_revealed_installment = 5
 
@@ -283,10 +223,6 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Jedi Younglings"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Geonosian Droid Factory"
 first_revealed_installment = 5
 
 [[cards]]
@@ -300,3 +236,59 @@ first_revealed_installment = 5
 [[cards]]
 text = "Kouhun"
 first_revealed_installment = 5
+
+[[cards]]
+text = "R4-P17"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Anakin's Prosthetic Hand"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé Amidala"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Anakin Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Boba Fett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shmi Skywalker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Owen Lars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beru Lars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Slave I"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mace Windu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Senator Palpatine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1

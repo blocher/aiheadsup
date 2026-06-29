@@ -1,5 +1,5 @@
 id = "deck_harry-potter-wizarding-places_d743a471"
-revision = 1
+revision = 2
 name = "Harry Potter: Wizarding Places"
 category = "Harry Potter"
 audience = "Family"
@@ -52,10 +52,6 @@ first_revealed_installment = 1
 [[cards]]
 text = "Slytherin Common Room"
 first_revealed_installment = 2
-
-[[cards]]
-text = "Hagrid's Cabin"
-first_revealed_installment = 1
 
 [[cards]]
 text = "The Forbidden Forest"
@@ -146,10 +142,6 @@ text = "Prefects' Bathroom"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Little Hangleton Cemetery"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Quidditch World Cup Campsite"
 first_revealed_installment = 4
 
@@ -171,10 +163,6 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Lovegood House"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Nurmengard Castle"
 first_revealed_installment = 7
 
 [[cards]]
@@ -206,10 +194,6 @@ text = "Divination Classroom"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Headmaster's Office"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Hagrid's Hut"
 first_revealed_installment = 1
 
@@ -220,22 +204,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Dumbledore's Office"
 first_revealed_installment = 2
-
-[[cards]]
-text = "The Chamber of Secrets"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Gringotts Bank"
-first_revealed_installment = 1
-
-[[cards]]
-text = "The Hog's Head"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Grimmauld Place"
-first_revealed_installment = 5
 
 [[cards]]
 text = "Little Hangleton Graveyard"
@@ -262,30 +230,6 @@ text = "Nurmengard"
 first_revealed_installment = 7
 
 [[cards]]
-text = "The Crystal Cave"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Gringotts"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hogsmeade"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Forbidden Forest"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Hogwarts Great Hall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Ollivanders Wand Shop"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Moaning Myrtle's Bathroom"
 first_revealed_installment = 2
 
@@ -296,19 +240,3 @@ first_revealed_installment = 4
 [[cards]]
 text = "Durmstrang Ship"
 first_revealed_installment = 4
-
-[[cards]]
-text = "The Astronomy Tower"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Great Hall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Azkaban"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Shrieking Shack"
-first_revealed_installment = 3

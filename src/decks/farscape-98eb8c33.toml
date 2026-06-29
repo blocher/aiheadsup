@@ -1,5 +1,5 @@
 id = "deck_farscape_98eb8c33"
-revision = 1
+revision = 2
 name = "Farscape"
 category = "TV Shows"
 audience = "Family"
@@ -57,10 +57,22 @@ text = "Noranti"
 text = "Harvey"
 
 [[cards]]
+text = "Commandant Grayza"
+
+[[cards]]
+text = "Jack Crichton"
+
+[[cards]]
+text = "Jothee"
+
+[[cards]]
 text = "DRD"
 
 [[cards]]
 text = "Starburst"
+
+[[cards]]
+text = "Starburst Chamber"
 
 [[cards]]
 text = "Peacekeepers"
@@ -69,10 +81,22 @@ text = "Peacekeepers"
 text = "Scarrans"
 
 [[cards]]
+text = "Scarran Empire"
+
+[[cards]]
 text = "Sebacean"
 
 [[cards]]
+text = "Sebacean Heat"
+
+[[cards]]
 text = "Luxan"
+
+[[cards]]
+text = "Luxan Hyper-Rage"
+
+[[cards]]
+text = "Luxan Tongue"
 
 [[cards]]
 text = "Delvian"
@@ -81,7 +105,34 @@ text = "Delvian"
 text = "Hynerian"
 
 [[cards]]
+text = "Hyneria"
+
+[[cards]]
 text = "Nebari"
+
+[[cards]]
+text = "Nebari Resistance"
+
+[[cards]]
+text = "Nebari Establishment"
+
+[[cards]]
+text = "Nebari Mind Cleansing"
+
+[[cards]]
+text = "Banik"
+
+[[cards]]
+text = "Halosians"
+
+[[cards]]
+text = "Diagnosan"
+
+[[cards]]
+text = "Leviathan"
+
+[[cards]]
+text = "The Ancients"
 
 [[cards]]
 text = "Qualta Blade"
@@ -90,7 +141,16 @@ text = "Qualta Blade"
 text = "Pulse Pistol"
 
 [[cards]]
+text = "Winona"
+
+[[cards]]
 text = "Wormhole Weapon"
+
+[[cards]]
+text = "Wormholes"
+
+[[cards]]
+text = "Wormhole Map"
 
 [[cards]]
 text = "Transport Pod"
@@ -99,79 +159,19 @@ text = "Transport Pod"
 text = "Command Carrier"
 
 [[cards]]
-text = "Uncharted Territories"
-
-[[cards]]
 text = "Prowler"
 
 [[cards]]
 text = "Marauder"
 
 [[cards]]
-text = "Gammak Base"
-
-[[cards]]
-text = "Winona"
-
-[[cards]]
-text = "Stark's Mask"
-
-[[cards]]
-text = "Diagnosan"
-
-[[cards]]
-text = "Tormented Space"
-
-[[cards]]
-text = "Wormholes"
-
-[[cards]]
-text = "Jothee"
-
-[[cards]]
-text = "Katratzi"
+text = "Farscape-1"
 
 [[cards]]
 text = "Lo'La"
 
 [[cards]]
-text = "Luxan Hyper-Rage"
-
-[[cards]]
-text = "PK Tech Girl"
-
-[[cards]]
-text = "Leviathan"
-
-[[cards]]
-text = "The Peacekeeper Wars"
-
-[[cards]]
-text = "Crackers Don't Matter"
-
-[[cards]]
-text = "Commandant Grayza"
-
-[[cards]]
-text = "Nebari Mind Cleansing"
-
-[[cards]]
-text = "Jack Crichton"
-
-[[cards]]
-text = "Wormhole Map"
-
-[[cards]]
 text = "Aurora Chair"
-
-[[cards]]
-text = "The Uncharted Territories"
-
-[[cards]]
-text = "The Ancients"
-
-[[cards]]
-text = "Banik"
 
 [[cards]]
 text = "Tavlek Gauntlet"
@@ -180,7 +180,28 @@ text = "Tavlek Gauntlet"
 text = "Cryo-Suit"
 
 [[cards]]
-text = "Halosians"
+text = "Stark's Mask"
+
+[[cards]]
+text = "Neural Clone"
+
+[[cards]]
+text = "Translator Microbes"
+
+[[cards]]
+text = "The Budong"
+
+[[cards]]
+text = "Uncharted Territories"
+
+[[cards]]
+text = "Tormented Space"
+
+[[cards]]
+text = "Gammak Base"
+
+[[cards]]
+text = "Katratzi"
 
 [[cards]]
 text = "Frell"
@@ -189,52 +210,10 @@ text = "Frell"
 text = "Dren"
 
 [[cards]]
-text = "Starburst Chamber"
+text = "PK Tech Girl"
 
 [[cards]]
-text = "Nebari Resistance"
+text = "Crackers Don't Matter"
 
 [[cards]]
-text = "Peacekeeper Wars"
-
-[[cards]]
-text = "Zhaan"
-
-[[cards]]
-text = "Wormhole Technology"
-
-[[cards]]
-text = "Farscape One"
-
-[[cards]]
-text = "Sebacean Heat"
-
-[[cards]]
-text = "Luxan Tongue"
-
-[[cards]]
-text = "Delvian Pa'u"
-
-[[cards]]
-text = "Hynerian Noble"
-
-[[cards]]
-text = "Neural Clone"
-
-[[cards]]
-text = "The Budong"
-
-[[cards]]
-text = "Farscape-1"
-
-[[cards]]
-text = "Scarran Empire"
-
-[[cards]]
-text = "Nebari Establishment"
-
-[[cards]]
-text = "Hyneria"
-
-[[cards]]
-text = "Translator Microbes"
+text = "The Peacekeeper Wars"

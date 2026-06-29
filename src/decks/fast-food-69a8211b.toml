@@ -1,5 +1,5 @@
 id = "deck_fast-food_69a8211b"
-revision = 1
+revision = 2
 name = "Fast Food"
 category = "Food"
 audience = "Family"
@@ -90,13 +90,7 @@ text = "Big Mac"
 text = "Whopper"
 
 [[cards]]
-text = "Toy Surprise"
-
-[[cards]]
 text = "Paper Bag"
-
-[[cards]]
-text = "Plastic Straw"
 
 [[cards]]
 text = "Ice Cream Machine"
@@ -129,16 +123,10 @@ text = "Dairy Queen"
 text = "Dunkin' Donuts"
 
 [[cards]]
-text = "Pizza Delivery"
-
-[[cards]]
 text = "Chicken Bucket"
 
 [[cards]]
 text = "Honey Mustard"
-
-[[cards]]
-text = "Onion Petals"
 
 [[cards]]
 text = "Bacon Cheeseburger"
@@ -153,28 +141,13 @@ text = "Chili Cheese Fries"
 text = "Garlic Bread"
 
 [[cards]]
-text = "Mozzarella Bites"
-
-[[cards]]
 text = "Drive-In"
-
-[[cards]]
-text = "Ketchup Packet"
 
 [[cards]]
 text = "Yellow Mustard"
 
 [[cards]]
-text = "Warm Apple Pie"
-
-[[cards]]
-text = "Kids Meal Toy"
-
-[[cards]]
 text = "Bacon Double Cheeseburger"
-
-[[cards]]
-text = "Brown Paper Bag"
 
 [[cards]]
 text = "Breakfast Burrito"
@@ -225,25 +198,13 @@ text = "Value Menu"
 text = "Paper Napkins"
 
 [[cards]]
-text = "Onion Ring Tower"
-
-[[cards]]
 text = "Ranch Dressing"
-
-[[cards]]
-text = "Cheesy Quesadilla"
-
-[[cards]]
-text = "Fish and Chips"
 
 [[cards]]
 text = "Crushed Ice"
 
 [[cards]]
 text = "Loaded Potato Skins"
-
-[[cards]]
-text = "Drive-Thru"
 
 [[cards]]
 text = "Spicy Chicken Sandwich"
@@ -255,13 +216,28 @@ text = "Dipping Sauce"
 text = "Soft Drink"
 
 [[cards]]
-text = "Ice Cream Cone"
-
-[[cards]]
-text = "Extra Napkins"
-
-[[cards]]
 text = "Double Cheeseburger"
 
 [[cards]]
 text = "Taco"
+
+[[cards]]
+text = "Chick-fil-A"
+
+[[cards]]
+text = "Five Guys"
+
+[[cards]]
+text = "In-N-Out Burger"
+
+[[cards]]
+text = "Sonic Drive-In"
+
+[[cards]]
+text = "Arby's"
+
+[[cards]]
+text = "McFlurry"
+
+[[cards]]
+text = "Filet-O-Fish"

@@ -1,5 +1,5 @@
 id = "deck_baseball_fbb9f577"
-revision = 1
+revision = 2
 name = "Baseball"
 category = "Sports"
 audience = "Family"
@@ -162,9 +162,6 @@ text = "Shohei Ohtani"
 text = "Catcher's Mitt"
 
 [[cards]]
-text = "Green Monster"
-
-[[cards]]
 text = "Designated Hitter"
 
 [[cards]]
@@ -228,16 +225,10 @@ text = "Relief Pitcher"
 text = "Full Count"
 
 [[cards]]
-text = "Batter's Helmet"
-
-[[cards]]
 text = "Extra Innings"
 
 [[cards]]
 text = "Bunt Single"
-
-[[cards]]
-text = "Philly Phanatic"
 
 [[cards]]
 text = "Home Run Derby"

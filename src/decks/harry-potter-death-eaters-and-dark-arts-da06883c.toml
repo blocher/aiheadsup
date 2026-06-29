@@ -1,5 +1,5 @@
 id = "deck_harry-potter-death-eaters-and-dark-arts_da06883c"
-revision = 1
+revision = 2
 name = "Harry Potter: Death Eaters and Dark Arts"
 category = "Harry Potter"
 audience = "Family"
@@ -206,10 +206,6 @@ text = "Chamber of Secrets"
 first_revealed_installment = 2
 
 [[cards]]
-text = "The Department of Mysteries"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Horcrux"
 first_revealed_installment = 6
 
@@ -224,10 +220,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Department of Mysteries"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Horcrux Cave"
-first_revealed_installment = 6
 
 [[cards]]
 text = "Little Hangleton Graveyard"
@@ -262,44 +254,12 @@ text = "Mulciber"
 first_revealed_installment = 4
 
 [[cards]]
-text = "The Augurey"
-first_revealed_installment = 8
-
-[[cards]]
 text = "For the Greater Good"
 first_revealed_installment = 7
 
 [[cards]]
-text = "Lestranges' Vault"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The Hand of Glory"
-first_revealed_installment = 2
-
-[[cards]]
 text = "The Gaunt Shack"
 first_revealed_installment = 6
-
-[[cards]]
-text = "Salazar Slytherin's Locket"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Helga Hufflepuff's Cup"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Rowena Ravenclaw's Diadem"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The Drink of Despair"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Vanishing Cabinet"
-first_revealed_installment = 2
 
 [[cards]]
 text = "The Lestrange Vault"
@@ -310,25 +270,9 @@ text = "The Veil"
 first_revealed_installment = 5
 
 [[cards]]
-text = "The Snatchers"
-first_revealed_installment = 7
-
-[[cards]]
-text = "The Taboo Curse"
-first_revealed_installment = 7
-
-[[cards]]
 text = "Walburga Black"
 first_revealed_installment = 5
 
 [[cards]]
 text = "Pius Thicknesse"
 first_revealed_installment = 7
-
-[[cards]]
-text = "Inferius"
-first_revealed_installment = 6
-
-[[cards]]
-text = "The Opal Necklace"
-first_revealed_installment = 2

@@ -1,5 +1,5 @@
 id = "deck_kennywood-deep-cuts_df19753d"
-revision = 1
+revision = 2
 name = "Kennywood: Deep Cuts"
 category = "Western PA Themeparks"
 audience = "Family"
@@ -105,9 +105,6 @@ text = "Dipper"
 text = "Scenic Railway"
 
 [[cards]]
-text = "Racer Ravine"
-
-[[cards]]
 text = "Hard Headed Harold"
 
 [[cards]]
@@ -120,10 +117,7 @@ text = "Parkside Cafe"
 text = "Pagoda"
 
 [[cards]]
-text = "Sanger Hall"
-
-[[cards]]
-text = "SS Kennywood"
+text = "S.S. Kenny"
 
 [[cards]]
 text = "Monongahela River Overlook"
@@ -153,10 +147,7 @@ text = "Sky Rocket"
 text = "Thomas Town"
 
 [[cards]]
-text = "Playland"
-
-[[cards]]
-text = "Thunderbolt Double Dip"
+text = "Playdium Arcade"
 
 [[cards]]
 text = "The Old Mill"
@@ -186,9 +177,6 @@ text = "Phantom Fright Nights"
 text = "Fall Fantasy Parade"
 
 [[cards]]
-text = "The Exterminator"
-
-[[cards]]
 text = "Musik Express"
 
 [[cards]]
@@ -198,25 +186,10 @@ text = "Jack Rabbit Double Dip"
 text = "Thunderbolt Ravine"
 
 [[cards]]
-text = "Racer Parallel Tracks"
-
-[[cards]]
 text = "Kennywood Lagoon"
 
 [[cards]]
-text = "Pagoda Food Stand"
-
-[[cards]]
-text = "George Washington Statue"
-
-[[cards]]
-text = "Laser Storm"
-
-[[cards]]
 text = "Kiddieland"
-
-[[cards]]
-text = "Gran Prix Bumper Cars"
 
 [[cards]]
 text = "Wonder Wheel"
@@ -225,28 +198,10 @@ text = "Wonder Wheel"
 text = "Roll-O-Plane"
 
 [[cards]]
-text = "The Dipper"
-
-[[cards]]
 text = "Swing Shot"
 
 [[cards]]
 text = "Skycoaster"
-
-[[cards]]
-text = "The Laser Loop"
-
-[[cards]]
-text = "The Gold Rusher"
-
-[[cards]]
-text = "The Tumble Bug"
-
-[[cards]]
-text = "The Caterpillar"
-
-[[cards]]
-text = "The Flying Carpet"
 
 [[cards]]
 text = "Potato Patch Cheese"
@@ -258,13 +213,4 @@ text = "Moebius Loop Racer"
 text = "The Whip"
 
 [[cards]]
-text = "Volcano Ride"
-
-[[cards]]
 text = "Luna Park"
-
-[[cards]]
-text = "The Whip Pavilion"
-
-[[cards]]
-text = "Noah's Ark Whale"

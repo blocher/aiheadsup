@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-penguins_b87fceb6"
-revision = 1
+revision = 2
 name = "Pittsburgh Penguins"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -43,9 +43,6 @@ text = "Mellon Arena"
 
 [[cards]]
 text = "Black and Gold"
-
-[[cards]]
-text = "Robo-Penguin"
 
 [[cards]]
 text = "Badger Bob Johnson"
@@ -94,9 +91,6 @@ text = "Back-To-Back Cups"
 
 [[cards]]
 text = "Lord Stanley"
-
-[[cards]]
-text = "Victory Parade"
 
 [[cards]]
 text = "Diagonal Pittsburgh Jersey"
@@ -156,16 +150,10 @@ text = "Vegas Gold"
 text = "Locker Room Celebration"
 
 [[cards]]
-text = "Overtime Game Winner"
-
-[[cards]]
 text = "Phil Kessel"
 
 [[cards]]
 text = "Mike Sullivan"
-
-[[cards]]
-text = "It's A Great Day"
 
 [[cards]]
 text = "Skating Penguin"
@@ -216,31 +204,10 @@ text = "Crosby's Backhand"
 text = "Patric Hornqvist"
 
 [[cards]]
-text = "The Horn Guy"
-
-[[cards]]
 text = "Great Day For Hockey"
-
-[[cards]]
-text = "The Goal Horn"
 
 [[cards]]
 text = "Zombie Nation"
 
 [[cards]]
 text = "Stanley Cup Parade"
-
-[[cards]]
-text = "The Winter Classic"
-
-[[cards]]
-text = "Pittsburgh Gold"
-
-[[cards]]
-text = "The Civic Arena"
-
-[[cards]]
-text = "Back-to-Back Champions"
-
-[[cards]]
-text = "Lord Stanley's Cup"

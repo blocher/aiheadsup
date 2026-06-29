@@ -1,5 +1,5 @@
 id = "deck_advanced-greek-mythology_c3aff072"
-revision = 1
+revision = 2
 name = "Advanced Greek Mythology"
 category = "Religion and Mythology"
 audience = "Family"
@@ -165,9 +165,6 @@ text = "Zagreus"
 text = "The Telchines"
 
 [[cards]]
-text = "Erichthonius of Athens"
-
-[[cards]]
 text = "Phrixus and Helle"
 
 [[cards]]
@@ -210,13 +207,7 @@ text = "Marsyas the Satyr"
 text = "Linus of Thrace"
 
 [[cards]]
-text = "The Cercopes"
-
-[[cards]]
 text = "Chrysaor"
-
-[[cards]]
-text = "Ladon the Dragon"
 
 [[cards]]
 text = "Achelous the River God"
@@ -279,12 +270,6 @@ text = "The Graeae Sisters"
 text = "Orestes and Pylades"
 
 [[cards]]
-text = "The Empusa"
-
-[[cards]]
-text = "Orthrus the Two-Headed Dog"
-
-[[cards]]
 text = "Niobe's Tears"
 
 [[cards]]
@@ -295,9 +280,6 @@ text = "Procrustes' Bed"
 
 [[cards]]
 text = "Ixion's Wheel"
-
-[[cards]]
-text = "The Aloadae"
 
 [[cards]]
 text = "Philyra"

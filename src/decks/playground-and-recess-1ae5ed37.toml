@@ -1,5 +1,5 @@
 id = "deck_playground-and-recess_1ae5ed37"
-revision = 1
+revision = 2
 name = "Playground and Recess"
 category = "Kids"
 audience = "Family"
@@ -159,15 +159,6 @@ text = "Buddy Bench"
 text = "Wood Chips"
 
 [[cards]]
-text = "Soccer"
-
-[[cards]]
-text = "Basketball"
-
-[[cards]]
-text = "Bubble Wand"
-
-[[cards]]
 text = "Double Dutch"
 
 [[cards]]
@@ -204,12 +195,6 @@ text = "Wallball"
 text = "Heads Up Seven Up"
 
 [[cards]]
-text = "Line Up"
-
-[[cards]]
-text = "Swings"
-
-[[cards]]
 text = "Monkey Rings"
 
 [[cards]]
@@ -219,10 +204,4 @@ text = "Obstacle Course"
 text = "Taking Turns"
 
 [[cards]]
-text = "Tic Tac Toe"
-
-[[cards]]
 text = "Jumping Jacks"
-
-[[cards]]
-text = "Referee Whistle"

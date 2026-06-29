@@ -1,5 +1,5 @@
 id = "deck_star-wars-general-lore_37ae6799"
-revision = 1
+revision = 2
 name = "Star Wars: General Lore"
 category = "Star Wars"
 audience = "Family"
@@ -86,10 +86,6 @@ text = "Death Star II"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Midichlorians"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Watto"
 first_revealed_installment = 4
 
@@ -107,10 +103,6 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Kaminoan"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Geonosian Arena"
 first_revealed_installment = 5
 
 [[cards]]
@@ -254,10 +246,6 @@ text = "Dex's Diner"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Kamino Cloning Facility"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Kit Fisto"
 first_revealed_installment = 5
 
@@ -364,14 +352,6 @@ first_revealed_installment = 8
 [[cards]]
 text = "Mythosaur"
 first_revealed_installment = 12
-
-[[cards]]
-text = "Beskar Ingot"
-first_revealed_installment = 12
-
-[[cards]]
-text = "Holocron"
-first_revealed_installment = 13
 
 [[cards]]
 text = "Vibroblade"

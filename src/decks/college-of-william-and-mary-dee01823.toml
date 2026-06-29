@@ -1,5 +1,5 @@
 id = "deck_college-of-william-and-mary_dee01823"
-revision = 1
+revision = 2
 name = "College of William and Mary"
 category = "Colleges and Universities"
 audience = "Family"
@@ -108,12 +108,6 @@ text = "Raft Debate"
 text = "Honor Code"
 
 [[cards]]
-text = "Senior Walk"
-
-[[cards]]
-text = "College Corner"
-
-[[cards]]
 text = "Matoaka Amphitheatre"
 
 [[cards]]
@@ -159,19 +153,7 @@ text = "Plumeri Park"
 text = "W&M Hall"
 
 [[cards]]
-text = "The Sunken Garden"
-
-[[cards]]
-text = "Sir Christopher Wren Building"
-
-[[cards]]
 text = "Phi Beta Kappa"
-
-[[cards]]
-text = "The Green and Gold"
-
-[[cards]]
-text = "The W&M Cypher"
 
 [[cards]]
 text = "The President's House"
@@ -181,12 +163,6 @@ text = "The Brafferton"
 
 [[cards]]
 text = "John Tyler"
-
-[[cards]]
-text = "Chief Justice John Marshall"
-
-[[cards]]
-text = "The Tribe"
 
 [[cards]]
 text = "Marshall-Wythe Law School"
@@ -216,16 +192,7 @@ text = "W&M Pep Band"
 text = "Barksdale Field"
 
 [[cards]]
-text = "Royal Charter"
-
-[[cards]]
 text = "W&M Cypher"
-
-[[cards]]
-text = "The Raft Debate"
-
-[[cards]]
-text = "Convocation"
 
 [[cards]]
 text = "Grand Illumination"

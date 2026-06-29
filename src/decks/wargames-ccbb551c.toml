@@ -1,5 +1,5 @@
 id = "deck_wargames_ccbb551c"
-revision = 1
+revision = 2
 name = "WarGames"
 category = "Movies"
 audience = "Family"
@@ -24,19 +24,67 @@ text = "General Jack Beringer"
 text = "John McKittrick"
 
 [[cards]]
+text = "Arthur Cabot"
+
+[[cards]]
+text = "Jim Sting"
+
+[[cards]]
 text = "WOPR"
 
 [[cards]]
 text = "Joshua"
 
 [[cards]]
+text = "High School Hacker"
+
+[[cards]]
 text = "IMSAI 8080"
+
+[[cards]]
+text = "Acoustic Coupler"
+
+[[cards]]
+text = "Floppy Disk"
+
+[[cards]]
+text = "Dial-Up Modem"
+
+[[cards]]
+text = "Dot Matrix Printer"
+
+[[cards]]
+text = "Mainframe Computer"
+
+[[cards]]
+text = "Backdoor Password"
+
+[[cards]]
+text = "Computer Hack"
+
+[[cards]]
+text = "Payphone Hack"
+
+[[cards]]
+text = "Soda Can Tab"
+
+[[cards]]
+text = "Video Arcade"
 
 [[cards]]
 text = "Global Thermonuclear War"
 
 [[cards]]
 text = "Tic-Tac-Toe"
+
+[[cards]]
+text = "Chess"
+
+[[cards]]
+text = "Falken's Maze"
+
+[[cards]]
+text = "Theaterwide Tactical Warfare"
 
 [[cards]]
 text = "DEFCON 1"
@@ -51,27 +99,6 @@ text = "Cheyenne Mountain"
 text = "NORAD"
 
 [[cards]]
-text = "Acoustic Coupler"
-
-[[cards]]
-text = "The only winning move"
-
-[[cards]]
-text = "Goose Island"
-
-[[cards]]
-text = "Galaga"
-
-[[cards]]
-text = "Video Arcade"
-
-[[cards]]
-text = "Floppy Disk"
-
-[[cards]]
-text = "Dial-Up Modem"
-
-[[cards]]
 text = "Mutually Assured Destruction"
 
 [[cards]]
@@ -84,9 +111,6 @@ text = "Launch Silo"
 text = "Missile Launch Codes"
 
 [[cards]]
-text = "Backdoor Password"
-
-[[cards]]
 text = "Soviet Union"
 
 [[cards]]
@@ -96,61 +120,19 @@ text = "False Alarm"
 text = "Simulation"
 
 [[cards]]
-text = "Computer Hack"
-
-[[cards]]
-text = "Payphone Hack"
-
-[[cards]]
-text = "Soda Can Tab"
-
-[[cards]]
-text = "Dot Matrix Printer"
-
-[[cards]]
-text = "Falken's Maze"
-
-[[cards]]
-text = "Chess"
-
-[[cards]]
-text = "Theater Wide Tactical Warfare"
-
-[[cards]]
-text = "Submarine Warfare"
-
-[[cards]]
-text = "Air Defense Command"
-
-[[cards]]
-text = "Red Alert"
-
-[[cards]]
-text = "High School Hacker"
-
-[[cards]]
-text = "Arthur Cabot"
-
-[[cards]]
-text = "Jim Sting"
-
-[[cards]]
-text = "Mainframe Computer"
-
-[[cards]]
 text = "Nuclear Strike"
 
 [[cards]]
-text = "Pterodactyl"
-
-[[cards]]
-text = "Paper Printout"
+text = "Goose Island"
 
 [[cards]]
 text = "Biology Class"
 
 [[cards]]
 text = "Grade Hacking"
+
+[[cards]]
+text = "The only winning move"
 
 [[cards]]
 text = "A Strange Game"

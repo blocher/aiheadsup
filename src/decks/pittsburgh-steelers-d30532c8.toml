@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-steelers_d30532c8"
-revision = 1
+revision = 2
 name = "Pittsburgh Steelers"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -96,9 +96,6 @@ text = "Dallas Cowboys"
 text = "Steelmark Logo"
 
 [[cards]]
-text = "Single Helmet Logo"
-
-[[cards]]
 text = "Jack Lambert"
 
 [[cards]]
@@ -109,24 +106,6 @@ text = "Santonio Holmes"
 
 [[cards]]
 text = "James Harrison"
-
-[[cards]]
-text = "Immaculate Extension"
-
-[[cards]]
-text = "Giant Heinz Bottles"
-
-[[cards]]
-text = "Yinzers"
-
-[[cards]]
-text = "Primanti Brothers"
-
-[[cards]]
-text = "Here We Go Steelers"
-
-[[cards]]
-text = "Six Lombardi Trophies"
 
 [[cards]]
 text = "The Great Hall"
@@ -159,15 +138,6 @@ text = "Lombardi Trophy"
 text = "Hall of Fame"
 
 [[cards]]
-text = "Here We Go"
-
-[[cards]]
-text = "Helmet Logo"
-
-[[cards]]
-text = "Bumblebee Jerseys"
-
-[[cards]]
 text = "Santonio Holmes Catch"
 
 [[cards]]
@@ -186,9 +156,6 @@ text = "Zone Blitz"
 text = "3-4 Defense"
 
 [[cards]]
-text = "Heinz Ketchup Bottles"
-
-[[cards]]
 text = "Iron City Beer"
 
 [[cards]]
@@ -198,19 +165,19 @@ text = "Mel Blount Rule"
 text = "Hall of Honor"
 
 [[cards]]
-text = "The Steel Curtain"
+text = "Giant Heinz Bottles"
 
 [[cards]]
-text = "Six Super Bowls"
+text = "Six Lombardi Trophies"
 
 [[cards]]
-text = "The Immaculate Reception"
+text = "Here We Go Steelers"
 
 [[cards]]
-text = "James Harrison's Return"
+text = "Primanti Brothers"
 
 [[cards]]
-text = "Giant Ketchup Bottles"
+text = "Yinzers"
 
 [[cards]]
 text = "Terrible Towel Wave"

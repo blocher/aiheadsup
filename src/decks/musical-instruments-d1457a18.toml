@@ -1,5 +1,5 @@
 id = "deck_musical-instruments_d1457a18"
-revision = 1
+revision = 2
 name = "Musical Instruments"
 category = "Music"
 audience = "Family"
@@ -105,9 +105,6 @@ text = "Piano Keys"
 text = "Drumsticks"
 
 [[cards]]
-text = "Bow"
-
-[[cards]]
 text = "Mouthpiece"
 
 [[cards]]
@@ -159,9 +156,6 @@ text = "Metronome"
 text = "Treble Clef"
 
 [[cards]]
-text = "Drum Set"
-
-[[cards]]
 text = "Keyboard Family"
 
 [[cards]]
@@ -177,34 +171,16 @@ text = "Violin Bow"
 text = "Tuning Pegs"
 
 [[cards]]
-text = "Instrument Pedals"
-
-[[cards]]
 text = "Saxophone Reed"
 
 [[cards]]
-text = "Plucking Strings"
-
-[[cards]]
-text = "Clapping Hands"
-
-[[cards]]
 text = "Whistling"
-
-[[cards]]
-text = "Symphony Orchestra"
-
-[[cards]]
-text = "School Choir"
 
 [[cards]]
 text = "Music Duet"
 
 [[cards]]
 text = "Solo Performance"
-
-[[cards]]
-text = "Music Conductor"
 
 [[cards]]
 text = "Quarter Note"
@@ -222,10 +198,28 @@ text = "School Band"
 text = "Tuning Fork"
 
 [[cards]]
-text = "Guitar"
-
-[[cards]]
-text = "Clapping"
-
-[[cards]]
 text = "Music Stand"
+
+[[cards]]
+text = "Oboe"
+
+[[cards]]
+text = "French Horn"
+
+[[cards]]
+text = "Piccolo"
+
+[[cards]]
+text = "Bass Drum"
+
+[[cards]]
+text = "Timpani"
+
+[[cards]]
+text = "Mallet"
+
+[[cards]]
+text = "Harmony"
+
+[[cards]]
+text = "Tempo"

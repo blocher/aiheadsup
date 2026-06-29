@@ -1,5 +1,5 @@
 id = "deck_mash_2b6296db"
-revision = 1
+revision = 2
 name = "Mash"
 category = "TV Shows"
 audience = "Family"
@@ -24,16 +24,19 @@ text = "Hot Lips Houlihan"
 text = "Father Mulcahy"
 
 [[cards]]
-text = "Colonel Potter"
+text = "Colonel Sherman Potter"
 
 [[cards]]
-text = "BJ Hunnicutt"
+text = "B.J. Hunnicutt"
 
 [[cards]]
-text = "Major Winchester"
+text = "Charles Winchester"
 
 [[cards]]
 text = "Frank Burns"
+
+[[cards]]
+text = "Ferret Face"
 
 [[cards]]
 text = "Trapper John"
@@ -54,6 +57,33 @@ text = "Nurse Kellye"
 text = "Corporal Rizzo"
 
 [[cards]]
+text = "Igor Straminsky"
+
+[[cards]]
+text = "Sergeant Zale"
+
+[[cards]]
+text = "Sparky"
+
+[[cards]]
+text = "Ho-Jon"
+
+[[cards]]
+text = "Spearchucker Jones"
+
+[[cards]]
+text = "Captain Tuttle"
+
+[[cards]]
+text = "Donald Penobscott"
+
+[[cards]]
+text = "Mildred Potter"
+
+[[cards]]
+text = "Peg Hunnicutt"
+
+[[cards]]
 text = "Sophie the Horse"
 
 [[cards]]
@@ -72,28 +102,10 @@ text = "The Mess Hall"
 text = "Post Op"
 
 [[cards]]
-text = "The Operating Room"
+text = "Operating Room"
 
 [[cards]]
-text = "Swamp Gin Still"
-
-[[cards]]
-text = "Grape Nehi"
-
-[[cards]]
-text = "Five O'Clock Charlie"
-
-[[cards]]
-text = "Captain Tuttle"
-
-[[cards]]
-text = "Section Eight"
-
-[[cards]]
-text = "Crabapple Cove"
-
-[[cards]]
-text = "Mill Valley"
+text = "Triage"
 
 [[cards]]
 text = "Officers' Club"
@@ -102,88 +114,37 @@ text = "Officers' Club"
 text = "MASH 4077th"
 
 [[cards]]
-text = "Klinger's Wedding Dress"
+text = "The Still"
+
+[[cards]]
+text = "Gin Martini"
+
+[[cards]]
+text = "Grape Nehi"
+
+[[cards]]
+text = "Five O'Clock Charlie"
+
+[[cards]]
+text = "Section Eight"
+
+[[cards]]
+text = "Klinger's Dresses"
 
 [[cards]]
 text = "Bug Out"
 
 [[cards]]
-text = "Sparky"
-
-[[cards]]
-text = "Igor Straminsky"
-
-[[cards]]
-text = "Sergeant Zale"
-
-[[cards]]
 text = "The PA System"
 
 [[cards]]
+text = "Incoming Choppers"
+
+[[cards]]
+text = "Rotor Wash"
+
+[[cards]]
 text = "Dog Tags"
-
-[[cards]]
-text = "Chopper"
-
-[[cards]]
-text = "Ho-Jon"
-
-[[cards]]
-text = "Spearchucker Jones"
-
-[[cards]]
-text = "Donald Penobscott"
-
-[[cards]]
-text = "Goodbye Farewell and Amen"
-
-[[cards]]
-text = "Abyssinia Henry"
-
-[[cards]]
-text = "Dear Dad"
-
-[[cards]]
-text = "Mildred Potter"
-
-[[cards]]
-text = "Peg Hunnicutt"
-
-[[cards]]
-text = "Tootsie Roll"
-
-[[cards]]
-text = "Ah Bach"
-
-[[cards]]
-text = "Seoul"
-
-[[cards]]
-text = "B.J. Hunnicutt"
-
-[[cards]]
-text = "Margaret Houlihan"
-
-[[cards]]
-text = "Charles Winchester"
-
-[[cards]]
-text = "Private Igor"
-
-[[cards]]
-text = "Operating Room"
-
-[[cards]]
-text = "Triage"
-
-[[cards]]
-text = "Seoul Korea"
-
-[[cards]]
-text = "Tokyo Japan"
-
-[[cards]]
-text = "Medical Chopper"
 
 [[cards]]
 text = "Purple Heart"
@@ -192,31 +153,43 @@ text = "Purple Heart"
 text = "Honorable Discharge"
 
 [[cards]]
-text = "Homemade Still"
-
-[[cards]]
-text = "Gin Martini"
-
-[[cards]]
 text = "Local Draft Board"
 
 [[cards]]
 text = "C-Rations"
 
 [[cards]]
-text = "Red Bathrobe"
-
-[[cards]]
-text = "Klinger's Wardrobe"
-
-[[cards]]
 text = "Surgical Mask"
 
 [[cards]]
-text = "Hot Lips"
+text = "Post Exchange"
 
 [[cards]]
-text = "Ferret Face"
+text = "Red Bathrobe"
+
+[[cards]]
+text = "Crabapple Cove"
+
+[[cards]]
+text = "Mill Valley"
+
+[[cards]]
+text = "Seoul Korea"
+
+[[cards]]
+text = "Tokyo Japan"
+
+[[cards]]
+text = "Toledo Ohio"
+
+[[cards]]
+text = "Toledo Mud Hens"
+
+[[cards]]
+text = "Tony Packo's"
+
+[[cards]]
+text = "Ah Bach"
 
 [[cards]]
 text = "Suicide Is Painless"
@@ -228,46 +201,10 @@ text = "Adam's Ribs"
 text = "The Incubator"
 
 [[cards]]
-text = "Post Exchange"
+text = "Dear Dad"
 
 [[cards]]
-text = "Bugle Call"
+text = "Abyssinia Henry"
 
 [[cards]]
-text = "Double Shift"
-
-[[cards]]
-text = "Teddy Bear"
-
-[[cards]]
-text = "Colonel Sherman Potter"
-
-[[cards]]
-text = "The Gin Still"
-
-[[cards]]
-text = "Rotor Wash"
-
-[[cards]]
-text = "Klinger's Dresses"
-
-[[cards]]
-text = "Major Frank Burns"
-
-[[cards]]
-text = "Toledo Ohio"
-
-[[cards]]
-text = "The 4077th"
-
-[[cards]]
-text = "Incoming Choppers"
-
-[[cards]]
-text = "Toledo Mud Hens"
-
-[[cards]]
-text = "The Still"
-
-[[cards]]
-text = "Tony Packo's"
+text = "Goodbye Farewell and Amen"

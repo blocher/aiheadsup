@@ -1,5 +1,5 @@
 id = "deck_harry-potter-spells-and-charms_b5b3b5a3"
-revision = 1
+revision = 2
 name = "Harry Potter: Spells and Charms"
 category = "Harry Potter"
 audience = "Family"
@@ -206,7 +206,7 @@ text = "Fidelius Charm"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Orchideus"
+text = "Orchideous"
 first_revealed_installment = 4
 
 [[cards]]
@@ -248,10 +248,6 @@ first_revealed_installment = 7
 [[cards]]
 text = "Cave Inimicum"
 first_revealed_installment = 7
-
-[[cards]]
-text = "Prior Incantato"
-first_revealed_installment = 4
 
 [[cards]]
 text = "Fiendfyre"

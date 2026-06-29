@@ -1,5 +1,5 @@
 id = "deck_elementary-school-favorites_95b15977"
-revision = 1
+revision = 2
 name = "Elementary School Favorites"
 category = "Kids"
 audience = "Family"
@@ -159,9 +159,6 @@ text = "School Bus"
 text = "Spelling Bee"
 
 [[cards]]
-text = "Pencil Case"
-
-[[cards]]
 text = "Notebook"
 
 [[cards]]
@@ -178,9 +175,6 @@ text = "Reading Corner"
 
 [[cards]]
 text = "Gold Star"
-
-[[cards]]
-text = "Macaroni and Cheese"
 
 [[cards]]
 text = "PB&J Sandwich"
@@ -204,16 +198,10 @@ text = "Riding a Bicycle"
 text = "Roller Skating"
 
 [[cards]]
-text = "Crayons"
-
-[[cards]]
 text = "Pepperoni Pizza"
 
 [[cards]]
 text = "Golden Retriever"
-
-[[cards]]
-text = "Pet Hamster"
 
 [[cards]]
 text = "Gym Class"
@@ -222,28 +210,13 @@ text = "Gym Class"
 text = "Sandbox"
 
 [[cards]]
-text = "Swing Set"
-
-[[cards]]
 text = "Library Book"
 
 [[cards]]
 text = "Science Fair"
 
 [[cards]]
-text = "Pizza Friday"
-
-[[cards]]
 text = "Soccer Ball"
-
-[[cards]]
-text = "Classroom Hamster"
-
-[[cards]]
-text = "Playground Slide"
-
-[[cards]]
-text = "Gluestick"
 
 [[cards]]
 text = "Fire Drill"

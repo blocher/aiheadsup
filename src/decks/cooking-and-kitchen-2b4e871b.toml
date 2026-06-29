@@ -1,5 +1,5 @@
 id = "deck_cooking-and-kitchen_2b4e871b"
-revision = 1
+revision = 2
 name = "Cooking and Kitchen"
 category = "Food"
 audience = "Family"
@@ -159,13 +159,7 @@ text = "Mincing Garlic"
 text = "Al Dente"
 
 [[cards]]
-text = "Sauté"
-
-[[cards]]
 text = "Cutting Board"
-
-[[cards]]
-text = "Simmer"
 
 [[cards]]
 text = "Oven Mitts"
@@ -180,9 +174,6 @@ text = "Parchment Paper"
 text = "Chef's Knife"
 
 [[cards]]
-text = "Grater"
-
-[[cards]]
 text = "Mixing Bowl"
 
 [[cards]]
@@ -190,9 +181,6 @@ text = "Caramelize"
 
 [[cards]]
 text = "Cast Iron Skillet"
-
-[[cards]]
-text = "Knead"
 
 [[cards]]
 text = "Dutch Oven"
@@ -208,9 +196,6 @@ text = "Marinade"
 
 [[cards]]
 text = "Slotted Spoon"
-
-[[cards]]
-text = "Peeler"
 
 [[cards]]
 text = "Sift"
@@ -240,9 +225,6 @@ text = "Apron"
 text = "Kitchen Shears"
 
 [[cards]]
-text = "Whisking Eggs"
-
-[[cards]]
 text = "Bread Flour"
 
 [[cards]]
@@ -253,9 +235,6 @@ text = "Steamer Basket"
 
 [[cards]]
 text = "Hand Mixer"
-
-[[cards]]
-text = "Julienne Cut"
 
 [[cards]]
 text = "Sous Vide"
@@ -273,7 +252,25 @@ text = "Silicone Spatula"
 text = "Salad Spinner"
 
 [[cards]]
-text = "Zesting a Lemon"
+text = "Hollandaise Sauce"
 
 [[cards]]
-text = "Hollandaise Sauce"
+text = "Mise en Place"
+
+[[cards]]
+text = "Blanch"
+
+[[cards]]
+text = "Reduce"
+
+[[cards]]
+text = "Emulsify"
+
+[[cards]]
+text = "Proofing Dough"
+
+[[cards]]
+text = "Mandoline"
+
+[[cards]]
+text = "Microplane"

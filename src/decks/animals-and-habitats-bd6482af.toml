@@ -1,5 +1,5 @@
 id = "deck_animals-and-habitats_bd6482af"
-revision = 1
+revision = 2
 name = "Animals and Habitats"
 category = "Science"
 audience = "Family"
@@ -171,12 +171,6 @@ text = "Chameleon"
 text = "Butterfly"
 
 [[cards]]
-text = "Wolf Pack"
-
-[[cards]]
-text = "Eagle"
-
-[[cards]]
 text = "Beaver Dam"
 
 [[cards]]
@@ -196,9 +190,6 @@ text = "Cave"
 
 [[cards]]
 text = "Octopus"
-
-[[cards]]
-text = "Hibernate"
 
 [[cards]]
 text = "Food Chain"
@@ -223,9 +214,6 @@ text = "Duck"
 
 [[cards]]
 text = "Crocodile"
-
-[[cards]]
-text = "Panda"
 
 [[cards]]
 text = "Bird Nest"

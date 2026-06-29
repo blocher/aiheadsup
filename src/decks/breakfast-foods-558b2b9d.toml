@@ -1,5 +1,5 @@
 id = "deck_breakfast-foods_558b2b9d"
-revision = 1
+revision = 2
 name = "Breakfast Foods"
 category = "Food"
 audience = "Family"
@@ -159,16 +159,7 @@ text = "Breakfast Buffet"
 text = "Corned Beef Hash"
 
 [[cards]]
-text = "Warm Oatmeal"
-
-[[cards]]
 text = "Buttered Toast"
-
-[[cards]]
-text = "Croissant"
-
-[[cards]]
-text = "Breakfast Sausage"
 
 [[cards]]
 text = "Chocolate Milk"
@@ -177,22 +168,13 @@ text = "Chocolate Milk"
 text = "Bowl of Cereal"
 
 [[cards]]
-text = "Fresh Grapefruit"
-
-[[cards]]
 text = "Crunchy Granola"
-
-[[cards]]
-text = "Hot Cocoa"
 
 [[cards]]
 text = "Blueberry Scone"
 
 [[cards]]
 text = "Spinach Quiche"
-
-[[cards]]
-text = "Honey Jar"
 
 [[cards]]
 text = "Fresh Strawberries"
@@ -210,16 +192,10 @@ text = "Canadian Bacon"
 text = "Poached Eggs"
 
 [[cards]]
-text = "Omelet"
-
-[[cards]]
 text = "Cereal and Milk"
 
 [[cards]]
 text = "Toast and Jelly"
-
-[[cards]]
-text = "Granola"
 
 [[cards]]
 text = "Pouring Milk"
@@ -229,9 +205,6 @@ text = "Fried Egg"
 
 [[cards]]
 text = "Belgian Waffle"
-
-[[cards]]
-text = "Bacon"
 
 [[cards]]
 text = "Cereal Bowl"
@@ -252,7 +225,22 @@ text = "Greek Yogurt"
 text = "Blueberry Jam"
 
 [[cards]]
-text = "Cereal"
+text = "Blueberries"
 
 [[cards]]
-text = "Blueberries"
+text = "Over-Easy Egg"
+
+[[cards]]
+text = "Bagel"
+
+[[cards]]
+text = "Steel-Cut Oatmeal"
+
+[[cards]]
+text = "Chilaquiles"
+
+[[cards]]
+text = "Shakshuka"
+
+[[cards]]
+text = "Breakfast Platter"

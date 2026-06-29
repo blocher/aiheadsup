@@ -1,5 +1,5 @@
 id = "deck_star-wars-the-mandalorian_6181734e"
-revision = 1
+revision = 2
 name = "Star Wars: The Mandalorian"
 category = "Star Wars"
 audience = "Family"
@@ -210,14 +210,6 @@ text = "Bounty Hunters Guild"
 first_revealed_installment = 12
 
 [[cards]]
-text = "Razor Crest"
-first_revealed_installment = 12
-
-[[cards]]
-text = "Darksaber"
-first_revealed_installment = 13
-
-[[cards]]
 text = "Luke Skywalker"
 first_revealed_installment = 1
 
@@ -263,18 +255,6 @@ first_revealed_installment = 12
 
 [[cards]]
 text = "Arvala-7"
-first_revealed_installment = 12
-
-[[cards]]
-text = "Naboo N-1 Starfighter"
-first_revealed_installment = 4
-
-[[cards]]
-text = "E-Web Heavy Blaster"
-first_revealed_installment = 2
-
-[[cards]]
-text = "The Child"
 first_revealed_installment = 12
 
 [[cards]]

@@ -1,5 +1,5 @@
 id = "deck_octonauts_a0abd8c6"
-revision = 1
+revision = 2
 name = "Octonauts"
 category = "TV Shows"
 audience = "Family"
@@ -33,6 +33,12 @@ text = "Professor Inkling"
 text = "Tunip the Vegimal"
 
 [[cards]]
+text = "Vegimals"
+
+[[cards]]
+text = "Ranger Marsh"
+
+[[cards]]
 text = "Octopod"
 
 [[cards]]
@@ -54,10 +60,19 @@ text = "Gup-E"
 text = "Gup-X"
 
 [[cards]]
-text = "Creature Report"
+text = "Octo-Compass"
 
 [[cards]]
 text = "Octo-Alert"
+
+[[cards]]
+text = "Octo-Glow"
+
+[[cards]]
+text = "Octo-Max Suit"
+
+[[cards]]
+text = "Creature Report"
 
 [[cards]]
 text = "Explore Rescue Protect"
@@ -69,7 +84,16 @@ text = "Kelp Cake"
 text = "Fish Biscuit"
 
 [[cards]]
+text = "Flupjacks"
+
+[[cards]]
 text = "Launch Bay"
+
+[[cards]]
+text = "Sick Bay"
+
+[[cards]]
+text = "Deep Sea Octolab"
 
 [[cards]]
 text = "Midnight Zone"
@@ -96,10 +120,16 @@ text = "Whale Shark"
 text = "Colossal Squid"
 
 [[cards]]
-text = "Blobfish"
+text = "Giant Squid"
+
+[[cards]]
+text = "Humboldt Squid"
 
 [[cards]]
 text = "Vampire Squid"
+
+[[cards]]
+text = "Blobfish"
 
 [[cards]]
 text = "Narwhal"
@@ -111,13 +141,13 @@ text = "Blue Whale"
 text = "Giant Pacific Octopus"
 
 [[cards]]
-text = "Humboldt Squid"
-
-[[cards]]
 text = "Immortal Jellyfish"
 
 [[cards]]
 text = "Electric Ray"
+
+[[cards]]
+text = "Electric Eel"
 
 [[cards]]
 text = "Sea Cucumber"
@@ -132,6 +162,9 @@ text = "Hermit Crab"
 text = "Great White Shark"
 
 [[cards]]
+text = "Hammerhead Shark"
+
+[[cards]]
 text = "Flying Fish"
 
 [[cards]]
@@ -141,49 +174,10 @@ text = "Lionfish"
 text = "Mantis Shrimp"
 
 [[cards]]
-text = "Deep Sea Octolab"
-
-[[cards]]
-text = "Octo-Glow"
-
-[[cards]]
-text = "Vegimals"
-
-[[cards]]
-text = "Ranger Marsh"
-
-[[cards]]
 text = "Sea Urchin"
 
 [[cards]]
 text = "Ocean Sunfish"
-
-[[cards]]
-text = "Kwazii"
-
-[[cards]]
-text = "Peso"
-
-[[cards]]
-text = "Shellington"
-
-[[cards]]
-text = "Tweak"
-
-[[cards]]
-text = "Dashi"
-
-[[cards]]
-text = "The Octopod"
-
-[[cards]]
-text = "Vegimal Snack"
-
-[[cards]]
-text = "Octo-Compass"
-
-[[cards]]
-text = "Sick Bay"
 
 [[cards]]
 text = "Humuhumunukunukuapua'a"
@@ -192,34 +186,13 @@ text = "Humuhumunukunukuapua'a"
 text = "Elephant Seal"
 
 [[cards]]
-text = "Hammerhead Shark"
-
-[[cards]]
-text = "Electric Eel"
-
-[[cards]]
 text = "Sunflower Star"
-
-[[cards]]
-text = "Manatee"
-
-[[cards]]
-text = "Tunip"
-
-[[cards]]
-text = "Giant Squid"
-
-[[cards]]
-text = "Sea Turtle"
-
-[[cards]]
-text = "Deep Sea Lab"
 
 [[cards]]
 text = "Sea Star"
 
 [[cards]]
-text = "Flupjacks"
+text = "Manatee"
 
 [[cards]]
-text = "Octo-Max Suit"
+text = "Sea Turtle"

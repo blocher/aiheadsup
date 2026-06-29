@@ -1,5 +1,5 @@
 id = "deck_sandcastle-water-park_f3d002c8"
-revision = 1
+revision = 2
 name = "Sandcastle Water Park"
 category = "Western PA Themeparks"
 audience = "Family"
@@ -12,25 +12,22 @@ photo_file_name = "sandcastle-water-park-f3d002c8-cover.jpg"
 text = "Lightning Express"
 
 [[cards]]
+text = "Bombs Away"
+
+[[cards]]
 text = "Boardwalk Blasters"
 
 [[cards]]
-text = "Blue Tubewinder"
+text = "Blue Tubaluba"
 
 [[cards]]
 text = "Cliffhangers"
 
 [[cards]]
-text = "Tubular Towers"
-
-[[cards]]
-text = "Dragon's Tail"
+text = "Tubers Towers"
 
 [[cards]]
 text = "Mon Tsunami"
-
-[[cards]]
-text = "Scenic Lazy River"
 
 [[cards]]
 text = "Wet Willie's Waterworks"
@@ -73,9 +70,6 @@ text = "Funnel Cake"
 
 [[cards]]
 text = "Sandbar"
-
-[[cards]]
-text = "Riverview Grill"
 
 [[cards]]
 text = "Inner Tube"
@@ -132,13 +126,7 @@ text = "Smithfield Street Bridge"
 text = "Pittsburgh Skyline"
 
 [[cards]]
-text = "Tsunami Express"
-
-[[cards]]
 text = "Mushroom Pool"
-
-[[cards]]
-text = "Wet Willie's Cove"
 
 [[cards]]
 text = "Cotton Candy Stand"
@@ -159,16 +147,10 @@ text = "River Coal Barge"
 text = "Idlewild Park"
 
 [[cards]]
-text = "Mon Tsunami Wave Pool"
-
-[[cards]]
 text = "Dragon's Den"
 
 [[cards]]
 text = "Thunder Run"
-
-[[cards]]
-text = "Tadpool"
 
 [[cards]]
 text = "Homestead Grays Bridge"
@@ -177,22 +159,10 @@ text = "Homestead Grays Bridge"
 text = "Sandcastle Boardwalk"
 
 [[cards]]
-text = "Cabana Rental"
-
-[[cards]]
 text = "Waterproof Phone Pouch"
 
 [[cards]]
-text = "Kennywood Park"
-
-[[cards]]
 text = "Gateway Clipper"
-
-[[cards]]
-text = "Point State Park Fountain"
-
-[[cards]]
-text = "Waterfront Shopping Center"
 
 [[cards]]
 text = "Fresh Lemonade"
@@ -225,9 +195,6 @@ text = "Summer Solstice"
 text = "Splash Zone"
 
 [[cards]]
-text = "Sunburn Cream"
-
-[[cards]]
 text = "Locker Rental"
 
 [[cards]]
@@ -237,49 +204,13 @@ text = "Lazy River"
 text = "West Homestead"
 
 [[cards]]
-text = "Sandpiper Cove"
-
-[[cards]]
 text = "Tad Pool"
-
-[[cards]]
-text = "Riverfront Boardwalk"
-
-[[cards]]
-text = "Lifeguard"
 
 [[cards]]
 text = "Double Tube"
 
 [[cards]]
-text = "Cabana"
-
-[[cards]]
 text = "Soft Serve Ice Cream"
 
 [[cards]]
-text = "Suntan Lotion"
-
-[[cards]]
-text = "Water Bucket Drench"
-
-[[cards]]
 text = "Sandcastle"
-
-[[cards]]
-text = "The Lazy River"
-
-[[cards]]
-text = "Cliffhangers Slide"
-
-[[cards]]
-text = "Homestead Bridge"
-
-[[cards]]
-text = "The Boardwalk"
-
-[[cards]]
-text = "Blue Tubit"
-
-[[cards]]
-text = "Poolside Cabana"

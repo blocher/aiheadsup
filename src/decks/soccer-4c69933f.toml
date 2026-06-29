@@ -1,5 +1,5 @@
 id = "deck_soccer_4c69933f"
-revision = 1
+revision = 2
 name = "Soccer"
 category = "Sports"
 audience = "Family"
@@ -162,22 +162,7 @@ text = "Group of Death"
 text = "Indirect Free Kick"
 
 [[cards]]
-text = "Cleats"
-
-[[cards]]
 text = "Goalie Gloves"
-
-[[cards]]
-text = "Goal Post"
-
-[[cards]]
-text = "Four Four Two"
-
-[[cards]]
-text = "FIFA World Cup"
-
-[[cards]]
-text = "UEFA Champions League"
 
 [[cards]]
 text = "Bayern Munich"
@@ -198,9 +183,6 @@ text = "Penalty Shootout"
 text = "Extra Time"
 
 [[cards]]
-text = "VAR"
-
-[[cards]]
 text = "Assistant Referee"
 
 [[cards]]
@@ -214,9 +196,6 @@ text = "Wall Pass"
 
 [[cards]]
 text = "Cruyff Turn"
-
-[[cards]]
-text = "Goalkeeper Gloves"
 
 [[cards]]
 text = "Pitch"
@@ -235,6 +214,3 @@ text = "Sliding Tackle"
 
 [[cards]]
 text = "Defensive Wall"
-
-[[cards]]
-text = "Brazil"

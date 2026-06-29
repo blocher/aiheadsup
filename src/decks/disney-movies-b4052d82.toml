@@ -1,5 +1,5 @@
 id = "deck_disney-movies_b4052d82"
-revision = 1
+revision = 2
 name = "Disney Movies"
 category = "Movies"
 audience = "Family"
@@ -174,12 +174,6 @@ text = "Finding Nemo"
 text = "Beauty and the Beast"
 
 [[cards]]
-text = "The Magic Carpet"
-
-[[cards]]
-text = "Cinderella's Glass Slipper"
-
-[[cards]]
 text = "Magic Lamp"
 
 [[cards]]
@@ -210,16 +204,10 @@ text = "Dumbo"
 text = "Cinderella's Castle"
 
 [[cards]]
-text = "The Poison Apple"
-
-[[cards]]
 text = "Maui's Fishhook"
 
 [[cards]]
 text = "The Mad Hatter"
-
-[[cards]]
-text = "The Beast's Rose"
 
 [[cards]]
 text = "Pixie Dust"

@@ -1,5 +1,5 @@
 id = "deck_symphony-orchestra_2c7a8f8c"
-revision = 1
+revision = 2
 name = "Symphony Orchestra"
 category = "Music"
 audience = "Family"
@@ -189,13 +189,7 @@ text = "String Quartet"
 text = "Decrescendo"
 
 [[cards]]
-text = "Conductor's Baton"
-
-[[cards]]
 text = "Maestro"
-
-[[cards]]
-text = "First Violinist"
 
 [[cards]]
 text = "Composer"
@@ -213,9 +207,6 @@ text = "Violin Bow"
 text = "Piccolo"
 
 [[cards]]
-text = "Concert Harp"
-
-[[cards]]
 text = "Fortissimo"
 
 [[cards]]
@@ -223,6 +214,27 @@ text = "First Violin"
 
 [[cards]]
 text = "Stage Manager"
+
+[[cards]]
+text = "Bass Clarinet"
+
+[[cards]]
+text = "English Horn"
+
+[[cards]]
+text = "Bass Drum"
+
+[[cards]]
+text = "Glockenspiel"
+
+[[cards]]
+text = "Xylophone"
+
+[[cards]]
+text = "Andante"
+
+[[cards]]
+text = "Allegro"
 
 [[cards]]
 text = "Pittsburgh Symphony Orchestra"
@@ -234,4 +246,4 @@ text = "Fiddlesticks"
 text = "Manfred Honeck"
 
 [[cards]]
-text = "DMS Philharomic"
+text = "DMS Philharmonic"

@@ -1,5 +1,5 @@
 id = "deck_star-wars-other-movies_2e7b27b3"
-revision = 1
+revision = 2
 name = "Star Wars: Other Movies"
 category = "Star Wars"
 audience = "Family"
@@ -214,14 +214,6 @@ text = "Death Star Plans"
 first_revealed_installment = 8
 
 [[cards]]
-text = "Kyber Crystal Pendant"
-first_revealed_installment = 8
-
-[[cards]]
-text = "U-wing Fighter"
-first_revealed_installment = 8
-
-[[cards]]
 text = "Bistan"
 first_revealed_installment = 8
 
@@ -242,10 +234,6 @@ text = "Corellia"
 first_revealed_installment = 10
 
 [[cards]]
-text = "Mudtroopers"
-first_revealed_installment = 10
-
-[[cards]]
 text = "Han's Lucky Dice"
 first_revealed_installment = 10
 
@@ -254,19 +242,7 @@ text = "Sabacc"
 first_revealed_installment = 10
 
 [[cards]]
-text = "Conveyex"
-first_revealed_installment = 10
-
-[[cards]]
-text = "M-68 Landspeeder"
-first_revealed_installment = 10
-
-[[cards]]
 text = "Kessel Spice Mines"
-first_revealed_installment = 10
-
-[[cards]]
-text = "Vandor-1"
 first_revealed_installment = 10
 
 [[cards]]
@@ -274,13 +250,5 @@ text = "Lando's Millennium Falcon"
 first_revealed_installment = 10
 
 [[cards]]
-text = "U-wing"
-first_revealed_installment = 8
-
-[[cards]]
 text = "Jedha City"
 first_revealed_installment = 8
-
-[[cards]]
-text = "Kessel Mines"
-first_revealed_installment = 10

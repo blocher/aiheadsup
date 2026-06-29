@@ -1,5 +1,5 @@
 id = "deck_mickey-mouse-clubhouse_d30fd558"
-revision = 1
+revision = 2
 name = "Mickey Mouse Clubhouse"
 category = "TV Shows"
 audience = "Family"
@@ -36,7 +36,7 @@ text = "Pete"
 text = "Clarabelle Cow"
 
 [[cards]]
-text = "Ludwig Von Drake"
+text = "Professor Ludwig Von Drake"
 
 [[cards]]
 text = "Willie the Giant"
@@ -48,7 +48,34 @@ text = "Chip and Dale"
 text = "Figaro"
 
 [[cards]]
+text = "Bella the Puppy"
+
+[[cards]]
+text = "Butch the Bulldog"
+
+[[cards]]
+text = "Mortimer Mouse"
+
+[[cards]]
+text = "Martian Mickey"
+
+[[cards]]
+text = "Captain Mickey"
+
+[[cards]]
 text = "Hot Dog Dance"
+
+[[cards]]
+text = "Hot Dog Song"
+
+[[cards]]
+text = "Clubhouse March"
+
+[[cards]]
+text = "Meeska Mooska Mickey Mouse"
+
+[[cards]]
+text = "Oh Toodles"
 
 [[cards]]
 text = "Mouseketool"
@@ -57,7 +84,10 @@ text = "Mouseketool"
 text = "Mystery Mouseketool"
 
 [[cards]]
-text = "The Mousekedoer"
+text = "Mousekedoer"
+
+[[cards]]
+text = "Handy Helper"
 
 [[cards]]
 text = "Glove Balloon"
@@ -69,46 +99,16 @@ text = "Super Handy Crane"
 text = "Silly Switch"
 
 [[cards]]
+text = "Rainbow Color Machine"
+
+[[cards]]
 text = "Toon Car"
-
-[[cards]]
-text = "Shoe Garage"
-
-[[cards]]
-text = "Oh Toodles"
-
-[[cards]]
-text = "Star Lake"
-
-[[cards]]
-text = "Mickey's Farm"
-
-[[cards]]
-text = "Mickey Mouse Clubhouse"
 
 [[cards]]
 text = "Choo-Choo Express"
 
 [[cards]]
-text = "Road Rally"
-
-[[cards]]
-text = "Space Adventure"
-
-[[cards]]
-text = "Wizard of Dizz"
-
-[[cards]]
-text = "Mickey's Treat"
-
-[[cards]]
-text = "Minnie's Bow-tique"
-
-[[cards]]
-text = "Super Adventure"
-
-[[cards]]
-text = "Mickey's Campout"
+text = "Shoe Garage"
 
 [[cards]]
 text = "Clubhouse Slide"
@@ -117,7 +117,19 @@ text = "Clubhouse Slide"
 text = "Ears Tower"
 
 [[cards]]
+text = "Mickey Ears"
+
+[[cards]]
 text = "Clubhouse Mailbox"
+
+[[cards]]
+text = "Toon Bridge"
+
+[[cards]]
+text = "Giant Yellow Shoe"
+
+[[cards]]
+text = "Clubhouse Kitchen"
 
 [[cards]]
 text = "Mickey's White Gloves"
@@ -135,45 +147,6 @@ text = "Donald's Sailor Hat"
 text = "Pluto's Doghouse"
 
 [[cards]]
-text = "Rainbow Color Machine"
-
-[[cards]]
-text = "Meeska Mooska"
-
-[[cards]]
-text = "Bella the Puppy"
-
-[[cards]]
-text = "Butch the Bulldog"
-
-[[cards]]
-text = "Mortimer Mouse"
-
-[[cards]]
-text = "Calling Toodles"
-
-[[cards]]
-text = "Doing the Hot Dog"
-
-[[cards]]
-text = "Captain Mickey"
-
-[[cards]]
-text = "Professor Ludwig Von Drake"
-
-[[cards]]
-text = "Mousekedoer"
-
-[[cards]]
-text = "Handy Helper"
-
-[[cards]]
-text = "Meeska Mooska Mickey Mouse"
-
-[[cards]]
-text = "Martian Mickey"
-
-[[cards]]
 text = "Picnic Basket"
 
 [[cards]]
@@ -189,61 +162,49 @@ text = "Treasure Map"
 text = "Detective Hat"
 
 [[cards]]
-text = "Giant Peach"
-
-[[cards]]
-text = "Clubhouse March"
-
-[[cards]]
-text = "Ribbon Bow"
-
-[[cards]]
-text = "Counting Cattle"
-
-[[cards]]
-text = "Pete's Beach"
-
-[[cards]]
 text = "Telescope"
 
 [[cards]]
 text = "Flying Carpet"
 
 [[cards]]
-text = "Goofy's Bird"
-
-[[cards]]
 text = "Bubbles"
 
 [[cards]]
-text = "Professor Von Drake"
+text = "Star Lake"
 
 [[cards]]
-text = "Hot Dog Song"
-
-[[cards]]
-text = "The Shoe Garage"
-
-[[cards]]
-text = "Mickey Ears"
-
-[[cards]]
-text = "Toon Bridge"
-
-[[cards]]
-text = "Giant Yellow Shoe"
-
-[[cards]]
-text = "Chip 'n' Dale"
+text = "Mickey's Farm"
 
 [[cards]]
 text = "Mickey Park"
 
 [[cards]]
-text = "Clubhouse Kitchen"
+text = "Pete's Beach"
 
 [[cards]]
-text = "Mousketool"
+text = "Mickey Mouse Clubhouse"
 
 [[cards]]
-text = "Mystery Mousketool"
+text = "Road Rally"
+
+[[cards]]
+text = "Space Adventure"
+
+[[cards]]
+text = "Super Adventure"
+
+[[cards]]
+text = "Wizard of Dizz"
+
+[[cards]]
+text = "Mickey's Treat"
+
+[[cards]]
+text = "Minnie's Bow-tique"
+
+[[cards]]
+text = "Mickey's Campout"
+
+[[cards]]
+text = "Counting Cattle"

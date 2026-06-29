@@ -1,5 +1,5 @@
 id = "deck_old-testament-stories_392d604c"
-revision = 1
+revision = 2
 name = "Old Testament Stories"
 category = "Religion and Mythology"
 audience = "Family"
@@ -162,19 +162,7 @@ text = "King David"
 text = "Moses and Pharaoh"
 
 [[cards]]
-text = "Ten Commandments"
-
-[[cards]]
-text = "Coat of Many Colors"
-
-[[cards]]
-text = "Golden Calf"
-
-[[cards]]
 text = "Sodom and Gomorrah"
-
-[[cards]]
-text = "Elijah's Chariot of Fire"
 
 [[cards]]
 text = "The Plagues of Egypt"
@@ -192,31 +180,13 @@ text = "Elijah and Elisha"
 text = "King Nebuchadnezzar"
 
 [[cards]]
-text = "Job's Patience"
-
-[[cards]]
-text = "Valley of Dry Bones"
-
-[[cards]]
-text = "Balaam's Donkey"
-
-[[cards]]
 text = "Sarah's Laughter"
 
 [[cards]]
 text = "Absalom's Hair"
 
 [[cards]]
-text = "The Promised Land"
-
-[[cards]]
 text = "Crossing the Jordan"
-
-[[cards]]
-text = "Miriam's Tambourine"
-
-[[cards]]
-text = "The Tree of Knowledge"
 
 [[cards]]
 text = "Moses"
@@ -228,28 +198,4 @@ text = "The Red Sea"
 text = "Adam and Eve"
 
 [[cards]]
-text = "Chariot of Fire"
-
-[[cards]]
-text = "Plagues of Egypt"
-
-[[cards]]
-text = "The Fiery Furnace"
-
-[[cards]]
 text = "Samson's Hair"
-
-[[cards]]
-text = "The Burning Bush"
-
-[[cards]]
-text = "The Ten Plagues"
-
-[[cards]]
-text = "The Rainbow Covenant"
-
-[[cards]]
-text = "The Queen of Sheba"
-
-[[cards]]
-text = "The Garden of Eden"

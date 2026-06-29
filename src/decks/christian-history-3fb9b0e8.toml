@@ -1,5 +1,5 @@
 id = "deck_christian-history_3fb9b0e8"
-revision = 1
+revision = 2
 name = "Christian History"
 category = "Religion and Mythology"
 audience = "Family"
@@ -159,25 +159,7 @@ text = "Salvation Army"
 text = "Methodism"
 
 [[cards]]
-text = "The Council of Nicaea"
-
-[[cards]]
-text = "The Gutenberg Bible"
-
-[[cards]]
 text = "Saint Paul the Apostle"
-
-[[cards]]
-text = "The Catacombs"
-
-[[cards]]
-text = "The Puritans"
-
-[[cards]]
-text = "Nicene Creed"
-
-[[cards]]
-text = "Ninety-Five Theses"
 
 [[cards]]
 text = "The Coptic Church"
@@ -222,34 +204,13 @@ text = "Saint Peter"
 text = "The Jesuits"
 
 [[cards]]
-text = "Augustine of Hippo"
-
-[[cards]]
 text = "John the Baptist"
-
-[[cards]]
-text = "The 95 Theses"
-
-[[cards]]
-text = "Francis of Assisi"
-
-[[cards]]
-text = "The Pentecost"
 
 [[cards]]
 text = "The Pilgrim Fathers"
 
 [[cards]]
-text = "The Council of Trent"
-
-[[cards]]
 text = "The Spanish Inquisition"
 
 [[cards]]
-text = "Methodist Church"
-
-[[cards]]
 text = "Byzantine Empire"
-
-[[cards]]
-text = "Protestant Reformation"

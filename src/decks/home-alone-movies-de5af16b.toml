@@ -1,5 +1,5 @@
 id = "deck_home-alone-movies_de5af16b"
-revision = 1
+revision = 2
 name = "Home Alone Movies"
 category = "Movies"
 audience = "Family"
@@ -24,7 +24,13 @@ text = "Buzz McCallister"
 text = "Kate McCallister"
 
 [[cards]]
+text = "Peter McCallister"
+
+[[cards]]
 text = "Uncle Frank"
+
+[[cards]]
+text = "Fuller McCallister"
 
 [[cards]]
 text = "Old Man Marley"
@@ -36,22 +42,28 @@ text = "The Pigeon Lady"
 text = "Gus Polinski"
 
 [[cards]]
-text = "Fuller McCallister"
-
-[[cards]]
 text = "Johnny the Gangster"
 
 [[cards]]
-text = "Cedric the Bellhop"
+text = "Cedric the Bellman"
 
 [[cards]]
 text = "Mr. Hector"
 
 [[cards]]
+text = "Mr. Duncan"
+
+[[cards]]
 text = "Alex Pruitt"
 
 [[cards]]
-text = "Peter McCallister"
+text = "Finn Baxter"
+
+[[cards]]
+text = "Max Mercer"
+
+[[cards]]
+text = "Vera"
 
 [[cards]]
 text = "The Wet Bandits"
@@ -60,16 +72,16 @@ text = "The Wet Bandits"
 text = "The Sticky Bandits"
 
 [[cards]]
-text = "Talkboy"
+text = "Buzz's Tarantula"
+
+[[cards]]
+text = "McCallister House"
 
 [[cards]]
 text = "Plaza Hotel"
 
 [[cards]]
 text = "Duncan's Toy Chest"
-
-[[cards]]
-text = "McCallister House"
 
 [[cards]]
 text = "Central Park"
@@ -81,34 +93,64 @@ text = "O'Hare Airport"
 text = "Paris France"
 
 [[cards]]
-text = "Paint Cans Trap"
+text = "Miami Florida"
 
 [[cards]]
-text = "Tar and Feathers"
+text = "Rockefeller Christmas Tree"
 
 [[cards]]
-text = "Micro Machines Trap"
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Wollman Rink"
+
+[[cards]]
+text = "Attic Bedroom"
+
+[[cards]]
+text = "BB Gun"
 
 [[cards]]
 text = "Blowtorch Trap"
 
 [[cards]]
+text = "Paint Cans Trap"
+
+[[cards]]
 text = "Hot Iron Trap"
 
 [[cards]]
-text = "Ice Covered Stairs"
+text = "Micro Machines"
 
 [[cards]]
-text = "Flying Bricks Trap"
+text = "Heated Doorknob"
+
+[[cards]]
+text = "Toolbox Trap"
+
+[[cards]]
+text = "Staple Gun"
+
+[[cards]]
+text = "Falling Bricks"
 
 [[cards]]
 text = "Electrocuted Sink"
 
 [[cards]]
-text = "Lightbulb Pull Cord"
+text = "Ice Covered Stairs"
 
 [[cards]]
-text = "Tool Chest Trap"
+text = "Kerosene Rope"
+
+[[cards]]
+text = "Sledding Down Stairs"
+
+[[cards]]
+text = "Aftershave Face"
+
+[[cards]]
+text = "Talkboy"
 
 [[cards]]
 text = "Cheese Pizza"
@@ -129,73 +171,13 @@ text = "Toothbrush"
 text = "\"Keep the Change\""
 
 [[cards]]
-text = "\"Filthy Animal\""
-
-[[cards]]
 text = "Angels with Filthy Souls"
 
 [[cards]]
-text = "Ken's Shower Cap"
-
-[[cards]]
-text = "Polka Band"
-
-[[cards]]
-text = "Lost in New York"
-
-[[cards]]
-text = "Underneath the Bed"
-
-[[cards]]
-text = "The Attic Room"
-
-[[cards]]
-text = "Toy Remote Control Car"
-
-[[cards]]
-text = "Pet Tarantula"
-
-[[cards]]
-text = "Talkboy Recorder"
-
-[[cards]]
-text = "Wet Bandits"
-
-[[cards]]
-text = "Sticky Bandits"
-
-[[cards]]
-text = "Micro Machines"
-
-[[cards]]
-text = "Swinging Paint Cans"
-
-[[cards]]
-text = "BB Gun"
-
-[[cards]]
-text = "Rockefeller Christmas Tree"
+text = "Kenosha Kickers"
 
 [[cards]]
 text = "Cardboard Cutouts"
-
-[[cards]]
-text = "Wollman Rink"
-
-[[cards]]
-text = "Turtle Doves"
-
-[[cards]]
-text = "Paris Airport"
-
-[[cards]]
-text = "Miami Florida"
-
-[[cards]]
-text = "Attic Bedroom"
-
-[[cards]]
-text = "Kenosha Kickers"
 
 [[cards]]
 text = "Limo Ride"
@@ -204,64 +186,13 @@ text = "Limo Ride"
 text = "Stolen Credit Card"
 
 [[cards]]
-text = "Falling Bricks"
-
-[[cards]]
-text = "Staple Gun"
-
-[[cards]]
-text = "Sledding Down Stairs"
-
-[[cards]]
-text = "Heated Doorknob"
-
-[[cards]]
-text = "Toolbox Trap"
-
-[[cards]]
-text = "Electrocution Spark"
-
-[[cards]]
-text = "Kerosene Rope"
-
-[[cards]]
-text = "Aftershave Face"
-
-[[cards]]
-text = "Cedric the Bellman"
-
-[[cards]]
-text = "Statue of Liberty"
-
-[[cards]]
-text = "Home Alone"
-
-[[cards]]
-text = "Harry and Marv"
-
-[[cards]]
-text = "Tarantula on the Face"
-
-[[cards]]
-text = "LaGuardia Airport"
-
-[[cards]]
-text = "Super Soaker"
-
-[[cards]]
-text = "Iron to the Face"
-
-[[cards]]
 text = "Ice Cream in Bed"
 
 [[cards]]
-text = "Buzz's Tarantula"
-
-[[cards]]
-text = "Pigeon Lady"
-
-[[cards]]
-text = "Overheated Doorknob"
-
-[[cards]]
 text = "Running Through Airport"
+
+[[cards]]
+text = "Lost in New York"
+
+[[cards]]
+text = "Home Alone"

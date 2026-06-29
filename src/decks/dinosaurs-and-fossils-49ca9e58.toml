@@ -1,5 +1,5 @@
 id = "deck_dinosaurs-and-fossils_49ca9e58"
-revision = 1
+revision = 2
 name = "Dinosaurs and Fossils"
 category = "Science"
 audience = "Family"
@@ -28,9 +28,6 @@ text = "Pterodactyl"
 
 [[cards]]
 text = "Woolly Mammoth"
-
-[[cards]]
-text = "Sabre-Toothed Tiger"
 
 [[cards]]
 text = "Paleontologist"
@@ -138,9 +135,6 @@ text = "Sedimentary Rock"
 text = "Fossilized Footprint"
 
 [[cards]]
-text = "Skeleton Reconstruction"
-
-[[cards]]
 text = "Ice Age"
 
 [[cards]]
@@ -168,19 +162,10 @@ text = "Giganotosaurus"
 text = "Amber"
 
 [[cards]]
-text = "Fossil Dig"
-
-[[cards]]
 text = "Rock Hammer"
 
 [[cards]]
 text = "Chisel"
-
-[[cards]]
-text = "Soft Brush"
-
-[[cards]]
-text = "Excavation Site"
 
 [[cards]]
 text = "Volcanic Eruption"
@@ -192,19 +177,7 @@ text = "Pangea"
 text = "Woolly Rhinoceros"
 
 [[cards]]
-text = "Ichthyosaur"
-
-[[cards]]
-text = "Saber-Toothed Tiger"
-
-[[cards]]
-text = "Chisel and Hammer"
-
-[[cards]]
 text = "Magnifying Glass"
-
-[[cards]]
-text = "Plaster Cast"
 
 [[cards]]
 text = "Dinosaur Bone"
@@ -217,12 +190,6 @@ text = "Skeleton Exhibit"
 
 [[cards]]
 text = "Mammoth Tusk"
-
-[[cards]]
-text = "Excavation Brush"
-
-[[cards]]
-text = "Dig Site"
 
 [[cards]]
 text = "Skeletal Reconstruction"

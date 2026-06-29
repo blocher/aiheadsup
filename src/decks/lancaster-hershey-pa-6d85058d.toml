@@ -1,5 +1,5 @@
 id = "deck_lancaster-hershey-pa_6d85058d"
-revision = 1
+revision = 2
 name = "Lancaster & Hershey, PA"
 category = "Cities"
 audience = "Family"
@@ -15,16 +15,76 @@ text = "Hersheypark"
 text = "Hershey's Chocolate World"
 
 [[cards]]
-text = "Horse and Buggy"
+text = "Chocolatetown"
 
 [[cards]]
-text = "Shoofly Pie"
+text = "The Kissing Tower"
 
 [[cards]]
-text = "Whoopie Pie"
+text = "Fahrenheit Roller Coaster"
+
+[[cards]]
+text = "Hersheypark Stadium"
+
+[[cards]]
+text = "Giant Center"
+
+[[cards]]
+text = "Hershey Bears"
+
+[[cards]]
+text = "ZooAmerica"
+
+[[cards]]
+text = "Hershey Gardens"
+
+[[cards]]
+text = "The Hershey Story Museum"
+
+[[cards]]
+text = "AACA Museum"
+
+[[cards]]
+text = "Hershey Theatre"
+
+[[cards]]
+text = "Milton Hershey"
+
+[[cards]]
+text = "Milton Hershey School"
+
+[[cards]]
+text = "Hershey's Kisses"
+
+[[cards]]
+text = "Cocoa Avenue"
+
+[[cards]]
+text = "Sweetest Place on Earth"
+
+[[cards]]
+text = "Tröegs Brewery"
+
+[[cards]]
+text = "Indian Echo Caverns"
+
+[[cards]]
+text = "Lancaster County"
+
+[[cards]]
+text = "Lancaster Central Market"
 
 [[cards]]
 text = "Strasburg Rail Road"
+
+[[cards]]
+text = "Railroad Museum of Pennsylvania"
+
+[[cards]]
+text = "National Toy Train Museum"
+
+[[cards]]
+text = "Choo Choo Barn"
 
 [[cards]]
 text = "Sight & Sound Theatres"
@@ -33,34 +93,16 @@ text = "Sight & Sound Theatres"
 text = "Dutch Wonderland"
 
 [[cards]]
-text = "Lancaster Central Market"
+text = "Cherry Crest Adventure Farm"
 
 [[cards]]
-text = "Shady Maple Smorgasbord"
-
-[[cards]]
-text = "Town of Intercourse"
-
-[[cards]]
-text = "Lititz Springs Park"
-
-[[cards]]
-text = "Wilbur Buds"
-
-[[cards]]
-text = "Julius Sturgis Pretzel Bakery"
-
-[[cards]]
-text = "Turkey Hill Experience"
+text = "Kitchen Kettle Village"
 
 [[cards]]
 text = "Amish Farm and House"
 
 [[cards]]
-text = "Cherry Crest Adventure Farm"
-
-[[cards]]
-text = "Kitchen Kettle Village"
+text = "Hans Herr House"
 
 [[cards]]
 text = "Ephrata Cloister"
@@ -69,34 +111,55 @@ text = "Ephrata Cloister"
 text = "Landis Valley Museum"
 
 [[cards]]
-text = "National Toy Train Museum"
+text = "Wheatland"
 
 [[cards]]
-text = "The Kissing Tower"
+text = "Fulton Theatre"
 
 [[cards]]
-text = "Hershey Gardens"
+text = "Hands-on House"
 
 [[cards]]
-text = "Milton Hershey"
+text = "Pennsylvania Renaissance Faire"
 
 [[cards]]
-text = "Lebanon Bologna"
+text = "Lancaster Barnstormers"
 
 [[cards]]
-text = "Birch Beer"
+text = "Shady Maple Smorgasbord"
 
 [[cards]]
-text = "Scrapple"
+text = "Green Dragon Market"
 
 [[cards]]
-text = "Pennsylvania Dutch Pot Pie"
+text = "Roots Country Market"
 
 [[cards]]
-text = "Apple Butter"
+text = "Julius Sturgis Pretzel Bakery"
 
 [[cards]]
-text = "Chow-Chow"
+text = "Hammond's Pretzels"
+
+[[cards]]
+text = "Wilbur Chocolate Factory"
+
+[[cards]]
+text = "Wilbur Buds"
+
+[[cards]]
+text = "Turkey Hill Experience"
+
+[[cards]]
+text = "Lititz"
+
+[[cards]]
+text = "Lititz Springs Park"
+
+[[cards]]
+text = "Mount Joy"
+
+[[cards]]
+text = "Town of Intercourse"
 
 [[cards]]
 text = "Town of Bird-in-Hand"
@@ -108,16 +171,13 @@ text = "Town of Blue Ball"
 text = "Town of Paradise"
 
 [[cards]]
-text = "Mount Joy"
-
-[[cards]]
-text = "Lancaster County"
-
-[[cards]]
 text = "Susquehanna River"
 
 [[cards]]
-text = "Covered Bridge Tour"
+text = "Chiques Rock"
+
+[[cards]]
+text = "Amish Buggy"
 
 [[cards]]
 text = "Amish Quilt"
@@ -126,124 +186,43 @@ text = "Amish Quilt"
 text = "Barn Raising"
 
 [[cards]]
-text = "Green Dragon Market"
-
-[[cards]]
-text = "Roots Country Market"
-
-[[cards]]
-text = "Corn Maze"
-
-[[cards]]
-text = "Smorgasbord"
-
-[[cards]]
-text = "Hersheypark Stadium"
-
-[[cards]]
-text = "Cocoa Avenue"
-
-[[cards]]
-text = "Fulton Theatre"
-
-[[cards]]
-text = "ZooAmerica"
-
-[[cards]]
-text = "Hands-on House"
-
-[[cards]]
-text = "Railroad Museum of Pennsylvania"
-
-[[cards]]
-text = "Hershey's Kisses"
-
-[[cards]]
-text = "Amish Buggy"
-
-[[cards]]
-text = "Hershey Kiss"
-
-[[cards]]
-text = "Sight and Sound Theatre"
-
-[[cards]]
-text = "Intercourse Pennsylvania"
-
-[[cards]]
-text = "Bird-in-Hand"
-
-[[cards]]
-text = "Covered Bridge"
-
-[[cards]]
 text = "One-Room Schoolhouse"
-
-[[cards]]
-text = "Chicken Pot Pie"
-
-[[cards]]
-text = "Choo Choo Barn"
-
-[[cards]]
-text = "Paradise Pennsylvania"
 
 [[cards]]
 text = "Straw Hat"
 
 [[cards]]
-text = "Amish Farm"
+text = "Covered Bridge"
 
 [[cards]]
-text = "Giant Center"
+text = "Corn Maze"
 
 [[cards]]
 text = "Pennsylvania Dutch"
 
 [[cards]]
-text = "Herr's Potato Chips"
+text = "Shoofly Pie"
+
+[[cards]]
+text = "Whoopie Pie"
+
+[[cards]]
+text = "Pennsylvania Dutch Pot Pie"
+
+[[cards]]
+text = "Scrapple"
+
+[[cards]]
+text = "Lebanon Bologna"
+
+[[cards]]
+text = "Birch Beer"
+
+[[cards]]
+text = "Apple Butter"
+
+[[cards]]
+text = "Chow-Chow"
 
 [[cards]]
 text = "Soft Pretzel"
-
-[[cards]]
-text = "Hershey Theatre"
-
-[[cards]]
-text = "Lititz"
-
-[[cards]]
-text = "Hershey Bears"
-
-[[cards]]
-text = "Wilbur Chocolate Factory"
-
-[[cards]]
-text = "Chocolate World"
-
-[[cards]]
-text = "Indian Echo Caverns"
-
-[[cards]]
-text = "Landis Valley"
-
-[[cards]]
-text = "Sweetest Place on Earth"
-
-[[cards]]
-text = "Handmade Quilt"
-
-[[cards]]
-text = "Fahrenheit Roller Coaster"
-
-[[cards]]
-text = "Chiques Rock"
-
-[[cards]]
-text = "Milton Hershey School"
-
-[[cards]]
-text = "Amish Farmhouse"
-
-[[cards]]
-text = "Chocolatetown"

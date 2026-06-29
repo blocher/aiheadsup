@@ -1,5 +1,5 @@
 id = "deck_university-of-pittsburgh_bea15323"
-revision = 1
+revision = 2
 name = "University of Pittsburgh"
 category = "Colleges and Universities"
 audience = "Family"
@@ -75,16 +75,10 @@ text = "Lantern Night"
 text = "Phipps Conservatory"
 
 [[cards]]
-text = "Soldiers and Sailors"
-
-[[cards]]
 text = "Hemingway's Cafe"
 
 [[cards]]
 text = "Primanti Bros"
-
-[[cards]]
-text = "The Pete"
 
 [[cards]]
 text = "Pitt Panthers"
@@ -159,9 +153,6 @@ text = "Carnegie Library"
 text = "Victory Lights"
 
 [[cards]]
-text = "The Oakland Zoo"
-
-[[cards]]
 text = "Backyard Brawl"
 
 [[cards]]
@@ -181,9 +172,6 @@ text = "Sutherland Hall"
 
 [[cards]]
 text = "Pamela's Diner"
-
-[[cards]]
-text = "Heinz Field"
 
 [[cards]]
 text = "Posvar Hall"
@@ -214,15 +202,6 @@ text = "Chevron Science Center"
 
 [[cards]]
 text = "Bellefield Hall"
-
-[[cards]]
-text = "Primanti Brothers"
-
-[[cards]]
-text = "Fred Rogers"
-
-[[cards]]
-text = "Oakland Neighborhood"
 
 [[cards]]
 text = "Gene Kelly"

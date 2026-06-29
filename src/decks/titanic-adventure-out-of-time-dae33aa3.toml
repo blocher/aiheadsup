@@ -1,5 +1,5 @@
 id = "deck_titanic-adventure-out-of-time_dae33aa3"
-revision = 1
+revision = 2
 name = "Titanic: Adventure Out of Time"
 category = "Games"
 audience = "Family"
@@ -21,34 +21,34 @@ text = "Colonel Zeitel"
 text = "Sasha Barbicon"
 
 [[cards]]
+text = "Vlad Demonic"
+
+[[cards]]
+text = "Willi Von Haderlitz"
+
+[[cards]]
+text = "Buick Riviera"
+
+[[cards]]
 text = "Lady Georgia Lambeth"
 
 [[cards]]
 text = "Lord Charles Lambeth"
 
 [[cards]]
-text = "Vlad Demonic"
-
-[[cards]]
-text = "Buick Montenegro"
-
-[[cards]]
 text = "Smethells"
 
 [[cards]]
-text = "Willie Von Haderlitz"
+text = "Third Officer Morrow"
 
 [[cards]]
-text = "Officer Morrow"
-
-[[cards]]
-text = "Reverend John Troutt"
+text = "Reverend Edgar Troutt"
 
 [[cards]]
 text = "Claris Limehouse"
 
 [[cards]]
-text = "Daisy Burns"
+text = "Daisy Cashmore"
 
 [[cards]]
 text = "Andrew Conkling"
@@ -63,7 +63,31 @@ text = "Max Seidelmann"
 text = "Leyland Trask"
 
 [[cards]]
-text = "Shailah Hacker"
+text = "Shailagh Hacker"
+
+[[cards]]
+text = "Eric Burns"
+
+[[cards]]
+text = "Stephanie Burns"
+
+[[cards]]
+text = "Captain Smith"
+
+[[cards]]
+text = "The Gorse-Joneses"
+
+[[cards]]
+text = "The Purser"
+
+[[cards]]
+text = "The Lift Attendant"
+
+[[cards]]
+text = "The Stoker"
+
+[[cards]]
+text = "Baby Eddie"
 
 [[cards]]
 text = "Rubaiyat of Omar Khayyam"
@@ -75,16 +99,52 @@ text = "The Realist Painting"
 text = "Haderlitz's Notebook"
 
 [[cards]]
-text = "Carter Breastplate"
+text = "Diamond Necklace"
 
 [[cards]]
 text = "Poison Gas Pen"
+
+[[cards]]
+text = "The Antidote"
+
+[[cards]]
+text = "Seidelmann's Cigarette Case"
+
+[[cards]]
+text = "Conkling's Letter"
+
+[[cards]]
+text = "Smethells' Key"
+
+[[cards]]
+text = "Master Key"
+
+[[cards]]
+text = "Electric Torch"
+
+[[cards]]
+text = "Deck Plan"
+
+[[cards]]
+text = "Cufflinks"
+
+[[cards]]
+text = "Telegram to Zeitel"
+
+[[cards]]
+text = "Gold Pocket Watch"
+
+[[cards]]
+text = "Death Card"
 
 [[cards]]
 text = "Cabin C-73"
 
 [[cards]]
 text = "The Turkish Bath"
+
+[[cards]]
+text = "The Electric Bath"
 
 [[cards]]
 text = "Boiler Room 3"
@@ -105,49 +165,10 @@ text = "The Squash Court"
 text = "The Wireless Room"
 
 [[cards]]
-text = "Compass Tower"
-
-[[cards]]
-text = "Renault Town Car"
-
-[[cards]]
-text = "Smethells' Key"
-
-[[cards]]
-text = "Poisoned Pipe"
-
-[[cards]]
-text = "Russian Revolution"
-
-[[cards]]
-text = "World War I"
-
-[[cards]]
-text = "CyberFlix"
-
-[[cards]]
-text = "London Flat 1942"
-
-[[cards]]
-text = "The Electric Bath"
-
-[[cards]]
-text = "Titanic Gymnasium"
-
-[[cards]]
-text = "The Poop Deck"
-
-[[cards]]
 text = "First Class Smoking Room"
 
 [[cards]]
-text = "Gantry Crane"
-
-[[cards]]
-text = "Seidelmann's Cigarette Case"
-
-[[cards]]
-text = "Conkling's Letter"
+text = "First Class Lounge"
 
 [[cards]]
 text = "A-Deck Promenade"
@@ -159,88 +180,7 @@ text = "Officer's Quarters"
 text = "The Stern"
 
 [[cards]]
-text = "Vlad Demchenko"
-
-[[cards]]
-text = "Buick Riviera"
-
-[[cards]]
-text = "Willi Von Haderlitz"
-
-[[cards]]
-text = "Modern Art Painting"
-
-[[cards]]
-text = "Haderlitz Notebook"
-
-[[cards]]
-text = "Poison Pen"
-
-[[cards]]
-text = "Turkish Baths"
-
-[[cards]]
-text = "Boiler Room Three"
-
-[[cards]]
-text = "Grand Staircase"
-
-[[cards]]
-text = "Squash Court"
-
-[[cards]]
-text = "Wireless Room"
-
-[[cards]]
-text = "Cargo Hold"
-
-[[cards]]
-text = "Cabin B-78"
-
-[[cards]]
-text = "London Flat"
-
-[[cards]]
-text = "The Blitz"
-
-[[cards]]
-text = "Diamond Necklace"
-
-[[cards]]
-text = "German Secret Service"
-
-[[cards]]
-text = "Serbian Nationalists"
-
-[[cards]]
-text = "Master Key"
-
-[[cards]]
-text = "Electric Torch"
-
-[[cards]]
-text = "Deck Plan"
-
-[[cards]]
-text = "Shrapnel"
-
-[[cards]]
-text = "Carter's Bible"
-
-[[cards]]
-text = "Reverend Carter"
-
-[[cards]]
-text = "Eric Burns"
-
-[[cards]]
-text = "Captain Smith"
-
-[[cards]]
-text = "Officer Lowe"
-
-[[cards]]
-text = "Gymnasium"
+text = "The Poop Deck"
 
 [[cards]]
 text = "Forecastle"
@@ -249,16 +189,37 @@ text = "Forecastle"
 text = "Aft Well Deck"
 
 [[cards]]
-text = "Cufflinks"
+text = "Gymnasium"
 
 [[cards]]
-text = "Telegram to Zeitel"
+text = "London Flat"
 
 [[cards]]
-text = "Poison Vial"
+text = "Boat Deck"
 
 [[cards]]
-text = "Gold Pocket Watch"
+text = "Turbine Room"
+
+[[cards]]
+text = "Engine Room"
+
+[[cards]]
+text = "The Bridge"
+
+[[cards]]
+text = "Renault Town Car"
+
+[[cards]]
+text = "Russian Revolution"
+
+[[cards]]
+text = "World War I"
+
+[[cards]]
+text = "The Blitz"
+
+[[cards]]
+text = "Time Travel"
 
 [[cards]]
 text = "Alternate History"
@@ -267,22 +228,22 @@ text = "Alternate History"
 text = "Sinking of the Titanic"
 
 [[cards]]
-text = "Time Travel"
+text = "The Iceberg"
 
 [[cards]]
-text = "The Rubaiyat"
+text = "The Black Hand"
 
 [[cards]]
-text = "The Renault Car"
+text = "The Ochrana"
 
 [[cards]]
-text = "Third Officer Morrow"
+text = "Conkling Steel"
 
 [[cards]]
-text = "The Boiler Room"
+text = "Blackjack"
 
 [[cards]]
-text = "The Zeppelin Plans"
+text = "Archduke Franz Ferdinand"
 
 [[cards]]
-text = "The Poison Gas Pen"
+text = "CyberFlix"

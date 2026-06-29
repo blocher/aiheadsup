@@ -1,5 +1,5 @@
 id = "deck_pittsburgh-pirates_e56fa43a"
-revision = 1
+revision = 2
 name = "Pittsburgh Pirates"
 category = "Pittsburgh Sports"
 audience = "Family"
@@ -117,9 +117,6 @@ text = "The Cueto Chant"
 text = "Blackout Game"
 
 [[cards]]
-text = "Captain Jolly Roger"
-
-[[cards]]
 text = "Bucco Nation"
 
 [[cards]]
@@ -144,9 +141,6 @@ text = "Pie Traynor"
 text = "Jason Bay"
 
 [[cards]]
-text = "AJ Burnett"
-
-[[cards]]
 text = "Neil Walker"
 
 [[cards]]
@@ -159,25 +153,13 @@ text = "Steve Blass"
 text = "Bob Prince"
 
 [[cards]]
-text = "The Great Pierogy Race"
-
-[[cards]]
 text = "Jolly Roger"
-
-[[cards]]
-text = "Green Weenie"
 
 [[cards]]
 text = "The Great One"
 
 [[cards]]
 text = "Sister Sledge"
-
-[[cards]]
-text = "Cueto Chant"
-
-[[cards]]
-text = "Game Seven Walk-Off"
 
 [[cards]]
 text = "Mustard Yellow Jersey"
@@ -189,10 +171,7 @@ text = "Pittsburgh Crawfords"
 text = "Homestead Grays"
 
 [[cards]]
-text = "The Battlin' Bucs"
-
-[[cards]]
-text = "Pierogy Mascot"
+text = "Pierogi Mascot"
 
 [[cards]]
 text = "KDKA Radio"
@@ -216,43 +195,13 @@ text = "Cutch"
 text = "Elroy Face"
 
 [[cards]]
-text = "Fred Rogers"
-
-[[cards]]
-text = "Roberto Clemente Wall"
-
-[[cards]]
-text = "Great Pierogi Race"
-
-[[cards]]
-text = "Jolly Roger Flag"
-
-[[cards]]
 text = "Bradenton Florida"
 
 [[cards]]
 text = "Cincinnati Reds"
 
 [[cards]]
-text = "The Clemente Wall"
-
-[[cards]]
-text = "Buccos"
-
-[[cards]]
-text = "Johnny Cueto Chant"
-
-[[cards]]
 text = "Philadelphia Phillies"
 
 [[cards]]
-text = "The Pirate Parrot"
-
-[[cards]]
-text = "Mazeroski Walk-Off Home Run"
-
-[[cards]]
-text = "Great Pirate Pierogi Race"
-
-[[cards]]
-text = "The Roberto Clemente Bridge"
+text = "Buccos"

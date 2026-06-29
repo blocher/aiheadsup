@@ -1,5 +1,5 @@
 id = "deck_harry-potter-hogwarts-classes_2dc0bc9e"
-revision = 1
+revision = 2
 name = "Harry Potter: Hogwarts Classes"
 category = "Harry Potter"
 audience = "Family"
@@ -10,7 +10,7 @@ spoiler_series = "harry_potter"
 photo_file_name = "harry-potter-hogwarts-classes-2dc0bc9e-cover.jpg"
 
 [[cards]]
-text = "Defense Against Dark Arts"
+text = "Dark Arts"
 first_revealed_installment = 1
 
 [[cards]]
@@ -50,48 +50,24 @@ text = "Study of Ancient Runes"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Professor Snape"
+text = "Astronomy"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Professor McGonagall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor Flitwick"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor Sprout"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor Trelawney"
+text = "Muggle Studies"
 first_revealed_installment = 3
+
+[[cards]]
+text = "Flying Class"
+first_revealed_installment = 1
 
 [[cards]]
 text = "Professor Binns"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Remus Lupin"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Gilderoy Lockhart"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Rubeus Hagrid"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Mad-Eye Moody"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Mandrake Root"
-first_revealed_installment = 2
+text = "Horace Slughorn"
+first_revealed_installment = 6
 
 [[cards]]
 text = "Pewter Cauldron"
@@ -118,6 +94,14 @@ text = "Bezoar"
 first_revealed_installment = 1
 
 [[cards]]
+text = "Wolfsbane Potion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Skele-Gro"
+first_revealed_installment = 2
+
+[[cards]]
 text = "Boggart"
 first_revealed_installment = 3
 
@@ -142,40 +126,60 @@ text = "Bowtruckle"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Wolfsbane Potion"
+text = "Niffler"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flobberworm"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Sneakoscope"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Wingardium Leviosa"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Alohomora"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Riddikulus"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Expecto Patronum"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Expelliarmus"
+text = "Mandrake"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Petrificus Totalus"
+text = "Devil's Snare"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Accio"
+text = "Gillyweed"
 first_revealed_installment = 4
+
+[[cards]]
+text = "Bubotuber Pus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Fanged Geranium"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Crystal Ball"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Tea Leaves"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Parchment and Quill"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dragon Hide Gloves"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Monster Book of Monsters"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Animagus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Grim"
+first_revealed_installment = 3
 
 [[cards]]
 text = "O.W.L. Exams"
@@ -192,131 +196,3 @@ first_revealed_installment = 1
 [[cards]]
 text = "The Restricted Section"
 first_revealed_installment = 1
-
-[[cards]]
-text = "Devil's Snare"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Time-Turner"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Gillyweed"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Bubotuber Pus"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Astronomy"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Severus Snape"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Minerva McGonagall"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Professor Lupin"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Professor Lockhart"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Horace Slughorn"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Crystal Ball"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Mandrake"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Cornish Pixie"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Niffler"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Flobberworm"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Skele-Gro"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Aguamenti"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Lumos"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Tea Leaves"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Flying Class"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Animagus"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Transfiguration Class"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Herbology Class"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Divination Class"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Astronomy Class"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Muggle Studies"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Parchment and Quill"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Monster Book of Monsters"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Patronus Charm"
-first_revealed_installment = 3
-
-[[cards]]
-text = "The Grim"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Dragon Hide Gloves"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Fanged Geranium"
-first_revealed_installment = 5

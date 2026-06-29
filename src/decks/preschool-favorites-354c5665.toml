@@ -1,5 +1,5 @@
 id = "deck_preschool-favorites_354c5665"
-revision = 1
+revision = 2
 name = "Preschool Favorites"
 category = "Kids"
 audience = "Family"
@@ -129,10 +129,10 @@ text = "Humpty Dumpty"
 text = "Baby Shark"
 
 [[cards]]
-text = "Twinkle Star"
+text = "Twinkle Twinkle Little Star"
 
 [[cards]]
-text = "Finger Paint"
+text = "Finger Painting"
 
 [[cards]]
 text = "Sandbox"
@@ -159,52 +159,22 @@ text = "Dinosaur"
 text = "Butterfly"
 
 [[cards]]
-text = "Play-Doh"
-
-[[cards]]
 text = "Tricycle"
-
-[[cards]]
-text = "Finger Painting"
-
-[[cards]]
-text = "Bunny Rabbit"
 
 [[cards]]
 text = "Piggy Bank"
 
 [[cards]]
-text = "Red Apple"
-
-[[cards]]
-text = "Yellow Banana"
-
-[[cards]]
-text = "Blue Balloon"
-
-[[cards]]
-text = "Gold Star"
-
-[[cards]]
-text = "Green Frog"
+text = "Red Balloon"
 
 [[cards]]
 text = "Duck, Duck, Goose"
-
-[[cards]]
-text = "Twinkle Twinkle Little Star"
-
-[[cards]]
-text = "Slide"
 
 [[cards]]
 text = "Animal Crackers"
 
 [[cards]]
 text = "Peanut Butter Sandwiches"
-
-[[cards]]
-text = "Train Engine"
 
 [[cards]]
 text = "Helicopter"
@@ -238,24 +208,6 @@ text = "Pajamas"
 
 [[cards]]
 text = "Toothbrush"
-
-[[cards]]
-text = "Yellow Duck"
-
-[[cards]]
-text = "Red Balloon"
-
-[[cards]]
-text = "Peek-a-boo"
-
-[[cards]]
-text = "Puppy Dog"
-
-[[cards]]
-text = "Rubber Ducky"
-
-[[cards]]
-text = "Peanut Butter"
 
 [[cards]]
 text = "Rainbow"

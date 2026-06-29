@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-4-harry-potter-and-the-goblet-of-fire_b139e472"
-revision = 1
+revision = 2
 name = "Harry Potter Book 4: Harry Potter and the Goblet of Fire"
 category = "Harry Potter"
 audience = "Family"
@@ -182,10 +182,6 @@ text = "Durmstrang Ship"
 first_revealed_installment = 4
 
 [[cards]]
-text = "The Weird Sisters"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Death Eaters"
 first_revealed_installment = 4
 
@@ -198,7 +194,7 @@ text = "Imperius Curse"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Killing Curse"
+text = "Avada Kedavra"
 first_revealed_installment = 4
 
 [[cards]]
@@ -214,27 +210,11 @@ text = "Triwizard Tournament"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Winky the House-Elf"
-first_revealed_installment = 4
-
-[[cards]]
-text = "The Yule Ball"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Merpeople"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Pensieve"
-first_revealed_installment = 4
-
-[[cards]]
 text = "S.P.E.W."
-first_revealed_installment = 4
-
-[[cards]]
-text = "The Third Task"
 first_revealed_installment = 4
 
 [[cards]]
@@ -250,10 +230,6 @@ text = "Grindylow"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Avada Kedavra"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Weird Sisters"
 first_revealed_installment = 4
 
@@ -266,10 +242,6 @@ text = "Triwizard Maze"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Riddle House"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Weasleys' Wizard Wheezes"
 first_revealed_installment = 4
 
@@ -278,9 +250,9 @@ text = "Sphinx"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Dark Mark"
+text = "Nagini"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Alastor Mad-Eye Moody"
+text = "Accio"
 first_revealed_installment = 4

@@ -1,5 +1,5 @@
 id = "deck_harry-potter-magical-objects_df99c1c9"
-revision = 1
+revision = 2
 name = "Harry Potter: Magical Objects"
 category = "Harry Potter"
 audience = "Family"
@@ -19,10 +19,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Invisibility Cloak"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Sorting Hat"
 first_revealed_installment = 1
 
 [[cards]]
@@ -64,10 +60,6 @@ first_revealed_installment = 4
 [[cards]]
 text = "Pensieve"
 first_revealed_installment = 4
-
-[[cards]]
-text = "Monster Book of Monsters"
-first_revealed_installment = 3
 
 [[cards]]
 text = "Howler"
@@ -138,28 +130,12 @@ text = "Skiving Snackbox"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Liquid Luck"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Polyjuice Potion"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Veritaserum"
-first_revealed_installment = 4
-
-[[cards]]
 text = "Vanishing Cabinet"
 first_revealed_installment = 2
 
 [[cards]]
 text = "Two-way Mirror"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Bezoar"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Golden Egg"
@@ -190,28 +166,12 @@ text = "Weasley Family Clock"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Pewter Cauldron"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Self-Writing Quill"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Dungbomb"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Peruvian Instant Darkness"
+text = "Peruvian Instant Darkness Powder"
 first_revealed_installment = 6
-
-[[cards]]
-text = "Skele-Gro"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Sorcerer's Stone"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Basilisk Fang"
@@ -222,24 +182,12 @@ text = "Flying Motorbike"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Instant Darkness Powder"
-first_revealed_installment = 6
-
-[[cards]]
 text = "Bertie Bott's Beans"
 first_revealed_installment = 1
 
 [[cards]]
 text = "Chocolate Frog"
 first_revealed_installment = 1
-
-[[cards]]
-text = "Magic Wand"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Love Potion"
-first_revealed_installment = 6
 
 [[cards]]
 text = "Weasley Sweater"
@@ -260,19 +208,3 @@ first_revealed_installment = 1
 [[cards]]
 text = "Mad-Eye Moody's Eye"
 first_revealed_installment = 4
-
-[[cards]]
-text = "The Marauder's Map"
-first_revealed_installment = 3
-
-[[cards]]
-text = "The Pensieve"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Flying Car"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Skelegro"
-first_revealed_installment = 2

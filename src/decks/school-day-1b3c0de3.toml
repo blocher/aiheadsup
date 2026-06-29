@@ -1,5 +1,5 @@
 id = "deck_school-day_1b3c0de3"
-revision = 1
+revision = 2
 name = "School Day"
 category = "Kids"
 audience = "Family"
@@ -61,9 +61,6 @@ text = "Field Trip"
 
 [[cards]]
 text = "School Bell"
-
-[[cards]]
-text = "Blackboard"
 
 [[cards]]
 text = "Box of Crayons"
@@ -147,9 +144,6 @@ text = "Line Leader"
 text = "Raise Your Hand"
 
 [[cards]]
-text = "Reading Rug"
-
-[[cards]]
 text = "High Five"
 
 [[cards]]
@@ -171,22 +165,13 @@ text = "Gym Teacher"
 text = "Library Book"
 
 [[cards]]
-text = "Dry Erase Marker"
-
-[[cards]]
 text = "Cafeteria Tray"
 
 [[cards]]
 text = "Reading Corner"
 
 [[cards]]
-text = "Wooden Ruler"
-
-[[cards]]
 text = "Art Class"
-
-[[cards]]
-text = "Pencil Eraser"
 
 [[cards]]
 text = "Class Pet"
@@ -196,9 +181,6 @@ text = "Notebook Paper"
 
 [[cards]]
 text = "Morning Announcements"
-
-[[cards]]
-text = "Swing Set"
 
 [[cards]]
 text = "Desk Cubby"
@@ -234,34 +216,13 @@ text = "Stapler"
 text = "Sticky Notes"
 
 [[cards]]
-text = "School Lunch Tray"
-
-[[cards]]
-text = "Classroom Blackboard"
-
-[[cards]]
-text = "Recess Bell"
-
-[[cards]]
 text = "Math Worksheet"
-
-[[cards]]
-text = "Backpack Zipper"
-
-[[cards]]
-text = "The Principal"
 
 [[cards]]
 text = "Chalkboard"
 
 [[cards]]
 text = "Pledge of Allegiance"
-
-[[cards]]
-text = "School Bus"
-
-[[cards]]
-text = "School Cafeteria"
 
 [[cards]]
 text = "The Playground"

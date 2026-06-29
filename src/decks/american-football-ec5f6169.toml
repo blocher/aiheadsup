@@ -1,5 +1,5 @@
 id = "deck_american-football_ec5f6169"
-revision = 1
+revision = 2
 name = "American Football"
 category = "Sports"
 audience = "Family"
@@ -75,9 +75,6 @@ text = "Holding"
 text = "Two-Point Conversion"
 
 [[cards]]
-text = "Sacked"
-
-[[cards]]
 text = "Fumble"
 
 [[cards]]
@@ -111,9 +108,6 @@ text = "Punt Return"
 text = "Mouthguard"
 
 [[cards]]
-text = "Chains and Markers"
-
-[[cards]]
 text = "Pick Six"
 
 [[cards]]
@@ -136,9 +130,6 @@ text = "Roughing the Passer"
 
 [[cards]]
 text = "Goal Post"
-
-[[cards]]
-text = "Draft Day"
 
 [[cards]]
 text = "Gridiron"
@@ -177,9 +168,6 @@ text = "Football Helmet"
 text = "Yard Marker"
 
 [[cards]]
-text = "Holding Penalty"
-
-[[cards]]
 text = "Offside"
 
 [[cards]]
@@ -189,16 +177,7 @@ text = "Delay of Game"
 text = "Intentional Grounding"
 
 [[cards]]
-text = "Hail Mary Pass"
-
-[[cards]]
 text = "Onside Kick"
-
-[[cards]]
-text = "Tailgating"
-
-[[cards]]
-text = "Gatorade Bath"
 
 [[cards]]
 text = "Two-Minute Warning"
@@ -225,16 +204,7 @@ text = "Lambeau Leap"
 text = "Down and Distance"
 
 [[cards]]
-text = "Immaculate Reception"
-
-[[cards]]
-text = "Chain Crew"
-
-[[cards]]
 text = "Lineman"
-
-[[cards]]
-text = "Yellow Flag"
 
 [[cards]]
 text = "Heisman Trophy"

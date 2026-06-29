@@ -1,5 +1,5 @@
 id = "deck_chemistry-basics_c764b923"
-revision = 1
+revision = 2
 name = "Chemistry Basics"
 category = "Science"
 audience = "Family"
@@ -192,13 +192,7 @@ text = "Filter Paper"
 text = "Thermometer"
 
 [[cards]]
-text = "Goggles"
-
-[[cards]]
 text = "Helium Balloon"
-
-[[cards]]
-text = "Rusting"
 
 [[cards]]
 text = "Photosynthesis"

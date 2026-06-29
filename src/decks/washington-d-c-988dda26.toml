@@ -1,5 +1,5 @@
 id = "deck_washington-d-c_988dda26"
-revision = 1
+revision = 2
 name = "Washington, D.C."
 category = "Cities"
 audience = "Family"
@@ -93,9 +93,6 @@ text = "American History Museum"
 text = "National Portrait Gallery"
 
 [[cards]]
-text = "Spy Museum"
-
-[[cards]]
 text = "Hirshhorn Museum"
 
 [[cards]]
@@ -159,12 +156,6 @@ text = "Albert Einstein Memorial"
 text = "National Mall"
 
 [[cards]]
-text = "The Capitol"
-
-[[cards]]
-text = "Supreme Court"
-
-[[cards]]
 text = "Potomac River"
 
 [[cards]]
@@ -195,22 +186,10 @@ text = "Eastern Market"
 text = "Constitution Avenue"
 
 [[cards]]
-text = "Martin Luther King Memorial"
-
-[[cards]]
-text = "Roosevelt Memorial"
-
-[[cards]]
 text = "International Spy Museum"
 
 [[cards]]
-text = "US Capitol"
-
-[[cards]]
 text = "Pennsylvania Avenue"
-
-[[cards]]
-text = "Inauguration Day"
 
 [[cards]]
 text = "Supreme Court Justice"
@@ -222,16 +201,7 @@ text = "Smithsonian Institution"
 text = "Ben's Chili Bowl"
 
 [[cards]]
-text = "US Capitol Building"
-
-[[cards]]
-text = "The Capitol Building"
-
-[[cards]]
-text = "Smithsonian Museum"
-
-[[cards]]
-text = "Cherry Blossoms"
-
-[[cards]]
 text = "Electoral College"
+
+[[cards]]
+text = "Kennedy Center"

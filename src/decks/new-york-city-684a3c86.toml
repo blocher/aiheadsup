@@ -1,5 +1,5 @@
 id = "deck_new-york-city_684a3c86"
-revision = 1
+revision = 2
 name = "New York City"
 category = "Cities"
 audience = "Family"
@@ -87,9 +87,6 @@ text = "DUMBO"
 text = "Astoria"
 
 [[cards]]
-text = "The Met Museum"
-
-[[cards]]
 text = "MoMA"
 
 [[cards]]
@@ -162,15 +159,6 @@ text = "New York Marathon"
 text = "Metropolitan Museum of Art"
 
 [[cards]]
-text = "High Line"
-
-[[cards]]
-text = "Museum of Natural History"
-
-[[cards]]
-text = "Yellow Cab"
-
-[[cards]]
 text = "Brooklyn Heights"
 
 [[cards]]
@@ -204,25 +192,10 @@ text = "Prospect Park"
 text = "Staten Island"
 
 [[cards]]
-text = "Broadway Theater"
-
-[[cards]]
-text = "The Met"
-
-[[cards]]
-text = "Bagel with Lox"
-
-[[cards]]
-text = "L Train"
-
-[[cards]]
-text = "The Metropolitan Museum"
-
-[[cards]]
 text = "The L Train"
 
 [[cards]]
-text = "High Line Park"
+text = "Yankee Stadium"
 
 [[cards]]
-text = "Hot Dog Stand"
+text = "Ellis Island"

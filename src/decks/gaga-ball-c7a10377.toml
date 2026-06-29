@@ -1,5 +1,5 @@
 id = "deck_gaga-ball_c7a10377"
-revision = 1
+revision = 2
 name = "Gaga Ball"
 category = "Sports"
 audience = "Family"
@@ -28,9 +28,6 @@ text = "Ga-Ga-Ga"
 
 [[cards]]
 text = "Summer Camp"
-
-[[cards]]
-text = "Playground Recess"
 
 [[cards]]
 text = "Underhand Strike"
@@ -165,12 +162,6 @@ text = "The Octagon"
 text = "Jump Dodge"
 
 [[cards]]
-text = "Underhand Hit"
-
-[[cards]]
-text = "The Wooden Wall"
-
-[[cards]]
 text = "Recess"
 
 [[cards]]
@@ -183,13 +174,7 @@ text = "Victory Dance"
 text = "Grounder"
 
 [[cards]]
-text = "Last Player Standing"
-
-[[cards]]
 text = "Corner Pocket"
-
-[[cards]]
-text = "Double Hit Rule"
 
 [[cards]]
 text = "Game On"
@@ -208,12 +193,6 @@ text = "Sneaker Squeak"
 
 [[cards]]
 text = "Dusty Shoes"
-
-[[cards]]
-text = "Deflection"
-
-[[cards]]
-text = "Air Ball"
 
 [[cards]]
 text = "Speed Shot"
@@ -249,40 +228,16 @@ text = "Playground"
 text = "Second Tap"
 
 [[cards]]
-text = "Turtle Defense"
-
-[[cards]]
 text = "Target Practice"
 
 [[cards]]
 text = "Open Hand Strike"
 
 [[cards]]
-text = "Octagon Court"
-
-[[cards]]
 text = "The Opening Chant"
-
-[[cards]]
-text = "Dodge and Jump"
-
-[[cards]]
-text = "Knee Hit"
 
 [[cards]]
 text = "Spectator Bench"
 
 [[cards]]
 text = "Referee Whistle"
-
-[[cards]]
-text = "Under the Knee"
-
-[[cards]]
-text = "Open Hand Hit"
-
-[[cards]]
-text = "The Gaga Pit"
-
-[[cards]]
-text = "Ga Ga Go"

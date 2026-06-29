@@ -1,5 +1,5 @@
 id = "deck_harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix_db370e62"
-revision = 1
+revision = 2
 name = "Harry Potter Book 5: Harry Potter and the Order of the Phoenix"
 category = "Harry Potter"
 audience = "Family"
@@ -214,20 +214,12 @@ text = "Legilimency"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Skiving Snackbox"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Phineas Nigellus Black"
 first_revealed_installment = 5
 
 [[cards]]
 text = "Weasleys' Wildfire Whiz-bangs"
 first_revealed_installment = 5
-
-[[cards]]
-text = "Hog's Head Inn"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Michael Corner"
@@ -302,13 +294,17 @@ text = "Dumbledore's Army Coin"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Phineas Nigellus"
-first_revealed_installment = 5
-
-[[cards]]
-text = "St Mungos Hospital"
-first_revealed_installment = 4
-
-[[cards]]
 text = "The Brain Room"
 first_revealed_installment = 5
+
+[[cards]]
+text = "Firenze"
+first_revealed_installment = 1
+
+[[cards]]
+text = "O.W.L.s"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dementor"
+first_revealed_installment = 3

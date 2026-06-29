@@ -1,5 +1,5 @@
 id = "deck_board-games_e4a5a8f8"
-revision = 1
+revision = 2
 name = "Board Games"
 category = "Games"
 audience = "Family"
@@ -99,9 +99,6 @@ text = "Kerplunk"
 text = "Dice"
 
 [[cards]]
-text = "Hourglass Timer"
-
-[[cards]]
 text = "Game Board"
 
 [[cards]]
@@ -118,9 +115,6 @@ text = "Spinner"
 
 [[cards]]
 text = "Playing Cards"
-
-[[cards]]
-text = "Score Pad"
 
 [[cards]]
 text = "Dominoes"
@@ -165,25 +159,7 @@ text = "Twister"
 text = "Hungry Hungry Hippos"
 
 [[cards]]
-text = "Rolling Dice"
-
-[[cards]]
 text = "Hourglass"
-
-[[cards]]
-text = "Game Spinner"
-
-[[cards]]
-text = "Chess Pawn"
-
-[[cards]]
-text = "Deck of Cards"
-
-[[cards]]
-text = "Scorecard"
-
-[[cards]]
-text = "Sand Timer"
 
 [[cards]]
 text = "Double Word Score"
@@ -192,16 +168,7 @@ text = "Double Word Score"
 text = "Roll a Six"
 
 [[cards]]
-text = "Shuffle the Cards"
-
-[[cards]]
 text = "Draw a Card"
-
-[[cards]]
-text = "Game Banker"
-
-[[cards]]
-text = "Game Token"
 
 [[cards]]
 text = "Strategy Game"
@@ -219,12 +186,6 @@ text = "Trivia Game"
 text = "Game Piece"
 
 [[cards]]
-text = "Six-Sided Die"
-
-[[cards]]
-text = "Card Deck"
-
-[[cards]]
 text = "Puzzle Piece"
 
 [[cards]]
@@ -240,19 +201,10 @@ text = "Card Shuffler"
 text = "Tic-Tac-Toe"
 
 [[cards]]
-text = "Rolling the Dice"
-
-[[cards]]
-text = "Jenga Tower"
-
-[[cards]]
-text = "Game Night"
+text = "Scorecard"
 
 [[cards]]
 text = "Pass Your Turn"
-
-[[cards]]
-text = "Scorepad"
 
 [[cards]]
 text = "Cardboard Tile"

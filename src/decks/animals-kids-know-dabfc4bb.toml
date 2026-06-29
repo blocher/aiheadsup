@@ -1,5 +1,5 @@
 id = "deck_animals-kids-know_dabfc4bb"
-revision = 1
+revision = 2
 name = "Animals Kids Know"
 category = "Kids"
 audience = "Family"
@@ -159,9 +159,6 @@ text = "Dog Bark"
 text = "Cat Meow"
 
 [[cards]]
-text = "Bunny"
-
-[[cards]]
 text = "Rooster"
 
 [[cards]]
@@ -175,24 +172,6 @@ text = "Dinosaur Egg"
 
 [[cards]]
 text = "Dino Footprint"
-
-[[cards]]
-text = "Meow"
-
-[[cards]]
-text = "Woof"
-
-[[cards]]
-text = "Moo"
-
-[[cards]]
-text = "Oink"
-
-[[cards]]
-text = "Roar"
-
-[[cards]]
-text = "Chick"
 
 [[cards]]
 text = "Piglet"
@@ -228,28 +207,10 @@ text = "Turtle Shell"
 text = "Bear"
 
 [[cards]]
-text = "Bee"
-
-[[cards]]
 text = "Dinosaur"
-
-[[cards]]
-text = "Long Trunk"
-
-[[cards]]
-text = "Spider Web"
-
-[[cards]]
-text = "Bark"
 
 [[cards]]
 text = "Ocean"
 
 [[cards]]
 text = "Jungle"
-
-[[cards]]
-text = "Long Neck"
-
-[[cards]]
-text = "Fluffy Tail"

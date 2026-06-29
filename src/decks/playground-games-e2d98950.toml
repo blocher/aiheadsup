@@ -1,5 +1,5 @@
 id = "deck_playground-games_e2d98950"
-revision = 1
+revision = 2
 name = "Playground Games"
 category = "Games"
 audience = "Family"
@@ -159,9 +159,6 @@ text = "Heads Up Seven Up"
 text = "Hand Ball"
 
 [[cards]]
-text = "Seesaw"
-
-[[cards]]
 text = "Sharks and Minnows"
 
 [[cards]]
@@ -204,9 +201,6 @@ text = "Marbles"
 text = "Jacks"
 
 [[cards]]
-text = "Swing Set"
-
-[[cards]]
 text = "Home Base"
 
 [[cards]]
@@ -220,6 +214,3 @@ text = "Pinky Promise"
 
 [[cards]]
 text = "Do-Over"
-
-[[cards]]
-text = "The Slide"
