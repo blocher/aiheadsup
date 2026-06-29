@@ -1,5 +1,6 @@
 <script setup>
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { Capacitor } from '@capacitor/core'
 import { Haptics, ImpactStyle } from '@capacitor/haptics'
 import { Motion } from '@capacitor/motion'
 import { ScreenOrientation } from '@capacitor/screen-orientation'
@@ -84,21 +85,51 @@ function undoLastCard() {
 }
 
 const GAME_ORIENTATION = 'landscape-primary'
-// landscape-primary is the usual phone rotation (charging port on the right).
-// Negate pitch so forehead tilts still map down -> correct and up -> pass.
-const ORIENTATION_PITCH_SIGN = GAME_ORIENTATION === 'landscape-primary' ? -1 : 1
+const GRAVITY = 9.81
+// Flip detection runs off the accelerometer's gravity vector, not the
+// deviceorientation angles. The screen-normal (z) component is ~0 while the phone is
+// held vertically at the forehead and swings toward ±g as the screen tilts down or
+// up. Per the W3C accelerometer spec the device frame stays fixed regardless of the
+// screen-orientation lock, so this works the same in either landscape direction and
+// avoids the beta/gamma axis swap of a sideways hold.
+//
+// iOS reports accelerationIncludingGravity with the opposite sign of Android/Chrome
+// (iOS: screen-up => z ≈ -9.8; Android: z ≈ +9.8). TILT_SIGN normalizes both so a
+// downward flip (screen toward the floor) always yields a positive angle, which the
+// detector maps to "correct"; an upward flip yields a negative angle => "pass".
+const TILT_SIGN = Capacitor.getPlatform() === 'ios' ? 1 : -1
 
-function pitchFrom(event, source) {
-  const raw = source === 'orientation'
-    ? Number(event.beta ?? event.x ?? 0)
-    : Number(event.x ?? event.accelerationIncludingGravity?.x ?? event.accelerationIncludingGravity?.y ?? 0)
-  return raw * ORIENTATION_PITCH_SIGN
+function tiltAngle(event, source) {
+  if (source === 'accel') {
+    // Only the gravity-inclusive vector encodes static tilt; plain `acceleration`
+    // is gravity-compensated (~0 at rest) and cannot measure a hold angle.
+    const z = Number(event.accelerationIncludingGravity?.z)
+    if (!Number.isFinite(z)) return null
+    const ratio = Math.max(-1, Math.min(1, z / GRAVITY))
+    return (Math.asin(ratio) * 180 / Math.PI) * TILT_SIGN
+  }
+  // Orientation fallback (rarely used: iOS and Android both emit `accel`). In a
+  // landscape forehead hold the flip rotates around gamma, not beta.
+  const gamma = Number(event.gamma)
+  if (Number.isFinite(gamma)) return gamma * TILT_SIGN
+  const beta = Number(event.beta)
+  return Number.isFinite(beta) ? beta * TILT_SIGN : null
 }
 
 function onMotion(event, source) {
-  if (!motionSource) motionSource = source
-  if (source !== motionSource) return
-  const pitch = pitchFrom(event, source)
+  // Compute first so an unusable reading never claims the active source.
+  const pitch = tiltAngle(event, source)
+  if (pitch === null) return
+  // Prefer the accelerometer: it is the reliable, orientation-independent signal.
+  if (motionSource === 'accel' && source !== 'accel') return
+  if (source === 'accel' && motionSource !== 'accel') {
+    motionSource = 'accel'
+    if (!started.value) calibrationSamples.length = 0
+  } else if (!motionSource) {
+    motionSource = source
+  } else if (source !== motionSource) {
+    return
+  }
   if (!started.value) {
     calibrationSamples.push(pitch)
     return
