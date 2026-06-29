@@ -1,0 +1,458 @@
+id = "deck_nonsense_3d396312"
+revision = 1
+name = "Nonsense"
+category = "Nonsense"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include silly made-up-sounding but real words, funny-sounding real objects, goofy gibberish-style terms, whimsical nonsense words, playful onomatopoeia, and absurd family-friendly things that are fun to act out or describe."
+spoiler_mode = false
+
+[[cards]]
+text = "Flibbertigibbet"
+
+[[cards]]
+text = "Hullabaloo"
+
+[[cards]]
+text = "Kerfuffle"
+
+[[cards]]
+text = "Codswallop"
+
+[[cards]]
+text = "Bumbershoot"
+
+[[cards]]
+text = "Skedaddle"
+
+[[cards]]
+text = "Kerplunk"
+
+[[cards]]
+text = "Splat"
+
+[[cards]]
+text = "Boing"
+
+[[cards]]
+text = "Ka-Ching"
+
+[[cards]]
+text = "Ta-Da"
+
+[[cards]]
+text = "Peekaboo"
+
+[[cards]]
+text = "Supercalifragilisticexpialidocious"
+
+[[cards]]
+text = "Googly Eyes"
+
+[[cards]]
+text = "Rubber Chicken"
+
+[[cards]]
+text = "Banana Peel"
+
+[[cards]]
+text = "Whoopee Cushion"
+
+[[cards]]
+text = "Silly String"
+
+[[cards]]
+text = "Confetti Cannon"
+
+[[cards]]
+text = "Bubble Wrap"
+
+[[cards]]
+text = "Squeaky Toy"
+
+[[cards]]
+text = "Rubber Duck"
+
+[[cards]]
+text = "Fake Mustache"
+
+[[cards]]
+text = "Clown Nose"
+
+[[cards]]
+text = "Feather Boa"
+
+[[cards]]
+text = "Top Hat"
+
+[[cards]]
+text = "Monocle"
+
+[[cards]]
+text = "Propeller Hat"
+
+[[cards]]
+text = "Kazoo"
+
+[[cards]]
+text = "Slide Whistle"
+
+[[cards]]
+text = "Air Horn"
+
+[[cards]]
+text = "Fog Horn"
+
+[[cards]]
+text = "Vuvuzela"
+
+[[cards]]
+text = "Cowbell"
+
+[[cards]]
+text = "Maracas"
+
+[[cards]]
+text = "Tambourine"
+
+[[cards]]
+text = "Accordion"
+
+[[cards]]
+text = "Tuba"
+
+[[cards]]
+text = "Ukulele"
+
+[[cards]]
+text = "Banjo"
+
+[[cards]]
+text = "Hippopotamus"
+
+[[cards]]
+text = "Rhinoceros"
+
+[[cards]]
+text = "Platypus"
+
+[[cards]]
+text = "Narwhal"
+
+[[cards]]
+text = "Llama"
+
+[[cards]]
+text = "Alpaca"
+
+[[cards]]
+text = "Wiggly Worm"
+
+[[cards]]
+text = "Bouncy Ball"
+
+[[cards]]
+text = "Pogo Stick"
+
+[[cards]]
+text = "Stilts"
+
+[[cards]]
+text = "Unicycle"
+
+[[cards]]
+text = "Juggling Pins"
+
+[[cards]]
+text = "Spinning Plate"
+
+[[cards]]
+text = "Magic Wand"
+
+[[cards]]
+text = "Joy Buzzer"
+
+[[cards]]
+text = "Squirting Flower"
+
+[[cards]]
+text = "Invisible Ink"
+
+[[cards]]
+text = "Fake Vomit"
+
+[[cards]]
+text = "Rubber Worm"
+
+[[cards]]
+text = "Plastic Snake"
+
+[[cards]]
+text = "Jack-in-the-Box"
+
+[[cards]]
+text = "Wind-Up Toy"
+
+[[cards]]
+text = "Paddle Ball"
+
+[[cards]]
+text = "Yo-Yo"
+
+[[cards]]
+text = "Hula Hoop"
+
+[[cards]]
+text = "Jump Rope"
+
+[[cards]]
+text = "Hopscotch"
+
+[[cards]]
+text = "Leap Frog"
+
+[[cards]]
+text = "Cartwheel"
+
+[[cards]]
+text = "Somersault"
+
+[[cards]]
+text = "Handstand"
+
+[[cards]]
+text = "Headstand"
+
+[[cards]]
+text = "Silly Walk"
+
+[[cards]]
+text = "Moonwalk"
+
+[[cards]]
+text = "Chicken Dance"
+
+[[cards]]
+text = "Hokey Pokey"
+
+[[cards]]
+text = "Conga Line"
+
+[[cards]]
+text = "Pie Face"
+
+[[cards]]
+text = "Cream Pie"
+
+[[cards]]
+text = "Pratfall"
+
+[[cards]]
+text = "Slapstick"
+
+[[cards]]
+text = "Clown Car"
+
+[[cards]]
+text = "Tiny Hat"
+
+[[cards]]
+text = "Giant Shoe"
+
+[[cards]]
+text = "Silly Face"
+
+[[cards]]
+text = "Crossed Eyes"
+
+[[cards]]
+text = "Wiggly Eyebrows"
+
+[[cards]]
+text = "Mismatched Socks"
+
+[[cards]]
+text = "Backwards Hat"
+
+[[cards]]
+text = "Upside-Down Umbrella"
+
+[[cards]]
+text = "Blanket Cape"
+
+[[cards]]
+text = "Paper Crown"
+
+[[cards]]
+text = "Cardboard Fort"
+
+[[cards]]
+text = "Pillow Fight"
+
+[[cards]]
+text = "Tickle Monster"
+
+[[cards]]
+text = "Wet Sponge"
+
+[[cards]]
+text = "Marshmallow Shooter"
+
+[[cards]]
+text = "Pop Rocks"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Funnel Cake"
+
+[[cards]]
+text = "Corn Dog"
+
+[[cards]]
+text = "Abracadabra"
+
+[[cards]]
+text = "Hocus Pocus"
+
+[[cards]]
+text = "Gotcha"
+
+[[cards]]
+text = "Surprise Party"
+
+[[cards]]
+text = "Jumping Beans"
+
+[[cards]]
+text = "Soap Bubble"
+
+[[cards]]
+text = "Foam Beard"
+
+[[cards]]
+text = "Whipped Cream"
+
+[[cards]]
+text = "Dancing Pickle"
+
+[[cards]]
+text = "Honking Goose"
+
+[[cards]]
+text = "Tap Dancing"
+
+[[cards]]
+text = "Armpit Fart"
+
+[[cards]]
+text = "Tongue Twister"
+
+[[cards]]
+text = "Raspberry Blowing"
+
+[[cards]]
+text = "Boo"
+
+[[cards]]
+text = "Zany"
+
+[[cards]]
+text = "Wacky"
+
+[[cards]]
+text = "Bonkers"
+
+[[cards]]
+text = "Loopy"
+
+[[cards]]
+text = "Kooky"
+
+[[cards]]
+text = "Doodle"
+
+[[cards]]
+text = "Gobbledygook"
+
+[[cards]]
+text = "Lollygag"
+
+[[cards]]
+text = "Malarkey"
+
+[[cards]]
+text = "Poppycock"
+
+[[cards]]
+text = "Balderdash"
+
+[[cards]]
+text = "Bamboozle"
+
+[[cards]]
+text = "Brouhaha"
+
+[[cards]]
+text = "Ruckus"
+
+[[cards]]
+text = "Hoopla"
+
+[[cards]]
+text = "Tomfoolery"
+
+[[cards]]
+text = "Shenanigans"
+
+[[cards]]
+text = "Hijinks"
+
+[[cards]]
+text = "Cahoots"
+
+[[cards]]
+text = "Skedaddling"
+
+[[cards]]
+text = "Wobble"
+
+[[cards]]
+text = "Jiggle"
+
+[[cards]]
+text = "Wiggle"
+
+[[cards]]
+text = "Squish"
+
+[[cards]]
+text = "Squash"
+
+[[cards]]
+text = "Splatter"
+
+[[cards]]
+text = "Doodlebug"
+
+[[cards]]
+text = "Higgledy-Piggledy"
+
+[[cards]]
+text = "Kit and Caboodle"
+
+[[cards]]
+text = "Oddball"
+
+[[cards]]
+text = "Goofball"
+
+[[cards]]
+text = "Silly Billy"
+
+[[cards]]
+text = "Nincompoop"
+
+[[cards]]
+text = "Dingbat"

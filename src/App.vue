@@ -110,7 +110,11 @@ const categoryIcons = {
   Food: '🍕',
   Games: '🎲',
   'Pittsburgh Sports': '🏆',
-  Sports: '⚽'
+  Sports: '⚽',
+  Nonsense: '🤪',
+  'TV Shows': '📺',
+  Music: '🎵',
+  'Colleges and Universities': '🎓'
 }
 function categoryIcon(category) { return categoryIcons[category] || '✨' }
 
@@ -432,7 +436,7 @@ async function createPack() {
   if (!hasAnyKey.value) { notice.value = 'Add an AI provider key in Settings before generating a pack.'; return }
   const providerId = activeProvider.value.id
   creating.value = true
-  progress.value = { batch: 0, totalBatches: Math.ceil(creation.value.cardCount / 50), cardCount: 0, targetCardCount: creation.value.cardCount }
+  progress.value = { phase: 'generating', batch: 0, totalBatches: Math.ceil(creation.value.cardCount / 50), cardCount: 0, targetCardCount: creation.value.cardCount }
   notice.value = `Creating “${name}” with ${activeProvider.value.label}…`
   try {
     const result = await generateCustomPack(provider, { ...creation.value, name, category, providerId }, (next) => { progress.value = next })
@@ -525,7 +529,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
         </section>
       </section>
       <p v-else class="empty-history">No packs in this category yet.</p>
-    </template>
+  </template>
 
     <template v-else-if="screen === 'detail' && selectedPack">
       <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ freshCardLabel(selectedPack) }} cards{{ selectedPack.spoilerMode ? ` · spoiler-safe through ${spoilerLabel(selectedPack)}` : '' }}</span></div></section>
@@ -554,11 +558,11 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
         <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.label }} creates simple, 1–4 word cards and a cover image. Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
         <label v-if="keyedProviders.length > 1">AI provider<div class="segmented"><button v-for="entry in keyedProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div></label>
         <label>Deck name<input v-model="creation.name" maxlength="60" placeholder="e.g. Taylor Swift Songs" :disabled="creating" required /><small>Shown as the deck title and guides the cards the AI writes.</small></label>
-        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>Batch {{ progress.batch }} of {{ progress.totalBatches }}</span><strong>{{ progress.cardCount }} / {{ progress.targetCardCount }} cards</strong><i><b :style="{ width: `${(progress.cardCount / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
+        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
         <div v-if="creating" class="generating-overlay" role="status" aria-live="polite">
           <span class="generating-spinner" aria-hidden="true"></span>
           <strong>Creating “{{ creation.name.trim() || 'your deck' }}”…</strong>
-          <span v-if="progress" class="generating-progress">{{ progress.cardCount }} / {{ progress.targetCardCount }} cards{{ progress.totalBatches ? ` · batch ${progress.batch} of ${progress.totalBatches}` : '' }}</span>
+          <span v-if="progress" class="generating-progress">{{ progress.phase === 'reviewing' ? `Reviewing cards… ${progress.reviewedCount} / ${progress.targetCardCount} checked · batch ${progress.chunk} of ${progress.chunkCount}` : `${progress.cardCount} / ${progress.targetCardCount} cards${progress.totalBatches ? ` · batch ${progress.batch} of ${progress.totalBatches}` : ''}` }}</span>
           <span class="generating-warning">Please keep this screen open. Leaving may interrupt generation{{ activeProvider.id === 'openai' ? ' — OpenAI can be slow' : '' }}.</span>
         </div>
       </section>
