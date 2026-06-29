@@ -3,6 +3,7 @@ import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
 import { coverPromptForDeck, generateCoverWithFallback } from './cover-prompts.js'
 import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './ai-providers.js'
+import { reviewDeckCards } from './card-accuracy.js'
 
 const SecureAi = registerPlugin('SecureAi')
 
@@ -134,7 +135,7 @@ export function fallbackCover(category) {
   return new Blob([`<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff5d8f"/><stop offset=".5" stop-color="#713fd4"/><stop offset="1" stop-color="#0fcbcc"/></linearGradient></defs><rect width="800" height="1000" fill="url(#g)"/><circle cx="650" cy="170" r="180" fill="#ffe663" opacity=".88"/><circle cx="130" cy="810" r="210" fill="#10152d" opacity=".28"/><path d="M120 670 Q400 350 680 670" fill="none" stroke="white" stroke-width="22" opacity=".65"/><text x="400" y="500" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-weight="800" font-size="56">${safe.slice(0, 24)}</text></svg>`], { type: 'image/svg+xml' })
 }
 
-export async function generateCustomPack(provider, request, onProgress) {
+export async function generateCustomPack(provider, request, onProgress, { skipAccuracyReview = false } = {}) {
   const targetCardCount = Number(request.cardCount ?? 100)
   if (!Number.isInteger(targetCardCount) || targetCardCount < 1 || targetCardCount > 350) throw new Error('Choose between 1 and 350 cards.')
   const totalBatches = Math.ceil(targetCardCount / 50)
@@ -153,7 +154,27 @@ export async function generateCustomPack(provider, request, onProgress) {
       if (prompts.length - batchStart === batchTarget) complete = true
     }
     if (!complete) throw new Error('The AI could not supply enough unique prompts. Nothing was saved; please retry.')
-    onProgress?.({ batch, totalBatches, cardCount: prompts.length, targetCardCount })
+    onProgress?.({ phase: 'generating', batch, totalBatches, cardCount: prompts.length, targetCardCount })
+  }
+  const meta = getProvider(request.providerId) || getProvider(DEFAULT_PROVIDER_ID)
+  if (!skipAccuracyReview) {
+    const reviewedPrompts = await reviewDeckCards({
+      cards: prompts,
+      deckMeta: {
+        name: (request.name || request.category).trim(),
+        category: request.category.trim(),
+        audience: request.audience,
+        difficulty: request.difficulty,
+        specialPromptNote: request.specialPromptNote?.trim() || '',
+        spoilerSeries: request.spoilerSeries || (request.harryPotterMode ? 'harry_potter' : '')
+      },
+      requestReview: async (prompt) => {
+        const { text } = await requestText(meta.id, meta.textModel, prompt)
+        try { return JSON.parse(text) } catch { throw new Error('The AI returned an unreadable accuracy review.') }
+      },
+      onProgress: (update) => onProgress?.({ ...update, targetCardCount: prompts.length })
+    })
+    prompts.splice(0, prompts.length, ...reviewedPrompts)
   }
   await coverTask
   const id = createId('pack')

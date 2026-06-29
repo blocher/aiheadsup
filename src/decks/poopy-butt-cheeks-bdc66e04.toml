@@ -6,6 +6,7 @@ audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should be silly, family-friendly scatological and bathroom humor that kids find funny: toilet words, gross-but-harmless body noises, potty-humor objects, funny bathroom situations, and goofy poop, fart, and booger themed terms. Keep everything kid-appropriate, playful, and never crude, sexual, or offensive."
 spoiler_mode = false
+photo_file_name = "poopy-butt-cheeks-bdc66e04-cover.jpg"
 
 [[cards]]
 text = "Toilet Paper"

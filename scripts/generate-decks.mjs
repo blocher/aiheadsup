@@ -7,6 +7,7 @@ import { parse, stringify } from 'smol-toml'
 import { getSpoilerSeries } from '../src/lib/spoiler-series.js'
 import { coverPromptForDeck, generateCoverWithFallback } from '../src/lib/cover-prompts.js'
 import { getProvider, isProviderId } from '../src/lib/ai-providers.js'
+import { reviewDeckCards } from '../src/lib/card-accuracy.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const PROVIDER_ENV = { gemini: 'GEMINI_API_KEY', openai: 'OPENAI_API_KEY' }
@@ -237,7 +238,28 @@ export async function generateCards(apiKey, deck, options) {
       break
     }
   }
-  return saved
+  if (!saved.length) return saved
+  process.stdout.write(`Reviewing ${saved.length} card(s) for “${deck.name}”…\n`)
+  const reviewed = await reviewDeckCards({
+    cards: saved,
+    deckMeta: {
+      name: deck.name,
+      category: deck.category,
+      audience: deck.target,
+      difficulty: deck.difficulty[0].toUpperCase() + deck.difficulty.slice(1),
+      specialInstructions: deck.specialInstructions,
+      spoilerSeries: deck.spoilerSeries
+    },
+    requestReview: (prompt) => requestCardBatch(apiKey, options, prompt),
+    onProgress: ({ chunk, chunkCount, removedCount }) => {
+      if (removedCount > 0) process.stdout.write(`  Accuracy batch ${chunk}/${chunkCount}: removed ${removedCount} so far…\n`)
+    },
+    logger: console
+  })
+  if (reviewed.length < saved.length) {
+    console.warn(`Warning: Accuracy review removed ${saved.length - reviewed.length} card(s) from “${deck.name}”.`)
+  }
+  return reviewed
 }
 
 export async function generateCover(apiKey, deck, options) {

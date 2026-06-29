@@ -1,11 +1,11 @@
-id = "deck_livin-on-a-prayer-lyrics-things-mentioned-in-the-lyrics_14b0ea9c"
+id = "deck_livin-on-a-prayer-lyrics_a8d2cf49"
 revision = 2
-name = "Livin’ on a Prayer Lyrics (things mentioned in the lyrics)"
+name = "Livin’ on a Prayer Lyrics"
 category = "Music"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = "Cards should include people, jobs, objects, places, actions, and concepts mentioned or strongly implied in Livin’ on a Prayer, but should not quote full lyric lines."
-photo_file_name = "livin-on-a-prayer-lyrics-things-mentioned-in-the-lyrics-14b0ea9c-cover.jpg"
+special_prompt_note = "Cards should include people, jobs, objects, places, actions, and concepts mentioned or strongly implied in Livin’ on a Prayer."
+photo_file_name = "livin-on-a-prayer-lyrics-a8d2cf49-cover.jpg"
 spoiler_mode = false
 
 [[cards]]

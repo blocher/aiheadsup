@@ -77,11 +77,14 @@ describe('deck generation CLI', () => {
   it('generates cards through the OpenAI chat completions endpoint', async () => {
     const [deck] = readDefinitions(source)
     deck.numberOfCards = 1
-    globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ choices: [{ message: { content: '{"cards":[{"prompt":"Gaga Pit"}]}' } }] }) })
+    globalThis.fetch = vi.fn()
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ choices: [{ message: { content: '{"cards":[{"prompt":"Gaga Pit"}]}' } }] }) })
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ choices: [{ message: { content: '{"cards":[{"prompt":"Gaga Pit"}]}' } }] }) })
     const cards = await generateCards('sk-test', deck, { provider: 'openai', model: 'gpt-4o-mini', batchSize: 1 })
     expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestInstallment: null }])
     expect(globalThis.fetch.mock.calls[0][0]).toBe('https://api.openai.com/v1/chat/completions')
     expect(globalThis.fetch.mock.calls[0][1].headers.Authorization).toBe('Bearer sk-test')
+    expect(globalThis.fetch).toHaveBeenCalledTimes(2)
   })
 
   it('generates covers through the OpenAI images endpoint', async () => {
@@ -115,6 +118,18 @@ describe('deck generation CLI', () => {
     expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestInstallment: null }])
     expect(warn).toHaveBeenCalledWith(expect.stringContaining('Saving the partial deck'))
     warn.mockRestore()
+  })
+
+  it('runs an accuracy review after card generation', async () => {
+    const [deck] = readDefinitions(source)
+    deck.numberOfCards = 2
+    globalThis.fetch = vi.fn()
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ candidates: [{ content: { parts: [{ text: '{"cards":[{"prompt":"Gaga Pit"},{"prompt":"Dodgeball"}]}' }] } }] }) })
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ candidates: [{ content: { parts: [{ text: '{"cards":[{"prompt":"Gaga Pit"}]}' }] } }] }) })
+    const cards = await generateCards('test-key', deck, { model: 'test-model', batchSize: 2 })
+    expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestInstallment: null }])
+    expect(globalThis.fetch).toHaveBeenCalledTimes(2)
+    expect(String(globalThis.fetch.mock.calls[1][1].body)).toContain('fact-checker')
   })
 
   it('retries invalid JSON three times, then returns the available cards', async () => {

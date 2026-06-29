@@ -6,6 +6,7 @@ audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include silly made-up-sounding but real words, funny-sounding real objects, goofy gibberish-style terms, whimsical nonsense words, playful onomatopoeia, and absurd family-friendly things that are fun to act out or describe."
 spoiler_mode = false
+photo_file_name = "nonsense-3d396312-cover.jpg"
 
 [[cards]]
 text = "Flibbertigibbet"

@@ -13,7 +13,7 @@ describe('custom pack generation', () => {
         return Array.from({ length: count }, () => ({ prompt: `Card ${nextCard++}` }))
       }
     }
-    const result = await generateCustomPack(provider, { category: 'Space', audience: 'Family', difficulty: 'Easy', cardCount: 125 }, (update) => progress.push(update))
+    const result = await generateCustomPack(provider, { category: 'Space', audience: 'Family', difficulty: 'Easy', cardCount: 125 }, (update) => progress.push(update), { skipAccuracyReview: true })
     expect(result.cards).toHaveLength(125)
     expect(new Set(result.cards.map((card) => card.normalizedPrompt)).size).toBe(125)
     expect(requests).toEqual([50, 50, 25])
