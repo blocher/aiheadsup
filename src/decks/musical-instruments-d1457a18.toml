@@ -165,10 +165,10 @@ text = "Drum Set"
 text = "Keyboard Family"
 
 [[cards]]
-text = "Guitar Strings"
+text = "String Tension"
 
 [[cards]]
-text = "Drumstick"
+text = "Drum Brush"
 
 [[cards]]
 text = "Violin Bow"
@@ -207,10 +207,7 @@ text = "Solo Performance"
 text = "Music Conductor"
 
 [[cards]]
-text = "Music Notes"
-
-[[cards]]
-text = "Keeping the Beat"
+text = "Quarter Note"
 
 [[cards]]
 text = "Fast Tempo"
