@@ -37,7 +37,7 @@ const deleteAiOnReset = ref(false)
 const confirmDialog = ref(null)
 let confirmDialogResolve = null
 
-const remaining = ref({})
+const packCounts = ref({})
 const results = computed(() => {
   if (!finishedRound.value) return []
   const roundCards = finishedRound.value.cards || []
@@ -84,6 +84,27 @@ const categoryIcons = {
 }
 function categoryIcon(category) { return categoryIcons[category] || '✨' }
 
+function cardStats(pack) {
+  const packId = typeof pack === 'string' ? pack : pack?.id
+  return packCounts.value[packId] || { fresh: 0, total: 0 }
+}
+
+function freshCount(pack) { return cardStats(pack).fresh }
+function totalCount(pack) { return cardStats(pack).total }
+function freshCardLabel(pack) {
+  const stats = cardStats(pack)
+  return `${stats.fresh} / ${stats.total} fresh`
+}
+function lowFreshCards(pack) {
+  const stats = cardStats(pack)
+  return stats.total > 0 && stats.fresh > 0 && stats.fresh <= Math.max(5, Math.ceil(stats.total * 0.15))
+}
+function emptyFreshCards(pack) {
+  const stats = cardStats(pack)
+  return stats.total > 0 && stats.fresh === 0
+}
+function needsFreshReset(pack) { return lowFreshCards(pack) || emptyFreshCards(pack) }
+
 const coverUrls = new Map()
 function coverUrl(pack) {
   if (!pack?.cover) return ''
@@ -95,8 +116,11 @@ function coverUrl(pack) {
 async function refreshPacks() {
   packs.value = await getPacks()
   if (selectedCategory.value !== 'all' && !packs.value.some((pack) => pack.category === selectedCategory.value)) selectedCategory.value = 'all'
-  const counts = await Promise.all(packs.value.map(async (pack) => [pack.id, (await getUnusedCards(pack.id, spoilerLimits.value)).length]))
-  remaining.value = Object.fromEntries(counts)
+  const counts = await Promise.all(packs.value.map(async (pack) => {
+    const [freshCards, allCards] = await Promise.all([getUnusedCards(pack.id, spoilerLimits.value), getCards(pack.id)])
+    return [pack.id, { fresh: freshCards.length, total: allCards.length }]
+  }))
+  packCounts.value = Object.fromEntries(counts)
 }
 
 async function refreshHistory() { history.value = await getRounds() }
@@ -158,7 +182,7 @@ async function beginGame() {
     return
   }
   const cards = await getUnusedCards(selectedPack.value.id, spoilerLimits.value)
-  if (!cards.length) { notice.value = 'This pack is out of fresh cards. Reset it to play again.'; return }
+  if (!cards.length) { notice.value = 'This deck is out of fresh cards. Reset deck freshness to make every card available again.'; return }
   activeCards.value = cards
   screen.value = 'game'
 }
@@ -244,32 +268,33 @@ async function savePlayerName() {
 }
 
 async function confirmReset() {
+  const total = totalCount(selectedPack.value)
   const confirmed = await askForConfirmation({
-    title: 'Reset this pack?',
-    message: `Reset “${selectedPack.value.title}”? It will make every card available again and erase this pack’s round history.`,
-    confirmText: 'Reset pack',
-    tone: 'danger'
+    title: 'Reset deck freshness?',
+    message: `Reset “${selectedPack.value.title}”? This makes ${total ? `all ${total} cards` : 'every card'} in this deck fresh again. Saved scores stay in history.`,
+    confirmText: 'Reset freshness',
+    tone: 'normal'
   })
   if (!confirmed) return
   await resetPack(selectedPack.value.id)
   await refreshPacks()
-  notice.value = 'Pack reset. Every card is fresh again.'
+  notice.value = 'Deck freshness reset. Every card in this deck is available again.'
 }
 
 async function confirmResetAll() {
-  const aiNote = deleteAiOnReset.value ? ` It will also permanently delete ${aiPacks.value.length} AI-created pack${aiPacks.value.length === 1 ? '' : 's'} and their cards.` : ''
+  const aiNote = deleteAiOnReset.value ? ` It will also permanently delete ${aiPacks.value.length} AI-created pack${aiPacks.value.length === 1 ? '' : 's'} and their cards, but saved scores stay in history.` : ''
   const confirmed = await askForConfirmation({
-    title: 'Reset all pack history?',
-    message: `This clears every used-card history and deletes all ${history.value.length} recorded round${history.value.length === 1 ? '' : 's'}.${aiNote} This cannot be undone.`,
-    confirmText: 'Reset everything',
-    tone: 'danger'
+    title: 'Reset all deck freshness?',
+    message: `This makes every card in every deck fresh again. Saved scores stay in history.${aiNote}`,
+    confirmText: 'Reset freshness',
+    tone: deleteAiOnReset.value ? 'danger' : 'normal'
   })
   if (!confirmed) return
   try {
     const { deletedAiPackCount } = await resetAllPacks({ deleteAiGenerated: deleteAiOnReset.value })
     selectedPack.value = null
     await Promise.all([refreshPacks(), refreshHistory()])
-    notice.value = deletedAiPackCount ? `All pack history reset. ${deletedAiPackCount} AI pack${deletedAiPackCount === 1 ? '' : 's'} deleted.` : 'All pack history reset. Every remaining card is fresh again.'
+    notice.value = deletedAiPackCount ? `All deck freshness reset. ${deletedAiPackCount} AI pack${deletedAiPackCount === 1 ? '' : 's'} deleted. Saved scores stayed.` : 'All deck freshness reset. Every card is fresh again, and saved scores stayed.'
   } catch (error) { notice.value = error.message || 'Could not reset all packs.' }
 }
 
@@ -318,7 +343,7 @@ async function updateTiltOnly() {
 
 async function updateEndCueMode() {
   await saveSetting('endCueMode', endCueMode.value)
-  notice.value = endCueMode.value === 'visual' ? 'End-of-round visual countdown only.' : endCueMode.value === 'sound' ? 'End-of-round sound cues are on.' : 'End-of-round sound and haptic cues are on.'
+  notice.value = endCueMode.value === 'visual' ? 'Game cues are visual only.' : endCueMode.value === 'sound' ? 'Game sound cues are on.' : 'Game sound and haptic cues are on.'
 }
 
 async function createPack() {
@@ -408,10 +433,10 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
         <section v-for="group in categoryGroups" :key="group.category" class="category-section">
           <header class="category-heading"><span class="category-heading-icon" aria-hidden="true">{{ categoryIcon(group.category) }}</span><div><p>Category</p><h2>{{ group.category }}</h2></div><span>{{ group.packs.length }} pack{{ group.packs.length === 1 ? '' : 's' }}</span></header>
           <div class="pack-grid">
-            <button v-for="pack in group.packs" :key="pack.id" class="pack-tile" @click="openPack(pack)">
+            <button v-for="pack in group.packs" :key="pack.id" :class="['pack-tile', { 'low-fresh': lowFreshCards(pack), 'out-of-fresh': emptyFreshCards(pack) }]" @click="openPack(pack)">
               <img v-if="pack.cover" :src="coverUrl(pack)" alt="" />
               <span class="pack-shade"></span>
-              <span class="pack-meta"><small>{{ pack.difficulty }} · {{ pack.audience }}</small><strong>{{ pack.title }}</strong><em>{{ remaining[pack.id] }} fresh cards</em></span>
+              <span class="pack-meta"><small>{{ pack.difficulty }} · {{ pack.audience }}</small><strong>{{ pack.title }}</strong><em>{{ freshCardLabel(pack) }} cards</em></span>
             </button>
           </div>
         </section>
@@ -420,9 +445,10 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'detail' && selectedPack">
-      <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ remaining[selectedPack.id] }} {{ selectedPack.spoilerMode ? `spoiler-safe through ${spoilerLabel(selectedPack)}` : 'fresh' }} cards left</span></div></section>
-      <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. Tilt down for correct, up to pass{{ tiltOnly ? '. Tilt-only mode is on.' : ', or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!remaining[selectedPack.id]" @click="beginGame">Start {{ duration }}-second round</button></section>
-      <div class="manage-row"><button @click="confirmReset">Reset card history</button><button v-if="selectedPack.isAiGenerated" @click="exportDeck(selectedPack)">Export TOML package</button><button v-if="selectedPack.source !== 'bundled_toml'" class="danger" @click="removePack">Delete deck</button></div>
+      <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ freshCardLabel(selectedPack) }} cards{{ selectedPack.spoilerMode ? ` · spoiler-safe through ${spoilerLabel(selectedPack)}` : '' }}</span></div></section>
+      <section v-if="needsFreshReset(selectedPack)" :class="['deck-status-card', { urgent: emptyFreshCards(selectedPack) }]"><h3>{{ emptyFreshCards(selectedPack) ? 'No fresh cards left' : 'Fresh cards running low' }}</h3><p>{{ emptyFreshCards(selectedPack) ? 'Reset deck freshness to make every card available again. Saved scores stay in history.' : `Only ${freshCount(selectedPack)} of ${totalCount(selectedPack)} cards are fresh. Reset when you want the full deck back in rotation; saved scores stay.` }}</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
+      <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. Tilt down for correct, up to pass{{ tiltOnly ? '. Tilt-only mode is on.' : ', or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
+      <div class="manage-row"><button @click="confirmReset">Reset deck freshness</button><button v-if="selectedPack.isAiGenerated" @click="exportDeck(selectedPack)">Export TOML package</button><button v-if="selectedPack.source !== 'bundled_toml'" class="danger" @click="removePack">Delete deck</button></div>
     </template>
 
     <template v-else-if="screen === 'create'">
@@ -430,11 +456,12 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'settings'">
-      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>Gemini connection</h2><p v-if="webBuild">Your key is stored only in this browser’s local storage. It is convenient for this local web app, but anyone with this browser profile can read it.</p><p v-else>Your key is stored in iOS Keychain, never in the app bundle or this repository.</p><template v-if="hasKey"><div class="key-status">✓ A Gemini key is saved {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</div><button class="secondary-button danger" @click="removeKey">Remove key</button></template><template v-else><label>Gemini API key<input v-model="keyDraft" type="password" autocapitalize="off" autocomplete="off" placeholder="Paste your key" /></label><button class="primary-button wide" @click="saveKey">{{ webBuild ? 'Save key in this browser' : 'Save key to Keychain' }}</button></template><hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>End-of-round cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual countdown only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all packs</h3><p>Clear every viewed card and every recorded round across your library.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button danger wide" @click="confirmResetAll">Reset all pack history</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
+      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>Gemini connection</h2><p v-if="webBuild">Your key is stored only in this browser’s local storage. It is convenient for this local web app, but anyone with this browser profile can read it.</p><p v-else>Your key is stored in iOS Keychain, never in the app bundle or this repository.</p><template v-if="hasKey"><div class="key-status">✓ A Gemini key is saved {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</div><button class="secondary-button danger" @click="removeKey">Remove key</button></template><template v-else><label>Gemini API key<input v-model="keyDraft" type="password" autocapitalize="off" autocomplete="off" placeholder="Paste your key" /></label><button class="primary-button wide" @click="saveKey">{{ webBuild ? 'Save key in this browser' : 'Save key to Keychain' }}</button></template><hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all deck freshness</h3><p>Make every card in every deck fresh again. Saved scores and round history stay.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button wide" @click="confirmResetAll">Reset all deck freshness</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
     </template>
 
     <template v-else-if="screen === 'results'">
-      <section class="results-hero"><p>ROUND COMPLETE</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ results.filter((result) => result.result === 'passed').length }} wrong / passed</span></section>
+      <section class="results-hero"><p>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'DECK COMPLETE' : 'ROUND COMPLETE' }}</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'You played every fresh card in this deck.' : `${results.filter((result) => result.result === 'passed').length} wrong / passed` }}</span></section>
+      <section v-if="finishedRound?.endedReason === 'cards_exhausted' && selectedPack" class="deck-status-card urgent"><h3>That was the last fresh card</h3><p>Your score was saved. Reset deck freshness when you want to make every card available again; saved scores stay.</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
       <section class="player-name-card"><label>Who played? <input v-model="playerNameDraft" maxlength="40" placeholder="Optional name" /></label><button class="secondary-button" @click="savePlayerName">Save player name</button></section>
       <section class="result-list"><div v-for="result in results" :key="result.cardId" :class="result.result"><span>{{ resultIcon(result.result) }}</span><b>{{ result.prompt }}</b><select class="result-status-select" :value="result.result" aria-label="Change card status" @change="changeResultFromControl(result, $event)"><option v-if="result.result === 'unmarked'" value="unmarked" disabled>Not marked</option><option value="correct">Correct</option><option value="passed">Wrong</option></select></div></section>
       <button class="primary-button wide" @click="screen = 'detail'">Play this pack again</button><button class="secondary-button wide" @click="screen = 'library'">Choose another pack</button>

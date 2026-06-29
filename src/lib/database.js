@@ -92,6 +92,18 @@ export async function markCardShown(cardId) {
   return updated
 }
 
+export async function unmarkCardsShown(cardIds) {
+  const ids = [...new Set(cardIds.filter(Boolean))]
+  if (!ids.length) return
+  const store = await db()
+  const tx = store.transaction('cards', 'readwrite')
+  await Promise.all(ids.map(async (cardId) => {
+    const card = await tx.objectStore('cards').get(cardId)
+    if (card?.firstShownAt) await tx.objectStore('cards').put({ ...card, firstShownAt: null })
+  }))
+  await tx.done
+}
+
 function plainRecord(record) {
   return JSON.parse(JSON.stringify(record))
 }
@@ -112,24 +124,21 @@ export async function saveSetting(key, value) {
 
 export async function resetPack(packId) {
   const store = await db()
-  const tx = store.transaction(['cards', 'rounds'], 'readwrite')
+  const tx = store.transaction('cards', 'readwrite')
   const cards = await tx.objectStore('cards').index('packId').getAll(packId)
   await Promise.all(cards.map((card) => tx.objectStore('cards').put({ ...card, firstShownAt: null })))
-  const rounds = await tx.objectStore('rounds').index('packId').getAll(packId)
-  await Promise.all(rounds.map((round) => tx.objectStore('rounds').delete(round.id)))
   await tx.done
 }
 
 export async function resetAllPacks({ deleteAiGenerated = false } = {}) {
   const store = await db()
-  const tx = store.transaction(['packs', 'cards', 'rounds'], 'readwrite')
+  const tx = store.transaction(['packs', 'cards'], 'readwrite')
   const [packs, cards] = await Promise.all([tx.objectStore('packs').getAll(), tx.objectStore('cards').getAll()])
   const deletedPackIds = new Set(deleteAiGenerated ? packs.filter((pack) => pack.isAiGenerated || pack.source === 'ai').map((pack) => pack.id) : [])
   await Promise.all(cards.map((card) => deletedPackIds.has(card.packId)
     ? tx.objectStore('cards').delete(card.id)
     : tx.objectStore('cards').put({ ...card, firstShownAt: null })))
   await Promise.all([...deletedPackIds].map((packId) => tx.objectStore('packs').delete(packId)))
-  await tx.objectStore('rounds').clear()
   await tx.done
   return { deletedAiPackCount: deletedPackIds.size }
 }
