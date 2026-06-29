@@ -92,7 +92,11 @@ export async function markCardShown(cardId) {
   return updated
 }
 
-export async function saveRound(round) { await (await db()).put('rounds', round) }
+function plainRecord(record) {
+  return JSON.parse(JSON.stringify(record))
+}
+
+export async function saveRound(round) { await (await db()).put('rounds', plainRecord(round)) }
 
 export async function getRounds() {
   return (await (await db()).getAll('rounds')).sort((a, b) => new Date(b.endedAt || b.startedAt) - new Date(a.endedAt || a.startedAt))

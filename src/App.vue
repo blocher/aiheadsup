@@ -6,6 +6,7 @@ import { GeminiProvider, generateCustomPack } from './lib/ai-provider.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
 import { prepareEndCueAudio } from './lib/end-cues.js'
+import { setRoundOutcome } from './lib/game-engine.js'
 import { requestMotionPermission } from './lib/motion-permissions.js'
 import { defaultSpoilerLimits, spoilerProgressLabel, spoilerSeriesOptions } from './lib/spoiler-series.js'
 
@@ -15,6 +16,7 @@ const selectedPack = ref(null)
 const duration = ref(60)
 const activeCards = ref([])
 const finishedRound = ref(null)
+const playerNameDraft = ref('')
 const history = ref([])
 const spoilerLimits = ref(defaultSpoilerLimits())
 const tiltOnly = ref(false)
@@ -32,15 +34,25 @@ const progress = ref(null)
 const importInput = ref(null)
 const selectedCategory = ref('all')
 const deleteAiOnReset = ref(false)
+const confirmDialog = ref(null)
+let confirmDialogResolve = null
 
 const remaining = ref({})
 const results = computed(() => {
   if (!finishedRound.value) return []
-  const cards = new Map(finishedRound.value.cards.map((card) => [card.id, card]))
-  return finishedRound.value.outcomes.map((outcome) => ({ ...outcome, prompt: cards.get(outcome.cardId)?.prompt ?? 'Unknown card' }))
+  const roundCards = finishedRound.value.cards || []
+  const cards = new Map(roundCards.map((card) => [card.id, card]))
+  const items = (finishedRound.value.outcomes || []).map((outcome) => ({ ...outcome, prompt: cards.get(outcome.cardId)?.prompt ?? 'Unknown card' }))
+  const outcomeIds = new Set(items.map((item) => item.cardId))
+  const finalCardId = finishedRound.value.finalCardId
+  if (finalCardId && !outcomeIds.has(finalCardId)) {
+    items.push({ cardId: finalCardId, result: 'unmarked', prompt: cards.get(finalCardId)?.prompt ?? 'Unknown card', isFinalUnmarked: true })
+  }
+  return items
 })
 const score = computed(() => results.value.filter((result) => result.result === 'correct').length)
 function roundScore(round) { return (round.outcomes || []).filter((outcome) => outcome.result === 'correct').length }
+function roundPlayerLabel(round) { return round.playerName ? ` · ${round.playerName}` : '' }
 const highScores = computed(() => history.value
   .map((round) => ({ ...round, score: roundScore(round) }))
   .sort((left, right) => right.score - left.score || new Date(right.endedAt || right.startedAt) - new Date(left.endedAt || left.startedAt)))
@@ -99,9 +111,9 @@ function openPack(pack) {
   screen.value = 'detail'
 }
 
-function goBack() {
+async function goBack() {
   if (screen.value === 'game') {
-    gameScreen.value?.endRound()
+    await gameScreen.value?.requestAbort()
     return
   }
   screen.value = screen.value === 'results' && selectedPack.value ? 'detail' : 'library'
@@ -110,6 +122,30 @@ function goBack() {
 function keepBrowserInsideApp() {
   goBack()
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
+}
+
+function askForConfirmation({ title, message, confirmText = 'Continue', cancelText = 'Cancel', tone = 'normal' }) {
+  if (confirmDialogResolve) confirmDialogResolve(false)
+  return new Promise((resolve) => {
+    confirmDialogResolve = resolve
+    confirmDialog.value = { title, message, confirmText, cancelText, tone }
+  })
+}
+
+function closeConfirmDialog(confirmed) {
+  const resolve = confirmDialogResolve
+  confirmDialogResolve = null
+  confirmDialog.value = null
+  resolve?.(confirmed)
+}
+
+async function confirmAbortGame() {
+  return askForConfirmation({
+    title: 'Quit this round?',
+    message: 'This will stop the round now and discard this game’s score. You can start a new round right away.',
+    confirmText: 'Quit round',
+    tone: 'danger'
+  })
 }
 
 async function beginGame() {
@@ -129,6 +165,7 @@ async function beginGame() {
 
 async function finishGame(round) {
   finishedRound.value = round
+  playerNameDraft.value = round.playerName || ''
   screen.value = 'results'
   try {
     await saveRound(round)
@@ -138,14 +175,82 @@ async function finishGame(round) {
   }
 }
 
+async function abortGame() {
+  await refreshPacks()
+  screen.value = selectedPack.value ? 'detail' : 'library'
+  notice.value = 'Round quit. No score was saved.'
+}
+
 function openHistoryRound(round) {
   finishedRound.value = round
+  playerNameDraft.value = round.playerName || ''
   selectedPack.value = packs.value.find((pack) => pack.id === round.packId) ?? null
   screen.value = 'results'
 }
 
+function resultIcon(result) {
+  if (result === 'correct') return '✓'
+  if (result === 'passed') return '×'
+  return '?'
+}
+
+function resultLabel(result) {
+  if (result === 'correct') return 'Correct'
+  if (result === 'passed') return 'Wrong / pass'
+  return 'Not marked'
+}
+
+async function changeResult(cardId, nextResult) {
+  if (!finishedRound.value) return false
+  const result = results.value.find((item) => item.cardId === cardId)
+  const currentLabel = result?.result && result.result !== 'unmarked' ? resultLabel(result.result) : 'not marked'
+  const nextLabel = resultLabel(nextResult)
+  const confirmed = await askForConfirmation({
+    title: 'Change card status?',
+    message: `Change “${result?.prompt || 'this card'}” from ${currentLabel} to ${nextLabel}?`,
+    confirmText: 'Change status'
+  })
+  if (!confirmed) return false
+  finishedRound.value = setRoundOutcome(finishedRound.value, cardId, nextResult)
+  try {
+    await saveRound(finishedRound.value)
+    await refreshHistory()
+    notice.value = `Updated “${result?.prompt || 'card'}” to ${nextLabel}.`
+    return true
+  } catch (error) {
+    notice.value = 'That score change could not be saved.'
+    return false
+  }
+}
+
+async function changeResultFromControl(result, event) {
+  const nextResult = event.target.value
+  if (!['correct', 'passed'].includes(nextResult) || nextResult === result.result) return
+  const changed = await changeResult(result.cardId, nextResult)
+  if (!changed) event.target.value = result.result
+}
+
+async function savePlayerName() {
+  if (!finishedRound.value) return
+  const playerName = playerNameDraft.value.trim()
+  finishedRound.value = { ...finishedRound.value, playerName }
+  try {
+    await saveRound(finishedRound.value)
+    await refreshHistory()
+    notice.value = playerName ? `Saved ${playerName} with this round.` : 'Player name cleared for this round.'
+  } catch (error) {
+    notice.value = 'Player name could not be saved.'
+  }
+}
+
 async function confirmReset() {
-  if (!window.confirm(`Reset “${selectedPack.value.title}”? It will make every card available again and erase this pack’s round history.`)) return
+  const confirmed = await askForConfirmation({
+    title: 'Reset this pack?',
+    message: `Reset “${selectedPack.value.title}”? It will make every card available again and erase this pack’s round history.`,
+    confirmText: 'Reset pack',
+    tone: 'danger'
+  })
+  if (!confirmed) return
   await resetPack(selectedPack.value.id)
   await refreshPacks()
   notice.value = 'Pack reset. Every card is fresh again.'
@@ -153,7 +258,13 @@ async function confirmReset() {
 
 async function confirmResetAll() {
   const aiNote = deleteAiOnReset.value ? ` It will also permanently delete ${aiPacks.value.length} AI-created pack${aiPacks.value.length === 1 ? '' : 's'} and their cards.` : ''
-  if (!window.confirm(`Reset every pack? This clears every used-card history and deletes all ${history.value.length} recorded round${history.value.length === 1 ? '' : 's'}.${aiNote} This cannot be undone.`)) return
+  const confirmed = await askForConfirmation({
+    title: 'Reset all pack history?',
+    message: `This clears every used-card history and deletes all ${history.value.length} recorded round${history.value.length === 1 ? '' : 's'}.${aiNote} This cannot be undone.`,
+    confirmText: 'Reset everything',
+    tone: 'danger'
+  })
+  if (!confirmed) return
   try {
     const { deletedAiPackCount } = await resetAllPacks({ deleteAiGenerated: deleteAiOnReset.value })
     selectedPack.value = null
@@ -163,7 +274,13 @@ async function confirmResetAll() {
 }
 
 async function removePack() {
-  if (!window.confirm(`Delete “${selectedPack.value.title}” and its cards?`)) return
+  const confirmed = await askForConfirmation({
+    title: 'Delete this deck?',
+    message: `Delete “${selectedPack.value.title}” and its cards? This cannot be undone.`,
+    confirmText: 'Delete deck',
+    tone: 'danger'
+  })
+  if (!confirmed) return
   await deleteCustomPack(selectedPack.value.id)
   selectedPack.value = null
   await refreshPacks()
@@ -268,7 +385,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
 </script>
 
 <template>
-  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" :end-cue-mode="endCueMode" @finish="finishGame" />
+  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" :end-cue-mode="endCueMode" :confirm-abort="confirmAbortGame" @finish="finishGame" @abort="abortGame" />
   <main v-else :class="['app-shell', { 'pack-detail-screen': screen === 'detail' }]">
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
@@ -317,21 +434,34 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'results'">
-      <section class="results-hero"><p>ROUND COMPLETE</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ results.filter((result) => result.result === 'passed').length }} passed</span></section>
-      <section class="result-list"><div v-for="result in results" :key="result.cardId" :class="result.result"><span>{{ result.result === 'correct' ? '✓' : '→' }}</span>{{ result.prompt }}</div></section>
+      <section class="results-hero"><p>ROUND COMPLETE</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ results.filter((result) => result.result === 'passed').length }} wrong / passed</span></section>
+      <section class="player-name-card"><label>Who played? <input v-model="playerNameDraft" maxlength="40" placeholder="Optional name" /></label><button class="secondary-button" @click="savePlayerName">Save player name</button></section>
+      <section class="result-list"><div v-for="result in results" :key="result.cardId" :class="result.result"><span>{{ resultIcon(result.result) }}</span><b>{{ result.prompt }}</b><select class="result-status-select" :value="result.result" aria-label="Change card status" @change="changeResultFromControl(result, $event)"><option v-if="result.result === 'unmarked'" value="unmarked" disabled>Not marked</option><option value="correct">Correct</option><option value="passed">Wrong</option></select></div></section>
       <button class="primary-button wide" @click="screen = 'detail'">Play this pack again</button><button class="secondary-button wide" @click="screen = 'library'">Choose another pack</button>
     </template>
 
     <template v-else-if="screen === 'history'">
       <section class="library-heading"><h2>Recent rounds</h2><span>{{ history.length }} played</span></section>
-      <section v-if="history.length" class="recent-rounds history-list"><button v-for="round in history" :key="round.id" @click="openHistoryRound(round)"><strong>{{ roundScore(round) }}</strong><span><b>{{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      <section v-if="history.length" class="recent-rounds history-list"><button v-for="round in history" :key="round.id" @click="openHistoryRound(round)"><strong>{{ roundScore(round) }}</strong><span><b>{{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}{{ roundPlayerLabel(round) }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
       <p v-else class="empty-history">Your finished rounds will appear here.</p>
     </template>
 
     <template v-else-if="screen === 'scores'">
       <section class="library-heading"><h2>All-time high scores</h2><span>{{ highScores.length }} rounds</span></section>
-      <section v-if="highScores.length" class="recent-rounds history-list"><button v-for="(round, index) in highScores" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>#{{ index + 1 }} · {{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleDateString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      <section v-if="highScores.length" class="recent-rounds history-list"><button v-for="(round, index) in highScores" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>#{{ index + 1 }} · {{ packs.find((pack) => pack.id === round.packId)?.title || 'Deleted pack' }}{{ roundPlayerLabel(round) }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleDateString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
       <p v-else class="empty-history">Finish a round to start the leaderboard.</p>
     </template>
+
   </main>
+  <div v-if="confirmDialog" class="modal-backdrop" @click.self="closeConfirmDialog(false)">
+    <section class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title">
+      <p class="eyebrow">{{ confirmDialog.tone === 'danger' ? 'PLEASE CONFIRM' : 'QUICK CHECK' }}</p>
+      <h2 id="confirm-modal-title">{{ confirmDialog.title }}</h2>
+      <p>{{ confirmDialog.message }}</p>
+      <div class="modal-actions">
+        <button class="secondary-button" @click="closeConfirmDialog(false)">{{ confirmDialog.cancelText }}</button>
+        <button :class="['primary-button', { 'danger-confirm': confirmDialog.tone === 'danger' }]" @click="closeConfirmDialog(true)">{{ confirmDialog.confirmText }}</button>
+      </div>
+    </section>
+  </div>
 </template>

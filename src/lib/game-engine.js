@@ -28,8 +28,22 @@ export function recordOutcome(round, cardId, result) {
   return { ...round, outcomes: [...round.outcomes, { cardId, result }] }
 }
 
+export function setRoundOutcome(round, cardId, result) {
+  const outcomes = round.outcomes || []
+  const existingIndex = outcomes.findIndex((outcome) => outcome.cardId === cardId)
+  if (existingIndex === -1) return { ...round, outcomes: [...outcomes, { cardId, result }] }
+  return {
+    ...round,
+    outcomes: outcomes.map((outcome, index) => index === existingIndex ? { ...outcome, result } : outcome)
+  }
+}
+
+export function removeLastOutcome(round) {
+  return { ...round, outcomes: (round.outcomes || []).slice(0, -1) }
+}
+
 export function scoreRound(round) {
-  return round.outcomes.filter((outcome) => outcome.result === 'correct').length
+  return (round.outcomes || []).filter((outcome) => outcome.result === 'correct').length
 }
 
 export function createTiltDetector({ threshold = 24, neutralBand = 10, cooldownMs = 700 } = {}) {

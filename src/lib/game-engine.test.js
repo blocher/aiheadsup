@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { createRound, createTiltDetector, nextUnusedCard, recordOutcome, scoreRound } from './game-engine.js'
+import { createRound, createTiltDetector, nextUnusedCard, recordOutcome, removeLastOutcome, scoreRound, setRoundOutcome } from './game-engine.js'
 
 describe('game engine', () => {
   it('only draws cards that have not appeared', () => {
@@ -12,6 +12,27 @@ describe('game engine', () => {
     round = recordOutcome(round, 'a', 'correct')
     round = recordOutcome(round, 'b', 'passed')
     expect(scoreRound(round)).toBe(1)
+  })
+
+  it('can correct an existing outcome or add one for the final unmarked card', () => {
+    let round = createRound('pack', 60)
+    round = recordOutcome(round, 'a', 'passed')
+    round = setRoundOutcome(round, 'a', 'correct')
+    round = setRoundOutcome(round, 'b', 'passed')
+
+    expect(round.outcomes).toEqual([
+      { cardId: 'a', result: 'correct' },
+      { cardId: 'b', result: 'passed' }
+    ])
+  })
+
+  it('can undo the last scored card', () => {
+    let round = createRound('pack', 60)
+    round = recordOutcome(round, 'a', 'correct')
+    round = recordOutcome(round, 'b', 'passed')
+    round = removeLastOutcome(round)
+
+    expect(round.outcomes).toEqual([{ cardId: 'a', result: 'correct' }])
   })
 
   it('requires a return to neutral before another tilt', () => {
