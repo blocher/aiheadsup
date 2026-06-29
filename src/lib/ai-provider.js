@@ -1,6 +1,7 @@
 import { Capacitor, registerPlugin } from '@capacitor/core'
 import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
+import { coverPromptForDeck, generateCoverWithFallback } from './cover-prompts.js'
 
 const SecureGemini = registerPlugin('SecureGemini')
 const TEXT_MODEL = 'gemini-3.5-flash'
@@ -60,15 +61,16 @@ export class GeminiProvider {
   }
 
   async generateCover({ category, audience, difficulty }) {
-    const isSpaceOpera = category === 'Star Wars'
-    const subject = isSpaceOpera
-      ? 'an original family-friendly galactic adventure with space explorers, imaginative spacecraft, an alien world, and a dramatic cosmic landscape'
-      : `"${category}"`
-    const originalityRule = isSpaceOpera
-      ? 'Use no recognizable franchise-specific people, costumes, vehicles, symbols, locations, or story elements. '
-      : ''
-    const prompt = `Create an original vertical 4:5 illustrated party-game deck cover for ${subject}. Audience ${audience}; difficulty ${difficulty}. Bold, joyful, high-contrast, readable as a small tile, magical only when appropriate to the category. Use a full-bleed composition that fills the entire image edge to edge. Do not include text, lettering, logos, watermarks, banners, title areas, frames, or empty space at the top. ${originalityRule}No copyrighted characters, actor likenesses, or branded symbols.`
-    const result = isNative() ? await SecureGemini.generateImage({ model: IMAGE_MODEL, prompt }) : await webGenerate({ model: IMAGE_MODEL, prompt, wantsImage: true })
+    const result = await generateCoverWithFallback({
+      getPromptInput: () => ({ name: category, category, audience, difficulty }),
+      requestImage: async (prompt) => {
+        const response = isNative()
+          ? await SecureGemini.generateImage({ model: IMAGE_MODEL, prompt })
+          : await webGenerate({ model: IMAGE_MODEL, prompt, wantsImage: true })
+        if (!response?.base64) throw new Error('Gemini did not return an image.')
+        return response
+      }
+    })
     const bytes = Uint8Array.from(atob(result.base64), (char) => char.charCodeAt(0))
     return new Blob([bytes], { type: result.mimeType || 'image/png' })
   }

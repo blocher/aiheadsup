@@ -56,6 +56,28 @@ function roundPlayerLabel(round) { return round.playerName ? ` · ${round.player
 const highScores = computed(() => history.value
   .map((round) => ({ ...round, score: roundScore(round) }))
   .sort((left, right) => right.score - left.score || new Date(right.endedAt || right.startedAt) - new Date(left.endedAt || left.startedAt)))
+function deckHighScore(packId) {
+  if (!packId) return null
+  const rounds = history.value.filter((round) => round.packId === packId)
+  if (!rounds.length) return null
+  return rounds
+    .map((round) => ({ ...round, score: roundScore(round) }))
+    .sort((left, right) => right.score - left.score || new Date(right.endedAt || right.startedAt) - new Date(left.endedAt || left.startedAt))[0]
+}
+function deckRecentRounds(packId) {
+  if (!packId) return []
+  return history.value
+    .filter((round) => round.packId === packId)
+    .map((round) => ({ ...round, score: roundScore(round) }))
+}
+const selectedPackHighScore = computed(() => selectedPack.value ? deckHighScore(selectedPack.value.id) : null)
+const selectedPackRecentRounds = computed(() => selectedPack.value ? deckRecentRounds(selectedPack.value.id) : [])
+const finishedRoundHighScore = computed(() => finishedRound.value ? deckHighScore(finishedRound.value.packId) : null)
+const finishedRoundRecentRounds = computed(() => finishedRound.value ? deckRecentRounds(finishedRound.value.packId) : [])
+const isNewDeckHighScore = computed(() => {
+  if (!finishedRound.value || !finishedRoundHighScore.value) return false
+  return finishedRoundHighScore.value.id === finishedRound.value.id
+})
 const categories = computed(() => [...new Set(packs.value.map((pack) => pack.category).filter(Boolean))].sort())
 const aiPacks = computed(() => packs.value.filter((pack) => pack.isAiGenerated))
 const categoryGroups = computed(() => categories.value
@@ -448,6 +470,16 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
       <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ freshCardLabel(selectedPack) }} cards{{ selectedPack.spoilerMode ? ` · spoiler-safe through ${spoilerLabel(selectedPack)}` : '' }}</span></div></section>
       <section v-if="needsFreshReset(selectedPack)" :class="['deck-status-card', { urgent: emptyFreshCards(selectedPack) }]"><h3>{{ emptyFreshCards(selectedPack) ? 'No fresh cards left' : 'Fresh cards running low' }}</h3><p>{{ emptyFreshCards(selectedPack) ? 'Reset deck freshness to make every card available again. Saved scores stay in history.' : `Only ${freshCount(selectedPack)} of ${totalCount(selectedPack)} cards are fresh. Reset when you want the full deck back in rotation; saved scores stay.` }}</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
       <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. Tilt down for correct, up to pass{{ tiltOnly ? '. Tilt-only mode is on.' : ', or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
+      <section v-if="selectedPackHighScore || selectedPackRecentRounds.length" class="deck-score-card">
+        <div v-if="selectedPackHighScore" class="deck-high-score">
+          <span class="activity-icon">🏆</span>
+          <span><b>Deck high score</b><small>{{ selectedPackHighScore.score }} correct{{ roundPlayerLabel(selectedPackHighScore) }} · {{ new Date(selectedPackHighScore.endedAt || selectedPackHighScore.startedAt).toLocaleDateString() }} · {{ selectedPackHighScore.durationSeconds }} sec</small></span>
+        </div>
+        <template v-if="selectedPackRecentRounds.length">
+          <h3>Recent rounds</h3>
+          <section class="recent-rounds history-list compact"><button v-for="round in selectedPackRecentRounds" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>{{ round.playerName || 'Anonymous' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+        </template>
+      </section>
       <div class="manage-row"><button @click="confirmReset">Reset deck freshness</button><button v-if="selectedPack.isAiGenerated" @click="exportDeck(selectedPack)">Export TOML package</button><button v-if="selectedPack.source !== 'bundled_toml'" class="danger" @click="removePack">Delete deck</button></div>
     </template>
 
@@ -460,7 +492,11 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'results'">
-      <section class="results-hero"><p>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'DECK COMPLETE' : 'ROUND COMPLETE' }}</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'You played every fresh card in this deck.' : `${results.filter((result) => result.result === 'passed').length} wrong / passed` }}</span></section>
+      <section class="results-hero"><p>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'DECK COMPLETE' : 'ROUND COMPLETE' }}</p><strong>{{ score }}</strong><h2>correct answers</h2><span>{{ finishedRound?.endedReason === 'cards_exhausted' ? 'You played every fresh card in this deck.' : `${results.filter((result) => result.result === 'passed').length} wrong / passed` }}</span><p v-if="isNewDeckHighScore" class="new-deck-record">🏆 New deck high score!</p><p v-else-if="finishedRoundHighScore" class="deck-record-note">Deck high score: {{ finishedRoundHighScore.score }}</p></section>
+      <section v-if="finishedRoundRecentRounds.length > 1" class="deck-score-card">
+        <h3>Recent rounds on this deck</h3>
+        <section class="recent-rounds history-list compact"><button v-for="round in finishedRoundRecentRounds" :key="round.id" :class="{ current: round.id === finishedRound?.id }" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>{{ round.playerName || 'Anonymous' }}{{ round.id === finishedRound?.id ? ' · this round' : '' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
+      </section>
       <section v-if="finishedRound?.endedReason === 'cards_exhausted' && selectedPack" class="deck-status-card urgent"><h3>That was the last fresh card</h3><p>Your score was saved. Reset deck freshness when you want to make every card available again; saved scores stay.</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
       <section class="player-name-card"><label>Who played? <input v-model="playerNameDraft" maxlength="40" placeholder="Optional name" /></label><button class="secondary-button" @click="savePlayerName">Save player name</button></section>
       <section class="result-list"><div v-for="result in results" :key="result.cardId" :class="result.result"><span>{{ resultIcon(result.result) }}</span><b>{{ result.prompt }}</b><select class="result-status-select" :value="result.result" aria-label="Change card status" @change="changeResultFromControl(result, $event)"><option v-if="result.result === 'unmarked'" value="unmarked" disabled>Not marked</option><option value="correct">Correct</option><option value="passed">Wrong</option></select></div></section>

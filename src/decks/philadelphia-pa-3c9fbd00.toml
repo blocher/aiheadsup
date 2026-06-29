@@ -1,0 +1,219 @@
+id = "deck_philadelphia-pa_3c9fbd00"
+revision = 1
+name = "Philadelphia, PA"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include neighborhoods, landmarks, museums, sports teams, foods, historic sites, local phrases, famous Philadelphians, transit, parks, and family-friendly Philadelphia references."
+photo_file_name = "philadelphia-pa-3c9fbd00-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Independence Hall"
+
+[[cards]]
+text = "Betsy Ross House"
+
+[[cards]]
+text = "Elfreth's Alley"
+
+[[cards]]
+text = "Love Park"
+
+[[cards]]
+text = "City Hall"
+
+[[cards]]
+text = "Benjamin Franklin Bridge"
+
+[[cards]]
+text = "Boathouse Row"
+
+[[cards]]
+text = "Eastern State Penitentiary"
+
+[[cards]]
+text = "Philadelphia Museum of Art"
+
+[[cards]]
+text = "The Franklin Institute"
+
+[[cards]]
+text = "Please Touch Museum"
+
+[[cards]]
+text = "Academy of Natural Sciences"
+
+[[cards]]
+text = "Barnes Foundation"
+
+[[cards]]
+text = "Mütter Museum"
+
+[[cards]]
+text = "Philly Cheesesteak"
+
+[[cards]]
+text = "Soft Pretzel"
+
+[[cards]]
+text = "Water Ice"
+
+[[cards]]
+text = "Tomato Pie"
+
+[[cards]]
+text = "Scrapple"
+
+[[cards]]
+text = "Roast Pork Sandwich"
+
+[[cards]]
+text = "Tastykake"
+
+[[cards]]
+text = "Hoagie"
+
+[[cards]]
+text = "Philadelphia Eagles"
+
+[[cards]]
+text = "Philadelphia Phillies"
+
+[[cards]]
+text = "Philadelphia 76ers"
+
+[[cards]]
+text = "Philadelphia Flyers"
+
+[[cards]]
+text = "Philadelphia Union"
+
+[[cards]]
+text = "Philly Phanatic"
+
+[[cards]]
+text = "Gritty"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "William Penn"
+
+[[cards]]
+text = "Rocky Balboa"
+
+[[cards]]
+text = "Will Smith"
+
+[[cards]]
+text = "Grace Kelly"
+
+[[cards]]
+text = "Rittenhouse Square"
+
+[[cards]]
+text = "Fairmount Park"
+
+[[cards]]
+text = "Society Hill"
+
+[[cards]]
+text = "Fishtown"
+
+[[cards]]
+text = "Manayunk"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Italian Market"
+
+[[cards]]
+text = "SEPTA"
+
+[[cards]]
+text = "Broad Street"
+
+[[cards]]
+text = "Schuylkill River"
+
+[[cards]]
+text = "Delaware River"
+
+[[cards]]
+text = "Wawa"
+
+[[cards]]
+text = "Reading Terminal Market"
+
+[[cards]]
+text = "Rocky Steps"
+
+[[cards]]
+text = "Spruce Street Harbor Park"
+
+[[cards]]
+text = "Franklin Institute"
+
+[[cards]]
+text = "Phanatic"
+
+[[cards]]
+text = "Constitution Center"
+
+[[cards]]
+text = "Edgar Allan Poe"
+
+[[cards]]
+text = "Broad Street Run"
+
+[[cards]]
+text = "Old City"
+
+[[cards]]
+text = "Chestnut Hill"
+
+[[cards]]
+text = "Wissahickon Creek"
+
+[[cards]]
+text = "Penn's Landing"
+
+[[cards]]
+text = "South Street"
+
+[[cards]]
+text = "Lincoln Financial Field"
+
+[[cards]]
+text = "Citizens Bank Park"
+
+[[cards]]
+text = "One Liberty Place"
+
+[[cards]]
+text = "Kelly Drive"
+
+[[cards]]
+text = "Wissahickon Valley Park"
+
+[[cards]]
+text = "South Philly"
+
+[[cards]]
+text = "The Philly Phanatic"
+
+[[cards]]
+text = "The Mummers Parade"
+
+[[cards]]
+text = "Philadelphia Zoo"
+
+[[cards]]
+text = "Phillie Phanatic"

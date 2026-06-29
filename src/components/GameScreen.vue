@@ -83,9 +83,16 @@ function undoLastCard() {
   if (hapticCuesEnabled.value) Haptics.impact({ style: ImpactStyle.Light }).catch(() => {})
 }
 
+const GAME_ORIENTATION = 'landscape-primary'
+// landscape-primary is the usual phone rotation (charging port on the right).
+// Negate pitch so forehead tilts still map down -> correct and up -> pass.
+const ORIENTATION_PITCH_SIGN = GAME_ORIENTATION === 'landscape-primary' ? -1 : 1
+
 function pitchFrom(event, source) {
-  if (source === 'orientation') return Number(event.beta ?? event.x ?? 0)
-  return Number(event.x ?? event.accelerationIncludingGravity?.x ?? event.accelerationIncludingGravity?.y ?? 0)
+  const raw = source === 'orientation'
+    ? Number(event.beta ?? event.x ?? 0)
+    : Number(event.x ?? event.accelerationIncludingGravity?.x ?? event.accelerationIncludingGravity?.y ?? 0)
+  return raw * ORIENTATION_PITCH_SIGN
 }
 
 function onMotion(event, source) {
@@ -199,7 +206,7 @@ onMounted(async () => {
   document.addEventListener('gesturestart', preventGameZoom, { passive: false })
   document.addEventListener('gesturechange', preventGameZoom, { passive: false })
   document.addEventListener('gestureend', preventGameZoom, { passive: false })
-  ScreenOrientation.lock({ orientation: 'landscape-secondary' }).catch(() => {})
+  ScreenOrientation.lock({ orientation: GAME_ORIENTATION }).catch(() => {})
   Motion.addListener('orientation', (event) => onMotion(event, 'orientation')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
   Motion.addListener('accel', (event) => onMotion(event, 'accel')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
   playLaunchCue()

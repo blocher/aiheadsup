@@ -1,0 +1,225 @@
+id = "deck_disney-movies_b4052d82"
+revision = 1
+name = "Disney Movies"
+category = "Movies"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include family-friendly characters, movie titles, settings, songs, sidekicks, villains, objects, and memorable moments from animated and live-action Disney movies."
+photo_file_name = "disney-movies-b4052d82-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mickey Mouse"
+
+[[cards]]
+text = "Simba"
+
+[[cards]]
+text = "Elsa"
+
+[[cards]]
+text = "Buzz Lightyear"
+
+[[cards]]
+text = "Ariel"
+
+[[cards]]
+text = "Woody"
+
+[[cards]]
+text = "Olaf"
+
+[[cards]]
+text = "Aladdin"
+
+[[cards]]
+text = "Belle"
+
+[[cards]]
+text = "Mulan"
+
+[[cards]]
+text = "Cinderella"
+
+[[cards]]
+text = "Snow White"
+
+[[cards]]
+text = "Stitch"
+
+[[cards]]
+text = "Moana"
+
+[[cards]]
+text = "Maleficent"
+
+[[cards]]
+text = "Ursula"
+
+[[cards]]
+text = "Scar"
+
+[[cards]]
+text = "Captain Hook"
+
+[[cards]]
+text = "Jafar"
+
+[[cards]]
+text = "Cruella de Vil"
+
+[[cards]]
+text = "Genie"
+
+[[cards]]
+text = "Sebastian"
+
+[[cards]]
+text = "Timon and Pumbaa"
+
+[[cards]]
+text = "Mushu"
+
+[[cards]]
+text = "Lumiere"
+
+[[cards]]
+text = "Baymax"
+
+[[cards]]
+text = "Tinker Bell"
+
+[[cards]]
+text = "Lightning McQueen"
+
+[[cards]]
+text = "Dory"
+
+[[cards]]
+text = "Nemo"
+
+[[cards]]
+text = "Mike Wazowski"
+
+[[cards]]
+text = "Sulley"
+
+[[cards]]
+text = "Winnie the Pooh"
+
+[[cards]]
+text = "Peter Pan"
+
+[[cards]]
+text = "Hercules"
+
+[[cards]]
+text = "Rapunzel"
+
+[[cards]]
+text = "The Beast"
+
+[[cards]]
+text = "Gaston"
+
+[[cards]]
+text = "Tarzan"
+
+[[cards]]
+text = "Pinocchio"
+
+[[cards]]
+text = "Bambi"
+
+[[cards]]
+text = "Alice in Wonderland"
+
+[[cards]]
+text = "Mary Poppins"
+
+[[cards]]
+text = "Magic Carpet"
+
+[[cards]]
+text = "Glass Slipper"
+
+[[cards]]
+text = "Poison Apple"
+
+[[cards]]
+text = "Pride Rock"
+
+[[cards]]
+text = "Hakuna Matata"
+
+[[cards]]
+text = "Let It Go"
+
+[[cards]]
+text = "A Whole New World"
+
+[[cards]]
+text = "The Lion King"
+
+[[cards]]
+text = "Frozen"
+
+[[cards]]
+text = "Toy Story"
+
+[[cards]]
+text = "Finding Nemo"
+
+[[cards]]
+text = "Beauty and the Beast"
+
+[[cards]]
+text = "The Magic Carpet"
+
+[[cards]]
+text = "Cinderella's Glass Slipper"
+
+[[cards]]
+text = "Magic Lamp"
+
+[[cards]]
+text = "Enchanted Rose"
+
+[[cards]]
+text = "Under the Sea"
+
+[[cards]]
+text = "Neverland"
+
+[[cards]]
+text = "Arendelle"
+
+[[cards]]
+text = "Atlantica"
+
+[[cards]]
+text = "Beast's Castle"
+
+[[cards]]
+text = "Cheshire Cat"
+
+[[cards]]
+text = "Dumbo"
+
+[[cards]]
+text = "Cinderella's Castle"
+
+[[cards]]
+text = "The Poison Apple"
+
+[[cards]]
+text = "Maui's Fishhook"
+
+[[cards]]
+text = "The Mad Hatter"
+
+[[cards]]
+text = "The Beast's Rose"
+
+[[cards]]
+text = "Pixie Dust"

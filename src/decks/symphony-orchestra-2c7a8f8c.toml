@@ -1,0 +1,240 @@
+id = "deck_symphony-orchestra_2c7a8f8c"
+revision = 1
+name = "Symphony Orchestra"
+category = "Music"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include orchestra instruments, sections, conductor terms, concert hall roles, famous composers, performance markings, classical music forms, and recognizable symphony orchestra concepts."
+photo_file_name = "symphony-orchestra-2c7a8f8c-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Violin"
+
+[[cards]]
+text = "Cello"
+
+[[cards]]
+text = "Double Bass"
+
+[[cards]]
+text = "Harp"
+
+[[cards]]
+text = "Flute"
+
+[[cards]]
+text = "Oboe"
+
+[[cards]]
+text = "Clarinet"
+
+[[cards]]
+text = "Bassoon"
+
+[[cards]]
+text = "French Horn"
+
+[[cards]]
+text = "Trumpet"
+
+[[cards]]
+text = "Trombone"
+
+[[cards]]
+text = "Tuba"
+
+[[cards]]
+text = "Timpani"
+
+[[cards]]
+text = "Cymbals"
+
+[[cards]]
+text = "Triangle"
+
+[[cards]]
+text = "Snare Drum"
+
+[[cards]]
+text = "String Section"
+
+[[cards]]
+text = "Brass Section"
+
+[[cards]]
+text = "Woodwind Section"
+
+[[cards]]
+text = "Percussion Section"
+
+[[cards]]
+text = "Conductor"
+
+[[cards]]
+text = "Concertmaster"
+
+[[cards]]
+text = "Soloist"
+
+[[cards]]
+text = "Baton"
+
+[[cards]]
+text = "Music Stand"
+
+[[cards]]
+text = "Sheet Music"
+
+[[cards]]
+text = "Tuning Fork"
+
+[[cards]]
+text = "Ludwig van Beethoven"
+
+[[cards]]
+text = "Wolfgang Amadeus Mozart"
+
+[[cards]]
+text = "Johann Sebastian Bach"
+
+[[cards]]
+text = "Pyotr Ilyich Tchaikovsky"
+
+[[cards]]
+text = "Antonio Vivaldi"
+
+[[cards]]
+text = "Symphony"
+
+[[cards]]
+text = "Concerto"
+
+[[cards]]
+text = "Overture"
+
+[[cards]]
+text = "Opera"
+
+[[cards]]
+text = "Crescendo"
+
+[[cards]]
+text = "Pizzicato"
+
+[[cards]]
+text = "Staccato"
+
+[[cards]]
+text = "Legato"
+
+[[cards]]
+text = "Vibrato"
+
+[[cards]]
+text = "Forte"
+
+[[cards]]
+text = "Cadenza"
+
+[[cards]]
+text = "Movement"
+
+[[cards]]
+text = "Concert Hall"
+
+[[cards]]
+text = "Pit Orchestra"
+
+[[cards]]
+text = "Standing Ovation"
+
+[[cards]]
+text = "Intermission"
+
+[[cards]]
+text = "Encore"
+
+[[cards]]
+text = "Usher"
+
+[[cards]]
+text = "Orchestra Pit"
+
+[[cards]]
+text = "Tuning Note"
+
+[[cards]]
+text = "Downbeat"
+
+[[cards]]
+text = "Treble Clef"
+
+[[cards]]
+text = "Metronome"
+
+[[cards]]
+text = "Viola"
+
+[[cards]]
+text = "Podium"
+
+[[cards]]
+text = "Backstage"
+
+[[cards]]
+text = "String Quartet"
+
+[[cards]]
+text = "Decrescendo"
+
+[[cards]]
+text = "Conductor's Baton"
+
+[[cards]]
+text = "Maestro"
+
+[[cards]]
+text = "First Violinist"
+
+[[cards]]
+text = "Composer"
+
+[[cards]]
+text = "Pianissimo"
+
+[[cards]]
+text = "Harpsichord"
+
+[[cards]]
+text = "Violin Bow"
+
+[[cards]]
+text = "Piccolo"
+
+[[cards]]
+text = "Concert Harp"
+
+[[cards]]
+text = "Fortissimo"
+
+[[cards]]
+text = "First Violin"
+
+[[cards]]
+text = "Stage Manager"
+
+[[cards]]
+text = "Pittsburgh Symphony Orchestra"
+
+[[cards]]
+text = "Fiddlesticks"
+
+[[cards]]
+text = "Manfred Honneck"
+
+[[cards]]
+text = "Manfred Honneck"
+
+[[cards]]
+text = "DMS Philharomic"

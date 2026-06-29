@@ -1,0 +1,156 @@
+id = "deck_ocean-city-md_625c3fff"
+revision = 1
+name = "Ocean City, MD"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include the boardwalk, beach, amusements, restaurants, local foods, hotels, nearby landmarks, summer activities, family traditions, and recognizable Ocean City references."
+photo_file_name = "ocean-city-md-625c3fff-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Ocean City Boardwalk"
+
+[[cards]]
+text = "Thrasher's French Fries"
+
+[[cards]]
+text = "Fisher's Popcorn"
+
+[[cards]]
+text = "Assateague Island Ponies"
+
+[[cards]]
+text = "Trimper's Rides"
+
+[[cards]]
+text = "Jolly Roger Amusement Park"
+
+[[cards]]
+text = "Dumser's Dairyland"
+
+[[cards]]
+text = "Fractured Prune Donuts"
+
+[[cards]]
+text = "Maryland Blue Crab"
+
+[[cards]]
+text = "Old Bay Seasoning"
+
+[[cards]]
+text = "Boardwalk Tram"
+
+[[cards]]
+text = "Marty's Playland"
+
+[[cards]]
+text = "White Marlin Open"
+
+[[cards]]
+text = "Haunted House Ride"
+
+[[cards]]
+text = "Ocean City Inlet"
+
+[[cards]]
+text = "Northside Park"
+
+[[cards]]
+text = "Fenwick Island Lighthouse"
+
+[[cards]]
+text = "Life-Saving Museum"
+
+[[cards]]
+text = "Saltwater Taffy"
+
+[[cards]]
+text = "Route 50 Bridge"
+
+[[cards]]
+text = "Fager's Island"
+
+[[cards]]
+text = "Candy Kitchen"
+
+[[cards]]
+text = "Kohr Bros Frozen Custard"
+
+[[cards]]
+text = "Sunfest"
+
+[[cards]]
+text = "Winterfest of Lights"
+
+[[cards]]
+text = "Parasailing"
+
+[[cards]]
+text = "Building a Sandcastle"
+
+[[cards]]
+text = "Searching for Shark Teeth"
+
+[[cards]]
+text = "Beach Patrol Lifeguard"
+
+[[cards]]
+text = "Bull on the Beach"
+
+[[cards]]
+text = "Macky's Bayside Bar"
+
+[[cards]]
+text = "Carousel Ice Rink"
+
+[[cards]]
+text = "Sinepuxent Bay"
+
+[[cards]]
+text = "Isle of Wight"
+
+[[cards]]
+text = "Crab Cakes"
+
+[[cards]]
+text = "Harrison's Harbor Watch"
+
+[[cards]]
+text = "Sunset Park"
+
+[[cards]]
+text = "Springfest"
+
+[[cards]]
+text = "Jet Skiing"
+
+[[cards]]
+text = "Renting a Surrey"
+
+[[cards]]
+text = "Ocean Downs Casino"
+
+[[cards]]
+text = "Frontier Town"
+
+[[cards]]
+text = "Shelling"
+
+[[cards]]
+text = "The Kite Loft"
+
+[[cards]]
+text = "Boardwalk Arcade"
+
+[[cards]]
+text = "Deep Sea Fishing"
+
+[[cards]]
+text = "Shenanigans Irish Pub"
+
+[[cards]]
+text = "Alley Oops"
+
+[[cards]]
+text = "Ocean City Convention Center"

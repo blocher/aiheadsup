@@ -1,0 +1,234 @@
+id = "deck_musical-instruments_d1457a18"
+revision = 1
+name = "Musical Instruments"
+category = "Music"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include common instruments, instrument families, parts of instruments, playing techniques, ensembles, classroom music terms, and family-friendly music vocabulary."
+photo_file_name = "musical-instruments-d1457a18-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Piano"
+
+[[cards]]
+text = "Acoustic Guitar"
+
+[[cards]]
+text = "Drums"
+
+[[cards]]
+text = "Violin"
+
+[[cards]]
+text = "Flute"
+
+[[cards]]
+text = "Trumpet"
+
+[[cards]]
+text = "Saxophone"
+
+[[cards]]
+text = "Harp"
+
+[[cards]]
+text = "Ukulele"
+
+[[cards]]
+text = "Tambourine"
+
+[[cards]]
+text = "Xylophone"
+
+[[cards]]
+text = "Triangle"
+
+[[cards]]
+text = "Maracas"
+
+[[cards]]
+text = "Cello"
+
+[[cards]]
+text = "Clarinet"
+
+[[cards]]
+text = "Electric Guitar"
+
+[[cards]]
+text = "Bagpipes"
+
+[[cards]]
+text = "Harmonica"
+
+[[cards]]
+text = "Accordion"
+
+[[cards]]
+text = "Banjo"
+
+[[cards]]
+text = "Tuba"
+
+[[cards]]
+text = "Trombone"
+
+[[cards]]
+text = "Recorder"
+
+[[cards]]
+text = "Cymbal"
+
+[[cards]]
+text = "Bongos"
+
+[[cards]]
+text = "Brass Family"
+
+[[cards]]
+text = "Woodwind Family"
+
+[[cards]]
+text = "Percussion Family"
+
+[[cards]]
+text = "String Family"
+
+[[cards]]
+text = "Guitar String"
+
+[[cards]]
+text = "Piano Keys"
+
+[[cards]]
+text = "Drumsticks"
+
+[[cards]]
+text = "Bow"
+
+[[cards]]
+text = "Mouthpiece"
+
+[[cards]]
+text = "Pedal"
+
+[[cards]]
+text = "Strumming"
+
+[[cards]]
+text = "Plucking"
+
+[[cards]]
+text = "Drum Roll"
+
+[[cards]]
+text = "Tuning"
+
+[[cards]]
+text = "Marching Band"
+
+[[cards]]
+text = "Orchestra"
+
+[[cards]]
+text = "Rock Band"
+
+[[cards]]
+text = "Choir"
+
+[[cards]]
+text = "Sheet Music"
+
+[[cards]]
+text = "Conductor"
+
+[[cards]]
+text = "Microphone"
+
+[[cards]]
+text = "Music Note"
+
+[[cards]]
+text = "Rhythm"
+
+[[cards]]
+text = "Metronome"
+
+[[cards]]
+text = "Treble Clef"
+
+[[cards]]
+text = "Drum Set"
+
+[[cards]]
+text = "Keyboard Family"
+
+[[cards]]
+text = "Guitar Strings"
+
+[[cards]]
+text = "Drumstick"
+
+[[cards]]
+text = "Violin Bow"
+
+[[cards]]
+text = "Tuning Pegs"
+
+[[cards]]
+text = "Instrument Pedals"
+
+[[cards]]
+text = "Saxophone Reed"
+
+[[cards]]
+text = "Plucking Strings"
+
+[[cards]]
+text = "Clapping Hands"
+
+[[cards]]
+text = "Whistling"
+
+[[cards]]
+text = "Symphony Orchestra"
+
+[[cards]]
+text = "School Choir"
+
+[[cards]]
+text = "Music Duet"
+
+[[cards]]
+text = "Solo Performance"
+
+[[cards]]
+text = "Music Conductor"
+
+[[cards]]
+text = "Music Notes"
+
+[[cards]]
+text = "Keeping the Beat"
+
+[[cards]]
+text = "Fast Tempo"
+
+[[cards]]
+text = "Kazoo"
+
+[[cards]]
+text = "School Band"
+
+[[cards]]
+text = "Tuning Fork"
+
+[[cards]]
+text = "Guitar"
+
+[[cards]]
+text = "Clapping"
+
+[[cards]]
+text = "Music Stand"

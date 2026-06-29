@@ -1,0 +1,234 @@
+id = "deck_west-wing_79cbfd09"
+revision = 1
+name = "West Wing"
+category = "TV Shows"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, White House roles, locations, political terms, campaigns, memorable moments, relationships, and recognizable family-friendly references from West Wing."
+photo_file_name = "west-wing-79cbfd09-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Jed Bartlet"
+
+[[cards]]
+text = "Leo McGarry"
+
+[[cards]]
+text = "Josh Lyman"
+
+[[cards]]
+text = "Toby Ziegler"
+
+[[cards]]
+text = "C.J. Cregg"
+
+[[cards]]
+text = "Sam Seaborn"
+
+[[cards]]
+text = "Donna Moss"
+
+[[cards]]
+text = "Charlie Young"
+
+[[cards]]
+text = "Abigail Bartlet"
+
+[[cards]]
+text = "Mrs. Landingham"
+
+[[cards]]
+text = "Will Bailey"
+
+[[cards]]
+text = "Matt Santos"
+
+[[cards]]
+text = "Arnold Vinick"
+
+[[cards]]
+text = "Danny Concannon"
+
+[[cards]]
+text = "Ainsley Hayes"
+
+[[cards]]
+text = "The Oval Office"
+
+[[cards]]
+text = "The Situation Room"
+
+[[cards]]
+text = "Camp David"
+
+[[cards]]
+text = "Press Briefing Room"
+
+[[cards]]
+text = "The Roosevelt Room"
+
+[[cards]]
+text = "Air Force One"
+
+[[cards]]
+text = "Walk and Talk"
+
+[[cards]]
+text = "Big Block of Cheese"
+
+[[cards]]
+text = "Butterball Hotline"
+
+[[cards]]
+text = "The Jackal"
+
+[[cards]]
+text = "Gail the Goldfish"
+
+[[cards]]
+text = "Bartlet for America"
+
+[[cards]]
+text = "Two Cathedrals"
+
+[[cards]]
+text = "Chief of Staff"
+
+[[cards]]
+text = "Press Secretary"
+
+[[cards]]
+text = "Communications Director"
+
+[[cards]]
+text = "Deputy Chief of Staff"
+
+[[cards]]
+text = "Secret Service"
+
+[[cards]]
+text = "State of the Union"
+
+[[cards]]
+text = "Filibuster"
+
+[[cards]]
+text = "Executive Order"
+
+[[cards]]
+text = "State Dinner"
+
+[[cards]]
+text = "Lame Duck"
+
+[[cards]]
+text = "Inauguration Day"
+
+[[cards]]
+text = "Midterm Election"
+
+[[cards]]
+text = "Campaign Trail"
+
+[[cards]]
+text = "Special Election"
+
+[[cards]]
+text = "Supreme Court"
+
+[[cards]]
+text = "Chief Justice"
+
+[[cards]]
+text = "The West Wing"
+
+[[cards]]
+text = "Marine One"
+
+[[cards]]
+text = "Congressional Hearing"
+
+[[cards]]
+text = "Admiral Fitzwallace"
+
+[[cards]]
+text = "Secret Service Codename"
+
+[[cards]]
+text = "Vice President"
+
+[[cards]]
+text = "President Josiah Bartlet"
+
+[[cards]]
+text = "Abbey Bartlet"
+
+[[cards]]
+text = "Kate Harper"
+
+[[cards]]
+text = "Oval Office"
+
+[[cards]]
+text = "West Wing"
+
+[[cards]]
+text = "Pluie the Wolf"
+
+[[cards]]
+text = "The Mess Hall"
+
+[[cards]]
+text = "In Excelsis Deo"
+
+[[cards]]
+text = "What's Next"
+
+[[cards]]
+text = "Margaret Hooper"
+
+[[cards]]
+text = "Zoey Bartlet"
+
+[[cards]]
+text = "Dr. Nancy McNally"
+
+[[cards]]
+text = "Joey Lucas"
+
+[[cards]]
+text = "Lord John Marbury"
+
+[[cards]]
+text = "Santos McGarry Campaign"
+
+[[cards]]
+text = "Congressional Liaison"
+
+[[cards]]
+text = "White House Speechwriter"
+
+[[cards]]
+text = "Federal Budget"
+
+[[cards]]
+text = "Midterm Elections"
+
+[[cards]]
+text = "Commander in Chief"
+
+[[cards]]
+text = "Situation Room"
+
+[[cards]]
+text = "Roosevelt Room"
+
+[[cards]]
+text = "President Jed Bartlet"
+
+[[cards]]
+text = "Post Hoc Ergo Propter"
+
+[[cards]]
+text = "Santos for President"

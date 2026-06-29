@@ -1,0 +1,237 @@
+id = "deck_montreal-quebec_38778cc5"
+revision = 1
+name = "Montreal, Quebec"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include neighborhoods, landmarks, foods, festivals, museums, sports teams, transit, French and English local terms, history, parks, and family-friendly Montreal references."
+photo_file_name = "montreal-quebec-38778cc5-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mount Royal"
+
+[[cards]]
+text = "Old Montreal"
+
+[[cards]]
+text = "Montreal Canadiens"
+
+[[cards]]
+text = "Poutine"
+
+[[cards]]
+text = "Montreal Bagels"
+
+[[cards]]
+text = "Saint Joseph's Oratory"
+
+[[cards]]
+text = "Notre-Dame Basilica"
+
+[[cards]]
+text = "Olympic Stadium"
+
+[[cards]]
+text = "Biosphere"
+
+[[cards]]
+text = "Habitat 67"
+
+[[cards]]
+text = "Jacques Cartier Bridge"
+
+[[cards]]
+text = "Lachine Canal"
+
+[[cards]]
+text = "Jean-Talon Market"
+
+[[cards]]
+text = "Atwater Market"
+
+[[cards]]
+text = "La Ronde"
+
+[[cards]]
+text = "Montreal Botanical Garden"
+
+[[cards]]
+text = "Mile End"
+
+[[cards]]
+text = "Le Plateau"
+
+[[cards]]
+text = "Little Italy"
+
+[[cards]]
+text = "Griffintown"
+
+[[cards]]
+text = "Smoked Meat Sandwich"
+
+[[cards]]
+text = "Maple Taffy"
+
+[[cards]]
+text = "Steamie"
+
+[[cards]]
+text = "Spruce Beer"
+
+[[cards]]
+text = "Montreal Jazz Festival"
+
+[[cards]]
+text = "Just for Laughs"
+
+[[cards]]
+text = "Igloofest"
+
+[[cards]]
+text = "Osheaga"
+
+[[cards]]
+text = "Montreal Grand Prix"
+
+[[cards]]
+text = "Youppi!"
+
+[[cards]]
+text = "Bell Centre"
+
+[[cards]]
+text = "Rocket Richard"
+
+[[cards]]
+text = "Montreal Metro"
+
+[[cards]]
+text = "Bixi"
+
+[[cards]]
+text = "Underground City"
+
+[[cards]]
+text = "Orange Line"
+
+[[cards]]
+text = "STM Bus"
+
+[[cards]]
+text = "Museum of Fine Arts"
+
+[[cards]]
+text = "Pointe-à-Callière Museum"
+
+[[cards]]
+text = "Montreal Science Centre"
+
+[[cards]]
+text = "Parc Jean-Drapeau"
+
+[[cards]]
+text = "McGill University"
+
+[[cards]]
+text = "Dépanneur"
+
+[[cards]]
+text = "Tam-Tams"
+
+[[cards]]
+text = "Place des Arts"
+
+[[cards]]
+text = "Bonsecours Market"
+
+[[cards]]
+text = "Mount Royal Chalet"
+
+[[cards]]
+text = "Saint Lawrence River"
+
+[[cards]]
+text = "Montreal Alouettes"
+
+[[cards]]
+text = "CF Montreal"
+
+[[cards]]
+text = "Old Port"
+
+[[cards]]
+text = "Montreal Biosphere"
+
+[[cards]]
+text = "Saint Laurent Boulevard"
+
+[[cards]]
+text = "Clock Tower"
+
+[[cards]]
+text = "Plateau Mont-Royal"
+
+[[cards]]
+text = "La Fontaine Park"
+
+[[cards]]
+text = "Jean-Drapeau Park"
+
+[[cards]]
+text = "Montreal Bagel"
+
+[[cards]]
+text = "CF Montréal"
+
+[[cards]]
+text = "Bixi Bike"
+
+[[cards]]
+text = "Pointe-à-Callière"
+
+[[cards]]
+text = "Saint Catherine Street"
+
+[[cards]]
+text = "Chalet du Mont-Royal"
+
+[[cards]]
+text = "Crescent Street"
+
+[[cards]]
+text = "Saint Helen's Island"
+
+[[cards]]
+text = "Bonjour-Hi"
+
+[[cards]]
+text = "Mount Royal Park"
+
+[[cards]]
+text = "Old Port of Montreal"
+
+[[cards]]
+text = "The Biodome"
+
+[[cards]]
+text = "The Biosphere"
+
+[[cards]]
+text = "Botanical Garden"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "The Plateau"
+
+[[cards]]
+text = "Montreal Smoked Meat"
+
+[[cards]]
+text = "Montreal Biodome"
+
+[[cards]]
+text = "The Underground City"

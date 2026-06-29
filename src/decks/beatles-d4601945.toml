@@ -1,0 +1,228 @@
+id = "deck_beatles_d4601945"
+revision = 1
+name = "Beatles"
+category = "Music"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include band members, albums, songs, instruments, places, collaborators, eras, studio terms, cultural moments, and recognizable Beatles references while avoiding long lyric quotes."
+photo_file_name = "beatles-d4601945-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "John Lennon"
+
+[[cards]]
+text = "Paul McCartney"
+
+[[cards]]
+text = "George Harrison"
+
+[[cards]]
+text = "Ringo Starr"
+
+[[cards]]
+text = "George Martin"
+
+[[cards]]
+text = "Brian Epstein"
+
+[[cards]]
+text = "Yoko Ono"
+
+[[cards]]
+text = "Billy Preston"
+
+[[cards]]
+text = "Abbey Road"
+
+[[cards]]
+text = "Sgt. Pepper"
+
+[[cards]]
+text = "Rubber Soul"
+
+[[cards]]
+text = "Revolver"
+
+[[cards]]
+text = "The White Album"
+
+[[cards]]
+text = "Magical Mystery Tour"
+
+[[cards]]
+text = "Yellow Submarine"
+
+[[cards]]
+text = "Hey Jude"
+
+[[cards]]
+text = "Yesterday"
+
+[[cards]]
+text = "Let It Be"
+
+[[cards]]
+text = "Come Together"
+
+[[cards]]
+text = "Strawberry Fields Forever"
+
+[[cards]]
+text = "Penny Lane"
+
+[[cards]]
+text = "Eleanor Rigby"
+
+[[cards]]
+text = "Help!"
+
+[[cards]]
+text = "A Hard Day's Night"
+
+[[cards]]
+text = "Here Comes the Sun"
+
+[[cards]]
+text = "Blackbird"
+
+[[cards]]
+text = "Octopus's Garden"
+
+[[cards]]
+text = "Love Me Do"
+
+[[cards]]
+text = "Twist and Shout"
+
+[[cards]]
+text = "Ticket to Ride"
+
+[[cards]]
+text = "The Cavern Club"
+
+[[cards]]
+text = "Liverpool"
+
+[[cards]]
+text = "Hamburg"
+
+[[cards]]
+text = "Shea Stadium"
+
+[[cards]]
+text = "The Ed Sullivan Show"
+
+[[cards]]
+text = "Rooftop Concert"
+
+[[cards]]
+text = "Beatlemania"
+
+[[cards]]
+text = "The British Invasion"
+
+[[cards]]
+text = "Apple Corps"
+
+[[cards]]
+text = "Höfner Violin Bass"
+
+[[cards]]
+text = "Sitar"
+
+[[cards]]
+text = "Rickenbacker Guitar"
+
+[[cards]]
+text = "Ludwig Drum Kit"
+
+[[cards]]
+text = "Blue Meanies"
+
+[[cards]]
+text = "The Walrus"
+
+[[cards]]
+text = "Nowhere Man"
+
+[[cards]]
+text = "Lonely Hearts Club Band"
+
+[[cards]]
+text = "Abbey Road Zebra Crossing"
+
+[[cards]]
+text = "Maxwell's Silver Hammer"
+
+[[cards]]
+text = "Mean Mr. Mustard"
+
+[[cards]]
+text = "Something"
+
+[[cards]]
+text = "Lucy in the Sky"
+
+[[cards]]
+text = "Taxman"
+
+[[cards]]
+text = "Sgt. Pepper's Album"
+
+[[cards]]
+text = "Hofner Bass"
+
+[[cards]]
+text = "Strawberry Field"
+
+[[cards]]
+text = "Savile Row"
+
+[[cards]]
+text = "Linda McCartney"
+
+[[cards]]
+text = "Pete Best"
+
+[[cards]]
+text = "Shea Stadium Concert"
+
+[[cards]]
+text = "Abbey Road Studios"
+
+[[cards]]
+text = "Blue Jay Way"
+
+[[cards]]
+text = "The Rooftop Concert"
+
+[[cards]]
+text = "Mellotron"
+
+[[cards]]
+text = "Ludwig Drums"
+
+[[cards]]
+text = "Ed Sullivan Show"
+
+[[cards]]
+text = "The Quarrymen"
+
+[[cards]]
+text = "Strawberry Fields"
+
+[[cards]]
+text = "Rickenbacker"
+
+[[cards]]
+text = "Sitars"
+
+[[cards]]
+text = "Billy Shears"
+
+[[cards]]
+text = "Hamburg, Germany"
+
+[[cards]]
+text = "Double Tracking"

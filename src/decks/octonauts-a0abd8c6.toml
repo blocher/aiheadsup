@@ -1,0 +1,225 @@
+id = "deck_octonauts_a0abd8c6"
+revision = 1
+name = "Octonauts"
+category = "TV Shows"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include characters, vehicles, sea creatures, missions, locations, catchphrases, gadgets, ocean science terms, and recognizable Octonauts references."
+photo_file_name = "octonauts-a0abd8c6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Captain Barnacles"
+
+[[cards]]
+text = "Kwazii Cat"
+
+[[cards]]
+text = "Peso Penguin"
+
+[[cards]]
+text = "Dr. Shellington"
+
+[[cards]]
+text = "Dashi Dog"
+
+[[cards]]
+text = "Tweak Bunny"
+
+[[cards]]
+text = "Professor Inkling"
+
+[[cards]]
+text = "Tunip the Vegimal"
+
+[[cards]]
+text = "Octopod"
+
+[[cards]]
+text = "Gup-A"
+
+[[cards]]
+text = "Gup-B"
+
+[[cards]]
+text = "Gup-C"
+
+[[cards]]
+text = "Gup-D"
+
+[[cards]]
+text = "Gup-E"
+
+[[cards]]
+text = "Gup-X"
+
+[[cards]]
+text = "Creature Report"
+
+[[cards]]
+text = "Octo-Alert"
+
+[[cards]]
+text = "Explore Rescue Protect"
+
+[[cards]]
+text = "Kelp Cake"
+
+[[cards]]
+text = "Fish Biscuit"
+
+[[cards]]
+text = "Launch Bay"
+
+[[cards]]
+text = "Midnight Zone"
+
+[[cards]]
+text = "Sunlight Zone"
+
+[[cards]]
+text = "Twilight Zone"
+
+[[cards]]
+text = "Coral Reef"
+
+[[cards]]
+text = "Mariana Trench"
+
+[[cards]]
+text = "Kelp Forest"
+
+[[cards]]
+text = "Whale Shark"
+
+[[cards]]
+text = "Colossal Squid"
+
+[[cards]]
+text = "Blobfish"
+
+[[cards]]
+text = "Vampire Squid"
+
+[[cards]]
+text = "Narwhal"
+
+[[cards]]
+text = "Blue Whale"
+
+[[cards]]
+text = "Giant Pacific Octopus"
+
+[[cards]]
+text = "Humboldt Squid"
+
+[[cards]]
+text = "Immortal Jellyfish"
+
+[[cards]]
+text = "Electric Ray"
+
+[[cards]]
+text = "Sea Cucumber"
+
+[[cards]]
+text = "Moray Eel"
+
+[[cards]]
+text = "Hermit Crab"
+
+[[cards]]
+text = "Great White Shark"
+
+[[cards]]
+text = "Flying Fish"
+
+[[cards]]
+text = "Lionfish"
+
+[[cards]]
+text = "Mantis Shrimp"
+
+[[cards]]
+text = "Deep Sea Octolab"
+
+[[cards]]
+text = "Octo-Glow"
+
+[[cards]]
+text = "Vegimals"
+
+[[cards]]
+text = "Ranger Marsh"
+
+[[cards]]
+text = "Sea Urchin"
+
+[[cards]]
+text = "Ocean Sunfish"
+
+[[cards]]
+text = "Kwazii"
+
+[[cards]]
+text = "Peso"
+
+[[cards]]
+text = "Shellington"
+
+[[cards]]
+text = "Tweak"
+
+[[cards]]
+text = "Dashi"
+
+[[cards]]
+text = "The Octopod"
+
+[[cards]]
+text = "Fish Biscuits"
+
+[[cards]]
+text = "Octo-Compass"
+
+[[cards]]
+text = "Sick Bay"
+
+[[cards]]
+text = "Humuhumunukunukuapua'a"
+
+[[cards]]
+text = "Elephant Seal"
+
+[[cards]]
+text = "Hammerhead Shark"
+
+[[cards]]
+text = "Electric Eel"
+
+[[cards]]
+text = "Sunflower Star"
+
+[[cards]]
+text = "Manatee"
+
+[[cards]]
+text = "Tunip"
+
+[[cards]]
+text = "Giant Squid"
+
+[[cards]]
+text = "Sea Turtle"
+
+[[cards]]
+text = "Deep Sea Lab"
+
+[[cards]]
+text = "Sea Star"
+
+[[cards]]
+text = "Flupjacks"
+
+[[cards]]
+text = "Octo-Max Suit"

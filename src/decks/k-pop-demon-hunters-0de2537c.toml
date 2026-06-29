@@ -1,0 +1,534 @@
+id = "deck_k-pop-demon-hunters_0de2537c"
+revision = 1
+name = "K-Pop Demon Hunters"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, songs, magical objects, demons, idols, settings, action moments, music-industry terms, humor, and memorable family-friendly details from K-Pop Demon Hunters."
+photo_file_name = "k-pop-demon-hunters-0de2537c-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Lightstick Wand"
+
+[[cards]]
+text = "Autotune Phantom"
+
+[[cards]]
+text = "Leader Ji-hun"
+
+[[cards]]
+text = "Backstage Crypt"
+
+[[cards]]
+text = "High-Note Exorcism"
+
+[[cards]]
+text = "Holy Aegis Earbuds"
+
+[[cards]]
+text = "Stage Fright Specter"
+
+[[cards]]
+text = "Golden Mic of Truth"
+
+[[cards]]
+text = "Slay the Stage"
+
+[[cards]]
+text = "Manager Kim"
+
+[[cards]]
+text = "Glitter Grenade"
+
+[[cards]]
+text = "Seoul Dome Dungeon"
+
+[[cards]]
+text = "Lip-Sync Banshee"
+
+[[cards]]
+text = "Bass Drop Blast"
+
+[[cards]]
+text = "Diva Min-seo"
+
+[[cards]]
+text = "Fandom Barrier"
+
+[[cards]]
+text = "Spicy Rice Cake Spell"
+
+[[cards]]
+text = "Rappin' Reaper"
+
+[[cards]]
+text = "Neon Banishing Sigil"
+
+[[cards]]
+text = "Recording Studio Portal"
+
+[[cards]]
+text = "Hair-Flip Shield"
+
+[[cards]]
+text = "Paparazzi Ghoul"
+
+[[cards]]
+text = "Bubble Tea Potion"
+
+[[cards]]
+text = "Synchronization Strike"
+
+[[cards]]
+text = "Contract Wraith"
+
+[[cards]]
+text = "Voice Crack Jinx"
+
+[[cards]]
+text = "Silver Dance Shoes"
+
+[[cards]]
+text = "Demon Beat"
+
+[[cards]]
+text = "Chord-Cutter Goblin"
+
+[[cards]]
+text = "Smudged Eyeliner Curse"
+
+[[cards]]
+text = "Backup Dancer Barrier"
+
+[[cards]]
+text = "Haunted Dressing Room"
+
+[[cards]]
+text = "The Golden Maknae"
+
+[[cards]]
+text = "Mic-Drop Mimic"
+
+[[cards]]
+text = "Banishing Glitter"
+
+[[cards]]
+text = "Ghost-busting Visual"
+
+[[cards]]
+text = "Aegis Aegyo"
+
+[[cards]]
+text = "Heartbeat Shield"
+
+[[cards]]
+text = "Underground Trainee Cave"
+
+[[cards]]
+text = "Red-Eye Basilisk"
+
+[[cards]]
+text = "Encore Banishing"
+
+[[cards]]
+text = "Vocal Warmup Ward"
+
+[[cards]]
+text = "Choreography Memory Loss"
+
+[[cards]]
+text = "Neon Ward Street"
+
+[[cards]]
+text = "Stage Outfit Failure"
+
+[[cards]]
+text = "Demon Debut"
+
+[[cards]]
+text = "Sparky the Mascot"
+
+[[cards]]
+text = "Banish the Shadows"
+
+[[cards]]
+text = "Soul-Binding Contract"
+
+[[cards]]
+text = "Fan-Call Summoning"
+
+[[cards]]
+text = "Ji-hoon"
+
+[[cards]]
+text = "Min-ji"
+
+[[cards]]
+text = "Haru the Rapper"
+
+[[cards]]
+text = "Eun-ji"
+
+[[cards]]
+text = "PD-Nim"
+
+[[cards]]
+text = "Stylist Noona"
+
+[[cards]]
+text = "Golden Microphone"
+
+[[cards]]
+text = "Glowing Lightstick"
+
+[[cards]]
+text = "Enchanted In-Ear Monitors"
+
+[[cards]]
+text = "Demon-Slaying Glitter"
+
+[[cards]]
+text = "Pitch Phantom"
+
+[[cards]]
+text = "Auto-Tune Wraith"
+
+[[cards]]
+text = "Bass Drop Beast"
+
+[[cards]]
+text = "Neon Stage"
+
+[[cards]]
+text = "Dance Practice Room"
+
+[[cards]]
+text = "Recording Studio"
+
+[[cards]]
+text = "Backstage Greenroom"
+
+[[cards]]
+text = "Haunted Karaoke Bar"
+
+[[cards]]
+text = "Beat Drop Exorcism"
+
+[[cards]]
+text = "Devil's Debut"
+
+[[cards]]
+text = "High-Note Screech"
+
+[[cards]]
+text = "Synchronized Dance Attack"
+
+[[cards]]
+text = "Styling Makeover"
+
+[[cards]]
+text = "Fan Meeting Trap"
+
+[[cards]]
+text = "Debut Showcase"
+
+[[cards]]
+text = "Music Bank Battle"
+
+[[cards]]
+text = "Perfect All-Kill"
+
+[[cards]]
+text = "Fandom Chant"
+
+[[cards]]
+text = "Comeback Stage"
+
+[[cards]]
+text = "Magic Hair Extensions"
+
+[[cards]]
+text = "Bass Booster Boots"
+
+[[cards]]
+text = "Contract Devil"
+
+[[cards]]
+text = "Entertainment Agency HQ"
+
+[[cards]]
+text = "Album Signing Shield"
+
+[[cards]]
+text = "Wardrobe Malfunction Escape"
+
+[[cards]]
+text = "Tempo-Slowing Stopwatch"
+
+[[cards]]
+text = "Vocal Blast"
+
+[[cards]]
+text = "Backflip Kick"
+
+[[cards]]
+text = "Shining Armor Dance"
+
+[[cards]]
+text = "Subway Tunnel Arena"
+
+[[cards]]
+text = "Glitter Bomb Grenade"
+
+[[cards]]
+text = "Choreography Spell Book"
+
+[[cards]]
+text = "Ghostly Backup Dancers"
+
+[[cards]]
+text = "Soundcheck Barrier"
+
+[[cards]]
+text = "Triple Encore Attack"
+
+[[cards]]
+text = "Neon Lightstick Blaster"
+
+[[cards]]
+text = "Banishment Dance Break"
+
+[[cards]]
+text = "Stage Fright Demon"
+
+[[cards]]
+text = "Haunted Trainee Dungeon"
+
+[[cards]]
+text = "Waterproof Stage Makeup"
+
+[[cards]]
+text = "Min-jun the Leader"
+
+[[cards]]
+text = "Ye-won the Mage"
+
+[[cards]]
+text = "Ji-hoon the Swordsman"
+
+[[cards]]
+text = "Haru the Maknae"
+
+[[cards]]
+text = "Neon Lightstick Wand"
+
+[[cards]]
+text = "Mic Stand Spear"
+
+[[cards]]
+text = "Paparazzi Phantom"
+
+[[cards]]
+text = "Seoul Dome Arena"
+
+[[cards]]
+text = "Haunted Recording Booth"
+
+[[cards]]
+text = "Demon Realm Portal"
+
+[[cards]]
+text = "Backstage Dressing Room"
+
+[[cards]]
+text = "Beat of the Beast"
+
+[[cards]]
+text = "Vocal Shield"
+
+[[cards]]
+text = "Perfect Synced Dance"
+
+[[cards]]
+text = "Mic Drop Blast"
+
+[[cards]]
+text = "Aegyo Distraction"
+
+[[cards]]
+text = "Sparkle Transform"
+
+[[cards]]
+text = "Fandom Shield"
+
+[[cards]]
+text = "Fan-chant Incantation"
+
+[[cards]]
+text = "Trainee Trials"
+
+[[cards]]
+text = "Makeup Armor"
+
+[[cards]]
+text = "Center Position"
+
+[[cards]]
+text = "Glitter Ghoul"
+
+[[cards]]
+text = "Hairflip Wind Machine"
+
+[[cards]]
+text = "Autographed Shield"
+
+[[cards]]
+text = "LED Hairpin"
+
+[[cards]]
+text = "Dance Break Battle"
+
+[[cards]]
+text = "High Note Blast"
+
+[[cards]]
+text = "Pitch-Perfect Arrow"
+
+[[cards]]
+text = "Hologram Decoy"
+
+[[cards]]
+text = "Choreography Map"
+
+[[cards]]
+text = "Vocal Warmup Chant"
+
+[[cards]]
+text = "Shadow Producer"
+
+[[cards]]
+text = "Poisonous Energy Drink"
+
+[[cards]]
+text = "Silk Scarf Whip"
+
+[[cards]]
+text = "Sparkling Combat Boots"
+
+[[cards]]
+text = "Audition Room Gate"
+
+[[cards]]
+text = "Sub-Vocal Sniper"
+
+[[cards]]
+text = "Tempo-Slowing Beat"
+
+[[cards]]
+text = "Neon Wardrobe Closet"
+
+[[cards]]
+text = "Sasaeng Shadow"
+
+[[cards]]
+text = "Golden Record Disc"
+
+[[cards]]
+text = "Lightstick Weapon"
+
+[[cards]]
+text = "Neon Concert Stage"
+
+[[cards]]
+text = "Glitch Demon"
+
+[[cards]]
+text = "Synchronized Dance Battle"
+
+[[cards]]
+text = "Magic Microphone"
+
+[[cards]]
+text = "Backstage Portal"
+
+[[cards]]
+text = "Lead Vocalist Leader"
+
+[[cards]]
+text = "Evil Record Label"
+
+[[cards]]
+text = "Lead Vocalist Min-jun"
+
+[[cards]]
+text = "Golden Maknae Hunter"
+
+[[cards]]
+text = "Tone-Deaf Demon"
+
+[[cards]]
+text = "Neon Lightstick Sword"
+
+[[cards]]
+text = "Haunted Recording Studio"
+
+[[cards]]
+text = "Slaying Dance Break"
+
+[[cards]]
+text = "The Grumpy Manager"
+
+[[cards]]
+text = "Microphone Wand"
+
+[[cards]]
+text = "Neon Seoul Rooftop"
+
+[[cards]]
+text = "Synchronized Choreography"
+
+[[cards]]
+text = "Autotune Banshee"
+
+[[cards]]
+text = "Accidental Aegyo Attack"
+
+[[cards]]
+text = "Flawless Hair Flip"
+
+[[cards]]
+text = "Comeback Showcase"
+
+[[cards]]
+text = "Pitch-Pipe Ghoul"
+
+[[cards]]
+text = "Triple Platinum Spell"
+
+[[cards]]
+text = "Leader Ji-young"
+
+[[cards]]
+text = "Visual Center Hana"
+
+[[cards]]
+text = "Enchanted Hair Gel"
+
+[[cards]]
+text = "Bass-Boosted Shield"
+
+[[cards]]
+text = "Phantom Fanboy"
+
+[[cards]]
+text = "Autotune Demon"
+
+[[cards]]
+text = "Glitter Banishing Spray"
+
+[[cards]]
+text = "Choreographed Battle"
+
+[[cards]]
+text = "Magic Lightstick"

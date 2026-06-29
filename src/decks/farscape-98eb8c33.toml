@@ -1,0 +1,240 @@
+id = "deck_farscape_98eb8c33"
+revision = 1
+name = "Farscape"
+category = "TV Shows"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, alien species, ships, planets, factions, objects, powers, story arcs, and recognizable Farscape references."
+photo_file_name = "farscape-98eb8c33-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "John Crichton"
+
+[[cards]]
+text = "Aeryn Sun"
+
+[[cards]]
+text = "Ka D'Argo"
+
+[[cards]]
+text = "Pa'u Zotoh Zhaan"
+
+[[cards]]
+text = "Dominar Rygel XVI"
+
+[[cards]]
+text = "Chiana"
+
+[[cards]]
+text = "Pilot"
+
+[[cards]]
+text = "Moya"
+
+[[cards]]
+text = "Talyn"
+
+[[cards]]
+text = "Scorpius"
+
+[[cards]]
+text = "Bialar Crais"
+
+[[cards]]
+text = "Stark"
+
+[[cards]]
+text = "Sikozu"
+
+[[cards]]
+text = "Jool"
+
+[[cards]]
+text = "Noranti"
+
+[[cards]]
+text = "Harvey"
+
+[[cards]]
+text = "DRD"
+
+[[cards]]
+text = "Starburst"
+
+[[cards]]
+text = "Peacekeepers"
+
+[[cards]]
+text = "Scarrans"
+
+[[cards]]
+text = "Sebacean"
+
+[[cards]]
+text = "Luxan"
+
+[[cards]]
+text = "Delvian"
+
+[[cards]]
+text = "Hynerian"
+
+[[cards]]
+text = "Nebari"
+
+[[cards]]
+text = "Qualta Blade"
+
+[[cards]]
+text = "Pulse Pistol"
+
+[[cards]]
+text = "Wormhole Weapon"
+
+[[cards]]
+text = "Transport Pod"
+
+[[cards]]
+text = "Command Carrier"
+
+[[cards]]
+text = "Uncharted Territories"
+
+[[cards]]
+text = "Prowler"
+
+[[cards]]
+text = "Marauder"
+
+[[cards]]
+text = "Gammak Base"
+
+[[cards]]
+text = "Winona"
+
+[[cards]]
+text = "Stark's Mask"
+
+[[cards]]
+text = "Diagnosan"
+
+[[cards]]
+text = "Tormented Space"
+
+[[cards]]
+text = "Wormholes"
+
+[[cards]]
+text = "Jothee"
+
+[[cards]]
+text = "Katratzi"
+
+[[cards]]
+text = "Lo'La"
+
+[[cards]]
+text = "Luxan Hyper-Rage"
+
+[[cards]]
+text = "PK Tech Girl"
+
+[[cards]]
+text = "Leviathan"
+
+[[cards]]
+text = "The Peacekeeper Wars"
+
+[[cards]]
+text = "Crackers Don't Matter"
+
+[[cards]]
+text = "Commandant Grayza"
+
+[[cards]]
+text = "Nebari Mind Cleansing"
+
+[[cards]]
+text = "Jack Crichton"
+
+[[cards]]
+text = "Wormhole"
+
+[[cards]]
+text = "Aurora Chair"
+
+[[cards]]
+text = "The Uncharted Territories"
+
+[[cards]]
+text = "The Ancients"
+
+[[cards]]
+text = "Banik"
+
+[[cards]]
+text = "Tavlek Gauntlet"
+
+[[cards]]
+text = "Cryo-Suit"
+
+[[cards]]
+text = "Halosians"
+
+[[cards]]
+text = "Frell"
+
+[[cards]]
+text = "Dren"
+
+[[cards]]
+text = "Starburst Chamber"
+
+[[cards]]
+text = "Nebari Resistance"
+
+[[cards]]
+text = "Peacekeeper Wars"
+
+[[cards]]
+text = "Zhaan"
+
+[[cards]]
+text = "Wormhole Technology"
+
+[[cards]]
+text = "Farscape One"
+
+[[cards]]
+text = "Sebaceans"
+
+[[cards]]
+text = "Luxans"
+
+[[cards]]
+text = "Delvians"
+
+[[cards]]
+text = "Hynerians"
+
+[[cards]]
+text = "Neural Clone"
+
+[[cards]]
+text = "The Budong"
+
+[[cards]]
+text = "Farscape-1"
+
+[[cards]]
+text = "Scarran Empire"
+
+[[cards]]
+text = "Nebari Establishment"
+
+[[cards]]
+text = "Hyneria"
+
+[[cards]]
+text = "Translator Microbes"

@@ -39,13 +39,27 @@ describe('deck generation CLI', () => {
     expect(prompt).not.toMatch(/star wars|episode|new hope/i)
   })
 
-  it('retries a failed cover three times, then continues without one', async () => {
+  it('retries a failed cover up to four times, then continues without one', async () => {
     const [deck] = readDefinitions(source)
     const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
     globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ candidates: [] }) })
     await expect(generateCover('test-key', deck, { imageModel: 'test-model' })).resolves.toBeNull()
     expect(globalThis.fetch).toHaveBeenCalledTimes(4)
-    expect(warn).toHaveBeenLastCalledWith(expect.stringContaining('after three retries. Continuing without a cover'))
+    expect(warn).toHaveBeenLastCalledWith(expect.stringContaining('Continuing without a cover'))
+    warn.mockRestore()
+  })
+
+  it('switches to a generic prompt after a copyright rejection', async () => {
+    const [deck] = readDefinitions(source)
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    globalThis.fetch = vi.fn()
+      .mockResolvedValueOnce({ ok: false, json: async () => ({ error: { message: 'Blocked for copyright reasons' } }) })
+      .mockResolvedValueOnce({ ok: true, json: async () => ({ candidates: [{ content: { parts: [{ inlineData: { data: Buffer.from('abc').toString('base64'), mimeType: 'image/png' } }] } }] }) })
+    const cover = await generateCover('test-key', deck, { imageModel: 'test-model' })
+    expect(cover?.bytes.toString()).toBe('abc')
+    expect(globalThis.fetch).toHaveBeenCalledTimes(2)
+    expect(String(globalThis.fetch.mock.calls[1][1].body)).toContain('generic visuals')
+    expect(warn).toHaveBeenCalledWith(expect.stringContaining('generic non-copyrighted cover prompt'))
     warn.mockRestore()
   })
 

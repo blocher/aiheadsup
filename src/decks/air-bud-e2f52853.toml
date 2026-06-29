@@ -1,0 +1,273 @@
+id = "deck_air-bud_e2f52853"
+revision = 1
+name = "Air Bud"
+category = "Movies"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include characters, Buddy the dog, sports, teams, family members, coaches, places, objects, sequel references, and memorable moments from the Air Bud movies. Include all AirBud movies."
+photo_file_name = "air-bud-e2f52853-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Buddy"
+
+[[cards]]
+text = "Josh Framm"
+
+[[cards]]
+text = "Andrea Framm"
+
+[[cards]]
+text = "Jackie Framm"
+
+[[cards]]
+text = "Dr. Patrick Sullivan"
+
+[[cards]]
+text = "Norm Snively"
+
+[[cards]]
+text = "Coach Arthur Chaney"
+
+[[cards]]
+text = "Coach Barker"
+
+[[cards]]
+text = "Molly"
+
+[[cards]]
+text = "B-Dawg"
+
+[[cards]]
+text = "Budderball"
+
+[[cards]]
+text = "Rosebud"
+
+[[cards]]
+text = "Mudbud"
+
+[[cards]]
+text = "Buddha"
+
+[[cards]]
+text = "Fernfield Timberwolves"
+
+[[cards]]
+text = "Fernfield Falcons"
+
+[[cards]]
+text = "Golden Retriever"
+
+[[cards]]
+text = "Basketball Hoop"
+
+[[cards]]
+text = "Football Helmet"
+
+[[cards]]
+text = "Soccer Goal"
+
+[[cards]]
+text = "Baseball Glove"
+
+[[cards]]
+text = "Volleyball Net"
+
+[[cards]]
+text = "Clown Suit"
+
+[[cards]]
+text = "Clown Car"
+
+[[cards]]
+text = "Snively's Truck"
+
+[[cards]]
+text = "Championship Trophy"
+
+[[cards]]
+text = "Dog Jersey"
+
+[[cards]]
+text = "Newspaper Route"
+
+[[cards]]
+text = "Dog Treats"
+
+[[cards]]
+text = "Dunking a Basketball"
+
+[[cards]]
+text = "Catching a Pass"
+
+[[cards]]
+text = "Scoring a Goal"
+
+[[cards]]
+text = "Hitting a Home Run"
+
+[[cards]]
+text = "Serving a Volleyball"
+
+[[cards]]
+text = "Golden Receiver"
+
+[[cards]]
+text = "World Pup"
+
+[[cards]]
+text = "Seventh Inning Fetch"
+
+[[cards]]
+text = "Spikes Back"
+
+[[cards]]
+text = "Snow Buddies"
+
+[[cards]]
+text = "Space Buddies"
+
+[[cards]]
+text = "Santa Buddies"
+
+[[cards]]
+text = "Treasure Buddies"
+
+[[cards]]
+text = "Spooky Buddies"
+
+[[cards]]
+text = "Super Buddies"
+
+[[cards]]
+text = "Noah Framm"
+
+[[cards]]
+text = "Deputy Simmons"
+
+[[cards]]
+text = "Fernfield"
+
+[[cards]]
+text = "World Cup"
+
+[[cards]]
+text = "Dog Pound"
+
+[[cards]]
+text = "Referee"
+
+[[cards]]
+text = "Basketball Jersey"
+
+[[cards]]
+text = "Coach Chaney"
+
+[[cards]]
+text = "Slam Dunk"
+
+[[cards]]
+text = "Touchdown"
+
+[[cards]]
+text = "Soccer Ball"
+
+[[cards]]
+text = "Molly the Dog"
+
+[[cards]]
+text = "Home Run"
+
+[[cards]]
+text = "Beach Volleyball"
+
+[[cards]]
+text = "Number 22 Jersey"
+
+[[cards]]
+text = "Snively the Clown"
+
+[[cards]]
+text = "Backyard Basketball Hoop"
+
+[[cards]]
+text = "Referee Whistle"
+
+[[cards]]
+text = "Header Goal"
+
+[[cards]]
+text = "Pitcher's Mound"
+
+[[cards]]
+text = "Quarterback Sneak"
+
+[[cards]]
+text = "Serving the Volleyball"
+
+[[cards]]
+text = "Milk Bone"
+
+[[cards]]
+text = "Squeaky Tennis Ball"
+
+[[cards]]
+text = "Puppy Love"
+
+[[cards]]
+text = "Dog Catcher"
+
+[[cards]]
+text = "Blue Pickup Truck"
+
+[[cards]]
+text = "Bleachers"
+
+[[cards]]
+text = "Team Mascot"
+
+[[cards]]
+text = "Sports Drink"
+
+[[cards]]
+text = "Halftime Show"
+
+[[cards]]
+text = "Playbook"
+
+[[cards]]
+text = "Victory Celebration"
+
+[[cards]]
+text = "Timberwolves"
+
+[[cards]]
+text = "Basketball"
+
+[[cards]]
+text = "Football"
+
+[[cards]]
+text = "Soccer"
+
+[[cards]]
+text = "Baseball"
+
+[[cards]]
+text = "Volleyball"
+
+[[cards]]
+text = "Jersey Number 22"
+
+[[cards]]
+text = "The Rule Book"
+
+[[cards]]
+text = "Norm Snivelly"
+
+[[cards]]
+text = "The Buddies"
+
+[[cards]]
+text = "Championship Game"

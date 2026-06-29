@@ -1,0 +1,273 @@
+id = "deck_mash_2b6296db"
+revision = 1
+name = "Mash"
+category = "TV Shows"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, settings, military hospital terms, objects, running jokes, relationships, episodes, and recognizable family-friendly references from Mash."
+photo_file_name = "mash-2b6296db-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Hawkeye Pierce"
+
+[[cards]]
+text = "Radar O'Reilly"
+
+[[cards]]
+text = "Corporal Klinger"
+
+[[cards]]
+text = "Hot Lips Houlihan"
+
+[[cards]]
+text = "Father Mulcahy"
+
+[[cards]]
+text = "Colonel Potter"
+
+[[cards]]
+text = "BJ Hunnicutt"
+
+[[cards]]
+text = "Major Winchester"
+
+[[cards]]
+text = "Frank Burns"
+
+[[cards]]
+text = "Trapper John"
+
+[[cards]]
+text = "Henry Blake"
+
+[[cards]]
+text = "Colonel Flagg"
+
+[[cards]]
+text = "Dr. Sidney Freedman"
+
+[[cards]]
+text = "Nurse Kellye"
+
+[[cards]]
+text = "Corporal Rizzo"
+
+[[cards]]
+text = "Sophie the Horse"
+
+[[cards]]
+text = "Radar's Teddy Bear"
+
+[[cards]]
+text = "The Swamp"
+
+[[cards]]
+text = "Rosie's Bar"
+
+[[cards]]
+text = "The Mess Hall"
+
+[[cards]]
+text = "Post Op"
+
+[[cards]]
+text = "The Operating Room"
+
+[[cards]]
+text = "Swamp Gin Still"
+
+[[cards]]
+text = "Grape Nehi"
+
+[[cards]]
+text = "Five O'Clock Charlie"
+
+[[cards]]
+text = "Captain Tuttle"
+
+[[cards]]
+text = "Section Eight"
+
+[[cards]]
+text = "Crabapple Cove"
+
+[[cards]]
+text = "Mill Valley"
+
+[[cards]]
+text = "Officers' Club"
+
+[[cards]]
+text = "MASH 4077th"
+
+[[cards]]
+text = "Klinger's Wedding Dress"
+
+[[cards]]
+text = "Bug Out"
+
+[[cards]]
+text = "Sparky"
+
+[[cards]]
+text = "Igor Straminsky"
+
+[[cards]]
+text = "Sergeant Zale"
+
+[[cards]]
+text = "The PA System"
+
+[[cards]]
+text = "Dog Tags"
+
+[[cards]]
+text = "Chopper"
+
+[[cards]]
+text = "Ho-Jon"
+
+[[cards]]
+text = "Spearchucker Jones"
+
+[[cards]]
+text = "Donald Penobscott"
+
+[[cards]]
+text = "Goodbye Farewell and Amen"
+
+[[cards]]
+text = "Abyssinia Henry"
+
+[[cards]]
+text = "Dear Dad"
+
+[[cards]]
+text = "Mildred Potter"
+
+[[cards]]
+text = "Peg Hunnicutt"
+
+[[cards]]
+text = "Tootsie Roll"
+
+[[cards]]
+text = "Ah Bach"
+
+[[cards]]
+text = "Seoul"
+
+[[cards]]
+text = "B.J. Hunnicutt"
+
+[[cards]]
+text = "Margaret Houlihan"
+
+[[cards]]
+text = "Charles Winchester"
+
+[[cards]]
+text = "Private Igor"
+
+[[cards]]
+text = "Operating Room"
+
+[[cards]]
+text = "Triage"
+
+[[cards]]
+text = "Seoul Korea"
+
+[[cards]]
+text = "Tokyo Japan"
+
+[[cards]]
+text = "Medical Chopper"
+
+[[cards]]
+text = "Purple Heart"
+
+[[cards]]
+text = "Honorable Discharge"
+
+[[cards]]
+text = "Homemade Still"
+
+[[cards]]
+text = "Gin Martini"
+
+[[cards]]
+text = "Local Draft Board"
+
+[[cards]]
+text = "C-Rations"
+
+[[cards]]
+text = "Red Bathrobe"
+
+[[cards]]
+text = "Klinger's Wardrobe"
+
+[[cards]]
+text = "Surgical Mask"
+
+[[cards]]
+text = "Hot Lips"
+
+[[cards]]
+text = "Ferret Face"
+
+[[cards]]
+text = "Suicide Is Painless"
+
+[[cards]]
+text = "Adam's Ribs"
+
+[[cards]]
+text = "The Incubator"
+
+[[cards]]
+text = "Post Exchange"
+
+[[cards]]
+text = "Bugle Call"
+
+[[cards]]
+text = "Double Shift"
+
+[[cards]]
+text = "Teddy Bear"
+
+[[cards]]
+text = "Colonel Sherman Potter"
+
+[[cards]]
+text = "The Gin Still"
+
+[[cards]]
+text = "Choppers"
+
+[[cards]]
+text = "Klinger's Dresses"
+
+[[cards]]
+text = "Major Frank Burns"
+
+[[cards]]
+text = "Toledo Ohio"
+
+[[cards]]
+text = "The 4077th"
+
+[[cards]]
+text = "Incoming Choppers"
+
+[[cards]]
+text = "Toledo Mud Hens"
+
+[[cards]]
+text = "The Still"
+
+[[cards]]
+text = "Tony Packo's"
