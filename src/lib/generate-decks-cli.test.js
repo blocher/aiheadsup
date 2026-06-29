@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import { mkdtemp, mkdir, writeFile } from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
-import { cardPrompt, generateCards, parseArguments, planDeckWork, readDefinitions, validateCards } from '../../scripts/generate-decks.mjs'
+import { cardPrompt, coverPrompt, generateCards, generateCover, parseArguments, planDeckWork, readDefinitions, validateCards } from '../../scripts/generate-decks.mjs'
 
 const source = `decks = [
   { name = "Gaga Ball", category = "Sports", difficulty = "easy", target = "family", number_of_cards = "100", special_instructions = "Use playground terms.", include_harry_potter_book_number = false },
@@ -23,6 +23,30 @@ describe('deck generation CLI', () => {
     const [, deck] = readDefinitions(source)
     expect(cardPrompt(deck, 2)).toContain('Cursed Child')
     expect(validateCards({ cards: [{ prompt: 'Delphi', earliest_installment: 8 }, { prompt: 'A phrase with five words', earliest_installment: 8 }, { prompt: 'Delphi', earliest_installment: 8 }] }, deck)).toEqual([{ prompt: 'Delphi', earliestInstallment: 8 }])
+  })
+
+  it('asks generated covers to use the full image without text or banner space', () => {
+    const [deck] = readDefinitions(source)
+    expect(coverPrompt(deck)).toContain('full-bleed composition')
+    expect(coverPrompt(deck)).toContain('Do not include text')
+    expect(coverPrompt(deck)).toContain('empty space at the top')
+  })
+
+  it('uses an original generic space-adventure brief for Star Wars covers', () => {
+    const starWarsDeck = { ...readDefinitions(source)[0], name: 'Star Wars Episode IV: A New Hope', category: 'Star Wars' }
+    const prompt = coverPrompt(starWarsDeck)
+    expect(prompt).toContain('family-friendly galactic adventure')
+    expect(prompt).not.toMatch(/star wars|episode|new hope/i)
+  })
+
+  it('retries a failed cover three times, then continues without one', async () => {
+    const [deck] = readDefinitions(source)
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {})
+    globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ candidates: [] }) })
+    await expect(generateCover('test-key', deck, { imageModel: 'test-model' })).resolves.toBeNull()
+    expect(globalThis.fetch).toHaveBeenCalledTimes(4)
+    expect(warn).toHaveBeenLastCalledWith(expect.stringContaining('after three retries. Continuing without a cover'))
+    warn.mockRestore()
   })
 
   it('supports the requested testing flags', () => {

@@ -6,6 +6,7 @@ import { GeminiProvider, generateCustomPack } from './lib/ai-provider.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
 import { prepareEndCueAudio } from './lib/end-cues.js'
+import { requestMotionPermission } from './lib/motion-permissions.js'
 import { defaultSpoilerLimits, spoilerProgressLabel, spoilerSeriesOptions } from './lib/spoiler-series.js'
 
 const screen = ref('library')
@@ -113,6 +114,13 @@ function keepBrowserInsideApp() {
 
 async function beginGame() {
   prepareEndCueAudio(endCueMode.value)
+  const motionAccess = await requestMotionPermission()
+  if (!motionAccess.granted) {
+    notice.value = motionAccess.error
+      ? 'iOS could not start motion sensing. Close and reopen Forehead Frenzy, then start a round and allow motion access.'
+      : 'Motion access was not granted. Start the round again and allow motion access so tilting can mark Correct and Pass.'
+    return
+  }
   const cards = await getUnusedCards(selectedPack.value.id, spoilerLimits.value)
   if (!cards.length) { notice.value = 'This pack is out of fresh cards. Reset it to play again.'; return }
   activeCards.value = cards
@@ -261,7 +269,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
 
 <template>
   <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" :end-cue-mode="endCueMode" @finish="finishGame" />
-  <main v-else class="app-shell">
+  <main v-else :class="['app-shell', { 'pack-detail-screen': screen === 'detail' }]">
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
       <div><p class="eyebrow">PARTY PROMPT GAME</p><h1>Forehead Frenzy</h1></div>

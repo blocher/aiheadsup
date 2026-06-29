@@ -22,7 +22,8 @@ const detector = createTiltDetector()
 const calibrationSamples = []
 let countdownTimer
 let roundTimer
-let motionListener
+const motionListeners = []
+let motionSource = null
 let feedbackTimer
 
 const score = computed(() => round.value.outcomes.filter((outcome) => outcome.result === 'correct').length)
@@ -49,12 +50,15 @@ async function respond(result) {
   }, 360)
 }
 
-function pitchFrom(event) {
-  return Number(event.beta ?? event.x ?? event.accelerationIncludingGravity?.x ?? 0)
+function pitchFrom(event, source) {
+  if (source === 'orientation') return Number(event.beta ?? event.x ?? 0)
+  return Number(event.x ?? event.accelerationIncludingGravity?.x ?? event.accelerationIncludingGravity?.y ?? 0)
 }
 
-function onMotion(event) {
-  const pitch = pitchFrom(event)
+function onMotion(event, source) {
+  if (!motionSource) motionSource = source
+  if (source !== motionSource) return
+  const pitch = pitchFrom(event, source)
   if (!started.value) {
     calibrationSamples.push(pitch)
     return
@@ -65,6 +69,10 @@ function onMotion(event) {
 
 function onVisibility() {
   paused.value = document.hidden
+}
+
+function preventGameZoom(event) {
+  if (event.type.startsWith('gesture') || event.touches?.length > 1) event.preventDefault()
 }
 
 function playEndCue() {
@@ -96,7 +104,7 @@ async function finish() {
   if (roundTimer) window.clearInterval(roundTimer)
   if (countdownTimer) window.clearInterval(countdownTimer)
   if (feedbackTimer) window.clearTimeout(feedbackTimer)
-  motionListener?.remove?.()
+  motionListeners.forEach((listener) => listener?.remove?.())
   const completedRound = JSON.parse(JSON.stringify(round.value))
   emit('finish', {
     ...completedRound,
@@ -108,8 +116,13 @@ async function finish() {
 
 onMounted(async () => {
   document.addEventListener('visibilitychange', onVisibility)
-  ScreenOrientation.lock({ orientation: 'landscape' }).catch(() => {})
-  Motion.addListener('orientation', onMotion).then((listener) => { motionListener = listener }).catch(() => {})
+  document.addEventListener('touchmove', preventGameZoom, { passive: false })
+  document.addEventListener('gesturestart', preventGameZoom, { passive: false })
+  document.addEventListener('gesturechange', preventGameZoom, { passive: false })
+  document.addEventListener('gestureend', preventGameZoom, { passive: false })
+  ScreenOrientation.lock({ orientation: 'landscape-secondary' }).catch(() => {})
+  Motion.addListener('orientation', (event) => onMotion(event, 'orientation')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
+  Motion.addListener('accel', (event) => onMotion(event, 'accel')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
   countdownTimer = window.setInterval(() => {
     countdown.value -= 1
     if (countdown.value <= 0) {
@@ -121,10 +134,14 @@ onMounted(async () => {
 
 onBeforeUnmount(() => {
   document.removeEventListener('visibilitychange', onVisibility)
+  document.removeEventListener('touchmove', preventGameZoom)
+  document.removeEventListener('gesturestart', preventGameZoom)
+  document.removeEventListener('gesturechange', preventGameZoom)
+  document.removeEventListener('gestureend', preventGameZoom)
   if (roundTimer) window.clearInterval(roundTimer)
   if (countdownTimer) window.clearInterval(countdownTimer)
   if (feedbackTimer) window.clearTimeout(feedbackTimer)
-  motionListener?.remove?.()
+  motionListeners.forEach((listener) => listener?.remove?.())
   ScreenOrientation.unlock().catch(() => {})
 })
 

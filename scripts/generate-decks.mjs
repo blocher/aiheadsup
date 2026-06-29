@@ -41,7 +41,7 @@ Options:
   --force                 Regenerate existing TOML and requested cover files
   --help                  Show this help
 
-The tool prompts for the Gemini API key only for real generation. It never writes the key to disk.
+The tool prompts for the Gemini API key only for real generation. It never writes the key to disk. A failed cover is retried three times, then skipped so the remaining decks can continue.
 Existing TOMLs are skipped. With --images, existing covers are skipped; if a TOML exists without a cover, only the cover is generated and linked.`
 }
 
@@ -116,7 +116,10 @@ export function cardPrompt(deck, count, excludedPrompts = []) {
 }
 
 export function coverPrompt(deck) {
-  return `Create an original vertical 4:5 illustrated party-game deck cover for “${deck.name}” in the “${deck.category}” category. Audience: ${deck.target}. Difficulty: ${deck.difficulty}. Make it bold, joyful, high-contrast, and readable at small tile size. Leave clean title space at the top. No text, logos, watermarks, copyrighted characters, actor likenesses, or branded symbols. Reflect these deck details: ${deck.specialInstructions || 'Use the deck name and category.'}`
+  if (deck.category === 'Star Wars') {
+    return `Create an original vertical 4:5 illustrated party-game deck cover themed around a family-friendly galactic adventure. Audience: ${deck.target}. Difficulty: ${deck.difficulty}. Show an original ensemble of space explorers, a lively alien world, imaginative spacecraft, and a dramatic cosmic landscape, with no recognizable franchise-specific people, costumes, vehicles, symbols, locations, or story elements. Make it bold, joyful, high-contrast, and readable at small tile size. Use a full-bleed composition that fills the entire image edge to edge. Do not include text, lettering, logos, watermarks, banners, title areas, frames, or empty space at the top.`
+  }
+  return `Create an original vertical 4:5 illustrated party-game deck cover for “${deck.name}” in the “${deck.category}” category. Audience: ${deck.target}. Difficulty: ${deck.difficulty}. Make it bold, joyful, high-contrast, and readable at small tile size. Use a full-bleed composition that fills the entire image edge to edge. Do not include text, lettering, logos, watermarks, banners, title areas, frames, or empty space at the top. No copyrighted characters, actor likenesses, or branded symbols. Reflect these deck details: ${deck.specialInstructions || 'Use the deck name and category.'}`
 }
 
 export function validateCards(payload, deck, knownCards = []) {
@@ -185,11 +188,22 @@ export async function generateCards(apiKey, deck, options) {
   return saved
 }
 
-async function generateCover(apiKey, deck, options) {
-  const payload = await geminiRequest(apiKey, options.imageModel, coverPrompt(deck), true)
-  const inlineData = (payload.candidates?.[0]?.content?.parts || []).find((part) => part.inlineData)?.inlineData
-  if (!inlineData?.data) throw new Error('Gemini did not return a cover image.')
-  return { bytes: Buffer.from(inlineData.data, 'base64'), extension: inlineData.mimeType === 'image/jpeg' ? 'jpg' : inlineData.mimeType === 'image/webp' ? 'webp' : 'png' }
+export async function generateCover(apiKey, deck, options) {
+  for (let attempt = 0; attempt <= 3; attempt += 1) {
+    try {
+      const payload = await geminiRequest(apiKey, options.imageModel, coverPrompt(deck), true)
+      const inlineData = (payload.candidates?.[0]?.content?.parts || []).find((part) => part.inlineData)?.inlineData
+      if (!inlineData?.data) throw new Error('Gemini did not return a cover image.')
+      return { bytes: Buffer.from(inlineData.data, 'base64'), extension: inlineData.mimeType === 'image/jpeg' ? 'jpg' : inlineData.mimeType === 'image/webp' ? 'webp' : 'png' }
+    } catch (error) {
+      if (attempt < 3) {
+        console.warn(`Warning: Could not generate a cover for “${deck.name}”. Retrying (${attempt + 1}/3)…`)
+        continue
+      }
+      console.warn(`Warning: Could not generate a cover for “${deck.name}” after three retries. Continuing without a cover. ${error.message}`)
+      return null
+    }
+  }
 }
 
 function outputToml(deck, cards, photoFileName = null) {
@@ -271,7 +285,7 @@ async function writeDeck(apiKey, plan, options) {
   if (plan.generateImage) {
     process.stdout.write(`Generating cover for ${deck.name}…\n`)
     cover = await generateCover(apiKey, deck, options)
-    photoFileName = `${deck.fileStem}-cover.${cover.extension}`
+    if (cover) photoFileName = `${deck.fileStem}-cover.${cover.extension}`
   }
   if (cover) {
     await mkdir(options.covers, { recursive: true })

@@ -18,7 +18,7 @@ public class GeminiSecurePlugin: CAPPlugin, CAPBridgedPlugin {
         CAPPluginMethod(name: "generateImage", returnType: CAPPluginReturnPromise)
     ]
 
-    private let service = "com.benjaminlocher.foreheadfrenzy.gemini"
+    private let service = "com.dailyoffice2019.foreheadfrenzy.gemini"
     private let account = "api-key"
 
     @objc func hasApiKey(_ call: CAPPluginCall) {

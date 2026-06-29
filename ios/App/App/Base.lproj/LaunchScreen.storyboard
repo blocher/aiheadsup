@@ -12,11 +12,31 @@
         <scene sceneID="EHf-IW-A2E">
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" id="snD-IY-ifK">
+                    <view key="view" contentMode="scaleToFill" id="snD-IY-ifK">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Splash" translatesAutoresizingMaskIntoConstraints="NO" id="wFf-gb-fWq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forehead Frenzy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M2s-Yy-Ff4">
+                                <rect key="frame" x="24" y="72" width="327" height="43"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="32"/>
+                                <color key="textColor" red="1" green="0.8941176471" blue="0.368627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </imageView>
+                        <constraints>
+                            <constraint firstItem="wFf-gb-fWq" firstAttribute="top" secondItem="snD-IY-ifK" secondAttribute="top" id="1pL-3L-2Bc"/>
+                            <constraint firstItem="wFf-gb-fWq" firstAttribute="leading" secondItem="snD-IY-ifK" secondAttribute="leading" id="3qU-gM-72u"/>
+                            <constraint firstAttribute="trailing" secondItem="wFf-gb-fWq" secondAttribute="trailing" id="RKX-yQ-2Eq"/>
+                            <constraint firstAttribute="bottom" secondItem="wFf-gb-fWq" secondAttribute="bottom" id="cuh-Nv-nje"/>
+                            <constraint firstItem="M2s-Yy-Ff4" firstAttribute="top" secondItem="snD-IY-ifK" secondAttribute="top" constant="72" id="dlH-Qr-WYO"/>
+                            <constraint firstItem="M2s-Yy-Ff4" firstAttribute="leading" secondItem="snD-IY-ifK" secondAttribute="leading" constant="24" id="gy3-5r-kQO"/>
+                            <constraint firstAttribute="trailing" secondItem="M2s-Yy-Ff4" secondAttribute="trailing" constant="24" id="tZx-SB-Lr0"/>
+                        </constraints>
+                    </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
