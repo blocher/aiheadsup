@@ -3,7 +3,10 @@
 :root { color: #f8f6ff; background: #10152d; font-family: 'DM Sans', system-ui, sans-serif; font-synthesis: none; }
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; min-height: 100vh; background: #10152d; }
-button, input, select { font: inherit; }
+button, input, select, textarea { font: inherit; }
+/* iOS auto-zooms when a focused text field is under 16px. Inputs here inherit small
+   label fonts, so pin them to 16px to stop the focus zoom (and the stuck-zoom it left). */
+input, textarea { font-size: 16px; }
 button { cursor: pointer; }
 button:disabled { cursor: not-allowed; opacity: .5; }
 .app-shell { width: min(100%, 760px); min-height: 100vh; min-height: 100dvh; margin: auto; padding: max(18px, env(safe-area-inset-top)) max(20px, env(safe-area-inset-right)) calc(28px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left)); background: radial-gradient(circle at 87% 6%, #4430a2 0, transparent 26rem), #10152d; }
