@@ -2,7 +2,8 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
-import { GeminiProvider, generateCustomPack } from './lib/ai-provider.js'
+import { AiProvider, generateCustomPack } from './lib/ai-provider.js'
+import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './lib/ai-providers.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
 import { prepareEndCueAudio } from './lib/end-cues.js'
@@ -22,13 +23,20 @@ const spoilerLimits = ref(defaultSpoilerLimits())
 const tiltOnly = ref(false)
 const endCueMode = ref('sound_haptics')
 const gameScreen = ref(null)
-const provider = new GeminiProvider()
+const provider = new AiProvider()
 const webBuild = !Capacitor.isNativePlatform()
-const hasKey = ref(false)
+const aiProviders = AI_PROVIDERS
+const providerKeyState = ref(Object.fromEntries(AI_PROVIDERS.map((entry) => [entry.id, false])))
+const activeProviderId = ref(DEFAULT_PROVIDER_ID)
+const keyDrafts = ref(Object.fromEntries(AI_PROVIDERS.map((entry) => [entry.id, ''])))
+const infoProviderId = ref(null)
+const keyedProviders = computed(() => AI_PROVIDERS.filter((entry) => providerKeyState.value[entry.id]))
+const hasAnyKey = computed(() => keyedProviders.value.length > 0)
+const activeProvider = computed(() => getProvider(activeProviderId.value) || keyedProviders.value[0] || AI_PROVIDERS[0])
+const infoProvider = computed(() => getProvider(infoProviderId.value))
 const notice = ref('')
 const loading = ref(true)
-const keyDraft = ref('')
-const creation = ref({ category: 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' })
+const creation = ref({ name: '', category: 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' })
 const creating = ref(false)
 const progress = ref(null)
 const importInput = ref(null)
@@ -147,8 +155,14 @@ async function refreshPacks() {
 
 async function refreshHistory() { history.value = await getRounds() }
 
-async function checkKey() {
-  try { hasKey.value = await provider.hasKey() } catch { hasKey.value = false }
+async function refreshKeys() {
+  const entries = await Promise.all(AI_PROVIDERS.map(async (entry) => {
+    try { return [entry.id, await provider.hasKey(entry.id)] } catch { return [entry.id, false] }
+  }))
+  providerKeyState.value = Object.fromEntries(entries)
+  if (!providerKeyState.value[activeProviderId.value] && keyedProviders.value.length) {
+    activeProviderId.value = keyedProviders.value[0].id
+  }
 }
 
 function openPack(pack) {
@@ -157,12 +171,29 @@ function openPack(pack) {
   screen.value = 'detail'
 }
 
+async function confirmLeaveGeneration() {
+  if (!creating.value || screen.value !== 'create') return true
+  return askForConfirmation({
+    title: 'Leave while generating?',
+    message: 'Your deck is still being created. Leaving this screen may interrupt generation and you could lose the new deck. Stay until it finishes.',
+    confirmText: 'Leave anyway',
+    cancelText: 'Keep waiting',
+    tone: 'danger'
+  })
+}
+
 async function goBack() {
   if (screen.value === 'game') {
     await gameScreen.value?.requestAbort()
     return
   }
+  if (!(await confirmLeaveGeneration())) return
   screen.value = screen.value === 'results' && selectedPack.value ? 'detail' : 'library'
+}
+
+async function openSettings() {
+  if (!(await confirmLeaveGeneration())) return
+  screen.value = 'settings'
 }
 
 function keepBrowserInsideApp() {
@@ -334,19 +365,44 @@ async function removePack() {
   screen.value = 'library'
 }
 
-async function saveKey() {
-  if (keyDraft.value.trim().length < 16) { notice.value = 'Paste a complete Gemini API key.'; return }
+async function saveProviderKey(providerId) {
+  const meta = getProvider(providerId)
+  const draft = (keyDrafts.value[providerId] || '').trim()
+  if (draft.length < 16) { notice.value = `Paste a complete ${meta.label} API key.`; return }
   try {
-    await provider.saveKey(keyDraft.value.trim())
-    keyDraft.value = ''
-    hasKey.value = true
-    notice.value = webBuild ? 'Key saved in this browser’s local storage.' : 'Key saved in iOS Keychain. It is never added to this project.'
-  } catch (error) { notice.value = error.message || 'Could not save the Gemini key.' }
+    await provider.saveKey(providerId, draft)
+    keyDrafts.value = { ...keyDrafts.value, [providerId]: '' }
+    await refreshKeys()
+    if (keyedProviders.value.length === 1) await selectProvider(providerId)
+    notice.value = webBuild ? `${meta.label} key saved in this browser.` : `${meta.label} key saved in iOS Keychain.`
+  } catch (error) { notice.value = error.message || `Could not save the ${meta.label} key.` }
 }
 
-async function removeKey() {
-  try { await provider.removeKey(); hasKey.value = false; notice.value = 'Gemini key removed.' } catch (error) { notice.value = error.message }
+async function removeProviderKey(providerId) {
+  const meta = getProvider(providerId)
+  const confirmed = await askForConfirmation({
+    title: `Remove the ${meta.label} key?`,
+    message: `Forget the saved ${meta.label} API key${webBuild ? ' from this browser' : ' from this iPhone'}? You can paste it again any time.`,
+    confirmText: 'Remove key',
+    tone: 'danger'
+  })
+  if (!confirmed) return
+  try {
+    await provider.removeKey(providerId)
+    await refreshKeys()
+    notice.value = `${meta.label} key removed.`
+  } catch (error) { notice.value = error.message || `Could not remove the ${meta.label} key.` }
 }
+
+async function selectProvider(providerId) {
+  activeProviderId.value = providerId
+  await saveSetting('aiProvider', providerId)
+  notice.value = `New decks will be generated with ${getProvider(providerId).label}.`
+}
+
+function openProviderInfo(providerId) { infoProviderId.value = providerId }
+function closeProviderInfo() { infoProviderId.value = null }
+function goToAiSettings() { notice.value = ''; screen.value = 'settings' }
 
 async function updateSpoilerLimit(seriesId) {
   spoilerLimits.value = { ...spoilerLimits.value, [seriesId]: Number(spoilerLimits.value[seriesId]) }
@@ -369,20 +425,23 @@ async function updateEndCueMode() {
 }
 
 async function createPack() {
+  const name = creation.value.name.trim()
+  if (name.length < 2) { notice.value = 'Give your deck a name.'; return }
   const category = creation.value.category === '__new__' ? creation.value.newCategory.trim() : creation.value.category.trim()
   if (category.length < 2) { notice.value = 'Choose or add a category.'; return }
-  if (!hasKey.value) { notice.value = 'Add a Gemini key in Settings before generating a pack.'; return }
+  if (!hasAnyKey.value) { notice.value = 'Add an AI provider key in Settings before generating a pack.'; return }
+  const providerId = activeProvider.value.id
   creating.value = true
   progress.value = { batch: 0, totalBatches: Math.ceil(creation.value.cardCount / 50), cardCount: 0, targetCardCount: creation.value.cardCount }
-  notice.value = `Creating your ${creation.value.cardCount}-card library…`
+  notice.value = `Creating “${name}” with ${activeProvider.value.label}…`
   try {
-    const result = await generateCustomPack(provider, { ...creation.value, category }, (next) => { progress.value = next })
+    const result = await generateCustomPack(provider, { ...creation.value, name, category, providerId }, (next) => { progress.value = next })
     await saveCustomPack(result.pack, result.cards)
     await refreshPacks()
-    selectedPack.value = packs.value.find((pack) => pack.id === result.pack.id)
-    creation.value = { category: categories.value[0] || 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' }
+    selectedPack.value = packs.value.find((pack) => pack.id === result.pack.id) || result.pack
+    creation.value = { name: '', category: categories.value[0] || 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' }
     screen.value = 'detail'
-    notice.value = 'Your new pack is ready.'
+    notice.value = `“${result.pack.title}” is ready with ${result.cards.length} cards.`
   } catch (error) { notice.value = error.message || 'The pack was not saved. Please try again.' }
   finally { creating.value = false; progress.value = null }
 }
@@ -421,7 +480,8 @@ onMounted(async () => {
   spoilerLimits.value = { ...defaultSpoilerLimits(), ...(savedSpoilerLimits || {}), ...(!savedSpoilerLimits ? { harry_potter: await getSetting('maxSpoilerBook', 7) } : {}) }
   tiltOnly.value = await getSetting('tiltOnly', false)
   endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
-  await Promise.all([refreshPacks(), refreshHistory(), checkKey()])
+  activeProviderId.value = await getSetting('aiProvider', DEFAULT_PROVIDER_ID)
+  await Promise.all([refreshPacks(), refreshHistory(), refreshKeys()])
   window.history.replaceState({ foreheadFrenzy: true }, '', window.location.href)
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
   window.addEventListener('popstate', keepBrowserInsideApp)
@@ -437,7 +497,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
       <div><p class="eyebrow">PARTY PROMPT GAME</p><h1>Forehead Frenzy</h1></div>
-      <button class="icon-button" aria-label="Settings" @click="screen = 'settings'">⚙</button>
+      <button class="icon-button" aria-label="Settings" @click="openSettings">⚙</button>
     </header>
 
     <p v-if="notice" class="notice">{{ notice }}</p>
@@ -447,6 +507,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
       <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button" @click="screen = 'create'">✨ Make a pack with AI</button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
       <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>All-time high scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
       <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
+      <section class="library-heading"><h3>Categories</h3></section>
       <nav v-if="categories.length" class="category-filter" aria-label="Filter packs by category">
         <button :class="{ selected: selectedCategory === 'all' }" :aria-pressed="selectedCategory === 'all'" @click="selectedCategory = 'all'"><span class="category-filter-icon">✦</span><span>All packs</span><b>{{ packs.length }}</b></button>
         <button v-for="category in categories" :key="category" :class="{ selected: selectedCategory === category }" :aria-pressed="selectedCategory === category" @click="selectedCategory = category"><span class="category-filter-icon">{{ categoryIcon(category) }}</span><span>{{ category }}</span><b>{{ packs.filter((pack) => pack.category === category).length }}</b></button>
@@ -484,11 +545,42 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'create'">
-      <section class="form-card"><p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>Gemini creates simple, 1–4 word cards and a cover image. Your pack stays on this phone.</p><label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>Batch {{ progress.batch }} of {{ progress.totalBatches }}</span><strong>{{ progress.cardCount }} / {{ progress.targetCardCount }} cards</strong><i><b :style="{ width: `${(progress.cardCount / progress.targetCardCount) * 100}%` }"></b></i></div><button class="primary-button wide" :disabled="creating" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards` }}</button><p v-if="!hasKey" class="tiny-note">Add your Gemini key in Settings first. The key stays in iOS Keychain.</p></section>
+      <section v-if="!hasAnyKey" class="form-card connect-card">
+        <p class="eyebrow">YOUR OWN DECK</p><h2>Connect an AI provider first.</h2>
+        <p>Forehead Frenzy can build a custom deck with {{ aiProviders.map((entry) => entry.label).join(' or ') }}. Add an API key in Settings to turn it on — your key stays {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</p>
+        <button class="primary-button wide" @click="goToAiSettings">Add an API key in Settings</button>
+      </section>
+      <section v-else :class="['form-card', { generating: creating }]">
+        <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.label }} creates simple, 1–4 word cards and a cover image. Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
+        <label v-if="keyedProviders.length > 1">AI provider<div class="segmented"><button v-for="entry in keyedProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div></label>
+        <label>Deck name<input v-model="creation.name" maxlength="60" placeholder="e.g. Taylor Swift Songs" :disabled="creating" required /><small>Shown as the deck title and guides the cards the AI writes.</small></label>
+        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>Batch {{ progress.batch }} of {{ progress.totalBatches }}</span><strong>{{ progress.cardCount }} / {{ progress.targetCardCount }} cards</strong><i><b :style="{ width: `${(progress.cardCount / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
+        <div v-if="creating" class="generating-overlay" role="status" aria-live="polite">
+          <span class="generating-spinner" aria-hidden="true"></span>
+          <strong>Creating “{{ creation.name.trim() || 'your deck' }}”…</strong>
+          <span v-if="progress" class="generating-progress">{{ progress.cardCount }} / {{ progress.targetCardCount }} cards{{ progress.totalBatches ? ` · batch ${progress.batch} of ${progress.totalBatches}` : '' }}</span>
+          <span class="generating-warning">Please keep this screen open. Leaving may interrupt generation{{ activeProvider.id === 'openai' ? ' — OpenAI can be slow' : '' }}.</span>
+        </div>
+      </section>
     </template>
 
     <template v-else-if="screen === 'settings'">
-      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>Gemini connection</h2><p v-if="webBuild">Your key is stored only in this browser’s local storage. It is convenient for this local web app, but anyone with this browser profile can read it.</p><p v-else>Your key is stored in iOS Keychain, never in the app bundle or this repository.</p><template v-if="hasKey"><div class="key-status">✓ A Gemini key is saved {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</div><button class="secondary-button danger" @click="removeKey">Remove key</button></template><template v-else><label>Gemini API key<input v-model="keyDraft" type="password" autocapitalize="off" autocomplete="off" placeholder="Paste your key" /></label><button class="primary-button wide" @click="saveKey">{{ webBuild ? 'Save key in this browser' : 'Save key to Keychain' }}</button></template><hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all deck freshness</h3><p>Make every card in every deck fresh again. Saved scores and round history stay.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button wide" @click="confirmResetAll">Reset all deck freshness</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
+      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>AI deck generation</h2><p v-if="webBuild">Add a key for any provider you want to use. Keys are stored only in this browser’s local storage — convenient for this local web app, but anyone with this browser profile can read them.</p><p v-else>Add a key for any provider you want to use. Keys are stored in iOS Keychain, never in the app bundle or this repository.</p>
+        <div class="provider-list">
+          <article v-for="entry in aiProviders" :key="entry.id" :class="['provider-card', { connected: providerKeyState[entry.id] }]">
+            <header class="provider-card-head"><div><b>{{ entry.label }}</b><small>{{ entry.keyPrefixHint }}</small></div><div class="provider-card-tools"><span :class="['provider-badge', { connected: providerKeyState[entry.id] }]">{{ providerKeyState[entry.id] ? 'Connected' : 'Not connected' }}</span><button class="info-button" :aria-label="`How to get a ${entry.label} key`" @click="openProviderInfo(entry.id)">ⓘ</button></div></header>
+            <template v-if="providerKeyState[entry.id]">
+              <button v-if="keyedProviders.length > 1 && activeProviderId === entry.id" class="provider-active-pill" disabled>✓ Active for new decks</button>
+              <button v-else-if="keyedProviders.length > 1" class="secondary-button wide" @click="selectProvider(entry.id)">Use for new decks</button>
+              <button class="link-button danger" @click="removeProviderKey(entry.id)">Remove {{ entry.short }} key</button>
+            </template>
+            <template v-else>
+              <label class="provider-key-field"><span class="visually-hidden">{{ entry.label }} API key</span><input v-model="keyDrafts[entry.id]" type="password" autocapitalize="off" autocomplete="off" spellcheck="false" :placeholder="`Paste your ${entry.label} key`" /></label>
+              <button class="primary-button wide" @click="saveProviderKey(entry.id)">Save {{ entry.short }} key</button>
+            </template>
+          </article>
+        </div>
+        <hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all deck freshness</h3><p>Make every card in every deck fresh again. Saved scores and round history stay.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button wide" @click="confirmResetAll">Reset all deck freshness</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
     </template>
 
     <template v-else-if="screen === 'results'">
@@ -516,6 +608,17 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
   </main>
+  <div v-if="infoProvider" class="modal-backdrop" @click.self="closeProviderInfo">
+    <section class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+      <p class="eyebrow">API KEY HELP</p>
+      <h2 id="info-modal-title">Get a {{ infoProvider.label }} key</h2>
+      <ol class="info-steps"><li v-for="(step, index) in infoProvider.keyHelpSteps" :key="index">{{ step }}</li></ol>
+      <div class="modal-actions">
+        <button class="secondary-button" @click="closeProviderInfo">Close</button>
+        <a class="primary-button info-open-link" :href="infoProvider.keyHelpUrl" target="_blank" rel="noopener noreferrer" @click="closeProviderInfo">Open {{ infoProvider.short }} site</a>
+      </div>
+    </section>
+  </div>
   <div v-if="confirmDialog" class="modal-backdrop" @click.self="closeConfirmDialog(false)">
     <section class="confirm-modal" role="dialog" aria-modal="true" aria-labelledby="confirm-modal-title">
       <p class="eyebrow">{{ confirmDialog.tone === 'danger' ? 'PLEASE CONFIRM' : 'QUICK CHECK' }}</p>

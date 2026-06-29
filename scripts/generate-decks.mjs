@@ -6,14 +6,17 @@ import { fileURLToPath } from 'node:url'
 import { parse, stringify } from 'smol-toml'
 import { getSpoilerSeries } from '../src/lib/spoiler-series.js'
 import { coverPromptForDeck, generateCoverWithFallback } from '../src/lib/cover-prompts.js'
+import { getProvider, isProviderId } from '../src/lib/ai-providers.js'
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
+const PROVIDER_ENV = { gemini: 'GEMINI_API_KEY', openai: 'OPENAI_API_KEY' }
 const defaults = {
   input: path.join(root, 'src', 'decks.toml'),
   output: path.join(root, 'src', 'decks'),
   covers: path.join(root, 'public', 'covers'),
-  model: 'gemini-3.5-flash',
-  imageModel: 'gemini-3.1-flash-image',
+  provider: 'gemini',
+  model: null,
+  imageModel: null,
   batchSize: 50,
   defaultCards: 350,
   images: false,
@@ -33,16 +36,17 @@ Options:
   --output <directory>    Generated TOML directory (default: src/decks)
   --covers <directory>    Generated cover directory (default: public/covers)
   --limit <number>        Only process the first N definition lines/decks
-  --images                Generate and save a Gemini cover for each deck (off by default)
-  --dry-run               Print Gemini prompts only; do not request a key, call Gemini, or write files
-  --model <id>            Gemini text model (default: gemini-3.5-flash)
-  --image-model <id>      Gemini image model (default: gemini-3.1-flash-image, Nano Banana 2)
-  --batch-size <number>   Cards requested per Gemini call (default: 50)
+  --provider <id>         AI provider: gemini or openai (default: gemini)
+  --images                Generate and save a cover for each deck (off by default)
+  --dry-run               Print prompts only; do not request a key, call the API, or write files
+  --model <id>            Text model (default: provider's default)
+  --image-model <id>      Image model (default: provider's default)
+  --batch-size <number>   Cards requested per API call (default: 50)
   --default-cards <n>     Used when number_of_cards is blank (default: 350)
   --force                 Regenerate existing TOML and requested cover files
   --help                  Show this help
 
-The tool prompts for the Gemini API key only for real generation. It never writes the key to disk. A failed cover is retried up to four times; copyright rejections switch to a generic non-branded prompt before giving up.
+Set the API key via GEMINI_API_KEY or OPENAI_API_KEY (matching --provider), or enter it when prompted. The key is never written to disk. A failed cover is retried up to four times; copyright rejections switch to a generic non-branded prompt before giving up.
 Existing TOMLs are skipped. With --images, existing covers are skipped; if a TOML exists without a cover, only the cover is generated and linked.`
 }
 
@@ -55,7 +59,7 @@ export function parseArguments(argv) {
     if (arg === '--dry-run') { options.dryRun = true; continue }
     if (arg === '--force') { options.force = true; continue }
     const key = arg.replace(/^--/, '').replace(/-([a-z])/g, (_, letter) => letter.toUpperCase())
-    if (!['input', 'output', 'covers', 'limit', 'model', 'imageModel', 'batchSize', 'defaultCards'].includes(key)) throw new Error(`Unknown option: ${arg}`)
+    if (!['input', 'output', 'covers', 'limit', 'provider', 'model', 'imageModel', 'batchSize', 'defaultCards'].includes(key)) throw new Error(`Unknown option: ${arg}`)
     const value = argv[index + 1]
     if (!value || value.startsWith('--')) throw new Error(`Missing value for ${arg}`)
     index += 1
@@ -67,6 +71,10 @@ export function parseArguments(argv) {
       options[key] = path.resolve(process.cwd(), value)
     } else options[key] = value
   }
+  if (!isProviderId(options.provider)) throw new Error(`--provider must be one of: gemini, openai.`)
+  const meta = getProvider(options.provider)
+  options.model = options.model || meta.textModel
+  options.imageModel = options.imageModel || meta.imageModel
   return options
 }
 
@@ -141,12 +149,15 @@ export function validateCards(payload, deck, knownCards = []) {
   })
 }
 
-function extractText(payload) {
-  const text = (payload.candidates?.[0]?.content?.parts || []).map((part) => part.text).filter(Boolean).join('\n').trim()
-  if (!text) throw new Error('Gemini did not return a text response.')
+const INVALID_JSON_ERROR = 'The AI returned invalid JSON.'
+
+function parseCardJson(text) {
+  if (!text?.trim()) throw new Error('The AI did not return a text response.')
   const json = text.replace(/^```json\s*|\s*```$/g, '')
-  try { return JSON.parse(json) } catch { throw new Error('Gemini returned invalid JSON.') }
+  try { return JSON.parse(json) } catch { throw new Error(INVALID_JSON_ERROR) }
 }
+
+function providerLabel(provider) { return getProvider(provider)?.short || 'Gemini' }
 
 async function geminiRequest(apiKey, model, prompt, image = false) {
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
@@ -159,25 +170,62 @@ async function geminiRequest(apiKey, model, prompt, image = false) {
   return payload
 }
 
+async function openaiRequest(apiKey, model, prompt, image = false) {
+  const url = image ? 'https://api.openai.com/v1/images/generations' : 'https://api.openai.com/v1/chat/completions'
+  const body = image
+    ? { model, prompt, size: '1024x1536' }
+    : { model, messages: [{ role: 'user', content: prompt }], response_format: { type: 'json_object' } }
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify(body)
+  })
+  const payload = await response.json().catch(() => ({}))
+  if (!response.ok) throw new Error(payload.error?.message || `OpenAI request failed (${response.status}).`)
+  return payload
+}
+
+async function requestCardBatch(apiKey, options, prompt) {
+  if ((options.provider || 'gemini') === 'openai') {
+    const payload = await openaiRequest(apiKey, options.model, prompt, false)
+    return parseCardJson(payload.choices?.[0]?.message?.content)
+  }
+  const payload = await geminiRequest(apiKey, options.model, prompt, false)
+  return parseCardJson((payload.candidates?.[0]?.content?.parts || []).map((part) => part.text).filter(Boolean).join('\n'))
+}
+
+async function requestCoverImage(apiKey, options, prompt) {
+  if ((options.provider || 'gemini') === 'openai') {
+    const payload = await openaiRequest(apiKey, options.imageModel, prompt, true)
+    const base64 = payload.data?.[0]?.b64_json
+    if (!base64) throw new Error('OpenAI did not return a cover image.')
+    return { bytes: Buffer.from(base64, 'base64'), extension: 'png' }
+  }
+  const payload = await geminiRequest(apiKey, options.imageModel, prompt, true)
+  const inlineData = (payload.candidates?.[0]?.content?.parts || []).find((part) => part.inlineData)?.inlineData
+  if (!inlineData?.data) throw new Error('Gemini did not return a cover image.')
+  return { bytes: Buffer.from(inlineData.data, 'base64'), extension: inlineData.mimeType === 'image/jpeg' ? 'jpg' : inlineData.mimeType === 'image/webp' ? 'webp' : 'png' }
+}
+
 export async function generateCards(apiKey, deck, options) {
   const saved = []
   while (saved.length < deck.numberOfCards) {
     const wanted = Math.min(options.batchSize, deck.numberOfCards - saved.length)
     const batchStart = saved.length
     let completed = false
+    const label = providerLabel(options.provider)
     for (let attempt = 1; attempt <= 4 && !completed; attempt += 1) {
       const stillNeeded = wanted - (saved.length - batchStart)
-      const payload = await geminiRequest(apiKey, options.model, cardPrompt(deck, stillNeeded, saved))
       let parsed
       try {
-        parsed = extractText(payload)
+        parsed = await requestCardBatch(apiKey, options, cardPrompt(deck, stillNeeded, saved))
       } catch (error) {
-        if (error.message !== 'Gemini returned invalid JSON.') throw error
+        if (error.message !== INVALID_JSON_ERROR) throw error
         if (attempt < 4) {
-          console.warn(`Warning: Gemini returned invalid JSON for “${deck.name}”. Retrying (${attempt}/3)…`)
+          console.warn(`Warning: ${label} returned invalid JSON for “${deck.name}”. Retrying (${attempt}/3)…`)
           continue
         }
-        console.warn(`Warning: Gemini returned invalid JSON three times for “${deck.name}”. Saving available cards and continuing.`)
+        console.warn(`Warning: ${label} returned invalid JSON three times for “${deck.name}”. Saving available cards and continuing.`)
         break
       }
       const newCards = validateCards(parsed, deck, saved)
@@ -185,7 +233,7 @@ export async function generateCards(apiKey, deck, options) {
       if (saved.length - batchStart === wanted) completed = true
     }
     if (!completed) {
-      console.warn(`Warning: Gemini produced ${saved.length} of ${deck.numberOfCards} valid cards for “${deck.name}”. Saving the partial deck and continuing.`)
+      console.warn(`Warning: ${providerLabel(options.provider)} produced ${saved.length} of ${deck.numberOfCards} valid cards for “${deck.name}”. Saving the partial deck and continuing.`)
       break
     }
   }
@@ -194,7 +242,7 @@ export async function generateCards(apiKey, deck, options) {
 
 export async function generateCover(apiKey, deck, options) {
   try {
-    const payload = await generateCoverWithFallback({
+    return await generateCoverWithFallback({
       getPromptInput: () => ({
         name: deck.name,
         category: deck.category,
@@ -202,19 +250,12 @@ export async function generateCover(apiKey, deck, options) {
         difficulty: deck.difficulty,
         specialInstructions: deck.specialInstructions
       }),
-      requestImage: async (prompt) => {
-        const response = await geminiRequest(apiKey, options.imageModel, prompt, true)
-        const inlineData = (response.candidates?.[0]?.content?.parts || []).find((part) => part.inlineData)?.inlineData
-        if (!inlineData?.data) throw new Error('Gemini did not return a cover image.')
-        return response
-      },
+      requestImage: (prompt) => requestCoverImage(apiKey, options, prompt),
       onRetry: ({ attempt, generic, error }) => {
         const reason = generic ? 'Retrying with a generic non-copyrighted cover prompt' : 'Retrying cover generation'
         console.warn(`Warning: Could not generate a cover for “${deck.name}”. ${reason} (${attempt}/3)… ${error.message}`)
       }
     })
-    const inlineData = (payload.candidates?.[0]?.content?.parts || []).find((part) => part.inlineData)?.inlineData
-    return { bytes: Buffer.from(inlineData.data, 'base64'), extension: inlineData.mimeType === 'image/jpeg' ? 'jpg' : inlineData.mimeType === 'image/webp' ? 'webp' : 'png' }
   } catch (error) {
     console.warn(`Warning: Could not generate a cover for “${deck.name}” after retries. Continuing without a cover. ${error.message}`)
     return null
@@ -264,12 +305,23 @@ export async function planDeckWork(deck, options) {
   return { deck, tomlPath, existingDeck: null, coverFileName, generateCards: true, generateImage: options.images && !coverFileName, updateToml: false }
 }
 
-async function promptForApiKey() {
-  if (!process.stdin.isTTY) throw new Error('A Gemini API key must be entered in an interactive terminal.')
+async function resolveApiKey(provider) {
+  const envName = PROVIDER_ENV[provider]
+  const fromEnv = process.env[envName]?.trim()
+  if (fromEnv) {
+    process.stdout.write(`Using ${getProvider(provider).label} key from ${envName}.\n`)
+    return fromEnv
+  }
+  return promptForApiKey(provider)
+}
+
+async function promptForApiKey(provider = 'gemini') {
+  const meta = getProvider(provider)
+  if (!process.stdin.isTTY) throw new Error(`Set ${PROVIDER_ENV[provider]} or enter the ${meta.label} API key in an interactive terminal.`)
   return new Promise((resolve) => {
     const stdin = process.stdin
     let value = ''
-    process.stdout.write('Gemini API key (not saved): ')
+    process.stdout.write(`${meta.label} API key (not saved): `)
     stdin.setRawMode?.(true)
     stdin.resume()
     stdin.setEncoding('utf8')
@@ -291,7 +343,7 @@ async function writeDeck(apiKey, plan, options) {
     process.stdout.write(`Generating ${deck.name} (${deck.numberOfCards} cards)…\n`)
     cards = await generateCards(apiKey, deck, options)
     if (!cards.length) {
-      console.warn(`Warning: Gemini produced no valid cards for “${deck.name}”. Skipping this deck and continuing.`)
+      console.warn(`Warning: ${providerLabel(options.provider)} produced no valid cards for “${deck.name}”. Skipping this deck and continuing.`)
       return
     }
   }
@@ -319,28 +371,30 @@ async function writeDeck(apiKey, plan, options) {
 export async function run(options) {
   const definitions = readDefinitions(await readFile(options.input, 'utf8'), options.defaultCards).slice(0, options.limit ?? undefined)
   const plans = await Promise.all(definitions.map((deck) => planDeckWork(deck, options)))
+  const label = getProvider(options.provider).label
   if (options.dryRun) {
     for (const plan of plans) {
       if (plan.generateCards) process.stdout.write(`\n# ${plan.deck.name} — card prompt\n${cardPrompt(plan.deck, Math.min(options.batchSize, plan.deck.numberOfCards))}\n`)
       if (plan.generateImage) process.stdout.write(`\n# ${plan.deck.name} — cover prompt\n${coverPrompt(plan.deck)}\n`)
-      if (plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — existing cover will be linked locally; no Gemini request needed.\n`)
-      if (!plan.generateCards && !plan.generateImage && !plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — already complete; no Gemini request needed.\n`)
+      if (plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — existing cover will be linked locally; no ${label} request needed.\n`)
+      if (!plan.generateCards && !plan.generateImage && !plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — already complete; no ${label} request needed.\n`)
     }
     return
   }
   const writes = plans.filter((plan) => plan.generateCards || plan.generateImage || plan.updateToml)
-  const geminiWork = writes.filter((plan) => plan.generateCards || plan.generateImage)
+  const apiWork = writes.filter((plan) => plan.generateCards || plan.generateImage)
   if (!writes.length) {
-    console.log('Every requested deck is already complete; no Gemini request needed.')
+    console.log(`Every requested deck is already complete; no ${label} request needed.`)
     return
   }
-  if (!geminiWork.length) {
+  if (!apiWork.length) {
     for (const plan of writes) await writeDeck(null, plan, options)
-    console.log('Linked existing covers; no Gemini request needed.')
+    console.log(`Linked existing covers; no ${label} request needed.`)
     return
   }
-  const apiKey = await promptForApiKey()
-  if (!apiKey) throw new Error('No Gemini API key entered.')
+  process.stdout.write(`Using ${label} (text: ${options.model}${options.images ? `, images: ${options.imageModel}` : ''}).\n`)
+  const apiKey = await resolveApiKey(options.provider)
+  if (!apiKey) throw new Error(`No ${label} API key provided.`)
   for (const plan of writes) await writeDeck(apiKey, plan, options)
 }
 

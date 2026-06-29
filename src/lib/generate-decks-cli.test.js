@@ -67,6 +67,32 @@ describe('deck generation CLI', () => {
     expect(parseArguments(['--limit', '2', '--images', '--dry-run'])).toMatchObject({ limit: 2, images: true, dryRun: true })
   })
 
+  it('defaults models per provider and rejects unknown providers', () => {
+    expect(parseArguments([])).toMatchObject({ provider: 'gemini', model: 'gemini-3.5-flash', imageModel: 'gemini-3.1-flash-image' })
+    expect(parseArguments(['--provider', 'openai'])).toMatchObject({ provider: 'openai', model: 'gpt-5.5', imageModel: 'gpt-image-2' })
+    expect(parseArguments(['--provider', 'openai', '--model', 'gpt-custom'])).toMatchObject({ provider: 'openai', model: 'gpt-custom' })
+    expect(() => parseArguments(['--provider', 'claude'])).toThrow(/provider/)
+  })
+
+  it('generates cards through the OpenAI chat completions endpoint', async () => {
+    const [deck] = readDefinitions(source)
+    deck.numberOfCards = 1
+    globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ choices: [{ message: { content: '{"cards":[{"prompt":"Gaga Pit"}]}' } }] }) })
+    const cards = await generateCards('sk-test', deck, { provider: 'openai', model: 'gpt-4o-mini', batchSize: 1 })
+    expect(cards).toEqual([{ prompt: 'Gaga Pit', earliestInstallment: null }])
+    expect(globalThis.fetch.mock.calls[0][0]).toBe('https://api.openai.com/v1/chat/completions')
+    expect(globalThis.fetch.mock.calls[0][1].headers.Authorization).toBe('Bearer sk-test')
+  })
+
+  it('generates covers through the OpenAI images endpoint', async () => {
+    const [deck] = readDefinitions(source)
+    globalThis.fetch = vi.fn().mockResolvedValue({ ok: true, json: async () => ({ data: [{ b64_json: Buffer.from('img').toString('base64') }] }) })
+    const cover = await generateCover('sk-test', deck, { provider: 'openai', imageModel: 'gpt-image-1' })
+    expect(cover).toMatchObject({ extension: 'png' })
+    expect(cover.bytes.toString()).toBe('img')
+    expect(globalThis.fetch.mock.calls[0][0]).toBe('https://api.openai.com/v1/images/generations')
+  })
+
   it('skips existing TOMLs and only plans a missing requested cover', async () => {
     const [deck] = readDefinitions(source)
     const directory = await mkdtemp(path.join(os.tmpdir(), 'forehead-frenzy-'))

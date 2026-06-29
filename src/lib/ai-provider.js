@@ -2,17 +2,22 @@ import { Capacitor, registerPlugin } from '@capacitor/core'
 import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
 import { coverPromptForDeck, generateCoverWithFallback } from './cover-prompts.js'
+import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './ai-providers.js'
 
-const SecureGemini = registerPlugin('SecureGemini')
-const TEXT_MODEL = 'gemini-3.5-flash'
-const IMAGE_MODEL = 'gemini-3.1-flash-image'
-const WEB_KEY_STORAGE = 'forehead-frenzy.gemini-api-key'
+const SecureAi = registerPlugin('SecureAi')
 
 function isNative() { return Capacitor.isNativePlatform() }
 
-async function webGenerate({ model, prompt, wantsImage }) {
-  const apiKey = localStorage.getItem(WEB_KEY_STORAGE)
-  if (!apiKey) throw new Error('Add a Gemini API key in Settings first.')
+function webKeyStorage(providerId) { return `forehead-frenzy.${providerId}-api-key` }
+
+function readWebKey(providerId) {
+  const key = localStorage.getItem(webKeyStorage(providerId))
+  if (!key) throw new Error(`Add an ${getProvider(providerId)?.label || providerId} API key in Settings first.`)
+  return key
+}
+
+async function geminiWeb({ model, prompt, wantsImage }) {
+  const apiKey = readWebKey('gemini')
   const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', 'x-goog-api-key': apiKey },
@@ -34,42 +39,90 @@ async function webGenerate({ model, prompt, wantsImage }) {
   return { text }
 }
 
-export class GeminiProvider {
-  async hasKey() { return isNative() ? (await SecureGemini.hasApiKey()).hasKey : Boolean(localStorage.getItem(WEB_KEY_STORAGE)) }
-  async saveKey(apiKey) {
-    if (isNative()) return SecureGemini.saveApiKey({ apiKey })
-    localStorage.setItem(WEB_KEY_STORAGE, apiKey)
+async function openaiWeb({ model, prompt, wantsImage }) {
+  const apiKey = readWebKey('openai')
+  const url = wantsImage ? 'https://api.openai.com/v1/images/generations' : 'https://api.openai.com/v1/chat/completions'
+  const body = wantsImage
+    ? { model, prompt, size: '1024x1536' }
+    : { model, messages: [{ role: 'user', content: prompt }], response_format: { type: 'json_object' } }
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${apiKey}` },
+    body: JSON.stringify(body)
+  })
+  const payload = await response.json().catch(() => ({}))
+  if (!response.ok) throw new Error(payload.error?.message || `OpenAI request failed (${response.status}).`)
+  if (wantsImage) {
+    const image = payload.data?.[0]?.b64_json
+    if (!image) throw new Error('OpenAI did not return an image.')
+    return { base64: image, mimeType: 'image/png' }
   }
-  async removeKey() {
-    if (isNative()) return SecureGemini.removeApiKey()
-    localStorage.removeItem(WEB_KEY_STORAGE)
+  const text = payload.choices?.[0]?.message?.content
+  if (!text) throw new Error('OpenAI did not return text.')
+  return { text }
+}
+
+function webGenerate({ providerId, model, prompt, wantsImage }) {
+  if (providerId === 'openai') return openaiWeb({ model, prompt, wantsImage })
+  return geminiWeb({ model, prompt, wantsImage })
+}
+
+async function requestText(providerId, model, prompt) {
+  if (isNative()) return SecureAi.generateText({ provider: providerId, model, prompt })
+  return webGenerate({ providerId, model, prompt, wantsImage: false })
+}
+
+async function requestImage(providerId, model, prompt) {
+  const result = isNative()
+    ? await SecureAi.generateImage({ provider: providerId, model, prompt })
+    : await webGenerate({ providerId, model, prompt, wantsImage: true })
+  if (!result?.base64) throw new Error('The AI provider did not return an image.')
+  return result
+}
+
+export class AiProvider {
+  async hasKey(providerId) {
+    if (isNative()) return (await SecureAi.hasApiKey({ provider: providerId })).hasKey
+    return Boolean(localStorage.getItem(webKeyStorage(providerId)))
   }
 
-  async generateCards({ category, audience, difficulty, count, excludedPrompts, spoilerSeries: requestedSpoilerSeries = '', harryPotterMode = false, specialPromptNote = '' }) {
+  async keyedProviderIds() {
+    const flags = await Promise.all(AI_PROVIDERS.map((provider) => this.hasKey(provider.id)))
+    return AI_PROVIDERS.filter((_, index) => flags[index]).map((provider) => provider.id)
+  }
+
+  async saveKey(providerId, apiKey) {
+    if (isNative()) return SecureAi.saveApiKey({ provider: providerId, apiKey })
+    localStorage.setItem(webKeyStorage(providerId), apiKey)
+  }
+
+  async removeKey(providerId) {
+    if (isNative()) return SecureAi.removeApiKey({ provider: providerId })
+    localStorage.removeItem(webKeyStorage(providerId))
+  }
+
+  async generateCards({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty, count, excludedPrompts, spoilerSeries: requestedSpoilerSeries = '', harryPotterMode = false, specialPromptNote = '' }) {
+    const meta = getProvider(providerId) || getProvider(DEFAULT_PROVIDER_ID)
+    const subject = (name || category).trim()
     const exclusions = excludedPrompts.slice(-300).join(', ')
     const spoilerSeries = getSpoilerSeries(requestedSpoilerSeries || (harryPotterMode ? 'harry_potter' : ''))
     const schema = spoilerSeries ? '{"cards":[{"prompt":"item","earliestInstallment":1}]}' : '{"cards":[{"prompt":"item"}]}'
     const spoilerRule = spoilerSeries ? `For every card, set earliestInstallment to the earliest ${spoilerSeries.label} installment where that person, place, object, creature, spell, or concept is revealed. Use a whole number from 1 through ${spoilerSeries.installments.length}. The order is: ${spoilerSeries.installments.map((installment, index) => `${index + 1}=${installment}`).join('; ')}. ` : ''
-    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for the category "${category}". Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words. No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
-    const { text } = isNative() ? await SecureGemini.generateText({ model: TEXT_MODEL, prompt }) : await webGenerate({ model: TEXT_MODEL, prompt, wantsImage: false })
+    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for a deck titled "${subject}" (category: ${category}). Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words that clearly fits "${subject}". No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
+    const { text } = await requestText(meta.id, meta.textModel, prompt)
     let parsed
-    try { parsed = JSON.parse(text) } catch { throw new Error('Gemini returned an unreadable card batch. Please retry.') }
+    try { parsed = JSON.parse(text) } catch { throw new Error('The AI returned an unreadable card batch. Please retry.') }
     const cards = Array.isArray(parsed.cards) ? parsed.cards : []
     return cards.map((card) => ({ prompt: typeof card === 'string' ? card : card?.prompt, earliestInstallment: spoilerSeries ? Number(card?.earliestInstallment ?? card?.earliestBook) : null }))
       .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!spoilerSeries || Number.isInteger(card.earliestInstallment) && card.earliestInstallment >= 1 && card.earliestInstallment <= spoilerSeries.installments.length))
       .map((card) => ({ ...card, prompt: card.prompt.trim() }))
   }
 
-  async generateCover({ category, audience, difficulty }) {
+  async generateCover({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty }) {
+    const meta = getProvider(providerId) || getProvider(DEFAULT_PROVIDER_ID)
     const result = await generateCoverWithFallback({
-      getPromptInput: () => ({ name: category, category, audience, difficulty }),
-      requestImage: async (prompt) => {
-        const response = isNative()
-          ? await SecureGemini.generateImage({ model: IMAGE_MODEL, prompt })
-          : await webGenerate({ model: IMAGE_MODEL, prompt, wantsImage: true })
-        if (!response?.base64) throw new Error('Gemini did not return an image.')
-        return response
-      }
+      getPromptInput: () => ({ name: (name || category).trim(), category, audience, difficulty }),
+      requestImage: (prompt) => requestImage(meta.id, meta.imageModel, prompt)
     })
     const bytes = Uint8Array.from(atob(result.base64), (char) => char.charCodeAt(0))
     return new Blob([bytes], { type: result.mimeType || 'image/png' })
@@ -99,7 +152,7 @@ export async function generateCustomPack(provider, request, onProgress) {
       prompts.push(...unique.slice(0, stillNeeded))
       if (prompts.length - batchStart === batchTarget) complete = true
     }
-    if (!complete) throw new Error('Gemini could not supply enough unique prompts. Nothing was saved; please retry.')
+    if (!complete) throw new Error('The AI could not supply enough unique prompts. Nothing was saved; please retry.')
     onProgress?.({ batch, totalBatches, cardCount: prompts.length, targetCardCount })
   }
   await coverTask
@@ -107,7 +160,7 @@ export async function generateCustomPack(provider, request, onProgress) {
   return {
     pack: {
       id,
-      title: request.category.trim(),
+      title: (request.name || request.category).trim(),
       category: request.category.trim(),
       audience: request.audience,
       difficulty: request.difficulty,
