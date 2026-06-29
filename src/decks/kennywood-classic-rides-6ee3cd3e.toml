@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Kennywood roller coasters, classic rides, thrill rides, water rides, kiddie rides, retired rides, ride vehicles, and recognizable ride features."
-photo_file_name = "kennywood-classic-rides-6ee3cd3e-cover.jpg"
 spoiler_mode = false
+photo_file_name = "kennywood-classic-rides-6ee3cd3e-cover.jpg"
 
 [[cards]]
 text = "Phantom's Revenge"
@@ -199,9 +199,6 @@ text = "Turtle Tub"
 
 [[cards]]
 text = "Auto Race Car"
-
-[[cards]]
-text = "Racer Split Track"
 
 [[cards]]
 text = "Phantom's Second Drop"

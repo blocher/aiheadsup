@@ -5,8 +5,8 @@ category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Riverhounds history, Highmark Stadium, famous current and past players, coaches, supporters’ groups, soccer terms, Pittsburgh soccer culture, local rivalries, matchday traditions, uniforms, chants, and landmark moments, but should not be mostly player names."
-photo_file_name = "pittsburgh-riverhounds-97815f60-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-riverhounds-97815f60-cover.jpg"
 
 [[cards]]
 text = "Highmark Stadium"
@@ -169,9 +169,6 @@ text = "Justin Evans"
 
 [[cards]]
 text = "Black and Gold Jersey"
-
-[[cards]]
-text = "Smoke Bombs"
 
 [[cards]]
 text = "Hounds Goal Horn"

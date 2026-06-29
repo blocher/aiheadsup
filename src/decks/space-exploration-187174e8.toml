@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include astronauts, rockets, missions, probes, telescopes, space stations, moon landings, Mars exploration, and major space agencies."
-photo_file_name = "space-exploration-187174e8-cover.jpg"
 spoiler_mode = false
+photo_file_name = "space-exploration-187174e8-cover.jpg"
 
 [[cards]]
 text = "Neil Armstrong"

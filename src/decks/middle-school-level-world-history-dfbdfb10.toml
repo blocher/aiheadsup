@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include ancient empires, world religions, medieval history, exploration, revolutions, imperialism, world wars, inventions, trade routes, major leaders, and important cultural developments."
-photo_file_name = "middle-school-level-world-history-dfbdfb10-cover.jpg"
 spoiler_mode = false
+photo_file_name = "middle-school-level-world-history-dfbdfb10-cover.jpg"
 
 [[cards]]
 text = "Julius Caesar"

@@ -1,0 +1,402 @@
+id = "deck_star-wars-general-lore_37ae6799"
+revision = 1
+name = "Star Wars: General Lore"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include general Star Wars people, places, droids, creatures, ships, objects, factions, Force terms, and franchise lore across the included movies and The Mandalorian. Tag every card with its first release."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-general-lore-37ae6799-cover.jpg"
+
+[[cards]]
+text = "Tosche Station"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Grand Moff Tarkin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kessel Run"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lars Homestead"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jawa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tusken Raider"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Greedo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dantooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wampa"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cloud City"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Executor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ugnaught"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lobot"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sarlacc Pit"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Max Rebo Band"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mon Mothma"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Salacious B. Crumb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bib Fortuna"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Death Star II"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Midichlorians"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Watto"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Boonta Eve Classic"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sebulba"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nute Gunray"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Kaminoan"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosian Arena"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dexter Jettster"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Zam Wesell"
+first_revealed_installment = 5
+
+[[cards]]
+text = "General Grievous"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Order 66"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mustafar"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Utapau"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mygeeto"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Maz Kanata"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Starkiller Base"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rathtar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kanjiklub"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Chirrut Îmwe"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Death Troopers"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Canto Bight"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Porg"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Holdo Maneuver"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Enfys Nest"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Babu Frik"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Exegol"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Beskar Armor"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Moff Gideon"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Armorer"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Kuiil"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Nevarro"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Dianoga"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wedge Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Krayt Dragon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Macrobinoculars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dengar"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bossk"
+first_revealed_installment = 2
+
+[[cards]]
+text = "IG-88"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Max Rebo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Midi-chlorians"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Plo Koon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dex's Diner"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kamino Cloning Facility"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kit Fisto"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosis Arena"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lor San Tekka"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Baze Malbus"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Director Krennic"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Qi'ra"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Bo-Katan Kryze"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Aurebesh"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Jedi Holocron"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Dejarik"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Moisture Vaporator"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gaffi Stick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Womp Rat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "T-16 Skyhopper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bacta Tank"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hydrospanner"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tibanna Gas"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Camtono"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ortolan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rancor Keeper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Toydarian"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Kamino Saberdart"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Death Stick"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Nexu"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Varactyl"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Kyber Crystal"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Mythosaur"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Beskar Ingot"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Holocron"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Vibroblade"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Whistling Birds"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Coaxium"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Tipoca City"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Gonk Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kowakian Monkey-Lizard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Beskar"
+first_revealed_installment = 12

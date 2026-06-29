@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should focus on well-known students, teachers, villains, and allies from the books and films."
-photo_file_name = "harry-potter-main-characters-b5acd469-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-main-characters-b5acd469-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"

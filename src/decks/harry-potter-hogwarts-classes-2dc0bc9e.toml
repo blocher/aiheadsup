@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include school subjects, classroom items, professors, spells, creatures, and concepts tied to lessons."
-photo_file_name = "harry-potter-hogwarts-classes-2dc0bc9e-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-hogwarts-classes-2dc0bc9e-cover.jpg"
 
 [[cards]]
 text = "Defense Against Dark Arts"

@@ -1,0 +1,334 @@
+id = "deck_star-wars-episode-iii-revenge-of-the-sith_b9ca95b2"
+revision = 1
+name = "Star Wars Episode III: Revenge of the Sith"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode III: Revenge of the Sith."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-iii-revenge-of-the-sith-b9ca95b2-cover.jpg"
+
+[[cards]]
+text = "General Grievous"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Cody"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mustafar"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Utapau"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Order 66"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Varactyl"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Boga"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tarfful"
+first_revealed_installment = 6
+
+[[cards]]
+text = "MagnaGuard"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Buzz Droids"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Invisible Hand"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Darth Plagueis"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Polis Massa"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Gree"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tion Medon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Felucia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mygeeto"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Cato Neimoidia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Saleucami"
+first_revealed_installment = 6
+
+[[cards]]
+text = "ARC-170 Starfighter"
+first_revealed_installment = 6
+
+[[cards]]
+text = "V-wing Starfighter"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Eta-2 Jedi Interceptor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Wheel Bike"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Wookiee Catamaran"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Soulless One"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Pau'an"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Utai"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Clone Turbo Tank"
+first_revealed_installment = 6
+
+[[cards]]
+text = "AT-AP Walker"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Coruscant Opera House"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mustafar Mining Complex"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jedi Temple Beacon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Clone Shock Trooper"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Clone Airborne Trooper"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Cin Drallig"
+first_revealed_installment = 6
+
+[[cards]]
+text = "J-type Star Skiff"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Battle of Coruscant"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mustafar Duel"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Anakin's Betrayal"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Palpatine's Arrest"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Birth of Leia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Birth of Luke"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Darth Vader's Mask"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Commander Neyo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Clone Commander Appo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Death of Count Dooku"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Declaration of the Empire"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Yoda's Escape Pod"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Padmé's Funeral"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Obi-Wan's High Ground"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Opera House"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Grievous's Wheel Bike"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Shock Troopers"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jedi Purge"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Anakin Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Padmé Amidala"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mace Windu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Darth Sidious"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Count Dooku"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Bail Organa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Darth Vader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tantive IV"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kashyyyk"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jedi Temple"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Senate Chamber"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Clone Troopers"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alderaan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Naboo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tatooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ki-Adi-Mundi"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Aayla Secura"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Plo Koon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Kit Fisto"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The High Ground"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Galactic Opera House"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jedi Interceptor"
+first_revealed_installment = 6

@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include chips, crackers, popcorn, pretzels, dips, granola bars, fruit snacks, party snacks, lunchbox snacks, and movie-night foods."
-photo_file_name = "snack-foods-8ea5316f-cover.jpg"
 spoiler_mode = false
+photo_file_name = "snack-foods-8ea5316f-cover.jpg"
 
 [[cards]]
 text = "Potato Chips"
@@ -232,9 +232,6 @@ text = "Fruit Roll-Ups"
 
 [[cards]]
 text = "Cheese Puffs"
-
-[[cards]]
-text = "Rice Krispies Treats"
 
 [[cards]]
 text = "Chocolate Granola Bar"

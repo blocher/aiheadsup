@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include planets, dwarf planets, moons, rings, spacecraft, solar system regions, famous astronomy terms, and basic facts about each world."
-photo_file_name = "planets-and-dwarf-planets-3600a4c0-cover.jpg"
 spoiler_mode = false
+photo_file_name = "planets-and-dwarf-planets-3600a4c0-cover.jpg"
 
 [[cards]]
 text = "Mercury"

@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include common animals, animal groups, habitats, adaptations, food chains, migration, camouflage, and family-friendly nature terms."
-photo_file_name = "animals-and-habitats-bd6482af-cover.jpg"
 spoiler_mode = false
+photo_file_name = "animals-and-habitats-bd6482af-cover.jpg"
 
 [[cards]]
 text = "Lion"

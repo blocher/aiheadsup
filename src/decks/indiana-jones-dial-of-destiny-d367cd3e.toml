@@ -1,0 +1,330 @@
+id = "deck_indiana-jones-dial-of-destiny_d367cd3e"
+revision = 1
+name = "Indiana Jones: Dial of Destiny"
+category = "Indiana Jones"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Dial of Destiny."
+spoiler_mode = true
+spoiler_series = "indiana_jones"
+photo_file_name = "indiana-jones-dial-of-destiny-d367cd3e-cover.jpg"
+
+[[cards]]
+text = "Indiana Jones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Helena Shaw"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jürgen Voller"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Teddy Kumar"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sallah"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Marion Ravenwood"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Basil Shaw"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Renaldo"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Agent Mason"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Klaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hauke"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mutt Williams"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dr. Schmidt"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dial of Destiny"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Antikythera Mechanism"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lance of Longinus"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Grafikos Tablet"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Phony Lance"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Retirement Watch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Fedora Hat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bullwhip"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tuk-Tuk"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Heinkel Bomber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sallah's Taxi"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Renaldo's Boat"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Roman Trireme"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tuk-Tuk Chase"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Subway Horse Ride"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Nazi Loot Train"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Deep Sea Dive"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Siege of Syracuse"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Apollo 11 Parade"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tangier Auction"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Castle Plassenburg"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ear of Dionysius"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Tomb"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hunter College"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hotel L'Atlantique"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Syracuse Harbor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Time Fissure"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Moray Eels"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Centipedes"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wombat"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Professor Jones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Punching a Nazi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Polybius Square"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Codex"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Nazi Gold"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Leather Jacket"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Teddy Rahaim"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Antikythera"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Spear of Longinus"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Heinkel He 111"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Subway Horse Chase"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alps Train Chase"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Wristwatch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tangier Hotel"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Phanes Shipwreck"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Eels"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Time Portal"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Polybius Cipher"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Continental Drift"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Greek Trireme"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Roman Centurion"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Indy's Fedora"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nazi Train"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Graf von Schwerin"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dr. Jones' Apartment"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Pliny the Elder"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sicily"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tangier"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Dial of Destiny"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Professor of Archaeology"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nazi Uniform"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Syracuse"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Deep Sea Eels"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Dial"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Graphikos"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alps Train"
+first_revealed_installment = 5

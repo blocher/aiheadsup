@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include scientists, inventors, discoveries, theories, experiments, Nobel Prize ideas, scientific instruments, and major breakthroughs across fields."
-photo_file_name = "famous-scientists-and-discoveries-9bc09abd-cover.jpg"
 spoiler_mode = false
+photo_file_name = "famous-scientists-and-discoveries-9bc09abd-cover.jpg"
 
 [[cards]]
 text = "Marie Curie"
@@ -196,9 +196,6 @@ text = "Radioactive Decay"
 
 [[cards]]
 text = "Electron Microscope"
-
-[[cards]]
-text = "Schrodinger's Cat"
 
 [[cards]]
 text = "Pavlov's Dog"

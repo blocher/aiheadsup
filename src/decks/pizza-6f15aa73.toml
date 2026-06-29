@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include pizza toppings, styles, sauces, cheeses, crusts, ovens, restaurants, side dishes, pizza tools, and common pizza-ordering phrases."
-photo_file_name = "pizza-6f15aa73-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pizza-6f15aa73-cover.jpg"
 
 [[cards]]
 text = "Pepperoni"

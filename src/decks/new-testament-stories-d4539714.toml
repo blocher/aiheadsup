@@ -1,0 +1,264 @@
+id = "deck_new-testament-stories_d4539714"
+revision = 1
+name = "New Testament Stories"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, events, parables, miracles, objects, early Church figures, and memorable stories from the New Testament."
+spoiler_mode = false
+photo_file_name = "new-testament-stories-d4539714-cover.jpg"
+
+[[cards]]
+text = "Jesus of Nazareth"
+
+[[cards]]
+text = "John the Baptist"
+
+[[cards]]
+text = "Mary Magdalene"
+
+[[cards]]
+text = "The Good Samaritan"
+
+[[cards]]
+text = "The Prodigal Son"
+
+[[cards]]
+text = "Zacchaeus"
+
+[[cards]]
+text = "Lazarus of Bethany"
+
+[[cards]]
+text = "Judas Iscariot"
+
+[[cards]]
+text = "Pontius Pilate"
+
+[[cards]]
+text = "Simon Peter"
+
+[[cards]]
+text = "The Apostle Paul"
+
+[[cards]]
+text = "Stephen the Martyr"
+
+[[cards]]
+text = "Joseph of Arimathea"
+
+[[cards]]
+text = "Nicodemus"
+
+[[cards]]
+text = "Doubting Thomas"
+
+[[cards]]
+text = "Bethlehem"
+
+[[cards]]
+text = "Nazareth"
+
+[[cards]]
+text = "Sea of Galilee"
+
+[[cards]]
+text = "River Jordan"
+
+[[cards]]
+text = "Mount of Olives"
+
+[[cards]]
+text = "Garden of Gethsemane"
+
+[[cards]]
+text = "Golgotha"
+
+[[cards]]
+text = "Road to Damascus"
+
+[[cards]]
+text = "Walking on Water"
+
+[[cards]]
+text = "Feeding the Five Thousand"
+
+[[cards]]
+text = "Turning Water Into Wine"
+
+[[cards]]
+text = "The Resurrection"
+
+[[cards]]
+text = "The Ascension"
+
+[[cards]]
+text = "Day of Pentecost"
+
+[[cards]]
+text = "The Last Supper"
+
+[[cards]]
+text = "Sermon on the Mount"
+
+[[cards]]
+text = "Parable of the Sower"
+
+[[cards]]
+text = "Parable of the Talents"
+
+[[cards]]
+text = "The Lost Sheep"
+
+[[cards]]
+text = "The Nativity"
+
+[[cards]]
+text = "Healing the Blind Man"
+
+[[cards]]
+text = "The Widow's Mite"
+
+[[cards]]
+text = "Crown of Thorns"
+
+[[cards]]
+text = "Star of Bethlehem"
+
+[[cards]]
+text = "Thirty Pieces of Silver"
+
+[[cards]]
+text = "The Lord's Prayer"
+
+[[cards]]
+text = "Armor of God"
+
+[[cards]]
+text = "The Golden Rule"
+
+[[cards]]
+text = "Centurion's Servant"
+
+[[cards]]
+text = "Ananias and Sapphira"
+
+[[cards]]
+text = "The Apostle John"
+
+[[cards]]
+text = "Herod the Great"
+
+[[cards]]
+text = "Silas"
+
+[[cards]]
+text = "Mary and Martha"
+
+[[cards]]
+text = "Timothy"
+
+[[cards]]
+text = "Jesus Christ"
+
+[[cards]]
+text = "Apostle Peter"
+
+[[cards]]
+text = "Apostle Paul"
+
+[[cards]]
+text = "Barnabas"
+
+[[cards]]
+text = "Douting Thomas"
+
+[[cards]]
+text = "Jerusalem"
+
+[[cards]]
+text = "Island of Patmos"
+
+[[cards]]
+text = "The Crucifixion"
+
+[[cards]]
+text = "Water Into Wine"
+
+[[cards]]
+text = "The Transfiguration"
+
+[[cards]]
+text = "The Ten Virgins"
+
+[[cards]]
+text = "Alabaster Jar"
+
+[[cards]]
+text = "Fisherman's Net"
+
+[[cards]]
+text = "The Roman Cross"
+
+[[cards]]
+text = "Swaddling Clothes"
+
+[[cards]]
+text = "Book of Revelation"
+
+[[cards]]
+text = "The Road to Damascus"
+
+[[cards]]
+text = "The Wise Men"
+
+[[cards]]
+text = "The Good Shepherd"
+
+[[cards]]
+text = "Baptism of Jesus"
+
+[[cards]]
+text = "Raising of Lazarus"
+
+[[cards]]
+text = "Pearl of Great Price"
+
+[[cards]]
+text = "The Armor of God"
+
+[[cards]]
+text = "Calvary"
+
+[[cards]]
+text = "House on the Rock"
+
+[[cards]]
+text = "Road to Emmaus"
+
+[[cards]]
+text = "Zacchaeus the Tax Collector"
+
+[[cards]]
+text = "The Isle of Patmos"
+
+[[cards]]
+text = "Paul the Apostle"
+
+[[cards]]
+text = "The Star of Bethlehem"
+
+[[cards]]
+text = "The Mount of Olives"
+
+[[cards]]
+text = "The Wedding at Cana"
+
+[[cards]]
+text = "The Garden of Gethsemane"
+
+[[cards]]
+text = "The Sea of Galilee"
+
+[[cards]]
+text = "The Road to Emmaus"

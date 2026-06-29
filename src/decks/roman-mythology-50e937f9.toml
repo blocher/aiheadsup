@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Roman gods, heroes, founding myths, legendary kings, temples, festivals, mythological places, household gods, and Roman versions of Greek figures."
-photo_file_name = "roman-mythology-50e937f9-cover.jpg"
 spoiler_mode = false
+photo_file_name = "roman-mythology-50e937f9-cover.jpg"
 
 [[cards]]
 text = "Jupiter"

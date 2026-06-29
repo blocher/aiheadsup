@@ -1,0 +1,261 @@
+id = "deck_williamsburg-va_f22e9569"
+revision = 1
+name = "Williamsburg, VA"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Colonial Williamsburg, William & Mary, historic buildings, landmarks, neighborhoods, museums, Revolutionary-era history, local traditions, nearby waterways, and family-friendly destinations."
+spoiler_mode = false
+photo_file_name = "williamsburg-va-f22e9569-cover.jpg"
+
+[[cards]]
+text = "Governor's Palace"
+
+[[cards]]
+text = "Colonial Williamsburg"
+
+[[cards]]
+text = "William and Mary"
+
+[[cards]]
+text = "Duke of Gloucester Street"
+
+[[cards]]
+text = "Busch Gardens"
+
+[[cards]]
+text = "Water Country USA"
+
+[[cards]]
+text = "Jamestown Settlement"
+
+[[cards]]
+text = "Yorktown Battlefield"
+
+[[cards]]
+text = "The Wren Building"
+
+[[cards]]
+text = "Bruton Parish Church"
+
+[[cards]]
+text = "Sunken Garden"
+
+[[cards]]
+text = "Merchants Square"
+
+[[cards]]
+text = "Fife and Drum Corps"
+
+[[cards]]
+text = "Raleigh Tavern"
+
+[[cards]]
+text = "Peyton Randolph House"
+
+[[cards]]
+text = "James River"
+
+[[cards]]
+text = "York River"
+
+[[cards]]
+text = "Colonial Parkway"
+
+[[cards]]
+text = "Grand Illumination"
+
+[[cards]]
+text = "Great Wolf Lodge"
+
+[[cards]]
+text = "George Wythe House"
+
+[[cards]]
+text = "The Public Gaol"
+
+[[cards]]
+text = "Tri-Corner Hat"
+
+[[cards]]
+text = "Chowning's Tavern"
+
+[[cards]]
+text = "King's Arms Tavern"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Patrick Henry"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Lake Matoaka"
+
+[[cards]]
+text = "Jamestown Ferry"
+
+[[cards]]
+text = "Lord Botetourt Statue"
+
+[[cards]]
+text = "Crimson Dell"
+
+[[cards]]
+text = "Muscarelle Museum of Art"
+
+[[cards]]
+text = "Abby Aldrich Rockefeller Museum"
+
+[[cards]]
+text = "DeWitt Wallace Arts Museum"
+
+[[cards]]
+text = "Historic Jamestowne"
+
+[[cards]]
+text = "Ghost Tour"
+
+[[cards]]
+text = "Carriage Ride"
+
+[[cards]]
+text = "Williamsburg Winery"
+
+[[cards]]
+text = "Capitol Building"
+
+[[cards]]
+text = "The Wigmaker"
+
+[[cards]]
+text = "The Blacksmith"
+
+[[cards]]
+text = "The Cooper"
+
+[[cards]]
+text = "Great Hopes Plantation"
+
+[[cards]]
+text = "Colonial Militia"
+
+[[cards]]
+text = "Kimball Theatre"
+
+[[cards]]
+text = "Williamsburg Premium Outlets"
+
+[[cards]]
+text = "College Creek"
+
+[[cards]]
+text = "Shields Tavern"
+
+[[cards]]
+text = "Liberty's Ice Pavilion"
+
+[[cards]]
+text = "Wren Building"
+
+[[cards]]
+text = "Crim Dell Bridge"
+
+[[cards]]
+text = "Tricorn Hat"
+
+[[cards]]
+text = "Stocks and Pillory"
+
+[[cards]]
+text = "Town Crier"
+
+[[cards]]
+text = "Wigmaker"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Colonial Capitol Building"
+
+[[cards]]
+text = "William & Mary Griffin"
+
+[[cards]]
+text = "Williamsburg Pottery"
+
+[[cards]]
+text = "Musket Demonstration"
+
+[[cards]]
+text = "Cobblestone Street"
+
+[[cards]]
+text = "Butter Churn"
+
+[[cards]]
+text = "Redcoat"
+
+[[cards]]
+text = "Cooper Shop"
+
+[[cards]]
+text = "Milliner"
+
+[[cards]]
+text = "Silversmith"
+
+[[cards]]
+text = "Waller Mill Park"
+
+[[cards]]
+text = "Freedom Park"
+
+[[cards]]
+text = "Sir Christopher Wren"
+
+[[cards]]
+text = "Colonial Garden"
+
+[[cards]]
+text = "Shoemaker"
+
+[[cards]]
+text = "Brickmaker"
+
+[[cards]]
+text = "Christiana Campbell's Tavern"
+
+[[cards]]
+text = "Colonial Capitol"
+
+[[cards]]
+text = "Williamsburg Inn"
+
+[[cards]]
+text = "The Griffin"
+
+[[cards]]
+text = "Tri-Cornered Hat"
+
+[[cards]]
+text = "Blacksmith Shop"
+
+[[cards]]
+text = "DeWitt Wallace Museum"
+
+[[cards]]
+text = "Merchant's Square"
+
+[[cards]]
+text = "The Williamsburg Griffin"
+
+[[cards]]
+text = "Rockefeller Folk Art Museum"
+
+[[cards]]
+text = "Horse-Drawn Carriage"

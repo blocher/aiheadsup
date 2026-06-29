@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include buffet foods, sushi items, hibachi foods, seafood, desserts, sauces, restaurant experiences, Pittsburgh-area references, and family-friendly dining terms associated with Hokkaido."
-photo_file_name = "hokkaido-pittsburgh-c9122258-cover.jpg"
 spoiler_mode = false
+photo_file_name = "hokkaido-pittsburgh-c9122258-cover.jpg"
 
 [[cards]]
 text = "Crab Legs"
@@ -21,10 +21,7 @@ text = "Hibachi Grill"
 text = "Yum Yum Sauce"
 
 [[cards]]
-text = "Chocolate Fountain"
-
-[[cards]]
-text = "McKnight Road"
+text = "Mongolian Beef"
 
 [[cards]]
 text = "All You Can Eat"
@@ -126,9 +123,6 @@ text = "Chopsticks"
 text = "Buffet Plate"
 
 [[cards]]
-text = "North Hills"
-
-[[cards]]
 text = "Rainbow Roll"
 
 [[cards]]
@@ -189,7 +183,7 @@ text = "Fried Calamari"
 text = "Egg Roll"
 
 [[cards]]
-text = "Soft Serve Machine"
+text = "Chocolate Fountain"
 
 [[cards]]
 text = "Crab Rangoon"
@@ -255,7 +249,7 @@ text = "Miso Soup"
 text = "Mochi Ice Cream"
 
 [[cards]]
-text = "West Mifflin"
+text = "Chicken Feet"
 
 [[cards]]
 text = "Peel and Eat Shrimp"

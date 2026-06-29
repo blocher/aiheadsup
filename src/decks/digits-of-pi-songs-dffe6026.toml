@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include items, people, foods, objects, places, jokes, visual gags, lyrics references, and concepts featured in ASAP Science's 100, 200, 300, and 400 Digits of Pi songs, not the digits themselves."
-photo_file_name = "digits-of-pi-songs-dffe6026-cover.jpg"
 spoiler_mode = false
+photo_file_name = "digits-of-pi-songs-dffe6026-cover.jpg"
 
 [[cards]]
 text = "Apple Pie"

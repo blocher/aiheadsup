@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include recognizable objects, artifacts, school supplies, and enchanted items."
-photo_file_name = "harry-potter-magical-objects-df99c1c9-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-magical-objects-df99c1c9-cover.jpg"
 
 [[cards]]
 text = "Golden Snitch"
@@ -223,10 +223,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Instant Darkness Powder"
-first_revealed_installment = 6
-
-[[cards]]
-text = "Decoy Detonator"
 first_revealed_installment = 6
 
 [[cards]]

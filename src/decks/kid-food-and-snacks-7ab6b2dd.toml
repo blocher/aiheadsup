@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include lunchbox foods, snacks, desserts, drinks, breakfast foods, restaurant kids’ meals, picnic foods, and common food words kids know."
-photo_file_name = "kid-food-and-snacks-7ab6b2dd-cover.jpg"
 spoiler_mode = false
+photo_file_name = "kid-food-and-snacks-7ab6b2dd-cover.jpg"
 
 [[cards]]
 text = "Juice Box"
@@ -181,9 +181,6 @@ text = "Popcorn"
 
 [[cards]]
 text = "Oatmeal"
-
-[[cards]]
-text = "Watermelon Slice"
 
 [[cards]]
 text = "Strawberry Yogurt"

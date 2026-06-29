@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include lesser-known names, events, magical theory, family connections, historical references, and obscure book details."
-photo_file_name = "harry-potter-deep-cut-lore-ec9aef21-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-deep-cut-lore-ec9aef21-cover.jpg"
 
 [[cards]]
 text = "Great-Uncle Algie"

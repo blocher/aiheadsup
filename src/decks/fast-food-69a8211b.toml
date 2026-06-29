@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include burgers, fries, nuggets, milkshakes, sauces, drive-thru items, popular chains, kids’ meals, mascots, and common fast-food phrases."
-photo_file_name = "fast-food-69a8211b-cover.jpg"
 spoiler_mode = false
+photo_file_name = "fast-food-69a8211b-cover.jpg"
 
 [[cards]]
 text = "Cheeseburger"

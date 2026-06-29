@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include cakes, cookies, ice cream, candy, chocolate, pies, pastries, toppings, dessert shops, and sweet treats kids and adults would know."
-photo_file_name = "desserts-and-candy-ef83a356-cover.jpg"
 spoiler_mode = false
+photo_file_name = "desserts-and-candy-ef83a356-cover.jpg"
 
 [[cards]]
 text = "Chocolate Chip Cookie"
@@ -190,9 +190,6 @@ text = "Bakery"
 
 [[cards]]
 text = "Candy Shop"
-
-[[cards]]
-text = "Crepes"
 
 [[cards]]
 text = "Vanilla Ice Cream"

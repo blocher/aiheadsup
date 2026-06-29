@@ -5,8 +5,8 @@ category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Pirates history, ballparks, uniforms, mascots, famous current and past players, World Series moments, nicknames, fan traditions, baseball terms, rivalries, Pittsburgh baseball culture, and famous plays, but should not be mostly player names."
-photo_file_name = "pittsburgh-pirates-e56fa43a-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-pirates-e56fa43a-cover.jpg"
 
 [[cards]]
 text = "PNC Park"

@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include boroughs, neighborhoods, landmarks, subway lines, museums, foods, sports teams, famous streets, historical events, and cultural institutions."
-photo_file_name = "new-york-city-684a3c86-cover.jpg"
 spoiler_mode = false
+photo_file_name = "new-york-city-684a3c86-cover.jpg"
 
 [[cards]]
 text = "Statue of Liberty"

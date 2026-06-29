@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include deeper U.S. history terms, court cases, political parties, reform movements, economic changes, foreign policy, constitutional amendments, wars, treaties, legislation, cultural shifts, and major historical debates."
-photo_file_name = "high-school-level-u-s-history-4cb89a8f-cover.jpg"
 spoiler_mode = false
+photo_file_name = "high-school-level-u-s-history-4cb89a8f-cover.jpg"
 
 [[cards]]
 text = "Marbury v. Madison"

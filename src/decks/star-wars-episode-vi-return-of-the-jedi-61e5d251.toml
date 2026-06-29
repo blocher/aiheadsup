@@ -1,0 +1,334 @@
+id = "deck_star-wars-episode-vi-return-of-the-jedi_61e5d251"
+revision = 1
+name = "Star Wars Episode VI: Return of the Jedi"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode VI: Return of the Jedi."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-vi-return-of-the-jedi-61e5d251-cover.jpg"
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Princess Leia"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Darth Vader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wedge Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lando Calrissian"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Boba Fett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Emperor Palpatine"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Super Star Destroyer"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Jabba the Hutt"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ewoks"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wicket"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rancor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sarlacc Pit"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Speeder Bike"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Biker Scout"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Endor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Death Star II"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Admiral Ackbar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mon Mothma"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Nien Nunb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bib Fortuna"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Salacious B. Crumb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gamorrean Guard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sy Snootles"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Max Rebo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Boushh"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shield Generator"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A-wing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "B-wing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "TIE Interceptor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Chief Chirpa"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Logray"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Luke's Green Lightsaber"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Desert Skiff"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Jabba's Sail Barge"
+first_revealed_installment = 3
+
+[[cards]]
+text = "EV-9D9"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rancor Keeper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Yub Nub"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Oola"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Emperor's Royal Guard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Moff Jerjerrod"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mon Calamari Cruiser"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Jabba's Palace"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Sarlacc"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wicket the Ewok"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ewok Village"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Scout Trooper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Second Death Star"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Max Rebo Band"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rancor Monster"
+first_revealed_installment = 3
+
+[[cards]]
+text = "General Madine"
+first_revealed_installment = 3
+
+[[cards]]
+text = "B-wing Starfighter"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Endor Bunker"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Emperor's Throne Room"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ewok Glider"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Malakili"
+first_revealed_installment = 3
+
+[[cards]]
+text = "8D8"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Paploo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Teebo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Imperial Shuttle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rebel Briefing Room"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Yoda's Passing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Anakin's Ghost"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ewok Celebration"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Forest Moon of Endor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A-wing Starfighter"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lando in Disguise"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Leia's Boushh Disguise"
+first_revealed_installment = 3
+
+[[cards]]
+text = "C-3PO the Golden God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Carbonite Melting Chamber"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gray Squadron"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Green Squadron"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sanctuary Moon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Skiff Guard"
+first_revealed_installment = 3

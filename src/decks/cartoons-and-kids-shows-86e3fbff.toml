@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include family-friendly characters, shows, settings, catchphrases, objects, songs, and concepts from preschool and elementary-age entertainment."
-photo_file_name = "cartoons-and-kids-shows-86e3fbff-cover.jpg"
 spoiler_mode = false
+photo_file_name = "cartoons-and-kids-shows-86e3fbff-cover.jpg"
 
 [[cards]]
 text = "SpongeBob SquarePants"

@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include weather events, clouds, storms, seasons, climate terms, natural disasters, instruments, and safety-related science concepts."
-photo_file_name = "weather-and-natural-disasters-ef21bc1a-cover.jpg"
 spoiler_mode = false
+photo_file_name = "weather-and-natural-disasters-ef21bc1a-cover.jpg"
 
 [[cards]]
 text = "Hurricane"

@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include dinosaurs, prehistoric animals, fossils, paleontology tools, geologic eras, extinction events, museums, and family-friendly dinosaur facts."
-photo_file_name = "dinosaurs-and-fossils-49ca9e58-cover.jpg"
 spoiler_mode = false
+photo_file_name = "dinosaurs-and-fossils-49ca9e58-cover.jpg"
 
 [[cards]]
 text = "Tyrannosaurus Rex"

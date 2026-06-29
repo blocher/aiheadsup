@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include motion, gravity, energy, electricity, magnetism, light, sound, simple machines, famous physicists, and everyday physics examples."
-photo_file_name = "physics-and-forces-5a21bc01-cover.jpg"
 spoiler_mode = false
+photo_file_name = "physics-and-forces-5a21bc01-cover.jpg"
 
 [[cards]]
 text = "Gravity"

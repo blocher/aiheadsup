@@ -5,8 +5,8 @@ category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, mysteries, disguises, clues, places, Victorian-era objects, Holmes family references, reform politics, sequel references, and memorable moments from the Enola Holmes movies."
-photo_file_name = "enola-holmes-01bcfd99-cover.jpg"
 spoiler_mode = false
+photo_file_name = "enola-holmes-01bcfd99-cover.jpg"
 
 [[cards]]
 text = "Enola Holmes"
@@ -184,9 +184,6 @@ text = "Match Girls' Strike"
 
 [[cards]]
 text = "Flower Language"
-
-[[cards]]
-text = "Chrysanthemum"
 
 [[cards]]
 text = "Newspaper Classifieds"

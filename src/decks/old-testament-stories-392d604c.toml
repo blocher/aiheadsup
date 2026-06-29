@@ -1,0 +1,255 @@
+id = "deck_old-testament-stories_392d604c"
+revision = 1
+name = "Old Testament Stories"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, events, objects, miracles, prophets, rulers, and memorable stories from the Old Testament."
+spoiler_mode = false
+photo_file_name = "old-testament-stories-392d604c-cover.jpg"
+
+[[cards]]
+text = "Noah's Ark"
+
+[[cards]]
+text = "Garden of Eden"
+
+[[cards]]
+text = "David and Goliath"
+
+[[cards]]
+text = "The Ten Commandments"
+
+[[cards]]
+text = "Parting the Red Sea"
+
+[[cards]]
+text = "Tower of Babel"
+
+[[cards]]
+text = "Joseph's Coat"
+
+[[cards]]
+text = "Jonah and the Whale"
+
+[[cards]]
+text = "Daniel and the Lions"
+
+[[cards]]
+text = "Samson and Delilah"
+
+[[cards]]
+text = "Queen Esther"
+
+[[cards]]
+text = "Jacob's Ladder"
+
+[[cards]]
+text = "Mount Sinai"
+
+[[cards]]
+text = "Burning Bush"
+
+[[cards]]
+text = "Manna from Heaven"
+
+[[cards]]
+text = "Walls of Jericho"
+
+[[cards]]
+text = "Ark of the Covenant"
+
+[[cards]]
+text = "Pillar of Salt"
+
+[[cards]]
+text = "King Solomon"
+
+[[cards]]
+text = "Elijah's Chariot"
+
+[[cards]]
+text = "Ruth and Naomi"
+
+[[cards]]
+text = "Cain and Abel"
+
+[[cards]]
+text = "Esau's Birthright"
+
+[[cards]]
+text = "The Golden Calf"
+
+[[cards]]
+text = "Fiery Furnace"
+
+[[cards]]
+text = "Aaron's Rod"
+
+[[cards]]
+text = "Promised Land"
+
+[[cards]]
+text = "Gideon's Fleece"
+
+[[cards]]
+text = "Queen of Sheba"
+
+[[cards]]
+text = "Mount Ararat"
+
+[[cards]]
+text = "Plague of Locusts"
+
+[[cards]]
+text = "Ezekiel's Dry Bones"
+
+[[cards]]
+text = "Rainbow Covenant"
+
+[[cards]]
+text = "Shadrach, Meshach, and Abednego"
+
+[[cards]]
+text = "Lot's Wife"
+
+[[cards]]
+text = "Passover Lamb"
+
+[[cards]]
+text = "Balaam's Talking Donkey"
+
+[[cards]]
+text = "Tree of Knowledge"
+
+[[cards]]
+text = "Abraham and Isaac"
+
+[[cards]]
+text = "King Saul"
+
+[[cards]]
+text = "Samuel's Calling"
+
+[[cards]]
+text = "Nehemiah's Wall"
+
+[[cards]]
+text = "Deborah the Judge"
+
+[[cards]]
+text = "Job's Trials"
+
+[[cards]]
+text = "Jacob and Esau"
+
+[[cards]]
+text = "Rachel and Leah"
+
+[[cards]]
+text = "Moses in the Basket"
+
+[[cards]]
+text = "Miriam's Dance"
+
+[[cards]]
+text = "Rahab's Scarlet Cord"
+
+[[cards]]
+text = "King David"
+
+[[cards]]
+text = "Moses and Pharaoh"
+
+[[cards]]
+text = "Ten Commandments"
+
+[[cards]]
+text = "Coat of Many Colors"
+
+[[cards]]
+text = "Golden Calf"
+
+[[cards]]
+text = "Sodom and Gomorrah"
+
+[[cards]]
+text = "Elijah's Chariot of Fire"
+
+[[cards]]
+text = "The Plagues of Egypt"
+
+[[cards]]
+text = "Noah's Dove"
+
+[[cards]]
+text = "Samuel the Prophet"
+
+[[cards]]
+text = "Elijah and Elisha"
+
+[[cards]]
+text = "King Nebuchadnezzar"
+
+[[cards]]
+text = "Job's Patience"
+
+[[cards]]
+text = "Valley of Dry Bones"
+
+[[cards]]
+text = "Balaam's Donkey"
+
+[[cards]]
+text = "Sarah's Laughter"
+
+[[cards]]
+text = "Absalom's Hair"
+
+[[cards]]
+text = "The Promised Land"
+
+[[cards]]
+text = "Crossing the Jordan"
+
+[[cards]]
+text = "Miriam's Tambourine"
+
+[[cards]]
+text = "The Tree of Knowledge"
+
+[[cards]]
+text = "Moses"
+
+[[cards]]
+text = "The Red Sea"
+
+[[cards]]
+text = "Adam and Eve"
+
+[[cards]]
+text = "Chariot of Fire"
+
+[[cards]]
+text = "Plagues of Egypt"
+
+[[cards]]
+text = "The Fiery Furnace"
+
+[[cards]]
+text = "Samson's Hair"
+
+[[cards]]
+text = "The Burning Bush"
+
+[[cards]]
+text = "The Ten Plagues"
+
+[[cards]]
+text = "The Rainbow Covenant"
+
+[[cards]]
+text = "The Queen of Sheba"
+
+[[cards]]
+text = "The Garden of Eden"

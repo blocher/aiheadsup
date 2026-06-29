@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include famous Americans, presidents, founding events, national symbols, holidays, explorers, inventors, wars, documents, places, and simple civic concepts appropriate for elementary school."
-photo_file_name = "elementary-school-level-u-s-history-9f176b66-cover.jpg"
 spoiler_mode = false
+photo_file_name = "elementary-school-level-u-s-history-9f176b66-cover.jpg"
 
 [[cards]]
 text = "George Washington"

@@ -5,8 +5,8 @@ category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include fan chants, towels, mascots, stadium foods, tailgating, uniforms, songs, local sports phrases, playoff rituals, colors, bridges, rivers, neighborhoods, and family-friendly game-day experiences."
-photo_file_name = "pittsburgh-sports-traditions-7ff3e66e-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-sports-traditions-7ff3e66e-cover.jpg"
 
 [[cards]]
 text = "The Terrible Towel"
@@ -268,9 +268,6 @@ text = "Here We Go"
 
 [[cards]]
 text = "Tailgating"
-
-[[cards]]
-text = "Yinzers"
 
 [[cards]]
 text = "Steelers Helmet"

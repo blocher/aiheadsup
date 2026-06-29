@@ -1,0 +1,294 @@
+id = "deck_star-wars-episode-i-the-phantom-menace_093c6d53"
+revision = 1
+name = "Star Wars Episode I: The Phantom Menace"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode I: The Phantom Menace."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-i-the-phantom-menace-093c6d53-cover.jpg"
+
+[[cards]]
+text = "Qui-Gon Jinn"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Darth Maul"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jar Jar Binks"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Queen Amidala"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sebulba"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Watto"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Boss Nass"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mace Windu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Shmi Skywalker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Captain Panaka"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nute Gunray"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Chancellor Valorum"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sabé"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ki-Adi-Mundi"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Plo Koon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Yaddle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Naboo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Coruscant"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mos Espa"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Otoh Gunga"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Podracing"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Boonta Eve Classic"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Naboo Starfighter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gungan Sub"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sith Infiltrator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "MTT Transport"
+first_revealed_installment = 4
+
+[[cards]]
+text = "AAT Battle Tank"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Naboo Royal Starship"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Droideka"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Battle Droid"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Pit Droid"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Kaadu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Fambaa"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sando Aqua Monster"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Opee Sea Killer"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Colo Claw Fish"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Midichlorians"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Double-Bladed Lightsaber"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gungan Energy Ball"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Trade Federation"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jedi High Council"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Galactic Senate"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Podracer"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jedi Temple"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tatooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Darth Sidious"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Padmé Amidala"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Anakin Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jabba the Hutt"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Theed Royal Palace"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Anakin's Podracer"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Naboo N-1 Starfighter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Trade Federation Battleship"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bongo Submarine"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Eopie"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Plasma Booma"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Chance Cube"
+first_revealed_installment = 4
+
+[[cards]]
+text = "T-14 Hyperdrive"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sio Bibble"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Captain Tarpals"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Midi-chlorians"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gungan Bongo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ben Quadinaros"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gungan"
+first_revealed_installment = 4
+
+[[cards]]
+text = "TC-14"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gasgano"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gungan Bongo Sub"
+first_revealed_installment = 4

@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include chess pieces, moves, openings, tactics, checkmate patterns, famous strategy games, abstract games, planning terms, and beginner-friendly strategy concepts."
-photo_file_name = "chess-and-strategy-games-75856e7a-cover.jpg"
 spoiler_mode = false
+photo_file_name = "chess-and-strategy-games-75856e7a-cover.jpg"
 
 [[cards]]
 text = "King"

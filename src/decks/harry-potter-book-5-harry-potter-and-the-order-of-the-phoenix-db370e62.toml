@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix-db370e62-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix-db370e62-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"

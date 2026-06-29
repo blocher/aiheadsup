@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include playground equipment, recess games, sports, outdoor toys, running games, playground rules, and common kid activities."
-photo_file_name = "playground-and-recess-1ae5ed37-cover.jpg"
 spoiler_mode = false
+photo_file_name = "playground-and-recess-1ae5ed37-cover.jpg"
 
 [[cards]]
 text = "Slide"

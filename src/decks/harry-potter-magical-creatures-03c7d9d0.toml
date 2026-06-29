@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include creatures, beasts, pets, species, and named magical animals."
-photo_file_name = "harry-potter-magical-creatures-03c7d9d0-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-magical-creatures-03c7d9d0-cover.jpg"
 
 [[cards]]
 text = "Hedwig"

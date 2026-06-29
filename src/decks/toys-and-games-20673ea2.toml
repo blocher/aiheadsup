@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include common toys, board games, pretend-play items, playground equipment, video game basics, puzzles, building toys, dolls, stuffed animals, and party games."
-photo_file_name = "toys-and-games-20673ea2-cover.jpg"
 spoiler_mode = false
+photo_file_name = "toys-and-games-20673ea2-cover.jpg"
 
 [[cards]]
 text = "Teddy Bear"
@@ -163,9 +163,6 @@ text = "Bubble Wand"
 
 [[cards]]
 text = "Toy Slime"
-
-[[cards]]
-text = "Toy Soldier"
 
 [[cards]]
 text = "Jack-in-the-Box"

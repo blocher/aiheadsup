@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include colonial America, the Revolution, Constitution, Civil War, Reconstruction, immigration, westward expansion, industrialization, major presidents, social movements, wars, and key historical documents."
-photo_file_name = "middle-school-level-u-s-history-5c352c52-cover.jpg"
 spoiler_mode = false
+photo_file_name = "middle-school-level-u-s-history-5c352c52-cover.jpg"
 
 [[cards]]
 text = "Boston Tea Party"

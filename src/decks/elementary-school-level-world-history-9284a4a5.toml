@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include ancient civilizations, famous rulers, explorers, inventions, landmarks, world cultures, major events, and simple geography-linked history appropriate for elementary school."
-photo_file_name = "elementary-school-level-world-history-9284a4a5-cover.jpg"
 spoiler_mode = false
+photo_file_name = "elementary-school-level-world-history-9284a4a5-cover.jpg"
 
 [[cards]]
 text = "Pyramids of Giza"
@@ -238,9 +238,6 @@ text = "Roman Empire"
 
 [[cards]]
 text = "Medieval Knights"
-
-[[cards]]
-text = "Mummies"
 
 [[cards]]
 text = "The Silk Road"

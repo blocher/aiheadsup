@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Kennywood history, themed areas, park landmarks, food stands, games, mascots, seasonal events, local traditions, and Pittsburgh-area references."
-photo_file_name = "kennywood-park-lore-and-landmarks-c76f4798-cover.jpg"
 spoiler_mode = false
+photo_file_name = "kennywood-park-lore-and-landmarks-c76f4798-cover.jpg"
 
 [[cards]]
 text = "Phantom's Revenge"
@@ -202,9 +202,6 @@ text = "Pagoda Food Stand"
 
 [[cards]]
 text = "Parkside Cafe"
-
-[[cards]]
-text = "Kennywood Arrows"
 
 [[cards]]
 text = "Grand Carousel"

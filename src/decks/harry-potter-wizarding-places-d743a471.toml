@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include locations inside Hogwarts, wizarding villages, shops, homes, ministries, and hidden places."
-photo_file_name = "harry-potter-wizarding-places-d743a471-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-wizarding-places-d743a471-cover.jpg"
 
 [[cards]]
 text = "Diagon Alley"

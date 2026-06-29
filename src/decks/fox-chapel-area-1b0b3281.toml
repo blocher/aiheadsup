@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include O'Hara Township, Sharpsburg, Aspinwall, Fox Chapel, Etna, Indiana Township, Blawnox, local parks, schools, rivers, bridges, neighborhoods, roads, restaurants, landmarks, history, and Pittsburgh-area references. Include all Fox Chapel School District schools"
-photo_file_name = "fox-chapel-area-1b0b3281-cover.jpg"
 spoiler_mode = false
+photo_file_name = "fox-chapel-area-1b0b3281-cover.jpg"
 
 [[cards]]
 text = "O'Hara Township"
@@ -232,3 +232,15 @@ text = "Waterworks Mall"
 
 [[cards]]
 text = "62nd Street Bridge"
+
+[[cards]]
+text = "Locher Residence"
+
+[[cards]]
+text = "Home"
+
+[[cards]]
+text = "Greyfriar Dr."
+
+[[cards]]
+text = "Tepache"

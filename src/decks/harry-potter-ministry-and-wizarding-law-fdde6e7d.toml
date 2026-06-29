@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include departments, officials, laws, trials, punishments, political groups, and bureaucracy."
-photo_file_name = "harry-potter-ministry-and-wizarding-law-fdde6e7d-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-ministry-and-wizarding-law-fdde6e7d-cover.jpg"
 
 [[cards]]
 text = "Decree for Underage Sorcery"

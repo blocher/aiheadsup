@@ -1,0 +1,261 @@
+id = "deck_liturgy_ae2c847d"
+revision = 1
+name = "Liturgy"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include worship services, prayers, seasons, vestments, sacraments, church furnishings, liturgical actions, music, and common Christian liturgy terms."
+spoiler_mode = false
+photo_file_name = "liturgy-ae2c847d-cover.jpg"
+
+[[cards]]
+text = "Altar"
+
+[[cards]]
+text = "Chalice"
+
+[[cards]]
+text = "Paten"
+
+[[cards]]
+text = "Censer"
+
+[[cards]]
+text = "Tabernacle"
+
+[[cards]]
+text = "Lectern"
+
+[[cards]]
+text = "Pulpit"
+
+[[cards]]
+text = "Baptismal Font"
+
+[[cards]]
+text = "Paschal Candle"
+
+[[cards]]
+text = "Monstrance"
+
+[[cards]]
+text = "Chasuble"
+
+[[cards]]
+text = "Alb"
+
+[[cards]]
+text = "Stole"
+
+[[cards]]
+text = "Surplice"
+
+[[cards]]
+text = "Cassock"
+
+[[cards]]
+text = "Mitre"
+
+[[cards]]
+text = "Genuflection"
+
+[[cards]]
+text = "Sign of the Cross"
+
+[[cards]]
+text = "Procession"
+
+[[cards]]
+text = "Recessional"
+
+[[cards]]
+text = "Incense"
+
+[[cards]]
+text = "Acolyte"
+
+[[cards]]
+text = "Thurifer"
+
+[[cards]]
+text = "Cantor"
+
+[[cards]]
+text = "Lector"
+
+[[cards]]
+text = "Deacon"
+
+[[cards]]
+text = "Advent"
+
+[[cards]]
+text = "Lent"
+
+[[cards]]
+text = "Epiphany"
+
+[[cards]]
+text = "Pentecost"
+
+[[cards]]
+text = "Ordinary Time"
+
+[[cards]]
+text = "Baptism"
+
+[[cards]]
+text = "Holy Communion"
+
+[[cards]]
+text = "Confirmation"
+
+[[cards]]
+text = "Matrimony"
+
+[[cards]]
+text = "Holy Orders"
+
+[[cards]]
+text = "Kyrie Eleison"
+
+[[cards]]
+text = "Gloria"
+
+[[cards]]
+text = "Doxology"
+
+[[cards]]
+text = "Benediction"
+
+[[cards]]
+text = "Vespers"
+
+[[cards]]
+text = "Ash Wednesday"
+
+[[cards]]
+text = "Good Friday"
+
+[[cards]]
+text = "Palm Sunday"
+
+[[cards]]
+text = "Maundy Thursday"
+
+[[cards]]
+text = "Easter Vigil"
+
+[[cards]]
+text = "Sanctuary Lamp"
+
+[[cards]]
+text = "Cruets"
+
+[[cards]]
+text = "Elevation of the Host"
+
+[[cards]]
+text = "Nicene Creed"
+
+[[cards]]
+text = "Pew"
+
+[[cards]]
+text = "Crosier"
+
+[[cards]]
+text = "Thurible"
+
+[[cards]]
+text = "Aspergillum"
+
+[[cards]]
+text = "Holy Matrimony"
+
+[[cards]]
+text = "Liturgy of the Word"
+
+[[cards]]
+text = "Liturgy of the Eucharist"
+
+[[cards]]
+text = "Homily"
+
+[[cards]]
+text = "Lectionary"
+
+[[cards]]
+text = "The Lord's Prayer"
+
+[[cards]]
+text = "Matins"
+
+[[cards]]
+text = "Sanctus"
+
+[[cards]]
+text = "Agnus Dei"
+
+[[cards]]
+text = "Gregorian Chant"
+
+[[cards]]
+text = "Amen"
+
+[[cards]]
+text = "Peace Be With You"
+
+[[cards]]
+text = "Credence Table"
+
+[[cards]]
+text = "Kneeling"
+
+[[cards]]
+text = "Crucifer"
+
+[[cards]]
+text = "Genuflect"
+
+[[cards]]
+text = "Advent Wreath"
+
+[[cards]]
+text = "Processional Cross"
+
+[[cards]]
+text = "The Doxology"
+
+[[cards]]
+text = "Holy Thursday"
+
+[[cards]]
+text = "Collect Prayer"
+
+[[cards]]
+text = "Holy Water Font"
+
+[[cards]]
+text = "Liturgical Calendar"
+
+[[cards]]
+text = "Communion Rail"
+
+[[cards]]
+text = "Alleluia"
+
+[[cards]]
+text = "Incense Burner"
+
+[[cards]]
+text = "Passing the Peace"
+
+[[cards]]
+text = "Hymn"
+
+[[cards]]
+text = "Eucharist"
+
+[[cards]]
+text = "Passing of the Peace"

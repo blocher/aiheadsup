@@ -1,0 +1,302 @@
+id = "deck_star-wars-episode-ii-attack-of-the-clones_ce098d6b"
+revision = 1
+name = "Star Wars Episode II: Attack of the Clones"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode II: Attack of the Clones."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-ii-attack-of-the-clones-ce098d6b-cover.jpg"
+
+[[cards]]
+text = "Count Dooku"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jango Fett"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kamino"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosis"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Clone Troopers"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dexter Jettster"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Zam Wesell"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lama Su"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Taun We"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Reek"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Nexu"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Acklay"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosian Arena"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé Amidala"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Anakin Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jocasta Nu"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Poggle the Lesser"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosians"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Boba Fett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shmi Skywalker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Cliegg Lars"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Owen Lars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beru Lars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Sticks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dex's Diner"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sifo-Dyas"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jedi Starfighter"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Slave I"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Droid Factory"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Super Battle Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Spider Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hailfire Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "LAAT Gunship"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Solar Sailer"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Count Dooku's Lightsaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Purple Lightsaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mace Windu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Yoda's Lightsaber Duel"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Bail Organa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Captain Typho"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Shaak"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lake Country"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Secret Wedding"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kamino Saberdart"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Outlander Club"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jango Fett's Helmet"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Coruscant Speeder Chase"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tusken Raider Camp"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Senator Palpatine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Petranaki Arena"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Seismic Charge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Elan Sleazebaggano"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wat Tambor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "San Hill"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kamino Sabre Dart"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Senator Bail Organa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Coleman Trebor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kit Fisto"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Aayla Secura"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Luminara Unduli"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Barriss Offee"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sly Moore"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Queen Jamillia"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kaminoan"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Clone Army"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jedi Archives"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tipoca City"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jedi Younglings"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosian Droid Factory"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cloning Pods"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Republic Gunship"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kouhun"
+first_revealed_installment = 5

@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include neighborhoods, landmarks, foods, sports teams, museums, architecture, transit, historical events, famous Chicagoans, and lakefront places."
-photo_file_name = "chicago-1e0cfe28-cover.jpg"
 spoiler_mode = false
+photo_file_name = "chicago-1e0cfe28-cover.jpg"
 
 [[cards]]
 text = "The Bean"

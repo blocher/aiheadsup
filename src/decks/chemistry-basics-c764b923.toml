@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include elements, atoms, molecules, reactions, states of matter, lab equipment, household chemistry, famous discoveries, and common chemical terms."
-photo_file_name = "chemistry-basics-c764b923-cover.jpg"
 spoiler_mode = false
+photo_file_name = "chemistry-basics-c764b923-cover.jpg"
 
 [[cards]]
 text = "Atom"

@@ -1,0 +1,228 @@
+id = "deck_alexandria-and-arlington-va_f1706224"
+revision = 1
+name = "Alexandria and Arlington, VA"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Old Town Alexandria, Arlington National Cemetery, the Pentagon, neighborhoods, monuments, Metro stops, Potomac River landmarks, local history, museums, parks, and Washington-area references."
+spoiler_mode = false
+photo_file_name = "alexandria-and-arlington-va-f1706224-cover.jpg"
+
+[[cards]]
+text = "Old Town Alexandria"
+
+[[cards]]
+text = "Arlington National Cemetery"
+
+[[cards]]
+text = "The Pentagon"
+
+[[cards]]
+text = "Tomb of the Unknowns"
+
+[[cards]]
+text = "George Washington Masonic Memorial"
+
+[[cards]]
+text = "Torpedo Factory Art Center"
+
+[[cards]]
+text = "Gravelly Point"
+
+[[cards]]
+text = "Shirlington"
+
+[[cards]]
+text = "Del Ray"
+
+[[cards]]
+text = "King Street Mile"
+
+[[cards]]
+text = "Mount Vernon Trail"
+
+[[cards]]
+text = "Woodrow Wilson Bridge"
+
+[[cards]]
+text = "Rosslyn"
+
+[[cards]]
+text = "Clarendon"
+
+[[cards]]
+text = "Crystal City"
+
+[[cards]]
+text = "Pentagon City"
+
+[[cards]]
+text = "Ballston Quarter"
+
+[[cards]]
+text = "Theodore Roosevelt Island"
+
+[[cards]]
+text = "Gadsby's Tavern"
+
+[[cards]]
+text = "Spite House"
+
+[[cards]]
+text = "Jones Point Lighthouse"
+
+[[cards]]
+text = "Carlyle House"
+
+[[cards]]
+text = "US Marine Corps Memorial"
+
+[[cards]]
+text = "Air Force Memorial"
+
+[[cards]]
+text = "Arlington House"
+
+[[cards]]
+text = "Potomac River"
+
+[[cards]]
+text = "George Washington Parkway"
+
+[[cards]]
+text = "Reagan National Airport"
+
+[[cards]]
+text = "The Birchmere"
+
+[[cards]]
+text = "Key Bridge"
+
+[[cards]]
+text = "Daingerfield Island"
+
+[[cards]]
+text = "Huntley Meadows Park"
+
+[[cards]]
+text = "Cameron Run"
+
+[[cards]]
+text = "Columbia Pike"
+
+[[cards]]
+text = "Four Mile Run"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "King Street Metro"
+
+[[cards]]
+text = "Fort Ward Park"
+
+[[cards]]
+text = "Potomac Yard"
+
+[[cards]]
+text = "Amazon HQ2"
+
+[[cards]]
+text = "Long Bridge Park"
+
+[[cards]]
+text = "Netherlands Carillon"
+
+[[cards]]
+text = "Lyon Village"
+
+[[cards]]
+text = "Fairlington"
+
+[[cards]]
+text = "Carlyle District"
+
+[[cards]]
+text = "Alexandria Waterfront"
+
+[[cards]]
+text = "Christ Church"
+
+[[cards]]
+text = "Pentagon City Mall"
+
+[[cards]]
+text = "Bon Air Park"
+
+[[cards]]
+text = "Lee-Fendall House"
+
+[[cards]]
+text = "Ronald Reagan National Airport"
+
+[[cards]]
+text = "King Street Trolley"
+
+[[cards]]
+text = "Birchmere Music Hall"
+
+[[cards]]
+text = "Yellow Line Metro"
+
+[[cards]]
+text = "Blue Line Metro"
+
+[[cards]]
+text = "Signature Theatre"
+
+[[cards]]
+text = "DEA Museum"
+
+[[cards]]
+text = "Arlington Mill"
+
+[[cards]]
+text = "King Street Station"
+
+[[cards]]
+text = "Alexandria City Hall"
+
+[[cards]]
+text = "Virginia Square"
+
+[[cards]]
+text = "Custis Trail"
+
+[[cards]]
+text = "Lubber Run Amphitheater"
+
+[[cards]]
+text = "Masonic Temple"
+
+[[cards]]
+text = "Iwo Jima Memorial"
+
+[[cards]]
+text = "Ballston"
+
+[[cards]]
+text = "Lyceum Museum"
+
+[[cards]]
+text = "Waterfront Park"
+
+[[cards]]
+text = "Hunting Creek"
+
+[[cards]]
+text = "Wilson Boulevard"
+
+[[cards]]
+text = "King Street"
+
+[[cards]]
+text = "Marine Corps Memorial"
+
+[[cards]]
+text = "The Lyceum"

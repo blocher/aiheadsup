@@ -5,8 +5,8 @@ category = "Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include gaga pit terms, rules, hits, dodges, eliminations, playground strategies, camp references, ball-control moves, player actions, and family-friendly school or camp game concepts."
-photo_file_name = "gaga-ball-c7a10377-cover.jpg"
 spoiler_mode = false
+photo_file_name = "gaga-ball-c7a10377-cover.jpg"
 
 [[cards]]
 text = "Gaga Pit"
@@ -190,9 +190,6 @@ text = "Corner Pocket"
 
 [[cards]]
 text = "Double Hit Rule"
-
-[[cards]]
-text = "Spectator"
 
 [[cards]]
 text = "Game On"

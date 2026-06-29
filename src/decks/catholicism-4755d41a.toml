@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include popes, saints, sacraments, feast days, devotions, religious orders, church terms, Vatican landmarks, liturgy, and Catholic practices."
-photo_file_name = "catholicism-4755d41a-cover.jpg"
 spoiler_mode = false
+photo_file_name = "catholicism-4755d41a-cover.jpg"
 
 [[cards]]
 text = "Saint Peter"
@@ -235,9 +235,6 @@ text = "Monastery"
 
 [[cards]]
 text = "The Angelus"
-
-[[cards]]
-text = "Saint Thérèse of Lisieux"
 
 [[cards]]
 text = "The Assumption"

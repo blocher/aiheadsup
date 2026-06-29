@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include well-known Wii games, characters, controllers, Miis, motion controls, minigames, sports, racing, party-style modes, accessories, and family-friendly Wii gameplay moments."
-photo_file_name = "classic-wii-games-24a03f8d-cover.jpg"
 spoiler_mode = false
+photo_file_name = "classic-wii-games-24a03f8d-cover.jpg"
 
 [[cards]]
 text = "Wii Sports"

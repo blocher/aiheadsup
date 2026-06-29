@@ -5,8 +5,8 @@ category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, rooms, weapons, clues, quotes, suspects, secret passages, endings, dinner-party details, and memorable scenes from the 1985 movie."
-photo_file_name = "clue-46a78d90-cover.jpg"
 spoiler_mode = false
+photo_file_name = "clue-46a78d90-cover.jpg"
 
 [[cards]]
 text = "Wadsworth"

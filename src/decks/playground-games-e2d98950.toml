@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include recess games, tag variants, ball games, playground equipment, outdoor rules, running games, jump rope, hide-and-seek, and common kid game terms."
-photo_file_name = "playground-games-e2d98950-cover.jpg"
 spoiler_mode = false
+photo_file_name = "playground-games-e2d98950-cover.jpg"
 
 [[cards]]
 text = "Tag"

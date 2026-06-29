@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include playing-card games, card suits, ranks, special cards, family card games, rules terms, tricks, hands, decks, and common card-table phrases."
-photo_file_name = "card-games-d92a21f6-cover.jpg"
 spoiler_mode = false
+photo_file_name = "card-games-d92a21f6-cover.jpg"
 
 [[cards]]
 text = "Ace of Spades"
@@ -214,9 +214,6 @@ text = "Deal Me In"
 
 [[cards]]
 text = "Dealing"
-
-[[cards]]
-text = "Face Card"
 
 [[cards]]
 text = "Card Suit"

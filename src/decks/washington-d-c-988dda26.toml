@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include monuments, museums, government buildings, neighborhoods, Metro stops, historical events, presidents, political concepts, and local landmarks."
-photo_file_name = "washington-d-c-988dda26-cover.jpg"
 spoiler_mode = false
+photo_file_name = "washington-d-c-988dda26-cover.jpg"
 
 [[cards]]
 text = "The White House"

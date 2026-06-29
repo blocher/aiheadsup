@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include common toys, animals, colors, shapes, foods, vehicles, simple actions, nursery rhyme ideas, and things preschool kids would recognize."
-photo_file_name = "preschool-favorites-354c5665-cover.jpg"
 spoiler_mode = false
+photo_file_name = "preschool-favorites-354c5665-cover.jpg"
 
 [[cards]]
 text = "Teddy Bear"
@@ -244,9 +244,6 @@ text = "Yellow Duck"
 
 [[cards]]
 text = "Red Balloon"
-
-[[cards]]
-text = "Crayon"
 
 [[cards]]
 text = "Peek-a-boo"

@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include lesser-known gods, obscure heroes, alternate myth versions, genealogies, ancient sources, minor monsters, regional cults, tragic figures, and deep-cut mythological references."
-photo_file_name = "advanced-greek-mythology-c3aff072-cover.jpg"
 spoiler_mode = false
+photo_file_name = "advanced-greek-mythology-c3aff072-cover.jpg"
 
 [[cards]]
 text = "Melinoe"

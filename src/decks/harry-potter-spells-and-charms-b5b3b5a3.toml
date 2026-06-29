@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include spell names, magical effects, curses, charms, jinxes, and famous spell moments."
-photo_file_name = "harry-potter-spells-and-charms-b5b3b5a3-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-spells-and-charms-b5b3b5a3-cover.jpg"
 
 [[cards]]
 text = "Expelliarmus"

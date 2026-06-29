@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include sushi rolls, ingredients, fish, sauces, sides, Japanese food terms, restaurant items, utensils, and family-friendly sushi concepts."
-photo_file_name = "sushi-58f131e2-cover.jpg"
 spoiler_mode = false
+photo_file_name = "sushi-58f131e2-cover.jpg"
 
 [[cards]]
 text = "California Roll"

@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include house names, mascots, founders, colors, traits, and famous members."
-photo_file_name = "harry-potter-hogwarts-houses-05817c99-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-hogwarts-houses-05817c99-cover.jpg"
 
 [[cards]]
 text = "Gryffindor"

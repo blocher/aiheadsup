@@ -5,8 +5,8 @@ category = "History"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include advanced world history terms, empires, ideologies, revolutions, colonialism, decolonization, world wars, Cold War events, philosophers, religious movements, trade systems, treaties, and global historical themes."
-photo_file_name = "high-school-level-world-history-d42e0cfe-cover.jpg"
 spoiler_mode = false
+photo_file_name = "high-school-level-world-history-d42e0cfe-cover.jpg"
 
 [[cards]]
 text = "Ottoman Empire"

@@ -1,0 +1,314 @@
+id = "deck_star-wars-episode-viii-the-last-jedi_2b792954"
+revision = 1
+name = "Star Wars Episode VIII: The Last Jedi"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode VIII: The Last Jedi."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-viii-the-last-jedi-2b792954-cover.jpg"
+
+[[cards]]
+text = "Porg"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Rose Tico"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Vice Admiral Holdo"
+first_revealed_installment = 9
+
+[[cards]]
+text = "DJ"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Canto Bight"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Crait"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ahch-To"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Fathier"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Vulptex"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Praetorian Guard"
+first_revealed_installment = 9
+
+[[cards]]
+text = "BB-9E"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Raddus"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Supremacy"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ski Speeder"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Resistance Bomber"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kylo Ren's TIE Silencer"
+first_revealed_installment = 9
+
+[[cards]]
+text = "AT-M6 Walker"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Caretakers of Ahch-To"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Thala-Siren"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Sacred Jedi Texts"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Master Codebreaker"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Broom Boy"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Tallie Lintra"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Paige Tico"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Holdo Maneuver"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Force Projection"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Green Milk"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Compass"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Mirror Cave"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Snoke's Throne Room"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rey"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren"
+first_revealed_installment = 7
+
+[[cards]]
+text = "General Leia Organa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Poe Dameron"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Finn"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Supreme Leader Snoke"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Captain Phasma"
+first_revealed_installment = 7
+
+[[cards]]
+text = "General Hux"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Force Bond"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Hyperspace Tracker"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Red Salt"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Maz Kanata"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Anakin's Lightsaber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "BB-8"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Prime Jedi"
+first_revealed_installment = 9
+
+[[cards]]
+text = "First Order Dreadnought"
+first_revealed_installment = 9
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TIE Silencer"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Caretakers"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Prime Jedi Mosaic"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Red Salt Deserts"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kylo's Smashed Helmet"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Captain Canady"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Commander D'Acy"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Rose's Medallion"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Siege of D'Qar"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Battle of Crait"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Superlaser Siege Cannon"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Canto Bight Casino"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Burning Jedi Temple"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ahch-To Island"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Stormtrooper Executioner"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Resistance Ring"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Anodyne"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Mega-Class Star Destroyer"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Projection"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ninka"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Canto Bight Police"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Force Projection"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Crystal Fox"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Elite Praetorian Guard"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ahch-To Caregivers"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Lanai Caregivers"
+first_revealed_installment = 9

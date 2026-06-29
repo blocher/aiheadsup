@@ -5,8 +5,8 @@ category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include organs, bones, muscles, senses, body systems, cells, health terms, digestion, breathing, circulation, and age-appropriate anatomy."
-photo_file_name = "human-body-1fd0a302-cover.jpg"
 spoiler_mode = false
+photo_file_name = "human-body-1fd0a302-cover.jpg"
 
 [[cards]]
 text = "Brain"
@@ -168,12 +168,6 @@ text = "Heartbeat"
 text = "Blood Vessels"
 
 [[cards]]
-text = "Red Blood Cells"
-
-[[cards]]
-text = "White Blood Cells"
-
-[[cards]]
 text = "Tongue"
 
 [[cards]]
@@ -216,16 +210,7 @@ text = "Reflex"
 text = "Windpipe"
 
 [[cards]]
-text = "Joints"
-
-[[cards]]
-text = "Sweat Gland"
-
-[[cards]]
 text = "Skeleton"
-
-[[cards]]
-text = "Blood Vessel"
 
 [[cards]]
 text = "Reflexes"

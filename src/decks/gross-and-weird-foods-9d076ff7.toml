@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include unusual foods, strange textures, funny food names, bold flavors, food challenges, novelty snacks, and family-friendly gross-out food terms."
-photo_file_name = "gross-and-weird-foods-9d076ff7-cover.jpg"
 spoiler_mode = false
+photo_file_name = "gross-and-weird-foods-9d076ff7-cover.jpg"
 
 [[cards]]
 text = "Durian Fruit"

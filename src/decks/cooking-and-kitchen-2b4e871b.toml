@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include kitchen tools, cooking methods, ingredients, measurements, appliances, recipes, chef terms, baking items, and common meal-prep actions."
-photo_file_name = "cooking-and-kitchen-2b4e871b-cover.jpg"
 spoiler_mode = false
+photo_file_name = "cooking-and-kitchen-2b4e871b-cover.jpg"
 
 [[cards]]
 text = "Whisk"
@@ -259,9 +259,6 @@ text = "Julienne Cut"
 
 [[cards]]
 text = "Sous Vide"
-
-[[cards]]
-text = "Measuring Cups"
 
 [[cards]]
 text = "Measuring Spoon"

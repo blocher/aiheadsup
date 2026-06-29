@@ -1,0 +1,302 @@
+id = "deck_star-wars-episode-v-the-empire-strikes-back_35badbc7"
+revision = 1
+name = "Star Wars Episode V: The Empire Strikes Back"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode V: The Empire Strikes Back."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-v-the-empire-strikes-back-35badbc7-cover.jpg"
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lando Calrissian"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Boba Fett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hoth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dagobah"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bespin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cloud City"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Echo Base"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tauntaun"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wampa"
+first_revealed_installment = 2
+
+[[cards]]
+text = "AT-AT Walker"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snowspeeder"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Super Star Destroyer"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Slave I"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Space Slug"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mynock"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bossk"
+first_revealed_installment = 2
+
+[[cards]]
+text = "IG-88"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dengar"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Zuckuss"
+first_revealed_installment = 2
+
+[[cards]]
+text = "4-LOM"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lobot"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ugnaughts"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Admiral Piett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "General Veers"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Captain Needa"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snowtrooper"
+first_revealed_installment = 2
+
+[[cards]]
+text = "AT-ST Walker"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Probe Droid"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Carbon-Freezing Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Han Solo in Carbonite"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Battle of Hoth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Yoda's Hut"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dark Side Cave"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ion Cannon"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shield Generator"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cloud Car"
+first_revealed_installment = 2
+
+[[cards]]
+text = "2-1B Medical Droid"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Meditation Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tibanna Gas"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Asteroid Field Chase"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Luke's Prosthetic Hand"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bounty Hunter Lineup"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Training Backpack"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Medical Frigate"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Imperial March"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wampa Cave"
+first_revealed_installment = 2
+
+[[cards]]
+text = "I Am Your Father"
+first_revealed_installment = 2
+
+[[cards]]
+text = "I Know"
+first_revealed_installment = 2
+
+[[cards]]
+text = "FX-7"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Carbonite"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Imperial Probe Droid"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Darth Vader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Princess Leia"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Executor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dak Ralter"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Vader's Meditation Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Emperor Palpatine"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bespin Security Guard"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Major Derlin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Viper Probe Droid"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Imperial March"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Twin-Pod Cloud Car"
+first_revealed_installment = 2
+
+[[cards]]
+text = "TIE Bomber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Carbonite Freezing Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Executor"
+first_revealed_installment = 2

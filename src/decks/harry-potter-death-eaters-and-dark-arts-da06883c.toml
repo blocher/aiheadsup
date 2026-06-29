@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include dark wizards, curses, Horcruxes, artifacts, battles, alliances, and dark magic concepts."
-photo_file_name = "harry-potter-death-eaters-and-dark-arts-da06883c-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-death-eaters-and-dark-arts-da06883c-cover.jpg"
 
 [[cards]]
 text = "Lord Voldemort"

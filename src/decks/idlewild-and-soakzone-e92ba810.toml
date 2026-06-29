@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Idlewild rides, Story Book Forest, Daniel Tiger references, SoakZone attractions, family rides, park areas, landmarks, and Ligonier-area references."
-photo_file_name = "idlewild-and-soakzone-e92ba810-cover.jpg"
 spoiler_mode = false
+photo_file_name = "idlewild-and-soakzone-e92ba810-cover.jpg"
 
 [[cards]]
 text = "Story Book Forest"

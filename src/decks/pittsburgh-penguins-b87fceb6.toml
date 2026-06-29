@@ -5,8 +5,8 @@ category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Penguins history, famous current and past players, Stanley Cup moments, arenas, mascots, goal celebrations, uniforms, rivals, hockey terms, playoff traditions, announcer phrases, and Pittsburgh hockey culture, but should not be mostly player names."
-photo_file_name = "pittsburgh-penguins-b87fceb6-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-penguins-b87fceb6-cover.jpg"
 
 [[cards]]
 text = "Mario Lemieux"
@@ -169,9 +169,6 @@ text = "It's A Great Day"
 
 [[cards]]
 text = "Skating Penguin"
-
-[[cards]]
-text = "Playoff Beards"
 
 [[cards]]
 text = "Gold Out"

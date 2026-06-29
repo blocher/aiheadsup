@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-book-4-harry-potter-and-the-goblet-of-fire-b139e472-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-book-4-harry-potter-and-the-goblet-of-fire-b139e472-cover.jpg"
 
 [[cards]]
 text = "Goblet of Fire"

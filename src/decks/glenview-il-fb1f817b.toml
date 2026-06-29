@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include local landmarks, parks, schools, neighborhoods, nearby North Shore places, Chicago-area references, transportation, history, and family-friendly destinations."
-photo_file_name = "glenview-il-fb1f817b-cover.jpg"
 spoiler_mode = false
+photo_file_name = "glenview-il-fb1f817b-cover.jpg"
 
 [[cards]]
 text = "Historic Wagner Farm"
@@ -265,3 +265,12 @@ text = "The North Shore"
 
 [[cards]]
 text = "Hackney's Restaurant"
+
+[[cards]]
+text = "Lowe Residence"
+
+[[cards]]
+text = "Grandma & Grandpa Lowe"
+
+[[cards]]
+text = "Forest Road"

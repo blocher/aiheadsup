@@ -5,8 +5,8 @@ category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, computers, games, military terms, places, quotes, 1980s technology, Cold War concepts, NORAD, WOPR, and memorable plot moments."
-photo_file_name = "wargames-ccbb551c-cover.jpg"
 spoiler_mode = false
+photo_file_name = "wargames-ccbb551c-cover.jpg"
 
 [[cards]]
 text = "David Lightman"

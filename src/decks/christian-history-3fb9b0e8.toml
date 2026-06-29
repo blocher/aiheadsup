@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include major figures, councils, denominations, saints, reformers, missionaries, Bible events, early Church terms, historical movements, and important Christian dates."
-photo_file_name = "christian-history-3fb9b0e8-cover.jpg"
 spoiler_mode = false
+photo_file_name = "christian-history-3fb9b0e8-cover.jpg"
 
 [[cards]]
 text = "Martin Luther"

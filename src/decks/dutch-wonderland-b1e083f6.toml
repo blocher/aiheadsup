@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include rides, themed areas, characters, shows, water attractions, family attractions, Lancaster County references, and kid-friendly amusement park terms."
-photo_file_name = "dutch-wonderland-b1e083f6-cover.jpg"
 spoiler_mode = false
+photo_file_name = "dutch-wonderland-b1e083f6-cover.jpg"
 
 [[cards]]
 text = "Duke the Dragon"

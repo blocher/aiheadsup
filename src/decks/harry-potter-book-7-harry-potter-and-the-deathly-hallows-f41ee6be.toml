@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-book-7-harry-potter-and-the-deathly-hallows-f41ee6be-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-book-7-harry-potter-and-the-deathly-hallows-f41ee6be-cover.jpg"
 
 [[cards]]
 text = "Elder Wand"

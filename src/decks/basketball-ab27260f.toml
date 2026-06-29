@@ -5,8 +5,8 @@ category = "Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include positions, rules, shots, passes, fouls, court markings, equipment, famous moves, tournaments, team concepts, basketball slang, and famous current and past players, but should not be mostly player names."
-photo_file_name = "basketball-ab27260f-cover.jpg"
 spoiler_mode = false
+photo_file_name = "basketball-ab27260f-cover.jpg"
 
 [[cards]]
 text = "Point Guard"
@@ -217,9 +217,6 @@ text = "Swish"
 
 [[cards]]
 text = "Fadeaway Jump Shot"
-
-[[cards]]
-text = "Air Jordans"
 
 [[cards]]
 text = "Finger Roll"

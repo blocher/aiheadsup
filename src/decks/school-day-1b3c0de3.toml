@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include teachers, classrooms, subjects, lunch, recess, buses, homework, assemblies, school supplies, rules, and common school routines."
-photo_file_name = "school-day-1b3c0de3-cover.jpg"
 spoiler_mode = false
+photo_file_name = "school-day-1b3c0de3-cover.jpg"
 
 [[cards]]
 text = "Yellow School Bus"

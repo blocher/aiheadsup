@@ -1,0 +1,322 @@
+id = "deck_indiana-jones-temple-of-doom_b3c93152"
+revision = 1
+name = "Indiana Jones: Temple of Doom"
+category = "Indiana Jones"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Temple of Doom."
+spoiler_mode = true
+spoiler_series = "indiana_jones"
+photo_file_name = "indiana-jones-temple-of-doom-b3c93152-cover.jpg"
+
+[[cards]]
+text = "Indiana Jones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Short Round"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Willie Scott"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mola Ram"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sankara Stones"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Club Obi Wan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lao Che"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Urn of Nurhachi"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Antidote"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chilled Monkey Brains"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snake Surprise"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Pankot Palace"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mine Cart Chase"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rope Bridge"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thuggee Cult"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Black Sleep of Kali"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Spike Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bug Tunnel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Yellow Inflatable Raft"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ford Tri-Motor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wu Han"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chattar Lal"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Captain Blumburtt"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Maharaja Zalim Singh"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacrificial Pit"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Flaming Heart"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Eyeball Soup"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mayapore Village"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hungry Crocodiles"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rock Crusher"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Conveyor Belt"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Voodoo Doll"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shiva Statue"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Giant Vampire Bats"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thuggee Guards"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Blue Diamond"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shanghai Chase"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacrificial Cage"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fedora"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bullwhip"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Machete"
+first_revealed_installment = 2
+
+[[cards]]
+text = "British Army"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Flooded Mine Shaft"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elephant Ride"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sankara Stone Shrine"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Red Turban"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Giant Gong"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Crispy Beetles"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Kao Kan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chief of Mayapore"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Urn of Nurhaci"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Peacock Diamond"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Inflatable Raft"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Crocodile River"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shaman of Mayapore"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lava Pit"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mine Cart"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Antidote Vial"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacred Ashes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Kali Statue"
+first_revealed_installment = 2
+
+[[cards]]
+text = "British Riflemen"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cargo Plane"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Secret Passage"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Water Torrent"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Indy's Fedora"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Palace Banquet"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hand-to-Hand Brawl"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Underground Temple"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shadow Puppet"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Maharajah Zalim Singh"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacrifice Cage"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Pankot Mines"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mine Shaft Flood"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Triad Gangsters"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Rope Bridge"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Spike Booby Trap"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thuggee Cultist"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacrificial Altar"
+first_revealed_installment = 2

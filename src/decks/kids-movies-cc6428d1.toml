@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include family-friendly movie characters, titles, settings, songs, objects, animals, heroes, villains, and memorable kid-movie moments."
-photo_file_name = "kids-movies-cc6428d1-cover.jpg"
 spoiler_mode = false
+photo_file_name = "kids-movies-cc6428d1-cover.jpg"
 
 [[cards]]
 text = "Buzz Lightyear"

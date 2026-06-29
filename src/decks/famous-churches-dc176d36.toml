@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include famous churches, cathedrals, basilicas, chapels, shrines, architectural features, cities, saints, historical events, and pilgrimage sites from around the world."
-photo_file_name = "famous-churches-dc176d36-cover.jpg"
 spoiler_mode = false
+photo_file_name = "famous-churches-dc176d36-cover.jpg"
 
 [[cards]]
 text = "Notre-Dame de Paris"

@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include characters, locations, objects, missions, clues, historical references, ship areas, alternate endings, espionage plot points, and memorable details from the 1996 computer game."
-photo_file_name = "titanic-adventure-out-of-time-dae33aa3-cover.jpg"
 spoiler_mode = false
+photo_file_name = "titanic-adventure-out-of-time-dae33aa3-cover.jpg"
 
 [[cards]]
 text = "Frank Carlson"
@@ -280,9 +280,6 @@ text = "Third Officer Morrow"
 
 [[cards]]
 text = "The Boiler Room"
-
-[[cards]]
-text = "The Turkish Baths"
 
 [[cards]]
 text = "The Zeppelin Plans"

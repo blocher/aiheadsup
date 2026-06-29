@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include neighborhoods, landmarks, bridges, rivers, sports teams, universities, museums, foods, local phrases, historical events, and famous Pittsburghers."
-photo_file_name = "pittsburgh-61c711d8-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-61c711d8-cover.jpg"
 
 [[cards]]
 text = "Pittsburgh Steelers"

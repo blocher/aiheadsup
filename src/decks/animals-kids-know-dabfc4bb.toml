@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include pets, farm animals, zoo animals, ocean animals, bugs, dinosaurs, animal sounds, baby animals, habitats, and simple animal traits."
-photo_file_name = "animals-kids-know-dabfc4bb-cover.jpg"
 spoiler_mode = false
+photo_file_name = "animals-kids-know-dabfc4bb-cover.jpg"
 
 [[cards]]
 text = "Dog"

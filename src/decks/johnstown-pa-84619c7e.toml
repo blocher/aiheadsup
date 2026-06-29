@@ -5,8 +5,8 @@ category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include local landmarks, neighborhoods, geography, the Johnstown Flood, steel history, museums, nearby places, festivals, and regional Pennsylvania terms."
-photo_file_name = "johnstown-pa-84619c7e-cover.jpg"
 spoiler_mode = false
+photo_file_name = "johnstown-pa-84619c7e-cover.jpg"
 
 [[cards]]
 text = "The Inclined Plane"
@@ -220,9 +220,6 @@ text = "Cambria County"
 
 [[cards]]
 text = "Johnstown Flood National Memorial"
-
-[[cards]]
-text = "Gobs"
 
 [[cards]]
 text = "Polkafest"

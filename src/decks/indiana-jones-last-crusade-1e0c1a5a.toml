@@ -1,0 +1,350 @@
+id = "deck_indiana-jones-last-crusade_1e0c1a5a"
+revision = 1
+name = "Indiana Jones: Last Crusade"
+category = "Indiana Jones"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Last Crusade."
+spoiler_mode = true
+spoiler_series = "indiana_jones"
+photo_file_name = "indiana-jones-last-crusade-1e0c1a5a-cover.jpg"
+
+[[cards]]
+text = "Indiana Jones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Henry Jones Sr."
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Holy Grail"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Dr. Elsa Schneider"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Walter Donovan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Marcus Brody"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sallah"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Grail Knight"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Kazim"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Colonel Vogel"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Young Indy"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Diary"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Coronado Cross"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Circus Train"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Venice Catacombs"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Castle Brunwald"
+first_revealed_installment = 3
+
+[[cards]]
+text = "German Zeppelin"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Crescent Moon Canyon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Temple of the Sun"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Leap of Faith"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Breath of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Word of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Path of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cup of a Carpenter"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cruciform Brotherhood"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sir Richard's Tomb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "German Biplane"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Motorcycle Sidecar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Panzer Tank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hitler's Autograph"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fedora's Hat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Junior"
+first_revealed_installment = 3
+
+[[cards]]
+text = "He Chose Poorly"
+first_revealed_installment = 3
+
+[[cards]]
+text = "X Marks the Spot"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Venice Library"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sewer Rats"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fountain Pen"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Henry's Umbrella"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Tablet"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Alexander's Shield"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lion Cage"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rhino Car"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sultan of Hatay"
+first_revealed_installment = 3
+
+[[cards]]
+text = "False Grails"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Berlin Book Burning"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Knight's Greatsword"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Venetian Gondola"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Coronado Ship"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Boy Scout Uniform"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Water"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Henry Jones Senior"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Elsa Schneider"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Knight"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Coronado's Cross"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Zeppelin"
+first_revealed_installment = 3
+
+[[cards]]
+text = "German Tank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Motorcycle with Sidecar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Young Indiana Jones"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cruciform Sword Brotherhood"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Seagull Attack"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Republic of Hatay"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Boy Scout Indy"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rats of Venice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wooden Cup"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Adolf Hitler"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Berlin Rally"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shield of Saint Anselm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Iskenderun"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gondola"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Petroleum"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Roaring Lion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rolls-Royce Phantom"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bullwhip"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Utah Canyons"
+first_revealed_installment = 3
+
+[[cards]]
+text = "No Camels"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Name of Jehovah"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cross of Coronado"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Circus Train Chase"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Penitent Man"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wooden Chalice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Book Burning Rally"
+first_revealed_installment = 3
+
+[[cards]]
+text = "World War I Tank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Catacomb Rats"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Temple"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sir Richard's Shield"
+first_revealed_installment = 3

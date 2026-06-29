@@ -5,8 +5,8 @@ category = "Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include rules, throws, catches, dodges, gym-class terms, team strategies, equipment, funny moments, elimination rules, playground variations, and family-friendly dodgeball concepts."
-photo_file_name = "dodgeball-49efbe6d-cover.jpg"
 spoiler_mode = false
+photo_file_name = "dodgeball-49efbe6d-cover.jpg"
 
 [[cards]]
 text = "Red Rubber Ball"

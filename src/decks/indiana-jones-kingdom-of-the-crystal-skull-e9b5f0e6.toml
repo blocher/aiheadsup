@@ -1,0 +1,350 @@
+id = "deck_indiana-jones-kingdom-of-the-crystal-skull_e9b5f0e6"
+revision = 1
+name = "Indiana Jones: Kingdom of the Crystal Skull"
+category = "Indiana Jones"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Kingdom of the Crystal Skull."
+spoiler_mode = true
+spoiler_series = "indiana_jones"
+photo_file_name = "indiana-jones-kingdom-of-the-crystal-skull-e9b5f0e6-cover.jpg"
+
+[[cards]]
+text = "Mutt Williams"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Irina Spalko"
+first_revealed_installment = 4
+
+[[cards]]
+text = "George Mac McHale"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Professor Harold Oxley"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dean Charles Stanforth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Marion Ravenwood"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Crystal Skull of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Hangar 51"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Area 51"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Doom Town"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Lead-Lined Refrigerator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rocket Sled"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Magnetic Gunpowder"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mutt's Motorcycle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mutt's Switchblade"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mutt's Leather Jacket"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviet Jungle Cutter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Chauchilla Cemetery"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nazca Lines"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Cemetery Warriors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Quicksand Pit"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Snake Rope"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Giant Carnivorous Ants"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Three Waterfalls"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "El Dorado"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Interdimensional Beings"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flying Saucer"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Obelisk of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Amphibious Duck Boat"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sword Fight on Jeeps"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Vine Swinging Monkeys"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mind Reading"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gold Coins of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Roswell Alien"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Marshall College"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peru"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Amazon Jungle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviet Soldiers"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ugha Warriors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Throne Room"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Treasure Chamber"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Golden Artifacts of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Psychic Powers"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sand Painting"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nuclear Test Site"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Water Slide Waterfall"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Prairie Dog"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Crypt of Orellana"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Francisco de Orellana"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Crystal Skull"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Harold Oxley"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Siafu Ants"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jungle Cutter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Colonel Dovchenko"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Snake Rope"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dry Quicksand"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviet Amphibious Vehicle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Orellana's Gold Mask"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Indiana Jones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ark of the Covenant"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jungle Sword Duel"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Vine Swinging"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The KGB"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Library Motorcycle Chase"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Red Map Line"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Indiana Jones' Wedding"
+first_revealed_installment = 4
+
+[[cards]]
+text = "General Ross"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Indiana's Fedora"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Indiana's Bullwhip"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Skull-headed Staff"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Peruvian Amazon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sinking Stairs"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Throne Room of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviet Disguise"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Telepathic Vision"
+first_revealed_installment = 4
+
+[[cards]]
+text = "George McHale"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jungle Sword Fight"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Temple of Akator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Marcus Brody Statue"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Blowpipe Warriors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nuclear Bomb Test"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sinking Sand Pit"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mac McHale"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Crystal Skull"
+first_revealed_installment = 4

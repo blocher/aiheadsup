@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include breakfast dishes, cereals, pastries, drinks, eggs, meats, fruits, diner foods, toppings, and morning meal routines."
-photo_file_name = "breakfast-foods-558b2b9d-cover.jpg"
 spoiler_mode = false
+photo_file_name = "breakfast-foods-558b2b9d-cover.jpg"
 
 [[cards]]
 text = "Pancakes"
@@ -168,9 +168,6 @@ text = "Buttered Toast"
 text = "Croissant"
 
 [[cards]]
-text = "Sunny-Side Up Eggs"
-
-[[cards]]
 text = "Breakfast Sausage"
 
 [[cards]]
@@ -183,13 +180,7 @@ text = "Bowl of Cereal"
 text = "Fresh Grapefruit"
 
 [[cards]]
-text = "Pop-Tart"
-
-[[cards]]
 text = "Crunchy Granola"
-
-[[cards]]
-text = "Glazed Donut"
 
 [[cards]]
 text = "Hot Cocoa"
@@ -253,9 +244,6 @@ text = "Toasted Bagel"
 
 [[cards]]
 text = "Cream Cheese"
-
-[[cards]]
-text = "Sliced Bananas"
 
 [[cards]]
 text = "Greek Yogurt"

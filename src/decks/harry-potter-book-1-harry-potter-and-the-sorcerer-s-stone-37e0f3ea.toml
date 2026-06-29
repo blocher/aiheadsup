@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-book-1-harry-potter-and-the-sorcerer-s-stone-37e0f3ea-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-book-1-harry-potter-and-the-sorcerer-s-stone-37e0f3ea-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"
@@ -211,10 +211,6 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Platform Nine and Three-Quarters"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Chocolate Frog"
 first_revealed_installment = 1
 
 [[cards]]

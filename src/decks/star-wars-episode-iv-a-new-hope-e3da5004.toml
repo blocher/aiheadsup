@@ -1,0 +1,274 @@
+id = "deck_star-wars-episode-iv-a-new-hope_e3da5004"
+revision = 1
+name = "Star Wars Episode IV: A New Hope"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode IV: A New Hope."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-iv-a-new-hope-e3da5004-cover.jpg"
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Princess Leia"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Darth Vader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Grand Moff Tarkin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R2-D2"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Uncle Owen"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Aunt Beru"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Greedo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wedge Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Biggs Darklighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jawa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tusken Raider"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tatooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mos Eisley Cantina"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Alderaan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yavin 4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lars Homestead"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "X-wing Starfighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TIE Fighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Landspeeder"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sandcrawler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Star Destroyer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Escape Pod"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Y-wing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lightsaber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blaster"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Plans"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kessel Run"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Restraining Bolt"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jedi Knight"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bantha"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dewback"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dianoga"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Force"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Trash Compactor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Holochess"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blue Milk"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stormtrooper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rebel Alliance"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Galactic Empire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cantina Band"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tosche Station"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Trench Run"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Power Converter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jawa Sandcrawler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Luke's Landspeeder"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Trench"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dejarik Hologame"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Detention Block"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Medal of Bravery"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Womp Rats"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Star Destroyer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Marksman-H Training Remote"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Y-wing Starfighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "T-16 Skyhopper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Squadron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Princess Leia Organa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tantive IV"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Proton Torpedoes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "X-wing"
+first_revealed_installment = 1

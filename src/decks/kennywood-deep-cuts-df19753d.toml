@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include obscure Kennywood ride history, former attractions, old names, defunct areas, classic advertisements, coaster details, and longtime local fan references."
-photo_file_name = "kennywood-deep-cuts-df19753d-cover.jpg"
 spoiler_mode = false
+photo_file_name = "kennywood-deep-cuts-df19753d-cover.jpg"
 
 [[cards]]
 text = "The Pippin"

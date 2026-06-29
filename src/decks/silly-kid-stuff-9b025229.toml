@@ -5,8 +5,8 @@ category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include jokes, funny sounds, silly actions, costumes, pretend play, bathroom-humor-adjacent but family-friendly terms, goofy animals, and things that make kids laugh."
-photo_file_name = "silly-kid-stuff-9b025229-cover.jpg"
 spoiler_mode = false
+photo_file_name = "silly-kid-stuff-9b025229-cover.jpg"
 
 [[cards]]
 text = "Whoopee Cushion"

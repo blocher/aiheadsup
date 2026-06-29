@@ -5,8 +5,8 @@ category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include famous dishes, ingredients, cuisines, sauces, breads, noodles, rice dishes, street foods, and recognizable foods from around the world."
-photo_file_name = "international-foods-f396f33b-cover.jpg"
 spoiler_mode = false
+photo_file_name = "international-foods-f396f33b-cover.jpg"
 
 [[cards]]
 text = "Pad Thai"
@@ -159,9 +159,6 @@ text = "Spring Roll"
 text = "Margherita Pizza"
 
 [[cards]]
-text = "Taco Al Pastor"
-
-[[cards]]
 text = "French Onion Soup"
 
 [[cards]]
@@ -174,9 +171,6 @@ text = "Pad See Ew"
 text = "Gyro"
 
 [[cards]]
-text = "Macarons"
-
-[[cards]]
 text = "Jerk Chicken"
 
 [[cards]]
@@ -186,13 +180,7 @@ text = "Schnitzel"
 text = "Tom Yum Soup"
 
 [[cards]]
-text = "Bao Buns"
-
-[[cards]]
 text = "Tandoori Chicken"
-
-[[cards]]
-text = "Spring Rolls"
 
 [[cards]]
 text = "Baba Ghanoush"
@@ -210,10 +198,4 @@ text = "Tacos"
 text = "Beef Stroganoff"
 
 [[cards]]
-text = "Crepes"
-
-[[cards]]
 text = "Borscht"
-
-[[cards]]
-text = "Taco"

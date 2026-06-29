@@ -1,0 +1,282 @@
+id = "deck_star-wars-the-mandalorian_6181734e"
+revision = 1
+name = "Star Wars: The Mandalorian"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details from The Mandalorian."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-the-mandalorian-6181734e-cover.jpg"
+
+[[cards]]
+text = "Din Djarin"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Grogu"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Moff Gideon"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Cara Dune"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Greef Karga"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Kuiil"
+first_revealed_installment = 12
+
+[[cards]]
+text = "IG-11"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Armorer"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Bo-Katan Kryze"
+first_revealed_installment = 13
+
+[[cards]]
+text = "The Razor Crest"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Beskar Steel"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Darksaber"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Mudhorn"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Blurrg"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Boba Fett"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ahsoka Tano"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Cobb Vanth"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Fennec Shand"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Peli Motto"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mythosaur"
+first_revealed_installment = 13
+
+[[cards]]
+text = "This Is The Way"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Hover Pram"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Tracking FOB"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Whistling Birds"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Krayt Dragon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Frog Lady"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Dark Troopers"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Nevarro"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Tython"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mandalorian Covert"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Dr. Pershing"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Client"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mayfeld"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Beskar Spear"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Tusken Raiders"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bantha"
+first_revealed_installment = 1
+
+[[cards]]
+text = "N-1 Starfighter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Paz Vizsla"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Axe Woves"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Koska Reeves"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Ice Spider"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Gorian Shard"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Carson Teva"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Elia Kane"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Anzellan"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Camtono"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sorgan Frog"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Imperial Remnant"
+first_revealed_installment = 12
+
+[[cards]]
+text = "E-Web Blaster"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bounty Hunters Guild"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Razor Crest"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Darksaber"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tatooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sorgan"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Corvus"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Plazir-15"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Pit Droid"
+first_revealed_installment = 4
+
+[[cards]]
+text = "R5-D4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Vibroblade"
+first_revealed_installment = 3
+
+[[cards]]
+text = "IG-12"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Jawa Sandcrawler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Vane"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Arvala-7"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Naboo N-1 Starfighter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "E-Web Heavy Blaster"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Child"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mandalorian Helmet"
+first_revealed_installment = 2

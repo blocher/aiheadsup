@@ -5,8 +5,8 @@ category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, traps, burglars, family members, locations, holiday objects, quotes, travel mishaps, sequel references, and memorable moments from Home Alone and its sequels."
-photo_file_name = "home-alone-movies-de5af16b-cover.jpg"
 spoiler_mode = false
+photo_file_name = "home-alone-movies-de5af16b-cover.jpg"
 
 [[cards]]
 text = "Kevin McCallister"
@@ -240,9 +240,6 @@ text = "Home Alone"
 text = "Harry and Marv"
 
 [[cards]]
-text = "Paint Can Trap"
-
-[[cards]]
 text = "Tarantula on the Face"
 
 [[cards]]
@@ -265,9 +262,6 @@ text = "Pigeon Lady"
 
 [[cards]]
 text = "Overheated Doorknob"
-
-[[cards]]
-text = "Micro Machine Trap"
 
 [[cards]]
 text = "Running Through Airport"

@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban-16215fba-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban-16215fba-cover.jpg"
 
 [[cards]]
 text = "Remus Lupin"

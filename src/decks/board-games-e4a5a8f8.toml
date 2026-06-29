@@ -5,8 +5,8 @@ category = "Games"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include classic and modern board games, pieces, cards, dice, game mechanics, rules terms, family games, strategy games, party games, and common tabletop phrases."
-photo_file_name = "board-games-e4a5a8f8-cover.jpg"
 spoiler_mode = false
+photo_file_name = "board-games-e4a5a8f8-cover.jpg"
 
 [[cards]]
 text = "Monopoly"
@@ -253,9 +253,6 @@ text = "Pass Your Turn"
 
 [[cards]]
 text = "Scorepad"
-
-[[cards]]
-text = "Meeples"
 
 [[cards]]
 text = "Cardboard Tile"

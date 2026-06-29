@@ -5,8 +5,8 @@ category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include water slides, pools, lazy rivers, park areas, food stands, summer activities, Monongahela River references, and Pittsburgh-area landmarks."
-photo_file_name = "sandcastle-water-park-f3d002c8-cover.jpg"
 spoiler_mode = false
+photo_file_name = "sandcastle-water-park-f3d002c8-cover.jpg"
 
 [[cards]]
 text = "Lightning Express"

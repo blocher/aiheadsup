@@ -5,9 +5,9 @@ category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = ""
-photo_file_name = "harry-potter-play-harry-potter-and-the-cursed-child-7526177c-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
+photo_file_name = "harry-potter-play-harry-potter-and-the-cursed-child-7526177c-cover.jpg"
 
 [[cards]]
 text = "Albus Severus Potter"

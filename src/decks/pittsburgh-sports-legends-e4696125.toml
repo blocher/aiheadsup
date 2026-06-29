@@ -5,8 +5,8 @@ category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include famous Pittsburgh athletes, coaches, broadcasters, championship moments, nicknames, famous numbers, trophies, rivalries, iconic plays, and cross-sport Pittsburgh sports culture, while balancing names with events and concepts."
-photo_file_name = "pittsburgh-sports-legends-e4696125-cover.jpg"
 spoiler_mode = false
+photo_file_name = "pittsburgh-sports-legends-e4696125-cover.jpg"
 
 [[cards]]
 text = "Roberto Clemente"

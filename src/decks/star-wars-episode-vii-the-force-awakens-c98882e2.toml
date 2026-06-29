@@ -1,0 +1,298 @@
+id = "deck_star-wars-episode-vii-the-force-awakens_c98882e2"
+revision = 1
+name = "Star Wars Episode VII: The Force Awakens"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode VII: The Force Awakens."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-episode-vii-the-force-awakens-c98882e2-cover.jpg"
+
+[[cards]]
+text = "Rey"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Finn"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Poe Dameron"
+first_revealed_installment = 7
+
+[[cards]]
+text = "BB-8"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Maz Kanata"
+first_revealed_installment = 7
+
+[[cards]]
+text = "General Hux"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Supreme Leader Snoke"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Starkiller Base"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Jakku"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Takodana"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Captain Phasma"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Lor San Tekka"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Unkar Plutt"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Teedo"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Luggabeast"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Niima Outpost"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren's Lightsaber"
+first_revealed_installment = 7
+
+[[cards]]
+text = "First Order Stormtrooper"
+first_revealed_installment = 7
+
+[[cards]]
+text = "First Order TIE Fighter"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rey's Quarterstaff"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Guavian Death Gang"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kanjiklub"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Bala-Tik"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Tasu Leech"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rathtar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Happabore"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Constable Zuvio"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ello Asty"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Jess Pava"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Snap Wexley"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Lieutenant Mitaka"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Bazine Netal"
+first_revealed_installment = 7
+
+[[cards]]
+text = "PZ-4CO"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hosnian Prime"
+first_revealed_installment = 7
+
+[[cards]]
+text = "D'Qar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ahch-To"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Quadjumper"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Finalizer"
+first_revealed_installment = 7
+
+[[cards]]
+text = "T-70 X-wing"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Map to Luke Skywalker"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rey's Goggles"
+first_revealed_installment = 7
+
+[[cards]]
+text = "FN-2199"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Riot Control Baton"
+first_revealed_installment = 7
+
+[[cards]]
+text = "FN-2187"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren's Helmet"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Maz Kanata's Castle"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Special Forces TIE Fighter"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Sidon Ithano"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren's Command Shuttle"
+first_revealed_installment = 7
+
+[[cards]]
+text = "First Order"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rey's Staff"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Poe's Black One"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Grummgar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Crimson Corsair"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Maz's Castle"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kylo Ren's Shuttle"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Wollivan"
+first_revealed_installment = 7
+
+[[cards]]
+text = "ME-8D9"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hurid-327"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Doctor Kalonia"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rey's Speeder"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Captain Ithano"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "General Leia Organa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Luke Skywalker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Crossguard Lightsaber"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The First Order"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Resistance"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Star Map"
+first_revealed_installment = 7

@@ -1,0 +1,286 @@
+id = "deck_star-wars-other-movies_2e7b27b3"
+revision = 1
+name = "Star Wars: Other Movies"
+category = "Star Wars"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details from Rogue One and Solo. Tag Rogue One cards as release 8 and Solo cards as release 10."
+spoiler_mode = true
+spoiler_series = "star_wars"
+photo_file_name = "star-wars-other-movies-2e7b27b3-cover.jpg"
+
+[[cards]]
+text = "Jyn Erso"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Cassian Andor"
+first_revealed_installment = 8
+
+[[cards]]
+text = "K-2SO"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Chirrut Îmwe"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Baze Malbus"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Director Krennic"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Galen Erso"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Bodhi Rook"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Saw Gerrera"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Scarif"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Jedha"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Eadu"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Shoretrooper"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Death Trooper"
+first_revealed_installment = 8
+
+[[cards]]
+text = "U-Wing Starfighter"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Bor Gullet"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Admiral Raddus"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Benthic Two Tubes"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Moroff"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Kyber Crystal Necklace"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Citadel Tower"
+first_revealed_installment = 8
+
+[[cards]]
+text = "TIE Striker"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Lyra Erso"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Scarif Shield Gate"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Pao"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Qi'ra"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Tobias Beckett"
+first_revealed_installment = 10
+
+[[cards]]
+text = "L3-37"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Dryden Vos"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Val"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Rio Durant"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Enfys Nest"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Lady Proxima"
+first_revealed_installment = 10
+
+[[cards]]
+text = "White Worms Gang"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Mimban"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Vandor"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Droid Rebellion"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Savareen"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Coaxium"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Crimson Dawn"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Cloud-Riders"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Corellian Hound"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Summa-verminoth"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Range Trooper"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Imperial Mudtrooper"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Conveyex Train"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Han's Landspeeder"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Therm Scissorpunch"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Lando's Cape Closet"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Sagwa"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Death Star Plans"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Kyber Crystal Pendant"
+first_revealed_installment = 8
+
+[[cards]]
+text = "U-wing Fighter"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Bistan"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Lah'mu"
+first_revealed_installment = 8
+
+[[cards]]
+text = "General Draven"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Kessel Run"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Corellia"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Mudtroopers"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Han's Lucky Dice"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Sabacc"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Conveyex"
+first_revealed_installment = 10
+
+[[cards]]
+text = "M-68 Landspeeder"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Kessel Spice Mines"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Vandor-1"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Lando's Millennium Falcon"
+first_revealed_installment = 10
+
+[[cards]]
+text = "U-wing"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Jedha City"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Kessel Mines"
+first_revealed_installment = 10

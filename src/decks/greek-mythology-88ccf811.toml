@@ -5,8 +5,8 @@ category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Olympian gods, heroes, monsters, places, myths, quests, magical objects, Titans, demigods, and well-known ancient Greek stories."
-photo_file_name = "greek-mythology-88ccf811-cover.jpg"
 spoiler_mode = false
+photo_file_name = "greek-mythology-88ccf811-cover.jpg"
 
 [[cards]]
 text = "Zeus"
@@ -172,9 +172,6 @@ text = "The Labyrinth"
 
 [[cards]]
 text = "Satyr"
-
-[[cards]]
-text = "Sirens"
 
 [[cards]]
 text = "Sisyphus"

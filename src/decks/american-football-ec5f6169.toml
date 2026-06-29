@@ -5,8 +5,8 @@ category = "Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include positions, rules, equipment, plays, formations, penalties, scoring terms, stadium traditions, championships, football slang, famous moments, and famous current and past players, but should not be mostly player names."
-photo_file_name = "american-football-ec5f6169-cover.jpg"
 spoiler_mode = false
+photo_file_name = "american-football-ec5f6169-cover.jpg"
 
 [[cards]]
 text = "Touchdown"
