@@ -6,8 +6,8 @@ import { AiProvider, generateCustomPack } from './lib/ai-provider.js'
 import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './lib/ai-providers.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
-import { prepareEndCueAudio } from './lib/end-cues.js'
-import { setRoundOutcome } from './lib/game-engine.js'
+import { prepareEndCueAudio, setCueVolume } from './lib/end-cues.js'
+import { setRoundOutcome, DEFAULT_TILT_SENSITIVITY, TILT_SENSITIVITY_MIN, TILT_SENSITIVITY_MAX } from './lib/game-engine.js'
 import { requestMotionPermission } from './lib/motion-permissions.js'
 import { defaultSpoilerLimits, spoilerProgressLabel, spoilerSeriesOptions } from './lib/spoiler-series.js'
 
@@ -20,8 +20,21 @@ const finishedRound = ref(null)
 const playerNameDraft = ref('')
 const history = ref([])
 const spoilerLimits = ref(defaultSpoilerLimits())
-const tiltOnly = ref(false)
+const controlMode = ref('both')
+const tiltSensitivity = ref(DEFAULT_TILT_SENSITIVITY)
+const tiltSensitivityMin = TILT_SENSITIVITY_MIN
+const tiltSensitivityMax = TILT_SENSITIVITY_MAX
+const tiltSensitivityLabels = { 1: 'Very firm tip', 2: 'Firm tip', 3: 'Balanced', 4: 'Light tip', 5: 'Feather touch' }
+const tiltEnabled = computed(() => controlMode.value !== 'buttons')
+const startCountdown = ref(5)
+const cueVolume = ref(100)
 const endCueMode = ref('sound_haptics')
+const settingsTab = ref('gameplay')
+const settingsTabs = [
+  { id: 'gameplay', label: 'Gameplay', icon: '🎮' },
+  { id: 'decks', label: 'Decks & AI', icon: '✨' },
+  { id: 'data', label: 'Data', icon: '🗂️' }
+]
 const gameScreen = ref(null)
 const provider = new AiProvider()
 const webBuild = !Capacitor.isNativePlatform()
@@ -231,12 +244,14 @@ async function confirmAbortGame() {
 
 async function beginGame() {
   prepareEndCueAudio(endCueMode.value)
-  const motionAccess = await requestMotionPermission()
-  if (!motionAccess.granted) {
-    notice.value = motionAccess.error
-      ? 'iOS could not start motion sensing. Close and reopen Forehead Frenzy, then start a round and allow motion access.'
-      : 'Motion access was not granted. Start the round again and allow motion access so tilting can mark Correct and Pass.'
-    return
+  if (tiltEnabled.value) {
+    const motionAccess = await requestMotionPermission()
+    if (!motionAccess.granted) {
+      notice.value = motionAccess.error
+        ? 'iOS could not start motion sensing. Close and reopen Forehead Frenzy, then start a round and allow motion access.'
+        : 'Motion access was not granted. Start the round again and allow motion access so tilting can mark Correct and Pass.'
+      return
+    }
   }
   const cards = await getUnusedCards(selectedPack.value.id, spoilerLimits.value)
   if (!cards.length) { notice.value = 'This deck is out of fresh cards. Reset deck freshness to make every card available again.'; return }
@@ -406,7 +421,7 @@ async function selectProvider(providerId) {
 
 function openProviderInfo(providerId) { infoProviderId.value = providerId }
 function closeProviderInfo() { infoProviderId.value = null }
-function goToAiSettings() { notice.value = ''; screen.value = 'settings' }
+function goToAiSettings() { notice.value = ''; settingsTab.value = 'decks'; screen.value = 'settings' }
 
 async function updateSpoilerLimit(seriesId) {
   spoilerLimits.value = { ...spoilerLimits.value, [seriesId]: Number(spoilerLimits.value[seriesId]) }
@@ -418,14 +433,43 @@ async function updateSpoilerLimit(seriesId) {
 
 function spoilerLabel(pack) { return spoilerProgressLabel(pack, spoilerLimits.value) }
 
-async function updateTiltOnly() {
-  await saveSetting('tiltOnly', tiltOnly.value)
-  notice.value = tiltOnly.value ? 'Tilt-only mode is on. Correct and Pass buttons are hidden during rounds.' : 'Tap controls are back on for rounds.'
+async function updateControlMode() {
+  await saveSetting('controlMode', controlMode.value)
+  notice.value = controlMode.value === 'tilt'
+    ? 'Tilt-only control. Correct and Pass buttons are hidden during rounds.'
+    : controlMode.value === 'buttons'
+      ? 'Button-only control. Tilting will not score during rounds.'
+      : 'Tilt and buttons are both active during rounds.'
+}
+
+async function updateTiltSensitivity() {
+  tiltSensitivity.value = Number(tiltSensitivity.value)
+  await saveSetting('tiltSensitivity', tiltSensitivity.value)
+  notice.value = `Tilt sensitivity set to ${tiltSensitivityLabels[tiltSensitivity.value] || tiltSensitivity.value}.`
 }
 
 async function updateEndCueMode() {
   await saveSetting('endCueMode', endCueMode.value)
-  notice.value = endCueMode.value === 'visual' ? 'Game cues are visual only.' : endCueMode.value === 'sound' ? 'Game sound cues are on.' : 'Game sound and haptic cues are on.'
+  notice.value = endCueMode.value === 'visual'
+    ? 'Game cues are visual only.'
+    : endCueMode.value === 'haptics'
+      ? 'Game cues are visual and haptic.'
+      : endCueMode.value === 'sound'
+        ? 'Game sound cues are on.'
+        : 'Game sound and haptic cues are on.'
+}
+
+async function updateStartCountdown() {
+  startCountdown.value = Math.max(1, Math.min(12, Math.round(Number(startCountdown.value)) || 5))
+  await saveSetting('startCountdown', startCountdown.value)
+  notice.value = `Rounds start after a ${startCountdown.value}-second countdown.`
+}
+
+async function updateCueVolume() {
+  cueVolume.value = Math.max(0, Math.min(100, Math.round(Number(cueVolume.value))))
+  setCueVolume(cueVolume.value / 100)
+  await saveSetting('cueVolume', cueVolume.value)
+  notice.value = cueVolume.value === 0 ? 'Game beeps are muted.' : `Game beep volume set to ${cueVolume.value}%.`
 }
 
 async function createPack() {
@@ -482,7 +526,12 @@ onMounted(async () => {
   await syncBundledDecks()
   const savedSpoilerLimits = await getSetting('spoilerLimits', null)
   spoilerLimits.value = { ...defaultSpoilerLimits(), ...(savedSpoilerLimits || {}), ...(!savedSpoilerLimits ? { harry_potter: await getSetting('maxSpoilerBook', 7) } : {}) }
-  tiltOnly.value = await getSetting('tiltOnly', false)
+  const savedControlMode = await getSetting('controlMode', null)
+  controlMode.value = savedControlMode || (await getSetting('tiltOnly', false) ? 'tilt' : 'both')
+  tiltSensitivity.value = Number(await getSetting('tiltSensitivity', DEFAULT_TILT_SENSITIVITY)) || DEFAULT_TILT_SENSITIVITY
+  startCountdown.value = Math.max(1, Math.min(12, Number(await getSetting('startCountdown', 5)) || 5))
+  cueVolume.value = Math.max(0, Math.min(100, Number(await getSetting('cueVolume', 100))))
+  setCueVolume(cueVolume.value / 100)
   endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
   activeProviderId.value = await getSetting('aiProvider', DEFAULT_PROVIDER_ID)
   await Promise.all([refreshPacks(), refreshHistory(), refreshKeys()])
@@ -496,7 +545,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
 </script>
 
 <template>
-  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :show-manual-controls="!tiltOnly" :end-cue-mode="endCueMode" :confirm-abort="confirmAbortGame" @finish="finishGame" @abort="abortGame" />
+  <GameScreen v-if="screen === 'game'" ref="gameScreen" :pack="selectedPack" :cards="activeCards" :duration="duration" :control-mode="controlMode" :tilt-sensitivity="tiltSensitivity" :start-countdown="startCountdown" :end-cue-mode="endCueMode" :confirm-abort="confirmAbortGame" @finish="finishGame" @abort="abortGame" />
   <main v-else :class="['app-shell', { 'pack-detail-screen': screen === 'detail' }]">
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
@@ -534,7 +583,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     <template v-else-if="screen === 'detail' && selectedPack">
       <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ freshCardLabel(selectedPack) }} cards{{ selectedPack.spoilerMode ? ` · spoiler-safe through ${spoilerLabel(selectedPack)}` : '' }}</span></div></section>
       <section v-if="needsFreshReset(selectedPack)" :class="['deck-status-card', { urgent: emptyFreshCards(selectedPack) }]"><h3>{{ emptyFreshCards(selectedPack) ? 'No fresh cards left' : 'Fresh cards running low' }}</h3><p>{{ emptyFreshCards(selectedPack) ? 'Reset deck freshness to make every card available again. Saved scores stay in history.' : `Only ${freshCount(selectedPack)} of ${totalCount(selectedPack)} cards are fresh. Reset when you want the full deck back in rotation; saved scores stay.` }}</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
-      <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. Tilt down for correct, up to pass{{ tiltOnly ? '. Tilt-only mode is on.' : ', or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
+      <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. {{ controlMode === 'buttons' ? 'Tap Correct or Pass on screen to score.' : controlMode === 'tilt' ? 'Tilt down for correct, up to pass.' : 'Tilt down for correct, up to pass, or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
       <section v-if="selectedPackHighScore || selectedPackRecentRounds.length" class="deck-score-card">
         <div v-if="selectedPackHighScore" class="deck-high-score">
           <span class="activity-icon">🏆</span>
@@ -569,7 +618,24 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'settings'">
-      <section class="form-card"><p class="eyebrow">PRIVATE SETUP</p><h2>AI deck generation</h2><p v-if="webBuild">Add a key for any provider you want to use. Keys are stored only in this browser’s local storage — convenient for this local web app, but anyone with this browser profile can read them.</p><p v-else>Add a key for any provider you want to use. Keys are stored in iOS Keychain, never in the app bundle or this repository.</p>
+      <nav class="settings-tabs" role="tablist" aria-label="Settings sections">
+        <button v-for="tab in settingsTabs" :key="tab.id" type="button" role="tab" :id="`settings-tab-${tab.id}`" :aria-selected="settingsTab === tab.id" :aria-controls="`settings-panel-${tab.id}`" :class="{ selected: settingsTab === tab.id }" @click="settingsTab = tab.id"><span aria-hidden="true">{{ tab.icon }}</span>{{ tab.label }}</button>
+      </nav>
+
+      <section v-show="settingsTab === 'gameplay'" :id="`settings-panel-gameplay`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-gameplay" tabindex="0">
+        <p class="eyebrow">GAMEPLAY</p><h2>Controls &amp; cues</h2><p>Tune how rounds are scored and what feedback you get while playing.</p>
+        <h3>Scoring controls</h3>
+        <label>How to score<select v-model="controlMode" @change="updateControlMode"><option value="both">Tilt and buttons</option><option value="tilt">Tilt only</option><option value="buttons">Buttons only</option></select><small>Choose whether rounds are scored by tilting the phone, tapping Correct/Pass, or both.</small></label>
+        <label v-if="controlMode !== 'buttons'">Tilt sensitivity<input v-model.number="tiltSensitivity" type="range" :min="tiltSensitivityMin" :max="tiltSensitivityMax" step="1" @change="updateTiltSensitivity" /><span class="range-scale" aria-hidden="true"><b>Firm tip</b><b>Feather touch</b></span><small>{{ tiltSensitivityLabels[tiltSensitivity] }} — lower needs a bigger, more deliberate tip so you stop passing by accident.</small></label>
+        <label>Start countdown<select v-model.number="startCountdown" @change="updateStartCountdown"><option v-for="n in 12" :key="n" :value="n">{{ n }} second{{ n === 1 ? '' : 's' }}</option></select><small>How long the “hold the phone to your forehead” countdown lasts before each round.</small></label>
+        <hr /><h3>Feedback cues</h3>
+        <label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="haptics">Visual + haptics</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label>
+        <label v-if="endCueMode === 'sound' || endCueMode === 'sound_haptics'">Beep volume<input v-model.number="cueVolume" type="range" min="0" max="100" step="5" @change="updateCueVolume" /><span class="range-scale" aria-hidden="true"><b>Off</b><b>Loud</b></span><small>{{ cueVolume === 0 ? 'Beeps are muted.' : `Beeps play at ${cueVolume}%.` }}</small></label>
+        <hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass, or tap the on-screen buttons — depending on your control setting above. Browser and device back actions end the current round and show results instead of leaving the app.</p>
+      </section>
+
+      <section v-show="settingsTab === 'decks'" :id="`settings-panel-decks`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-decks" tabindex="0">
+        <p class="eyebrow">PRIVATE SETUP</p><h2>AI deck generation</h2><p v-if="webBuild">Add a key for any provider you want to use. Keys are stored only in this browser’s local storage — convenient for this local web app, but anyone with this browser profile can read them.</p><p v-else>Add a key for any provider you want to use. Keys are stored in iOS Keychain, never in the app bundle or this repository.</p>
         <div class="provider-list">
           <article v-for="entry in aiProviders" :key="entry.id" :class="['provider-card', { connected: providerKeyState[entry.id] }]">
             <header class="provider-card-head"><div><b>{{ entry.label }}</b><small>{{ entry.keyPrefixHint }}</small></div><div class="provider-card-tools"><span :class="['provider-badge', { connected: providerKeyState[entry.id] }]">{{ providerKeyState[entry.id] ? 'Connected' : 'Not connected' }}</span><button class="info-button" :aria-label="`How to get a ${entry.label} key`" @click="openProviderInfo(entry.id)">ⓘ</button></div></header>
@@ -584,7 +650,13 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
             </template>
           </article>
         </div>
-        <hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label><hr /><h3>Game controls</h3><label class="checkbox-row"><input v-model="tiltOnly" type="checkbox" @change="updateTiltOnly" /><span><b>Tilt-only mode</b><small>Hide Correct and Pass buttons during a round so they cannot be bumped.</small></span></label><label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label><hr /><section class="reset-all-card"><h3>Reset all deck freshness</h3><p>Make every card in every deck fresh again. Saved scores and round history stay.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button wide" @click="confirmResetAll">Reset all deck freshness</button></section><hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass. Browser and device back actions end the current round and show results instead of leaving the app.</p></section>
+        <hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label>
+      </section>
+
+      <section v-show="settingsTab === 'data'" :id="`settings-panel-data`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-data" tabindex="0">
+        <p class="eyebrow">DATA</p><h2>Deck data</h2><p>Manage card freshness across every deck. Saved scores and round history are always kept.</p>
+        <section class="reset-all-card"><h3>Reset all deck freshness</h3><p>Make every card in every deck fresh again. Saved scores and round history stay.</p><label class="checkbox-row"><input v-model="deleteAiOnReset" type="checkbox" /><span><b>Also delete AI-created packs</b><small>{{ aiPacks.length }} AI-created pack{{ aiPacks.length === 1 ? '' : 's' }} will be permanently deleted.</small></span></label><button class="secondary-button wide" @click="confirmResetAll">Reset all deck freshness</button></section>
+      </section>
     </template>
 
     <template v-else-if="screen === 'results'">

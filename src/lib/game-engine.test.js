@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { createRound, createTiltDetector, nextUnusedCard, recordOutcome, removeLastOutcome, scoreRound, setRoundOutcome } from './game-engine.js'
+import { createRound, createTiltDetector, DEFAULT_TILT_SENSITIVITY, nextUnusedCard, recordOutcome, removeLastOutcome, scoreRound, setRoundOutcome, tiltThresholdForSensitivity, TILT_SENSITIVITY_THRESHOLDS } from './game-engine.js'
 
 describe('game engine', () => {
   it('only draws cards that have not appeared', () => {
@@ -33,6 +33,19 @@ describe('game engine', () => {
     round = removeLastOutcome(round)
 
     expect(round.outcomes).toEqual([{ cardId: 'a', result: 'correct' }])
+  })
+
+  it('maps tilt sensitivity so lower levels require a bigger tip', () => {
+    expect(tiltThresholdForSensitivity(1)).toBeGreaterThan(tiltThresholdForSensitivity(5))
+    expect(tiltThresholdForSensitivity(undefined)).toBe(TILT_SENSITIVITY_THRESHOLDS[DEFAULT_TILT_SENSITIVITY])
+    expect(tiltThresholdForSensitivity(99)).toBe(TILT_SENSITIVITY_THRESHOLDS[DEFAULT_TILT_SENSITIVITY])
+  })
+
+  it('defaults to a firm, less-sensitive tip that ignores small jostles', () => {
+    const detector = createTiltDetector()
+    detector.calibrate([0, 0, 0])
+    expect(detector.read(20, 1000)).toBeNull()
+    expect(detector.read(tiltThresholdForSensitivity(DEFAULT_TILT_SENSITIVITY) + 1, 2000)).toBe('correct')
   })
 
   it('requires a return to neutral before another tilt', () => {

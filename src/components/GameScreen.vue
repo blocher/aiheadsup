@@ -4,13 +4,13 @@ import { Capacitor } from '@capacitor/core'
 import { Haptics, ImpactStyle } from '@capacitor/haptics'
 import { Motion } from '@capacitor/motion'
 import { ScreenOrientation } from '@capacitor/screen-orientation'
-import { createRound, createTiltDetector, recordOutcome, removeLastOutcome, shuffle } from '../lib/game-engine.js'
+import { createRound, createTiltDetector, recordOutcome, removeLastOutcome, shuffle, tiltThresholdForSensitivity, DEFAULT_TILT_SENSITIVITY } from '../lib/game-engine.js'
 import { markCardShown, unmarkCardsShown } from '../lib/database.js'
 import { playCountdownTone, playFinishTone, playGoTone, playOutcomeTone, playStartCountdownTone, playUndoTone } from '../lib/end-cues.js'
 
-const props = defineProps({ pack: { type: Object, required: true }, cards: { type: Array, required: true }, duration: { type: Number, required: true }, showManualControls: { type: Boolean, default: true }, endCueMode: { type: String, default: 'sound_haptics' }, confirmAbort: { type: Function, default: null } })
+const props = defineProps({ pack: { type: Object, required: true }, cards: { type: Array, required: true }, duration: { type: Number, required: true }, controlMode: { type: String, default: 'both' }, tiltSensitivity: { type: Number, default: DEFAULT_TILT_SENSITIVITY }, startCountdown: { type: Number, default: 5 }, endCueMode: { type: String, default: 'sound_haptics' }, confirmAbort: { type: Function, default: null } })
 const emit = defineEmits(['finish', 'abort'])
-const countdown = ref(3)
+const countdown = ref(Math.max(1, Math.round(props.startCountdown) || 5))
 const secondsLeft = ref(props.duration)
 const started = ref(false)
 const manuallyPaused = ref(false)
@@ -22,7 +22,9 @@ const roundFinished = ref(false)
 const available = ref(shuffle(props.cards))
 const current = ref(null)
 const round = ref(createRound(props.pack.id, props.duration))
-const detector = createTiltDetector()
+const tiltEnabled = computed(() => props.controlMode !== 'buttons')
+const showManualControls = computed(() => props.controlMode !== 'tilt')
+const detector = createTiltDetector({ threshold: tiltThresholdForSensitivity(props.tiltSensitivity) })
 const calibrationSamples = []
 const shownCards = []
 let countdownTimer
@@ -39,8 +41,8 @@ const timeProgress = computed(() => `${Math.max(0, (secondsLeft.value / props.du
 const paused = computed(() => manuallyPaused.value || hiddenPaused.value)
 const finalCountdown = computed(() => started.value && !paused.value && secondsLeft.value <= 5)
 const criticalCountdown = computed(() => finalCountdown.value && secondsLeft.value <= 3)
-const soundCuesEnabled = computed(() => props.endCueMode !== 'visual' && !cueMuted.value)
-const hapticCuesEnabled = computed(() => props.endCueMode === 'sound_haptics' && !cueMuted.value)
+const soundCuesEnabled = computed(() => (props.endCueMode === 'sound' || props.endCueMode === 'sound_haptics') && !cueMuted.value)
+const hapticCuesEnabled = computed(() => (props.endCueMode === 'haptics' || props.endCueMode === 'sound_haptics') && !cueMuted.value)
 const countdownDisplay = computed(() => launchCue.value === 'go' ? 'GO' : countdown.value)
 
 async function showNext() {
@@ -117,6 +119,7 @@ function tiltAngle(event, source) {
 }
 
 function onMotion(event, source) {
+  if (!tiltEnabled.value) return
   // Compute first so an unusable reading never claims the active source.
   const pitch = tiltAngle(event, source)
   if (pitch === null) return
@@ -238,8 +241,10 @@ onMounted(async () => {
   document.addEventListener('gesturechange', preventGameZoom, { passive: false })
   document.addEventListener('gestureend', preventGameZoom, { passive: false })
   ScreenOrientation.lock({ orientation: GAME_ORIENTATION }).catch(() => {})
-  Motion.addListener('orientation', (event) => onMotion(event, 'orientation')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
-  Motion.addListener('accel', (event) => onMotion(event, 'accel')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
+  if (tiltEnabled.value) {
+    Motion.addListener('orientation', (event) => onMotion(event, 'orientation')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
+    Motion.addListener('accel', (event) => onMotion(event, 'accel')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
+  }
   playLaunchCue()
   countdownTimer = window.setInterval(() => {
     countdown.value -= 1
@@ -292,7 +297,7 @@ defineExpose({ endRound: finish, requestAbort })
     <section v-if="!started" class="countdown-card">
       <p>Hold the phone to your forehead</p>
       <strong>{{ countdownDisplay }}</strong>
-      <small>We’re calibrating the tilt.</small>
+      <small>{{ tiltEnabled ? 'We’re calibrating the tilt.' : 'Use the on-screen buttons to score.' }}</small>
     </section>
     <section v-else-if="paused" class="countdown-card"><p>Round paused</p><strong>◔</strong><small>{{ manuallyPaused ? 'Tap Resume to keep playing.' : 'Return to the game to continue.' }}</small></section>
     <section v-else class="prompt-card">

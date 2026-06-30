@@ -1,4 +1,15 @@
 let audioContext = null
+// Master multiplier (0-1) applied to every cue's gain so players can turn the
+// beeps down or fully off from Settings. 1 keeps the original tuned levels.
+let cueVolume = 1
+
+export function setCueVolume(value) {
+  const next = Number(value)
+  cueVolume = Number.isFinite(next) ? Math.max(0, Math.min(1, next)) : 1
+  return cueVolume
+}
+
+export function getCueVolume() { return cueVolume }
 
 function context() {
   if (audioContext) return audioContext
@@ -9,6 +20,8 @@ function context() {
 }
 
 function playTone({ frequency = 440, duration = 0.12, gainPeak = 0.12, type = 'sine', startAt = 0 }) {
+  const peak = gainPeak * cueVolume
+  if (peak <= 0) return
   const audio = context()
   if (!audio || audio.state !== 'running') return
   const oscillator = audio.createOscillator()
@@ -17,7 +30,7 @@ function playTone({ frequency = 440, duration = 0.12, gainPeak = 0.12, type = 's
   oscillator.type = type
   oscillator.frequency.setValueAtTime(frequency, now)
   gain.gain.setValueAtTime(0.0001, now)
-  gain.gain.exponentialRampToValueAtTime(gainPeak, now + 0.012)
+  gain.gain.exponentialRampToValueAtTime(peak, now + 0.012)
   gain.gain.exponentialRampToValueAtTime(0.0001, now + duration)
   oscillator.connect(gain).connect(audio.destination)
   oscillator.start(now)
@@ -25,7 +38,7 @@ function playTone({ frequency = 440, duration = 0.12, gainPeak = 0.12, type = 's
 }
 
 export function prepareEndCueAudio(mode) {
-  if (mode === 'visual') return
+  if (mode !== 'sound' && mode !== 'sound_haptics') return
   const audio = context()
   if (audio?.state === 'suspended') audio.resume().catch(() => {})
 }
@@ -40,8 +53,9 @@ export function playCountdownTone(secondsLeft) {
 }
 
 export function playStartCountdownTone(countdown) {
+  // Pitch rises as the count nears GO, capped so long countdowns stay pleasant.
   playTone({
-    frequency: 520 + (3 - countdown) * 130,
+    frequency: 520 + Math.min(5, Math.max(0, 6 - countdown)) * 110,
     duration: 0.14,
     gainPeak: countdown <= 1 ? 0.16 : 0.11,
     type: countdown <= 1 ? 'square' : 'triangle'
