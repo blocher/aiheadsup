@@ -4,6 +4,7 @@ import { Capacitor } from '@capacitor/core'
 import { Haptics, ImpactStyle } from '@capacitor/haptics'
 import { Motion } from '@capacitor/motion'
 import { ScreenOrientation } from '@capacitor/screen-orientation'
+import { KeepAwake } from '@capacitor-community/keep-awake'
 import { createRound, createTiltDetector, recordOutcome, removeLastOutcome, shuffle, tiltThresholdForSensitivity, DEFAULT_TILT_SENSITIVITY } from '../lib/game-engine.js'
 import { markCardShown, unmarkCardsShown } from '../lib/database.js'
 import { playCountdownTone, playFinishTone, playGoTone, playOutcomeTone, playStartCountdownTone, playUndoTone } from '../lib/end-cues.js'
@@ -141,8 +142,34 @@ function onMotion(event, source) {
   if (result) respond(result)
 }
 
+// iOS auto-locks the screen after the idle timer expires when no touches occur,
+// which happens constantly in tilt mode where the phone is held to the forehead.
+// Disabling the idle timer (native) / holding a screen wake lock (web) keeps the
+// round alive without any taps. Guarded so it never throws on unsupported platforms.
+let screenAwake = false
+async function keepScreenAwake() {
+  try {
+    await KeepAwake.keepAwake()
+    screenAwake = true
+  } catch {
+    screenAwake = false
+  }
+}
+
+async function allowScreenSleep() {
+  if (!screenAwake) return
+  screenAwake = false
+  try {
+    await KeepAwake.allowSleep()
+  } catch {
+    /* no-op: best effort */
+  }
+}
+
 function onVisibility() {
   hiddenPaused.value = document.hidden
+  // Returning from background can drop a web wake lock; re-assert while the round runs.
+  if (!document.hidden && !roundFinished.value) keepScreenAwake()
 }
 
 function togglePause() {
@@ -241,6 +268,7 @@ onMounted(async () => {
   document.addEventListener('gesturechange', preventGameZoom, { passive: false })
   document.addEventListener('gestureend', preventGameZoom, { passive: false })
   ScreenOrientation.lock({ orientation: GAME_ORIENTATION }).catch(() => {})
+  keepScreenAwake()
   if (tiltEnabled.value) {
     Motion.addListener('orientation', (event) => onMotion(event, 'orientation')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
     Motion.addListener('accel', (event) => onMotion(event, 'accel')).then((listener) => { motionListeners.push(listener) }).catch(() => {})
@@ -271,6 +299,7 @@ onBeforeUnmount(() => {
   if (feedbackTimer) window.clearTimeout(feedbackTimer)
   motionListeners.forEach((listener) => listener?.remove?.())
   ScreenOrientation.unlock().catch(() => {})
+  allowScreenSleep()
 })
 
 defineExpose({ endRound: finish, requestAbort })
