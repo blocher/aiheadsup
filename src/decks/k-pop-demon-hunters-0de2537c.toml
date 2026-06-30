@@ -1,10 +1,10 @@
 id = "deck_k-pop-demon-hunters_0de2537c"
-revision = 2
+revision = 3
 name = "K-Pop Demon Hunters"
 category = "Movies"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = "Cards should include characters, songs, magical objects, demons, idols, settings, action moments, music-industry terms, humor, and memorable family-friendly details from K-Pop Demon Hunters."
+special_prompt_note = "Cards should only include characters, songs, objects, demons, settings, Korean folklore, and specific moments actually shown or named in the movie K-Pop Demon Hunters. Do not include generic K-pop or music-industry terms, real-world crossovers, or fandom or marketing references from outside the film."
 photo_file_name = "k-pop-demon-hunters-0de2537c-cover.jpg"
 spoiler_mode = false
 
@@ -51,6 +51,9 @@ text = "Mystery Saja"
 text = "Abby Saja"
 
 [[cards]]
+text = "Baby Saja"
+
+[[cards]]
 text = "Golden"
 
 [[cards]]
@@ -75,13 +78,13 @@ text = "Free"
 text = "Strategy"
 
 [[cards]]
+text = "Jinu's Lament"
+
+[[cards]]
 text = "Honmoon"
 
 [[cards]]
 text = "Golden Honmoon"
-
-[[cards]]
-text = "Rainbow Honmoon"
 
 [[cards]]
 text = "Demon Patterns"
@@ -96,7 +99,10 @@ text = "Gokdo Polearm"
 text = "Shinkal Knives"
 
 [[cards]]
-text = "Idol Awards"
+text = "Soul Drain"
+
+[[cards]]
+text = "Sunlight Sisters"
 
 [[cards]]
 text = "Demon World"
@@ -114,10 +120,10 @@ text = "Bukchon Hanok Village"
 text = "Bathhouse"
 
 [[cards]]
-text = "Ramyun"
+text = "Idol Awards"
 
 [[cards]]
-text = "Lightstick"
+text = "Ramyun"
 
 [[cards]]
 text = "Black Hanbok"
@@ -126,58 +132,10 @@ text = "Black Hanbok"
 text = "Jeoseung Saja"
 
 [[cards]]
-text = "The Pride"
-
-[[cards]]
-text = "Half-Demon"
-
-[[cards]]
 text = "Joseon Era"
 
 [[cards]]
-text = "Perfect All-Kill"
-
-[[cards]]
-text = "Glitter Fight"
-
-[[cards]]
-text = "Minhwa Tiger"
-
-[[cards]]
-text = "Sing-Along"
-
-[[cards]]
-text = "World Tour"
-
-[[cards]]
-text = "Debut Stage"
-
-[[cards]]
-text = "Comeback Stage"
-
-[[cards]]
-text = "Fan Chant"
-
-[[cards]]
-text = "Dance Break"
-
-[[cards]]
-text = "Center Position"
-
-[[cards]]
-text = "Maknae"
-
-[[cards]]
-text = "Lead Vocalist"
-
-[[cards]]
-text = "Main Dancer"
-
-[[cards]]
-text = "Main Rapper"
-
-[[cards]]
-text = "Soul Drain"
+text = "Half-Demon"
 
 [[cards]]
 text = "Jinu's Sacrifice"
@@ -187,15 +145,3 @@ text = "Rumi's Voice"
 
 [[cards]]
 text = "Gwi-Ma's Trance"
-
-[[cards]]
-text = "Play Games With Us"
-
-[[cards]]
-text = "Rooftop Concert"
-
-[[cards]]
-text = "Fortnite Huntrix"
-
-[[cards]]
-text = "KeDeHun Fandom"
