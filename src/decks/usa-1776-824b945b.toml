@@ -1,7 +1,7 @@
 id = "deck_usa-1776_824b945b"
 revision = 1
 name = "USA 1776"
-category = "America 250"
+category = "USA 250"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Declaration of Independence signers, Revolutionary War battles, founding documents, colonial life, Boston Tea Party, Continental Congress, famous patriots, and events leading to American independence."
