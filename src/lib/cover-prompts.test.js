@@ -1,5 +1,5 @@
 import { describe, expect, it, vi } from 'vitest'
-import { coverPromptForDeck, generateCoverWithFallback, genericCoverPrompt, isCopyrightRelatedImageError } from './cover-prompts.js'
+import { coverPromptForDeck, deviceCoverConcept, generateCoverWithFallback, genericCoverPrompt, isCopyrightRelatedImageError } from './cover-prompts.js'
 
 describe('cover prompts', () => {
   it('detects copyright-related image errors', () => {
@@ -29,6 +29,16 @@ describe('cover prompts', () => {
     expect(prompt).toContain('enchanted castles')
     expect(prompt).not.toMatch(/harry potter|hogwarts|dumbledore/i)
     expect(prompt).toContain('generic visuals')
+  })
+
+  it('builds short, franchise-safe concept prompts for on-device Image Playground', () => {
+    const concept = deviceCoverConcept({ name: 'Book 1', category: 'Harry Potter' })
+    expect(concept).toContain('magical castle')
+    expect(concept).not.toMatch(/harry potter|book 1|no copyrighted/i)
+    expect(concept.split(/\s+/).length).toBeLessThan(20)
+
+    const unknown = deviceCoverConcept({ name: '90s One-Hit Wonders', category: 'Trivia' })
+    expect(unknown.toLowerCase()).toContain('90s one-hit wonders')
   })
 
   it('retries with a generic prompt after a copyright rejection', async () => {

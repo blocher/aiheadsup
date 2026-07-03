@@ -1,7 +1,7 @@
 import { Capacitor, registerPlugin } from '@capacitor/core'
 import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
-import { coverPromptForDeck, generateCoverWithFallback } from './cover-prompts.js'
+import { coverPromptForDeck, deviceCoverConcept, generateCoverWithFallback } from './cover-prompts.js'
 import {
   AI_PROVIDERS,
   CLOUD_AI_PROVIDERS,
@@ -17,13 +17,19 @@ import {
   getDeviceAiStatus,
   getDeviceBatchSize,
   getDeviceMaxOutputTokens,
-  getDeviceReviewBatchSize,
-  promptDevice
+  promptDevice,
+  warmupDeviceSession
 } from './local-llm.js'
+import { parseAiCardBatch, parseAiJsonObject } from './ai-json.js'
 import { reviewDeckCards } from './card-accuracy.js'
 
 const SecureAi = registerPlugin('SecureAi')
 const DEVICE_SESSION_ID = 'forehead-frenzy-deck-gen'
+const DEVICE_INSTRUCTIONS = 'You write Heads Up guessing-game card prompts. Reply with raw JSON only — no markdown fences, no commentary, no code blocks. Use exactly this shape: {"cards":[{"prompt":"Example"}]}. Put every card in one cards array.'
+
+export function warmupDeviceDeckSession() {
+  return warmupDeviceSession({ sessionId: DEVICE_SESSION_ID, promptPrefix: DEVICE_INSTRUCTIONS })
+}
 
 function isNative() { return Capacitor.isNativePlatform() }
 
@@ -87,9 +93,13 @@ function webGenerate({ providerId, model, prompt, wantsImage }) {
 }
 
 async function requestDeviceText(prompt) {
+  // Deliberately omit sessionId so each batch runs in a fresh, transient
+  // session. Reusing one session across the many batch/retry calls made for a
+  // single deck lets the transcript (prompt + JSON response + growing exclusion
+  // list) accumulate until it overflows Apple Intelligence's context window,
+  // which surfaces as a "deck request was too large" error mid-generation.
   return promptDevice({
-    sessionId: DEVICE_SESSION_ID,
-    instructions: 'You write Heads Up guessing-game card prompts. Always return valid JSON only, with no markdown or commentary.',
+    instructions: DEVICE_INSTRUCTIONS,
     prompt,
     maximumOutputTokens: getDeviceMaxOutputTokens()
   })
@@ -121,6 +131,122 @@ async function requestImage(providerId, model, prompt) {
 
 export function generationBatchSize(providerId) {
   return isDeviceProviderId(providerId) ? getDeviceBatchSize() : 50
+}
+
+export function generationBatchAttempts(providerId) {
+  return isDeviceProviderId(providerId) ? 12 : 4
+}
+
+function trimPromptToWords(prompt, maxWords = 4) {
+  const words = prompt.trim().split(/\s+/).filter(Boolean)
+  return words.slice(0, maxWords).join(' ')
+}
+
+function sanitizeGeneratedCard(card, spoilerSeries) {
+  const raw = typeof card === 'string' ? card : card?.prompt
+  if (typeof raw !== 'string') return null
+  const prompt = trimPromptToWords(raw)
+  if (!prompt) return null
+  if (!spoilerSeries) return { prompt, earliestInstallment: null }
+  let earliestInstallment = Number(card?.earliestInstallment ?? card?.earliestBook)
+  if (!Number.isInteger(earliestInstallment) || earliestInstallment < 1 || earliestInstallment > spoilerSeries.installments.length) {
+    earliestInstallment = 1
+  }
+  return { prompt, earliestInstallment }
+}
+
+function addUniqueCards(prompts, batchCards, maxAdd) {
+  const seen = new Set(prompts.map((card) => normalizePrompt(card.prompt)))
+  let added = 0
+  for (const card of batchCards) {
+    if (added >= maxAdd) break
+    const normalized = normalizePrompt(card.prompt)
+    if (!normalized || seen.has(normalized)) continue
+    seen.add(normalized)
+    prompts.push(card)
+    added += 1
+  }
+  return added
+}
+
+function requestCountForBatch({ stillNeeded, providerId, attempt, batchSize }) {
+  if (!isDeviceProviderId(providerId)) return stillNeeded
+  if (attempt >= 6) return Math.max(2, Math.ceil(stillNeeded / 2))
+  return Math.min(stillNeeded + 4, batchSize)
+}
+
+// Errors that won't improve by retrying: the model can't run, refused on
+// safety grounds, or the request overflowed its context. Everything else
+// (empty/garbled output, transient failures) is worth another quick attempt.
+const NON_RETRYABLE_DEVICE_KINDS = new Set(['model-unavailable', 'guardrail', 'context'])
+
+function isRetryableDeviceError(error) {
+  return !NON_RETRYABLE_DEVICE_KINDS.has(error?.kind)
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
+async function fillCardTarget({ provider, request, targetCount, batchSize, onBatchComplete }) {
+  const prompts = []
+  const isDevice = isDeviceProviderId(request.providerId)
+  const maxAttempts = generationBatchAttempts(request.providerId)
+  const totalBatches = Math.ceil(targetCount / batchSize)
+  let stopEarly = false
+
+  const maxTries = isDevice ? 3 : 1
+  const runBatch = async (count) => {
+    let lastError
+    for (let attempt = 0; attempt < maxTries; attempt += 1) {
+      try {
+        return await provider.generateCards({
+          ...request,
+          count,
+          excludedPrompts: prompts.map((card) => card.prompt)
+        })
+      } catch (error) {
+        lastError = error
+        // Fatal on-device errors (model unavailable, guardrail, context) won't
+        // improve on retry, so stop looping immediately and let the logic below
+        // rethrow — this keeps the cloud fallback fast.
+        if (!isDevice || !isRetryableDeviceError(error)) break
+        if (attempt < maxTries - 1) await sleep(150 * (attempt + 1))
+      }
+    }
+    // Once we already have usable cards, tolerate a failed round by stopping and
+    // keeping the partial deck. With no cards yet, rethrow so the caller can fall
+    // back to a cloud provider or show a real error.
+    if (prompts.length > 0) {
+      stopEarly = true
+      return []
+    }
+    throw lastError
+  }
+
+  for (let batch = 1; batch <= totalBatches && !stopEarly; batch += 1) {
+    const batchTarget = Math.min(batchSize, targetCount - prompts.length)
+    const batchStart = prompts.length
+    for (let attempt = 0; attempt < maxAttempts && !stopEarly; attempt += 1) {
+      const stillNeeded = batchTarget - (prompts.length - batchStart)
+      if (stillNeeded <= 0) break
+      const batchCards = await runBatch(requestCountForBatch({ stillNeeded, providerId: request.providerId, attempt, batchSize }))
+      addUniqueCards(prompts, batchCards, stillNeeded)
+    }
+    onBatchComplete?.({ phase: 'generating', batch, totalBatches, cardCount: prompts.length, targetCardCount: targetCount })
+  }
+
+  let topUpAttempts = 0
+  while (!stopEarly && prompts.length < targetCount && topUpAttempts < (isDevice ? 16 : 6)) {
+    topUpAttempts += 1
+    const before = prompts.length
+    const stillNeeded = Math.min(isDevice ? 4 : batchSize, targetCount - prompts.length)
+    const batchCards = await runBatch(requestCountForBatch({ stillNeeded, providerId: request.providerId, attempt: topUpAttempts, batchSize }))
+    addUniqueCards(prompts, batchCards, stillNeeded)
+    if (prompts.length === before && topUpAttempts >= 3) break
+  }
+
+  return { prompts, complete: prompts.length >= targetCount }
 }
 
 export class AiProvider {
@@ -155,28 +281,52 @@ export class AiProvider {
   async generateCards({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty, count, excludedPrompts, spoilerSeries: requestedSpoilerSeries = '', harryPotterMode = false, specialPromptNote = '' }) {
     const meta = getProvider(providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
     const subject = (name || category).trim()
-    const exclusions = excludedPrompts.slice(-300).join(', ')
+    // Keep the on-device prompt small: a long exclusion list eats into Apple
+    // Intelligence's limited context window. Client-side de-duplication catches
+    // any repeats the trimmed list misses.
+    const exclusionWindow = isDeviceProviderId(meta.id) ? 60 : 300
+    const exclusions = excludedPrompts.slice(-exclusionWindow).join(', ')
     const spoilerSeries = getSpoilerSeries(requestedSpoilerSeries || (harryPotterMode ? 'harry_potter' : ''))
     const schema = spoilerSeries ? '{"cards":[{"prompt":"item","earliestInstallment":1}]}' : '{"cards":[{"prompt":"item"}]}'
     const spoilerRule = spoilerSeries ? `For every card, set earliestInstallment to the earliest ${spoilerSeries.label} installment where that person, place, object, creature, spell, or concept is revealed. Use a whole number from 1 through ${spoilerSeries.installments.length}. The order is: ${spoilerSeries.installments.map((installment, index) => `${index + 1}=${installment}`).join('; ')}. ` : ''
-    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for a deck titled "${subject}" (category: ${category}). Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words that clearly fits "${subject}". No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}`
+    const prompt = `Create exactly ${count} unique Heads Up style guessing prompts for a deck titled "${subject}" (category: ${category}). Audience: ${audience}. Difficulty: ${difficulty}. Extra deck guidance: ${specialPromptNote || 'None.'} Return only JSON of the form ${schema}. Every prompt must be a simple, clueable person, place, thing, creature, spell, or title of 1 to 4 words that clearly fits "${subject}". No sentences, descriptions, hints, questions, variants, subtitles, or duplicated answers. ${spoilerRule}Do not reuse or closely restate these existing prompts: ${exclusions}${isDeviceProviderId(meta.id) ? ' Put all cards in one cards array. Do not wrap each card in its own object.' : ''}`
     const { text } = await requestText(meta.id, meta.textModel, prompt)
-    let parsed
-    try { parsed = JSON.parse(text) } catch { throw new Error('The AI returned an unreadable card batch. Please retry.') }
-    const cards = Array.isArray(parsed.cards) ? parsed.cards : []
-    return cards.map((card) => ({ prompt: typeof card === 'string' ? card : card?.prompt, earliestInstallment: spoilerSeries ? Number(card?.earliestInstallment ?? card?.earliestBook) : null }))
-      .filter((card) => typeof card.prompt === 'string' && card.prompt.trim().split(/\s+/).length <= 4 && card.prompt.trim().length > 0 && (!spoilerSeries || Number.isInteger(card.earliestInstallment) && card.earliestInstallment >= 1 && card.earliestInstallment <= spoilerSeries.installments.length))
-      .map((card) => ({ ...card, prompt: card.prompt.trim() }))
+    let cards
+    try {
+      cards = parseAiCardBatch(text)
+    } catch {
+      throw new Error('The AI returned an unreadable card batch. Please retry.')
+    }
+    return cards
+      .map((card) => sanitizeGeneratedCard(card, spoilerSeries))
+      .filter(Boolean)
   }
 
   async generateCover({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty }) {
     const meta = getProvider(providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
+    const coverInput = () => ({ name: (name || category).trim(), category, audience, difficulty })
+    const coverToBlob = (result) => {
+      const bytes = Uint8Array.from(atob(result.base64), (char) => char.charCodeAt(0))
+      return new Blob([bytes], { type: result.mimeType || 'image/png' })
+    }
+    if (isDeviceProviderId(meta.id)) {
+      // Image Playground is slow and frequently unavailable, and long, negative,
+      // franchise-heavy prompts make it fail outright. Try one short, concept
+      // style prompt (with an internal timeout) and fall back immediately to a
+      // fast, always-available generated cover so on-device decks never stall.
+      if (Capacitor.getPlatform() !== 'ios') return fallbackCover(category)
+      try {
+        const result = await requestImage(meta.id, meta.imageModel, deviceCoverConcept({ name: (name || category).trim(), category }))
+        return coverToBlob(result)
+      } catch {
+        return fallbackCover(category)
+      }
+    }
     const result = await generateCoverWithFallback({
-      getPromptInput: () => ({ name: (name || category).trim(), category, audience, difficulty }),
+      getPromptInput: coverInput,
       requestImage: (prompt) => requestImage(meta.id, meta.imageModel, prompt)
     })
-    const bytes = Uint8Array.from(atob(result.base64), (char) => char.charCodeAt(0))
-    return new Blob([bytes], { type: result.mimeType || 'image/png' })
+    return coverToBlob(result)
   }
 }
 
@@ -189,26 +339,27 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
   const targetCardCount = Number(request.cardCount ?? 100)
   if (!Number.isInteger(targetCardCount) || targetCardCount < 1 || targetCardCount > 350) throw new Error('Choose between 1 and 350 cards.')
   const batchSize = generationBatchSize(request.providerId)
-  const totalBatches = Math.ceil(targetCardCount / batchSize)
-  const prompts = []
   let cover = null
   const coverTask = provider.generateCover(request).then((result) => { cover = result }).catch(() => { cover = fallbackCover(request.category) })
-  for (let batch = 1; batch <= totalBatches; batch += 1) {
-    const batchTarget = Math.min(batchSize, targetCardCount - prompts.length)
-    const batchStart = prompts.length
-    let complete = false
-    for (let attempt = 0; attempt < 4 && !complete; attempt += 1) {
-      const stillNeeded = batchTarget - (prompts.length - batchStart)
-      const batchCards = await provider.generateCards({ ...request, count: stillNeeded, excludedPrompts: prompts.map((card) => card.prompt) })
-      const unique = batchCards.filter((card) => !prompts.some((saved) => normalizePrompt(saved.prompt) === normalizePrompt(card.prompt)))
-      prompts.push(...unique.slice(0, stillNeeded))
-      if (prompts.length - batchStart === batchTarget) complete = true
-    }
-    if (!complete) throw new Error('The AI could not supply enough unique prompts. Nothing was saved; please retry.')
-    onProgress?.({ phase: 'generating', batch, totalBatches, cardCount: prompts.length, targetCardCount })
+  const { prompts, complete } = await fillCardTarget({
+    provider,
+    request,
+    targetCount: targetCardCount,
+    batchSize,
+    onBatchComplete: onProgress
+  })
+  if (!prompts.length) {
+    throw new Error('The AI did not generate any usable cards. Please try again.')
   }
+  const partial = !complete
   const meta = getProvider(request.providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
-  if (!skipAccuracyReview) {
+  // The accuracy review is a second full pass over every card. On slow
+  // on-device models that roughly doubles generation time (the "extra deck"
+  // feeling) while the small on-device model is a weak fact-checker anyway.
+  // Cards are already sanitized and de-duplicated during generation, so we
+  // reserve the review pass for cloud providers.
+  const runAccuracyReview = !skipAccuracyReview && !isDeviceProviderId(meta.id)
+  if (runAccuracyReview) {
     const reviewedPrompts = await reviewDeckCards({
       cards: prompts,
       deckMeta: {
@@ -219,10 +370,9 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
         specialPromptNote: request.specialPromptNote?.trim() || '',
         spoilerSeries: request.spoilerSeries || (request.harryPotterMode ? 'harry_potter' : '')
       },
-      batchSize: isDeviceProviderId(meta.id) ? getDeviceReviewBatchSize() : undefined,
       requestReview: async (prompt) => {
         const { text } = await requestText(meta.id, meta.textModel, prompt)
-        try { return JSON.parse(text) } catch { throw new Error('The AI returned an unreadable accuracy review.') }
+        try { return parseAiJsonObject(text) } catch { throw new Error('The AI returned an unreadable accuracy review.') }
       },
       onProgress: (update) => onProgress?.({ ...update, targetCardCount: prompts.length })
     })
@@ -245,7 +395,9 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
       cover: { kind: 'blob', value: cover },
       createdAt: new Date().toISOString()
     },
-    cards: prompts.map((card) => ({ id: createId('card'), prompt: card.prompt, normalizedPrompt: normalizePrompt(card.prompt), earliestInstallment: card.earliestInstallment, firstShownAt: null }))
+    cards: prompts.map((card) => ({ id: createId('card'), prompt: card.prompt, normalizedPrompt: normalizePrompt(card.prompt), earliestInstallment: card.earliestInstallment, firstShownAt: null })),
+    requestedCardCount: targetCardCount,
+    partial
   }
 }
 

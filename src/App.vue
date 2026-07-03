@@ -1,9 +1,9 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
 import TutorialOverlay from './components/TutorialOverlay.vue'
-import { AiProvider, generateCustomPack, generationBatchSize } from './lib/ai-provider.js'
+import { AiProvider, generateCustomPack, generationBatchSize, warmupDeviceDeckSession } from './lib/ai-provider.js'
 import {
   AI_PROVIDERS,
   CLOUD_AI_PROVIDERS,
@@ -75,7 +75,7 @@ const deviceBadgePending = computed(() => deviceAiStatus.value === 'notready')
 const infoProvider = computed(() => getProvider(infoProviderId.value))
 const notice = ref('')
 const loading = ref(true)
-const creation = ref({ name: '', category: 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' })
+const creation = ref(defaultCreation())
 const creating = ref(false)
 const progress = ref(null)
 const importInput = ref(null)
@@ -85,6 +85,10 @@ const confirmDialog = ref(null)
 let confirmDialogResolve = null
 const showTutorial = ref(false)
 const tutorialManual = ref(false)
+
+watch(screen, () => {
+  window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+})
 
 const packCounts = ref({})
 const results = computed(() => {
@@ -128,6 +132,17 @@ const isNewDeckHighScore = computed(() => {
   return finishedRoundHighScore.value.id === finishedRound.value.id
 })
 const categories = computed(() => [...new Set(packs.value.map((pack) => pack.category).filter(Boolean))].sort())
+const createCategoryOptions = computed(() => {
+  const options = new Set(categories.value)
+  options.add('Other')
+  return [...options].sort((left, right) => left.localeCompare(right))
+})
+const canSubmitCreation = computed(() => {
+  if (creating.value || creation.value.name.trim().length < 2) return false
+  if (!creation.value.category) return false
+  if (creation.value.category === '__new__') return creation.value.newCategory.trim().length >= 2
+  return true
+})
 const aiPacks = computed(() => packs.value.filter((pack) => pack.isAiGenerated))
 const categoryGroups = computed(() => categories.value
   .filter((category) => selectedCategory.value === 'all' || selectedCategory.value === category)
@@ -155,7 +170,14 @@ const categoryIcons = {
   Nonsense: '🤪',
   'TV Shows': '📺',
   Music: '🎵',
-  'Colleges and Universities': '🎓'
+  'Colleges and Universities': '🎓',
+  Other: '✨'
+}
+function defaultCardCountForProvider(providerId) {
+  return providerId === DEVICE_PROVIDER_ID ? 50 : 100
+}
+function defaultCreation(providerId = DEFAULT_PROVIDER_ID) {
+  return { name: '', category: '', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: defaultCardCountForProvider(providerId), spoilerSeries: '', specialPromptNote: '' }
 }
 function categoryIcon(category) { return categoryIcons[category] || '✨' }
 
@@ -507,6 +529,9 @@ async function removeProviderKey(providerId) {
 async function selectProvider(providerId) {
   activeProviderId.value = providerId
   await saveSetting('aiProvider', providerId)
+  if (screen.value === 'create' && providerId === DEVICE_PROVIDER_ID) {
+    creation.value = { ...creation.value, cardCount: 50 }
+  }
   notice.value = `New decks will be generated with ${getProvider(providerId).label}.`
 }
 
@@ -523,7 +548,11 @@ async function goToAiSettings() {
 async function openCreateScreen() {
   await refreshDeviceAi()
   syncActiveProvider()
+  creation.value = { ...creation.value, cardCount: defaultCardCountForProvider(activeProviderId.value) }
   screen.value = 'create'
+  if (activeProviderId.value === DEVICE_PROVIDER_ID && deviceAiReady.value) {
+    void warmupDeviceDeckSession()
+  }
 }
 
 async function updateSpoilerLimit(seriesId) {
@@ -575,9 +604,17 @@ async function updateCueVolume() {
   notice.value = cueVolume.value === 0 ? 'Game beeps are muted.' : `Game beep volume set to ${cueVolume.value}%.`
 }
 
+function onCardCountChange() {
+  if (activeProviderId.value === DEVICE_PROVIDER_ID && creation.value.cardCount > 50) {
+    creation.value = { ...creation.value, cardCount: 50 }
+    notice.value = 'On-device AI generates up to 50 cards per deck. Add a Gemini or OpenAI key in Settings for larger decks — card count set back to 50.'
+  }
+}
+
 async function createPack() {
   const name = creation.value.name.trim()
   if (name.length < 2) { notice.value = 'Give your deck a name.'; return }
+  if (!creation.value.category) { notice.value = 'Choose a category.'; return }
   const category = creation.value.category === '__new__' ? creation.value.newCategory.trim() : creation.value.category.trim()
   if (category.length < 2) { notice.value = 'Choose or add a category.'; return }
   if (!canGenerate.value) {
@@ -611,9 +648,11 @@ async function createPack() {
     await saveCustomPack(result.pack, result.cards)
     await refreshPacks()
     selectedPack.value = packs.value.find((pack) => pack.id === result.pack.id) || result.pack
-    creation.value = { name: '', category: categories.value[0] || 'Harry Potter', newCategory: '', audience: 'Family', difficulty: 'Easy', cardCount: 100, spoilerSeries: '', specialPromptNote: '' }
+    creation.value = defaultCreation(activeProviderId.value)
     screen.value = 'detail'
-    notice.value = `“${result.pack.title}” is ready with ${result.cards.length} cards.`
+    notice.value = result.partial
+      ? `“${result.pack.title}” saved with ${result.cards.length} of ${result.requestedCardCount} cards — still playable. Try again anytime for a fuller deck.`
+      : `“${result.pack.title}” is ready with ${result.cards.length} cards.`
   } catch (error) { notice.value = error.message || 'The pack was not saved. Please try again.' }
   finally { creating.value = false; progress.value = null }
 }
@@ -695,7 +734,7 @@ onBeforeUnmount(() => {
 
     <template v-else-if="screen === 'library'">
       <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button hero-ai-button" @click="openCreateScreen"><span class="hero-ai-spark" aria-hidden="true">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
-      <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>All-time high scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
+      <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>High scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
       <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
       <section class="library-heading"><h3>Categories</h3></section>
       <nav v-if="categories.length" class="category-filter" aria-label="Filter packs by category">
@@ -720,16 +759,14 @@ onBeforeUnmount(() => {
     <template v-else-if="screen === 'detail' && selectedPack">
       <section class="pack-detail-cover"><img v-if="selectedPack.cover" :src="coverUrl(selectedPack)" alt="" /><div><p>{{ selectedPack.category }} · {{ selectedPack.difficulty }}</p><h2>{{ selectedPack.title }}</h2><span>{{ freshCardLabel(selectedPack) }} cards{{ selectedPack.spoilerMode ? ` · spoiler-safe through ${spoilerLabel(selectedPack)}` : '' }}</span></div></section>
       <section v-if="needsFreshReset(selectedPack)" :class="['deck-status-card', { urgent: emptyFreshCards(selectedPack) }]"><h3>{{ emptyFreshCards(selectedPack) ? 'No fresh cards left' : 'Fresh cards running low' }}</h3><p>{{ emptyFreshCards(selectedPack) ? 'Reset deck freshness to make every card available again. Saved scores stay in history.' : `Only ${freshCount(selectedPack)} of ${totalCount(selectedPack)} cards are fresh. Reset when you want the full deck back in rotation; saved scores stay.` }}</p><button class="secondary-button wide" @click="confirmReset">Reset deck freshness</button></section>
-      <section class="detail-card"><h3>Ready, set, forehead.</h3><p>Hold your phone screen-out to your forehead. Friends clue you in. {{ controlMode === 'buttons' ? 'Tap Correct or Pass on screen to score.' : controlMode === 'tilt' ? 'Tilt down for correct, up to pass.' : 'Tilt down for correct, up to pass, or use the on-screen buttons.' }}</p><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
+      <section class="detail-card"><div class="detail-card-lead"><h3>Ready, set, forehead.</h3><p>{{ controlMode === 'buttons' ? 'Phone to your forehead — friends clue you in. Tap Correct or Pass to score.' : controlMode === 'tilt' ? 'Phone to your forehead — friends clue you in. Tilt down for correct, up to pass.' : 'Phone to your forehead — friends clue you in. Tilt or tap to score.' }}</p></div><div class="duration-picker"><button v-for="option in [30, 60, 90]" :key="option" :class="{ selected: duration === option }" @click="duration = option">{{ option }} sec</button></div><button class="primary-button wide" :disabled="!freshCount(selectedPack)" @click="beginGame">Start {{ duration }}-second round</button></section>
       <section v-if="selectedPackHighScore || selectedPackRecentRounds.length" class="deck-score-card">
-        <div v-if="selectedPackHighScore" class="deck-high-score">
-          <span class="activity-icon">🏆</span>
-          <span><b>Deck high score</b><small>{{ selectedPackHighScore.score }} correct{{ roundPlayerLabel(selectedPackHighScore) }} · {{ new Date(selectedPackHighScore.endedAt || selectedPackHighScore.startedAt).toLocaleDateString() }} · {{ selectedPackHighScore.durationSeconds }} sec</small></span>
+        <div class="deck-score-head">
+          <h3>{{ selectedPackRecentRounds.length ? 'Recent rounds' : 'Deck scores' }}</h3>
+          <span v-if="selectedPackHighScore" class="deck-best-chip">🏆 Best {{ selectedPackHighScore.score }}</span>
         </div>
-        <template v-if="selectedPackRecentRounds.length">
-          <h3>Recent rounds</h3>
-          <section class="recent-rounds history-list compact"><button v-for="round in selectedPackRecentRounds" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>{{ round.playerName || 'Anonymous' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleString() }} · {{ round.durationSeconds }} seconds</small></span><em>View ›</em></button></section>
-        </template>
+        <section v-if="selectedPackRecentRounds.length" class="recent-rounds history-list compact"><button v-for="round in selectedPackRecentRounds.slice(0, 3)" :key="round.id" @click="openHistoryRound(round)"><strong>{{ round.score }}</strong><span><b>{{ round.playerName || 'Anonymous' }}</b><small>{{ new Date(round.endedAt || round.startedAt).toLocaleDateString() }} · {{ round.durationSeconds }}s</small></span><em>View ›</em></button></section>
+        <button v-if="selectedPackRecentRounds.length > 3" type="button" class="deck-score-viewall" @click="screen = 'history'">View all {{ selectedPackRecentRounds.length }} rounds ›</button>
       </section>
       <div class="manage-row"><button @click="confirmReset">Reset deck freshness</button><button v-if="selectedPack.isAiGenerated" @click="exportDeck(selectedPack)">Export TOML package</button><button v-if="selectedPack.source !== 'bundled_toml'" class="danger" @click="removePack">Delete deck</button></div>
     </template>
@@ -747,12 +784,13 @@ onBeforeUnmount(() => {
         <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Cards are generated privately on your phone — no API key needed.' : `${activeProvider.label} creates simple, 1–4 word cards and a cover image.` }} Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
         <label v-if="availableProviders.length > 1">AI source<div class="segmented provider-picker"><button v-for="entry in availableProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div><small>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Recommended when available — private and offline.' : 'Uses your saved API key over the internet.' }}</small></label>
         <label>Deck name<input v-model="creation.name" maxlength="60" placeholder="e.g. Taylor Swift Songs" :disabled="creating" required /><small>Shown as the deck title and guides the cards the AI writes.</small></label>
-        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === DEVICE_PROVIDER_ID ? ' On-device generation can take longer on large decks.' : activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
+        <label>Category<select v-model="creation.category" :disabled="creating" required><option value="" disabled>Choose a category…</option><option v-for="category in createCategoryOptions" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating" @change="onCardCountChange"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select><small v-if="activeProvider.id === DEVICE_PROVIDER_ID">On-device AI supports up to 50 cards per deck. Add a Gemini or OpenAI key for larger decks.</small></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === DEVICE_PROVIDER_ID ? ' On-device generation can take longer on large decks.' : activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><p v-if="activeProvider.id === DEVICE_PROVIDER_ID" class="device-speed-note">Tip: adding a <button type="button" class="link-button" :disabled="creating" @click="goToAiSettings">Gemini or OpenAI key</button> makes generation noticeably faster and more accurate than on-device AI.</p><button class="primary-button wide" :disabled="!canSubmitCreation" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
         <div v-if="creating" class="generating-overlay" role="status" aria-live="polite">
           <span class="generating-spinner" aria-hidden="true"></span>
           <strong>Creating “{{ creation.name.trim() || 'your deck' }}”…</strong>
           <span v-if="progress" class="generating-progress">{{ progress.phase === 'reviewing' ? `Reviewing cards… ${progress.reviewedCount} / ${progress.targetCardCount} checked · batch ${progress.chunk} of ${progress.chunkCount}` : `${progress.cardCount} / ${progress.targetCardCount} cards${progress.totalBatches ? ` · batch ${progress.batch} of ${progress.totalBatches}` : ''}` }}</span>
           <span class="generating-warning">Please keep this screen open. Leaving may interrupt generation{{ activeProvider.id === 'openai' ? ' — OpenAI can be slow' : '' }}.</span>
+          <span v-if="activeProvider.id === DEVICE_PROVIDER_ID" class="generating-cloud-tip">Generating privately on your phone — no data leaves the device, so this can take a minute. Want it faster? Add a Gemini or OpenAI key in Settings for cloud generation.</span>
         </div>
       </section>
     </template>

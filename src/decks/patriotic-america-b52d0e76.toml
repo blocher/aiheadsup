@@ -1,0 +1,210 @@
+id = "deck_patriotic-america_b52d0e76"
+revision = 1
+name = "Patriotic America"
+category = "America 250"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include American symbols, patriotic songs, national holidays, famous speeches, monuments, military branches, civic virtues, national parks, presidents, and broad family-friendly patriotic American themes."
+photo_file_name = "patriotic-america-b52d0e76-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Bald Eagle"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Uncle Sam"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Pledge of Allegiance"
+
+[[cards]]
+text = "The Star-Spangled Banner"
+
+[[cards]]
+text = "Yankee Doodle"
+
+[[cards]]
+text = "America the Beautiful"
+
+[[cards]]
+text = "Memorial Day"
+
+[[cards]]
+text = "Veterans Day"
+
+[[cards]]
+text = "Thanksgiving"
+
+[[cards]]
+text = "The White House"
+
+[[cards]]
+text = "US Capitol"
+
+[[cards]]
+text = "Supreme Court"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "US Constitution"
+
+[[cards]]
+text = "Liberty"
+
+[[cards]]
+text = "Freedom"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "Grand Canyon"
+
+[[cards]]
+text = "Yellowstone National Park"
+
+[[cards]]
+text = "Yosemite National Park"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "NASA"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "I Have a Dream"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Old Glory"
+
+[[cards]]
+text = "Route 66"
+
+[[cards]]
+text = "Plymouth Rock"
+
+[[cards]]
+text = "US Army"
+
+[[cards]]
+text = "US Navy"
+
+[[cards]]
+text = "US Air Force"
+
+[[cards]]
+text = "Marine Corps"
+
+[[cards]]
+text = "Coast Guard"
+
+[[cards]]
+text = "Space Force"
+
+[[cards]]
+text = "Liberty Tree"
+
+[[cards]]
+text = "Arlington National Cemetery"
+
+[[cards]]
+text = "Gateway Arch"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "American Flag"
+
+[[cards]]
+text = "Lincoln Memorial"
+
+[[cards]]
+text = "Washington Monument"
+
+[[cards]]
+text = "God Bless America"
+
+[[cards]]
+text = "Independence Day"
+
+[[cards]]
+text = "Presidents' Day"
+
+[[cards]]
+text = "Constitution Day"
+
+[[cards]]
+text = "Freedom of Speech"
+
+[[cards]]
+text = "Great Seal"
+
+[[cards]]
+text = "Sparklers"
+
+[[cards]]
+text = "Fireworks"
+
+[[cards]]
+text = "Democracy"
+
+[[cards]]
+text = "Patriotism"
+
+[[cards]]
+text = "The Mayflower"
+
+[[cards]]
+text = "Air Force One"
+
+[[cards]]
+text = "Liberty and Justice"
+
+[[cards]]
+text = "Stars and Stripes"
+
+[[cards]]
+text = "The Midnight Ride"

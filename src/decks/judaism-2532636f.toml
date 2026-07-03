@@ -1,0 +1,204 @@
+id = "deck_judaism_2532636f"
+revision = 1
+name = "Judaism"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Jewish holidays, traditions, texts, prophets, historical figures, synagogue terms, foods, symbols, lifecycle events, and important concepts from Jewish faith and culture."
+photo_file_name = "judaism-2532636f-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Torah"
+
+[[cards]]
+text = "Menorah"
+
+[[cards]]
+text = "Hanukkah"
+
+[[cards]]
+text = "Passover"
+
+[[cards]]
+text = "Rosh Hashanah"
+
+[[cards]]
+text = "Yom Kippur"
+
+[[cards]]
+text = "Bar Mitzvah"
+
+[[cards]]
+text = "Bat Mitzvah"
+
+[[cards]]
+text = "Shabbat"
+
+[[cards]]
+text = "Dreidel"
+
+[[cards]]
+text = "Matzo"
+
+[[cards]]
+text = "Synagogue"
+
+[[cards]]
+text = "Rabbi"
+
+[[cards]]
+text = "Moses"
+
+[[cards]]
+text = "Abraham"
+
+[[cards]]
+text = "Sarah"
+
+[[cards]]
+text = "King David"
+
+[[cards]]
+text = "Challah"
+
+[[cards]]
+text = "Star of David"
+
+[[cards]]
+text = "Mezuzah"
+
+[[cards]]
+text = "Shofar"
+
+[[cards]]
+text = "Sukkot"
+
+[[cards]]
+text = "Purim"
+
+[[cards]]
+text = "Hamantaschen"
+
+[[cards]]
+text = "Kippah"
+
+[[cards]]
+text = "Tallit"
+
+[[cards]]
+text = "Latkes"
+
+[[cards]]
+text = "Seder Plate"
+
+[[cards]]
+text = "Kosher"
+
+[[cards]]
+text = "Hebrew"
+
+[[cards]]
+text = "Talmud"
+
+[[cards]]
+text = "Ark of the Covenant"
+
+[[cards]]
+text = "Western Wall"
+
+[[cards]]
+text = "Shavuot"
+
+[[cards]]
+text = "Elijah the Prophet"
+
+[[cards]]
+text = "Mitzvah"
+
+[[cards]]
+text = "Havdalah"
+
+[[cards]]
+text = "Ketubah"
+
+[[cards]]
+text = "Chuppah"
+
+[[cards]]
+text = "Golem"
+
+[[cards]]
+text = "Bris"
+
+[[cards]]
+text = "Cantor"
+
+[[cards]]
+text = "Tefillin"
+
+[[cards]]
+text = "Afikomen"
+
+[[cards]]
+text = "Knish"
+
+[[cards]]
+text = "Tikkun Olam"
+
+[[cards]]
+text = "Tzedakah"
+
+[[cards]]
+text = "Kabbalah"
+
+[[cards]]
+text = "Queen Esther"
+
+[[cards]]
+text = "Shema"
+
+[[cards]]
+text = "Shabbat Shalom"
+
+[[cards]]
+text = "Matzo Ball Soup"
+
+[[cards]]
+text = "Judah Maccabee"
+
+[[cards]]
+text = "Simchat Torah"
+
+[[cards]]
+text = "Haggadah"
+
+[[cards]]
+text = "Kiddush Cup"
+
+[[cards]]
+text = "Sitting Shiva"
+
+[[cards]]
+text = "Mazel Tov"
+
+[[cards]]
+text = "Bimah"
+
+[[cards]]
+text = "Holy Ark"
+
+[[cards]]
+text = "Tanakh"
+
+[[cards]]
+text = "Megillah"
+
+[[cards]]
+text = "Tu BiShvat"
+
+[[cards]]
+text = "Miriam the Prophetess"
+
+[[cards]]
+text = "King Solomon"

@@ -36,6 +36,36 @@ function sharedCoverRules({ originalityRule = '' } = {}) {
   return `Make it bold, joyful, high-contrast, and readable at small tile size. Use a full-bleed composition that fills the entire image edge to edge. Do not include text, lettering, logos, watermarks, banners, title areas, frames, or empty space at the top. ${originalityRule}No copyrighted characters, actor likenesses, branded symbols, franchise logos, or recognizable story-specific people, costumes, vehicles, or locations.`
 }
 
+const DEVICE_COVER_KEYWORDS = {
+  'Harry Potter': 'a magical castle, spell books, glowing candles, and owls',
+  'Star Wars': 'space explorers, starships, and a colorful alien world',
+  'Indiana Jones': 'ancient ruins, treasure maps, and desert adventure gear',
+  Movies: 'film reels, popcorn, theater masks, and spotlights',
+  'TV Shows': 'a glowing retro television, antennas, and popcorn',
+  Music: 'instruments, sound waves, vinyl records, and stage lights',
+  Kids: 'toys, crayons, blocks, balloons, and cheerful shapes',
+  Sports: 'balls, fields, stadium lights, and action motion',
+  'Pittsburgh Sports': 'stadium lights, rivers, bridges, and black-and-gold accents',
+  Games: 'dice, cards, game controllers, and tabletop tokens',
+  Food: 'colorful ingredients, plates, utensils, and steam',
+  Cities: 'a stylized skyline, landmarks, and city streets',
+  'Colleges and Universities': 'a library, campus quad, banners, and autumn trees',
+  'Western PA Themeparks': 'roller coasters, a ferris wheel, and carnival lights',
+  Science: 'planets, beakers, atoms, and a microscope',
+  'Religion and Mythology': 'ancient temples, stained glass, scrolls, and columns',
+  History: 'old maps, monuments, documents, and artifacts',
+  Nonsense: 'silly abstract shapes, squiggles, and confetti'
+}
+
+// Image Playground (ImageCreator) works from short concept phrases, not long
+// instruction paragraphs. Keep this concise and free of franchise names,
+// people, or negative constraints — long prompts and named IP cause failures.
+export function deviceCoverConcept({ category, name } = {}) {
+  const keywords = DEVICE_COVER_KEYWORDS[category]
+    || `a fun ${String(name || category || 'party game').toLowerCase()} theme`
+  return `A bright, playful, colorful illustration of ${keywords}`
+}
+
 export function genericCoverPrompt({ category, audience, difficulty }) {
   const theme = GENERIC_CATEGORY_THEMES[category]
     || `the general mood and ideas associated with ${String(category || 'party games').toLowerCase()}`

@@ -1,0 +1,192 @@
+id = "deck_usa-1776_824b945b"
+revision = 1
+name = "USA 1776"
+category = "America 250"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Declaration of Independence signers, Revolutionary War battles, founding documents, colonial life, Boston Tea Party, Continental Congress, famous patriots, and events leading to American independence."
+photo_file_name = "usa-1776-824b945b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Abigail Adams"
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "Samuel Adams"
+
+[[cards]]
+text = "Patrick Henry"
+
+[[cards]]
+text = "Thomas Paine"
+
+[[cards]]
+text = "King George III"
+
+[[cards]]
+text = "Marquis de Lafayette"
+
+[[cards]]
+text = "Crispus Attucks"
+
+[[cards]]
+text = "Battle of Bunker Hill"
+
+[[cards]]
+text = "Battle of Saratoga"
+
+[[cards]]
+text = "Battle of Yorktown"
+
+[[cards]]
+text = "Lexington and Concord"
+
+[[cards]]
+text = "Crossing the Delaware"
+
+[[cards]]
+text = "Valley Forge"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Boston Massacre"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "Articles of Confederation"
+
+[[cards]]
+text = "Common Sense"
+
+[[cards]]
+text = "Continental Congress"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Minutemen"
+
+[[cards]]
+text = "Sons of Liberty"
+
+[[cards]]
+text = "Daughters of Liberty"
+
+[[cards]]
+text = "Redcoats"
+
+[[cards]]
+text = "Fort Ticonderoga"
+
+[[cards]]
+text = "Independence Hall"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Monticello"
+
+[[cards]]
+text = "Quill Pen"
+
+[[cards]]
+text = "Powdered Wig"
+
+[[cards]]
+text = "Tricorn Hat"
+
+[[cards]]
+text = "Liberty Tree"
+
+[[cards]]
+text = "Green Dragon Tavern"
+
+[[cards]]
+text = "Stamp Act"
+
+[[cards]]
+text = "Quartering Act"
+
+[[cards]]
+text = "Boston Harbor"
+
+[[cards]]
+text = "Musket"
+
+[[cards]]
+text = "Fife and Drum"
+
+[[cards]]
+text = "Martha Washington"
+
+[[cards]]
+text = "Nathan Hale"
+
+[[cards]]
+text = "Molly Pitcher"
+
+[[cards]]
+text = "Sybil Ludington"
+
+[[cards]]
+text = "Benedict Arnold"
+
+[[cards]]
+text = "United States Constitution"
+
+[[cards]]
+text = "Green Mountain Boys"
+
+[[cards]]
+text = "Treaty of Paris"
+
+[[cards]]
+text = "Midnight Ride"
+
+[[cards]]
+text = "Hessian Soldiers"
+
+[[cards]]
+text = "Townshend Acts"
+
+[[cards]]
+text = "Continental Army"
+
+[[cards]]
+text = "Town Crier"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Battle of Trenton"

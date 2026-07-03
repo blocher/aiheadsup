@@ -1,0 +1,216 @@
+id = "deck_islam_39ca5a10"
+revision = 1
+name = "Islam"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include pillars of Islam, prophets, holidays, mosque terms, Quran concepts, historical figures, practices, foods, symbols, pilgrimage, and important concepts from Islamic faith and culture."
+photo_file_name = "islam-39ca5a10-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Prophet Muhammad"
+
+[[cards]]
+text = "Kaaba"
+
+[[cards]]
+text = "Eid al-Fitr"
+
+[[cards]]
+text = "Eid al-Adha"
+
+[[cards]]
+text = "Hajj"
+
+[[cards]]
+text = "Ramadan"
+
+[[cards]]
+text = "Quran"
+
+[[cards]]
+text = "Mosque"
+
+[[cards]]
+text = "Minaret"
+
+[[cards]]
+text = "Qibla"
+
+[[cards]]
+text = "Halal"
+
+[[cards]]
+text = "Zamzam Water"
+
+[[cards]]
+text = "Wudu"
+
+[[cards]]
+text = "Adhan"
+
+[[cards]]
+text = "Suhur"
+
+[[cards]]
+text = "Iftar"
+
+[[cards]]
+text = "Crescent Moon"
+
+[[cards]]
+text = "Prophet Ibrahim"
+
+[[cards]]
+text = "Prophet Musa"
+
+[[cards]]
+text = "Prophet Isa"
+
+[[cards]]
+text = "Bilal ibn Rabah"
+
+[[cards]]
+text = "Khadija"
+
+[[cards]]
+text = "Shahada"
+
+[[cards]]
+text = "Salah"
+
+[[cards]]
+text = "Zakat"
+
+[[cards]]
+text = "Jannah"
+
+[[cards]]
+text = "Jahannam"
+
+[[cards]]
+text = "Hijab"
+
+[[cards]]
+text = "Tasbih"
+
+[[cards]]
+text = "Dua"
+
+[[cards]]
+text = "Sadaqah"
+
+[[cards]]
+text = "Tajweed"
+
+[[cards]]
+text = "Surah"
+
+[[cards]]
+text = "Hadith"
+
+[[cards]]
+text = "Mihrab"
+
+[[cards]]
+text = "Minbar"
+
+[[cards]]
+text = "Mecca"
+
+[[cards]]
+text = "Medina"
+
+[[cards]]
+text = "Ihram"
+
+[[cards]]
+text = "Tawaf"
+
+[[cards]]
+text = "Sa'i"
+
+[[cards]]
+text = "Safa and Marwa"
+
+[[cards]]
+text = "Mount Arafat"
+
+[[cards]]
+text = "Ummah"
+
+[[cards]]
+text = "Laylat al-Qadr"
+
+[[cards]]
+text = "Taqwa"
+
+[[cards]]
+text = "Islamic Calligraphy"
+
+[[cards]]
+text = "Miswak"
+
+[[cards]]
+text = "Day of Ashura"
+
+[[cards]]
+text = "Prophet Nuh"
+
+[[cards]]
+text = "Sawm"
+
+[[cards]]
+text = "Imam"
+
+[[cards]]
+text = "Muezzin"
+
+[[cards]]
+text = "Ayah"
+
+[[cards]]
+text = "Hafiz"
+
+[[cards]]
+text = "Sujud"
+
+[[cards]]
+text = "Abu Bakr"
+
+[[cards]]
+text = "Umar ibn al-Khattab"
+
+[[cards]]
+text = "Uthman ibn Affan"
+
+[[cards]]
+text = "Ali ibn Abi Talib"
+
+[[cards]]
+text = "Fatima"
+
+[[cards]]
+text = "Hijrah"
+
+[[cards]]
+text = "Al-Aqsa Mosque"
+
+[[cards]]
+text = "Sunnah"
+
+[[cards]]
+text = "Prayer Rug"
+
+[[cards]]
+text = "Misbaha"
+
+[[cards]]
+text = "Al-Fatiha"
+
+[[cards]]
+text = "Dates"
+
+[[cards]]
+text = "Caliph"

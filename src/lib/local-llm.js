@@ -8,6 +8,7 @@ const STATUS_CACHE_MS = 5000
 const CHECK_TIMEOUT_MS = 4000
 const NOTREADY_POLL_MS = 1500
 const NOTREADY_MAX_POLLS = 3
+const IMAGE_TIMEOUT_MS = 20000
 
 const REASON_HINTS = {
   LOCAL_LLM_NOT_ENABLED: 'Apple Intelligence is not enabled in the simulator. Open the Settings app inside the simulator and turn on Apple Intelligence.',
@@ -130,7 +131,7 @@ export function isNativeDeviceAiPlatform() {
 }
 
 export function getDeviceBatchSize() {
-  return Capacitor.getPlatform() === 'android' ? 6 : 12
+  return Capacitor.getPlatform() === 'android' ? 6 : 10
 }
 
 export function getDeviceReviewBatchSize() {
@@ -138,7 +139,10 @@ export function getDeviceReviewBatchSize() {
 }
 
 export function getDeviceMaxOutputTokens() {
-  return Capacitor.getPlatform() === 'android' ? 256 : 1200
+  // A tight cap keeps each on-device call fast. Batches are at most ~10 short
+  // 1-4 word cards, so a large budget only invites the model to ramble and
+  // slows every generation round without adding usable cards.
+  return Capacitor.getPlatform() === 'android' ? 256 : 700
 }
 
 export function deviceBadgeLabel(status, { webBuild = !Capacitor.isNativePlatform() } = {}) {
@@ -231,6 +235,17 @@ export async function downloadDeviceAiModel() {
   await plugin.download()
 }
 
+export async function warmupDeviceSession({ sessionId, promptPrefix } = {}) {
+  const plugin = getLocalLLM()
+  if (!plugin || !sessionId) return false
+  try {
+    await plugin.warmup({ sessionId, promptPrefix })
+    return true
+  } catch {
+    return false
+  }
+}
+
 export async function promptDevice({ sessionId, instructions, prompt, maximumOutputTokens = getDeviceMaxOutputTokens() }) {
   const plugin = getLocalLLM()
   if (!plugin) {
@@ -251,11 +266,18 @@ export async function promptDevice({ sessionId, instructions, prompt, maximumOut
   return text
 }
 
-export async function generateDeviceImage(prompt) {
+export async function generateDeviceImage(prompt, { timeoutMs = IMAGE_TIMEOUT_MS } = {}) {
   const plugin = getLocalLLM()
   if (!plugin) throw new Error('On-device image generation is not available here.')
   try {
-    const { pngBase64Images } = await plugin.generateImage({ prompt, count: 1 })
+    // Image Playground can hang or take a long time; cap it so a slow or stuck
+    // request can't stall deck generation. The caller falls back to a
+    // generated cover on failure.
+    const { pngBase64Images } = await withTimeout(
+      plugin.generateImage({ prompt, count: 1 }),
+      timeoutMs,
+      'On-device image generation'
+    )
     const base64 = pngBase64Images?.[0]
     if (!base64) throw new DeviceAiError('On-device AI did not return an image.', { kind: 'generation' })
     return { base64, mimeType: 'image/png' }
