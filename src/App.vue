@@ -2,6 +2,7 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
+import TutorialOverlay from './components/TutorialOverlay.vue'
 import { AiProvider, generateCustomPack } from './lib/ai-provider.js'
 import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './lib/ai-providers.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
@@ -57,6 +58,8 @@ const selectedCategory = ref('all')
 const deleteAiOnReset = ref(false)
 const confirmDialog = ref(null)
 let confirmDialogResolve = null
+const showTutorial = ref(false)
+const tutorialManual = ref(false)
 
 const packCounts = ref({})
 const results = computed(() => {
@@ -211,6 +214,16 @@ async function goBack() {
 async function openSettings() {
   if (!(await confirmLeaveGeneration())) return
   screen.value = 'settings'
+}
+
+function openTutorial(manual = true) {
+  tutorialManual.value = manual
+  showTutorial.value = true
+}
+
+async function closeTutorial() {
+  showTutorial.value = false
+  await saveSetting('hasSeenTutorial', true)
 }
 
 function keepBrowserInsideApp() {
@@ -539,6 +552,8 @@ onMounted(async () => {
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
   window.addEventListener('popstate', keepBrowserInsideApp)
   loading.value = false
+  const hasSeenTutorial = await getSetting('hasSeenTutorial', false)
+  if (!hasSeenTutorial) openTutorial(false)
 })
 
 onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideApp))
@@ -550,14 +565,17 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     <header class="topbar">
       <button v-if="screen !== 'library'" class="icon-button" aria-label="Back" @click="goBack">‹</button><span v-else class="topbar-spacer"></span>
       <div><p class="eyebrow">PARTY PROMPT GAME</p><h1>Forehead Frenzy</h1></div>
-      <button class="icon-button" aria-label="Settings" @click="openSettings">⚙</button>
+      <div class="topbar-actions">
+        <button v-if="screen === 'library'" class="icon-button" aria-label="How to play" @click="openTutorial(true)">?</button>
+        <button class="icon-button" aria-label="Settings" @click="openSettings">⚙</button>
+      </div>
     </header>
 
     <p v-if="notice" class="notice">{{ notice }}</p>
     <section v-if="loading" class="empty-state"><strong>Loading your magic…</strong></section>
 
     <template v-else-if="screen === 'library'">
-      <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button" @click="screen = 'create'">✨ Make a pack with AI</button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
+      <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button hero-ai-button" @click="screen = 'create'"><span class="hero-ai-spark" aria-hidden="true">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
       <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>All-time high scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
       <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
       <section class="library-heading"><h3>Categories</h3></section>
@@ -631,7 +649,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
         <hr /><h3>Feedback cues</h3>
         <label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="haptics">Visual + haptics</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label>
         <label v-if="endCueMode === 'sound' || endCueMode === 'sound_haptics'">Beep volume<input v-model.number="cueVolume" type="range" min="0" max="100" step="5" @change="updateCueVolume" /><span class="range-scale" aria-hidden="true"><b>Off</b><b>Loud</b></span><small>{{ cueVolume === 0 ? 'Beeps are muted.' : `Beeps play at ${cueVolume}%.` }}</small></label>
-        <hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass, or tap the on-screen buttons — depending on your control setting above. Browser and device back actions end the current round and show results instead of leaving the app.</p>
+        <hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass, or tap the on-screen buttons — depending on your control setting above. Browser and device back actions end the current round and show results instead of leaving the app.</p><button type="button" class="tutorial-settings-link" @click="openTutorial(true)">Open full tutorial</button>
       </section>
 
       <section v-show="settingsTab === 'decks'" :id="`settings-panel-decks`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-decks" tabindex="0">
@@ -706,4 +724,5 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
       </div>
     </section>
   </div>
+  <TutorialOverlay v-if="showTutorial" :manual="tutorialManual" @close="closeTutorial" @complete="closeTutorial" />
 </template>
