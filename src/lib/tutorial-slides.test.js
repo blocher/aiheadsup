@@ -34,6 +34,15 @@ describe('tutorial slides', () => {
   })
 
   it('includes deck creation guidance', () => {
-    expect(TUTORIAL_SLIDES.some((slide) => slide.id === 'make-deck')).toBe(true)
+    const makeDeck = TUTORIAL_SLIDES.find((slide) => slide.id === 'make-deck')
+    expect(makeDeck).toBeTruthy()
+    expect(makeDeck.points.join(' ')).toMatch(/on-device|On iPhone/i)
+    expect(makeDeck.points.join(' ')).toMatch(/Gemini|OpenAI|cloud/i)
+    expect(makeDeck.points.join(' ')).toMatch(/Settings/i)
+  })
+
+  it('mentions AI setup on the ready slide', () => {
+    const ready = TUTORIAL_SLIDES.at(-1)
+    expect(ready.points.join(' ')).toMatch(/Decks & AI|on-device/i)
   })
 })

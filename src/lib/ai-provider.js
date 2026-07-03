@@ -2,10 +2,28 @@ import { Capacitor, registerPlugin } from '@capacitor/core'
 import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
 import { coverPromptForDeck, generateCoverWithFallback } from './cover-prompts.js'
-import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './ai-providers.js'
+import {
+  AI_PROVIDERS,
+  CLOUD_AI_PROVIDERS,
+  DEFAULT_CLOUD_PROVIDER_ID,
+  DEFAULT_PROVIDER_ID,
+  DEVICE_PROVIDER_ID,
+  getProvider,
+  isCloudProviderId,
+  isDeviceProviderId
+} from './ai-providers.js'
+import {
+  generateDeviceImage,
+  getDeviceAiStatus,
+  getDeviceBatchSize,
+  getDeviceMaxOutputTokens,
+  getDeviceReviewBatchSize,
+  promptDevice
+} from './local-llm.js'
 import { reviewDeckCards } from './card-accuracy.js'
 
 const SecureAi = registerPlugin('SecureAi')
+const DEVICE_SESSION_ID = 'forehead-frenzy-deck-gen'
 
 function isNative() { return Capacitor.isNativePlatform() }
 
@@ -68,12 +86,32 @@ function webGenerate({ providerId, model, prompt, wantsImage }) {
   return geminiWeb({ model, prompt, wantsImage })
 }
 
+async function requestDeviceText(prompt) {
+  return promptDevice({
+    sessionId: DEVICE_SESSION_ID,
+    instructions: 'You write Heads Up guessing-game card prompts. Always return valid JSON only, with no markdown or commentary.',
+    prompt,
+    maximumOutputTokens: getDeviceMaxOutputTokens()
+  })
+}
+
 async function requestText(providerId, model, prompt) {
+  if (isDeviceProviderId(providerId)) return { text: await requestDeviceText(prompt) }
   if (isNative()) return SecureAi.generateText({ provider: providerId, model, prompt })
   return webGenerate({ providerId, model, prompt, wantsImage: false })
 }
 
 async function requestImage(providerId, model, prompt) {
+  if (isDeviceProviderId(providerId)) {
+    if (Capacitor.getPlatform() === 'ios') {
+      try {
+        return await generateDeviceImage(prompt)
+      } catch {
+        throw new Error('On-device cover art failed.')
+      }
+    }
+    throw new Error('On-device cover art is not available on this platform.')
+  }
   const result = isNative()
     ? await SecureAi.generateImage({ provider: providerId, model, prompt })
     : await webGenerate({ providerId, model, prompt, wantsImage: true })
@@ -81,8 +119,18 @@ async function requestImage(providerId, model, prompt) {
   return result
 }
 
+export function generationBatchSize(providerId) {
+  return isDeviceProviderId(providerId) ? getDeviceBatchSize() : 50
+}
+
 export class AiProvider {
+  async isDeviceReady() {
+    const { status } = await getDeviceAiStatus({ useCache: true })
+    return status === 'available'
+  }
+
   async hasKey(providerId) {
+    if (isDeviceProviderId(providerId)) return this.isDeviceReady()
     if (isNative()) return (await SecureAi.hasApiKey({ provider: providerId })).hasKey
     return Boolean(localStorage.getItem(webKeyStorage(providerId)))
   }
@@ -93,17 +141,19 @@ export class AiProvider {
   }
 
   async saveKey(providerId, apiKey) {
+    if (isDeviceProviderId(providerId)) throw new Error('On-device AI does not use an API key.')
     if (isNative()) return SecureAi.saveApiKey({ provider: providerId, apiKey })
     localStorage.setItem(webKeyStorage(providerId), apiKey)
   }
 
   async removeKey(providerId) {
+    if (isDeviceProviderId(providerId)) throw new Error('On-device AI does not use an API key.')
     if (isNative()) return SecureAi.removeApiKey({ provider: providerId })
     localStorage.removeItem(webKeyStorage(providerId))
   }
 
   async generateCards({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty, count, excludedPrompts, spoilerSeries: requestedSpoilerSeries = '', harryPotterMode = false, specialPromptNote = '' }) {
-    const meta = getProvider(providerId) || getProvider(DEFAULT_PROVIDER_ID)
+    const meta = getProvider(providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
     const subject = (name || category).trim()
     const exclusions = excludedPrompts.slice(-300).join(', ')
     const spoilerSeries = getSpoilerSeries(requestedSpoilerSeries || (harryPotterMode ? 'harry_potter' : ''))
@@ -120,7 +170,7 @@ export class AiProvider {
   }
 
   async generateCover({ providerId = DEFAULT_PROVIDER_ID, name = '', category, audience, difficulty }) {
-    const meta = getProvider(providerId) || getProvider(DEFAULT_PROVIDER_ID)
+    const meta = getProvider(providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
     const result = await generateCoverWithFallback({
       getPromptInput: () => ({ name: (name || category).trim(), category, audience, difficulty }),
       requestImage: (prompt) => requestImage(meta.id, meta.imageModel, prompt)
@@ -138,12 +188,13 @@ export function fallbackCover(category) {
 export async function generateCustomPack(provider, request, onProgress, { skipAccuracyReview = false } = {}) {
   const targetCardCount = Number(request.cardCount ?? 100)
   if (!Number.isInteger(targetCardCount) || targetCardCount < 1 || targetCardCount > 350) throw new Error('Choose between 1 and 350 cards.')
-  const totalBatches = Math.ceil(targetCardCount / 50)
+  const batchSize = generationBatchSize(request.providerId)
+  const totalBatches = Math.ceil(targetCardCount / batchSize)
   const prompts = []
   let cover = null
   const coverTask = provider.generateCover(request).then((result) => { cover = result }).catch(() => { cover = fallbackCover(request.category) })
   for (let batch = 1; batch <= totalBatches; batch += 1) {
-    const batchTarget = Math.min(50, targetCardCount - prompts.length)
+    const batchTarget = Math.min(batchSize, targetCardCount - prompts.length)
     const batchStart = prompts.length
     let complete = false
     for (let attempt = 0; attempt < 4 && !complete; attempt += 1) {
@@ -156,7 +207,7 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
     if (!complete) throw new Error('The AI could not supply enough unique prompts. Nothing was saved; please retry.')
     onProgress?.({ phase: 'generating', batch, totalBatches, cardCount: prompts.length, targetCardCount })
   }
-  const meta = getProvider(request.providerId) || getProvider(DEFAULT_PROVIDER_ID)
+  const meta = getProvider(request.providerId) || getProvider(DEFAULT_CLOUD_PROVIDER_ID)
   if (!skipAccuracyReview) {
     const reviewedPrompts = await reviewDeckCards({
       cards: prompts,
@@ -168,6 +219,7 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
         specialPromptNote: request.specialPromptNote?.trim() || '',
         spoilerSeries: request.spoilerSeries || (request.harryPotterMode ? 'harry_potter' : '')
       },
+      batchSize: isDeviceProviderId(meta.id) ? getDeviceReviewBatchSize() : undefined,
       requestReview: async (prompt) => {
         const { text } = await requestText(meta.id, meta.textModel, prompt)
         try { return JSON.parse(text) } catch { throw new Error('The AI returned an unreadable accuracy review.') }
@@ -196,3 +248,5 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
     cards: prompts.map((card) => ({ id: createId('card'), prompt: card.prompt, normalizedPrompt: normalizePrompt(card.prompt), earliestInstallment: card.earliestInstallment, firstShownAt: null }))
   }
 }
+
+export { CLOUD_AI_PROVIDERS, DEFAULT_CLOUD_PROVIDER_ID, DEFAULT_PROVIDER_ID, DEVICE_PROVIDER_ID, isCloudProviderId, isDeviceProviderId }

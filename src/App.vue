@@ -3,8 +3,17 @@ import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
 import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
 import TutorialOverlay from './components/TutorialOverlay.vue'
-import { AiProvider, generateCustomPack } from './lib/ai-provider.js'
-import { AI_PROVIDERS, DEFAULT_PROVIDER_ID, getProvider } from './lib/ai-providers.js'
+import { AiProvider, generateCustomPack, generationBatchSize } from './lib/ai-provider.js'
+import {
+  AI_PROVIDERS,
+  CLOUD_AI_PROVIDERS,
+  DEFAULT_CLOUD_PROVIDER_ID,
+  DEFAULT_PROVIDER_ID,
+  DEVICE_AI_PROVIDER,
+  DEVICE_PROVIDER_ID,
+  getProvider
+} from './lib/ai-providers.js'
+import { deviceBadgeLabel, deviceStatusHint, deviceStatusLabel, downloadDeviceAiModel, getDeviceAiStatus, startDeviceAiAvailabilityWatch } from './lib/local-llm.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
 import { prepareEndCueAudio, setCueVolume } from './lib/end-cues.js'
@@ -39,14 +48,30 @@ const settingsTabs = [
 const gameScreen = ref(null)
 const provider = new AiProvider()
 const webBuild = !Capacitor.isNativePlatform()
-const aiProviders = AI_PROVIDERS
-const providerKeyState = ref(Object.fromEntries(AI_PROVIDERS.map((entry) => [entry.id, false])))
+const cloudAiProviders = CLOUD_AI_PROVIDERS
+const providerKeyState = ref(Object.fromEntries(CLOUD_AI_PROVIDERS.map((entry) => [entry.id, false])))
 const activeProviderId = ref(DEFAULT_PROVIDER_ID)
-const keyDrafts = ref(Object.fromEntries(AI_PROVIDERS.map((entry) => [entry.id, ''])))
+const keyDrafts = ref(Object.fromEntries(CLOUD_AI_PROVIDERS.map((entry) => [entry.id, ''])))
+const deviceAiStatus = ref('unavailable')
+const deviceAiPlatform = ref(webBuild ? 'web' : Capacitor.getPlatform())
+const deviceAiCheckError = ref('')
+const deviceAiReason = ref('')
+const deviceAiChecking = ref(false)
+const downloadingDeviceModel = ref(false)
 const infoProviderId = ref(null)
-const keyedProviders = computed(() => AI_PROVIDERS.filter((entry) => providerKeyState.value[entry.id]))
-const hasAnyKey = computed(() => keyedProviders.value.length > 0)
-const activeProvider = computed(() => getProvider(activeProviderId.value) || keyedProviders.value[0] || AI_PROVIDERS[0])
+const deviceAiReady = computed(() => deviceAiStatus.value === 'available')
+const keyedCloudProviders = computed(() => CLOUD_AI_PROVIDERS.filter((entry) => providerKeyState.value[entry.id]))
+const hasAnyCloudKey = computed(() => keyedCloudProviders.value.length > 0)
+const availableProviders = computed(() => AI_PROVIDERS.filter((entry) => {
+  if (entry.id === DEVICE_PROVIDER_ID) return deviceAiReady.value
+  return providerKeyState.value[entry.id]
+}))
+const canGenerate = computed(() => availableProviders.value.length > 0)
+const activeProvider = computed(() => getProvider(activeProviderId.value) || availableProviders.value[0] || getProvider(DEFAULT_CLOUD_PROVIDER_ID))
+const deviceStatusText = computed(() => deviceStatusLabel(deviceAiStatus.value, { platform: deviceAiPlatform.value, webBuild: webBuild }))
+const deviceStatusHelp = computed(() => deviceStatusHint(deviceAiStatus.value, { platform: deviceAiPlatform.value, webBuild: webBuild, checkError: deviceAiCheckError.value || null, reason: deviceAiReason.value || null }))
+const deviceBadgeText = computed(() => deviceBadgeLabel(deviceAiStatus.value, { webBuild: webBuild }))
+const deviceBadgePending = computed(() => deviceAiStatus.value === 'notready')
 const infoProvider = computed(() => getProvider(infoProviderId.value))
 const notice = ref('')
 const loading = ref(true)
@@ -175,13 +200,66 @@ async function refreshPacks() {
 
 async function refreshHistory() { history.value = await getRounds() }
 
-async function refreshKeys() {
-  const entries = await Promise.all(AI_PROVIDERS.map(async (entry) => {
+let stopDeviceAiWatch = null
+
+function applyDeviceAiResult(result) {
+  deviceAiStatus.value = result.status
+  deviceAiPlatform.value = result.platform
+  deviceAiCheckError.value = result.error || ''
+  deviceAiReason.value = result.reason || ''
+}
+
+async function refreshDeviceAi({ pollNotReady = false, probeReason = true } = {}) {
+  deviceAiChecking.value = true
+  try {
+    const result = await getDeviceAiStatus({ useCache: false, pollNotReady, probeReason })
+    applyDeviceAiResult(result)
+    syncActiveProvider()
+    return result
+  } finally {
+    deviceAiChecking.value = false
+  }
+}
+
+async function refreshCloudKeys() {
+  const entries = await Promise.all(CLOUD_AI_PROVIDERS.map(async (entry) => {
     try { return [entry.id, await provider.hasKey(entry.id)] } catch { return [entry.id, false] }
   }))
   providerKeyState.value = Object.fromEntries(entries)
-  if (!providerKeyState.value[activeProviderId.value] && keyedProviders.value.length) {
-    activeProviderId.value = keyedProviders.value[0].id
+}
+
+async function refreshKeys() {
+  await Promise.all([refreshDeviceAi(), refreshCloudKeys()])
+  syncActiveProvider()
+}
+
+function isProviderAvailable(providerId) {
+  if (providerId === DEVICE_PROVIDER_ID) return deviceAiReady.value
+  return providerKeyState.value[providerId]
+}
+
+function syncActiveProvider() {
+  if (isProviderAvailable(activeProviderId.value)) return
+  if (deviceAiReady.value) {
+    activeProviderId.value = DEVICE_PROVIDER_ID
+    return
+  }
+  if (keyedCloudProviders.value.length) {
+    activeProviderId.value = keyedCloudProviders.value[0].id
+  }
+}
+
+async function downloadDeviceModel() {
+  downloadingDeviceModel.value = true
+  notice.value = 'Downloading on-device AI model…'
+  try {
+    await downloadDeviceAiModel()
+    await refreshDeviceAi()
+    notice.value = deviceAiReady.value ? 'On-device AI is ready.' : 'Download started. Check back in a moment.'
+  } catch (error) {
+    notice.value = error.message || 'Could not download the on-device model.'
+  } finally {
+    downloadingDeviceModel.value = false
   }
 }
 
@@ -405,7 +483,7 @@ async function saveProviderKey(providerId) {
     await provider.saveKey(providerId, draft)
     keyDrafts.value = { ...keyDrafts.value, [providerId]: '' }
     await refreshKeys()
-    if (keyedProviders.value.length === 1) await selectProvider(providerId)
+    if (keyedCloudProviders.value.length === 1 && !deviceAiReady.value) await selectProvider(providerId)
     notice.value = webBuild ? `${meta.label} key saved in this browser.` : `${meta.label} key saved in iOS Keychain.`
   } catch (error) { notice.value = error.message || `Could not save the ${meta.label} key.` }
 }
@@ -434,7 +512,19 @@ async function selectProvider(providerId) {
 
 function openProviderInfo(providerId) { infoProviderId.value = providerId }
 function closeProviderInfo() { infoProviderId.value = null }
-function goToAiSettings() { notice.value = ''; settingsTab.value = 'decks'; screen.value = 'settings' }
+async function goToAiSettings() {
+  notice.value = ''
+  settingsTab.value = 'decks'
+  screen.value = 'settings'
+  await refreshDeviceAi()
+  syncActiveProvider()
+}
+
+async function openCreateScreen() {
+  await refreshDeviceAi()
+  syncActiveProvider()
+  screen.value = 'create'
+}
 
 async function updateSpoilerLimit(seriesId) {
   spoilerLimits.value = { ...spoilerLimits.value, [seriesId]: Number(spoilerLimits.value[seriesId]) }
@@ -490,13 +580,34 @@ async function createPack() {
   if (name.length < 2) { notice.value = 'Give your deck a name.'; return }
   const category = creation.value.category === '__new__' ? creation.value.newCategory.trim() : creation.value.category.trim()
   if (category.length < 2) { notice.value = 'Choose or add a category.'; return }
-  if (!hasAnyKey.value) { notice.value = 'Add an AI provider key in Settings before generating a pack.'; return }
-  const providerId = activeProvider.value.id
+  if (!canGenerate.value) {
+    notice.value = webBuild
+      ? 'Add a Gemini or OpenAI key in Settings to create packs in the browser.'
+      : 'On-device AI is not ready on this phone. Add a Gemini or OpenAI key in Settings, or finish the on-device setup there.'
+    goToAiSettings()
+    return
+  }
   creating.value = true
-  progress.value = { phase: 'generating', batch: 0, totalBatches: Math.ceil(creation.value.cardCount / 50), cardCount: 0, targetCardCount: creation.value.cardCount }
-  notice.value = `Creating “${name}” with ${activeProvider.value.label}…`
+  const runGeneration = async (providerId) => {
+    const batchSize = generationBatchSize(providerId)
+    progress.value = { phase: 'generating', batch: 0, totalBatches: Math.ceil(creation.value.cardCount / batchSize), cardCount: 0, targetCardCount: creation.value.cardCount }
+    notice.value = `Creating “${name}” with ${getProvider(providerId).label}…`
+    return generateCustomPack(provider, { ...creation.value, name, category, providerId }, (next) => { progress.value = next })
+  }
   try {
-    const result = await generateCustomPack(provider, { ...creation.value, name, category, providerId }, (next) => { progress.value = next })
+    let result
+    try {
+      result = await runGeneration(activeProvider.value.id)
+    } catch (error) {
+      const cloudFallback = keyedCloudProviders.value[0]
+      if (error?.kind === 'model-unavailable' && activeProvider.value.id === DEVICE_PROVIDER_ID && cloudFallback) {
+        await selectProvider(cloudFallback.id)
+        notice.value = `On-device AI could not run here, so ${cloudFallback.label} is generating “${name}” instead…`
+        result = await runGeneration(cloudFallback.id)
+      } else {
+        throw error
+      }
+    }
     await saveCustomPack(result.pack, result.cards)
     await refreshPacks()
     selectedPack.value = packs.value.find((pack) => pack.id === result.pack.id) || result.pack
@@ -547,16 +658,24 @@ onMounted(async () => {
   setCueVolume(cueVolume.value / 100)
   endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
   activeProviderId.value = await getSetting('aiProvider', DEFAULT_PROVIDER_ID)
-  await Promise.all([refreshPacks(), refreshHistory(), refreshKeys()])
+  await Promise.all([refreshPacks(), refreshHistory(), refreshCloudKeys()])
+  if (!isProviderAvailable(activeProviderId.value)) syncActiveProvider()
   window.history.replaceState({ foreheadFrenzy: true }, '', window.location.href)
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
   window.addEventListener('popstate', keepBrowserInsideApp)
   loading.value = false
+  stopDeviceAiWatch = startDeviceAiAvailabilityWatch((result) => {
+    applyDeviceAiResult(result)
+    syncActiveProvider()
+  })
   const hasSeenTutorial = await getSetting('hasSeenTutorial', false)
   if (!hasSeenTutorial) openTutorial(false)
 })
 
-onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideApp))
+onBeforeUnmount(() => {
+  window.removeEventListener('popstate', keepBrowserInsideApp)
+  stopDeviceAiWatch?.()
+})
 </script>
 
 <template>
@@ -575,7 +694,7 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     <section v-if="loading" class="empty-state"><strong>Loading your magic…</strong></section>
 
     <template v-else-if="screen === 'library'">
-      <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button hero-ai-button" @click="screen = 'create'"><span class="hero-ai-spark" aria-hidden="true">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
+      <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button hero-ai-button" @click="openCreateScreen"><span class="hero-ai-spark" aria-hidden="true">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
       <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>All-time high scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
       <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
       <section class="library-heading"><h3>Categories</h3></section>
@@ -616,16 +735,19 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
     </template>
 
     <template v-else-if="screen === 'create'">
-      <section v-if="!hasAnyKey" class="form-card connect-card">
-        <p class="eyebrow">YOUR OWN DECK</p><h2>Connect an AI provider first.</h2>
-        <p>Forehead Frenzy can build a custom deck with {{ aiProviders.map((entry) => entry.label).join(' or ') }}. Add an API key in Settings to turn it on — your key stays {{ webBuild ? 'in this browser' : 'on this iPhone' }}.</p>
-        <button class="primary-button wide" @click="goToAiSettings">Add an API key in Settings</button>
+      <section v-if="!canGenerate" class="form-card connect-card">
+        <p class="eyebrow">YOUR OWN DECK</p><h2>Set up AI generation</h2>
+        <p v-if="webBuild">Forehead Frenzy in the browser uses cloud AI. Add a Gemini or OpenAI key in Settings — your key stays in this browser only.</p>
+        <p v-else-if="deviceAiStatus === 'downloadable'">Gemini Nano needs a one-time download before you can generate on this phone. You can also add a cloud key instead.</p>
+        <p v-else>On-device AI is not ready on this phone yet. Turn on Apple Intelligence or Gemini Nano in system settings, or add a Gemini/OpenAI key below.</p>
+        <button v-if="deviceAiStatus === 'downloadable'" class="primary-button wide" :disabled="downloadingDeviceModel" @click="downloadDeviceModel">{{ downloadingDeviceModel ? 'Downloading…' : 'Download on-device model' }}</button>
+        <button class="secondary-button wide" @click="goToAiSettings">{{ deviceAiStatus === 'downloadable' ? 'Or add a cloud API key' : 'Open AI settings' }}</button>
       </section>
       <section v-else :class="['form-card', { generating: creating }]">
-        <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.label }} creates simple, 1–4 word cards and a cover image. Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
-        <label v-if="keyedProviders.length > 1">AI provider<div class="segmented"><button v-for="entry in keyedProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div></label>
+        <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Cards are generated privately on your phone — no API key needed.' : `${activeProvider.label} creates simple, 1–4 word cards and a cover image.` }} Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
+        <label v-if="availableProviders.length > 1">AI source<div class="segmented provider-picker"><button v-for="entry in availableProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div><small>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Recommended when available — private and offline.' : 'Uses your saved API key over the internet.' }}</small></label>
         <label>Deck name<input v-model="creation.name" maxlength="60" placeholder="e.g. Taylor Swift Songs" :disabled="creating" required /><small>Shown as the deck title and guides the cards the AI writes.</small></label>
-        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
+        <label>Category<select v-model="creation.category" :disabled="creating"><option v-for="category in categories" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === DEVICE_PROVIDER_ID ? ' On-device generation can take longer on large decks.' : activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><button class="primary-button wide" :disabled="creating || creation.name.trim().length < 2" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
         <div v-if="creating" class="generating-overlay" role="status" aria-live="polite">
           <span class="generating-spinner" aria-hidden="true"></span>
           <strong>Creating “{{ creation.name.trim() || 'your deck' }}”…</strong>
@@ -649,26 +771,101 @@ onBeforeUnmount(() => window.removeEventListener('popstate', keepBrowserInsideAp
         <hr /><h3>Feedback cues</h3>
         <label>Game cues<select v-model="endCueMode" @change="updateEndCueMode"><option value="visual">Visual only</option><option value="haptics">Visual + haptics</option><option value="sound">Visual + sound</option><option value="sound_haptics">Visual + sound + haptics</option></select></label>
         <label v-if="endCueMode === 'sound' || endCueMode === 'sound_haptics'">Beep volume<input v-model.number="cueVolume" type="range" min="0" max="100" step="5" @change="updateCueVolume" /><span class="range-scale" aria-hidden="true"><b>Off</b><b>Loud</b></span><small>{{ cueVolume === 0 ? 'Beeps are muted.' : `Beeps play at ${cueVolume}%.` }}</small></label>
-        <hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass, or tap the on-screen buttons — depending on your control setting above. Browser and device back actions end the current round and show results instead of leaving the app.</p><button type="button" class="tutorial-settings-link" @click="openTutorial(true)">Open full tutorial</button>
+        <hr /><h3>How to play</h3><p>On the game card: tilt down for correct, tilt up to pass, or tap the on-screen buttons — depending on your control setting above. Browser and device back actions end the current round and show results instead of leaving the app.</p><p class="tiny-note">Custom decks use on-device AI on supported phones, or Gemini/OpenAI keys in Decks &amp; AI.</p><button type="button" class="tutorial-settings-link" @click="openTutorial(true)">Open full tutorial</button>
       </section>
 
-      <section v-show="settingsTab === 'decks'" :id="`settings-panel-decks`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-decks" tabindex="0">
-        <p class="eyebrow">PRIVATE SETUP</p><h2>AI deck generation</h2><p v-if="webBuild">Add a key for any provider you want to use. Keys are stored only in this browser’s local storage — convenient for this local web app, but anyone with this browser profile can read them.</p><p v-else>Add a key for any provider you want to use. Keys are stored in iOS Keychain, never in the app bundle or this repository.</p>
-        <div class="provider-list">
-          <article v-for="entry in aiProviders" :key="entry.id" :class="['provider-card', { connected: providerKeyState[entry.id] }]">
-            <header class="provider-card-head"><div><b>{{ entry.label }}</b><small>{{ entry.keyPrefixHint }}</small></div><div class="provider-card-tools"><span :class="['provider-badge', { connected: providerKeyState[entry.id] }]">{{ providerKeyState[entry.id] ? 'Connected' : 'Not connected' }}</span><button class="info-button" :aria-label="`How to get a ${entry.label} key`" @click="openProviderInfo(entry.id)">ⓘ</button></div></header>
-            <template v-if="providerKeyState[entry.id]">
-              <button v-if="keyedProviders.length > 1 && activeProviderId === entry.id" class="provider-active-pill" disabled>✓ Active for new decks</button>
-              <button v-else-if="keyedProviders.length > 1" class="secondary-button wide" @click="selectProvider(entry.id)">Use for new decks</button>
-              <button class="link-button danger" @click="removeProviderKey(entry.id)">Remove {{ entry.short }} key</button>
-            </template>
-            <template v-else>
-              <label class="provider-key-field"><span class="visually-hidden">{{ entry.label }} API key</span><input v-model="keyDrafts[entry.id]" type="password" autocapitalize="off" autocomplete="off" spellcheck="false" :placeholder="`Paste your ${entry.label} key`" /></label>
-              <button class="primary-button wide" @click="saveProviderKey(entry.id)">Save {{ entry.short }} key</button>
-            </template>
+      <section v-show="settingsTab === 'decks'" :id="`settings-panel-decks`" class="form-card form-card-decks" role="tabpanel" aria-labelledby="settings-tab-decks" tabindex="0">
+        <header class="decks-panel-intro">
+          <p class="eyebrow">PRIVATE SETUP</p>
+          <h2>AI deck generation</h2>
+          <p class="decks-panel-lead">{{ webBuild ? 'In the browser, packs use cloud AI with your own Gemini or OpenAI key. On-device Apple Intelligence and Gemini Nano are only available in the iPhone and Android apps.' : 'On-device AI is the default when your phone supports it. Add cloud keys only if you want faster models or your device cannot run on-device AI.' }}</p>
+        </header>
+
+        <section class="ai-settings-group">
+          <header class="ai-settings-group-head">
+            <div>
+              <h3>On-device AI</h3>
+              <p>Private generation on your phone — no API key needed when supported.</p>
+            </div>
+          </header>
+          <article :class="['provider-card', 'device-provider-card', { connected: deviceAiReady, pending: deviceBadgePending, active: activeProviderId === DEVICE_PROVIDER_ID }]">
+            <header class="provider-card-head">
+              <div class="provider-card-title">
+                <b>{{ DEVICE_AI_PROVIDER.label }}</b>
+                <small>{{ deviceStatusText }}</small>
+              </div>
+              <span :class="['provider-badge', { connected: deviceAiReady, pending: deviceBadgePending && !deviceAiReady }]">{{ deviceBadgeText }}</span>
+            </header>
+            <div class="provider-card-body">
+              <p class="provider-card-copy">{{ deviceStatusHelp }}</p>
+              <div v-if="deviceAiStatus === 'downloadable' || deviceAiStatus === 'notready' || !deviceAiReady || (deviceAiReady && availableProviders.length > 1)" class="provider-card-actions">
+                <button v-if="deviceAiStatus === 'downloadable'" class="primary-button wide" :disabled="downloadingDeviceModel" @click="downloadDeviceModel">{{ downloadingDeviceModel ? 'Downloading Gemini Nano…' : 'Download on-device model' }}</button>
+                <button v-else-if="deviceAiStatus === 'notready'" class="secondary-button wide" disabled>{{ deviceAiChecking ? 'Checking Apple Intelligence…' : 'Waiting for Apple Intelligence…' }}</button>
+                <button v-else-if="!deviceAiReady && !webBuild" class="secondary-button wide" :disabled="deviceAiChecking" @click="refreshDeviceAi({ pollNotReady: false, probeReason: true })">{{ deviceAiChecking ? 'Checking…' : 'Check again' }}</button>
+                <button v-else-if="deviceAiReady && activeProviderId !== DEVICE_PROVIDER_ID" class="secondary-button wide" @click="selectProvider(DEVICE_PROVIDER_ID)">Use on-device for new decks</button>
+                <button v-else-if="deviceAiReady && activeProviderId === DEVICE_PROVIDER_ID" class="provider-active-pill" disabled>✓ Active for new decks</button>
+              </div>
+            </div>
           </article>
-        </div>
-        <hr /><h3>No-spoiler mode</h3><p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p><label v-for="series in spoilerSeriesOptions" :key="series.id">{{ series.label }} through<select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)"><option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option></select></label>
+        </section>
+
+        <section class="ai-settings-group">
+          <header class="ai-settings-group-head">
+            <div>
+              <h3>Cloud AI</h3>
+              <p>Optional fallback. Keys stay {{ webBuild ? 'in this browser' : 'in iOS Keychain' }} and are only used when you pick Gemini or OpenAI.</p>
+            </div>
+          </header>
+          <div class="provider-list">
+            <article v-for="entry in cloudAiProviders" :key="entry.id" :class="['provider-card', { connected: providerKeyState[entry.id], active: activeProviderId === entry.id }]">
+              <header class="provider-card-head">
+                <div class="provider-card-title">
+                  <b>{{ entry.label }}</b>
+                  <small>{{ entry.keyPrefixHint }}</small>
+                </div>
+                <div class="provider-card-tools">
+                  <span :class="['provider-badge', { connected: providerKeyState[entry.id] }]">{{ providerKeyState[entry.id] ? 'Connected' : 'Not connected' }}</span>
+                  <button type="button" class="info-button" :aria-label="`How to get a ${entry.label} key`" @click="openProviderInfo(entry.id)">ⓘ</button>
+                </div>
+              </header>
+              <div class="provider-card-body">
+                <template v-if="providerKeyState[entry.id]">
+                  <div class="provider-card-actions">
+                    <button v-if="availableProviders.length > 1 && activeProviderId === entry.id" class="provider-active-pill" disabled>✓ Active for new decks</button>
+                    <button v-else-if="availableProviders.length > 1" class="secondary-button wide" @click="selectProvider(entry.id)">Use for new decks</button>
+                  </div>
+                  <button type="button" class="link-button danger" @click="removeProviderKey(entry.id)">Remove {{ entry.short }} key</button>
+                </template>
+                <template v-else>
+                  <label class="provider-key-field">
+                    <span>{{ entry.label }} API key</span>
+                    <input v-model="keyDrafts[entry.id]" type="password" autocapitalize="off" autocomplete="off" spellcheck="false" :placeholder="`Paste your ${entry.label} key`" />
+                  </label>
+                  <div class="provider-card-actions">
+                    <button type="button" class="primary-button wide" @click="saveProviderKey(entry.id)">Save {{ entry.short }} key</button>
+                  </div>
+                </template>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="ai-settings-group ai-settings-group-spoiler">
+          <header class="ai-settings-group-head">
+            <div>
+              <h3>No-spoiler mode</h3>
+              <p>Protected packs only draw cards revealed on or before the installment selected for their franchise.</p>
+            </div>
+          </header>
+          <div class="spoiler-limit-list">
+            <label v-for="series in spoilerSeriesOptions" :key="series.id" class="spoiler-limit-row">
+              <span>{{ series.label }} through</span>
+              <select v-model="spoilerLimits[series.id]" @change="updateSpoilerLimit(series.id)">
+                <option v-for="(installment, index) in series.installments" :key="index" :value="index + 1">{{ installment }}</option>
+              </select>
+            </label>
+          </div>
+        </section>
       </section>
 
       <section v-show="settingsTab === 'data'" :id="`settings-panel-data`" class="form-card" role="tabpanel" aria-labelledby="settings-tab-data" tabindex="0">

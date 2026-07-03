@@ -81,11 +81,11 @@ export const TUTORIAL_SLIDES = [
     id: 'make-deck',
     eyebrow: 'BONUS',
     title: 'Make your own deck',
-    body: 'Can’t find the perfect topic? Let AI build a custom pack about literally anything you want.',
+    body: 'Can’t find the perfect topic? Tap Make a pack with AI to build a custom deck about literally anything — on your phone or in the browser.',
     points: [
-      'Tap “✨ Make a pack with AI” on the home screen',
-      'Add an API key once in Settings',
-      'Name a topic and get a full deck in about a minute'
+      'Tap “Make a pack with AI” on the home screen',
+      'On iPhone & Android, on-device AI is the default — private, offline, no API key',
+      'In the browser, or as backup, add Gemini or OpenAI keys in Settings → Decks & AI'
     ],
     mockup: 'make-deck',
     accent: '#c98cff'
@@ -97,7 +97,8 @@ export const TUTORIAL_SLIDES = [
     body: 'That’s everything. Grab your friends, pick a pack, and let the frenzy begin.',
     points: [
       'Reopen this guide anytime with the “?” button',
-      'Fine-tune tilt, sound, and controls in Settings'
+      'Fine-tune tilt, sound, and controls in Settings → Gameplay',
+      'Custom decks use on-device AI when available; cloud keys live in Decks & AI'
     ],
     mockup: 'ready',
     accent: '#ffe663'

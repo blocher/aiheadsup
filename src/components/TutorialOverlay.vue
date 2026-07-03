@@ -22,6 +22,7 @@ const currentSlide = computed(() => slides[currentIndex.value])
 const isFirst = computed(() => currentIndex.value === 0)
 const isLast = computed(() => currentIndex.value === total - 1)
 const accent = computed(() => currentSlide.value.accent || '#ffe663')
+const webBuild = !Capacitor.isNativePlatform()
 
 const trackStyle = computed(() => ({
   transform: `translateX(calc(-${currentIndex.value * 100}% + ${dragPx.value}px))`,
@@ -281,9 +282,13 @@ onBeforeUnmount(() => {
               <span class="ff-spark ff-spark-2">✦</span>
               <div class="ff-create-card">
                 <div class="ff-create-btn"><span class="hero-ai-spark">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></div>
+                <div class="ff-create-source">
+                  <span :class="['ff-create-source-badge', { 'ff-create-source-badge-cloud': webBuild }]">{{ webBuild ? 'Cloud AI' : 'On-Device' }}</span>
+                  <span class="ff-create-source-note">{{ webBuild ? 'Gemini or OpenAI key' : 'Private · no API key' }}</span>
+                </div>
                 <div class="ff-create-input"><span>90s cartoons</span><i class="ff-caret"></i></div>
                 <div class="ff-create-progress"><i></i></div>
-                <small>Generating 100 cards…</small>
+                <small>{{ webBuild ? 'Generating with your API key…' : 'Generating on your phone…' }}</small>
               </div>
             </div>
 
