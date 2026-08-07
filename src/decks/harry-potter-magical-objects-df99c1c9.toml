@@ -1,13 +1,13 @@
 id = "deck_harry-potter-magical-objects_df99c1c9"
-revision = 2
+revision = 4
 name = "Harry Potter: Magical Objects"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include recognizable objects, artifacts, school supplies, and enchanted items."
+photo_file_name = "harry-potter-magical-objects-df99c1c9-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-magical-objects-df99c1c9-cover.jpg"
 
 [[cards]]
 text = "Golden Snitch"
@@ -167,7 +167,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Dungbomb"
-first_revealed_installment = 3
+first_revealed_installment = 2
 
 [[cards]]
 text = "Peruvian Instant Darkness Powder"
@@ -208,3 +208,379 @@ first_revealed_installment = 1
 [[cards]]
 text = "Mad-Eye Moody's Eye"
 first_revealed_installment = 4
+
+[[cards]]
+text = "Sorting Hat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wizard's Chess"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hagrid's Pink Umbrella"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Liquid Luck"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Polyjuice Potion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Veritaserum"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Skele-Gro"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Amortentia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Gillyweed"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mandrake Root"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Marvolo Gaunt's Ring"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Black Quill"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Quibbler"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Daily Prophet"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spectrespecs"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Weasleys' Wildfire Whiz-bangs"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ton-Tongue Toffee"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Canary Cream"
+first_revealed_installment = 4
+
+[[cards]]
+text = "U-No-Poo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Pewter Cauldron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Express"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Acceptance Letter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Harry Potter's Wand"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bezoar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Voldemort's Wand"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hagrid's Wooden Flute"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nimbus 2001"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cleansweep Broomstick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wizard Wireless"
+first_revealed_installment = 2
+
+[[cards]]
+text = "A History of Magic"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Standard Book of Spells"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Seven-Locked Trunk"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gringotts Key"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Acid Pops"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sugar Quills"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fizzing Whizbees"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cursed Opal Necklace"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Bubotuber Pus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Quidditch Trunk"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beater's Bat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Brass Scales"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Glass Phials"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ron's Broken Wand"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Monster Book of Monsters"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hermione's Beaded Bag"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Gobstones Set"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Exploding Snap Deck"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fanged Frisbee"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nosebleed Nougat"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Puking Pastilles"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Fever Fudge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Fainting Fancies"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Drooble's Blowing Gum"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pumpkin Pasties"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cauldron Cakes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Liquorice Wands"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jelly Slugs"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Peppermint Toads"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ice Mice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Pepper Imps"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cockroach Clusters"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Blood-Flavored Lollipop"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Toothflossing Stringmints"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Draught of Living Death"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Draught of Peace"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wolfsbane Potion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Pepperup Potion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elixir of Life"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Essence of Murtlap"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Shrinking Potion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sleeping Draught"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dr. Filibuster's Fireworks"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ever-Bashing Boomerang"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stinkpellet"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Self-Stirring Cauldron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Collapsible Cauldron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dragon-Hide Gloves"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Parchment"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spell-Checking Quill"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Auto-Answer Quill"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Deathly Hallows Necklace"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Slytherin Banner"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hufflepuff Banner"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ravenclaw Banner"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Quidditch Robes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gringotts Cart"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Golden Galleon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Silver Sickle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bronze Knut"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beauxbatons Carriage"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Durmstrang Ship"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Exploding Bonbons"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Spellman's Syllabary"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Shooting Star Broomstick"
+first_revealed_installment = 1

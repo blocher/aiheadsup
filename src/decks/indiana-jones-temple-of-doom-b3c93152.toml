@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-temple-of-doom_b3c93152"
-revision = 2
+revision = 4
 name = "Indiana Jones: Temple of Doom"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Temple of Doom."
+photo_file_name = "indiana-jones-temple-of-doom-b3c93152-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-temple-of-doom-b3c93152-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -170,7 +170,7 @@ text = "Rock Crusher"
 first_revealed_installment = 2
 
 [[cards]]
-text = "Flaming Heart"
+text = "Beating Heart"
 first_revealed_installment = 2
 
 [[cards]]
@@ -211,4 +211,176 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "British Cavalry"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fortune and Glory"
+first_revealed_installment = 2
+
+[[cards]]
+text = "White Tuxedo"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Giant Gong"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Poisoned Wine"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Skull Chalice"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Blood of Kali"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Serrated Machete"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bull Skull Helmet"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thuggee Executioner"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Child Slaves"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shanghai Gangsters"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Vampire Bats"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Giant Python"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hold Onto Your Potatoes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lao Che's Pilots"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Himalayan Mountains"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Baby Elephant"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thuggee Robes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ceremonial Dagger"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mine Track Switch"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sequined Dress"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Red Sari"
+first_revealed_installment = 2
+
+[[cards]]
+text = "NY Giants Cap"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Village Chief"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sikh Guards"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Centipedes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Emergency Brake"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cover Your Heart"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Very Funny Dr. Jones"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shanghai"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Emperor Nurhachi"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Goddess Kali"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mount Kalisa"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Slingshot"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sanskrit Scroll"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Palace Kitchen"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Voodoo Magic"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Flooding Tunnel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Suspension Bridge"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hungry Crocodiles"
+first_revealed_installment = 2
+
+[[cards]]
+text = "British Officer"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Missing Parachutes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "White Water Rafting"
 first_revealed_installment = 2

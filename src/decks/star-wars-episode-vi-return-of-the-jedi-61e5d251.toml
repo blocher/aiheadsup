@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-vi-return-of-the-jedi_61e5d251"
-revision = 2
+revision = 4
 name = "Star Wars Episode VI: Return of the Jedi"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode VI: Return of the Jedi."
+photo_file_name = "star-wars-episode-vi-return-of-the-jedi-61e5d251-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-vi-return-of-the-jedi-61e5d251-cover.jpg"
 
 [[cards]]
 text = "Luke Skywalker"
@@ -71,7 +71,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Jabba the Hutt"
-first_revealed_installment = 3
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ewoks"
@@ -143,7 +143,7 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Shield Generator"
-first_revealed_installment = 3
+first_revealed_installment = 2
 
 [[cards]]
 text = "A-wing Starfighter"
@@ -242,23 +242,7 @@ text = "Imperial Shuttle"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Yoda's Passing"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Anakin's Ghost"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Leia's Boushh Disguise"
-first_revealed_installment = 3
-
-[[cards]]
-text = "C-3PO the Golden God"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Carbonite Melting Chamber"
 first_revealed_installment = 3
 
 [[cards]]
@@ -270,21 +254,241 @@ text = "Green Squadron"
 first_revealed_installment = 3
 
 [[cards]]
-text = "It's a Trap"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Slave Leia"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Han Unfrozen from Carbonite"
-first_revealed_installment = 3
-
-[[cards]]
-text = "Executor Bridge Crash"
-first_revealed_installment = 3
-
-[[cards]]
 text = "Arvel Crynyd"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Force Lightning"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bothan Spies"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Yub Nub"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Great Pit of Carkoon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shuttle Tydirium"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Vader's Funeral Pyre"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Unmasked Vader"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rebel Commando"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Log Trap"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Thermal Detonator"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Skiff Guard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Twi'lek Dancer"
+first_revealed_installment = 3
+
+[[cards]]
+text = "B'omarr Monk"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Yak Face"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Max Rebo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Droopy McCool"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lapti Nek"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Jedi Rocks"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sanctuary Moon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sullust"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sullustan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Home One"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Death Star Core"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mon Calamari Officer"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Palace Door Droid"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rancor Gate"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gray Leader"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sarlacc Tentacles"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Droid Torture Room"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Tortured Gonk Droid"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Kowakian Monkey-Lizard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Klatooine Paddy Frog"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ephant Mon"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ree-Yees"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hermi Odle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Joh Yowza"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rystáll Sant"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Amanaman"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Pote Snitkin"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Kithaba"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Weequay"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Monk Brain Jar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hanging Net Trap"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Skiff Plank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sarlacc Beak"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Palace Guard Helmet"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Prune Face"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Imperial Landing Platform"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Imperial Dignitaries"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Vibro-ax"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Force Pike"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bright Tree Village"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Forest Catapult"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rebel Strike Team"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Log Roller"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Stone Bola"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ten Numb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Victory Celebration"
 first_revealed_installment = 3

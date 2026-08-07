@@ -1,5 +1,5 @@
 id = "deck_taylor-swift_934f5794"
-revision = 2
+revision = 3
 name = "Taylor Swift"
 category = "Music"
 audience = "Family"
@@ -82,9 +82,6 @@ text = "Olivia Benson"
 
 [[cards]]
 text = "Benjamin Button"
-
-[[cards]]
-text = "Willow Tree"
 
 [[cards]]
 text = "All Too Well"

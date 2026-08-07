@@ -1,13 +1,13 @@
 id = "deck_harry-potter-main-characters_b5acd469"
-revision = 2
+revision = 4
 name = "Harry Potter: Main Characters"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should focus on well-known students, teachers, villains, and allies from the books and films."
+photo_file_name = "harry-potter-main-characters-b5acd469-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-main-characters-b5acd469-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"
@@ -207,7 +207,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Bill Weasley"
-first_revealed_installment = 4
+first_revealed_installment = 3
 
 [[cards]]
 text = "Griphook"
@@ -232,3 +232,295 @@ first_revealed_installment = 1
 [[cards]]
 text = "Professor Sprout"
 first_revealed_installment = 1
+
+[[cards]]
+text = "Hedwig"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Crookshanks"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fawkes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Buckbeak"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fang"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fluffy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Aragog"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Nagini"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nearly Headless Nick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Fat Lady"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rita Skeeter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gellert Grindelwald"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Charlie Weasley"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Aberforth Dumbledore"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Xenophilius Lovegood"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Colin Creevey"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Pansy Parkinson"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Parvati Patil"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Padma Patil"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Angelina Johnson"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lee Jordan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Madam Hooch"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Madame Maxime"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Igor Karkaroff"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rufus Scrimgeour"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Barty Crouch Jr."
+first_revealed_installment = 4
+
+[[cards]]
+text = "Barty Crouch Sr."
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nicholas Flamel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Godric Gryffindor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Salazar Slytherin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rowena Ravenclaw"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Helga Hufflepuff"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stan Shunpike"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Madame Rosmerta"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Arabella Figg"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Grawp"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Firenze"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fenrir Greyback"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Katie Bell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cormac McLaggen"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Aunt Marge"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Albus Severus Potter"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Scorpius Malfoy"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Bloody Baron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Grey Lady"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Regulus Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mundungus Fletcher"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Blaise Zabini"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Marcus Flint"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peeves"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Professor Binns"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Madam Pince"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Fat Friar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Scabbers"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hannah Abbott"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Susan Bones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ernie Macmillan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Justin Finch-Fletchley"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sir Cadogan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Winky"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ludo Bagman"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Frank Longbottom"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Alice Longbottom"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gabrielle Delacour"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Antonin Dolohov"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Zacharias Smith"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Romilda Vane"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Alecto Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Amycus Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Bathilda Bagshot"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pius Thicknesse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Teddy Lupin"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Delphini"
+first_revealed_installment = 8

@@ -2,7 +2,7 @@ import { afterEach, describe, expect, it, vi } from 'vitest'
 import { mkdtemp, mkdir, writeFile } from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
-import { cardPrompt, coverPrompt, generateCards, generateCover, parseArguments, planDeckWork, readDefinitions, validateCards } from '../../scripts/generate-decks.mjs'
+import { cardPrompt, cardsFromExistingDeck, coverPrompt, generateCards, generateCover, mapPool, parseArguments, planDeckWork, readDefinitions, validateCards } from '../../scripts/generate-decks.mjs'
 
 const source = `decks = [
   { name = "Gaga Ball", category = "Sports", difficulty = "easy", target = "family", number_of_cards = "100", special_instructions = "Use playground terms.", include_harry_potter_book_number = false },
@@ -65,6 +65,48 @@ describe('deck generation CLI', () => {
 
   it('supports the requested testing flags', () => {
     expect(parseArguments(['--limit', '2', '--images', '--dry-run'])).toMatchObject({ limit: 2, images: true, dryRun: true })
+    expect(parseArguments(['--concurrency', '4'])).toMatchObject({ concurrency: 4 })
+    expect(parseArguments(['--top-up', '--rereview'])).toMatchObject({ topUp: true, rereview: true })
+    expect(() => parseArguments(['--force', '--top-up'])).toThrow(/Cannot combine --force/)
+  })
+
+  it('plans top-up and rereview for under-target existing decks', async () => {
+    const [deck] = readDefinitions(source)
+    const directory = await mkdtemp(path.join(os.tmpdir(), 'forehead-frenzy-'))
+    const options = { output: path.join(directory, 'decks'), covers: path.join(directory, 'covers'), images: false, force: false, topUp: true, rereview: true }
+    await mkdir(options.output, { recursive: true })
+    await writeFile(path.join(options.output, `${deck.fileStem}.toml`), `id = "${deck.id}"\nrevision = 2\nname = "${deck.name}"\ncategory = "${deck.category}"\ncards = ["Gaga Pit", "Dodgeball"]\n`)
+    await expect(planDeckWork(deck, options)).resolves.toMatchObject({ generateCards: false, rereview: true, topUp: true, shortfall: 98 })
+    await expect(planDeckWork(deck, { ...options, topUp: true, rereview: false })).resolves.toMatchObject({ topUp: true, rereview: false })
+    const fullCards = Array.from({ length: 100 }, (_, index) => `Card ${index}`).map((text) => `{ text = "${text}" }`).join(', ')
+    await writeFile(path.join(options.output, `${deck.fileStem}.toml`), `id = "${deck.id}"\nname = "${deck.name}"\ncategory = "${deck.category}"\ncards = [${fullCards}]\n`)
+    await expect(planDeckWork(deck, { ...options, topUp: true, rereview: false })).resolves.toMatchObject({ topUp: false, shortfall: 0 })
+  })
+
+  it('reads cards from existing TOML payloads', () => {
+    expect(cardsFromExistingDeck({ cards: ['Alpha', { text: 'Beta', first_revealed_installment: 2 }] }, 'harry_potter')).toEqual([
+      { prompt: 'Alpha', earliestInstallment: null },
+      { prompt: 'Beta', earliestInstallment: 2 }
+    ])
+  })
+
+  it('uses a strict quality prompt for top-up generation', () => {
+    const [deck] = readDefinitions(source)
+    expect(cardPrompt({ ...deck, strictQuality: true }, 5, ['Gaga Pit'])).toContain('Quality over quantity')
+  })
+
+  it('runs mapPool with bounded concurrency', async () => {
+    let active = 0
+    let maxActive = 0
+    const results = await mapPool([1, 2, 3, 4, 5], 2, async (value) => {
+      active += 1
+      maxActive = Math.max(maxActive, active)
+      await new Promise((resolve) => setTimeout(resolve, 20))
+      active -= 1
+      return value * 2
+    })
+    expect(results).toEqual([2, 4, 6, 8, 10])
+    expect(maxActive).toBeLessThanOrEqual(2)
   })
 
   it('defaults models per provider and rejects unknown providers', () => {

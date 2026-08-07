@@ -1,12 +1,12 @@
 id = "deck_hokkaido-pittsburgh_c9122258"
-revision = 2
+revision = 3
 name = "Hokkaido Pittsburgh"
 category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include buffet foods, sushi items, hibachi foods, seafood, desserts, sauces, restaurant experiences, Pittsburgh-area references, and family-friendly dining terms associated with Hokkaido."
-spoiler_mode = false
 photo_file_name = "hokkaido-pittsburgh-c9122258-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Crab Legs"
@@ -150,9 +150,6 @@ text = "Octopus Salad"
 text = "Weekend Buffet"
 
 [[cards]]
-text = "Snow Crab Legs"
-
-[[cards]]
 text = "Steamed Dumplings"
 
 [[cards]]
@@ -198,9 +195,6 @@ text = "Hot Tea Cup"
 text = "Buffet Tongs"
 
 [[cards]]
-text = "Dinner Plate"
-
-[[cards]]
 text = "Sesame Chicken"
 
 [[cards]]
@@ -208,9 +202,6 @@ text = "Sushi Boat"
 
 [[cards]]
 text = "Salmon Sashimi"
-
-[[cards]]
-text = "Steamed Crawfish"
 
 [[cards]]
 text = "Takeout Box"

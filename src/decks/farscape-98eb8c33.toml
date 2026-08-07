@@ -1,5 +1,5 @@
 id = "deck_farscape_98eb8c33"
-revision = 2
+revision = 3
 name = "Farscape"
 category = "TV Shows"
 audience = "Family"
@@ -81,22 +81,13 @@ text = "Peacekeepers"
 text = "Scarrans"
 
 [[cards]]
-text = "Scarran Empire"
-
-[[cards]]
 text = "Sebacean"
-
-[[cards]]
-text = "Sebacean Heat"
 
 [[cards]]
 text = "Luxan"
 
 [[cards]]
 text = "Luxan Hyper-Rage"
-
-[[cards]]
-text = "Luxan Tongue"
 
 [[cards]]
 text = "Delvian"
@@ -112,12 +103,6 @@ text = "Nebari"
 
 [[cards]]
 text = "Nebari Resistance"
-
-[[cards]]
-text = "Nebari Establishment"
-
-[[cards]]
-text = "Nebari Mind Cleansing"
 
 [[cards]]
 text = "Banik"
@@ -150,9 +135,6 @@ text = "Wormhole Weapon"
 text = "Wormholes"
 
 [[cards]]
-text = "Wormhole Map"
-
-[[cards]]
 text = "Transport Pod"
 
 [[cards]]
@@ -178,9 +160,6 @@ text = "Tavlek Gauntlet"
 
 [[cards]]
 text = "Cryo-Suit"
-
-[[cards]]
-text = "Stark's Mask"
 
 [[cards]]
 text = "Neural Clone"

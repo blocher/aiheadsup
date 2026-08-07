@@ -1,12 +1,12 @@
 id = "deck_poopy-butt-cheeks_bdc66e04"
-revision = 1
+revision = 2
 name = "Poopy Butt Cheeks"
 category = "Nonsense"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should be silly, family-friendly scatological and bathroom humor that kids find funny: toilet words, gross-but-harmless body noises, potty-humor objects, funny bathroom situations, and goofy poop, fart, and booger themed terms. Keep everything kid-appropriate, playful, and never crude, sexual, or offensive."
-spoiler_mode = false
 photo_file_name = "poopy-butt-cheeks-bdc66e04-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Toilet Paper"
@@ -63,12 +63,6 @@ text = "Bathtub Toot"
 text = "Stinky Sock"
 
 [[cards]]
-text = "Gym Socks"
-
-[[cards]]
-text = "Sweaty Feet"
-
-[[cards]]
 text = "Stinky Feet"
 
 [[cards]]
@@ -78,25 +72,10 @@ text = "Toe Jam"
 text = "Skunk Smell"
 
 [[cards]]
-text = "Skunk Spray"
-
-[[cards]]
 text = "Bad Breath"
 
 [[cards]]
-text = "Garlic Breath"
-
-[[cards]]
-text = "Onion Breath"
-
-[[cards]]
-text = "Tuna Breath"
-
-[[cards]]
 text = "Burp"
-
-[[cards]]
-text = "Belch"
 
 [[cards]]
 text = "Soda Burp"
@@ -135,9 +114,6 @@ text = "Wet Sneeze"
 text = "Runny Nose"
 
 [[cards]]
-text = "Stuffy Nose"
-
-[[cards]]
 text = "Tissue Box"
 
 [[cards]]
@@ -171,16 +147,7 @@ text = "Stepped In Poop"
 text = "Poop Emoji"
 
 [[cards]]
-text = "Pigeon Poop"
-
-[[cards]]
 text = "Bird Poop"
-
-[[cards]]
-text = "Goose Poop"
-
-[[cards]]
-text = "Cat Litter"
 
 [[cards]]
 text = "Litter Box"
@@ -216,9 +183,6 @@ text = "Rotten Banana"
 text = "Moldy Bread"
 
 [[cards]]
-text = "Expired Milk"
-
-[[cards]]
 text = "Sour Milk"
 
 [[cards]]
@@ -249,9 +213,6 @@ text = "Compost Heap"
 text = "Cow Manure"
 
 [[cards]]
-text = "Horse Manure"
-
-[[cards]]
 text = "Fertilizer Smell"
 
 [[cards]]
@@ -273,13 +234,7 @@ text = "Sneaker Stench"
 text = "Mildew Towel"
 
 [[cards]]
-text = "Wet Towel"
-
-[[cards]]
 text = "Dirty Sponge"
-
-[[cards]]
-text = "Leftover Night"
 
 [[cards]]
 text = "Mystery Meat"
@@ -303,19 +258,10 @@ text = "Anchovy Pizza"
 text = "Egg Salad"
 
 [[cards]]
-text = "Sulphur Smell"
-
-[[cards]]
 text = "Locker Room"
 
 [[cards]]
 text = "Air Freshener"
-
-[[cards]]
-text = "Pine Spray"
-
-[[cards]]
-text = "Potpourri Bowl"
 
 [[cards]]
 text = "Pinching Nose"
@@ -325,15 +271,6 @@ text = "Holding Breath"
 
 [[cards]]
 text = "Eww Face"
-
-[[cards]]
-text = "Yuck Face"
-
-[[cards]]
-text = "Grossed Out"
-
-[[cards]]
-text = "Gag Reflex"
 
 [[cards]]
 text = "Fake Vomit"
@@ -348,70 +285,16 @@ text = "Stink Bomb"
 text = "Mud Pie"
 
 [[cards]]
-text = "Dirt Clod"
-
-[[cards]]
 text = "Slime Bucket"
 
 [[cards]]
 text = "Gooey Mess"
 
 [[cards]]
-text = "Sticky Hands"
-
-[[cards]]
-text = "Ketchup Stain"
-
-[[cards]]
-text = "Mustard Stain"
-
-[[cards]]
-text = "Chocolate Face"
-
-[[cards]]
-text = "Ice Cream Face"
-
-[[cards]]
-text = "Spaghetti Face"
-
-[[cards]]
-text = "Food Mustache"
-
-[[cards]]
-text = "Milk Mustache"
-
-[[cards]]
-text = "Crumb Beard"
-
-[[cards]]
-text = "Loud Slurp"
-
-[[cards]]
-text = "Slurping Soup"
-
-[[cards]]
-text = "Pickle Juice"
-
-[[cards]]
-text = "Greasy Pizza"
-
-[[cards]]
-text = "Pepperoni Grease"
-
-[[cards]]
 text = "Wet Burp"
 
 [[cards]]
 text = "Eggy Smell"
-
-[[cards]]
-text = "Broccoli Smell"
-
-[[cards]]
-text = "Cabbage Smell"
-
-[[cards]]
-text = "Old Sandwich"
 
 [[cards]]
 text = "Lunchbox Smell"
@@ -423,28 +306,13 @@ text = "Last Square"
 text = "Empty Roll"
 
 [[cards]]
-text = "Paper Towel"
-
-[[cards]]
 text = "Toilet Paper Mummy"
-
-[[cards]]
-text = "Shaving Cream Beard"
 
 [[cards]]
 text = "Toothpaste Blob"
 
 [[cards]]
-text = "Lotion Glob"
-
-[[cards]]
-text = "Band-Aid Peel"
-
-[[cards]]
 text = "Clothespin Nose"
-
-[[cards]]
-text = "Nose Plug"
 
 [[cards]]
 text = "Stinky Marker"

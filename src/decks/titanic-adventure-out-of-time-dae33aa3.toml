@@ -1,12 +1,12 @@
 id = "deck_titanic-adventure-out-of-time_dae33aa3"
-revision = 2
+revision = 3
 name = "Titanic: Adventure Out of Time"
 category = "Games"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include characters, locations, objects, missions, clues, historical references, ship areas, alternate endings, espionage plot points, and memorable details from the 1996 computer game."
-spoiler_mode = false
 photo_file_name = "titanic-adventure-out-of-time-dae33aa3-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Frank Carlson"
@@ -21,13 +21,10 @@ text = "Colonel Zeitel"
 text = "Sasha Barbicon"
 
 [[cards]]
-text = "Vlad Demonic"
+text = "Vlad Kosolov"
 
 [[cards]]
 text = "Willi Von Haderlitz"
-
-[[cards]]
-text = "Buick Riviera"
 
 [[cards]]
 text = "Lady Georgia Lambeth"
@@ -93,7 +90,7 @@ text = "Baby Eddie"
 text = "Rubaiyat of Omar Khayyam"
 
 [[cards]]
-text = "The Realist Painting"
+text = "The Futurist Painting"
 
 [[cards]]
 text = "Haderlitz's Notebook"

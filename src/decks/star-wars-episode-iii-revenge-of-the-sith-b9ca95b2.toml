@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-iii-revenge-of-the-sith_b9ca95b2"
-revision = 2
+revision = 4
 name = "Star Wars Episode III: Revenge of the Sith"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode III: Revenge of the Sith."
+photo_file_name = "star-wars-episode-iii-revenge-of-the-sith-b9ca95b2-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-iii-revenge-of-the-sith-b9ca95b2-cover.jpg"
 
 [[cards]]
 text = "General Grievous"
@@ -59,7 +59,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Mas Amedda"
-first_revealed_installment = 6
+first_revealed_installment = 4
 
 [[cards]]
 text = "ARC-170 Starfighter"
@@ -127,7 +127,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Hello There"
-first_revealed_installment = 6
+first_revealed_installment = 1
 
 [[cards]]
 text = "I Am the Senate"
@@ -240,3 +240,159 @@ first_revealed_installment = 4
 [[cards]]
 text = "Darth Vader's Mask"
 first_revealed_installment = 1
+
+[[cards]]
+text = "Felucia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mygeeto"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Saleucami"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Cato Neimoidia"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tion Medon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Gree"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Bacara"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Neyo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Commander Appo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Cin Drallig"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Zett Jukassa"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Queen Apailana"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Clone Turbo Tank"
+first_revealed_installment = 6
+
+[[cards]]
+text = "AT-RT"
+first_revealed_installment = 6
+
+[[cards]]
+text = "AT-AP"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Theta-class Shuttle"
+first_revealed_installment = 6
+
+[[cards]]
+text = "V-wing Starfighter"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Droid Tri-Fighter"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Venator Star Destroyer"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Electrostaff"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Palpatine's Lightsaber"
+first_revealed_installment = 6
+
+[[cards]]
+text = "501st Legion"
+first_revealed_installment = 6
+
+[[cards]]
+text = "212th Attack Battalion"
+first_revealed_installment = 6
+
+[[cards]]
+text = "41st Elite Corps"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dactillion"
+first_revealed_installment = 6
+
+[[cards]]
+text = "GH-7 Medical Droid"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Unlimited Power"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Wookiee Catamaran"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Varactyl"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Pau'an"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Utai"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Reconstruction Table"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Snail Droid"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Wookiee Village"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Lava Platform"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Lava Waterfall"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Midwife Droid"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Sith Statues"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Senate Duel"
+first_revealed_installment = 6

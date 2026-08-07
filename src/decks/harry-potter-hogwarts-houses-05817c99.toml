@@ -1,13 +1,13 @@
 id = "deck_harry-potter-hogwarts-houses_05817c99"
-revision = 2
+revision = 4
 name = "Harry Potter: Hogwarts Houses"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include house names, mascots, founders, colors, traits, and famous members."
+photo_file_name = "harry-potter-hogwarts-houses-05817c99-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-hogwarts-houses-05817c99-cover.jpg"
 
 [[cards]]
 text = "Gryffindor"
@@ -27,19 +27,19 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Godric Gryffindor"
-first_revealed_installment = 1
+first_revealed_installment = 2
 
 [[cards]]
 text = "Salazar Slytherin"
-first_revealed_installment = 1
+first_revealed_installment = 2
 
 [[cards]]
 text = "Rowena Ravenclaw"
-first_revealed_installment = 1
+first_revealed_installment = 2
 
 [[cards]]
 text = "Helga Hufflepuff"
-first_revealed_installment = 1
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Sorting Hat"
@@ -164,3 +164,243 @@ first_revealed_installment = 1
 [[cards]]
 text = "Ambition"
 first_revealed_installment = 1
+
+[[cards]]
+text = "Harry Potter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ron Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hermione Granger"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Neville Longbottom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Minerva McGonagall"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Albus Dumbledore"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Severus Snape"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Luna Lovegood"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cedric Diggory"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cho Chang"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fred Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "George Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ginny Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lord Voldemort"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Remus Lupin"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Peter Pettigrew"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bellatrix Lestrange"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Moaning Myrtle"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gilderoy Lockhart"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Filius Flitwick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pomona Sprout"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nymphadora Tonks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Horace Slughorn"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Lucius Malfoy"
+first_revealed_installment = 2
+
+[[cards]]
+text = "James Potter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lily Potter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Percy Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sybill Trelawney"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Garrick Ollivander"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Seamus Finnigan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dean Thomas"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lavender Brown"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Oliver Wood"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gregory Goyle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Vincent Crabbe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pansy Parkinson"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hannah Abbott"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Susan Bones"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Justin Finch-Fletchley"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ernie Macmillan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Padma Patil"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Parvati Patil"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sorting Ceremony"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chamber of Secrets"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chivalry"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kindness"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Learning"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Resourcefulness"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sword of Gryffindor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hufflepuff's Cup"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Ravenclaw's Diadem"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Slytherin's Locket"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Hufflepuff Common Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sirius Black"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Arthur Weasley"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Molly Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Narcissa Malfoy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Newt Scamander"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Marauders"
+first_revealed_installment = 3

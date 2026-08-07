@@ -1,12 +1,12 @@
 id = "deck_university-of-pittsburgh_bea15323"
-revision = 2
+revision = 3
 name = "University of Pittsburgh"
 category = "Colleges and Universities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include campus landmarks, Pitt history, academic traditions, notable alumni, athletics, mascots, Oakland landmarks, Pittsburgh connections, and recognizable University of Pittsburgh references."
-spoiler_mode = false
 photo_file_name = "university-of-pittsburgh-bea15323-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Cathedral of Learning"
@@ -82,9 +82,6 @@ text = "Primanti Bros"
 
 [[cards]]
 text = "Pitt Panthers"
-
-[[cards]]
-text = "University of Pittsburgh"
 
 [[cards]]
 text = "Oakland"

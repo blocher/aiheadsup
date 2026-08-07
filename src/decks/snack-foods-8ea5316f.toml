@@ -1,12 +1,12 @@
 id = "deck_snack-foods_8ea5316f"
-revision = 2
+revision = 3
 name = "Snack Foods"
 category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include chips, crackers, popcorn, pretzels, dips, granola bars, fruit snacks, party snacks, lunchbox snacks, and movie-night foods."
-spoiler_mode = false
 photo_file_name = "snack-foods-8ea5316f-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Potato Chips"
@@ -195,12 +195,6 @@ text = "Fruit Roll-Ups"
 text = "Cheese Puffs"
 
 [[cards]]
-text = "Chocolate Granola Bar"
-
-[[cards]]
-text = "Caramel Popcorn"
-
-[[cards]]
 text = "Yogurt Raisins"
 
 [[cards]]
@@ -220,6 +214,3 @@ text = "Rice Crackers"
 
 [[cards]]
 text = "Seaweed Snacks"
-
-[[cards]]
-text = "Pita Bread"

@@ -1,12 +1,12 @@
 id = "deck_elementary-school-favorites_95b15977"
-revision = 2
+revision = 3
 name = "Elementary School Favorites"
 category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include school supplies, playground games, classroom items, favorite foods, common hobbies, sports, pets, books, holidays, and everyday kid life."
-spoiler_mode = false
 photo_file_name = "elementary-school-favorites-95b15977-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Backpack"
@@ -214,9 +214,6 @@ text = "Library Book"
 
 [[cards]]
 text = "Science Fair"
-
-[[cards]]
-text = "Soccer Ball"
 
 [[cards]]
 text = "Fire Drill"

@@ -1,12 +1,12 @@
 id = "deck_elementary-school-level-world-history_9284a4a5"
-revision = 2
+revision = 3
 name = "Elementary School Level World History"
 category = "History"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include ancient civilizations, famous rulers, explorers, inventions, landmarks, world cultures, major events, and simple geography-linked history appropriate for elementary school."
-spoiler_mode = false
 photo_file_name = "elementary-school-level-world-history-9284a4a5-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Pyramids of Giza"
@@ -69,16 +69,7 @@ text = "The Wheel"
 text = "Magnetic Compass"
 
 [[cards]]
-text = "George Washington"
-
-[[cards]]
-text = "Abraham Lincoln"
-
-[[cards]]
 text = "Joan of Arc"
-
-[[cards]]
-text = "Pocahontas"
 
 [[cards]]
 text = "Albert Einstein"
@@ -132,9 +123,6 @@ text = "Hieroglyphics"
 text = "Roman Chariot"
 
 [[cards]]
-text = "Statue of Liberty"
-
-[[cards]]
 text = "Taj Mahal"
 
 [[cards]]
@@ -150,19 +138,7 @@ text = "Eiffel Tower"
 text = "Silk Road"
 
 [[cards]]
-text = "Boston Tea Party"
-
-[[cards]]
-text = "Wright Flyer"
-
-[[cards]]
-text = "Mount Rushmore"
-
-[[cards]]
 text = "Vikings"
-
-[[cards]]
-text = "Mount Everest"
 
 [[cards]]
 text = "Magna Carta"
@@ -180,7 +156,7 @@ text = "Sparta"
 text = "The Mayans"
 
 [[cards]]
-text = "Aztecs"
+text = "Aztec"
 
 [[cards]]
 text = "Incas"
@@ -201,19 +177,10 @@ text = "Isaac Newton"
 text = "Pompeii"
 
 [[cards]]
-text = "Benjamin Franklin"
-
-[[cards]]
-text = "Liberty Bell"
-
-[[cards]]
 text = "Titanic"
 
 [[cards]]
 text = "Roman Empire"
-
-[[cards]]
-text = "Mayan Ruins"
 
 [[cards]]
 text = "The Stone Age"

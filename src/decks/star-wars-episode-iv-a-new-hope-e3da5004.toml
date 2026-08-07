@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-iv-a-new-hope_e3da5004"
-revision = 2
+revision = 4
 name = "Star Wars Episode IV: A New Hope"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode IV: A New Hope."
+photo_file_name = "star-wars-episode-iv-a-new-hope-e3da5004-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-iv-a-new-hope-e3da5004-cover.jpg"
 
 [[cards]]
 text = "Luke Skywalker"
@@ -194,14 +194,6 @@ text = "Power Converter"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Luke's Landspeeder"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Death Star Trench"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Detention Block"
 first_revealed_installment = 1
 
@@ -214,7 +206,7 @@ text = "Womp Rats"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Marksman-H Training Remote"
+text = "Training Remote"
 first_revealed_installment = 1
 
 [[cards]]
@@ -238,10 +230,6 @@ text = "Jedi Mind Trick"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Obi-Wan's Sacrifice"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Leia's Hologram"
 first_revealed_installment = 1
 
@@ -250,5 +238,377 @@ text = "Death Star Exhaust Port"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Use the Force"
+text = "Lightsaber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jedi Knight"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Clone Wars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Battle of Yavin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Leader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gold Leader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TIE Advanced x1"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Twin Suns"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Captain Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "General Motti"
+first_revealed_installment = 1
+
+[[cards]]
+text = "General Tagge"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wuher"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ponda Baba"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dr. Evazan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Garindan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "R5-D4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gonk Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mouse Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blaster Rifle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blaster Pistol"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gaffi Stick"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Moisture Vaporator"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Escape Pod"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jundland Wastes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beggar's Canyon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mos Eisley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Docking Bay 94"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spice Mines of Kessel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Massassi Temple"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Scomp Link"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bad Motivator"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Macrobinoculars"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sandtrooper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TIE Fighter Pilot"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Trooper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bith"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tractor Beam"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cell 2187"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Senate"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blast Shield"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dejarik"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Dune Sea"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Droid Auction"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rebel Trooper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ray Shield"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Magnetic Seal"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Superlaser"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Figrin D'an"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jek Porkins"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gold Squadron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "General Dodonna"
+first_revealed_installment = 1
+
+[[cards]]
+text = "BoShek"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hammerhead"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Snaggletooth"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jabba the Hutt"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Old Ben"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Krayt Dragon Skeleton"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Krayt Dragon Call"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Obi-Wan's Hut"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Moisture Farm"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Conference Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Droid Caller"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Oil Bath"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Treadwell Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Interrogation Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Scanning Crew"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TK-421"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Officer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Corridor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chasm Swing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Garbage Chute"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Targeting Computer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stay on Target"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Darth Vader's Breathing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Secret Smuggling Compartments"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hangar 327"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rebel Briefing Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gold Five"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Six"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rebel Trooper Helmet"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Alderaan System"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Anchorhead"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Astromech Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Protocol Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Navy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cantina Alien"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rebel Base"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Smuggler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bounty Hunter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spice"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Award Ceremony"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ion Blaster"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Commander"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Gunner"
 first_revealed_installment = 1

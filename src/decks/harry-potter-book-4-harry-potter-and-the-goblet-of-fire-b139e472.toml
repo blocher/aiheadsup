@@ -1,13 +1,13 @@
 id = "deck_harry-potter-book-4-harry-potter-and-the-goblet-of-fire_b139e472"
-revision = 2
+revision = 4
 name = "Harry Potter Book 4: Harry Potter and the Goblet of Fire"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in Harry Potter and the Goblet of Fire."
+photo_file_name = "harry-potter-book-4-harry-potter-and-the-goblet-of-fire-b139e472-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-book-4-harry-potter-and-the-goblet-of-fire-b139e472-cover.jpg"
 
 [[cards]]
 text = "Goblet of Fire"
@@ -115,7 +115,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Quidditch World Cup"
-first_revealed_installment = 4
+first_revealed_installment = 3
 
 [[cards]]
 text = "Beauxbatons Academy"
@@ -255,4 +255,156 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Accio"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Wronski Feint"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Irish Quidditch Team"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bulgarian Quidditch Team"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Orchideous"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Department of Magical Games"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Morsmordre"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stunning Spell"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Shield Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Summoning Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Banishing Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Aging Potion"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dumbledore's Age Line"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Abraxan Horses"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Unforgivable Curses"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Hogwarts Kitchens"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tickling the Pear"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Harry's Dress Robes"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Potter Stinks Badges"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Densaugeo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Furnunculus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Periwinkle Dress Robes"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ron's Dress Robes"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Snuffles"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sirius's Cave"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Seven-Keyed Trunk"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Unregistered Animagus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stoatshead Hill"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gabrielle Delacour"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flesh of the Servant"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Blood of the Enemy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bone of the Father"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Pettigrew's Silver Hand"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Voldemort's Rebirth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Brother Wands"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Golden Dome"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gregorovitch"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Red Sparks"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Four-Point Spell"
 first_revealed_installment = 4

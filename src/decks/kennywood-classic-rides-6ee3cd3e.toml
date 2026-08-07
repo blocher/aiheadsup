@@ -1,12 +1,12 @@
 id = "deck_kennywood-classic-rides_6ee3cd3e"
-revision = 2
+revision = 3
 name = "Kennywood: Classic Rides"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Kennywood roller coasters, classic rides, thrill rides, water rides, kiddie rides, retired rides, ride vehicles, and recognizable ride features."
-spoiler_mode = false
 photo_file_name = "kennywood-classic-rides-6ee3cd3e-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Phantom's Revenge"
@@ -61,6 +61,9 @@ text = "Old Mill"
 
 [[cards]]
 text = "Garfield's Nightmare"
+
+[[cards]]
+text = "Drop Zone"
 
 [[cards]]
 text = "Pitt Fall"
@@ -120,13 +123,13 @@ text = "Whippersnapper"
 text = "Carousel Organ"
 
 [[cards]]
-text = "Phantom's Revenge Ravine Drop"
+text = "Phantom's Ravine Drop"
 
 [[cards]]
 text = "Spinvasion"
 
 [[cards]]
-text = "Pirate Ship"
+text = "Pirate"
 
 [[cards]]
 text = "Thunderbolt Lift Hill"
@@ -135,7 +138,7 @@ text = "Thunderbolt Lift Hill"
 text = "Kennywood Railroad"
 
 [[cards]]
-text = "Merry-Go-Round"
+text = "Grand Carousel"
 
 [[cards]]
 text = "Swing Shot"

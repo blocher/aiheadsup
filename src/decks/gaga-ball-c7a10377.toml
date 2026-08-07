@@ -1,12 +1,12 @@
 id = "deck_gaga-ball_c7a10377"
-revision = 2
+revision = 3
 name = "Gaga Ball"
 category = "Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include gaga pit terms, rules, hits, dodges, eliminations, playground strategies, camp references, ball-control moves, player actions, and family-friendly school or camp game concepts."
-spoiler_mode = false
 photo_file_name = "gaga-ball-c7a10377-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Gaga Pit"
@@ -63,16 +63,10 @@ text = "Out of Bounds"
 text = "Pit Wall"
 
 [[cards]]
-text = "Knee Slap"
-
-[[cards]]
 text = "Defensive Stance"
 
 [[cards]]
 text = "Opening Tap"
-
-[[cards]]
-text = "Victory Lap"
 
 [[cards]]
 text = "Octagon Pit"
@@ -87,43 +81,13 @@ text = "Soft Touch"
 text = "Hard Hit"
 
 [[cards]]
-text = "Fast Pace"
-
-[[cards]]
-text = "Spectators"
-
-[[cards]]
-text = "Hand Guard"
-
-[[cards]]
-text = "Jump and Split"
-
-[[cards]]
 text = "Clean Hit"
 
 [[cards]]
 text = "High Ball"
 
 [[cards]]
-text = "Ball Launch"
-
-[[cards]]
 text = "Turtle Stance"
-
-[[cards]]
-text = "Quick Reflexes"
-
-[[cards]]
-text = "Active Player"
-
-[[cards]]
-text = "Bench Warmers"
-
-[[cards]]
-text = "Championship Match"
-
-[[cards]]
-text = "Cheering Crowd"
 
 [[cards]]
 text = "Ball Deflection"
@@ -132,31 +96,16 @@ text = "Ball Deflection"
 text = "Low Bounce"
 
 [[cards]]
-text = "Fast Roll"
-
-[[cards]]
 text = "Out of the Pit"
 
 [[cards]]
 text = "Wooden Planks"
 
 [[cards]]
-text = "Rubber Sole Sneakers"
-
-[[cards]]
-text = "Finger Tip Save"
-
-[[cards]]
 text = "Back Wall Bounce"
 
 [[cards]]
-text = "Giant Circle"
-
-[[cards]]
 text = "Last One Standing"
-
-[[cards]]
-text = "The Octagon"
 
 [[cards]]
 text = "Jump Dodge"
@@ -168,37 +117,13 @@ text = "Recess"
 text = "Gym Class"
 
 [[cards]]
-text = "Victory Dance"
-
-[[cards]]
 text = "Grounder"
-
-[[cards]]
-text = "Corner Pocket"
-
-[[cards]]
-text = "Game On"
-
-[[cards]]
-text = "High Five"
 
 [[cards]]
 text = "Fake Out"
 
 [[cards]]
 text = "Ricochet"
-
-[[cards]]
-text = "Sneaker Squeak"
-
-[[cards]]
-text = "Dusty Shoes"
-
-[[cards]]
-text = "Speed Shot"
-
-[[cards]]
-text = "Knee Strike"
 
 [[cards]]
 text = "Sitting on the Wall"
@@ -216,28 +141,10 @@ text = "The Spider Stance"
 text = "Corner Defender"
 
 [[cards]]
-text = "Ball Spinner"
-
-[[cards]]
-text = "Fast Footwork"
-
-[[cards]]
 text = "Playground"
-
-[[cards]]
-text = "Second Tap"
-
-[[cards]]
-text = "Target Practice"
 
 [[cards]]
 text = "Open Hand Strike"
 
 [[cards]]
 text = "The Opening Chant"
-
-[[cards]]
-text = "Spectator Bench"
-
-[[cards]]
-text = "Referee Whistle"

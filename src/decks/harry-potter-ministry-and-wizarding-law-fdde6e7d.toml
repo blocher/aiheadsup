@@ -1,13 +1,13 @@
 id = "deck_harry-potter-ministry-and-wizarding-law_fdde6e7d"
-revision = 2
+revision = 4
 name = "Harry Potter: Ministry and Wizarding Law"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include departments, officials, laws, trials, punishments, political groups, and bureaucracy."
+photo_file_name = "harry-potter-ministry-and-wizarding-law-fdde6e7d-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-ministry-and-wizarding-law-fdde6e7d-cover.jpg"
 
 [[cards]]
 text = "Decree for Underage Sorcery"
@@ -15,11 +15,11 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Statute of Secrecy"
-first_revealed_installment = 1
+first_revealed_installment = 2
 
 [[cards]]
 text = "The Wizengamot"
-first_revealed_installment = 1
+first_revealed_installment = 4
 
 [[cards]]
 text = "Department of Mysteries"
@@ -63,7 +63,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Courtroom Ten"
-first_revealed_installment = 5
+first_revealed_installment = 4
 
 [[cards]]
 text = "The Veil"
@@ -75,11 +75,11 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Magical Maintenance"
-first_revealed_installment = 7
+first_revealed_installment = 5
 
 [[cards]]
 text = "Amelia Bones"
-first_revealed_installment = 4
+first_revealed_installment = 5
 
 [[cards]]
 text = "Rufus Scrimgeour"
@@ -111,7 +111,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Dirk Cresswell"
-first_revealed_installment = 7
+first_revealed_installment = 6
 
 [[cards]]
 text = "Wilkie Twycross"
@@ -171,11 +171,11 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Pest Sub-Division"
-first_revealed_installment = 2
+first_revealed_installment = 4
 
 [[cards]]
 text = "Magical Law Enforcement Patrol"
-first_revealed_installment = 5
+first_revealed_installment = 6
 
 [[cards]]
 text = "Floo Network Authority"
@@ -211,7 +211,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Obliviator Headquarters"
-first_revealed_installment = 3
+first_revealed_installment = 5
 
 [[cards]]
 text = "Wizengamot Trial"
@@ -239,7 +239,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Corban Yaxley"
-first_revealed_installment = 7
+first_revealed_installment = 6
 
 [[cards]]
 text = "Ludo Bagman"
@@ -280,3 +280,303 @@ first_revealed_installment = 5
 [[cards]]
 text = "Werewolf Registry"
 first_revealed_installment = 3
+
+[[cards]]
+text = "Minister for Magic"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cornelius Fudge"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ministry Atrium"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dungeon Courtrooms"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Apparition Test Centre"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Walden Macnair"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Unforgivable Curses"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Avada Kedavra"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Cruciatus Curse"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Imperius Curse"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Trace"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Underage Magic"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Supreme Mugwump"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Order of Merlin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Animagus Registry"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Unregistered Animagus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Muggle Protection Act"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Arthur Weasley"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Percy Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Barty Crouch Junior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Igor Karkaroff"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bellatrix Lestrange"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nymphadora Tonks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alastor Moody"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gawain Robards"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mary Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Muggle-Born Trials"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Magic is Might"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Undesirable Number One"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Snatchers"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Dumbledore's Will"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Decree for Justifiable Confiscation"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Red Telephone Booth"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ministry Security Desk"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Weighing of the Wands"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ministry Paper Aeroplanes"
+first_revealed_installment = 5
+
+[[cards]]
+text = "High Inquisitor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Educational Decree Twenty-Eight"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wizarding Examinations Authority"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Examiner Tofty"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tiberius Ogden"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sturgis Podmore"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Eric Munch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Meteolojinx Recanto"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Nurmengard"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ministry of Magic"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Portkey Regulation"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Centaur Liaison Office"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Department of Magical Transportation"
+first_revealed_installment = 4
+
+[[cards]]
+text = "International Confederation of Wizards"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Court Scribe"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Level Nine"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Level Two"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ministry Visitor Badge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ministry Elevator"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Interrogation Chair"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Fall of the Ministry"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Dumbledore's Army"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Black Quill"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ministry Owl"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Binding Magical Contract"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Triwizard Tournament Rules"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Age Line"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ministry Cars"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Taboo Curse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Caterwauling Charm"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Muggle-Worthy Excuse"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Arabella Figg"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Squib Witness"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Muggle Prime Minister"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Minister's Portrait"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Werewolf Support Services"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Werewolf Capture Unit"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cauldron Thickness Report"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Senior Undersecretary"
+first_revealed_installment = 5

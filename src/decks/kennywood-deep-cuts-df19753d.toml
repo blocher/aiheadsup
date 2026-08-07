@@ -1,12 +1,12 @@
 id = "deck_kennywood-deep-cuts_df19753d"
-revision = 2
+revision = 3
 name = "Kennywood: Deep Cuts"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include obscure Kennywood ride history, former attractions, old names, defunct areas, classic advertisements, coaster details, and longtime local fan references."
-spoiler_mode = false
 photo_file_name = "kennywood-deep-cuts-df19753d-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "The Pippin"
@@ -75,28 +75,7 @@ text = "Potato Patch Fries"
 text = "Lost Kennywood"
 
 [[cards]]
-text = "Steel Curtain"
-
-[[cards]]
-text = "Exterminator"
-
-[[cards]]
 text = "Phantom's Revenge"
-
-[[cards]]
-text = "Aero 360"
-
-[[cards]]
-text = "Raging Rapids"
-
-[[cards]]
-text = "Volcano"
-
-[[cards]]
-text = "Flying Carpet"
-
-[[cards]]
-text = "Swing Around"
 
 [[cards]]
 text = "Dipper"
@@ -123,28 +102,10 @@ text = "S.S. Kenny"
 text = "Monongahela River Overlook"
 
 [[cards]]
-text = "Lil' Phantom"
-
-[[cards]]
 text = "Whip Pavilion"
 
 [[cards]]
 text = "Lion Fountain"
-
-[[cards]]
-text = "Gran Prix"
-
-[[cards]]
-text = "Cosmic Chaos"
-
-[[cards]]
-text = "Black Widow"
-
-[[cards]]
-text = "Sky Rocket"
-
-[[cards]]
-text = "Thomas Town"
 
 [[cards]]
 text = "Playdium Arcade"
@@ -160,9 +121,6 @@ text = "Laffin' Sal"
 
 [[cards]]
 text = "King Kahuna"
-
-[[cards]]
-text = "Road Runner"
 
 [[cards]]
 text = "The Rotor"
@@ -192,25 +150,10 @@ text = "Kennywood Lagoon"
 text = "Kiddieland"
 
 [[cards]]
-text = "Wonder Wheel"
-
-[[cards]]
 text = "Roll-O-Plane"
-
-[[cards]]
-text = "Swing Shot"
-
-[[cards]]
-text = "Skycoaster"
-
-[[cards]]
-text = "Potato Patch Cheese"
 
 [[cards]]
 text = "Moebius Loop Racer"
 
 [[cards]]
 text = "The Whip"
-
-[[cards]]
-text = "Luna Park"

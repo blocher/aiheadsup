@@ -1,12 +1,12 @@
 id = "deck_kennywood-park-lore-and-landmarks_c76f4798"
-revision = 2
+revision = 3
 name = "Kennywood: Park Lore and Landmarks"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Kennywood history, themed areas, park landmarks, food stands, games, mascots, seasonal events, local traditions, and Pittsburgh-area references."
-spoiler_mode = false
 photo_file_name = "kennywood-park-lore-and-landmarks-c76f4798-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Phantom's Revenge"
@@ -114,9 +114,6 @@ text = "Pagoda"
 text = "Kennywood Arrow"
 
 [[cards]]
-text = "Park Fountain"
-
-[[cards]]
 text = "Kandy Kaleidoscope"
 
 [[cards]]
@@ -130,24 +127,6 @@ text = "West Mifflin"
 
 [[cards]]
 text = "School Picnic Day"
-
-[[cards]]
-text = "Potato Patch Cheese"
-
-[[cards]]
-text = "Cotton Candy"
-
-[[cards]]
-text = "Funnel Cake"
-
-[[cards]]
-text = "Dip Cone"
-
-[[cards]]
-text = "Paddle Boats"
-
-[[cards]]
-text = "Arcade"
 
 [[cards]]
 text = "The Whip"
@@ -177,16 +156,10 @@ text = "Pitt Fall"
 text = "Pippin"
 
 [[cards]]
-text = "Dippin' Dots"
-
-[[cards]]
 text = "Parkside Cafe"
 
 [[cards]]
 text = "Grand Carousel"
-
-[[cards]]
-text = "Garden Stage"
 
 [[cards]]
 text = "Kennywood Lagoon"

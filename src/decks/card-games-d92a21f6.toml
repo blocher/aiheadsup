@@ -1,24 +1,18 @@
 id = "deck_card-games_d92a21f6"
-revision = 2
+revision = 3
 name = "Card Games"
 category = "Games"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include playing-card games, card suits, ranks, special cards, family card games, rules terms, tricks, hands, decks, and common card-table phrases."
-spoiler_mode = false
 photo_file_name = "card-games-d92a21f6-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Ace of Spades"
 
 [[cards]]
 text = "Queen of Hearts"
-
-[[cards]]
-text = "King of Diamonds"
-
-[[cards]]
-text = "Jack of Clubs"
 
 [[cards]]
 text = "Joker"
@@ -129,9 +123,6 @@ text = "Dealer's Choice"
 text = "High Card"
 
 [[cards]]
-text = "Pair of Aces"
-
-[[cards]]
 text = "Spoons"
 
 [[cards]]
@@ -211,12 +202,6 @@ text = "Trick"
 
 [[cards]]
 text = "House of Cards"
-
-[[cards]]
-text = "King of Hearts"
-
-[[cards]]
-text = "Queen of Diamonds"
 
 [[cards]]
 text = "Card Trick"

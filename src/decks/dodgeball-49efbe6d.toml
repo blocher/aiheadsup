@@ -1,12 +1,12 @@
 id = "deck_dodgeball_49efbe6d"
-revision = 2
+revision = 3
 name = "Dodgeball"
 category = "Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include rules, throws, catches, dodges, gym-class terms, team strategies, equipment, funny moments, elimination rules, playground variations, and family-friendly dodgeball concepts."
-spoiler_mode = false
 photo_file_name = "dodgeball-49efbe6d-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Red Rubber Ball"
@@ -60,9 +60,6 @@ text = "Benchwarmer"
 text = "Bounce Shot"
 
 [[cards]]
-text = "Giant Leap"
-
-[[cards]]
 text = "Foam Ball"
 
 [[cards]]
@@ -99,12 +96,6 @@ text = "Butterfingers"
 text = "Windmill Throw"
 
 [[cards]]
-text = "High Jump"
-
-[[cards]]
-text = "Corner Thrower"
-
-[[cards]]
 text = "Gym Floor"
 
 [[cards]]
@@ -127,9 +118,6 @@ text = "Target Practice"
 
 [[cards]]
 text = "Duck and Cover"
-
-[[cards]]
-text = "Running Grab"
 
 [[cards]]
 text = "Direct Hit"
@@ -183,9 +171,6 @@ text = "Corner Trap"
 text = "Safe Zone"
 
 [[cards]]
-text = "Fastball"
-
-[[cards]]
 text = "Behind the Back"
 
 [[cards]]
@@ -208,9 +193,6 @@ text = "The Bench"
 
 [[cards]]
 text = "Pegged"
-
-[[cards]]
-text = "Referee Whistle"
 
 [[cards]]
 text = "One-Handed Catch"

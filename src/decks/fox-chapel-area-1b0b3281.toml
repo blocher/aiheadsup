@@ -1,12 +1,12 @@
 id = "deck_fox-chapel-area_1b0b3281"
-revision = 2
+revision = 4
 name = "Fox Chapel Area"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include O'Hara Township, Sharpsburg, Aspinwall, Fox Chapel, Etna, Indiana Township, Blawnox, local parks, schools, rivers, bridges, neighborhoods, roads, restaurants, landmarks, history, and Pittsburgh-area references. Include all Fox Chapel School District schools"
-spoiler_mode = false
 photo_file_name = "fox-chapel-area-1b0b3281-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "O'Hara Township"
@@ -70,9 +70,6 @@ text = "Salamander Park"
 
 [[cards]]
 text = "Emmerling Park"
-
-[[cards]]
-text = "Squaw Valley Park"
 
 [[cards]]
 text = "Hardie Valley Park"
@@ -198,13 +195,259 @@ text = "Dancing Gnome Brewery"
 text = "KDKA Transmitter"
 
 [[cards]]
-text = "Locher Residence"
-
-[[cards]]
-text = "Home"
-
-[[cards]]
-text = "Greyfriar Dr."
-
-[[cards]]
 text = "Tepache"
+
+[[cards]]
+text = "Oakmont Bakery"
+
+[[cards]]
+text = "Zone 28"
+
+[[cards]]
+text = "Rachel Carson Trail"
+
+[[cards]]
+text = "FCASD"
+
+[[cards]]
+text = "Heinz History Center"
+
+[[cards]]
+text = "Shaler Township"
+
+[[cards]]
+text = "Hampton Township"
+
+[[cards]]
+text = "Harmar Township"
+
+[[cards]]
+text = "Penn Hills"
+
+[[cards]]
+text = "Oakmont"
+
+[[cards]]
+text = "Millvale"
+
+[[cards]]
+text = "Lawrenceville"
+
+[[cards]]
+text = "Shadyside"
+
+[[cards]]
+text = "Pittsburgh Zoo"
+
+[[cards]]
+text = "PPG Aquarium"
+
+[[cards]]
+text = "Harts Run Road"
+
+[[cards]]
+text = "Saxonburg Boulevard"
+
+[[cards]]
+text = "Middle Road"
+
+[[cards]]
+text = "Guys Run Road"
+
+[[cards]]
+text = "Hunt Road"
+
+[[cards]]
+text = "Kittanning Toll Road"
+
+[[cards]]
+text = "Pennsylvania Turnpike"
+
+[[cards]]
+text = "Girty's Run"
+
+[[cards]]
+text = "Pittsburgh Mills"
+
+[[cards]]
+text = "Heinz Field"
+
+[[cards]]
+text = "PNC Park"
+
+[[cards]]
+text = "Kennywood"
+
+[[cards]]
+text = "Phipps Conservatory"
+
+[[cards]]
+text = "Market District"
+
+[[cards]]
+text = "Silky's Crow's Nest"
+
+[[cards]]
+text = "Bella Christie's"
+
+[[cards]]
+text = "Luke and Mike's Frontporch"
+
+[[cards]]
+text = "Gino Brothers"
+
+[[cards]]
+text = "Boyd Center"
+
+[[cards]]
+text = "Christ the Divine Teacher"
+
+[[cards]]
+text = "St. Mary's Cemetery"
+
+[[cards]]
+text = "Senator John Heinz"
+
+[[cards]]
+text = "James Sharp"
+
+[[cards]]
+text = "Cheswick"
+
+[[cards]]
+text = "Verona"
+
+[[cards]]
+text = "Harmarville"
+
+[[cards]]
+text = "Springdale"
+
+[[cards]]
+text = "Pittsburgh Steelers"
+
+[[cards]]
+text = "Pittsburgh Penguins"
+
+[[cards]]
+text = "Pittsburgh Pirates"
+
+[[cards]]
+text = "Steel City"
+
+[[cards]]
+text = "Three Rivers"
+
+[[cards]]
+text = "Yinzer"
+
+[[cards]]
+text = "Primanti Brothers"
+
+[[cards]]
+text = "The Terrible Towel"
+
+[[cards]]
+text = "Acrisure Stadium"
+
+[[cards]]
+text = "PPG Paints Arena"
+
+[[cards]]
+text = "Highmark Stadium"
+
+[[cards]]
+text = "Duquesne Incline"
+
+[[cards]]
+text = "Monongahela Incline"
+
+[[cards]]
+text = "Strip District"
+
+[[cards]]
+text = "Mister Rogers"
+
+[[cards]]
+text = "Andy Warhol"
+
+[[cards]]
+text = "Rachel Carson"
+
+[[cards]]
+text = "Heinz Ketchup"
+
+[[cards]]
+text = "Pierogi"
+
+[[cards]]
+text = "Pittsburgh Salad"
+
+[[cards]]
+text = "Chipped Chopped Ham"
+
+[[cards]]
+text = "Klondike Bar"
+
+[[cards]]
+text = "Picklesburgh"
+
+[[cards]]
+text = "Three Rivers Arts Festival"
+
+[[cards]]
+text = "Light Up Night"
+
+[[cards]]
+text = "National Aviary"
+
+[[cards]]
+text = "Cathedral of Learning"
+
+[[cards]]
+text = "Point State Park"
+
+[[cards]]
+text = "The Blockhouse"
+
+[[cards]]
+text = "Carnegie Museum"
+
+[[cards]]
+text = "Washington's Landing"
+
+[[cards]]
+text = "Fort Pitt Tunnel"
+
+[[cards]]
+text = "Squirrel Hill Tunnel"
+
+[[cards]]
+text = "Monongahela River"
+
+[[cards]]
+text = "Ohio River"
+
+[[cards]]
+text = "Allegheny County"
+
+[[cards]]
+text = "WTAE"
+
+[[cards]]
+text = "WPXI"
+
+[[cards]]
+text = "WQED"
+
+[[cards]]
+text = "Pittsburgh Regional Transit"
+
+[[cards]]
+text = "Longue Vue Club"
+
+[[cards]]
+text = "Deer Lakes Park"
+
+[[cards]]
+text = "The Gateway Clipper"

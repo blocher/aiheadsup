@@ -1,18 +1,18 @@
 id = "deck_wargames_ccbb551c"
-revision = 2
+revision = 3
 name = "WarGames"
 category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, computers, games, military terms, places, quotes, 1980s technology, Cold War concepts, NORAD, WOPR, and memorable plot moments."
-spoiler_mode = false
 photo_file_name = "wargames-ccbb551c-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "David Lightman"
 
 [[cards]]
-text = "Jennifer Mack"
+text = "Jennifer Miller"
 
 [[cards]]
 text = "Dr. Stephen Falken"
@@ -22,12 +22,6 @@ text = "General Jack Beringer"
 
 [[cards]]
 text = "John McKittrick"
-
-[[cards]]
-text = "Arthur Cabot"
-
-[[cards]]
-text = "Jim Sting"
 
 [[cards]]
 text = "WOPR"

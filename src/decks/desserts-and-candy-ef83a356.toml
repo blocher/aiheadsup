@@ -1,12 +1,12 @@
 id = "deck_desserts-and-candy_ef83a356"
-revision = 2
+revision = 3
 name = "Desserts and Candy"
 category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include cakes, cookies, ice cream, candy, chocolate, pies, pastries, toppings, dessert shops, and sweet treats kids and adults would know."
-spoiler_mode = false
 photo_file_name = "desserts-and-candy-ef83a356-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Chocolate Chip Cookie"
@@ -103,9 +103,6 @@ text = "Key Lime Pie"
 
 [[cards]]
 text = "Snickerdoodle"
-
-[[cards]]
-text = "Red Velvet Cupcake"
 
 [[cards]]
 text = "Ice Cream Parlor"

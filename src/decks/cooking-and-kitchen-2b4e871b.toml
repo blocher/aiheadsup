@@ -1,12 +1,12 @@
 id = "deck_cooking-and-kitchen_2b4e871b"
-revision = 2
+revision = 3
 name = "Cooking and Kitchen"
 category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include kitchen tools, cooking methods, ingredients, measurements, appliances, recipes, chef terms, baking items, and common meal-prep actions."
-spoiler_mode = false
 photo_file_name = "cooking-and-kitchen-2b4e871b-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Whisk"
@@ -73,9 +73,6 @@ text = "Baking"
 
 [[cards]]
 text = "Deep Frying"
-
-[[cards]]
-text = "Active Dry Yeast"
 
 [[cards]]
 text = "Olive Oil"
@@ -244,9 +241,6 @@ text = "Measuring Spoon"
 
 [[cards]]
 text = "Immersion Blender"
-
-[[cards]]
-text = "Silicone Spatula"
 
 [[cards]]
 text = "Salad Spinner"

@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-last-crusade_1e0c1a5a"
-revision = 2
+revision = 4
 name = "Indiana Jones: Last Crusade"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Last Crusade."
+photo_file_name = "indiana-jones-last-crusade-1e0c1a5a-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-last-crusade-1e0c1a5a-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -122,7 +122,7 @@ text = "Castle Brunwald"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Crescent Moon"
+text = "Crescent Moon Canyon"
 first_revealed_installment = 3
 
 [[cards]]
@@ -154,7 +154,7 @@ text = "German Tank"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Motorcycle & Sidecar"
+text = "Motorcycle and Sidecar"
 first_revealed_installment = 3
 
 [[cards]]
@@ -203,4 +203,308 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Rats of Venice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Al-Jawf Desert"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Holy Land"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Alexandretta"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Barnett College"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Princeton, New Jersey"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Moab, Utah"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Dunn and Duffy Circus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Alaskan Malamute"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Junior"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grail Guardians"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Great Seal"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Invisible Bridge"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Spinning Blades"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Letter J"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Throwing Sand"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Ming Vase"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Squirting Ink"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fountain Pen"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Lion's Cage"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Whip Scar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sheriff of Moab"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grave Robbers"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Secret Fireplace Passage"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Back-to-Back Chairs"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Tapestry Room"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Professor of Archaeology"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Irene the Secretary"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Walter Donovan's Penthouse"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rolls-Royce Phantom II"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sultan's Palace"
+first_revealed_installment = 3
+
+[[cards]]
+text = "German Officer Uniform"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Biplane Escape"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shooting the Tail"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Plugging the Gun"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Cliffside Fall"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hatay Soldiers"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Three Trials"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shattered Floor Tile"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Brass Tripod"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Knight's Shield"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Paper Rubbing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Marcus's Map"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Riding into the Sunset"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Panama Hat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Scout Troop"
+first_revealed_installment = 3
+
+[[cards]]
+text = "San Barnaba Church"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Petroleum Pool"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Silver Lighter"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Three Brothers"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Last Knight"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Clay Chalice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Golden Chalice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Temple Earthquake"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Venice Speedboat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ship's Propeller"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Train Snake Pit"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Magic Trunk"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Flagpole Joust"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Berlin Rally"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Zeppelin Escape"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Tunnel Plane Chase"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mark VII Tank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Tank Periscope"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Temple Entrance"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Brotherhood Tattoo"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Stormy Shipwreck"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Office Window"
+first_revealed_installment = 3
+
+[[cards]]
+text = "An Italian Cafe"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Red Carnation"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Rotating Fireplace"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Tapestry Fire"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Whipping the Lion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Venice Canals"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Hatay Convoy"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Knight's Tombstone"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A Border Barricade"
 first_revealed_installment = 3

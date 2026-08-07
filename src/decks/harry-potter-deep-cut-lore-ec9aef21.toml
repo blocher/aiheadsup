@@ -1,13 +1,13 @@
 id = "deck_harry-potter-deep-cut-lore_ec9aef21"
-revision = 2
+revision = 4
 name = "Harry Potter: Deep Cut Lore"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include lesser-known names, events, magical theory, family connections, historical references, and obscure book details."
+photo_file_name = "harry-potter-deep-cut-lore-ec9aef21-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-deep-cut-lore-ec9aef21-cover.jpg"
 
 [[cards]]
 text = "Great-Uncle Algie"
@@ -167,7 +167,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Emeric the Evil"
-first_revealed_installment = 1
+first_revealed_installment = 7
 
 [[cards]]
 text = "Gunhilda of Gorsemoor"
@@ -235,7 +235,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Marlene McKinnon"
-first_revealed_installment = 1
+first_revealed_installment = 5
 
 [[cards]]
 text = "Dorcas Meadowes"
@@ -303,7 +303,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Spattergroit"
-first_revealed_installment = 7
+first_revealed_installment = 5
 
 [[cards]]
 text = "Grunnings Drill Company"
@@ -311,4 +311,392 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "The Deathday Party"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Augustus Pye"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Celestina Warbeck"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Apollyon Pringle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Auntie Muriel"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Griselda Marchbanks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wilkie Twycross"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Bob Ogden"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Broderick Bode"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Albert Runcorn"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Reginald Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mary Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mafalda Hopkirk"
+first_revealed_installment = 2
+
+[[cards]]
+text = "John Dawlish"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Elphias Doge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wilhelmina Grubbly-Plank"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Professor Sinistra"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gellert Grindelwald"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Charity Burbage"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Alecto Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Amycus Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Corban Yaxley"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Walden Macnair"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Augustus Rookwood"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Antonin Dolohov"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Thorfinn Rowle"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Regulus Arcturus Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alphard Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Walburga Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cassandra Trelawney"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Marcus Flint"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Terence Higgs"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Miles Bletchley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Graham Montague"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cassius Warrington"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Alicia Spinnet"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Katie Bell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Demelza Robins"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Cormac McLaggen"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Romilda Vane"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Eloise Midgen"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Penelope Clearwater"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Marietta Edgecombe"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Gwenog Jones"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Bogrod"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Gornuk"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Winky"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stan Shunpike"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ernie Prang"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Madam Pince"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cuthbert Binns"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Damocles Belby"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Libatius Borage"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Hector Dagworth-Sentry"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Madam Puddifoot's"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Hog's Head"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Knockturn Alley"
+first_revealed_installment = 2
+
+[[cards]]
+text = "St. Mungo's"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Veil"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kendra Dumbledore"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Percival Dumbledore"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ariana Dumbledore"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Frank Longbottom"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Alice Longbottom"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Augusta Longbottom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rabastan Lestrange"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rodolphus Lestrange"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Evan Rosier"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Wilkes"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Gibbon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jugson"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mrs. Zabini"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dexter Fortescue"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Chudley Cannons"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Croaker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Amos Diggory"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bertha Jorkins"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Barty Crouch Senior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Barty Crouch Junior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Helena Ravenclaw"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rowena Ravenclaw"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Helga Hufflepuff"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Godric Gryffindor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Salazar Slytherin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Millicent Bagnold"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Amelia Bones"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Edgar Bones"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dennis Creevey"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Theodore Nott"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Millicent Bulstrode"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blaise Zabini"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Daphne Greengrass"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Astoria Greengrass"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Delphi Diggory"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Abraxas Malfoy"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tiberius McLaggen"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tutshill Tornados"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Borgin and Burkes"
 first_revealed_installment = 2

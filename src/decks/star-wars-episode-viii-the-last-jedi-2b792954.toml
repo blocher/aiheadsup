@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-viii-the-last-jedi_2b792954"
-revision = 2
+revision = 4
 name = "Star Wars Episode VIII: The Last Jedi"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode VIII: The Last Jedi."
+photo_file_name = "star-wars-episode-viii-the-last-jedi-2b792954-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-viii-the-last-jedi-2b792954-cover.jpg"
 
 [[cards]]
 text = "Porg"
@@ -175,7 +175,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Force Bond"
-first_revealed_installment = 9
+first_revealed_installment = 2
 
 [[cards]]
 text = "Hyperspace Tracker"
@@ -239,7 +239,7 @@ first_revealed_installment = 9
 
 [[cards]]
 text = "Burning Jedi Temple"
-first_revealed_installment = 9
+first_revealed_installment = 7
 
 [[cards]]
 text = "Stormtrooper Executioner"
@@ -259,4 +259,256 @@ first_revealed_installment = 9
 
 [[cards]]
 text = "Canto Bight Police"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C-3PO"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Admiral Ackbar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Nien Nunb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lieutenant Connix"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Captain Peavey"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Slowen Lo"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Prime Jedi"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Ancient Tree"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Libertine"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Cantonica"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Green Lightsaber"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Kylo's Red Lightsaber"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Luke's Walking Stick"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kyber Crystal Necklace"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Snoke's Ring"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Snoke's Gold Robes"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kylo's Scar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mega-Destroyer"
+first_revealed_installment = 9
+
+[[cards]]
+text = "First Order AT-ST"
+first_revealed_installment = 9
+
+[[cards]]
+text = "X-Wing Starfighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "A-Wing Starfighter"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Black One"
+first_revealed_installment = 7
+
+[[cards]]
+text = "TIE Fighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tracker Beacon"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Bacta Suit"
+first_revealed_installment = 9
+
+[[cards]]
+text = "First Order Uniform"
+first_revealed_installment = 7
+
+[[cards]]
+text = "First Order Ironing Droid"
+first_revealed_installment = 9
+
+[[cards]]
+text = "D'Qar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "First Jedi Temple"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Luke's Stone Hut"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Spark of Hope"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Han's Gold Dice"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dejarik Holochess"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Training Remote"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Leia's Hologram"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kylo's Command Shuttle"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Paige's Detonator"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kylo's Bandage"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Phasma's Quicksilver Spear"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Fishing Spear"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Jedi Meditation Ledge"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Ancient Jedi Books"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Broken Lightsaber"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Holdo's Purple Hair"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Poe's Mutiny"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Casino Stampede"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Resistance Escape Pod"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Snoke's Slippers"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Snoke's Death"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Phasma's Cracked Helmet"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Wink"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's Final Sunset"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Luke's White Robes"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Jedi Meditation Stone"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Jedi Island Cliffs"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Resistance Medical Frigate"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Battering Ram Cannon"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Finn's Sacrifice Run"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Phasma's Defeat"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Leia's Force Flight"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Stable Kids"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Crait Caverns"
 first_revealed_installment = 9

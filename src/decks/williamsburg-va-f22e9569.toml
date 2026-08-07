@@ -1,12 +1,12 @@
 id = "deck_williamsburg-va_f22e9569"
-revision = 2
+revision = 3
 name = "Williamsburg, VA"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Colonial Williamsburg, William & Mary, historic buildings, landmarks, neighborhoods, museums, Revolutionary-era history, local traditions, nearby waterways, and family-friendly destinations."
-spoiler_mode = false
 photo_file_name = "williamsburg-va-f22e9569-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Colonial Williamsburg"
@@ -150,7 +150,7 @@ text = "Abby Aldrich Rockefeller Museum"
 text = "Muscarelle Museum of Art"
 
 [[cards]]
-text = "William and Mary"
+text = "William & Mary"
 
 [[cards]]
 text = "Sir Christopher Wren"

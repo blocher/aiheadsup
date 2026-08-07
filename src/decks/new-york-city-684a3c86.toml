@@ -1,12 +1,12 @@
 id = "deck_new-york-city_684a3c86"
-revision = 2
+revision = 3
 name = "New York City"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include boroughs, neighborhoods, landmarks, subway lines, museums, foods, sports teams, famous streets, historical events, and cultural institutions."
-spoiler_mode = false
 photo_file_name = "new-york-city-684a3c86-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Statue of Liberty"
@@ -199,3 +199,303 @@ text = "Yankee Stadium"
 
 [[cards]]
 text = "Ellis Island"
+
+[[cards]]
+text = "Washington Square Park"
+
+[[cards]]
+text = "Upper East Side"
+
+[[cards]]
+text = "Upper West Side"
+
+[[cards]]
+text = "Tribeca"
+
+[[cards]]
+text = "The Cloisters"
+
+[[cards]]
+text = "Whitney Museum"
+
+[[cards]]
+text = "Cooper Hewitt"
+
+[[cards]]
+text = "George Washington Bridge"
+
+[[cards]]
+text = "Verrazzano-Narrows Bridge"
+
+[[cards]]
+text = "Holland Tunnel"
+
+[[cards]]
+text = "Lincoln Tunnel"
+
+[[cards]]
+text = "Roosevelt Island Tram"
+
+[[cards]]
+text = "JFK Airport"
+
+[[cards]]
+text = "LaGuardia Airport"
+
+[[cards]]
+text = "Penn Station"
+
+[[cards]]
+text = "Port Authority"
+
+[[cards]]
+text = "Bryant Park"
+
+[[cards]]
+text = "Union Square"
+
+[[cards]]
+text = "Columbus Circle"
+
+[[cards]]
+text = "The Vessel"
+
+[[cards]]
+text = "Oculus"
+
+[[cards]]
+text = "St. Patrick's Cathedral"
+
+[[cards]]
+text = "The Rockettes"
+
+[[cards]]
+text = "Macy's Thanksgiving Parade"
+
+[[cards]]
+text = "New Year's Eve Ball"
+
+[[cards]]
+text = "Shakespeare in the Park"
+
+[[cards]]
+text = "Bacon Egg and Cheese"
+
+[[cards]]
+text = "Pastrami on Rye"
+
+[[cards]]
+text = "Egg Cream"
+
+[[cards]]
+text = "Knish"
+
+[[cards]]
+text = "Bodega Cat"
+
+[[cards]]
+text = "Citi Bike"
+
+[[cards]]
+text = "East Village"
+
+[[cards]]
+text = "Lower East Side"
+
+[[cards]]
+text = "Flushing Meadows"
+
+[[cards]]
+text = "US Open"
+
+[[cards]]
+text = "New York Giants"
+
+[[cards]]
+text = "New York Jets"
+
+[[cards]]
+text = "New York Liberty"
+
+[[cards]]
+text = "Intrepid Museum"
+
+[[cards]]
+text = "Governors Island"
+
+[[cards]]
+text = "Roosevelt Island"
+
+[[cards]]
+text = "Park Slope"
+
+[[cards]]
+text = "Greenpoint"
+
+[[cards]]
+text = "Bushwick"
+
+[[cards]]
+text = "Bleecker Street"
+
+[[cards]]
+text = "St. Mark's Place"
+
+[[cards]]
+text = "Washington Heights"
+
+[[cards]]
+text = "The Bowery"
+
+[[cards]]
+text = "Battery Park City"
+
+[[cards]]
+text = "Long Island City"
+
+[[cards]]
+text = "Bed-Stuy"
+
+[[cards]]
+text = "Hell's Kitchen"
+
+[[cards]]
+text = "Red Hook"
+
+[[cards]]
+text = "Jackson Heights"
+
+[[cards]]
+text = "Forest Hills"
+
+[[cards]]
+text = "Park Avenue"
+
+[[cards]]
+text = "Canal Street"
+
+[[cards]]
+text = "Houston Street"
+
+[[cards]]
+text = "Mulberry Street"
+
+[[cards]]
+text = "Manhattan Bridge"
+
+[[cards]]
+text = "Williamsburg Bridge"
+
+[[cards]]
+text = "Queensboro Bridge"
+
+[[cards]]
+text = "The Unisphere"
+
+[[cards]]
+text = "Bethesda Fountain"
+
+[[cards]]
+text = "Strawberry Fields"
+
+[[cards]]
+text = "Little Island"
+
+[[cards]]
+text = "South Street Seaport"
+
+[[cards]]
+text = "Riverside Park"
+
+[[cards]]
+text = "Fort Tryon Park"
+
+[[cards]]
+text = "Brooklyn Museum"
+
+[[cards]]
+text = "Tenement Museum"
+
+[[cards]]
+text = "New York Transit Museum"
+
+[[cards]]
+text = "The Frick Collection"
+
+[[cards]]
+text = "The Morgan Library"
+
+[[cards]]
+text = "New York Pretzel"
+
+[[cards]]
+text = "The Cronut"
+
+[[cards]]
+text = "Bialy"
+
+[[cards]]
+text = "Rainbow Bagel"
+
+[[cards]]
+text = "Frozen Hot Chocolate"
+
+[[cards]]
+text = "New York City FC"
+
+[[cards]]
+text = "Brooklyn Cyclones"
+
+[[cards]]
+text = "Westminster Dog Show"
+
+[[cards]]
+text = "Feast of San Gennaro"
+
+[[cards]]
+text = "Village Halloween Parade"
+
+[[cards]]
+text = "The A Train"
+
+[[cards]]
+text = "NYC Ferry"
+
+[[cards]]
+text = "PATH Train"
+
+[[cards]]
+text = "Water Towers"
+
+[[cards]]
+text = "I Love NY"
+
+[[cards]]
+text = "Playbill"
+
+[[cards]]
+text = "Federal Hall"
+
+[[cards]]
+text = "Woolworth Building"
+
+[[cards]]
+text = "Nolita"
+
+[[cards]]
+text = "Flatbush"
+
+[[cards]]
+text = "Crown Heights"
+
+[[cards]]
+text = "Fort Greene"
+
+[[cards]]
+text = "Cobble Hill"
+
+[[cards]]
+text = "Halal Cart"
+
+[[cards]]
+text = "The Plaza Hotel"

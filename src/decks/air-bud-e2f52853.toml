@@ -1,5 +1,5 @@
 id = "deck_air-bud_e2f52853"
-revision = 2
+revision = 3
 name = "Air Bud"
 category = "Movies"
 audience = "Family"
@@ -39,9 +39,6 @@ text = "Noah Framm"
 text = "Deputy Simmons"
 
 [[cards]]
-text = "Snively the Clown"
-
-[[cards]]
 text = "Molly"
 
 [[cards]]
@@ -67,9 +64,6 @@ text = "Fernfield"
 
 [[cards]]
 text = "Fernfield Timberwolves"
-
-[[cards]]
-text = "Fernfield Falcons"
 
 [[cards]]
 text = "Golden Retriever"
@@ -147,9 +141,6 @@ text = "Soccer Ball"
 text = "Clown Suit"
 
 [[cards]]
-text = "Clown Car"
-
-[[cards]]
 text = "Snively's Truck"
 
 [[cards]]
@@ -193,9 +184,6 @@ text = "Sports Drink"
 
 [[cards]]
 text = "Halftime Show"
-
-[[cards]]
-text = "Dunking a Basketball"
 
 [[cards]]
 text = "Slam Dunk"

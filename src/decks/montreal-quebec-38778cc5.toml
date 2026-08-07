@@ -1,5 +1,5 @@
 id = "deck_montreal-quebec_38778cc5"
-revision = 2
+revision = 3
 name = "Montreal, Quebec"
 category = "Cities"
 audience = "Family"
@@ -190,9 +190,6 @@ text = "Osheaga"
 
 [[cards]]
 text = "Tam-Tams"
-
-[[cards]]
-text = "Museum of Fine Arts"
 
 [[cards]]
 text = "Pointe-à-Callière Museum"

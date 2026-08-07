@@ -42,6 +42,48 @@ export const spoilerSeries = {
       'Release 12 — The Mandalorian',
       'Release 13 — General lore / all included stories'
     ]
+  },
+  jurassic_park: {
+    label: 'Jurassic Park',
+    defaultLimit: 7,
+    installments: [
+      'Movie 1 — Jurassic Park',
+      'Movie 2 — The Lost World: Jurassic Park',
+      'Movie 3 — Jurassic Park III',
+      'Movie 4 — Jurassic World',
+      'Movie 5 — Jurassic World: Fallen Kingdom',
+      'Movie 6 — Jurassic World Dominion',
+      'Movie 7 — Jurassic World Rebirth'
+    ]
+  },
+  lord_of_the_rings: {
+    label: 'Lord of the Rings',
+    defaultLimit: 4,
+    installments: [
+      'Book 1 — The Hobbit',
+      'Book 2 — The Fellowship of the Ring',
+      'Book 3 — The Two Towers',
+      'Book 4 — The Return of the King'
+    ]
+  },
+  a_series_of_unfortunate_events: {
+    label: 'A Series of Unfortunate Events',
+    defaultLimit: 13,
+    installments: [
+      'Book 1 — The Bad Beginning',
+      'Book 2 — The Reptile Room',
+      'Book 3 — The Wide Window',
+      'Book 4 — The Miserable Mill',
+      'Book 5 — The Austere Academy',
+      'Book 6 — The Ersatz Elevator',
+      'Book 7 — The Vile Village',
+      'Book 8 — The Hostile Hospital',
+      'Book 9 — The Carnivorous Carnival',
+      'Book 10 — The Slippery Slope',
+      'Book 11 — The Grim Grotto',
+      'Book 12 — The Penultimate Peril',
+      'Book 13 — The End'
+    ]
   }
 }
 

@@ -1,12 +1,12 @@
 id = "deck_pittsburgh_61c711d8"
-revision = 2
+revision = 4
 name = "Pittsburgh"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include neighborhoods, landmarks, bridges, rivers, sports teams, universities, museums, foods, local phrases, historical events, and famous Pittsburghers."
-spoiler_mode = false
 photo_file_name = "pittsburgh-61c711d8-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Pittsburgh Steelers"
@@ -123,9 +123,6 @@ text = "Chipped Chopped Ham"
 text = "Yinz"
 
 [[cards]]
-text = "Yinzer"
-
-[[cards]]
 text = "Fred Rogers"
 
 [[cards]]
@@ -171,9 +168,6 @@ text = "Smiley Cookie"
 text = "Iron City Beer"
 
 [[cards]]
-text = "Jagoff"
-
-[[cards]]
 text = "Nebby"
 
 [[cards]]
@@ -211,3 +205,303 @@ text = "Liberty Bridge"
 
 [[cards]]
 text = "Terrible Towel"
+
+[[cards]]
+text = "The Golden Triangle"
+
+[[cards]]
+text = "City of Bridges"
+
+[[cards]]
+text = "The Immaculate Reception"
+
+[[cards]]
+text = "Mario Lemieux"
+
+[[cards]]
+text = "Sidney Crosby"
+
+[[cards]]
+text = "Mike Tomlin"
+
+[[cards]]
+text = "The Igloo"
+
+[[cards]]
+text = "Forbes Field"
+
+[[cards]]
+text = "Soldiers and Sailors"
+
+[[cards]]
+text = "North Shore"
+
+[[cards]]
+text = "Whiskey Rebellion"
+
+[[cards]]
+text = "Picklesburgh"
+
+[[cards]]
+text = "KDKA"
+
+[[cards]]
+text = "Gateway Clipper"
+
+[[cards]]
+text = "Mac Miller"
+
+[[cards]]
+text = "Wiz Khalifa"
+
+[[cards]]
+text = "Black and Yellow"
+
+[[cards]]
+text = "Blue Slide Park"
+
+[[cards]]
+text = "August Wilson"
+
+[[cards]]
+text = "East Liberty"
+
+[[cards]]
+text = "Michael Keaton"
+
+[[cards]]
+text = "Jeff Goldblum"
+
+[[cards]]
+text = "George Westinghouse"
+
+[[cards]]
+text = "Honus Wagner"
+
+[[cards]]
+text = "Homestead Grays"
+
+[[cards]]
+text = "Pittsburgh Crawfords"
+
+[[cards]]
+text = "Myron Cope"
+
+[[cards]]
+text = "Grandview Avenue"
+
+[[cards]]
+text = "Randyland"
+
+[[cards]]
+text = "Bicycle Heaven"
+
+[[cards]]
+text = "Sandcastle"
+
+[[cards]]
+text = "The Thunderbolt"
+
+[[cards]]
+text = "Jack Rabbit"
+
+[[cards]]
+text = "Wigle Whiskey"
+
+[[cards]]
+text = "Wholey's"
+
+[[cards]]
+text = "Sarris Candies"
+
+[[cards]]
+text = "Carrie Blast Furnaces"
+
+[[cards]]
+text = "The Waterfront"
+
+[[cards]]
+text = "Pittsburgh Symphony"
+
+[[cards]]
+text = "Pittsburgh Marathon"
+
+[[cards]]
+text = "Hot Metal Bridge"
+
+[[cards]]
+text = "Birmingham Bridge"
+
+[[cards]]
+text = "Station Square"
+
+[[cards]]
+text = "Mister Rogers"
+
+[[cards]]
+text = "Mr. Smalls Theatre"
+
+[[cards]]
+text = "Monroeville Mall"
+
+[[cards]]
+text = "Chatham University"
+
+[[cards]]
+text = "Robert Morris University"
+
+[[cards]]
+text = "Pittsburgh Riverhounds"
+
+[[cards]]
+text = "West End Overlook"
+
+[[cards]]
+text = "Three Rivers Stadium"
+
+[[cards]]
+text = "The T"
+
+[[cards]]
+text = "Market Square"
+
+[[cards]]
+text = "Jonas Salk"
+
+[[cards]]
+text = "Franco Harris"
+
+[[cards]]
+text = "Mean Joe Greene"
+
+[[cards]]
+text = "Dan Rooney"
+
+[[cards]]
+text = "Bruno Sammartino"
+
+[[cards]]
+text = "Pirate Parrot"
+
+[[cards]]
+text = "Iceburgh"
+
+[[cards]]
+text = "Eat'n Park"
+
+[[cards]]
+text = "Isaly's"
+
+[[cards]]
+text = "Clark Bar"
+
+[[cards]]
+text = "Turner's Iced Tea"
+
+[[cards]]
+text = "Mancini's Bread"
+
+[[cards]]
+text = "West End Bridge"
+
+[[cards]]
+text = "Tenth Street Bridge"
+
+[[cards]]
+text = "Fort Pitt Bridge"
+
+[[cards]]
+text = "Panther Hollow"
+
+[[cards]]
+text = "Heinz Memorial Chapel"
+
+[[cards]]
+text = "Highland Park"
+
+[[cards]]
+text = "Mexican War Streets"
+
+[[cards]]
+text = "Polish Hill"
+
+[[cards]]
+text = "Troy Hill"
+
+[[cards]]
+text = "Mount Lebanon"
+
+[[cards]]
+text = "Sewickley"
+
+[[cards]]
+text = "The Cultural District"
+
+[[cards]]
+text = "Benedum Center"
+
+[[cards]]
+text = "Henry Clay Frick"
+
+[[cards]]
+text = "Nellie Bly"
+
+[[cards]]
+text = "Mary Cassatt"
+
+[[cards]]
+text = "Pitt Panther"
+
+[[cards]]
+text = "Allegheny Observatory"
+
+[[cards]]
+text = "Gus and Yiayia's"
+
+[[cards]]
+text = "Clayton"
+
+[[cards]]
+text = "Bakery Square"
+
+[[cards]]
+text = "Neville Island"
+
+[[cards]]
+text = "Washington's Landing"
+
+[[cards]]
+text = "Gulf Tower"
+
+[[cards]]
+text = "Koppers Building"
+
+[[cards]]
+text = "Devonshire Sandwich"
+
+[[cards]]
+text = "Byham Theater"
+
+[[cards]]
+text = "Phantom's Revenge"
+
+[[cards]]
+text = "UPMC"
+
+[[cards]]
+text = "South Side Works"
+
+[[cards]]
+text = "Mellon Square"
+
+[[cards]]
+text = "Penn Avenue"
+
+[[cards]]
+text = "Carlow University"
+
+[[cards]]
+text = "Duquesne Heights"
+
+[[cards]]
+text = "Mount Oliver"

@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-ii-attack-of-the-clones_ce098d6b"
-revision = 2
+revision = 4
 name = "Star Wars Episode II: Attack of the Clones"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode II: Attack of the Clones."
+photo_file_name = "star-wars-episode-ii-attack-of-the-clones-ce098d6b-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-ii-attack-of-the-clones-ce098d6b-cover.jpg"
 
 [[cards]]
 text = "Count Dooku"
@@ -110,10 +110,6 @@ text = "Hailfire Droid"
 first_revealed_installment = 5
 
 [[cards]]
-text = "LAAT Gunship"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Solar Sailer"
 first_revealed_installment = 5
 
@@ -159,10 +155,6 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Coruscant Speeder Chase"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Tusken Raider Camp"
 first_revealed_installment = 5
 
 [[cards]]
@@ -246,49 +238,285 @@ text = "Anakin's Prosthetic Hand"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Padmé Amidala"
+text = "Dormé"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cordé"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sola Naberrie"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Varykino Villa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Meadow Picnic"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Shaak"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Anakin's Swoop Bike"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Massiff"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Orray"
+first_revealed_installment = 5
+
+[[cards]]
+text = "ASN-121 Assassin Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Coruscant Air Taxi"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Koro-2 Airspeeder"
+first_revealed_installment = 5
+
+[[cards]]
+text = "XJ-6 Airspeeder"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé's Coruscant Apartment"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Naboo Royal Cruiser"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Refugee Freighter"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Peasant Disguise"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jedi Bear Clan"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Lost Twenty"
+first_revealed_installment = 5
+
+[[cards]]
+text = "WA-7 Waitress Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "JN-66 Analysis Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "SP-4 Analysis Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Purple Lightsaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hyperdrive Docking Ring"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Clone Hatchery"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Military Creation Act"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Emergency Powers"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Republic Assault Ship"
+first_revealed_installment = 5
+
+[[cards]]
+text = "AT-TE Walker"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dwarf Spider Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Homing Spider Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Corporate Alliance Tank Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sonic Cannon"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Separatist War Room"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Execution Pillars"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Yoda's Lightsaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "DC-15A Blaster Rifle"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Orn Free Taa"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Anakin Skywalker"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Obi-Wan Kenobi"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Boba Fett"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Shmi Skywalker"
+text = "Mas Amedda"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Owen Lars"
-first_revealed_installment = 1
+text = "Senator Ask Aak"
+first_revealed_installment = 5
 
 [[cards]]
-text = "Beru Lars"
-first_revealed_installment = 1
+text = "Jedi Strike Team"
+first_revealed_installment = 5
 
 [[cards]]
-text = "Slave I"
-first_revealed_installment = 2
+text = "Shmi's Funeral"
+first_revealed_installment = 5
 
 [[cards]]
-text = "Mace Windu"
-first_revealed_installment = 4
+text = "Across the Stars"
+first_revealed_installment = 5
 
 [[cards]]
-text = "Senator Palpatine"
-first_revealed_installment = 1
+text = "CoCo Town"
+first_revealed_installment = 5
 
 [[cards]]
-text = "C-3PO"
-first_revealed_installment = 1
+text = "Sun Fac"
+first_revealed_installment = 5
 
 [[cards]]
-text = "R2-D2"
-first_revealed_installment = 1
+text = "Ryoo Naberrie"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Pooja Naberrie"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ruwee Naberrie"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jobal Naberrie"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Naboo Water Taxi"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Confederacy of Independent Systems"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Naboo Yacht"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Aiwha"
+first_revealed_installment = 5
+
+[[cards]]
+text = "WESTAR-34 Blaster Pistol"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé's Wedding Dress"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé's Travel Gown"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Padmé's Lake Dress"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hermione Bagwa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Bultar Swan"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Joclad Danva"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sora Bulq"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Agen Kolar"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Loyalist Committee"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Anakin's Nightmares"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tusken Slaughter"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Achk Med-Beq"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dannl Faytonni"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Stalgasin Hive"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Techno Union"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Commerce Guild"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Geonosian Spire"
+first_revealed_installment = 5

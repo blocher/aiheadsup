@@ -1,12 +1,12 @@
 id = "deck_washington-d-c_988dda26"
-revision = 2
+revision = 3
 name = "Washington, D.C."
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include monuments, museums, government buildings, neighborhoods, Metro stops, historical events, presidents, political concepts, and local landmarks."
-spoiler_mode = false
 photo_file_name = "washington-d-c-988dda26-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "The White House"
@@ -205,3 +205,300 @@ text = "Electoral College"
 
 [[cards]]
 text = "Kennedy Center"
+
+[[cards]]
+text = "Air Force One"
+
+[[cards]]
+text = "Marine One"
+
+[[cards]]
+text = "Secret Service"
+
+[[cards]]
+text = "Speaker of the House"
+
+[[cards]]
+text = "Chief Justice"
+
+[[cards]]
+text = "Press Secretary"
+
+[[cards]]
+text = "Lobbyist"
+
+[[cards]]
+text = "Bipartisan"
+
+[[cards]]
+text = "Veto"
+
+[[cards]]
+text = "Easter Egg Roll"
+
+[[cards]]
+text = "Turkey Pardon"
+
+[[cards]]
+text = "SmarTrip Card"
+
+[[cards]]
+text = "Metrobus"
+
+[[cards]]
+text = "C&O Canal"
+
+[[cards]]
+text = "Nationals Park"
+
+[[cards]]
+text = "Capital One Arena"
+
+[[cards]]
+text = "The Phillips Collection"
+
+[[cards]]
+text = "National Building Museum"
+
+[[cards]]
+text = "American Indian Museum"
+
+[[cards]]
+text = "Postal Museum"
+
+[[cards]]
+text = "Renwick Gallery"
+
+[[cards]]
+text = "U Street Corridor"
+
+[[cards]]
+text = "Anacostia"
+
+[[cards]]
+text = "Columbia Heights"
+
+[[cards]]
+text = "Cleveland Park"
+
+[[cards]]
+text = "Tenleytown"
+
+[[cards]]
+text = "Dumbarton Oaks"
+
+[[cards]]
+text = "Meridian Hill Park"
+
+[[cards]]
+text = "Theodore Roosevelt Island"
+
+[[cards]]
+text = "Key Bridge"
+
+[[cards]]
+text = "Memorial Bridge"
+
+[[cards]]
+text = "Maine Avenue Fish Market"
+
+[[cards]]
+text = "Howard University"
+
+[[cards]]
+text = "American University"
+
+[[cards]]
+text = "Catholic University"
+
+[[cards]]
+text = "Gallaudet University"
+
+[[cards]]
+text = "United States Senate"
+
+[[cards]]
+text = "House of Representatives"
+
+[[cards]]
+text = "Department of Justice"
+
+[[cards]]
+text = "Treasury Building"
+
+[[cards]]
+text = "Octagon House"
+
+[[cards]]
+text = "Korean War Veterans Memorial"
+
+[[cards]]
+text = "Iwo Jima Memorial"
+
+[[cards]]
+text = "Ulysses S. Grant Memorial"
+
+[[cards]]
+text = "African American History Museum"
+
+[[cards]]
+text = "Burning of Washington"
+
+[[cards]]
+text = "Commander in Chief"
+
+[[cards]]
+text = "Cabinet Member"
+
+[[cards]]
+text = "John F. Kennedy"
+
+[[cards]]
+text = "Ronald Reagan"
+
+[[cards]]
+text = "Washington Commanders"
+
+[[cards]]
+text = "Washington Wizards"
+
+[[cards]]
+text = "Washington Capitals"
+
+[[cards]]
+text = "Mumbo Sauce"
+
+[[cards]]
+text = "Dulles Airport"
+
+[[cards]]
+text = "The Washington Post"
+
+[[cards]]
+text = "K Street"
+
+[[cards]]
+text = "Embassy Row"
+
+[[cards]]
+text = "The Wharf"
+
+[[cards]]
+text = "9:30 Club"
+
+[[cards]]
+text = "National Press Club"
+
+[[cards]]
+text = "The Beast"
+
+[[cards]]
+text = "POTUS"
+
+[[cards]]
+text = "First Lady"
+
+[[cards]]
+text = "Vice President"
+
+[[cards]]
+text = "Chief of Staff"
+
+[[cards]]
+text = "Secretary of State"
+
+[[cards]]
+text = "Attorney General"
+
+[[cards]]
+text = "Checks and Balances"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "Giant Panda"
+
+[[cards]]
+text = "Capital Bikeshare"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Old Town Alexandria"
+
+[[cards]]
+text = "Kalorama"
+
+[[cards]]
+text = "Logan Circle"
+
+[[cards]]
+text = "H Street"
+
+[[cards]]
+text = "DC Streetcar"
+
+[[cards]]
+text = "FBI Headquarters"
+
+[[cards]]
+text = "Federal Reserve"
+
+[[cards]]
+text = "World Bank"
+
+[[cards]]
+text = "The Anthem"
+
+[[cards]]
+text = "Exorcist Steps"
+
+[[cards]]
+text = "Gravelly Point"
+
+[[cards]]
+text = "Kenilworth Aquatic Gardens"
+
+[[cards]]
+text = "Audi Field"
+
+[[cards]]
+text = "RFK Stadium"
+
+[[cards]]
+text = "Taxation Without Representation"
+
+[[cards]]
+text = "District of Columbia"
+
+[[cards]]
+text = "Lame Duck"
+
+[[cards]]
+text = "Whistleblower"
+
+[[cards]]
+text = "Incumbent"
+
+[[cards]]
+text = "Super PAC"
+
+[[cards]]
+text = "Stump Speech"
+
+[[cards]]
+text = "Gridlock"
+
+[[cards]]
+text = "Rose Garden"
+
+[[cards]]
+text = "West Wing"
+
+[[cards]]
+text = "Campaign Manager"

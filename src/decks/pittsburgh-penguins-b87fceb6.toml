@@ -1,12 +1,12 @@
 id = "deck_pittsburgh-penguins_b87fceb6"
-revision = 2
+revision = 3
 name = "Pittsburgh Penguins"
 category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Penguins history, famous current and past players, Stanley Cup moments, arenas, mascots, goal celebrations, uniforms, rivals, hockey terms, playoff traditions, announcer phrases, and Pittsburgh hockey culture, but should not be mostly player names."
-spoiler_mode = false
 photo_file_name = "pittsburgh-penguins-b87fceb6-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Mario Lemieux"
@@ -37,9 +37,6 @@ text = "PPG Paints Arena"
 
 [[cards]]
 text = "The Igloo"
-
-[[cards]]
-text = "Mellon Arena"
 
 [[cards]]
 text = "Black and Gold"
@@ -99,25 +96,7 @@ text = "Diagonal Pittsburgh Jersey"
 text = "Winter Classic"
 
 [[cards]]
-text = "The Golden Triangle"
-
-[[cards]]
 text = "Two-Headed Monster"
-
-[[cards]]
-text = "Phil Bourque"
-
-[[cards]]
-text = "Bob Errey"
-
-[[cards]]
-text = "Tom Barrasso"
-
-[[cards]]
-text = "Paul Coffey"
-
-[[cards]]
-text = "Ron Francis"
 
 [[cards]]
 text = "Power Play"
@@ -139,9 +118,6 @@ text = "Raising The Banner"
 
 [[cards]]
 text = "Horn Guy"
-
-[[cards]]
-text = "Broad Street Bullies"
 
 [[cards]]
 text = "Vegas Gold"
@@ -186,9 +162,6 @@ text = "Slap Shot"
 text = "Overtime Winner"
 
 [[cards]]
-text = "Consol Energy Center"
-
-[[cards]]
 text = "Handshake Line"
 
 [[cards]]
@@ -199,9 +172,6 @@ text = "Sudden Death Overtime"
 
 [[cards]]
 text = "Crosby's Backhand"
-
-[[cards]]
-text = "Patric Hornqvist"
 
 [[cards]]
 text = "Great Day For Hockey"

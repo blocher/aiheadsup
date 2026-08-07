@@ -1,12 +1,12 @@
 id = "deck_johnstown-pa_84619c7e"
-revision = 2
+revision = 4
 name = "Johnstown, PA"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include local landmarks, neighborhoods, geography, the Johnstown Flood, steel history, museums, nearby places, festivals, and regional Pennsylvania terms."
-spoiler_mode = false
 photo_file_name = "johnstown-pa-84619c7e-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Johnstown Inclined Plane"
@@ -27,13 +27,13 @@ text = "South Fork Fishing Club"
 text = "Lake Conemaugh"
 
 [[cards]]
-text = "Johnstown Flood of 1889"
+text = "Johnstown Flood"
 
 [[cards]]
 text = "Johnstown Flood National Memorial"
 
 [[cards]]
-text = "The Unknown Plot"
+text = "Plot of the Unknown"
 
 [[cards]]
 text = "Path of the Flood"
@@ -135,7 +135,7 @@ text = "Grandview Cemetery"
 text = "Point Stadium"
 
 [[cards]]
-text = "Central Park Johnstown"
+text = "Central Park"
 
 [[cards]]
 text = "Roxbury Park"
@@ -192,7 +192,7 @@ text = "Flood City Music Festival"
 text = "Polkafest"
 
 [[cards]]
-text = "Slap Shot Movie"
+text = "Slap Shot"
 
 [[cards]]
 text = "Sunnehanna Country Club"
@@ -241,3 +241,141 @@ text = "Quecreek Mine Rescue"
 
 [[cards]]
 text = "Flight 93 Memorial"
+
+[[cards]]
+text = "AAABA Tournament"
+
+[[cards]]
+text = "Haluski"
+
+[[cards]]
+text = "Blue Knob"
+
+[[cards]]
+text = "Ghost Town Trail"
+
+[[cards]]
+text = "St. Patrick's Day Flood"
+
+[[cards]]
+text = "1977 Flood"
+
+[[cards]]
+text = "Concrete Flood Wall"
+
+[[cards]]
+text = "Tribune-Democrat"
+
+[[cards]]
+text = "Yinz"
+
+[[cards]]
+text = "Gumband"
+
+[[cards]]
+text = "Nebby"
+
+[[cards]]
+text = "Slippy"
+
+[[cards]]
+text = "Sheetz"
+
+[[cards]]
+text = "Eat'n Park"
+
+[[cards]]
+text = "Smiley Cookie"
+
+[[cards]]
+text = "Chipped Ham"
+
+[[cards]]
+text = "Pierogi"
+
+[[cards]]
+text = "Stuffed Cabbage"
+
+[[cards]]
+text = "Kielbasa"
+
+[[cards]]
+text = "Klondike Bar"
+
+[[cards]]
+text = "Whoopie Pie"
+
+[[cards]]
+text = "Birch Beer"
+
+[[cards]]
+text = "Patch Town"
+
+[[cards]]
+text = "Company Store"
+
+[[cards]]
+text = "Coal Scrip"
+
+[[cards]]
+text = "Coal Tipple"
+
+[[cards]]
+text = "Miner's Lamp"
+
+[[cards]]
+text = "Puddler"
+
+[[cards]]
+text = "Steel Worker"
+
+[[cards]]
+text = "Open Hearth"
+
+[[cards]]
+text = "Slag"
+
+[[cards]]
+text = "Logjam"
+
+[[cards]]
+text = "High Water Mark"
+
+[[cards]]
+text = "Flood Siren"
+
+[[cards]]
+text = "Horseshoe Curve"
+
+[[cards]]
+text = "Cambria County Fair"
+
+[[cards]]
+text = "Laurel Ridge Trail"
+
+[[cards]]
+text = "Seven Springs"
+
+[[cards]]
+text = "Yellow Creek"
+
+[[cards]]
+text = "Prince Gallitzin"
+
+[[cards]]
+text = "Raystown Lake"
+
+[[cards]]
+text = "Bishop McCort"
+
+[[cards]]
+text = "Ethnic Festival"
+
+[[cards]]
+text = "Corps of Engineers"
+
+[[cards]]
+text = "Laurel Hill State Park"
+
+[[cards]]
+text = "Johnstown Chiefs"

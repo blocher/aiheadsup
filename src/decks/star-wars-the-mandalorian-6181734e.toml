@@ -1,13 +1,13 @@
 id = "deck_star-wars-the-mandalorian_6181734e"
-revision = 2
+revision = 4
 name = "Star Wars: The Mandalorian"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details from The Mandalorian."
+photo_file_name = "star-wars-the-mandalorian-6181734e-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-the-mandalorian-6181734e-cover.jpg"
 
 [[cards]]
 text = "Din Djarin"
@@ -75,7 +75,7 @@ first_revealed_installment = 13
 
 [[cards]]
 text = "Cobb Vanth"
-first_revealed_installment = 12
+first_revealed_installment = 13
 
 [[cards]]
 text = "Fennec Shand"
@@ -98,7 +98,7 @@ text = "Hover Pram"
 first_revealed_installment = 12
 
 [[cards]]
-text = "Tracking FOB"
+text = "Tracking Fob"
 first_revealed_installment = 12
 
 [[cards]]
@@ -123,7 +123,7 @@ first_revealed_installment = 12
 
 [[cards]]
 text = "Tython"
-first_revealed_installment = 12
+first_revealed_installment = 13
 
 [[cards]]
 text = "Mandalorian Covert"
@@ -199,7 +199,7 @@ first_revealed_installment = 12
 
 [[cards]]
 text = "Imperial Remnant"
-first_revealed_installment = 12
+first_revealed_installment = 13
 
 [[cards]]
 text = "E-Web Blaster"
@@ -207,7 +207,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Bounty Hunters Guild"
-first_revealed_installment = 12
+first_revealed_installment = 13
 
 [[cards]]
 text = "Luke Skywalker"
@@ -239,7 +239,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Vibroblade"
-first_revealed_installment = 3
+first_revealed_installment = 13
 
 [[cards]]
 text = "IG-12"
@@ -260,3 +260,351 @@ first_revealed_installment = 12
 [[cards]]
 text = "Mandalorian Helmet"
 first_revealed_installment = 2
+
+[[cards]]
+text = "Mandalore"
+first_revealed_installment = 13
+
+[[cards]]
+text = "The Great Forge"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mines of Mandalore"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Living Waters"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Sundari"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Captain Bombardier"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Duchess"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Children of the Watch"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Creed"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Rising Phoenix"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mandalorian Jetpack"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Imperial Light Cruiser"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Bounty Puck"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Chain Code"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Kowakian Monkey-Lizard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Amban Phase-Pulse Blaster"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Seismic Charge"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Firespray Gunship"
+first_revealed_installment = 2
+
+[[cards]]
+text = "TIE Interceptor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Death Watch"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Aq Vetina"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Nite Owls"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Gozanti-class Cruiser"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Arquitens-class Cruiser"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Death Troopers"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Praetorian Guards"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Imperial Troop Transport"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Morgan Elsbeth"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Magistrate"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Morak"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Rhydonium"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Q9-0"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Burg"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Xi'an"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Toro Calican"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Omera"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Loth-Cat"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Spotchka"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mythrol"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Carbonite Block"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Scout Trooper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shriek-Hawk"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Alamite"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Super Battle Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jedi Temple"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Order 66"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Kelleran Beq"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Trapper Wolf"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Nepenthe"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Beskar Ingot"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Yoda's Lightsaber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "BARC Speeder Bike"
+first_revealed_installment = 6
+
+[[cards]]
+text = "501st Clone Trooper"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Coruscant Air Taxi"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Commissioner Helgait"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Resistor"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mon Calamari Prince"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Quarren Captain"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mamacore"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Maldo Kreis"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Ravinak"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mos Pelgo"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Massiff"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hangar 35"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Mos Eisley Cantina"
+first_revealed_installment = 1
+
+[[cards]]
+text = "New Republic Prison Ship"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Lekku"
+first_revealed_installment = 3
+
+[[cards]]
+text = "New Republic Beacon"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Valin Hess"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Imperial Refinery"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Imperial Juggernaut"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Shoretrooper"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Seeing Stone"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Red Five"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Brendol Hux"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Gilad Pellaeon"
+first_revealed_installment = 13
+
+[[cards]]
+text = "The Shadow Council"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Imperial Armored Commando"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Kalevala"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Ragnar"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Krill Pond"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Winta"
+first_revealed_installment = 12
+
+[[cards]]
+text = "AT-ST Raider"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Klatooinian Raider"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Tribe"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Lava River"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Lava Boat Droid"
+first_revealed_installment = 12

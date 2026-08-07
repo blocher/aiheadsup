@@ -1,12 +1,12 @@
 id = "deck_home-alone-movies_de5af16b"
-revision = 2
+revision = 3
 name = "Home Alone Movies"
 category = "Movies"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include characters, traps, burglars, family members, locations, holiday objects, quotes, travel mishaps, sequel references, and memorable moments from Home Alone and its sequels."
-spoiler_mode = false
 photo_file_name = "home-alone-movies-de5af16b-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Kevin McCallister"
@@ -90,10 +90,10 @@ text = "Central Park"
 text = "O'Hare Airport"
 
 [[cards]]
-text = "Paris France"
+text = "Paris, France"
 
 [[cards]]
-text = "Miami Florida"
+text = "Miami, Florida"
 
 [[cards]]
 text = "Rockefeller Christmas Tree"
@@ -168,7 +168,7 @@ text = "Bronze Statue"
 text = "Toothbrush"
 
 [[cards]]
-text = "\"Keep the Change\""
+text = "Keep the Change"
 
 [[cards]]
 text = "Angels with Filthy Souls"

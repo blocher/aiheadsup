@@ -1,5 +1,5 @@
 id = "deck_harry-potter-horcruxes_04d0aee6"
-revision = 1
+revision = 3
 name = "Harry Potter: Horcruxes"
 category = "Harry Potter"
 audience = "Family"
@@ -111,7 +111,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Bellatrix Lestrange"
-first_revealed_installment = 4
+first_revealed_installment = 5
 
 [[cards]]
 text = "Kreacher"
@@ -191,7 +191,7 @@ first_revealed_installment = 7
 
 [[cards]]
 text = "Goblin Silver"
-first_revealed_installment = 2
+first_revealed_installment = 7
 
 [[cards]]
 text = "The Taboo Curse"
@@ -204,3 +204,323 @@ first_revealed_installment = 1
 [[cards]]
 text = "Shell Cottage"
 first_revealed_installment = 7
+
+[[cards]]
+text = "Gringotts Wizarding Bank"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Golden Snitch"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Invisibility Cloak"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Borgin and Burkes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Polyjuice Potion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Moaning Myrtle"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Salazar Slytherin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Godric Gryffindor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Sorting Hat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Forbidden Forest"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Little Hangleton"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Godric's Hollow"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Ministry of Magic"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hogwarts Castle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wool's Orphanage"
+first_revealed_installment = 6
+
+[[cards]]
+text = "R.A.B.'s Note"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Deathly Hallows"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Elder Wand"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Horcrux"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Magick Moste Evile"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Three Brothers"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Potterwatch"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Forest of Dean"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Snatchers"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Rowena Ravenclaw"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Helga Hufflepuff"
+first_revealed_installment = 1
+
+[[cards]]
+text = "An Inferius"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Geminio Curse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Flagrante Curse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Ukrainian Ironbelly"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Cadmus Peverell"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Merope Gaunt"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Caractacus Burke"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Hog's Head"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Xenophilius Lovegood"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Lovegood House"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Gregory Goyle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fenrir Greyback"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Rufus Scrimgeour"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Undesirable Number One"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Remorse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Soul Splitting"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Bathilda Bagshot"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Muggle-Born Registration Commission"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mary Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Bogrod"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Albert Runcorn"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Essence of Dittany"
+first_revealed_installment = 7
+
+[[cards]]
+text = "King's Cross Station"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Secrets of Darkest Art"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mrs. Cole"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Hokey the House-Elf"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Albanian Forest"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Professor Quirrell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Scabior"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Orphanage Wardrobe"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Amy Benson"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dennis Bishop"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Decoy Locket"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dumbledore's Blackened Hand"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Peverell Coat of Arms"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Helena Ravenclaw"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Bertha Jorkins"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tom Riddle Senior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Riddle House"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Malfoy Manor Cellar"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Perkins's Old Tent"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Undetectable Extension Charm"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hermione's Beaded Bag"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Gringotts Cart"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Clankers"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Reginald Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mafalda Hopkirk"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ministry Courtroom"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Umbridge's Office"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Decoy Detonators"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Magic is Might Statue"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ministry Pamphlets"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Charity Burbage"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Potter Cottage"
+first_revealed_installment = 1

@@ -1,12 +1,12 @@
 id = "deck_pittsburgh-sports-traditions_7ff3e66e"
-revision = 2
+revision = 3
 name = "Pittsburgh Sports Traditions"
 category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include fan chants, towels, mascots, stadium foods, tailgating, uniforms, songs, local sports phrases, playoff rituals, colors, bridges, rivers, neighborhoods, and family-friendly game-day experiences."
-spoiler_mode = false
 photo_file_name = "pittsburgh-sports-traditions-7ff3e66e-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "The Terrible Towel"
@@ -138,9 +138,6 @@ text = "Root for the Buccos"
 text = "Pittsburgh Left"
 
 [[cards]]
-text = "Terrible Towel Wave"
-
-[[cards]]
 text = "Pitt Football"
 
 [[cards]]
@@ -153,16 +150,10 @@ text = "Steelers Training Camp"
 text = "The Igloo"
 
 [[cards]]
-text = "Tailgate Party"
-
-[[cards]]
 text = "Let's Go Steelers"
 
 [[cards]]
 text = "Playoff Beards"
-
-[[cards]]
-text = "Pierogi Mascot"
 
 [[cards]]
 text = "Jerome Bettis"
@@ -187,9 +178,6 @@ text = "Steelmark Logo"
 
 [[cards]]
 text = "Terrible Tailgate"
-
-[[cards]]
-text = "Yellow Seats"
 
 [[cards]]
 text = "Kennywood"
@@ -232,9 +220,6 @@ text = "Pittsburgh Pirates"
 
 [[cards]]
 text = "Primanti Brothers"
-
-[[cards]]
-text = "Tailgating"
 
 [[cards]]
 text = "Steelers Helmet"

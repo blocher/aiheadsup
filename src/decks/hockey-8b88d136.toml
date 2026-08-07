@@ -1,12 +1,12 @@
 id = "deck_hockey_8b88d136"
-revision = 2
+revision = 3
 name = "Hockey"
 category = "Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include positions, rules, equipment, penalties, rink markings, shots, saves, line changes, trophies, hockey slang, famous moments, and famous current and past players, but should not be mostly player names."
-spoiler_mode = false
 photo_file_name = "hockey-8b88d136-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Stanley Cup"
@@ -160,9 +160,6 @@ text = "Puck"
 
 [[cards]]
 text = "Hockey Stick"
-
-[[cards]]
-text = "Sin Bin"
 
 [[cards]]
 text = "Body Check"

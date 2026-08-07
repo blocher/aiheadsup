@@ -1,12 +1,12 @@
 id = "deck_breakfast-foods_558b2b9d"
-revision = 2
+revision = 3
 name = "Breakfast Foods"
 category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include breakfast dishes, cereals, pastries, drinks, eggs, meats, fruits, diner foods, toppings, and morning meal routines."
-spoiler_mode = false
 photo_file_name = "breakfast-foods-558b2b9d-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Pancakes"
@@ -52,9 +52,6 @@ text = "Hash Browns"
 
 [[cards]]
 text = "Home Fries"
-
-[[cards]]
-text = "Bagel and Cream Cheese"
 
 [[cards]]
 text = "English Muffin"
@@ -135,18 +132,6 @@ text = "Cornflakes"
 text = "Warm Grits"
 
 [[cards]]
-text = "Electric Toaster"
-
-[[cards]]
-text = "Waffle Iron"
-
-[[cards]]
-text = "Coffee Maker"
-
-[[cards]]
-text = "Frying Pan"
-
-[[cards]]
 text = "Sliced Bread"
 
 [[cards]]
@@ -183,46 +168,22 @@ text = "Fresh Strawberries"
 text = "Bran Flakes"
 
 [[cards]]
-text = "Breakfast Tea"
-
-[[cards]]
 text = "Canadian Bacon"
 
 [[cards]]
 text = "Poached Eggs"
 
 [[cards]]
-text = "Cereal and Milk"
-
-[[cards]]
-text = "Toast and Jelly"
-
-[[cards]]
-text = "Pouring Milk"
-
-[[cards]]
 text = "Fried Egg"
 
 [[cards]]
-text = "Belgian Waffle"
-
-[[cards]]
-text = "Cereal Bowl"
-
-[[cards]]
 text = "Chocolate Chip Muffin"
-
-[[cards]]
-text = "Toasted Bagel"
 
 [[cards]]
 text = "Cream Cheese"
 
 [[cards]]
 text = "Greek Yogurt"
-
-[[cards]]
-text = "Blueberry Jam"
 
 [[cards]]
 text = "Blueberries"
@@ -232,9 +193,6 @@ text = "Over-Easy Egg"
 
 [[cards]]
 text = "Bagel"
-
-[[cards]]
-text = "Steel-Cut Oatmeal"
 
 [[cards]]
 text = "Chilaquiles"

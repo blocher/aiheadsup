@@ -1,13 +1,13 @@
 id = "deck_harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban_16215fba"
-revision = 2
+revision = 4
 name = "Harry Potter Book 3: Harry Potter and the Prisoner of Azkaban"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in Harry Potter and the Prisoner of Azkaban."
+photo_file_name = "harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban-16215fba-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-book-3-harry-potter-and-the-prisoner-of-azkaban-16215fba-cover.jpg"
 
 [[cards]]
 text = "Remus Lupin"
@@ -139,7 +139,7 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Florean Fortescue"
-first_revealed_installment = 3
+first_revealed_installment = 1
 
 [[cards]]
 text = "Dervish and Banges"
@@ -162,26 +162,6 @@ text = "Sneakoscope"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Whomping Willow"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Chocolate Frog"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Scabbers"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Cornelius Fudge"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Azkaban"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Divination Class"
 first_revealed_installment = 3
 
@@ -192,14 +172,6 @@ first_revealed_installment = 3
 [[cards]]
 text = "Dissendium"
 first_revealed_installment = 3
-
-[[cards]]
-text = "Hogwarts Express"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Quidditch Cup"
-first_revealed_installment = 1
 
 [[cards]]
 text = "Tea Leaves"
@@ -234,14 +206,6 @@ text = "Muggle Studies"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Chudley Cannons"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Fat Lady's Portrait"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Inflating Aunt Marge"
 first_revealed_installment = 3
 
@@ -263,4 +227,88 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Hinkypunk"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Patronus Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mischief Managed"
+first_revealed_installment = 3
+
+[[cards]]
+text = "I Solemnly Swear"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fidelius Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Secret-Keeper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Magical Menagerie"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Rat Tonic"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Vulture-Topped Hat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "North Tower"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Inner Eye"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Professor Vector"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Study of Ancient Runes"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Impervius Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shrinking Solution"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Malfoy's Sling"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Purple Sleeping Bags"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Flibbertigibbet"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Signed Permission Slip"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Marauders"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ripper the Bulldog"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sugar Quills"
 first_revealed_installment = 3

@@ -1,12 +1,12 @@
 id = "deck_chicago_1e0cfe28"
-revision = 2
+revision = 4
 name = "Chicago"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include neighborhoods, landmarks, foods, sports teams, museums, architecture, transit, historical events, famous Chicagoans, and lakefront places."
-spoiler_mode = false
 photo_file_name = "chicago-1e0cfe28-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "The Bean"
@@ -177,9 +177,6 @@ text = "Garrett Popcorn"
 text = "Rainbow Cone"
 
 [[cards]]
-text = "Chicago Fire"
-
-[[cards]]
 text = "Benny the Bull"
 
 [[cards]]
@@ -199,3 +196,303 @@ text = "1893 World's Fair"
 
 [[cards]]
 text = "Chicago Cultural Center"
+
+[[cards]]
+text = "Logan Square"
+
+[[cards]]
+text = "Andersonville"
+
+[[cards]]
+text = "Bucktown"
+
+[[cards]]
+text = "Gold Coast"
+
+[[cards]]
+text = "Bronzeville"
+
+[[cards]]
+text = "Streeterville"
+
+[[cards]]
+text = "Old Town"
+
+[[cards]]
+text = "Greektown"
+
+[[cards]]
+text = "Pullman Historic District"
+
+[[cards]]
+text = "Robie House"
+
+[[cards]]
+text = "The Rookery"
+
+[[cards]]
+text = "Aqua Tower"
+
+[[cards]]
+text = "Crown Fountain"
+
+[[cards]]
+text = "Jay Pritzker Pavilion"
+
+[[cards]]
+text = "Garfield Park Conservatory"
+
+[[cards]]
+text = "Oak Street Beach"
+
+[[cards]]
+text = "North Avenue Beach"
+
+[[cards]]
+text = "Promontory Point"
+
+[[cards]]
+text = "Northerly Island"
+
+[[cards]]
+text = "Tavern Style Pizza"
+
+[[cards]]
+text = "Giardiniera"
+
+[[cards]]
+text = "Maxwell Street Polish"
+
+[[cards]]
+text = "Pizza Puff"
+
+[[cards]]
+text = "Frango Mints"
+
+[[cards]]
+text = "Jeppson's Malört"
+
+[[cards]]
+text = "Chicago Sky"
+
+[[cards]]
+text = "Chicago Red Stars"
+
+[[cards]]
+text = "United Center"
+
+[[cards]]
+text = "Guaranteed Rate Field"
+
+[[cards]]
+text = "Chicago History Museum"
+
+[[cards]]
+text = "Peggy Notebaert Nature Museum"
+
+[[cards]]
+text = "State Street"
+
+[[cards]]
+text = "O'Hare International Airport"
+
+[[cards]]
+text = "Midway International Airport"
+
+[[cards]]
+text = "Divvy Bikes"
+
+[[cards]]
+text = "Ida B. Wells"
+
+[[cards]]
+text = "Jane Addams"
+
+[[cards]]
+text = "Hull House"
+
+[[cards]]
+text = "Mayor Daley"
+
+[[cards]]
+text = "Harold Washington Library"
+
+[[cards]]
+text = "Haymarket Riot"
+
+[[cards]]
+text = "Century of Progress"
+
+[[cards]]
+text = "Gwendolyn Brooks"
+
+[[cards]]
+text = "Muddy Waters"
+
+[[cards]]
+text = "Buddy Guy"
+
+[[cards]]
+text = "Chance the Rapper"
+
+[[cards]]
+text = "Walter Payton"
+
+[[cards]]
+text = "Ernie Banks"
+
+[[cards]]
+text = "Frank Lloyd Wright"
+
+[[cards]]
+text = "Merchandise Mart"
+
+[[cards]]
+text = "Portillo's"
+
+[[cards]]
+text = "Lollapalooza"
+
+[[cards]]
+text = "The 606 Trail"
+
+[[cards]]
+text = "Mike Ditka"
+
+[[cards]]
+text = "Maggie Daley Park"
+
+[[cards]]
+text = "Eli's Cheesecake"
+
+[[cards]]
+text = "Scottie Pippen"
+
+[[cards]]
+text = "Taste of Chicago"
+
+[[cards]]
+text = "Chicago Marathon"
+
+[[cards]]
+text = "Palmer House"
+
+[[cards]]
+text = "Art Institute Lions"
+
+[[cards]]
+text = "The Green Mill"
+
+[[cards]]
+text = "Daniel Burnham"
+
+[[cards]]
+text = "Steppenwolf Theatre"
+
+[[cards]]
+text = "Ping Tom Park"
+
+[[cards]]
+text = "Metra"
+
+[[cards]]
+text = "St. Regis Chicago"
+
+[[cards]]
+text = "Lou Malnati's"
+
+[[cards]]
+text = "Chicago Water Taxi"
+
+[[cards]]
+text = "Mies van der Rohe"
+
+[[cards]]
+text = "Chicago Pedway"
+
+[[cards]]
+text = "Smashing Pumpkins"
+
+[[cards]]
+text = "Humboldt Park"
+
+[[cards]]
+text = "Museum Campus"
+
+[[cards]]
+text = "Superdawg"
+
+[[cards]]
+text = "Joffrey Ballet"
+
+[[cards]]
+text = "Common"
+
+[[cards]]
+text = "Frank Thomas"
+
+[[cards]]
+text = "Drake Hotel"
+
+[[cards]]
+text = "Lyric Opera"
+
+[[cards]]
+text = "Lakeview"
+
+[[cards]]
+text = "Bridgeport"
+
+[[cards]]
+text = "Ventra Card"
+
+[[cards]]
+text = "Chicken Vesuvio"
+
+[[cards]]
+text = "Bud Billiken Parade"
+
+[[cards]]
+text = "Goodman Theatre"
+
+[[cards]]
+text = "Chicago Symphony Orchestra"
+
+[[cards]]
+text = "Fall Out Boy"
+
+[[cards]]
+text = "Louis Sullivan"
+
+[[cards]]
+text = "Jeanne Gang"
+
+[[cards]]
+text = "Giordano's"
+
+[[cards]]
+text = "Montrose Harbor"
+
+[[cards]]
+text = "Carbide and Carbon Building"
+
+[[cards]]
+text = "Monadnock Building"
+
+[[cards]]
+text = "Rogers Park"
+
+[[cards]]
+text = "Kingston Mines"
+
+[[cards]]
+text = "Roscoe Village"
+
+[[cards]]
+text = "Ravenswood"
+
+[[cards]]
+text = "Printers Row"
+
+[[cards]]
+text = "Chicago Athletic Association"

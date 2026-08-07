@@ -1,12 +1,12 @@
 id = "deck_space-exploration_187174e8"
-revision = 2
+revision = 3
 name = "Space Exploration"
 category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include astronauts, rockets, missions, probes, telescopes, space stations, moon landings, Mars exploration, and major space agencies."
-spoiler_mode = false
 photo_file_name = "space-exploration-187174e8-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Neil Armstrong"
@@ -39,9 +39,6 @@ text = "Mir Space Station"
 text = "Saturn V"
 
 [[cards]]
-text = "Space Shuttle Discovery"
-
-[[cards]]
 text = "Falcon Heavy"
 
 [[cards]]
@@ -55,9 +52,6 @@ text = "Perseverance Rover"
 
 [[cards]]
 text = "Voyager 1"
-
-[[cards]]
-text = "Voyager 2"
 
 [[cards]]
 text = "Cassini"
@@ -145,9 +139,6 @@ text = "Rocket Booster"
 
 [[cards]]
 text = "Payload"
-
-[[cards]]
-text = "Space Shuttle Atlantis"
 
 [[cards]]
 text = "Alan Shepard"

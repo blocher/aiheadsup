@@ -1,13 +1,13 @@
 id = "deck_harry-potter-book-7-harry-potter-and-the-deathly-hallows_f41ee6be"
-revision = 2
+revision = 4
 name = "Harry Potter Book 7: Harry Potter and the Deathly Hallows"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in Harry Potter and the Deathly Hallows."
+photo_file_name = "harry-potter-book-7-harry-potter-and-the-deathly-hallows-f41ee6be-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-book-7-harry-potter-and-the-deathly-hallows-f41ee6be-cover.jpg"
 
 [[cards]]
 text = "Elder Wand"
@@ -63,7 +63,7 @@ first_revealed_installment = 7
 
 [[cards]]
 text = "Gringotts Dragon"
-first_revealed_installment = 1
+first_revealed_installment = 7
 
 [[cards]]
 text = "Sword of Gryffindor"
@@ -71,7 +71,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Slytherin's Locket"
-first_revealed_installment = 5
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hufflepuff's Cup"
@@ -79,7 +79,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Ravenclaw's Diadem"
-first_revealed_installment = 6
+first_revealed_installment = 7
 
 [[cards]]
 text = "Nagini"
@@ -219,7 +219,7 @@ first_revealed_installment = 7
 
 [[cards]]
 text = "Ted Tonks"
-first_revealed_installment = 7
+first_revealed_installment = 5
 
 [[cards]]
 text = "Regulus Black"
@@ -286,10 +286,6 @@ text = "Elphias Doge"
 first_revealed_installment = 5
 
 [[cards]]
-text = "The Wedding Tent"
-first_revealed_installment = 7
-
-[[cards]]
 text = "Silver Hand"
 first_revealed_installment = 4
 
@@ -344,3 +340,67 @@ first_revealed_installment = 1
 [[cards]]
 text = "Peter Pettigrew"
 first_revealed_installment = 3
+
+[[cards]]
+text = "Ignotus Peverell"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Undesirable Number One"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Prince's Tale"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Lestrange Vault"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Reginald Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mary Cattermole"
+first_revealed_installment = 7
+
+[[cards]]
+text = "George Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Percy Weasley"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fleur Delacour"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Room of Requirement"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Colin Creevey"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The White Tomb"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Phineas Nigellus Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Weasley Ghoul"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Three Brothers"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Magic is Might"
+first_revealed_installment = 7

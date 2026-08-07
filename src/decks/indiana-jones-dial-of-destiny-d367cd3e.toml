@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-dial-of-destiny_d367cd3e"
-revision = 2
+revision = 4
 name = "Indiana Jones: Dial of Destiny"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Dial of Destiny."
+photo_file_name = "indiana-jones-dial-of-destiny-d367cd3e-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-dial-of-destiny-d367cd3e-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -78,19 +78,11 @@ text = "Lance of Longinus"
 first_revealed_installment = 5
 
 [[cards]]
-text = "Phony Lance"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Grafikos Tablet"
 first_revealed_installment = 5
 
 [[cards]]
 text = "Archimedes' Wristwatch"
-first_revealed_installment = 5
-
-[[cards]]
-text = "Polybius Cipher"
 first_revealed_installment = 5
 
 [[cards]]
@@ -191,4 +183,116 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Wombat"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Dial of Destiny"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Moon Landing"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ticker Tape Parade"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Nazi Train"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Castle Plassenburg"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dr. Schmidt"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Centipedes"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Greek Fire"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Retirement Party"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hotel de l'Atlantique"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Wedding Ring"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Satchel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Travel Line"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Nazi Uniform"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Syracuse"
+first_revealed_installment = 5
+
+[[cards]]
+text = "New York City"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Vietnam War"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archaeology Lecture"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Allied Bombing Raid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Rahim"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Aegean Sea"
+first_revealed_installment = 5
+
+[[cards]]
+text = "My Galgo"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Workshop"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Looted Nazi Art"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Skeleton"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Modern Watch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tectonic Plates"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Portal in the Sky"
 first_revealed_installment = 5

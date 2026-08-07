@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-ix-the-rise-of-skywalker_2c7e5317"
-revision = 2
+revision = 4
 name = "Star Wars Episode IX: The Rise of Skywalker"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode IX: The Rise of Skywalker."
+photo_file_name = "star-wars-episode-ix-the-rise-of-skywalker-2c7e5317-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-ix-the-rise-of-skywalker-2c7e5317-cover.jpg"
 
 [[cards]]
 text = "Babu Frik"
@@ -83,11 +83,7 @@ first_revealed_installment = 11
 
 [[cards]]
 text = "Force Healing"
-first_revealed_installment = 11
-
-[[cards]]
-text = "They fly now!"
-first_revealed_installment = 11
+first_revealed_installment = 12
 
 [[cards]]
 text = "All the Jedi"
@@ -179,7 +175,7 @@ first_revealed_installment = 11
 
 [[cards]]
 text = "Death Star II Wreckage"
-first_revealed_installment = 3
+first_revealed_installment = 11
 
 [[cards]]
 text = "Company 77"
@@ -207,7 +203,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Sith Runes"
-first_revealed_installment = 11
+first_revealed_installment = 13
 
 [[cards]]
 text = "Ben Solo"
@@ -275,4 +271,220 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "Sith Jet Trooper"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Mustafar"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Knights of Ren"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tantive IV"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nien Nunb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Snap Wexley"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Lieutenant Connix"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Aftab Ackbar"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Commander D'Acy"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sith Acolytes"
+first_revealed_installment = 11
+
+[[cards]]
+text = "X-wing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tatooine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lars Homestead"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sith Language"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Spice Runner Medallion"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Snoke's Clones"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Supreme Leader Snoke"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Qui-Gon Jinn"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Obi-Wan Kenobi"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Anakin Skywalker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mace Windu"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Yoda"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ahsoka Tano"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Kanan Jarrus"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Aayla Secura"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Luminara Unduli"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Adi Gallia"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Xyston-class Star Destroyer"
+first_revealed_installment = 11
+
+[[cards]]
+text = "First Order"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Resistance"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Desert Speeder Chase"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Medal of Bravery"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jedi Training Course"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Jedi Sacred Texts"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Force Ghost"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Vader's Melted Helmet"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Sith Fleet"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Training Remote"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ahch-To"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Ewoks"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Palpatine's Wayfinder"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Vader's Wayfinder"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Sovereign Protector"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Oma Tres"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Stormtrooper Defectors"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Twin Sunset"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yellow Lightsaber"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Lightspeed Skipping"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Ur-Kittat"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Scavenger Staff"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Red Five"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sith Arena"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Spice Runner"
 first_revealed_installment = 11

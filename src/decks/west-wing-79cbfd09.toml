@@ -1,5 +1,5 @@
 id = "deck_west-wing_79cbfd09"
-revision = 2
+revision = 3
 name = "West Wing"
 category = "TV Shows"
 audience = "Family"
@@ -102,7 +102,7 @@ text = "Marine One"
 text = "The West Wing"
 
 [[cards]]
-text = "The Mess Hall"
+text = "White House Mess"
 
 [[cards]]
 text = "Walk and Talk"
@@ -133,9 +133,6 @@ text = "In Excelsis Deo"
 
 [[cards]]
 text = "What's Next"
-
-[[cards]]
-text = "Post Hoc Ergo Propter"
 
 [[cards]]
 text = "Chief of Staff"

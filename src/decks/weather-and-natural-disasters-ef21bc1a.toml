@@ -1,12 +1,12 @@
 id = "deck_weather-and-natural-disasters_ef21bc1a"
-revision = 2
+revision = 3
 name = "Weather and Natural Disasters"
 category = "Science"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include weather events, clouds, storms, seasons, climate terms, natural disasters, instruments, and safety-related science concepts."
-spoiler_mode = false
 photo_file_name = "weather-and-natural-disasters-ef21bc1a-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Hurricane"
@@ -87,9 +87,6 @@ text = "Autumn"
 text = "Winter"
 
 [[cards]]
-text = "Solar Eclipse"
-
-[[cards]]
 text = "Avalanche"
 
 [[cards]]
@@ -138,9 +135,6 @@ text = "Snow Boots"
 text = "Sunscreen"
 
 [[cards]]
-text = "Windmill"
-
-[[cards]]
 text = "Climate Change"
 
 [[cards]]
@@ -157,12 +151,6 @@ text = "Thunder"
 
 [[cards]]
 text = "Sunburn"
-
-[[cards]]
-text = "Hailstorm"
-
-[[cards]]
-text = "Hurricane Eye"
 
 [[cards]]
 text = "Weather Forecast"
@@ -184,9 +172,6 @@ text = "Mudslide"
 
 [[cards]]
 text = "Dust Storm"
-
-[[cards]]
-text = "Typhoon"
 
 [[cards]]
 text = "Sandstorm"

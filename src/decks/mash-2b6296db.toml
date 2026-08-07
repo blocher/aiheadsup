@@ -1,5 +1,5 @@
 id = "deck_mash_2b6296db"
-revision = 2
+revision = 3
 name = "Mash"
 category = "TV Shows"
 audience = "Family"
@@ -67,9 +67,6 @@ text = "Sparky"
 
 [[cards]]
 text = "Ho-Jon"
-
-[[cards]]
-text = "Spearchucker Jones"
 
 [[cards]]
 text = "Captain Tuttle"

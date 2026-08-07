@@ -1,12 +1,12 @@
 id = "deck_classic-wii-games_24a03f8d"
-revision = 2
+revision = 3
 name = "Classic Wii Games"
 category = "Games"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include well-known Wii games, characters, controllers, Miis, motion controls, minigames, sports, racing, party-style modes, accessories, and family-friendly Wii gameplay moments."
-spoiler_mode = false
 photo_file_name = "classic-wii-games-24a03f8d-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Wii Sports"
@@ -186,16 +186,10 @@ text = "Wii Pointer"
 text = "Cow Racing"
 
 [[cards]]
-text = "Mii Maker"
-
-[[cards]]
 text = "Wuhu Island"
 
 [[cards]]
 text = "Rayman Raving Rabbids"
-
-[[cards]]
-text = "Bowling Strike"
 
 [[cards]]
 text = "Swordplay Duel"

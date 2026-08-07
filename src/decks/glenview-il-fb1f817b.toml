@@ -1,12 +1,12 @@
 id = "deck_glenview-il_fb1f817b"
-revision = 2
+revision = 4
 name = "Glenview, IL"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include local landmarks, parks, schools, neighborhoods, nearby North Shore places, Chicago-area references, transportation, history, and family-friendly destinations."
-spoiler_mode = false
 photo_file_name = "glenview-il-fb1f817b-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Historic Wagner Farm"
@@ -84,9 +84,6 @@ text = "Cole Park"
 text = "Glenview Park District"
 
 [[cards]]
-text = "Park District Fieldhouse"
-
-[[cards]]
 text = "Glenbrook South High School"
 
 [[cards]]
@@ -159,10 +156,7 @@ text = "Glenview Grind"
 text = "Valley Lo Club"
 
 [[cards]]
-text = "Glenview Club"
-
-[[cards]]
-text = "Glenview Golf Club"
+text = "Glen View Club"
 
 [[cards]]
 text = "Sunset Ridge Country Club"
@@ -216,9 +210,6 @@ text = "Chicago River North Branch"
 text = "Glenview Summer Fest"
 
 [[cards]]
-text = "Fourth of July Parade"
-
-[[cards]]
 text = "The North Shore"
 
 [[cards]]
@@ -243,13 +234,55 @@ text = "Gillson Beach"
 text = "Lake Michigan"
 
 [[cards]]
-text = "Hackney's Restaurant"
+text = "Loyola Academy"
 
 [[cards]]
-text = "Lowe Residence"
+text = "Home Alone House"
 
 [[cards]]
-text = "Grandma & Grandpa Lowe"
+text = "Edens Expressway"
 
 [[cards]]
-text = "Forest Road"
+text = "Tri-State Tollway"
+
+[[cards]]
+text = "Green Bay Trail"
+
+[[cards]]
+text = "North Branch Trail"
+
+[[cards]]
+text = "Grosse Point Lighthouse"
+
+[[cards]]
+text = "Glencoe Beach"
+
+[[cards]]
+text = "Willow Road"
+
+[[cards]]
+text = "Pfingsten Road"
+
+[[cards]]
+text = "Landmark Inn"
+
+[[cards]]
+text = "Superdawg"
+
+[[cards]]
+text = "Wilmette"
+
+[[cards]]
+text = "Northbrook"
+
+[[cards]]
+text = "Winnetka"
+
+[[cards]]
+text = "Glenview History Center"
+
+[[cards]]
+text = "Greenwood Road"
+
+[[cards]]
+text = "New Trier High School"

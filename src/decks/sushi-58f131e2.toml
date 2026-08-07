@@ -1,12 +1,12 @@
 id = "deck_sushi_58f131e2"
-revision = 2
+revision = 3
 name = "Sushi"
 category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include sushi rolls, ingredients, fish, sauces, sides, Japanese food terms, restaurant items, utensils, and family-friendly sushi concepts."
-spoiler_mode = false
 photo_file_name = "sushi-58f131e2-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "California Roll"
@@ -168,16 +168,10 @@ text = "Green Tea"
 text = "Salmon Roe"
 
 [[cards]]
-text = "Octopus Nigiri"
-
-[[cards]]
-text = "Teriyaki Chicken"
-
-[[cards]]
 text = "Tuna Sashimi"
 
 [[cards]]
-text = "Sweet Egg Omelet"
+text = "Teriyaki Chicken"
 
 [[cards]]
 text = "Sushi Chef"
@@ -190,9 +184,6 @@ text = "Panko Breadcrumbs"
 
 [[cards]]
 text = "Sea Urchin"
-
-[[cards]]
-text = "Fried Tofu Skin"
 
 [[cards]]
 text = "Mochi Ice Cream"
@@ -208,12 +199,6 @@ text = "Rice Vinegar"
 
 [[cards]]
 text = "Avocado"
-
-[[cards]]
-text = "Uni"
-
-[[cards]]
-text = "Hamachi"
 
 [[cards]]
 text = "Inari"

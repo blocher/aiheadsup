@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-kingdom-of-the-crystal-skull_e9b5f0e6"
-revision = 2
+revision = 4
 name = "Indiana Jones: Kingdom of the Crystal Skull"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Kingdom of the Crystal Skull."
+photo_file_name = "indiana-jones-kingdom-of-the-crystal-skull-e9b5f0e6-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-kingdom-of-the-crystal-skull-e9b5f0e6-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -99,7 +99,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Hangar 51"
-first_revealed_installment = 1
+first_revealed_installment = 4
 
 [[cards]]
 text = "Doom Town"
@@ -127,10 +127,6 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Obelisk of Akator"
-first_revealed_installment = 4
-
-[[cards]]
-text = "Treasure Chamber"
 first_revealed_installment = 4
 
 [[cards]]
@@ -211,4 +207,156 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Indiana Jones' Wedding"
+first_revealed_installment = 4
+
+[[cards]]
+text = "El Dorado"
+first_revealed_installment = 4
+
+[[cards]]
+text = "KGB Agents"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Atomic Bomb"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mushroom Cloud"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Decontamination Shower"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Biker Jacket"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mutt's Comb"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Diner Brawl"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Spanish Conquistadors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Roswell Incident"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Thirteen Skeletons"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Interdimensional Portal"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Henry Jones Senior"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Marcus Brody"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Iquitos"
+first_revealed_installment = 4
+
+[[cards]]
+text = "FBI Investigation"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Iron Filings"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jukebox"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nevada Desert"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nuclear Test Site"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Cold War"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Greaser"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Oxley's Journal"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Map Screen"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peruvian Desert"
+first_revealed_installment = 4
+
+[[cards]]
+text = "San Juan Asylum"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Obsidian Knife"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Magnetic Attraction"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviet Convoy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jungle Chase"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Quicksand"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flesh-Eating Ants"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Waterfall Drop"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Spaceship Departure"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Wedding Gown"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tuxedo"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Soviet Camp"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Pomade"
 first_revealed_installment = 4

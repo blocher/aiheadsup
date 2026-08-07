@@ -1,12 +1,12 @@
 id = "deck_fast-food_69a8211b"
-revision = 2
+revision = 3
 name = "Fast Food"
 category = "Food"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include burgers, fries, nuggets, milkshakes, sauces, drive-thru items, popular chains, kids’ meals, mascots, and common fast-food phrases."
-spoiler_mode = false
 photo_file_name = "fast-food-69a8211b-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Cheeseburger"
@@ -138,16 +138,7 @@ text = "Slushie"
 text = "Chili Cheese Fries"
 
 [[cards]]
-text = "Garlic Bread"
-
-[[cards]]
 text = "Drive-In"
-
-[[cards]]
-text = "Yellow Mustard"
-
-[[cards]]
-text = "Bacon Double Cheeseburger"
 
 [[cards]]
 text = "Breakfast Burrito"
@@ -157,9 +148,6 @@ text = "Hot Sauce"
 
 [[cards]]
 text = "Sweet and Sour Sauce"
-
-[[cards]]
-text = "Crunchy Taco"
 
 [[cards]]
 text = "Paper Crown"
@@ -186,12 +174,6 @@ text = "Sesame Seed Bun"
 text = "Apple Dippers"
 
 [[cards]]
-text = "Crispy Chicken Sandwich"
-
-[[cards]]
-text = "Cherry Slushie"
-
-[[cards]]
 text = "Value Menu"
 
 [[cards]]
@@ -202,9 +184,6 @@ text = "Ranch Dressing"
 
 [[cards]]
 text = "Crushed Ice"
-
-[[cards]]
-text = "Loaded Potato Skins"
 
 [[cards]]
 text = "Spicy Chicken Sandwich"

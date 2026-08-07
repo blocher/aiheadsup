@@ -1,5 +1,5 @@
 id = "deck_octonauts_a0abd8c6"
-revision = 2
+revision = 3
 name = "Octonauts"
 category = "TV Shows"
 audience = "Family"
@@ -12,25 +12,25 @@ spoiler_mode = false
 text = "Captain Barnacles"
 
 [[cards]]
-text = "Kwazii Cat"
+text = "Kwazii"
 
 [[cards]]
-text = "Peso Penguin"
+text = "Peso"
 
 [[cards]]
-text = "Dr. Shellington"
+text = "Shellington"
 
 [[cards]]
-text = "Dashi Dog"
+text = "Dashi"
 
 [[cards]]
-text = "Tweak Bunny"
+text = "Tweak"
 
 [[cards]]
 text = "Professor Inkling"
 
 [[cards]]
-text = "Tunip the Vegimal"
+text = "Tunip"
 
 [[cards]]
 text = "Vegimals"

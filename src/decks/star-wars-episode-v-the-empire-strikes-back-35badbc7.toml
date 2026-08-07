@@ -1,13 +1,13 @@
 id = "deck_star-wars-episode-v-the-empire-strikes-back_35badbc7"
-revision = 2
+revision = 4
 name = "Star Wars Episode V: The Empire Strikes Back"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details introduced in Episode V: The Empire Strikes Back."
+photo_file_name = "star-wars-episode-v-the-empire-strikes-back-35badbc7-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-episode-v-the-empire-strikes-back-35badbc7-cover.jpg"
 
 [[cards]]
 text = "Yoda"
@@ -194,22 +194,6 @@ text = "Wampa Cave"
 first_revealed_installment = 2
 
 [[cards]]
-text = "I Am Your Father"
-first_revealed_installment = 2
-
-[[cards]]
-text = "I Know"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Do or Do Not"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Tell Me the Odds"
-first_revealed_installment = 2
-
-[[cards]]
 text = "FX-7"
 first_revealed_installment = 2
 
@@ -276,3 +260,135 @@ first_revealed_installment = 1
 [[cards]]
 text = "Obi-Wan Kenobi"
 first_revealed_installment = 1
+
+[[cards]]
+text = "Bacta Tank"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wedge Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Zev Senesca"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hobbie Klivian"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wes Janson"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rogue Squadron"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Toryn Farr"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rebel Transport"
+first_revealed_installment = 2
+
+[[cards]]
+text = "E-Web Heavy Blaster"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Hydrospanner"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Death Squadron"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Jedi Training"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Force Ghost"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Willrow Hood"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bounty Hunter Lineup"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mandalorian Armor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Force Choke"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Star Destroyer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tow Cable"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dragonsnake"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rootleaf Stew"
+first_revealed_installment = 2
+
+[[cards]]
+text = "R3-A2"
+first_revealed_installment = 2
+
+[[cards]]
+text = "R-3PO"
+first_revealed_installment = 2
+
+[[cards]]
+text = "K-3PO"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Force Pull"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Force Vision"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mechanical Hand"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Asteroid Cave"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Wing Guard"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ice Hangar"
+first_revealed_installment = 2
+
+[[cards]]
+text = "R5-M2"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gimer Stick"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Viper Probe Droid"
+first_revealed_installment = 2

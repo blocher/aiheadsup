@@ -1,13 +1,13 @@
 id = "deck_star-wars-general-lore_37ae6799"
-revision = 2
+revision = 4
 name = "Star Wars: General Lore"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include general Star Wars people, places, droids, creatures, ships, objects, factions, Force terms, and franchise lore across the included movies and The Mandalorian. Tag every card with its first release."
+photo_file_name = "star-wars-general-lore-37ae6799-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-general-lore-37ae6799-cover.jpg"
 
 [[cards]]
 text = "Tosche Station"
@@ -182,10 +182,6 @@ text = "Exegol"
 first_revealed_installment = 11
 
 [[cards]]
-text = "Beskar Armor"
-first_revealed_installment = 12
-
-[[cards]]
 text = "Moff Gideon"
 first_revealed_installment = 12
 
@@ -275,7 +271,7 @@ first_revealed_installment = 12
 
 [[cards]]
 text = "Aurebesh"
-first_revealed_installment = 13
+first_revealed_installment = 3
 
 [[cards]]
 text = "Jedi Holocron"
@@ -315,7 +311,7 @@ first_revealed_installment = 2
 
 [[cards]]
 text = "Camtono"
-first_revealed_installment = 2
+first_revealed_installment = 12
 
 [[cards]]
 text = "Ortolan"
@@ -355,7 +351,7 @@ first_revealed_installment = 12
 
 [[cards]]
 text = "Vibroblade"
-first_revealed_installment = 13
+first_revealed_installment = 3
 
 [[cards]]
 text = "Whistling Birds"
@@ -380,3 +376,403 @@ first_revealed_installment = 3
 [[cards]]
 text = "Beskar"
 first_revealed_installment = 12
+
+[[cards]]
+text = "Sandcrawler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yavin 4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "TIE Interceptor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sith Infiltrator"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Otoh Gunga"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Coruscant"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Geonosis"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kamino"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ahch-To"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Crait"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Jedha"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Scarif"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Jakku"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Gamorrean Guard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ewok"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gungan"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Super Star Destroyer"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snowspeeder"
+first_revealed_installment = 2
+
+[[cards]]
+text = "B-wing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "A-wing"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Razor Crest"
+first_revealed_installment = 12
+
+[[cards]]
+text = "N-1 Starfighter"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jedi Starfighter"
+first_revealed_installment = 5
+
+[[cards]]
+text = "U-wing"
+first_revealed_installment = 8
+
+[[cards]]
+text = "The First Order"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Galactic Republic"
+first_revealed_installment = 4
+
+[[cards]]
+text = "B1 Battle Droid"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Droideka"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Super Battle Droid"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Thermal Detonator"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Darksaber"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Grogu"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Tauntaun"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mynock"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Exogorth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Blurrg"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Acklay"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Reek"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Rancor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mouse Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Imperial Probe Droid"
+first_revealed_installment = 2
+
+[[cards]]
+text = "K-2SO"
+first_revealed_installment = 8
+
+[[cards]]
+text = "BB-8"
+first_revealed_installment = 7
+
+[[cards]]
+text = "R5-D4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Carbonite"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Imperial Royal Guard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Snowtrooper"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Scout Trooper"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Clone Trooper"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dark Trooper"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Count Dooku"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Admiral Ackbar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Qui-Gon Jinn"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Jango Fett"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ahsoka Tano"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Captain Rex"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Wicket W. Warrick"
+first_revealed_installment = 3
+
+[[cards]]
+text = "General Veers"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Biggs Darklighter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jek Porkins"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fennec Shand"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Cobb Vanth"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Nien Nunb"
+first_revealed_installment = 3
+
+[[cards]]
+text = "General Hux"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Captain Phasma"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Saw Gerrera"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Dryden Vos"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Tobias Beckett"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Dr. Evazan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ponda Baba"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yaddle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sifo-Dyas"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Bail Organa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Shmi Skywalker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "L3-37"
+first_revealed_installment = 10
+
+[[cards]]
+text = "MagnaGuard"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Buzz Droid"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Astromech Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Protocol Droid"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Naboo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bespin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dagobah"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Endor"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Kashyyyk"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Corellia"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Takodana"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Tantive IV"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lambda-class Shuttle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "TIE Bomber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Venator Star Destroyer"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mon Calamari Cruiser"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Crimson Dawn"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Black Sun"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Trade Federation"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Confederacy of Independent Systems"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Alderaan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hyperspace"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hyperdrive"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bounty Hunters Guild"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Inquisitorius"
+first_revealed_installment = 13

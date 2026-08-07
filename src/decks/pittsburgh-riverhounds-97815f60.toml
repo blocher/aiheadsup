@@ -1,12 +1,12 @@
 id = "deck_pittsburgh-riverhounds_97815f60"
-revision = 2
+revision = 3
 name = "Pittsburgh Riverhounds"
 category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Riverhounds history, Highmark Stadium, famous current and past players, coaches, supporters’ groups, soccer terms, Pittsburgh soccer culture, local rivalries, matchday traditions, uniforms, chants, and landmark moments, but should not be mostly player names."
-spoiler_mode = false
 photo_file_name = "pittsburgh-riverhounds-97815f60-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Highmark Stadium"
@@ -63,9 +63,6 @@ text = "Eastern Conference"
 text = "Goal Horn"
 
 [[cards]]
-text = "Tailgate Party"
-
-[[cards]]
 text = "Yellow Card"
 
 [[cards]]
@@ -114,19 +111,7 @@ text = "Riverhounds Academy"
 text = "Post-Game Autographs"
 
 [[cards]]
-text = "Halftime Kick"
-
-[[cards]]
-text = "Team Captain"
-
-[[cards]]
-text = "Head Coach"
-
-[[cards]]
 text = "Free Kick"
-
-[[cards]]
-text = "Offside Trap"
 
 [[cards]]
 text = "Red Card"
@@ -139,9 +124,6 @@ text = "Indy Eleven"
 
 [[cards]]
 text = "Stoppage Time"
-
-[[cards]]
-text = "Playoff Match"
 
 [[cards]]
 text = "Riverhounds Crest"
@@ -189,22 +171,10 @@ text = "Hat Trick"
 text = "Iron City Beer"
 
 [[cards]]
-text = "Playoff Home Match"
-
-[[cards]]
-text = "Mascot Race"
-
-[[cards]]
-text = "Youth Development"
-
-[[cards]]
 text = "Riverhounds Store"
 
 [[cards]]
 text = "Away Day Travel"
-
-[[cards]]
-text = "Coach of the Year"
 
 [[cards]]
 text = "Black and Gold"

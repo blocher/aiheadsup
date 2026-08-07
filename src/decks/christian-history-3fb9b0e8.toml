@@ -1,12 +1,12 @@
 id = "deck_christian-history_3fb9b0e8"
-revision = 2
+revision = 3
 name = "Christian History"
 category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include major figures, councils, denominations, saints, reformers, missionaries, Bible events, early Church terms, historical movements, and important Christian dates."
-spoiler_mode = false
 photo_file_name = "christian-history-3fb9b0e8-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Martin Luther"
@@ -145,9 +145,6 @@ text = "Council of Trent"
 
 [[cards]]
 text = "Jonathan Edwards"
-
-[[cards]]
-text = "Harriet Tubman"
 
 [[cards]]
 text = "Ignatius of Loyola"

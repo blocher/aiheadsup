@@ -1,10 +1,10 @@
 id = "deck_k-pop-demon-hunters_0de2537c"
-revision = 3
+revision = 4
 name = "K-Pop Demon Hunters"
 category = "Movies"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = "Cards should only include characters, songs, objects, demons, settings, Korean folklore, and specific moments actually shown or named in the movie K-Pop Demon Hunters. Do not include generic K-pop or music-industry terms, real-world crossovers, or fandom or marketing references from outside the film."
+special_prompt_note = "Cards should include characters, songs, magical objects, demons, idols, settings, action moments, music-industry terms, humor, and memorable family-friendly details from K-Pop Demon Hunters."
 photo_file_name = "k-pop-demon-hunters-0de2537c-cover.jpg"
 spoiler_mode = false
 
@@ -16,9 +16,6 @@ text = "Mira"
 
 [[cards]]
 text = "Zoey"
-
-[[cards]]
-text = "Huntrix"
 
 [[cards]]
 text = "Jinu"
@@ -52,30 +49,6 @@ text = "Abby Saja"
 
 [[cards]]
 text = "Baby Saja"
-
-[[cards]]
-text = "Golden"
-
-[[cards]]
-text = "Soda Pop"
-
-[[cards]]
-text = "Your Idol"
-
-[[cards]]
-text = "How It's Done"
-
-[[cards]]
-text = "Takedown"
-
-[[cards]]
-text = "What It Sounds Like"
-
-[[cards]]
-text = "Free"
-
-[[cards]]
-text = "Strategy"
 
 [[cards]]
 text = "Jinu's Lament"

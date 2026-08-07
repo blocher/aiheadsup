@@ -1,13 +1,13 @@
 id = "deck_harry-potter-magical-creatures_03c7d9d0"
-revision = 2
+revision = 4
 name = "Harry Potter: Magical Creatures"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include creatures, beasts, pets, species, and named magical animals."
+photo_file_name = "harry-potter-magical-creatures-03c7d9d0-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-magical-creatures-03c7d9d0-cover.jpg"
 
 [[cards]]
 text = "Hedwig"
@@ -83,7 +83,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Pigwidgeon"
-first_revealed_installment = 3
+first_revealed_installment = 4
 
 [[cards]]
 text = "Errol"
@@ -243,7 +243,7 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "Giant"
-first_revealed_installment = 1
+first_revealed_installment = 4
 
 [[cards]]
 text = "Ukrainian Ironbelly"
@@ -252,3 +252,243 @@ first_revealed_installment = 7
 [[cards]]
 text = "Erumpent"
 first_revealed_installment = 7
+
+[[cards]]
+text = "The Grim"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gringotts Dragon"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Kneazle"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Demiguise"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hebridean Black"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Banshee"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Vampire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yeti"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Selkie"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Salamander"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fire Crab"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Doxy"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Puffskein"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kelpie"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snidget"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Billywig"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Manticore"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hermes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mosag"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ronan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sanguini"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Murtlap"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Knarl"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Crup"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dwarf"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Harpy"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cockatrice"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flesh-Eating Slug"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bicorn"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Moke"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Plimpy"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Thunderbird"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Occamy"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Swooping Evil"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Augurey"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Graphorn"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Chimaera"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fairy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Abraxan"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Antipodean Opaleye"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Romanian Longhorn"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Peruvian Vipertooth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Portuguese Longsnout"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Catalonian Fireball"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Ashwinder"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Nundu"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Mooncalf"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Nogtail"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Wampus Cat"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Pukwudgie"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Horned Serpent"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Zouwu"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Matagot"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Chupacabra"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Siren"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Merrow"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Security Troll"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hokey"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Witherwings"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Flitterby Moth"
+first_revealed_installment = 3

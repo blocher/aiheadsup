@@ -1,12 +1,12 @@
 id = "deck_dinosaurs-and-fossils_49ca9e58"
-revision = 2
+revision = 3
 name = "Dinosaurs and Fossils"
 category = "Science"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include dinosaurs, prehistoric animals, fossils, paleontology tools, geologic eras, extinction events, museums, and family-friendly dinosaur facts."
-spoiler_mode = false
 photo_file_name = "dinosaurs-and-fossils-49ca9e58-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Tyrannosaurus Rex"
@@ -45,7 +45,7 @@ text = "Coprolite"
 text = "Petrified Wood"
 
 [[cards]]
-text = "Amber Insect"
+text = "Amber"
 
 [[cards]]
 text = "Ammonite"
@@ -157,9 +157,6 @@ text = "Saber-Toothed Cat"
 
 [[cards]]
 text = "Giganotosaurus"
-
-[[cards]]
-text = "Amber"
 
 [[cards]]
 text = "Rock Hammer"

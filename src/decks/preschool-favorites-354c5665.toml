@@ -1,12 +1,12 @@
 id = "deck_preschool-favorites_354c5665"
-revision = 2
+revision = 3
 name = "Preschool Favorites"
 category = "Kids"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include common toys, animals, colors, shapes, foods, vehicles, simple actions, nursery rhyme ideas, and things preschool kids would recognize."
-spoiler_mode = false
 photo_file_name = "preschool-favorites-354c5665-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Teddy Bear"
@@ -16,9 +16,6 @@ text = "Building Blocks"
 
 [[cards]]
 text = "Play Dough"
-
-[[cards]]
-text = "Bubble Wand"
 
 [[cards]]
 text = "Rubber Duck"
@@ -52,9 +49,6 @@ text = "Cow"
 
 [[cards]]
 text = "Pig"
-
-[[cards]]
-text = "Duckling"
 
 [[cards]]
 text = "Banana"

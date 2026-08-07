@@ -1,13 +1,13 @@
 id = "deck_harry-potter-spells-and-charms_b5b3b5a3"
-revision = 2
+revision = 4
 name = "Harry Potter: Spells and Charms"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include spell names, magical effects, curses, charms, jinxes, and famous spell moments."
+photo_file_name = "harry-potter-spells-and-charms-b5b3b5a3-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-spells-and-charms-b5b3b5a3-cover.jpg"
 
 [[cards]]
 text = "Expelliarmus"
@@ -71,7 +71,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Nox"
-first_revealed_installment = 2
+first_revealed_installment = 3
 
 [[cards]]
 text = "Diffindo"
@@ -79,7 +79,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Reducto"
-first_revealed_installment = 5
+first_revealed_installment = 4
 
 [[cards]]
 text = "Aguamenti"
@@ -115,7 +115,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Levicorpus"
-first_revealed_installment = 5
+first_revealed_installment = 6
 
 [[cards]]
 text = "Liberacorpus"
@@ -264,3 +264,335 @@ first_revealed_installment = 7
 [[cards]]
 text = "Deletrius"
 first_revealed_installment = 4
+
+[[cards]]
+text = "Bombarda"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Confringo"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Expulso"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Relashio"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Anapneo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Aparecium"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Avis"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Evanesco"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Ferula"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Reparo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Quietus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rennervate"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mobiliarbus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mobilicorpus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Erecto"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Deprimo"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Descendo"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Salvio Hexia"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Arresto Momentum"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ascendio"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bubble-Head Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bat-Bogey Hex"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Disillusionment Charm"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cheering Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Everte Statum"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Jelly-Legs Jinx"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hot-Air Charm"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Banishing Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flame-Freezing Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Imperturbable Charm"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Knockback Jinx"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cushioning Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Feather-Light Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Unforgivable Curses"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Homonculous Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Permanent Sticking Charm"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Caterwauling Charm"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Muggle-Repelling Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Babbling Curse"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tongue-Tying Curse"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Super-Sensory Charm"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hover Charm"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Freezing Charm"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bedazzling Hex"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Vera Verto"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Alarte Ascendare"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Arania Exumai"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Periculum"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bluebell Flames"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Age Line"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Undetectable Extension Charm"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mimblewimble"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Specialis Revelio"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Vulnera Sanentur"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Meteolojinx Recanto"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Fianto Duri"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Repello Inimicum"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Lacarnum Inflamarae"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cistem Aperio"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gubraithian Fire"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Stinging Hex"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hurling Hex"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Partis Temporis"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Harmonia Nectere Passus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Shrinking Charm"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Anti-Cheating Spell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Anti-Disapparition Jinx"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Anti-Gravity Mist"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Switching Spell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Entrails-Expelling Curse"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Toenail-Growing Hex"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Sardine Hex"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Pimple Jinx"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Intruder Charm"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Drought Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "False Memory Charm"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Trip Jinx"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Talon-Clipping Charm"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stealth Sensoring Spell"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Revulsion Jinx"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Shock Spell"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Match to Needle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Teapot to Gerbil"
+first_revealed_installment = 3

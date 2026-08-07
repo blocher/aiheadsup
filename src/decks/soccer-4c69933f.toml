@@ -1,12 +1,12 @@
 id = "deck_soccer_4c69933f"
-revision = 2
+revision = 3
 name = "Soccer"
 category = "Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include positions, rules, equipment, field markings, fouls, formations, tournaments, clubs, national teams, chants, soccer slang, famous moments, and famous current and past players, but should not be mostly player names."
-spoiler_mode = false
 photo_file_name = "soccer-4c69933f-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Goalkeeper"
@@ -36,7 +36,7 @@ text = "Red Card"
 text = "Penalty Kick"
 
 [[cards]]
-text = "Hand Ball"
+text = "Handball"
 
 [[cards]]
 text = "Corner Kick"

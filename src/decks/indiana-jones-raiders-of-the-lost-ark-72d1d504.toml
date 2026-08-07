@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-raiders-of-the-lost-ark_72d1d504"
-revision = 2
+revision = 4
 name = "Indiana Jones: Raiders of the Lost Ark"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, artifacts, vehicles, action scenes, and memorable details introduced in Raiders of the Lost Ark."
+photo_file_name = "indiana-jones-raiders-of-the-lost-ark-72d1d504-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-raiders-of-the-lost-ark-72d1d504-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -90,7 +90,7 @@ text = "Staff of Ra"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Headpiece Staff of Ra"
+text = "Headpiece of Ra"
 first_revealed_installment = 1
 
 [[cards]]
@@ -170,15 +170,7 @@ text = "Pan Am Flying Boat"
 first_revealed_installment = 1
 
 [[cards]]
-text = "German Truck Convoy"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Giant Boulder"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Cairo Chase"
 first_revealed_installment = 1
 
 [[cards]]
@@ -218,5 +210,277 @@ text = "Tarantulas"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Poison Dart Trap"
+text = "The Bantu Wind"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Folding Coat Hanger"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Leather Satchel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Leather Jacket"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Anubis Statue"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Shooting the Swordsman"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Swinging on a Vine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yellow Biplane"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Crate 990"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sunlight Beam"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gobler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peruvian Jungle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Service Revolver"
+first_revealed_installment = 1
+
+[[cards]]
+text = "White Panama Hat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hot Poker"
+first_revealed_installment = 1
+
+[[cards]]
+text = "German Staff Car"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nazi Soldiers"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Washington D.C."
+first_revealed_installment = 1
+
+[[cards]]
+text = "Greek Island"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sherpa Thugs"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Desert Diggers"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Riding the Submarine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "A British Tar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Airplane Propeller"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Truck Chase"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Swallowing a Fly"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tabernacle Altar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Golden Cherubim"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Blackboard"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Miniature City"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Burnt Hand Print"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Poison Darts"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Classroom Lecture"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Snake Pit"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Opening the Ark"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tied to a Post"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Exploding Head"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Submarine Periscope"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fear of Snakes"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Temple Cobwebs"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pressure Plate"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wall Spears"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Barranca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Poisoned Meat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Toht's Glasses"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Eyelid Message"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Apple for Teacher"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stolen Uniform"
+first_revealed_installment = 1
+
+[[cards]]
+text = "White Linen Suit"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rocket Launcher"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wicker Basket"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spitting Cobra"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sallah's Children"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Truck Grille"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ghostly Apparitions"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Angel of Death"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Whirlwind of Fire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sallah's Singing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Silk Dress"
+first_revealed_installment = 1
+
+[[cards]]
+text = "White High Heels"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Toht's Black Coat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ten Commandments"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Carrying Poles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Belloq's Tent"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mirror Reflector"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mercedes Emblem"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Captain's Cabin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Swirling Storm Clouds"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Whip Holster"
 first_revealed_installment = 1

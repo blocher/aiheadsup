@@ -1,12 +1,12 @@
 id = "deck_pittsburgh-pirates_e56fa43a"
-revision = 2
+revision = 3
 name = "Pittsburgh Pirates"
 category = "Pittsburgh Sports"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Pirates history, ballparks, uniforms, mascots, famous current and past players, World Series moments, nicknames, fan traditions, baseball terms, rivalries, Pittsburgh baseball culture, and famous plays, but should not be mostly player names."
-spoiler_mode = false
 photo_file_name = "pittsburgh-pirates-e56fa43a-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "PNC Park"
@@ -84,9 +84,6 @@ text = "Dave Parker"
 text = "Ralph Kiner"
 
 [[cards]]
-text = "Paul Waner"
-
-[[cards]]
 text = "Kent Tekulve"
 
 [[cards]]
@@ -108,9 +105,6 @@ text = "Exposition Park"
 text = "Danny Murtaugh"
 
 [[cards]]
-text = "Fred Clarke"
-
-[[cards]]
 text = "The Cueto Chant"
 
 [[cards]]
@@ -123,7 +117,7 @@ text = "Bucco Nation"
 text = "Battlin' Bucs"
 
 [[cards]]
-text = "Primanti Sandwich"
+text = "Primanti Bros."
 
 [[cards]]
 text = "Ke'Bryan Hayes"
@@ -138,28 +132,13 @@ text = "Chuck Tanner"
 text = "Pie Traynor"
 
 [[cards]]
-text = "Jason Bay"
-
-[[cards]]
 text = "Neil Walker"
-
-[[cards]]
-text = "Manny Sanguillen"
 
 [[cards]]
 text = "Steve Blass"
 
 [[cards]]
 text = "Bob Prince"
-
-[[cards]]
-text = "Jolly Roger"
-
-[[cards]]
-text = "The Great One"
-
-[[cards]]
-text = "Sister Sledge"
 
 [[cards]]
 text = "Mustard Yellow Jersey"
@@ -171,9 +150,6 @@ text = "Pittsburgh Crawfords"
 text = "Homestead Grays"
 
 [[cards]]
-text = "Pierogi Mascot"
-
-[[cards]]
 text = "KDKA Radio"
 
 [[cards]]
@@ -183,19 +159,10 @@ text = "A.J. Burnett"
 text = "Jason Kendall"
 
 [[cards]]
-text = "Starling Marte"
-
-[[cards]]
 text = "Paul Skenes"
 
 [[cards]]
-text = "Cutch"
-
-[[cards]]
-text = "Elroy Face"
-
-[[cards]]
-text = "Bradenton Florida"
+text = "Bradenton, Florida"
 
 [[cards]]
 text = "Cincinnati Reds"

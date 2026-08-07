@@ -1,13 +1,13 @@
 id = "deck_harry-potter-play-harry-potter-and-the-cursed-child_7526177c"
-revision = 2
+revision = 4
 name = "Harry Potter Play: Harry Potter and the Cursed Child"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in the play Harry Potter and the Cursed Child."
+photo_file_name = "harry-potter-play-harry-potter-and-the-cursed-child-7526177c-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-play-harry-potter-and-the-cursed-child-7526177c-cover.jpg"
 
 [[cards]]
 text = "Albus Severus Potter"
@@ -63,7 +63,7 @@ first_revealed_installment = 8
 
 [[cards]]
 text = "Godric's Hollow"
-first_revealed_installment = 7
+first_revealed_installment = 1
 
 [[cards]]
 text = "Platform 9 3/4"
@@ -87,7 +87,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Cedric Diggory"
-first_revealed_installment = 4
+first_revealed_installment = 3
 
 [[cards]]
 text = "Severus Snape"
@@ -103,7 +103,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "The Black Lake"
-first_revealed_installment = 4
+first_revealed_installment = 1
 
 [[cards]]
 text = "The Triwizard Maze"
@@ -126,18 +126,6 @@ text = "Dark Mark"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Golden Snitch"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Elder Wand"
-first_revealed_installment = 7
-
-[[cards]]
-text = "Invisibility Cloak"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Marauder's Map"
 first_revealed_installment = 3
 
@@ -150,32 +138,12 @@ text = "Great Hall"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Pumpkin Pasty"
-first_revealed_installment = 1
-
-[[cards]]
-text = "Chocolate Frog"
-first_revealed_installment = 1
-
-[[cards]]
 text = "Time-Turner"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Howler"
-first_revealed_installment = 2
-
-[[cards]]
 text = "Gillyweed"
 first_revealed_installment = 4
-
-[[cards]]
-text = "Floo Powder"
-first_revealed_installment = 2
-
-[[cards]]
-text = "Expelliarmus"
-first_revealed_installment = 2
 
 [[cards]]
 text = "Harry Potter"
@@ -226,10 +194,6 @@ text = "The Second Task"
 first_revealed_installment = 4
 
 [[cards]]
-text = "Department of Magical Law"
-first_revealed_installment = 5
-
-[[cards]]
 text = "Minister for Magic"
 first_revealed_installment = 1
 
@@ -251,11 +215,11 @@ first_revealed_installment = 7
 
 [[cards]]
 text = "Bathilda Bagshot"
-first_revealed_installment = 7
+first_revealed_installment = 1
 
 [[cards]]
 text = "Theodore Nott"
-first_revealed_installment = 5
+first_revealed_installment = 1
 
 [[cards]]
 text = "Harry's Scar"
@@ -264,10 +228,6 @@ first_revealed_installment = 1
 [[cards]]
 text = "Professor McGonagall"
 first_revealed_installment = 1
-
-[[cards]]
-text = "Weasleys' Wizard Wheezes"
-first_revealed_installment = 5
 
 [[cards]]
 text = "Alternate Timeline"
@@ -280,3 +240,31 @@ first_revealed_installment = 8
 [[cards]]
 text = "Ludo Bagman"
 first_revealed_installment = 4
+
+[[cards]]
+text = "Voldemort Day"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Fulgari"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Delphi's Prophecy"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Hermione's Office"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Scorpius King"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Albus's Sorting"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Professor Granger"
+first_revealed_installment = 8

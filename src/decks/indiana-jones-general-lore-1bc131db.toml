@@ -1,13 +1,13 @@
 id = "deck_indiana-jones-general-lore_1bc131db"
-revision = 2
+revision = 4
 name = "Indiana Jones: General Lore"
 category = "Indiana Jones"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include people, places, artifacts, villains, allies, adventures, archaeology, vehicles, action scenes, and franchise lore from all five Indiana Jones movies."
+photo_file_name = "indiana-jones-general-lore-1bc131db-cover.jpg"
 spoiler_mode = true
 spoiler_series = "indiana_jones"
-photo_file_name = "indiana-jones-general-lore-1bc131db-cover.jpg"
 
 [[cards]]
 text = "Indiana Jones"
@@ -38,7 +38,7 @@ text = "Marcus Brody"
 first_revealed_installment = 1
 
 [[cards]]
-text = "Headpiece Staff of Ra"
+text = "Staff of Ra"
 first_revealed_installment = 1
 
 [[cards]]
@@ -178,7 +178,7 @@ text = "Cruciform Sword"
 first_revealed_installment = 3
 
 [[cards]]
-text = "Crescent Moon"
+text = "Canyon of Crescent Moon"
 first_revealed_installment = 3
 
 [[cards]]
@@ -283,4 +283,396 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Tomb of Archimedes"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Boulder"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Satipo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Barranca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Marshall College"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Colonel Dietrich"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Major Gobler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Poison Darts"
+first_revealed_installment = 1
+
+[[cards]]
+text = "German U-Boat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "German Mechanic"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Top Men"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cairo Chase"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fedora Hat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Shanghai"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Giant Vampire Bats"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Black Sleep of Kali"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sacrificial Pit"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Rope Bridge"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mine Cart Chase"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Kao Kan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Kali Ma"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elephant Ride"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Young Indiana Jones"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Berlin Rally"
+first_revealed_installment = 3
+
+[[cards]]
+text = "German Zeppelin"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Colonel Vogel"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mark VII Tank"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Breath of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Word of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Path of God"
+first_revealed_installment = 3
+
+[[cards]]
+text = "False Grail"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Panama Hat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Library of Venice"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Biplane"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lead-Lined Fridge"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nevada Desert"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ugha Warriors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nazca Lines"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dean Charles Stanforth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "General Ross"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Giant Scorpions"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Soviets"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nazi Train"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tuk-Tuk"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Agent Mason"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hauke"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Eels"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Apollo 11 Parade"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Time Fissure"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Bullwhip"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Imam"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bad Dates"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Capuchin Monkey"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Submarine Periscope"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Drinking Contest"
+first_revealed_installment = 1
+
+[[cards]]
+text = "La Rochelle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Raven Saloon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Army Intelligence"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pan Am Clipper"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Egyptian Asp"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cairo Bazaar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Inflatable Raft"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mayapore Shaman"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Peacock's Eye Diamond"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Antidote"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Eyeball Soup"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Spike Chamber"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Mine Flood"
+first_revealed_installment = 2
+
+[[cards]]
+text = "British Indian Army"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Brass Gong"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snake Surprise"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Boy Scout Uniform"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Circus Train"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Circus Lion"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sewer Rats"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Roman Numeral Ten"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sultan's Rolls-Royce"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sir Richard's Shield"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Three Trials"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Flock of Seagulls"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Henry's Umbrella"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Temple of the Sun"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Magnetic Gunpowder"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Atomic Bomb Test"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Amphibious Vehicle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Three Waterfalls"
+first_revealed_installment = 4
+
+[[cards]]
+text = "El Dorado"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Interdimensional Beings"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Spanish Conquistadors"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Snake Rope"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Campus Motorcycle Chase"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tarzan Swing"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Subway Horseback Ride"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Graphikos"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hotel Atlantique"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Roman Warships"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Archimedes' Wristwatch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Allied Bombing"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Deep Sea Diving"
 first_revealed_installment = 5

@@ -1,5 +1,5 @@
 id = "deck_beatles_d4601945"
-revision = 2
+revision = 3
 name = "Beatles"
 category = "Music"
 audience = "Family"
@@ -147,12 +147,6 @@ text = "The Walrus"
 text = "Nowhere Man"
 
 [[cards]]
-text = "Lonely Hearts Club Band"
-
-[[cards]]
-text = "Abbey Road Zebra Crossing"
-
-[[cards]]
 text = "Maxwell's Silver Hammer"
 
 [[cards]]
@@ -162,13 +156,7 @@ text = "Mean Mr. Mustard"
 text = "Something"
 
 [[cards]]
-text = "Lucy in the Sky"
-
-[[cards]]
 text = "Taxman"
-
-[[cards]]
-text = "Salvation Army Home"
 
 [[cards]]
 text = "Savile Row"
@@ -178,9 +166,6 @@ text = "Linda McCartney"
 
 [[cards]]
 text = "Pete Best"
-
-[[cards]]
-text = "Abbey Road Studios"
 
 [[cards]]
 text = "Blue Jay Way"
@@ -201,12 +186,6 @@ text = "Billy Shears"
 text = "Double Tracking"
 
 [[cards]]
-text = "Hold Your Hand"
-
-[[cards]]
-text = "Need Is Love"
-
-[[cards]]
 text = "Get Back"
 
 [[cards]]
@@ -214,9 +193,6 @@ text = "Helter Skelter"
 
 [[cards]]
 text = "Please Please Me"
-
-[[cards]]
-text = "With a Little Help"
 
 [[cards]]
 text = "Across the Universe"

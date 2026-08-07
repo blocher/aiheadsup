@@ -1,5 +1,5 @@
 id = "deck_livin-on-a-prayer-lyrics_a8d2cf49"
-revision = 2
+revision = 3
 name = "Livin’ on a Prayer Lyrics"
 category = "Music"
 audience = "Family"
@@ -27,9 +27,6 @@ text = "Union Strike"
 text = "Diner"
 
 [[cards]]
-text = "Diner Counter"
-
-[[cards]]
 text = "Waitress"
 
 [[cards]]
@@ -54,13 +51,7 @@ text = "Whispering"
 text = "Crying in the Night"
 
 [[cards]]
-text = "Bad Luck"
-
-[[cards]]
 text = "Halfway There"
-
-[[cards]]
-text = "Holding Hands"
 
 [[cards]]
 text = "Holding On"
@@ -99,9 +90,6 @@ text = "Perseverance"
 text = "Baby"
 
 [[cards]]
-text = "Fight"
-
-[[cards]]
 text = "Down on His Luck"
 
 [[cards]]
@@ -114,19 +102,7 @@ text = "Six String in Hock"
 text = "Man"
 
 [[cards]]
-text = "Ready or Not"
-
-[[cards]]
-text = "Live for the Fight"
-
-[[cards]]
 text = "Take My Hand"
-
-[[cards]]
-text = "For Love"
-
-[[cards]]
-text = "Diner All Day"
 
 [[cards]]
 text = "Working for Her Man"

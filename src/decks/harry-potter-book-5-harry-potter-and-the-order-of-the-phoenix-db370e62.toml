@@ -1,13 +1,13 @@
 id = "deck_harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix_db370e62"
-revision = 2
+revision = 4
 name = "Harry Potter Book 5: Harry Potter and the Order of the Phoenix"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in Harry Potter and the Order of the Phoenix."
+photo_file_name = "harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix-db370e62-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-book-5-harry-potter-and-the-order-of-the-phoenix-db370e62-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"
@@ -79,7 +79,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Mundungus Fletcher"
-first_revealed_installment = 2
+first_revealed_installment = 5
 
 [[cards]]
 text = "Arabella Figg"
@@ -131,15 +131,15 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Room of Requirement"
-first_revealed_installment = 4
+first_revealed_installment = 5
 
 [[cards]]
 text = "St Mungo's Hospital"
-first_revealed_installment = 4
+first_revealed_installment = 5
 
 [[cards]]
 text = "The Hog's Head"
-first_revealed_installment = 3
+first_revealed_installment = 1
 
 [[cards]]
 text = "Ministry of Magic"
@@ -303,8 +303,104 @@ first_revealed_installment = 1
 
 [[cards]]
 text = "O.W.L.s"
-first_revealed_installment = 5
+first_revealed_installment = 3
 
 [[cards]]
 text = "Dementor"
 first_revealed_installment = 3
+
+[[cards]]
+text = "Murtlap Essence"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kitten Plates"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Gryffindor Lion Hat"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Gurg Karkus"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Portable Swamp"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sneak Pimples"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Two-Way Mirror"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wartcap Powder"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Heavy Locket"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Walburga Black"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Janus Thickey Ward"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Doxy Venom"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Frank and Alice Longbottom"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Griselda Marchbanks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cleansweep Eleven"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mafalda Hopkirk"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Time Chamber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Amelia Bones"
+first_revealed_installment = 5
+
+[[cards]]
+text = "John Dawlish"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Wizengamot Trial"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giant Colony"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Fountain of Magical Brethren"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Death Chamber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Crumple-Horned Snorkack"
+first_revealed_installment = 5

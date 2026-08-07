@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { createHash } from 'node:crypto'
-import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
+import { access, mkdir, readFile, readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parse, stringify } from 'smol-toml'
@@ -20,9 +20,12 @@ const defaults = {
   imageModel: null,
   batchSize: 50,
   defaultCards: 350,
+  concurrency: 1,
   images: false,
   dryRun: false,
   force: false,
+  topUp: false,
+  rereview: false,
   limit: null
 }
 
@@ -44,11 +47,14 @@ Options:
   --image-model <id>      Image model (default: provider's default)
   --batch-size <number>   Cards requested per API call (default: 50)
   --default-cards <n>     Used when number_of_cards is blank (default: 350)
+  --concurrency <n>       Generate up to N decks in parallel (default: 1)
+  --top-up                For existing decks under target, add carefully reviewed cards
+  --rereview              Re-run accuracy/relevance review on existing deck cards and fix issues
   --force                 Regenerate existing TOML and requested cover files
   --help                  Show this help
 
 Set the API key via GEMINI_API_KEY or OPENAI_API_KEY (matching --provider), or enter it when prompted. The key is never written to disk. A failed cover is retried up to four times; copyright rejections switch to a generic non-branded prompt before giving up.
-Existing TOMLs are skipped. With --images, existing covers are skipped; if a TOML exists without a cover, only the cover is generated and linked.`
+Existing TOMLs are skipped unless --force, --top-up, and/or --rereview is set. --top-up prefers fewer good cards over filling with weak ones. --rereview can be combined with --top-up (review first, then top up). Cannot combine --force with --top-up or --rereview. With --images, existing covers are skipped; if a TOML exists without a cover, only the cover is generated and linked. Parallelism is mostly API-bound; raise --concurrency carefully to avoid provider rate limits.`
 }
 
 export function parseArguments(argv) {
@@ -59,18 +65,23 @@ export function parseArguments(argv) {
     if (arg === '--images') { options.images = true; continue }
     if (arg === '--dry-run') { options.dryRun = true; continue }
     if (arg === '--force') { options.force = true; continue }
+    if (arg === '--top-up') { options.topUp = true; continue }
+    if (arg === '--rereview') { options.rereview = true; continue }
     const key = arg.replace(/^--/, '').replace(/-([a-z])/g, (_, letter) => letter.toUpperCase())
-    if (!['input', 'output', 'covers', 'limit', 'provider', 'model', 'imageModel', 'batchSize', 'defaultCards'].includes(key)) throw new Error(`Unknown option: ${arg}`)
+    if (!['input', 'output', 'covers', 'limit', 'provider', 'model', 'imageModel', 'batchSize', 'defaultCards', 'concurrency'].includes(key)) throw new Error(`Unknown option: ${arg}`)
     const value = argv[index + 1]
     if (!value || value.startsWith('--')) throw new Error(`Missing value for ${arg}`)
     index += 1
-    if (['limit', 'batchSize', 'defaultCards'].includes(key)) {
+    if (['limit', 'batchSize', 'defaultCards', 'concurrency'].includes(key)) {
       const number = Number(value)
       if (!Number.isInteger(number) || number < 1) throw new Error(`${arg} must be a positive whole number.`)
       options[key] = number
     } else if (['input', 'output', 'covers'].includes(key)) {
       options[key] = path.resolve(process.cwd(), value)
     } else options[key] = value
+  }
+  if (options.force && (options.topUp || options.rereview)) {
+    throw new Error('Cannot combine --force with --top-up or --rereview.')
   }
   if (!isProviderId(options.provider)) throw new Error(`--provider must be one of: gemini, openai.`)
   const meta = getProvider(options.provider)
@@ -85,6 +96,22 @@ function normalise(value) { return value.trim().toLocaleLowerCase().replace(/[^a
 function audience(value) {
   const known = { kids: 'Kids', family: 'Family', teens: 'Teens+', 'teens+': 'Teens+', adults: 'Adults' }
   return known[String(value || 'family').trim().toLowerCase()] || String(value || 'Family').trim()
+}
+
+export async function mapPool(items, concurrency, mapper) {
+  const limit = Math.max(1, concurrency)
+  const results = new Array(items.length)
+  let nextIndex = 0
+  async function worker() {
+    while (true) {
+      const index = nextIndex
+      nextIndex += 1
+      if (index >= items.length) return
+      results[index] = await mapper(items[index], index)
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length || 1) }, () => worker()))
+  return results
 }
 
 export function readDefinitions(source, defaultCards = defaults.defaultCards) {
@@ -108,10 +135,28 @@ export function readDefinitions(source, defaultCards = defaults.defaultCards) {
       numberOfCards,
       specialInstructions: String(entry.special_instructions ?? '').trim(),
       spoilerSeries,
+      excludeFrom: String(entry.exclude_from ?? '').trim(),
       id: `deck_${slug(name)}_${hash(`${name}|${category}`)}`,
       fileStem: `${slug(name)}-${hash(`${name}|${category}`)}`
     }
   })
+}
+
+async function loadExcludedPrompts(deck, options) {
+  if (!deck.excludeFrom) return []
+  const files = await readdir(options.output)
+  const prompts = []
+  for (const file of files) {
+    if (!file.endsWith('.toml')) continue
+    const parsed = parse(await readFile(path.join(options.output, file), 'utf8'))
+    if (String(parsed.name || '').trim() !== deck.excludeFrom) continue
+    for (const card of parsed.cards || []) {
+      const text = String(typeof card === 'string' ? card : card?.text || '').trim()
+      if (text) prompts.push(text)
+    }
+  }
+  if (!prompts.length) console.warn(`Warning: exclude_from “${deck.excludeFrom}” for “${deck.name}” matched no cards.`)
+  return prompts
 }
 
 export function cardPrompt(deck, count, excludedPrompts = []) {
@@ -122,7 +167,10 @@ export function cardPrompt(deck, count, excludedPrompts = []) {
   const schema = series
     ? '{"cards":[{"prompt":"Golden Snitch","earliest_installment":1}]}'
     : '{"cards":[{"prompt":"Golden Snitch"}]}'
-  return `Create exactly ${count} unique, replayable Heads Up-style guessing cards.\n\nDeck name: ${deck.name}\nCategory: ${deck.category}\nDifficulty: ${deck.difficulty}\nTarget audience: ${deck.target}\nSpecial instructions: ${deck.specialInstructions || 'None.'}\n\nEvery card must be a guessable person, place, thing, creature, object, title, event, action, or game term appropriate to the specified difficulty and audience. Each prompt must be one word or a very short phrase of at most 4 words. Never return clues, definitions, full sentences, questions, descriptions, duplicate answers, or near-duplicates. ${spoilers}\n\nReturn only valid JSON in this exact shape: ${schema}\n\nDo not reuse or closely restate any of these already selected cards: ${excludedPrompts.slice(-350).join(', ') || 'None yet.'}`
+  const quality = deck.strictQuality
+    ? 'Quality over quantity: only include cards you are highly confident are accurate and clearly relevant to this deck. Prefer returning fewer cards over inventing obscure, weak, borderline, or questionable entries. Do not pad the list.'
+    : ''
+  return `Create exactly ${count} unique, replayable Heads Up-style guessing cards.\n\nDeck name: ${deck.name}\nCategory: ${deck.category}\nDifficulty: ${deck.difficulty}\nTarget audience: ${deck.target}\nSpecial instructions: ${deck.specialInstructions || 'None.'}\n${quality}\n\nEvery card must be a guessable person, place, thing, creature, object, title, event, action, or game term appropriate to the specified difficulty and audience. Each prompt must be one word or a very short phrase of at most 4 words. Never return clues, definitions, full sentences, questions, descriptions, duplicate answers, or near-duplicates. ${spoilers}\n\nReturn only valid JSON in this exact shape: ${schema}\n\nDo not reuse or closely restate any of these already selected cards: ${excludedPrompts.slice(-350).join(', ') || 'None yet.'}`
 }
 
 export function coverPrompt(deck) {
@@ -147,6 +195,48 @@ export function validateCards(payload, deck, knownCards = []) {
     if (!key || prompt.split(/\s+/).length > 4 || !validInstallment || seen.has(key)) return []
     seen.add(key)
     return [{ prompt, earliestInstallment: series ? earliestInstallment : null }]
+  })
+}
+
+export function cardsFromExistingDeck(existingDeck, spoilerSeries = '') {
+  const series = getSpoilerSeries(spoilerSeries)
+  return (existingDeck?.cards || []).flatMap((card) => {
+    const prompt = String(typeof card === 'string' ? card : card?.text || '').trim()
+    if (!prompt) return []
+    const earliestInstallment = Number(typeof card === 'object' ? card?.first_revealed_installment ?? card?.first_revealed_book : NaN)
+    return [{
+      prompt,
+      earliestInstallment: series && Number.isInteger(earliestInstallment) ? earliestInstallment : null
+    }]
+  })
+}
+
+export function cardsSignature(cards = []) {
+  return cards.map((card) => `${card.prompt}\t${card.earliestInstallment ?? ''}`).join('\n')
+}
+
+function deckMetaFrom(deck) {
+  return {
+    name: deck.name,
+    category: deck.category,
+    audience: deck.target,
+    difficulty: deck.difficulty[0].toUpperCase() + deck.difficulty.slice(1),
+    specialInstructions: deck.specialInstructions,
+    spoilerSeries: deck.spoilerSeries
+  }
+}
+
+async function reviewCards(apiKey, deck, cards, options) {
+  if (!cards.length) return []
+  process.stdout.write(`Reviewing ${cards.length} card(s) for “${deck.name}”…\n`)
+  return reviewDeckCards({
+    cards,
+    deckMeta: deckMetaFrom(deck),
+    requestReview: (prompt) => requestCardBatch(apiKey, options, prompt),
+    onProgress: ({ chunk, chunkCount, removedCount }) => {
+      if (removedCount > 0) process.stdout.write(`  Accuracy batch ${chunk}/${chunkCount}: removed ${removedCount} so far…\n`)
+    },
+    logger: console
   })
 }
 
@@ -209,8 +299,13 @@ async function requestCoverImage(apiKey, options, prompt) {
 }
 
 export async function generateCards(apiKey, deck, options) {
+  const excludedPrompts = deck.excludedPrompts || []
+  const excludedCards = excludedPrompts.map((prompt) => ({ prompt }))
   const saved = []
-  while (saved.length < deck.numberOfCards) {
+  const maxRounds = deck.strictQuality ? 2 : Infinity
+  let rounds = 0
+  while (saved.length < deck.numberOfCards && rounds < maxRounds) {
+    rounds += 1
     const wanted = Math.min(options.batchSize, deck.numberOfCards - saved.length)
     const batchStart = saved.length
     let completed = false
@@ -219,7 +314,7 @@ export async function generateCards(apiKey, deck, options) {
       const stillNeeded = wanted - (saved.length - batchStart)
       let parsed
       try {
-        parsed = await requestCardBatch(apiKey, options, cardPrompt(deck, stillNeeded, saved))
+        parsed = await requestCardBatch(apiKey, options, cardPrompt(deck, stillNeeded, [...excludedPrompts, ...saved.map((card) => card.prompt)]))
       } catch (error) {
         if (error.message !== INVALID_JSON_ERROR) throw error
         if (attempt < 4) {
@@ -229,7 +324,7 @@ export async function generateCards(apiKey, deck, options) {
         console.warn(`Warning: ${label} returned invalid JSON three times for “${deck.name}”. Saving available cards and continuing.`)
         break
       }
-      const newCards = validateCards(parsed, deck, saved)
+      const newCards = validateCards(parsed, deck, [...excludedCards, ...saved])
       saved.push(...newCards.slice(0, stillNeeded))
       if (saved.length - batchStart === wanted) completed = true
     }
@@ -239,27 +334,15 @@ export async function generateCards(apiKey, deck, options) {
     }
   }
   if (!saved.length) return saved
-  process.stdout.write(`Reviewing ${saved.length} card(s) for “${deck.name}”…\n`)
-  const reviewed = await reviewDeckCards({
-    cards: saved,
-    deckMeta: {
-      name: deck.name,
-      category: deck.category,
-      audience: deck.target,
-      difficulty: deck.difficulty[0].toUpperCase() + deck.difficulty.slice(1),
-      specialInstructions: deck.specialInstructions,
-      spoilerSeries: deck.spoilerSeries
-    },
-    requestReview: (prompt) => requestCardBatch(apiKey, options, prompt),
-    onProgress: ({ chunk, chunkCount, removedCount }) => {
-      if (removedCount > 0) process.stdout.write(`  Accuracy batch ${chunk}/${chunkCount}: removed ${removedCount} so far…\n`)
-    },
-    logger: console
-  })
-  if (reviewed.length < saved.length) {
+  const reviewed = await reviewCards(apiKey, deck, saved, options)
+  const exclusionKeys = new Set(excludedPrompts.map((prompt) => normalise(prompt)))
+  const deduped = reviewed.filter((card) => !exclusionKeys.has(normalise(card.prompt)))
+  if (deduped.length < reviewed.length) {
+    console.warn(`Warning: Removed ${reviewed.length - deduped.length} card(s) from “${deck.name}” that overlapped exclude_from.`)
+  } else if (reviewed.length < saved.length) {
     console.warn(`Warning: Accuracy review removed ${saved.length - reviewed.length} card(s) from “${deck.name}”.`)
   }
-  return reviewed
+  return deduped
 }
 
 export async function generateCover(apiKey, deck, options) {
@@ -284,10 +367,10 @@ export async function generateCover(apiKey, deck, options) {
   }
 }
 
-function outputToml(deck, cards, photoFileName = null) {
+function outputToml(deck, cards, photoFileName = null, revision = 1) {
   return stringify({
     id: deck.id,
-    revision: 1,
+    revision,
     name: deck.name,
     category: deck.category,
     audience: deck.target,
@@ -319,12 +402,27 @@ export async function planDeckWork(deck, options) {
   const tomlExists = await exists(tomlPath)
   const existingDeck = tomlExists ? parse(await readFile(tomlPath, 'utf8')) : null
   const coverFileName = await existingCover(deck, options, existingDeck)
-  if (options.force) return { deck, tomlPath, existingDeck, coverFileName, generateCards: true, generateImage: options.images, updateToml: false }
-  if (tomlExists) {
-    const updateToml = Boolean(options.images && coverFileName && existingDeck.photo_file_name !== coverFileName)
-    return { deck, tomlPath, existingDeck, coverFileName, generateCards: false, generateImage: options.images && !coverFileName, updateToml }
+  const existingCount = cardsFromExistingDeck(existingDeck, deck.spoilerSeries).length
+  const shortfall = Math.max(0, deck.numberOfCards - existingCount)
+  if (options.force) {
+    return { deck, tomlPath, existingDeck, coverFileName, generateCards: true, generateImage: options.images, updateToml: false, rereview: false, topUp: false, shortfall: 0 }
   }
-  return { deck, tomlPath, existingDeck: null, coverFileName, generateCards: true, generateImage: options.images && !coverFileName, updateToml: false }
+  if (!tomlExists) {
+    return { deck, tomlPath, existingDeck: null, coverFileName, generateCards: true, generateImage: options.images && !coverFileName, updateToml: false, rereview: false, topUp: false, shortfall: 0 }
+  }
+  const updateToml = Boolean(options.images && coverFileName && existingDeck.photo_file_name !== coverFileName)
+  return {
+    deck,
+    tomlPath,
+    existingDeck,
+    coverFileName,
+    generateCards: false,
+    generateImage: options.images && !coverFileName,
+    updateToml,
+    rereview: Boolean(options.rereview),
+    topUp: Boolean(options.topUp && shortfall > 0),
+    shortfall
+  }
 }
 
 async function resolveApiKey(provider) {
@@ -361,6 +459,9 @@ async function promptForApiKey(provider = 'gemini') {
 async function writeDeck(apiKey, plan, options) {
   const { deck, tomlPath, existingDeck } = plan
   let cards = null
+  let revision = Number(existingDeck?.revision) > 0 ? Number(existingDeck.revision) : 1
+  const beforeSignature = existingDeck ? cardsSignature(cardsFromExistingDeck(existingDeck, deck.spoilerSeries)) : ''
+
   if (plan.generateCards) {
     process.stdout.write(`Generating ${deck.name} (${deck.numberOfCards} cards)…\n`)
     cards = await generateCards(apiKey, deck, options)
@@ -368,8 +469,52 @@ async function writeDeck(apiKey, plan, options) {
       console.warn(`Warning: ${providerLabel(options.provider)} produced no valid cards for “${deck.name}”. Skipping this deck and continuing.`)
       return
     }
+    revision = existingDeck ? revision + 1 : 1
+  } else if (plan.rereview || plan.topUp) {
+    let working = cardsFromExistingDeck(existingDeck, deck.spoilerSeries)
+    if (plan.rereview) {
+      const beforeCount = working.length
+      working = await reviewCards(apiKey, deck, working, options)
+      const exclusionKeys = new Set((deck.excludedPrompts || []).map((prompt) => normalise(prompt)))
+      const withoutExcluded = working.filter((card) => !exclusionKeys.has(normalise(card.prompt)))
+      if (withoutExcluded.length < working.length) {
+        console.warn(`Warning: Removed ${working.length - withoutExcluded.length} card(s) from “${deck.name}” that overlapped exclude_from.`)
+      }
+      working = withoutExcluded
+      if (working.length < beforeCount) {
+        console.warn(`Warning: Re-review removed ${beforeCount - working.length} card(s) from “${deck.name}”.`)
+      }
+    }
+    if (options.topUp) {
+      const needed = Math.max(0, deck.numberOfCards - working.length)
+      if (needed > 0) {
+        process.stdout.write(`Topping up ${deck.name} (need up to ${needed} more toward ${deck.numberOfCards})…\n`)
+        const additions = await generateCards(apiKey, {
+          ...deck,
+          numberOfCards: needed,
+          strictQuality: true,
+          excludedPrompts: [...(deck.excludedPrompts || []), ...working.map((card) => card.prompt)]
+        }, options)
+        if (additions.length) {
+          working = [...working, ...additions]
+          process.stdout.write(`  Added ${additions.length} reviewed card(s) to “${deck.name}” (${working.length}/${deck.numberOfCards}).\n`)
+        } else {
+          console.warn(`Warning: Top-up produced no additional high-confidence cards for “${deck.name}”. Keeping ${working.length}/${deck.numberOfCards}.`)
+        }
+      } else {
+        process.stdout.write(`“${deck.name}” already at or above target (${working.length}/${deck.numberOfCards}); no top-up needed.\n`)
+      }
+    }
+    if (cardsSignature(working) !== beforeSignature) {
+      cards = working
+      revision += 1
+    } else {
+      process.stdout.write(`No card changes for “${deck.name}” after review/top-up.\n`)
+    }
   }
-  let photoFileName = plan.coverFileName
+
+  let photoFileName = plan.coverFileName || existingDeck?.photo_file_name || null
+  if (photoFileName) photoFileName = path.basename(photoFileName)
   let cover = null
   if (plan.generateImage) {
     process.stdout.write(`Generating cover for ${deck.name}…\n`)
@@ -382,29 +527,37 @@ async function writeDeck(apiKey, plan, options) {
   }
   if (cards) {
     await mkdir(options.output, { recursive: true })
-    await writeFile(tomlPath, outputToml(deck, cards, photoFileName))
+    await writeFile(tomlPath, outputToml(deck, cards, photoFileName, revision))
   } else if (cover || plan.updateToml) {
     await writeFile(tomlPath, stringify({ ...existingDeck, photo_file_name: photoFileName }))
   }
-  const cardCount = cards ? ` (${cards.length}/${deck.numberOfCards} cards)` : ''
-  process.stdout.write(`Wrote ${path.relative(root, tomlPath)}${cardCount}\n`)
+  const cardCount = cards ? ` (${cards.length}/${deck.numberOfCards} cards, rev ${revision})` : ''
+  if (cards || cover || plan.updateToml) process.stdout.write(`Wrote ${path.relative(root, tomlPath)}${cardCount}\n`)
 }
 
 export async function run(options) {
   const definitions = readDefinitions(await readFile(options.input, 'utf8'), options.defaultCards).slice(0, options.limit ?? undefined)
+  for (const deck of definitions) {
+    deck.excludedPrompts = await loadExcludedPrompts(deck, options)
+    if (deck.excludedPrompts.length) process.stdout.write(`Loaded ${deck.excludedPrompts.length} exclusion(s) for “${deck.name}” from “${deck.excludeFrom}”.\n`)
+  }
   const plans = await Promise.all(definitions.map((deck) => planDeckWork(deck, options)))
   const label = getProvider(options.provider).label
   if (options.dryRun) {
     for (const plan of plans) {
-      if (plan.generateCards) process.stdout.write(`\n# ${plan.deck.name} — card prompt\n${cardPrompt(plan.deck, Math.min(options.batchSize, plan.deck.numberOfCards))}\n`)
+      if (plan.generateCards) process.stdout.write(`\n# ${plan.deck.name} — card prompt\n${cardPrompt(plan.deck, Math.min(options.batchSize, plan.deck.numberOfCards), plan.deck.excludedPrompts)}\n`)
+      if (plan.rereview) process.stdout.write(`\n# ${plan.deck.name} — would re-review ${cardsFromExistingDeck(plan.existingDeck, plan.deck.spoilerSeries).length} existing card(s).\n`)
+      if (plan.topUp) process.stdout.write(`\n# ${plan.deck.name} — would top up by up to ${plan.shortfall} card(s) with strict quality review.\n`)
       if (plan.generateImage) process.stdout.write(`\n# ${plan.deck.name} — cover prompt\n${coverPrompt(plan.deck)}\n`)
       if (plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — existing cover will be linked locally; no ${label} request needed.\n`)
-      if (!plan.generateCards && !plan.generateImage && !plan.updateToml) process.stdout.write(`\n# ${plan.deck.name} — already complete; no ${label} request needed.\n`)
+      if (!plan.generateCards && !plan.generateImage && !plan.updateToml && !plan.rereview && !plan.topUp) {
+        process.stdout.write(`\n# ${plan.deck.name} — already complete; no ${label} request needed.\n`)
+      }
     }
     return
   }
-  const writes = plans.filter((plan) => plan.generateCards || plan.generateImage || plan.updateToml)
-  const apiWork = writes.filter((plan) => plan.generateCards || plan.generateImage)
+  const writes = plans.filter((plan) => plan.generateCards || plan.generateImage || plan.updateToml || plan.rereview || plan.topUp)
+  const apiWork = writes.filter((plan) => plan.generateCards || plan.generateImage || plan.rereview || plan.topUp)
   if (!writes.length) {
     console.log(`Every requested deck is already complete; no ${label} request needed.`)
     return
@@ -414,10 +567,23 @@ export async function run(options) {
     console.log(`Linked existing covers; no ${label} request needed.`)
     return
   }
-  process.stdout.write(`Using ${label} (text: ${options.model}${options.images ? `, images: ${options.imageModel}` : ''}).\n`)
+  const modes = [
+    options.images ? `images: ${options.imageModel}` : null,
+    options.rereview ? 'rereview' : null,
+    options.topUp ? 'top-up' : null,
+    `concurrency: ${options.concurrency}`
+  ].filter(Boolean).join(', ')
+  process.stdout.write(`Using ${label} (text: ${options.model}${modes ? `, ${modes}` : ''}).\n`)
   const apiKey = await resolveApiKey(options.provider)
   if (!apiKey) throw new Error(`No ${label} API key provided.`)
-  for (const plan of writes) await writeDeck(apiKey, plan, options)
+  await mapPool(writes, options.concurrency, async (plan) => {
+    try {
+      await writeDeck(apiKey, plan, options)
+    } catch (error) {
+      console.error(`Error generating “${plan.deck.name}”: ${error.message}`)
+      process.exitCode = 1
+    }
+  })
 }
 
 async function main() {

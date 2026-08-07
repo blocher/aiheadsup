@@ -1,13 +1,13 @@
 id = "deck_harry-potter-wizarding-places_d743a471"
-revision = 2
+revision = 4
 name = "Harry Potter: Wizarding Places"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include locations inside Hogwarts, wizarding villages, shops, homes, ministries, and hidden places."
+photo_file_name = "harry-potter-wizarding-places-d743a471-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-wizarding-places-d743a471-cover.jpg"
 
 [[cards]]
 text = "Diagon Alley"
@@ -115,11 +115,11 @@ first_revealed_installment = 3
 
 [[cards]]
 text = "The Hog's Head Tavern"
-first_revealed_installment = 1
+first_revealed_installment = 5
 
 [[cards]]
 text = "Ministry of Magic"
-first_revealed_installment = 1
+first_revealed_installment = 5
 
 [[cards]]
 text = "Department of Mysteries"
@@ -131,7 +131,7 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "St. Mungo's Hospital"
-first_revealed_installment = 4
+first_revealed_installment = 5
 
 [[cards]]
 text = "Room of Requirement"
@@ -240,3 +240,375 @@ first_revealed_installment = 4
 [[cards]]
 text = "Durmstrang Ship"
 first_revealed_installment = 4
+
+[[cards]]
+text = "Hufflepuff Common Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Kitchens"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Staff Room"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Greenhouse Three"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Transfiguration Classroom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Charms Classroom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "History of Magic Classroom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Third-Floor Corridor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gryffindor Boys' Dormitory"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ravenclaw Tower"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Slytherin Dungeon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gryffindor Tower"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Boathouse"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Gates"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The White Tomb"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Underground Chambers"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Quality Quidditch Supplies"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Magical Menagerie"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Potage's Cauldron Shop"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Slug and Jiggers Apothecary"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Twilfitt and Tatting's"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Daily Prophet Offices"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hogsmeade Station"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gladrags Wizardwear"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ottery St Catchpole"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Potter Cottage"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Bathilda Bagshot's House"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Atrium"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Courtroom Ten"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Hall of Prophecy"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Death Chamber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Brain Room"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Time Chamber"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Gaunt Shack"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Horcrux Cave"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Beauxbatons Academy of Magic"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Durmstrang Institute"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Forest of Dean"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Romanian Dragon Sanctuary"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Hogwarts Express"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Aunt Muriel's House"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Janus Thickey Ward"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Number Four Privet Drive"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Entrance Hall"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Clock Tower"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wool's Orphanage"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Grand Staircase"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Restricted Section"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The North Tower"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gambol and Japes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cupboard Under the Stairs"
+first_revealed_installment = 1
+
+[[cards]]
+text = "King's Cross Station"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Triwizard Maze"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dobby's Grave"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Little Whinging"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hut on the Rock"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gringotts Vault 713"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Lestrange Vault"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Fortescue's Ice Cream Parlour"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hogsmeade Post Office"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Aragog's Lair"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Potions Classroom"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hogwarts Greenhouses"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Magical Creatures Paddock"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Weasleys' Tent"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Quidditch World Cup Stadium"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Reptile House"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Snape's Office"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Umbridge's Office"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lockhart's Office"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lupin's Office"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Moody's Office"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mirror of Erised Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Devil's Snare Chamber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Flying Keys Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Giant Chessboard Chamber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Ministry Lifts"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Forests of Albania"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Magnolia Crescent"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wisteria Walk"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Little Whinging Playpark"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Railview Hotel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Snape's Private Store"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Filch's Office"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gryffindor Girls' Dormitory"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Slytherin Boys' Dormitory"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Grimmauld Place Attic"
+first_revealed_installment = 5
+
+[[cards]]
+text = "St. Mungo's Reception"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hogwarts Suspension Bridge"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hogwarts Viaduct"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Stone Circle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Thief's Downfall"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hogwarts Training Grounds"
+first_revealed_installment = 1

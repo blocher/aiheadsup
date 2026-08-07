@@ -1,12 +1,12 @@
 id = "deck_gross-and-weird-foods_9d076ff7"
-revision = 2
+revision = 3
 name = "Gross and Weird Foods"
 category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include unusual foods, strange textures, funny food names, bold flavors, food challenges, novelty snacks, and family-friendly gross-out food terms."
-spoiler_mode = false
 photo_file_name = "gross-and-weird-foods-9d076ff7-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Durian Fruit"
@@ -153,12 +153,6 @@ text = "Deep Fried Butter"
 text = "Fermented Herring"
 
 [[cards]]
-text = "Fertilized Duck Egg"
-
-[[cards]]
-text = "Grasshopper Tacos"
-
-[[cards]]
 text = "Mealworm Fries"
 
 [[cards]]
@@ -201,9 +195,6 @@ text = "Marmite"
 text = "Chitterlings"
 
 [[cards]]
-text = "Sardines in Mustard"
-
-[[cards]]
 text = "Blue Cheese Ice Cream"
 
 [[cards]]
@@ -217,9 +208,6 @@ text = "Garlic Soda"
 
 [[cards]]
 text = "Fried Rattlesnake"
-
-[[cards]]
-text = "Spam Fries"
 
 [[cards]]
 text = "Wasabi Ice Cream"
@@ -240,25 +228,10 @@ text = "Spotted Dick"
 text = "Jellied Eels"
 
 [[cards]]
-text = "Surströmming"
-
-[[cards]]
-text = "Vegemite Toast"
-
-[[cards]]
 text = "Balut"
-
-[[cards]]
-text = "Casu Marzu"
-
-[[cards]]
-text = "Hákarl"
 
 [[cards]]
 text = "Shirako"
 
 [[cards]]
 text = "Stargazy Pie"
-
-[[cards]]
-text = "Bull Testicles"

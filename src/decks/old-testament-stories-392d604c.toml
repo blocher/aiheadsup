@@ -1,12 +1,12 @@
 id = "deck_old-testament-stories_392d604c"
-revision = 2
+revision = 3
 name = "Old Testament Stories"
 category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, events, objects, miracles, prophets, rulers, and memorable stories from the Old Testament."
-spoiler_mode = false
 photo_file_name = "old-testament-stories-392d604c-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Noah's Ark"
@@ -60,9 +60,6 @@ text = "Walls of Jericho"
 text = "Ark of the Covenant"
 
 [[cards]]
-text = "Pillar of Salt"
-
-[[cards]]
 text = "King Solomon"
 
 [[cards]]
@@ -99,9 +96,6 @@ text = "Queen of Sheba"
 text = "Mount Ararat"
 
 [[cards]]
-text = "Plague of Locusts"
-
-[[cards]]
 text = "Ezekiel's Dry Bones"
 
 [[cards]]
@@ -118,9 +112,6 @@ text = "Passover Lamb"
 
 [[cards]]
 text = "Balaam's Talking Donkey"
-
-[[cards]]
-text = "Tree of Knowledge"
 
 [[cards]]
 text = "Abraham and Isaac"
@@ -141,9 +132,6 @@ text = "Deborah the Judge"
 text = "Job's Trials"
 
 [[cards]]
-text = "Jacob and Esau"
-
-[[cards]]
 text = "Rachel and Leah"
 
 [[cards]]
@@ -156,25 +144,10 @@ text = "Miriam's Dance"
 text = "Rahab's Scarlet Cord"
 
 [[cards]]
-text = "King David"
-
-[[cards]]
-text = "Moses and Pharaoh"
-
-[[cards]]
 text = "Sodom and Gomorrah"
 
 [[cards]]
 text = "The Plagues of Egypt"
-
-[[cards]]
-text = "Noah's Dove"
-
-[[cards]]
-text = "Samuel the Prophet"
-
-[[cards]]
-text = "Elijah and Elisha"
 
 [[cards]]
 text = "King Nebuchadnezzar"
@@ -189,13 +162,4 @@ text = "Absalom's Hair"
 text = "Crossing the Jordan"
 
 [[cards]]
-text = "Moses"
-
-[[cards]]
-text = "The Red Sea"
-
-[[cards]]
 text = "Adam and Eve"
-
-[[cards]]
-text = "Samson's Hair"

@@ -1,12 +1,12 @@
 id = "deck_sandcastle-water-park_f3d002c8"
-revision = 2
+revision = 3
 name = "Sandcastle Water Park"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include water slides, pools, lazy rivers, park areas, food stands, summer activities, Monongahela River references, and Pittsburgh-area landmarks."
-spoiler_mode = false
 photo_file_name = "sandcastle-water-park-f3d002c8-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Lightning Express"
@@ -187,9 +187,6 @@ text = "Mount Washington"
 
 [[cards]]
 text = "Yellow Bridges"
-
-[[cards]]
-text = "Summer Solstice"
 
 [[cards]]
 text = "Splash Zone"

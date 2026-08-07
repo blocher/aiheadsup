@@ -1,5 +1,5 @@
 id = "deck_philadelphia-pa_3c9fbd00"
-revision = 2
+revision = 3
 name = "Philadelphia, PA"
 category = "Cities"
 audience = "Family"
@@ -156,7 +156,7 @@ text = "Rocky Steps"
 text = "Spruce Street Harbor Park"
 
 [[cards]]
-text = "Constitution Center"
+text = "National Constitution Center"
 
 [[cards]]
 text = "Edgar Allan Poe"

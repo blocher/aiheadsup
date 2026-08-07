@@ -1,12 +1,12 @@
 id = "deck_mickey-mouse-clubhouse_d30fd558"
-revision = 2
+revision = 3
 name = "Mickey Mouse Clubhouse"
 category = "TV Shows"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include characters, clubhouse objects, tools, songs, episodes, settings, simple actions, and recognizable Mickey Mouse Clubhouse references."
-spoiler_mode = false
 photo_file_name = "mickey-mouse-clubhouse-d30fd558-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Mickey Mouse"
@@ -48,9 +48,6 @@ text = "Chip and Dale"
 text = "Figaro"
 
 [[cards]]
-text = "Bella the Puppy"
-
-[[cards]]
 text = "Butch the Bulldog"
 
 [[cards]]
@@ -64,12 +61,6 @@ text = "Captain Mickey"
 
 [[cards]]
 text = "Hot Dog Dance"
-
-[[cards]]
-text = "Hot Dog Song"
-
-[[cards]]
-text = "Clubhouse March"
 
 [[cards]]
 text = "Meeska Mooska Mickey Mouse"
@@ -166,9 +157,6 @@ text = "Telescope"
 
 [[cards]]
 text = "Flying Carpet"
-
-[[cards]]
-text = "Bubbles"
 
 [[cards]]
 text = "Star Lake"

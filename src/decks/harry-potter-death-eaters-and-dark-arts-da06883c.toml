@@ -1,13 +1,13 @@
 id = "deck_harry-potter-death-eaters-and-dark-arts_da06883c"
-revision = 2
+revision = 4
 name = "Harry Potter: Death Eaters and Dark Arts"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Hard"
 special_prompt_note = "Cards should include dark wizards, curses, Horcruxes, artifacts, battles, alliances, and dark magic concepts."
+photo_file_name = "harry-potter-death-eaters-and-dark-arts-da06883c-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-death-eaters-and-dark-arts-da06883c-cover.jpg"
 
 [[cards]]
 text = "Lord Voldemort"
@@ -59,7 +59,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Ravenclaw's Diadem"
-first_revealed_installment = 6
+first_revealed_installment = 7
 
 [[cards]]
 text = "Marvolo Gaunt's Ring"
@@ -115,7 +115,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Regulus Black"
-first_revealed_installment = 6
+first_revealed_installment = 5
 
 [[cards]]
 text = "The Elder Wand"
@@ -179,7 +179,7 @@ first_revealed_installment = 8
 
 [[cards]]
 text = "Thorfinn Rowle"
-first_revealed_installment = 7
+first_revealed_installment = 6
 
 [[cards]]
 text = "Drink of Despair"
@@ -227,7 +227,7 @@ first_revealed_installment = 4
 
 [[cards]]
 text = "Malfoy Manor"
-first_revealed_installment = 2
+first_revealed_installment = 7
 
 [[cards]]
 text = "Nurmengard"
@@ -275,4 +275,172 @@ first_revealed_installment = 5
 
 [[cards]]
 text = "Pius Thicknesse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Professor Quirrell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Draco Malfoy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Vincent Crabbe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gregory Goyle"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dark Arts"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The First Wizarding War"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Parseltongue"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Heir of Slytherin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Pure-blood"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Blood Traitor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mudblood"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Werewolf"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Death Eaters"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Unforgivable Curses"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Foe-Glass"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Secrecy Sensor"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Bone of the Father"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Flesh of the Servant"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Blood of the Enemy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Crabbe Senior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Goyle Senior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nott Senior"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Avery"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Black Family Tapestry"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Legilimency"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Occlumency"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Second Wizarding War"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Unbreakable Vow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Merope Gaunt"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Morfin Gaunt"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Seven Potters"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Geminio Curse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Flagrante Curse"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Petrification"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Parselmouth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lycanthropy"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Twin Cores"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Priori Incantatem"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Silver Hand"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Yew Wand"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hepzibah Smith"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Muggle-Born Registration Commission"
 first_revealed_installment = 7

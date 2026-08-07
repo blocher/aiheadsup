@@ -1,12 +1,12 @@
 id = "deck_international-foods_f396f33b"
-revision = 2
+revision = 3
 name = "International Foods"
 category = "Food"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include famous dishes, ingredients, cuisines, sauces, breads, noodles, rice dishes, street foods, and recognizable foods from around the world."
-spoiler_mode = false
 photo_file_name = "international-foods-f396f33b-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Pad Thai"
@@ -184,9 +184,6 @@ text = "Pad Kra Pao"
 
 [[cards]]
 text = "Moules-Frites"
-
-[[cards]]
-text = "Pierogies"
 
 [[cards]]
 text = "Jollof Rice"

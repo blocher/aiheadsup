@@ -1,12 +1,12 @@
 id = "deck_virginia-theological-seminary_e628f7b3"
-revision = 2
+revision = 3
 name = "Virginia Theological Seminary"
 category = "Colleges and Universities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include campus landmarks, seminary history, Episcopal traditions, notable alumni, theology and ministry terms, Alexandria connections, and recognizable Virginia Theological Seminary references."
-spoiler_mode = false
 photo_file_name = "virginia-theological-seminary-e628f7b3-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Immanuel Chapel"
@@ -165,7 +165,7 @@ text = "Bohlen Hall"
 text = "Francis Scott Key"
 
 [[cards]]
-text = "Year 1823"
+text = "Founded in 1823"
 
 [[cards]]
 text = "The Hymnal 1982"
@@ -195,9 +195,6 @@ text = "The Great Litany"
 text = "Vestments"
 
 [[cards]]
-text = "Welcome Center"
-
-[[cards]]
 text = "Ash Wednesday"
 
 [[cards]]
@@ -216,13 +213,4 @@ text = "St. George's Hall"
 text = "Commemoration of Benefactors"
 
 [[cards]]
-text = "Bishop's Collar"
-
-[[cards]]
 text = "Sparrow Hall"
-
-[[cards]]
-text = "Theology Class"
-
-[[cards]]
-text = "Sermon Preparation"

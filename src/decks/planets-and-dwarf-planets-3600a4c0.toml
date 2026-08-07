@@ -1,12 +1,12 @@
 id = "deck_planets-and-dwarf-planets_3600a4c0"
-revision = 2
+revision = 3
 name = "Planets and Dwarf Planets"
 category = "Science"
 audience = "Family"
 difficulty = "Easy"
 special_prompt_note = "Cards should include planets, dwarf planets, moons, rings, spacecraft, solar system regions, famous astronomy terms, and basic facts about each world."
-spoiler_mode = false
 photo_file_name = "planets-and-dwarf-planets-3600a4c0-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Mercury"
@@ -99,9 +99,6 @@ text = "Great Red Spot"
 text = "Solar System"
 
 [[cards]]
-text = "Deep Space"
-
-[[cards]]
 text = "Voyager 1"
 
 [[cards]]
@@ -178,9 +175,6 @@ text = "Meteor"
 
 [[cards]]
 text = "Telescope"
-
-[[cards]]
-text = "Black Hole"
 
 [[cards]]
 text = "Solar Eclipse"

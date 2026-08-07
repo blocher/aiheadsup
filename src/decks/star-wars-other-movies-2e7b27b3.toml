@@ -1,13 +1,13 @@
 id = "deck_star-wars-other-movies_2e7b27b3"
-revision = 2
+revision = 4
 name = "Star Wars: Other Movies"
 category = "Star Wars"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include people, places, droids, creatures, ships, objects, events, and memorable details from Rogue One and Solo. Tag Rogue One cards as release 8 and Solo cards as release 10."
+photo_file_name = "star-wars-other-movies-2e7b27b3-cover.jpg"
 spoiler_mode = true
 spoiler_series = "star_wars"
-photo_file_name = "star-wars-other-movies-2e7b27b3-cover.jpg"
 
 [[cards]]
 text = "Jyn Erso"
@@ -252,3 +252,355 @@ first_revealed_installment = 10
 [[cards]]
 text = "Jedha City"
 first_revealed_installment = 8
+
+[[cards]]
+text = "Darth Vader's Castle"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Guardians of the Whills"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Temple of the Whills"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Ring of Kafrene"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Wobani"
+first_revealed_installment = 8
+
+[[cards]]
+text = "The Profundity"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Hammerhead Corvette"
+first_revealed_installment = 8
+
+[[cards]]
+text = "General Antoc Merrick"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Blue Squadron"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Occupier Combat Tank"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Partisans"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Cargo Shuttle SW-0608"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Senator Pamlo"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Senator Vaspar"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Vaneé"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Tivik"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Project Celestial Power"
+first_revealed_installment = 8
+
+[[cards]]
+text = "TIE Reaper"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Tam Posla"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Imperial Kyber Refinery"
+first_revealed_installment = 8
+
+[[cards]]
+text = "General Ramda"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Senator Tynn"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Admiral Gorin"
+first_revealed_installment = 8
+
+[[cards]]
+text = "First Light"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Coronet City"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Pyke Syndicate"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Patrol Trooper"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Corellian Shipbuilding Yards"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Ardennian"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Moloch"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Fort Ypso"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Quay Tolsite"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Cloud-Rider Swoop Bike"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Rebolt"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Carida"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Imperial Flight Academy"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Argus Six-Eyes"
+first_revealed_installment = 10
+
+[[cards]]
+text = "DD-BD"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Hylobon Enforcers"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Lando's Memoirs"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Pyke Guard"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Imperial Patrol Speeder"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Aksis Strike-Blades"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Han Solo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lando Calrissian"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Millennium Falcon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mon Mothma"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bail Organa"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Grand Moff Tarkin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Princess Leia Organa"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tantive IV"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mustafar"
+first_revealed_installment = 6
+
+[[cards]]
+text = "General Jan Dodonna"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dr. Evazan"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ponda Baba"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Captain Antilles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Squadron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gold Squadron"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Death Star Superlaser"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Red Leader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gold Leader"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yavin 4"
+first_revealed_installment = 1
+
+[[cards]]
+text = "C2-B5"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Stormtrooper Doll"
+first_revealed_installment = 8
+
+[[cards]]
+text = "KX-series Security Droid"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Tognath"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Gigoran"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Delta-class Shuttle"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Senator Jebel"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Project War-Mantle"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Project Pax Aurora"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Project Stellarsphere"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Edrio Two Tubes"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Weeteef Cyubee"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Beezer Fortuna"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Teräs Käsi"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Imperial Recruiter"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Kessel"
+first_revealed_installment = 1
+
+[[cards]]
+text = "DL-44 Heavy Blaster"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chewbacca's Bandolier"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lando's Cape"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Maw Cluster"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Corellian Spike"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Qi'ra's Ring"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Kessel Breakout"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Train Heist"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Millennium Falcon Escape Pod"
+first_revealed_installment = 10

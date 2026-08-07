@@ -1,12 +1,12 @@
 id = "deck_dutch-wonderland_b1e083f6"
-revision = 2
+revision = 3
 name = "Dutch Wonderland"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include rides, themed areas, characters, shows, water attractions, family attractions, Lancaster County references, and kid-friendly amusement park terms."
-spoiler_mode = false
 photo_file_name = "dutch-wonderland-b1e083f6-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Duke the Dragon"
@@ -96,34 +96,13 @@ text = "Funnel Cake"
 text = "Cotton Candy"
 
 [[cards]]
-text = "Souvenir Cup"
-
-[[cards]]
-text = "Season Pass"
-
-[[cards]]
-text = "Face Painting"
-
-[[cards]]
-text = "Midway Games"
-
-[[cards]]
-text = "Skee-Ball"
-
-[[cards]]
 text = "High Dive Show"
-
-[[cards]]
-text = "Day Out With Thomas"
 
 [[cards]]
 text = "Happy Hauntings"
 
 [[cards]]
 text = "Kettle Corn"
-
-[[cards]]
-text = "Dinosaur Puppets"
 
 [[cards]]
 text = "Aqua Stadium"
@@ -136,9 +115,6 @@ text = "Castle Gift Shop"
 
 [[cards]]
 text = "Wonderland Special"
-
-[[cards]]
-text = "Pony Rides"
 
 [[cards]]
 text = "Miniature Golf"
@@ -189,13 +165,7 @@ text = "Dutch Winter Wonderland"
 text = "Mill Stream Eatery"
 
 [[cards]]
-text = "Thomas the Tank Engine"
-
-[[cards]]
 text = "Storytime Corner"
-
-[[cards]]
-text = "Bean Bag Toss"
 
 [[cards]]
 text = "Frog Hopper"

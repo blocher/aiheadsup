@@ -1,12 +1,12 @@
 id = "deck_college-of-william-and-mary_dee01823"
-revision = 2
+revision = 3
 name = "College of William and Mary"
 category = "Colleges and Universities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include campus landmarks, academic traditions, notable alumni, school history, athletics, mascots, Williamsburg connections, and recognizable College of William and Mary references."
-spoiler_mode = false
 photo_file_name = "college-of-william-and-mary-dee01823-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Wren Building"
@@ -84,9 +84,6 @@ text = "Kaplan Arena"
 text = "Tri-Cornered Hat"
 
 [[cards]]
-text = "Royal Shield"
-
-[[cards]]
 text = "Sir Christopher Wren"
 
 [[cards]]
@@ -150,9 +147,6 @@ text = "Jefferson Hall"
 text = "Plumeri Park"
 
 [[cards]]
-text = "W&M Hall"
-
-[[cards]]
 text = "Phi Beta Kappa"
 
 [[cards]]
@@ -181,9 +175,6 @@ text = "George Washington"
 
 [[cards]]
 text = "The Daily Grind"
-
-[[cards]]
-text = "Tribe Athletics"
 
 [[cards]]
 text = "W&M Pep Band"

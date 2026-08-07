@@ -1,12 +1,12 @@
 id = "deck_catholicism_4755d41a"
-revision = 2
+revision = 3
 name = "Catholicism"
 category = "Religion and Mythology"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include popes, saints, sacraments, feast days, devotions, religious orders, church terms, Vatican landmarks, liturgy, and Catholic practices."
-spoiler_mode = false
 photo_file_name = "catholicism-4755d41a-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Saint Peter"
@@ -49,9 +49,6 @@ text = "Holy Orders"
 
 [[cards]]
 text = "Anointing of the Sick"
-
-[[cards]]
-text = "Penance"
 
 [[cards]]
 text = "The Rosary"
@@ -154,12 +151,6 @@ text = "Liturgy of the Hours"
 
 [[cards]]
 text = "Sanctuary Lamp"
-
-[[cards]]
-text = "Monasticism"
-
-[[cards]]
-text = "Holy Communion"
 
 [[cards]]
 text = "Our Lady of Guadalupe"

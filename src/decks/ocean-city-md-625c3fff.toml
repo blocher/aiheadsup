@@ -1,5 +1,5 @@
 id = "deck_ocean-city-md_625c3fff"
-revision = 2
+revision = 3
 name = "Ocean City, MD"
 category = "Cities"
 audience = "Family"
@@ -34,9 +34,6 @@ text = "Boardwalk Arcade"
 
 [[cards]]
 text = "Haunted House Ride"
-
-[[cards]]
-text = "Believe It or Not"
 
 [[cards]]
 text = "Boardwalk Tram"
@@ -156,7 +153,7 @@ text = "Ocean Downs Casino"
 text = "Frontier Town"
 
 [[cards]]
-text = "Berlin Maryland"
+text = "Berlin, Maryland"
 
 [[cards]]
 text = "White Marlin Open"
@@ -171,16 +168,13 @@ text = "Springfest"
 text = "Winterfest of Lights"
 
 [[cards]]
-text = "Beach Patrol Lifeguard"
+text = "Ocean City Beach Patrol"
 
 [[cards]]
 text = "Building a Sandcastle"
 
 [[cards]]
 text = "Searching for Shark Teeth"
-
-[[cards]]
-text = "Shelling"
 
 [[cards]]
 text = "Parasailing"

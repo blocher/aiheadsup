@@ -1,12 +1,12 @@
 id = "deck_middle-school-level-u-s-history_5c352c52"
-revision = 2
+revision = 3
 name = "Middle School Level U.S. History"
 category = "History"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include colonial America, the Revolution, Constitution, Civil War, Reconstruction, immigration, westward expansion, industrialization, major presidents, social movements, wars, and key historical documents."
-spoiler_mode = false
 photo_file_name = "middle-school-level-u-s-history-5c352c52-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Boston Tea Party"
@@ -163,9 +163,6 @@ text = "Plymouth Rock"
 
 [[cards]]
 text = "Salem Witch Trials"
-
-[[cards]]
-text = "Paul Revere's Ride"
 
 [[cards]]
 text = "Erie Canal"

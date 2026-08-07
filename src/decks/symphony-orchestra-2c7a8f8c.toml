@@ -1,5 +1,5 @@
 id = "deck_symphony-orchestra_2c7a8f8c"
-revision = 2
+revision = 3
 name = "Symphony Orchestra"
 category = "Music"
 audience = "Family"
@@ -144,9 +144,6 @@ text = "Movement"
 text = "Concert Hall"
 
 [[cards]]
-text = "Pit Orchestra"
-
-[[cards]]
 text = "Standing Ovation"
 
 [[cards]]
@@ -235,15 +232,3 @@ text = "Andante"
 
 [[cards]]
 text = "Allegro"
-
-[[cards]]
-text = "Pittsburgh Symphony Orchestra"
-
-[[cards]]
-text = "Fiddlesticks"
-
-[[cards]]
-text = "Manfred Honeck"
-
-[[cards]]
-text = "DMS Philharmonic"

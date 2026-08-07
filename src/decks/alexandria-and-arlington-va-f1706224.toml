@@ -1,12 +1,12 @@
 id = "deck_alexandria-and-arlington-va_f1706224"
-revision = 2
+revision = 3
 name = "Alexandria and Arlington, VA"
 category = "Cities"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Old Town Alexandria, Arlington National Cemetery, the Pentagon, neighborhoods, monuments, Metro stops, Potomac River landmarks, local history, museums, parks, and Washington-area references."
-spoiler_mode = false
 photo_file_name = "alexandria-and-arlington-va-f1706224-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Arlington National Cemetery"
@@ -37,9 +37,6 @@ text = "Pentagon Memorial"
 
 [[cards]]
 text = "Pentagon City"
-
-[[cards]]
-text = "Pentagon City Mall"
 
 [[cards]]
 text = "Crystal City"
@@ -111,12 +108,6 @@ text = "Old Town Alexandria"
 text = "King Street"
 
 [[cards]]
-text = "King Street Metro"
-
-[[cards]]
-text = "King Street Trolley"
-
-[[cards]]
 text = "Market Square"
 
 [[cards]]
@@ -127,9 +118,6 @@ text = "Gadsby's Tavern"
 
 [[cards]]
 text = "Carlyle House"
-
-[[cards]]
-text = "Carlyle District"
 
 [[cards]]
 text = "Lee-Fendall House"

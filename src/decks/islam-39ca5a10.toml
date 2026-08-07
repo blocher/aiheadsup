@@ -1,5 +1,5 @@
 id = "deck_islam_39ca5a10"
-revision = 1
+revision = 2
 name = "Islam"
 category = "Religion and Mythology"
 audience = "Family"
@@ -202,9 +202,6 @@ text = "Sunnah"
 
 [[cards]]
 text = "Prayer Rug"
-
-[[cards]]
-text = "Misbaha"
 
 [[cards]]
 text = "Al-Fatiha"

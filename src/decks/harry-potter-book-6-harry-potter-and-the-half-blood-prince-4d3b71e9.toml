@@ -1,13 +1,13 @@
 id = "deck_harry-potter-book-6-harry-potter-and-the-half-blood-prince_4d3b71e9"
-revision = 2
+revision = 4
 name = "Harry Potter Book 6: Harry Potter and the Half-Blood Prince"
 category = "Harry Potter"
 audience = "Family"
 difficulty = "Medium"
-special_prompt_note = ""
+special_prompt_note = "Cards should include people, places, creatures, spells, objects, and memorable events introduced in Harry Potter and the Half-Blood Prince."
+photo_file_name = "harry-potter-book-6-harry-potter-and-the-half-blood-prince-4d3b71e9-cover.jpg"
 spoiler_mode = true
 spoiler_series = "harry_potter"
-photo_file_name = "harry-potter-book-6-harry-potter-and-the-half-blood-prince-4d3b71e9-cover.jpg"
 
 [[cards]]
 text = "Harry Potter"
@@ -127,7 +127,7 @@ first_revealed_installment = 6
 
 [[cards]]
 text = "Slytherin's Locket"
-first_revealed_installment = 5
+first_revealed_installment = 6
 
 [[cards]]
 text = "Hufflepuff's Cup"
@@ -296,3 +296,115 @@ first_revealed_installment = 6
 [[cards]]
 text = "Armando Dippet"
 first_revealed_installment = 2
+
+[[cards]]
+text = "Muggle Prime Minister"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Budleigh Babberton"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Wool's Orphanage"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mrs. Cole"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Gaunt Shack"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Hokey the House-Elf"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Caractacus Burke"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Blaise Zabini"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spiked Chocolate Cauldrons"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Marcus Belby"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Sopophorous Bean"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Silver Dagger"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Elixir to Induce Euphoria"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Room of Hidden Things"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Lightning-Struck Tower"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dumbledore's Funeral"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Fawkes's Lament"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Vulnera Sanentur"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Anapneo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Snargaluff Pod"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Episkey"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tergeo"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Oppugno"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Specialis Revelio"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Amycus Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Alecto Carrow"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Probity Probe"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Acromantula Venom"
+first_revealed_installment = 6

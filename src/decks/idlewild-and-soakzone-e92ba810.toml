@@ -1,12 +1,12 @@
 id = "deck_idlewild-and-soakzone_e92ba810"
-revision = 2
+revision = 3
 name = "Idlewild and SoakZone"
 category = "Western PA Themeparks"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include Idlewild rides, Story Book Forest, Daniel Tiger references, SoakZone attractions, family rides, park areas, landmarks, and Ligonier-area references."
-spoiler_mode = false
 photo_file_name = "idlewild-and-soakzone-e92ba810-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "Story Book Forest"
@@ -144,9 +144,6 @@ text = "Mister Rogers"
 text = "Paul Bunyan"
 
 [[cards]]
-text = "Foot Bridge"
-
-[[cards]]
 text = "Daniel Tiger's Neighborhood"
 
 [[cards]]
@@ -160,9 +157,6 @@ text = "Jack and Jill Hill"
 
 [[cards]]
 text = "Little Red Schoolhouse"
-
-[[cards]]
-text = "C.P. Huntington Train"
 
 [[cards]]
 text = "Tilt-A-Whirl"

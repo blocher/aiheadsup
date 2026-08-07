@@ -21,6 +21,13 @@ describe('spoiler series', () => {
   })
 
   it('defaults each series to its most useful safe limit', () => {
-    expect(defaultSpoilerLimits()).toEqual({ harry_potter: 7, indiana_jones: 5, star_wars: 13 })
+    expect(defaultSpoilerLimits()).toEqual({
+      harry_potter: 7,
+      indiana_jones: 5,
+      star_wars: 13,
+      jurassic_park: 7,
+      lord_of_the_rings: 4,
+      a_series_of_unfortunate_events: 13
+    })
   })
 })

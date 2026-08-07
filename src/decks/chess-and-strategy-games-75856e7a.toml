@@ -1,12 +1,12 @@
 id = "deck_chess-and-strategy-games_75856e7a"
-revision = 2
+revision = 3
 name = "Chess and Strategy Games"
 category = "Games"
 audience = "Family"
 difficulty = "Medium"
 special_prompt_note = "Cards should include chess pieces, moves, openings, tactics, checkmate patterns, famous strategy games, abstract games, planning terms, and beginner-friendly strategy concepts."
-spoiler_mode = false
 photo_file_name = "chess-and-strategy-games-75856e7a-cover.jpg"
+spoiler_mode = false
 
 [[cards]]
 text = "King"
@@ -114,9 +114,6 @@ text = "Carcassonne"
 text = "Othello"
 
 [[cards]]
-text = "Reversi"
-
-[[cards]]
 text = "Connect Four"
 
 [[cards]]
@@ -178,12 +175,6 @@ text = "Center Control"
 
 [[cards]]
 text = "Blockade"
-
-[[cards]]
-text = "Knight Fork"
-
-[[cards]]
-text = "Pinning a Piece"
 
 [[cards]]
 text = "Opening Novelty"
