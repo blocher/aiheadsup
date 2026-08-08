@@ -1,0 +1,38 @@
+{
+  "appName": "Forehead Frenzy",
+  "subtitle": "Party game on your forehead",
+  "bundleId": "com.dailyoffice2019.foreheadfrenzy",
+  "sku": "forehead-frenzy-ios",
+  "version": "1.9",
+  "primaryCategory": "Games/Family",
+  "secondaryCategory": "Games/Trivia",
+  "price": "Free",
+  "ageRatingTarget": "4+",
+  "promotionalText": "Grab friends, pick a pack, and slap the phone on your forehead. Hundreds of themed decks plus AI packs you invent yourself.",
+  "keywords": "party,guessing,charades,family,forehead,trivia,kids,decks,word,game,friends,tilt",
+  "copyright": "\u00a9 2026 Benjamin Locher. All rights reserved.",
+  "locales": [
+    "en-US"
+  ],
+  "screenshotSets": {
+    "iphone69": {
+      "portrait": "1290x2796",
+      "landscape": "2796x1290",
+      "path": "screenshots/iphone-6.9"
+    },
+    "ipad13": {
+      "portrait": "2048x2732",
+      "path": "screenshots/ipad-13"
+    }
+  },
+  "icon": "icon/AppIcon-1024.png",
+  "todoBeforeSubmit": [
+    "Point DNS for foreheadfrenzy.benlocher.com at 104.237.147.195 (run scripts/setup-foreheadfrenzy-dns.sh)",
+    "Fill App Review contact phone/email",
+    "Answer export compliance / encryption questions",
+    "Confirm content rights in App Store Connect"
+  ],
+  "privacyPolicyUrl": "https://foreheadfrenzy.benlocher.com/privacy-policy.html",
+  "supportUrl": "https://foreheadfrenzy.benlocher.com/",
+  "marketingUrl": "https://foreheadfrenzy.benlocher.com/"
+}

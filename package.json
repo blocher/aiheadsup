@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
-    "generate:decks": "node scripts/generate-decks.mjs"
+    "generate:decks": "node scripts/generate-decks.mjs",
+    "store:screenshots": "node scripts/capture-app-store-screenshots.mjs",
+    "store:compose": "bash scripts/compose-app-store-screenshots.sh"
   },
   "dependencies": {
     "@capacitor-community/keep-awake": "^8.0.1",
@@ -30,6 +32,7 @@
     "@capacitor/cli": "^8.5.0",
     "@capacitor/ios": "^8.5.0",
     "@vitejs/plugin-vue": "^6.0.8",
+    "puppeteer-core": "24.22.3",
     "vite": "^8.2.1",
     "vitest": "^4.1.10"
   }

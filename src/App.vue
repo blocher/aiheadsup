@@ -798,6 +798,9 @@ onBeforeUnmount(() => {
         </section>
       </section>
       <p v-else class="empty-history">{{ libraryQuery ? `No packs match “${librarySearch.trim()}”.` : 'No packs in this category yet.' }}</p>
+      <footer class="app-footer">
+        <a class="app-footer-link" href="/privacy-policy.html">Privacy Policy</a>
+      </footer>
   </template>
 
     <template v-else-if="screen === 'detail' && selectedPack">

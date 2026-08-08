@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#10152d" />
+    <meta name="description" content="Forehead Frenzy — the party guessing game where the secret word sits on your forehead." />
+    <title>Forehead Frenzy</title>
+    <link rel="icon" type="image/png" href="/app-icon.png" />
+    <link rel="apple-touch-icon" href="/app-icon.png" />
+    <style>
+      :root { color: #f8f6ff; background: #10152d; font-family: system-ui, -apple-system, 'Segoe UI', sans-serif; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: radial-gradient(circle at 87% 6%, #4430a2 0, transparent 26rem), #10152d;
+        color: #f8f6ff;
+      }
+      main {
+        width: min(100%, 640px);
+        margin: 0 auto;
+        padding: max(28px, env(safe-area-inset-top)) max(22px, env(safe-area-inset-right)) calc(40px + env(safe-area-inset-bottom)) max(22px, env(safe-area-inset-left));
+        text-align: center;
+      }
+      .icon {
+        width: 112px;
+        height: 112px;
+        margin: 24px auto 22px;
+        border-radius: 26px;
+        box-shadow: 0 16px 40px #05071288;
+      }
+      .eyebrow {
+        margin: 0 0 8px;
+        color: #a9b0e4;
+        font-size: .68rem;
+        font-weight: 700;
+        letter-spacing: .16em;
+        text-transform: uppercase;
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.2rem, 8vw, 3rem);
+        letter-spacing: -.04em;
+        line-height: .95;
+      }
+      .lead {
+        margin: 0 auto 28px;
+        max-width: 28rem;
+        color: #d4d8f3;
+        font-size: 1.05rem;
+        line-height: 1.5;
+      }
+      .card {
+        padding: 22px 20px;
+        border-radius: 24px;
+        background: linear-gradient(135deg, #ff5d8f, #903cc2 55%, #3b48af);
+        box-shadow: 0 16px 36px #070a1c80;
+        text-align: left;
+      }
+      .card p { margin: 0 0 8px; font-weight: 700; }
+      .card h2 {
+        margin: 0 0 14px;
+        max-width: 14rem;
+        font-size: clamp(1.6rem, 6vw, 2.1rem);
+        line-height: 1.05;
+      }
+      .card .note {
+        margin: 0;
+        color: #f4e9ff;
+        font-size: .9rem;
+        font-weight: 500;
+        line-height: 1.45;
+        opacity: .92;
+      }
+      footer {
+        margin-top: 36px;
+      }
+      footer a {
+        color: #5f6799;
+        font-size: .75rem;
+        font-weight: 600;
+        letter-spacing: .04em;
+        text-decoration: none;
+      }
+      footer a:hover, footer a:focus-visible { color: #9aa3d4; text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Party prompt game</p>
+      <h1>Forehead Frenzy</h1>
+      <img class="icon" src="/app-icon.png" width="112" height="112" alt="Forehead Frenzy app icon" />
+      <p class="lead">Hold the phone to your forehead. Friends shout the clues. Tilt to score. Hundreds of packs, plus AI decks you invent yourself.</p>
+      <section class="card">
+        <p>On the App Store</p>
+        <h2>Big cards. Loud clues. Zero setup.</h2>
+        <p class="note">Available for iPhone. Search <strong>Forehead Frenzy</strong> on the App Store once the listing is live.</p>
+      </section>
+      <footer>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </footer>
+    </main>
+  </body>
+</html>
