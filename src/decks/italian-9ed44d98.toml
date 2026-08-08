@@ -1,0 +1,609 @@
+id = "deck_italian_9ed44d98"
+revision = 1
+name = "Italian"
+category = "Languages"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real, commonly taught Italian words and short phrases (1-4 words) that English-speaking families might recognize or learn. Put the Italian word or phrase itself on the card. Include greetings, food, travel, school, home, numbers, colors, and everyday vocabulary. No invented words, no English-only prompts, no full sentences longer than 4 words."
+photo_file_name = "italian-9ed44d98-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Ciao"
+
+[[cards]]
+text = "Buongiorno"
+
+[[cards]]
+text = "Arrivederci"
+
+[[cards]]
+text = "Grazie"
+
+[[cards]]
+text = "Per favore"
+
+[[cards]]
+text = "Prego"
+
+[[cards]]
+text = "Pizza"
+
+[[cards]]
+text = "Gelato"
+
+[[cards]]
+text = "Pasta"
+
+[[cards]]
+text = "Spaghetti"
+
+[[cards]]
+text = "Tiramisù"
+
+[[cards]]
+text = "Cappuccino"
+
+[[cards]]
+text = "Espresso"
+
+[[cards]]
+text = "Pomodoro"
+
+[[cards]]
+text = "Formaggio"
+
+[[cards]]
+text = "Pane"
+
+[[cards]]
+text = "Acqua"
+
+[[cards]]
+text = "Mamma"
+
+[[cards]]
+text = "Papà"
+
+[[cards]]
+text = "Nonna"
+
+[[cards]]
+text = "Nonno"
+
+[[cards]]
+text = "Famiglia"
+
+[[cards]]
+text = "Cane"
+
+[[cards]]
+text = "Gatto"
+
+[[cards]]
+text = "Amore"
+
+[[cards]]
+text = "Bella"
+
+[[cards]]
+text = "Sì"
+
+[[cards]]
+text = "No"
+
+[[cards]]
+text = "Rosso"
+
+[[cards]]
+text = "Blu"
+
+[[cards]]
+text = "Bianco"
+
+[[cards]]
+text = "Verde"
+
+[[cards]]
+text = "Uno, due, tre"
+
+[[cards]]
+text = "Italia"
+
+[[cards]]
+text = "Roma"
+
+[[cards]]
+text = "Venezia"
+
+[[cards]]
+text = "Colosseo"
+
+[[cards]]
+text = "Gondola"
+
+[[cards]]
+text = "Piazza"
+
+[[cards]]
+text = "Casa"
+
+[[cards]]
+text = "Scuola"
+
+[[cards]]
+text = "Macchina"
+
+[[cards]]
+text = "Bicicletta"
+
+[[cards]]
+text = "Treno"
+
+[[cards]]
+text = "Sole"
+
+[[cards]]
+text = "Luna"
+
+[[cards]]
+text = "Mare"
+
+[[cards]]
+text = "Buonanotte"
+
+[[cards]]
+text = "Buonasera"
+
+[[cards]]
+text = "Limone"
+
+[[cards]]
+text = "Buon appetito"
+
+[[cards]]
+text = "Bruschetta"
+
+[[cards]]
+text = "Mozzarella"
+
+[[cards]]
+text = "Lasagna"
+
+[[cards]]
+text = "Pesto"
+
+[[cards]]
+text = "Risotto"
+
+[[cards]]
+text = "Dolce"
+
+[[cards]]
+text = "Ristorante"
+
+[[cards]]
+text = "Caffè"
+
+[[cards]]
+text = "Cioccolato"
+
+[[cards]]
+text = "Vino"
+
+[[cards]]
+text = "Mela"
+
+[[cards]]
+text = "Frutta"
+
+[[cards]]
+text = "Salute"
+
+[[cards]]
+text = "A presto"
+
+[[cards]]
+text = "Come stai?"
+
+[[cards]]
+text = "Molto bene"
+
+[[cards]]
+text = "Scusa"
+
+[[cards]]
+text = "Benvenuto"
+
+[[cards]]
+text = "Salve"
+
+[[cards]]
+text = "Auguri"
+
+[[cards]]
+text = "Amico"
+
+[[cards]]
+text = "Signore"
+
+[[cards]]
+text = "Signora"
+
+[[cards]]
+text = "Bambino"
+
+[[cards]]
+text = "Ragazzo"
+
+[[cards]]
+text = "Libro"
+
+[[cards]]
+text = "Penna"
+
+[[cards]]
+text = "Chiave"
+
+[[cards]]
+text = "Tavolo"
+
+[[cards]]
+text = "Sedia"
+
+[[cards]]
+text = "Finestra"
+
+[[cards]]
+text = "Porta"
+
+[[cards]]
+text = "Museo"
+
+[[cards]]
+text = "Albergo"
+
+[[cards]]
+text = "Spiaggia"
+
+[[cards]]
+text = "Montagna"
+
+[[cards]]
+text = "Fiume"
+
+[[cards]]
+text = "Fiore"
+
+[[cards]]
+text = "Albero"
+
+[[cards]]
+text = "Stella"
+
+[[cards]]
+text = "Cielo"
+
+[[cards]]
+text = "Giallo"
+
+[[cards]]
+text = "Nero"
+
+[[cards]]
+text = "Quattro"
+
+[[cards]]
+text = "Cinque"
+
+[[cards]]
+text = "Cavallo"
+
+[[cards]]
+text = "Leone"
+
+[[cards]]
+text = "Uccello"
+
+[[cards]]
+text = "Duomo"
+
+[[cards]]
+text = "Buona giornata"
+
+[[cards]]
+text = "Va bene"
+
+[[cards]]
+text = "Pronto"
+
+[[cards]]
+text = "Panino"
+
+[[cards]]
+text = "Prosciutto"
+
+[[cards]]
+text = "Parmigiano"
+
+[[cards]]
+text = "Gnocchi"
+
+[[cards]]
+text = "Tortellini"
+
+[[cards]]
+text = "Frittata"
+
+[[cards]]
+text = "Zucchero"
+
+[[cards]]
+text = "Aglio"
+
+[[cards]]
+text = "Basilico"
+
+[[cards]]
+text = "Funghi"
+
+[[cards]]
+text = "Insalata"
+
+[[cards]]
+text = "Pesce"
+
+[[cards]]
+text = "Milano"
+
+[[cards]]
+text = "Firenze"
+
+[[cards]]
+text = "Olio d'oliva"
+
+[[cards]]
+text = "Aranciata"
+
+[[cards]]
+text = "Bicchiere"
+
+[[cards]]
+text = "Piatto"
+
+[[cards]]
+text = "Forchetta"
+
+[[cards]]
+text = "Coltello"
+
+[[cards]]
+text = "Cucchiaio"
+
+[[cards]]
+text = "Cucina"
+
+[[cards]]
+text = "Bagno"
+
+[[cards]]
+text = "Letto"
+
+[[cards]]
+text = "Orologio"
+
+[[cards]]
+text = "Telefono"
+
+[[cards]]
+text = "Musica"
+
+[[cards]]
+text = "Chitarra"
+
+[[cards]]
+text = "Farfalla"
+
+[[cards]]
+text = "Delfino"
+
+[[cards]]
+text = "Tartaruga"
+
+[[cards]]
+text = "Topo"
+
+[[cards]]
+text = "Orso"
+
+[[cards]]
+text = "Elefante"
+
+[[cards]]
+text = "Sei"
+
+[[cards]]
+text = "Sette"
+
+[[cards]]
+text = "Otto"
+
+[[cards]]
+text = "Nove"
+
+[[cards]]
+text = "Dieci"
+
+[[cards]]
+text = "Rosa"
+
+[[cards]]
+text = "Viola"
+
+[[cards]]
+text = "Arancione"
+
+[[cards]]
+text = "Grigio"
+
+[[cards]]
+text = "Aeroporto"
+
+[[cards]]
+text = "Autobus"
+
+[[cards]]
+text = "Stazione"
+
+[[cards]]
+text = "Biglietto"
+
+[[cards]]
+text = "Ti amo"
+
+[[cards]]
+text = "Cin cin"
+
+[[cards]]
+text = "Buon Natale"
+
+[[cards]]
+text = "Biscotti"
+
+[[cards]]
+text = "Zuppa"
+
+[[cards]]
+text = "Pizzeria"
+
+[[cards]]
+text = "Gelateria"
+
+[[cards]]
+text = "Vespa"
+
+[[cards]]
+text = "Ferrari"
+
+[[cards]]
+text = "Opera"
+
+[[cards]]
+text = "Soprano"
+
+[[cards]]
+text = "Tenore"
+
+[[cards]]
+text = "Pianoforte"
+
+[[cards]]
+text = "Violino"
+
+[[cards]]
+text = "Fratello"
+
+[[cards]]
+text = "Sorella"
+
+[[cards]]
+text = "Zio"
+
+[[cards]]
+text = "Zia"
+
+[[cards]]
+text = "Cugino"
+
+[[cards]]
+text = "Turista"
+
+[[cards]]
+text = "Bambola"
+
+[[cards]]
+text = "Padrino"
+
+[[cards]]
+text = "Carnevale"
+
+[[cards]]
+text = "Festa"
+
+[[cards]]
+text = "Lupo"
+
+[[cards]]
+text = "Scimmia"
+
+[[cards]]
+text = "Pinguino"
+
+[[cards]]
+text = "Tigre"
+
+[[cards]]
+text = "Banana"
+
+[[cards]]
+text = "Ananas"
+
+[[cards]]
+text = "Canale"
+
+[[cards]]
+text = "Isola"
+
+[[cards]]
+text = "Vulcano"
+
+[[cards]]
+text = "Passaporto"
+
+[[cards]]
+text = "Valigia"
+
+[[cards]]
+text = "Taxi"
+
+[[cards]]
+text = "Dottore"
+
+[[cards]]
+text = "Poliziotto"
+
+[[cards]]
+text = "Professore"
+
+[[cards]]
+text = "Studente"
+
+[[cards]]
+text = "Zaino"
+
+[[cards]]
+text = "Matita"
+
+[[cards]]
+text = "Quaderno"
+
+[[cards]]
+text = "Mappa"
+
+[[cards]]
+text = "Ombrello"
+
+[[cards]]
+text = "Scarpa"
+
+[[cards]]
+text = "Cappello"
+
+[[cards]]
+text = "Giacca"
+
+[[cards]]
+text = "Nuvola"
+
+[[cards]]
+text = "Buon viaggio"

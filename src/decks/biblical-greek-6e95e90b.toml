@@ -1,0 +1,534 @@
+id = "deck_biblical-greek_6e95e90b"
+revision = 2
+name = "Biblical Greek"
+category = "Languages"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should be real Koine / New Testament Greek vocabulary words (1-4 words) commonly taught in Biblical Greek courses, transliterated into Latin letters when needed for playability (e.g. agape, logos, ecclesia) or kept as familiar Greek terms. Prefer well-known Biblical Greek words. No invented words, no English-only prompts unless they are standard transliterations used in teaching."
+photo_file_name = "biblical-greek-6e95e90b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Logos"
+
+[[cards]]
+text = "Agape"
+
+[[cards]]
+text = "Ecclesia"
+
+[[cards]]
+text = "Charis"
+
+[[cards]]
+text = "Pistis"
+
+[[cards]]
+text = "Kosmos"
+
+[[cards]]
+text = "Hamartia"
+
+[[cards]]
+text = "Gnosis"
+
+[[cards]]
+text = "Pneuma"
+
+[[cards]]
+text = "Zoe"
+
+[[cards]]
+text = "Thanatos"
+
+[[cards]]
+text = "Basileia"
+
+[[cards]]
+text = "Christos"
+
+[[cards]]
+text = "Kurios"
+
+[[cards]]
+text = "Theos"
+
+[[cards]]
+text = "Evangelion"
+
+[[cards]]
+text = "Apostolos"
+
+[[cards]]
+text = "Diakonos"
+
+[[cards]]
+text = "Presbuteros"
+
+[[cards]]
+text = "Episkopos"
+
+[[cards]]
+text = "Metanoia"
+
+[[cards]]
+text = "Baptisma"
+
+[[cards]]
+text = "Eucharistia"
+
+[[cards]]
+text = "Koinonia"
+
+[[cards]]
+text = "Apokalupsis"
+
+[[cards]]
+text = "Pharisaios"
+
+[[cards]]
+text = "Saddukaios"
+
+[[cards]]
+text = "Soter"
+
+[[cards]]
+text = "Soteria"
+
+[[cards]]
+text = "Sophia"
+
+[[cards]]
+text = "Parakletos"
+
+[[cards]]
+text = "Doulos"
+
+[[cards]]
+text = "Mathetes"
+
+[[cards]]
+text = "Didache"
+
+[[cards]]
+text = "Martyria"
+
+[[cards]]
+text = "Oikos"
+
+[[cards]]
+text = "Nomos"
+
+[[cards]]
+text = "Kairos"
+
+[[cards]]
+text = "Chronos"
+
+[[cards]]
+text = "Bios"
+
+[[cards]]
+text = "Phileo"
+
+[[cards]]
+text = "Eirene"
+
+[[cards]]
+text = "Dynamis"
+
+[[cards]]
+text = "Exousia"
+
+[[cards]]
+text = "Hupomone"
+
+[[cards]]
+text = "Diatheke"
+
+[[cards]]
+text = "Chara"
+
+[[cards]]
+text = "Phos"
+
+[[cards]]
+text = "Skotia"
+
+[[cards]]
+text = "Proskuneo"
+
+[[cards]]
+text = "Aletheia"
+
+[[cards]]
+text = "Anthropos"
+
+[[cards]]
+text = "Angelos"
+
+[[cards]]
+text = "Doxa"
+
+[[cards]]
+text = "Kardia"
+
+[[cards]]
+text = "Ouranos"
+
+[[cards]]
+text = "Hagios"
+
+[[cards]]
+text = "Soma"
+
+[[cards]]
+text = "Sarx"
+
+[[cards]]
+text = "Haima"
+
+[[cards]]
+text = "Prophetes"
+
+[[cards]]
+text = "Basileus"
+
+[[cards]]
+text = "Archiereus"
+
+[[cards]]
+text = "Parabole"
+
+[[cards]]
+text = "Synagoge"
+
+[[cards]]
+text = "Hodos"
+
+[[cards]]
+text = "Aion"
+
+[[cards]]
+text = "Ergon"
+
+[[cards]]
+text = "Graphe"
+
+[[cards]]
+text = "Phone"
+
+[[cards]]
+text = "Dikaiosune"
+
+[[cards]]
+text = "Eschatos"
+
+[[cards]]
+text = "Gune"
+
+[[cards]]
+text = "Adelphos"
+
+[[cards]]
+text = "Hemera"
+
+[[cards]]
+text = "Laos"
+
+[[cards]]
+text = "Paidion"
+
+[[cards]]
+text = "Semeion"
+
+[[cards]]
+text = "Psalmos"
+
+[[cards]]
+text = "Hieron"
+
+[[cards]]
+text = "Thronos"
+
+[[cards]]
+text = "Iereus"
+
+[[cards]]
+text = "Kerygma"
+
+[[cards]]
+text = "Sabbaton"
+
+[[cards]]
+text = "Phobos"
+
+[[cards]]
+text = "Heorte"
+
+[[cards]]
+text = "Ge"
+
+[[cards]]
+text = "Hydor"
+
+[[cards]]
+text = "Pyr"
+
+[[cards]]
+text = "Artos"
+
+[[cards]]
+text = "Oinos"
+
+[[cards]]
+text = "Ichthus"
+
+[[cards]]
+text = "Poterion"
+
+[[cards]]
+text = "Thlipsis"
+
+[[cards]]
+text = "Eleos"
+
+[[cards]]
+text = "Epistole"
+
+[[cards]]
+text = "Praxis"
+
+[[cards]]
+text = "Apolutrosis"
+
+[[cards]]
+text = "Hypokrites"
+
+[[cards]]
+text = "Aster"
+
+[[cards]]
+text = "Gethsemane"
+
+[[cards]]
+text = "Golgotha"
+
+[[cards]]
+text = "Hades"
+
+[[cards]]
+text = "Geenna"
+
+[[cards]]
+text = "Pascha"
+
+[[cards]]
+text = "Satanas"
+
+[[cards]]
+text = "Diabolos"
+
+[[cards]]
+text = "Abussos"
+
+[[cards]]
+text = "Parousia"
+
+[[cards]]
+text = "Epiphaneia"
+
+[[cards]]
+text = "Pentekoste"
+
+[[cards]]
+text = "Anastasis"
+
+[[cards]]
+text = "Thusia"
+
+[[cards]]
+text = "Harpazo"
+
+[[cards]]
+text = "Monogenes"
+
+[[cards]]
+text = "Naos"
+
+[[cards]]
+text = "Probaton"
+
+[[cards]]
+text = "Poimen"
+
+[[cards]]
+text = "Lukos"
+
+[[cards]]
+text = "Sperma"
+
+[[cards]]
+text = "Makrothumia"
+
+[[cards]]
+text = "Aner"
+
+[[cards]]
+text = "Parthenos"
+
+[[cards]]
+text = "Despotes"
+
+[[cards]]
+text = "Oikodespotes"
+
+[[cards]]
+text = "Ampelos"
+
+[[cards]]
+text = "Georgos"
+
+[[cards]]
+text = "Karpos"
+
+[[cards]]
+text = "Talanton"
+
+[[cards]]
+text = "Denarion"
+
+[[cards]]
+text = "Mna"
+
+[[cards]]
+text = "Stauros"
+
+[[cards]]
+text = "Sindon"
+
+[[cards]]
+text = "Mnemeion"
+
+[[cards]]
+text = "Thura"
+
+[[cards]]
+text = "Kleis"
+
+[[cards]]
+text = "Luchnos"
+
+[[cards]]
+text = "Luchnia"
+
+[[cards]]
+text = "Proseuche"
+
+[[cards]]
+text = "Phulake"
+
+[[cards]]
+text = "Chilias"
+
+[[cards]]
+text = "Krisis"
+
+[[cards]]
+text = "Krites"
+
+[[cards]]
+text = "Kleronomia"
+
+[[cards]]
+text = "Therismos"
+
+[[cards]]
+text = "Peritome"
+
+[[cards]]
+text = "Akrobustia"
+
+[[cards]]
+text = "Genesis"
+
+[[cards]]
+text = "Dendron"
+
+[[cards]]
+text = "Manna"
+
+[[cards]]
+text = "Polis"
+
+[[cards]]
+text = "Thalassa"
+
+[[cards]]
+text = "Oros"
+
+[[cards]]
+text = "Helios"
+
+[[cards]]
+text = "Selene"
+
+[[cards]]
+text = "Anemos"
+
+[[cards]]
+text = "Nux"
+
+[[cards]]
+text = "Himation"
+
+[[cards]]
+text = "Agros"
+
+[[cards]]
+text = "Sitos"
+
+[[cards]]
+text = "Elaion"
+
+[[cards]]
+text = "Suke"
+
+[[cards]]
+text = "Ploion"
+
+[[cards]]
+text = "Diktuon"
+
+[[cards]]
+text = "Lithos"
+
+[[cards]]
+text = "Arnion"
+
+[[cards]]
+text = "Therion"
+
+[[cards]]
+text = "Ophis"
+
+[[cards]]
+text = "Peristera"
+
+[[cards]]
+text = "Gamos"
+
+[[cards]]
+text = "Arrabon"
+
+[[cards]]
+text = "Musterion"
+
+[[cards]]
+text = "Salpinx"
+
+[[cards]]
+text = "Stephanos"
+
+[[cards]]
+text = "Halas"

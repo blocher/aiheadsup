@@ -1,0 +1,234 @@
+id = "deck_canadian-provinces_efbdd5d1"
+revision = 1
+name = "Canadian Provinces"
+category = "Geography"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be Canada's provinces and territories, plus well-known related geography such as capitals, major cities, landmarks, and regions. Prefer real provincial and territorial names. No invented provinces."
+photo_file_name = "canadian-provinces-efbdd5d1-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Ontario"
+
+[[cards]]
+text = "Quebec"
+
+[[cards]]
+text = "Nova Scotia"
+
+[[cards]]
+text = "New Brunswick"
+
+[[cards]]
+text = "Manitoba"
+
+[[cards]]
+text = "British Columbia"
+
+[[cards]]
+text = "Prince Edward Island"
+
+[[cards]]
+text = "Saskatchewan"
+
+[[cards]]
+text = "Alberta"
+
+[[cards]]
+text = "Newfoundland and Labrador"
+
+[[cards]]
+text = "Yukon"
+
+[[cards]]
+text = "Northwest Territories"
+
+[[cards]]
+text = "Nunavut"
+
+[[cards]]
+text = "Ottawa"
+
+[[cards]]
+text = "Toronto"
+
+[[cards]]
+text = "Montreal"
+
+[[cards]]
+text = "Vancouver"
+
+[[cards]]
+text = "Calgary"
+
+[[cards]]
+text = "Edmonton"
+
+[[cards]]
+text = "Quebec City"
+
+[[cards]]
+text = "Winnipeg"
+
+[[cards]]
+text = "Halifax"
+
+[[cards]]
+text = "Victoria"
+
+[[cards]]
+text = "Regina"
+
+[[cards]]
+text = "Saskatoon"
+
+[[cards]]
+text = "St. John's"
+
+[[cards]]
+text = "Fredericton"
+
+[[cards]]
+text = "Charlottetown"
+
+[[cards]]
+text = "Yellowknife"
+
+[[cards]]
+text = "Whitehorse"
+
+[[cards]]
+text = "Iqaluit"
+
+[[cards]]
+text = "Niagara Falls"
+
+[[cards]]
+text = "CN Tower"
+
+[[cards]]
+text = "Rocky Mountains"
+
+[[cards]]
+text = "Banff National Park"
+
+[[cards]]
+text = "Hudson Bay"
+
+[[cards]]
+text = "Great Lakes"
+
+[[cards]]
+text = "Bay of Fundy"
+
+[[cards]]
+text = "Vancouver Island"
+
+[[cards]]
+text = "Lake Louise"
+
+[[cards]]
+text = "Peggy's Cove"
+
+[[cards]]
+text = "Cabot Trail"
+
+[[cards]]
+text = "Jasper National Park"
+
+[[cards]]
+text = "Baffin Island"
+
+[[cards]]
+text = "St. Lawrence River"
+
+[[cards]]
+text = "Whistler"
+
+[[cards]]
+text = "The Prairies"
+
+[[cards]]
+text = "Rideau Canal"
+
+[[cards]]
+text = "Atlantic Canada"
+
+[[cards]]
+text = "Cape Breton Island"
+
+[[cards]]
+text = "West Edmonton Mall"
+
+[[cards]]
+text = "Parliament Hill"
+
+[[cards]]
+text = "Chateau Frontenac"
+
+[[cards]]
+text = "Green Gables"
+
+[[cards]]
+text = "Signal Hill"
+
+[[cards]]
+text = "Okanagan Valley"
+
+[[cards]]
+text = "Klondike"
+
+[[cards]]
+text = "Algonquin Park"
+
+[[cards]]
+text = "Gros Morne"
+
+[[cards]]
+text = "Thousand Islands"
+
+[[cards]]
+text = "Hopewell Rocks"
+
+[[cards]]
+text = "Moose Jaw"
+
+[[cards]]
+text = "Thunder Bay"
+
+[[cards]]
+text = "The Maritimes"
+
+[[cards]]
+text = "Pacific Ocean"
+
+[[cards]]
+text = "Atlantic Ocean"
+
+[[cards]]
+text = "Arctic Ocean"
+
+[[cards]]
+text = "Fraser River"
+
+[[cards]]
+text = "Mackenzie River"
+
+[[cards]]
+text = "Haida Gwaii"
+
+[[cards]]
+text = "Royal Tyrrell Museum"
+
+[[cards]]
+text = "Laurentian Mountains"
+
+[[cards]]
+text = "Drumheller"
+
+[[cards]]
+text = "Kelowna"
+
+[[cards]]
+text = "Sudbury"

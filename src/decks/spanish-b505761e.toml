@@ -1,0 +1,684 @@
+id = "deck_spanish_b505761e"
+revision = 1
+name = "Spanish"
+category = "Languages"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real, commonly taught Spanish words and short phrases (1-4 words) that English-speaking families might recognize or learn. Put the Spanish word or phrase itself on the card. Include greetings, food, travel, school, home, numbers, colors, and everyday vocabulary. No invented words, no English-only prompts, no full sentences longer than 4 words."
+photo_file_name = "spanish-b505761e-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Hola"
+
+[[cards]]
+text = "Adiós"
+
+[[cards]]
+text = "Gracias"
+
+[[cards]]
+text = "Por favor"
+
+[[cards]]
+text = "Buenos días"
+
+[[cards]]
+text = "Buenas noches"
+
+[[cards]]
+text = "Amigo"
+
+[[cards]]
+text = "Fiesta"
+
+[[cards]]
+text = "Siesta"
+
+[[cards]]
+text = "Uno"
+
+[[cards]]
+text = "Taco"
+
+[[cards]]
+text = "Burrito"
+
+[[cards]]
+text = "Queso"
+
+[[cards]]
+text = "Salsa"
+
+[[cards]]
+text = "Tortilla"
+
+[[cards]]
+text = "Chocolate"
+
+[[cards]]
+text = "Guacamole"
+
+[[cards]]
+text = "Agua"
+
+[[cards]]
+text = "Café"
+
+[[cards]]
+text = "Perro"
+
+[[cards]]
+text = "Gato"
+
+[[cards]]
+text = "Casa"
+
+[[cards]]
+text = "Familia"
+
+[[cards]]
+text = "Madre"
+
+[[cards]]
+text = "Padre"
+
+[[cards]]
+text = "Sol"
+
+[[cards]]
+text = "Luna"
+
+[[cards]]
+text = "Playa"
+
+[[cards]]
+text = "Fiesta de cumpleaños"
+
+[[cards]]
+text = "Libro"
+
+[[cards]]
+text = "Escuela"
+
+[[cards]]
+text = "Profesor"
+
+[[cards]]
+text = "Mesa"
+
+[[cards]]
+text = "Silla"
+
+[[cards]]
+text = "Rojo"
+
+[[cards]]
+text = "Azul"
+
+[[cards]]
+text = "Verde"
+
+[[cards]]
+text = "Blanco"
+
+[[cards]]
+text = "Amarillo"
+
+[[cards]]
+text = "Te quiero"
+
+[[cards]]
+text = "Señorita"
+
+[[cards]]
+text = "Señor"
+
+[[cards]]
+text = "Feliz Navidad"
+
+[[cards]]
+text = "Cinco de Mayo"
+
+[[cards]]
+text = "Sombrero"
+
+[[cards]]
+text = "Piñata"
+
+[[cards]]
+text = "Fútbol"
+
+[[cards]]
+text = "Muy bien"
+
+[[cards]]
+text = "Hasta luego"
+
+[[cards]]
+text = "De nada"
+
+[[cards]]
+text = "Dos"
+
+[[cards]]
+text = "Tres"
+
+[[cards]]
+text = "Cuatro"
+
+[[cards]]
+text = "Diez"
+
+[[cards]]
+text = "Hermana"
+
+[[cards]]
+text = "Hermano"
+
+[[cards]]
+text = "Abuela"
+
+[[cards]]
+text = "Abuelo"
+
+[[cards]]
+text = "Bebé"
+
+[[cards]]
+text = "Buenas tardes"
+
+[[cards]]
+text = "Mucho gusto"
+
+[[cards]]
+text = "Lo siento"
+
+[[cards]]
+text = "Sí"
+
+[[cards]]
+text = "No"
+
+[[cards]]
+text = "Por qué"
+
+[[cards]]
+text = "Leche"
+
+[[cards]]
+text = "Pan"
+
+[[cards]]
+text = "Manzana"
+
+[[cards]]
+text = "Naranja"
+
+[[cards]]
+text = "Plátano"
+
+[[cards]]
+text = "Limón"
+
+[[cards]]
+text = "Arroz"
+
+[[cards]]
+text = "Helado"
+
+[[cards]]
+text = "Jugo"
+
+[[cards]]
+text = "Rosa"
+
+[[cards]]
+text = "Negro"
+
+[[cards]]
+text = "Morado"
+
+[[cards]]
+text = "Gris"
+
+[[cards]]
+text = "Mariposa"
+
+[[cards]]
+text = "Caballo"
+
+[[cards]]
+text = "Pájaro"
+
+[[cards]]
+text = "Pez"
+
+[[cards]]
+text = "León"
+
+[[cards]]
+text = "Oso"
+
+[[cards]]
+text = "Avión"
+
+[[cards]]
+text = "Tren"
+
+[[cards]]
+text = "Carro"
+
+[[cards]]
+text = "Bicicleta"
+
+[[cards]]
+text = "Hotel"
+
+[[cards]]
+text = "Maleta"
+
+[[cards]]
+text = "Puerta"
+
+[[cards]]
+text = "Ventana"
+
+[[cards]]
+text = "Teléfono"
+
+[[cards]]
+text = "Reloj"
+
+[[cards]]
+text = "Papel"
+
+[[cards]]
+text = "Lápiz"
+
+[[cards]]
+text = "Música"
+
+[[cards]]
+text = "Flor"
+
+[[cards]]
+text = "Árbol"
+
+[[cards]]
+text = "Estrella"
+
+[[cards]]
+text = "Cinco"
+
+[[cards]]
+text = "Seis"
+
+[[cards]]
+text = "Siete"
+
+[[cards]]
+text = "Ocho"
+
+[[cards]]
+text = "Nueve"
+
+[[cards]]
+text = "Cien"
+
+[[cards]]
+text = "Marrón"
+
+[[cards]]
+text = "Elefante"
+
+[[cards]]
+text = "Mono"
+
+[[cards]]
+text = "Tortuga"
+
+[[cards]]
+text = "Jirafa"
+
+[[cards]]
+text = "Tigre"
+
+[[cards]]
+text = "Conejo"
+
+[[cards]]
+text = "Ratón"
+
+[[cards]]
+text = "Pato"
+
+[[cards]]
+text = "Cerdo"
+
+[[cards]]
+text = "Vaca"
+
+[[cards]]
+text = "Pollo"
+
+[[cards]]
+text = "Huevo"
+
+[[cards]]
+text = "Sopa"
+
+[[cards]]
+text = "Ensalada"
+
+[[cards]]
+text = "Galleta"
+
+[[cards]]
+text = "Pastel"
+
+[[cards]]
+text = "Fresa"
+
+[[cards]]
+text = "Uva"
+
+[[cards]]
+text = "Tomate"
+
+[[cards]]
+text = "Papa"
+
+[[cards]]
+text = "Té"
+
+[[cards]]
+text = "Tío"
+
+[[cards]]
+text = "Tía"
+
+[[cards]]
+text = "Primo"
+
+[[cards]]
+text = "Niño"
+
+[[cards]]
+text = "Niña"
+
+[[cards]]
+text = "Hombre"
+
+[[cards]]
+text = "Mujer"
+
+[[cards]]
+text = "Cama"
+
+[[cards]]
+text = "Cocina"
+
+[[cards]]
+text = "Baño"
+
+[[cards]]
+text = "Zapato"
+
+[[cards]]
+text = "Camiseta"
+
+[[cards]]
+text = "Sombrilla"
+
+[[cards]]
+text = "Río"
+
+[[cards]]
+text = "Parque"
+
+[[cards]]
+text = "Montaña"
+
+[[cards]]
+text = "Mar"
+
+[[cards]]
+text = "Cielo"
+
+[[cards]]
+text = "Isla"
+
+[[cards]]
+text = "Mochila"
+
+[[cards]]
+text = "Bolígrafo"
+
+[[cards]]
+text = "Pasaporte"
+
+[[cards]]
+text = "Churros"
+
+[[cards]]
+text = "Flan"
+
+[[cards]]
+text = "Nachos"
+
+[[cards]]
+text = "Frijoles"
+
+[[cards]]
+text = "Mango"
+
+[[cards]]
+text = "Coco"
+
+[[cards]]
+text = "Sandía"
+
+[[cards]]
+text = "Hamburguesa"
+
+[[cards]]
+text = "Pizza"
+
+[[cards]]
+text = "Sándwich"
+
+[[cards]]
+text = "Refresco"
+
+[[cards]]
+text = "Delfín"
+
+[[cards]]
+text = "Tiburón"
+
+[[cards]]
+text = "Lobo"
+
+[[cards]]
+text = "Zorro"
+
+[[cards]]
+text = "Pingüino"
+
+[[cards]]
+text = "Mosquito"
+
+[[cards]]
+text = "Canguro"
+
+[[cards]]
+text = "Zanahoria"
+
+[[cards]]
+text = "Cebolla"
+
+[[cards]]
+text = "Ajo"
+
+[[cards]]
+text = "Autobús"
+
+[[cards]]
+text = "Taxi"
+
+[[cards]]
+text = "Metro"
+
+[[cards]]
+text = "Aeropuerto"
+
+[[cards]]
+text = "Museo"
+
+[[cards]]
+text = "Teatro"
+
+[[cards]]
+text = "Cine"
+
+[[cards]]
+text = "Plaza"
+
+[[cards]]
+text = "Supermercado"
+
+[[cards]]
+text = "Hospital"
+
+[[cards]]
+text = "Farmacia"
+
+[[cards]]
+text = "Policía"
+
+[[cards]]
+text = "Bombero"
+
+[[cards]]
+text = "Dentista"
+
+[[cards]]
+text = "Doctor"
+
+[[cards]]
+text = "Béisbol"
+
+[[cards]]
+text = "Básquetbol"
+
+[[cards]]
+text = "Tenis"
+
+[[cards]]
+text = "Guitarra"
+
+[[cards]]
+text = "Piano"
+
+[[cards]]
+text = "Radio"
+
+[[cards]]
+text = "Televisión"
+
+[[cards]]
+text = "Computadora"
+
+[[cards]]
+text = "Pantalones"
+
+[[cards]]
+text = "Vestido"
+
+[[cards]]
+text = "Chaqueta"
+
+[[cards]]
+text = "Calcetines"
+
+[[cards]]
+text = "Nieve"
+
+[[cards]]
+text = "Lluvia"
+
+[[cards]]
+text = "¿Cómo estás?"
+
+[[cards]]
+text = "Bienvenidos"
+
+[[cards]]
+text = "Hasta mañana"
+
+[[cards]]
+text = "¡Vámonos!"
+
+[[cards]]
+text = "Espejo"
+
+[[cards]]
+text = "Dinero"
+
+[[cards]]
+text = "Regalo"
+
+[[cards]]
+text = "Juguete"
+
+[[cards]]
+text = "Pelota"
+
+[[cards]]
+text = "Globo"
+
+[[cards]]
+text = "Rey"
+
+[[cards]]
+text = "Reina"
+
+[[cards]]
+text = "Pirata"
+
+[[cards]]
+text = "Estudiante"
+
+[[cards]]
+text = "Zoológico"
+
+[[cards]]
+text = "Jardín"
+
+[[cards]]
+text = "Biblioteca"
+
+[[cards]]
+text = "Fuego"
+
+[[cards]]
+text = "Nube"
+
+[[cards]]
+text = "Abeja"
+
+[[cards]]
+text = "Araña"
+
+[[cards]]
+text = "Rana"
+
+[[cards]]
+text = "Aguacate"
+
+[[cards]]
+text = "Mantequilla"
+
+[[cards]]
+text = "Empanada"

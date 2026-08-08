@@ -1,0 +1,483 @@
+id = "deck_chicago-white-sox_b6d7fc18"
+revision = 2
+name = "Chicago White Sox"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include White Sox history, Guaranteed Rate Field / Rate Field, Comiskey Park, uniforms, mascots, famous current and past players, World Series moments, nicknames, South Side fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real White Sox facts."
+photo_file_name = "chicago-white-sox-b6d7fc18-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Guaranteed Rate Field"
+
+[[cards]]
+text = "Comiskey Park"
+
+[[cards]]
+text = "Southpaw"
+
+[[cards]]
+text = "The Exploding Scoreboard"
+
+[[cards]]
+text = "Disco Demolition Night"
+
+[[cards]]
+text = "2005 World Series"
+
+[[cards]]
+text = "The Crosstown Classic"
+
+[[cards]]
+text = "Frank Thomas"
+
+[[cards]]
+text = "Paul Konerko"
+
+[[cards]]
+text = "Shoeless Joe Jackson"
+
+[[cards]]
+text = "The Hitless Wonders"
+
+[[cards]]
+text = "The Go-Go Sox"
+
+[[cards]]
+text = "Minnie Miñoso"
+
+[[cards]]
+text = "Mark Buehrle"
+
+[[cards]]
+text = "DeWayne Wise's Catch"
+
+[[cards]]
+text = "Carlton Fisk"
+
+[[cards]]
+text = "The Black Sox Scandal"
+
+[[cards]]
+text = "Jose Abreu"
+
+[[cards]]
+text = "The Outfield Shower"
+
+[[cards]]
+text = "Nancy Faust"
+
+[[cards]]
+text = "Na Na Hey Hey"
+
+[[cards]]
+text = "City Connect Jerseys"
+
+[[cards]]
+text = "1976 Shorts Uniforms"
+
+[[cards]]
+text = "The Batterman Logo"
+
+[[cards]]
+text = "South Side"
+
+[[cards]]
+text = "Tailgating in Lot B"
+
+[[cards]]
+text = "Ribbie and Roobarb"
+
+[[cards]]
+text = "Harold Baines"
+
+[[cards]]
+text = "Nellie Fox"
+
+[[cards]]
+text = "Ozzie Guillen"
+
+[[cards]]
+text = "South Side Elotes"
+
+[[cards]]
+text = "Polish Sausage with Onions"
+
+[[cards]]
+text = "Philip Humber's Perfect Game"
+
+[[cards]]
+text = "Konerko's Grand Slam"
+
+[[cards]]
+text = "Podsednik's Walk-Off"
+
+[[cards]]
+text = "A.J. Pierzynski"
+
+[[cards]]
+text = "Armour Square"
+
+[[cards]]
+text = "The Stadium Club"
+
+[[cards]]
+text = "Black and White Pinstripes"
+
+[[cards]]
+text = "Luis Aparicio"
+
+[[cards]]
+text = "Luke Appling"
+
+[[cards]]
+text = "Billy Pierce"
+
+[[cards]]
+text = "The Bullpen Sports Bar"
+
+[[cards]]
+text = "Sox Pride Club"
+
+[[cards]]
+text = "Luis Robert Jr."
+
+[[cards]]
+text = "1917 World Series"
+
+[[cards]]
+text = "Chicago Cubs"
+
+[[cards]]
+text = "Andy the Clown"
+
+[[cards]]
+text = "The Pale Hose"
+
+[[cards]]
+text = "Bill Veeck"
+
+[[cards]]
+text = "Hawk Harrelson"
+
+[[cards]]
+text = "Steve Stone"
+
+[[cards]]
+text = "He Gone!"
+
+[[cards]]
+text = "Mercy!"
+
+[[cards]]
+text = "Field of Dreams Game"
+
+[[cards]]
+text = "The 2008 Blackout Game"
+
+[[cards]]
+text = "Jim Thome"
+
+[[cards]]
+text = "Jermaine Dye"
+
+[[cards]]
+text = "Bobby Jenks"
+
+[[cards]]
+text = "Joe Crede"
+
+[[cards]]
+text = "Winning Ugly"
+
+[[cards]]
+text = "Robin Ventura"
+
+[[cards]]
+text = "The Nolan Ryan Fight"
+
+[[cards]]
+text = "Tony La Russa"
+
+[[cards]]
+text = "Charles Comiskey"
+
+[[cards]]
+text = "The 1906 World Series"
+
+[[cards]]
+text = "Lucas Giolito's No-Hitter"
+
+[[cards]]
+text = "Michael Jordan"
+
+[[cards]]
+text = "The Birmingham Barons"
+
+[[cards]]
+text = "Goose Island Section"
+
+[[cards]]
+text = "The Old English S"
+
+[[cards]]
+text = "Sox Fest"
+
+[[cards]]
+text = "The Rain Room"
+
+[[cards]]
+text = "U.S. Cellular Field"
+
+[[cards]]
+text = "Albert Belle"
+
+[[cards]]
+text = "Ed Walsh"
+
+[[cards]]
+text = "Early Wynn"
+
+[[cards]]
+text = "The 1959 Pennant"
+
+[[cards]]
+text = "Al Smith's Beer Shower"
+
+[[cards]]
+text = "The Chi-Sox"
+
+[[cards]]
+text = "Jerry Reinsdorf"
+
+[[cards]]
+text = "Liam Hendriks"
+
+[[cards]]
+text = "Carlos Rodón's No-Hitter"
+
+[[cards]]
+text = "The 1983 White Sox"
+
+[[cards]]
+text = "The Stadium Statues"
+
+[[cards]]
+text = "Charlotte Knights"
+
+[[cards]]
+text = "Winston-Salem Dash"
+
+[[cards]]
+text = "Kannapolis Cannon Ballers"
+
+[[cards]]
+text = "Sox Social Tap"
+
+[[cards]]
+text = "Tim Anderson"
+
+[[cards]]
+text = "The Big Hurt"
+
+[[cards]]
+text = "Jason Benetti"
+
+[[cards]]
+text = "Harry Caray"
+
+[[cards]]
+text = "The Sox Fight Song"
+
+[[cards]]
+text = "Don't Stop Believin'"
+
+[[cards]]
+text = "Scoreboard Pinwheels"
+
+[[cards]]
+text = "Chicago American Giants"
+
+[[cards]]
+text = "35th and Shields"
+
+[[cards]]
+text = "Chicago Sports Depot"
+
+[[cards]]
+text = "Dog Day"
+
+[[cards]]
+text = "South Side Hitmen"
+
+[[cards]]
+text = "Ron Kittle"
+
+[[cards]]
+text = "Jack McDowell"
+
+[[cards]]
+text = "Magglio Ordóñez"
+
+[[cards]]
+text = "Scott Podsednik"
+
+[[cards]]
+text = "El Duque"
+
+[[cards]]
+text = "The 2005 Parade"
+
+[[cards]]
+text = "Four Complete Games"
+
+[[cards]]
+text = "The Kids Can Play"
+
+[[cards]]
+text = "La Pantera"
+
+[[cards]]
+text = "Chris Sale"
+
+[[cards]]
+text = "Dylan Cease"
+
+[[cards]]
+text = "Gene Honda"
+
+[[cards]]
+text = "Len Kasper"
+
+[[cards]]
+text = "Ed Farmer"
+
+[[cards]]
+text = "1933 All-Star Game"
+
+[[cards]]
+text = "South Side Irish Night"
+
+[[cards]]
+text = "The Red Line"
+
+[[cards]]
+text = "Winged Sox Logo"
+
+[[cards]]
+text = "Alternate Black Jersey"
+
+[[cards]]
+text = "Beggars Pizza"
+
+[[cards]]
+text = "The Scout Seats"
+
+[[cards]]
+text = "White Sox Charities"
+
+[[cards]]
+text = "Al Lopez"
+
+[[cards]]
+text = "Bridgeport"
+
+[[cards]]
+text = "Sox Helmet Car"
+
+[[cards]]
+text = "Camelback Ranch"
+
+[[cards]]
+text = "McCuddy's Tavern"
+
+[[cards]]
+text = "Dan Ryan Expressway"
+
+[[cards]]
+text = "Home Run Siren"
+
+[[cards]]
+text = "Dick Allen"
+
+[[cards]]
+text = "Bo Jackson"
+
+[[cards]]
+text = "Tom Seaver"
+
+[[cards]]
+text = "Ken Griffey Jr."
+
+[[cards]]
+text = "Red Faber"
+
+[[cards]]
+text = "The 2005 Sweep"
+
+[[cards]]
+text = "Chuck Garfien"
+
+[[cards]]
+text = "Darrin Jackson"
+
+[[cards]]
+text = "Sox Machine"
+
+[[cards]]
+text = "Metra Rock Island"
+
+[[cards]]
+text = "Wentworth Avenue"
+
+[[cards]]
+text = "Sox Bomber Jacket"
+
+[[cards]]
+text = "Home Pinstripe Jersey"
+
+[[cards]]
+text = "Retro Sox Cap"
+
+[[cards]]
+text = "Glendale Arizona"
+
+[[cards]]
+text = "WMVP Radio"
+
+[[cards]]
+text = "WGN Radio"
+
+[[cards]]
+text = "The AL Central"
+
+[[cards]]
+text = "The Cactus League"
+
+[[cards]]
+text = "The 1919 White Sox"
+
+[[cards]]
+text = "The 1993 White Sox"
+
+[[cards]]
+text = "Sox Bobblehead Night"
+
+[[cards]]
+text = "American League Pennant"
+
+[[cards]]
+text = "The Upper Deck"
+
+[[cards]]
+text = "Chicago Style Hot Dog"
+
+[[cards]]
+text = "Black and White Cap"
+
+[[cards]]
+text = "Sox Win"
+
+[[cards]]
+text = "Dancing Grounds Crew"

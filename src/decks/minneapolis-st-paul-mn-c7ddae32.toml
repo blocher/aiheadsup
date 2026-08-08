@@ -1,0 +1,759 @@
+id = "deck_minneapolis-st-paul-mn_c7ddae32"
+revision = 2
+name = "Minneapolis/St. Paul, MN"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Twin Cities neighborhoods, landmarks, lakes, museums, sports teams, foods, universities, festivals, transit, Minnesota State Fair, Mall of America, parks, rivers, and family-friendly Minneapolis and St. Paul references."
+photo_file_name = "minneapolis-st-paul-mn-c7ddae32-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mall of America"
+
+[[cards]]
+text = "Stone Arch Bridge"
+
+[[cards]]
+text = "Minnehaha Falls"
+
+[[cards]]
+text = "Chain of Lakes"
+
+[[cards]]
+text = "Minnesota State Fair"
+
+[[cards]]
+text = "Spoonbridge and Cherry"
+
+[[cards]]
+text = "U.S. Bank Stadium"
+
+[[cards]]
+text = "Minnesota Twins"
+
+[[cards]]
+text = "Minnesota Vikings"
+
+[[cards]]
+text = "Minnesota Wild"
+
+[[cards]]
+text = "St. Paul Winter Carnival"
+
+[[cards]]
+text = "Como Park Zoo"
+
+[[cards]]
+text = "Science Museum of Minnesota"
+
+[[cards]]
+text = "First Avenue"
+
+[[cards]]
+text = "Target Field"
+
+[[cards]]
+text = "Mill City Museum"
+
+[[cards]]
+text = "Mississippi River"
+
+[[cards]]
+text = "Lake Bde Maka Ska"
+
+[[cards]]
+text = "Lake Harriet"
+
+[[cards]]
+text = "Lake Nokomis"
+
+[[cards]]
+text = "Lake Minnetonka"
+
+[[cards]]
+text = "Minneapolis Institute of Art"
+
+[[cards]]
+text = "Walker Art Center"
+
+[[cards]]
+text = "University of Minnesota"
+
+[[cards]]
+text = "Goldy Gopher"
+
+[[cards]]
+text = "St. Anthony Falls"
+
+[[cards]]
+text = "Grand Avenue"
+
+[[cards]]
+text = "Summit Avenue"
+
+[[cards]]
+text = "Juicy Lucy"
+
+[[cards]]
+text = "Target Center"
+
+[[cards]]
+text = "Allianz Field"
+
+[[cards]]
+text = "Minnesota Timberwolves"
+
+[[cards]]
+text = "Twin Cities Marathon"
+
+[[cards]]
+text = "Xcel Energy Center"
+
+[[cards]]
+text = "Cathedral of Saint Paul"
+
+[[cards]]
+text = "IDS Center"
+
+[[cards]]
+text = "Minnesota Lynx"
+
+[[cards]]
+text = "Minneapolis Skyway System"
+
+[[cards]]
+text = "Metro Transit Light Rail"
+
+[[cards]]
+text = "Minnesota Zoo"
+
+[[cards]]
+text = "Fort Snelling"
+
+[[cards]]
+text = "Theodore Wirth Park"
+
+[[cards]]
+text = "Chanhassen Dinner Theatre"
+
+[[cards]]
+text = "Paisley Park"
+
+[[cards]]
+text = "Guthrie Theater"
+
+[[cards]]
+text = "Lake of the Isles"
+
+[[cards]]
+text = "Northeast Minneapolis"
+
+[[cards]]
+text = "Lyndale Park Rose Garden"
+
+[[cards]]
+text = "Midtown Global Market"
+
+[[cards]]
+text = "Minneapolis Sculpture Garden"
+
+[[cards]]
+text = "Uptown Minneapolis"
+
+[[cards]]
+text = "Dinkytown"
+
+[[cards]]
+text = "Lowertown St. Paul"
+
+[[cards]]
+text = "North Loop"
+
+[[cards]]
+text = "Linden Hills"
+
+[[cards]]
+text = "Loring Park"
+
+[[cards]]
+text = "Foshay Tower"
+
+[[cards]]
+text = "Minnesota State Capitol"
+
+[[cards]]
+text = "St. Paul Union Depot"
+
+[[cards]]
+text = "Mickey's Diner"
+
+[[cards]]
+text = "James J. Hill House"
+
+[[cards]]
+text = "Basilica of Saint Mary"
+
+[[cards]]
+text = "Wabasha Street Caves"
+
+[[cards]]
+text = "Minneapolis City Hall"
+
+[[cards]]
+text = "Orpheum Theatre"
+
+[[cards]]
+text = "Tater Tot Hotdish"
+
+[[cards]]
+text = "Sweet Martha's Cookies"
+
+[[cards]]
+text = "Pronto Pup"
+
+[[cards]]
+text = "Wild Rice Soup"
+
+[[cards]]
+text = "Salted Nut Roll"
+
+[[cards]]
+text = "Honeycrisp Apple"
+
+[[cards]]
+text = "Lake Phalen"
+
+[[cards]]
+text = "Lake Como"
+
+[[cards]]
+text = "Lake Hiawatha"
+
+[[cards]]
+text = "Saint Croix River"
+
+[[cards]]
+text = "Minnesota River"
+
+[[cards]]
+text = "St. Paul Saints"
+
+[[cards]]
+text = "Minnesota Aurora FC"
+
+[[cards]]
+text = "Macalester College"
+
+[[cards]]
+text = "University of St. Thomas"
+
+[[cards]]
+text = "Hamline University"
+
+[[cards]]
+text = "Minneapolis Aquatennial"
+
+[[cards]]
+text = "Twin Cities Pride"
+
+[[cards]]
+text = "Minnesota Children's Museum"
+
+[[cards]]
+text = "Bell Museum"
+
+[[cards]]
+text = "American Swedish Institute"
+
+[[cards]]
+text = "Harriet Island Park"
+
+[[cards]]
+text = "Mill Ruins Park"
+
+[[cards]]
+text = "Centennial Lakes Park"
+
+[[cards]]
+text = "Wood Lake Nature Center"
+
+[[cards]]
+text = "Marjorie McNeely Conservatory"
+
+[[cards]]
+text = "Landmark Center"
+
+[[cards]]
+text = "Fitzgerald Theater"
+
+[[cards]]
+text = "Powderhorn Park"
+
+[[cards]]
+text = "Nicollet Mall"
+
+[[cards]]
+text = "Grand Rounds Scenic Byway"
+
+[[cards]]
+text = "Peavey Plaza"
+
+[[cards]]
+text = "Saint Paul Hotel"
+
+[[cards]]
+text = "Father Hennepin Bluff Park"
+
+[[cards]]
+text = "State Theatre"
+
+[[cards]]
+text = "Minnesota United FC"
+
+[[cards]]
+text = "Minnesota History Center"
+
+[[cards]]
+text = "The Bakken Museum"
+
+[[cards]]
+text = "Museum of Russian Art"
+
+[[cards]]
+text = "Witch's Hat Water Tower"
+
+[[cards]]
+text = "Prospect Park"
+
+[[cards]]
+text = "Warehouse District"
+
+[[cards]]
+text = "Seven Corners"
+
+[[cards]]
+text = "Lake Elmo"
+
+[[cards]]
+text = "Lake Johanna"
+
+[[cards]]
+text = "Lake Owasso"
+
+[[cards]]
+text = "Lebanon Hills Park"
+
+[[cards]]
+text = "Hidden Falls Park"
+
+[[cards]]
+text = "Crosby Farm Park"
+
+[[cards]]
+text = "Battle Creek Park"
+
+[[cards]]
+text = "Hyland Lake Park"
+
+[[cards]]
+text = "Nice Ride Bike"
+
+[[cards]]
+text = "Empire Builder Train"
+
+[[cards]]
+text = "First National Bank Sign"
+
+[[cards]]
+text = "Snoopy Statues"
+
+[[cards]]
+text = "Kramarczuk's Sausage"
+
+[[cards]]
+text = "Matt's Bar"
+
+[[cards]]
+text = "The 5-8 Club"
+
+[[cards]]
+text = "Cossetta"
+
+[[cards]]
+text = "Pearson's Nut Goodie"
+
+[[cards]]
+text = "Fried Cheese Curds"
+
+[[cards]]
+text = "Lefse"
+
+[[cards]]
+text = "Lutefisk"
+
+[[cards]]
+text = "TC Bear"
+
+[[cards]]
+text = "Viktor the Viking"
+
+[[cards]]
+text = "Mudonna"
+
+[[cards]]
+text = "Williams Arena"
+
+[[cards]]
+text = "Mariucci Arena"
+
+[[cards]]
+text = "Northrop Auditorium"
+
+[[cards]]
+text = "Varsity Theater"
+
+[[cards]]
+text = "Turf Club"
+
+[[cards]]
+text = "Cedar Cultural Center"
+
+[[cards]]
+text = "Seward Neighborhood"
+
+[[cards]]
+text = "Longfellow Neighborhood"
+
+[[cards]]
+text = "Marcy-Holmes"
+
+[[cards]]
+text = "Lakewood Cemetery"
+
+[[cards]]
+text = "Mears Park"
+
+[[cards]]
+text = "Rice Park"
+
+[[cards]]
+text = "Augsburg University"
+
+[[cards]]
+text = "St. Catherine University"
+
+[[cards]]
+text = "Grand Old Day"
+
+[[cards]]
+text = "Hennepin Avenue Bridge"
+
+[[cards]]
+text = "Hennepin County Library"
+
+[[cards]]
+text = "Smith Avenue High Bridge"
+
+[[cards]]
+text = "Lake Vadnais"
+
+[[cards]]
+text = "Valleyfair"
+
+[[cards]]
+text = "Nickelodeon Universe"
+
+[[cards]]
+text = "Sea Life Aquarium"
+
+[[cards]]
+text = "Minnesota Landscape Arboretum"
+
+[[cards]]
+text = "Red Bull Crashed Ice"
+
+[[cards]]
+text = "U.S. Pond Hockey Championships"
+
+[[cards]]
+text = "Art-A-Whirl"
+
+[[cards]]
+text = "Minnesota Fringe Festival"
+
+[[cards]]
+text = "Festival of Nations"
+
+[[cards]]
+text = "Luminary Loppet"
+
+[[cards]]
+text = "White Bear Lake"
+
+[[cards]]
+text = "Minnehaha Creek"
+
+[[cards]]
+text = "Boom Island Park"
+
+[[cards]]
+text = "Gold Medal Park"
+
+[[cards]]
+text = "Elm Creek Park Reserve"
+
+[[cards]]
+text = "Minnesota Valley Wildlife Refuge"
+
+[[cards]]
+text = "Capella Tower"
+
+[[cards]]
+text = "The Armory"
+
+[[cards]]
+text = "Palace Theatre"
+
+[[cards]]
+text = "Children's Theatre Company"
+
+[[cards]]
+text = "Penumbra Theatre"
+
+[[cards]]
+text = "Pillsbury A-Mill"
+
+[[cards]]
+text = "Princess Kay"
+
+[[cards]]
+text = "The Giant Slide"
+
+[[cards]]
+text = "Ye Olde Mill"
+
+[[cards]]
+text = "Space Tower"
+
+[[cards]]
+text = "Miracle of Birth"
+
+[[cards]]
+text = "Rondo Neighborhood"
+
+[[cards]]
+text = "Frogtown"
+
+[[cards]]
+text = "West Seventh"
+
+[[cards]]
+text = "Highland Park"
+
+[[cards]]
+text = "St. Anthony Park"
+
+[[cards]]
+text = "Cedar-Riverside"
+
+[[cards]]
+text = "West Bank"
+
+[[cards]]
+text = "Bryn Mawr"
+
+[[cards]]
+text = "Kenwood"
+
+[[cards]]
+text = "Lake Street"
+
+[[cards]]
+text = "Lyndale Avenue"
+
+[[cards]]
+text = "University Avenue"
+
+[[cards]]
+text = "Snelling Avenue"
+
+[[cards]]
+text = "Selby Avenue"
+
+[[cards]]
+text = "French Regional Park"
+
+[[cards]]
+text = "Minnesota Gophers"
+
+[[cards]]
+text = "Huntington Bank Stadium"
+
+[[cards]]
+text = "Charlie Brown Statues"
+
+[[cards]]
+text = "Top the Tater"
+
+[[cards]]
+text = "Caribou Coffee"
+
+[[cards]]
+text = "Punch Pizza"
+
+[[cards]]
+text = "Nordic Ware Bundt Pan"
+
+[[cards]]
+text = "Merriam Park"
+
+[[cards]]
+text = "Up North"
+
+[[cards]]
+text = "Minnesota Nice"
+
+[[cards]]
+text = "Pillsbury Doughboy"
+
+[[cards]]
+text = "Mini Donuts"
+
+[[cards]]
+text = "Mighty Midway"
+
+[[cards]]
+text = "Butter Sculpture"
+
+[[cards]]
+text = "Crop Art"
+
+[[cards]]
+text = "Holidazzle"
+
+[[cards]]
+text = "Pioneer Press Medallion Hunt"
+
+[[cards]]
+text = "Mary Tyler Moore Statue"
+
+[[cards]]
+text = "Prince"
+
+[[cards]]
+text = "Bob Dylan"
+
+[[cards]]
+text = "F. Scott Fitzgerald"
+
+[[cards]]
+text = "Charles Schulz"
+
+[[cards]]
+text = "Sparky the Sea Lion"
+
+[[cards]]
+text = "Can Can Wonderland"
+
+[[cards]]
+text = "Sever's Corn Maze"
+
+[[cards]]
+text = "Camp Snoopy"
+
+[[cards]]
+text = "Log Chute"
+
+[[cards]]
+text = "FlyOver America"
+
+[[cards]]
+text = "Crayola Experience"
+
+[[cards]]
+text = "Great Wolf Lodge"
+
+[[cards]]
+text = "Cascade Bay"
+
+[[cards]]
+text = "Minnesota North Stars"
+
+[[cards]]
+text = "Minneapolis Lakers"
+
+[[cards]]
+text = "Minnesota Frost"
+
+[[cards]]
+text = "Ski-U-Mah"
+
+[[cards]]
+text = "The Barn"
+
+[[cards]]
+text = "CHS Field"
+
+[[cards]]
+text = "Paul Bunyan"
+
+[[cards]]
+text = "The Metrodome"
+
+[[cards]]
+text = "Southdale Center"
+
+[[cards]]
+text = "Dayton's Department Store"
+
+[[cards]]
+text = "Milkjam Creamery"
+
+[[cards]]
+text = "Sebastian Joe's"
+
+[[cards]]
+text = "Izzy's Ice Cream"
+
+[[cards]]
+text = "Chicago Mix Popcorn"
+
+[[cards]]
+text = "Candyland"
+
+[[cards]]
+text = "Al's Breakfast"
+
+[[cards]]
+text = "Owamni"
+
+[[cards]]
+text = "Surly Brewing"
+
+[[cards]]
+text = "Grain Belt Sign"
+
+[[cards]]
+text = "Hamm's Bear"
+
+[[cards]]
+text = "Stillwater Lift Bridge"
+
+[[cards]]
+text = "I-35W Bridge"
+
+[[cards]]
+text = "Betty Crocker"
+
+[[cards]]
+text = "Minnesota Streetcar Museum"
+
+[[cards]]
+text = "Paddleford Riverboats"
+
+[[cards]]
+text = "Cedar Lake"
+
+[[cards]]
+text = "Minnesota Renaissance Festival"

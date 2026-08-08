@@ -1,0 +1,534 @@
+id = "deck_biblical-hebrew_0d6f1ba1"
+revision = 1
+name = "Biblical Hebrew"
+category = "Languages"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should be real Biblical Hebrew vocabulary words (1-4 words) commonly taught in introductory Biblical Hebrew, transliterated into Latin letters for playability (e.g. shalom, torah, adam, Yahweh). Prefer well-known Biblical Hebrew words. No invented words, no English-only prompts unless they are standard transliterations used in teaching."
+photo_file_name = "biblical-hebrew-0d6f1ba1-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Torah"
+
+[[cards]]
+text = "Shalom"
+
+[[cards]]
+text = "Elohim"
+
+[[cards]]
+text = "Adam"
+
+[[cards]]
+text = "Adonai"
+
+[[cards]]
+text = "Shema"
+
+[[cards]]
+text = "Berit"
+
+[[cards]]
+text = "Hallelujah"
+
+[[cards]]
+text = "Amen"
+
+[[cards]]
+text = "Yisrael"
+
+[[cards]]
+text = "Kohen"
+
+[[cards]]
+text = "Navi"
+
+[[cards]]
+text = "Ruach"
+
+[[cards]]
+text = "Eretz"
+
+[[cards]]
+text = "Bayit"
+
+[[cards]]
+text = "Derekh"
+
+[[cards]]
+text = "Davar"
+
+[[cards]]
+text = "Melek"
+
+[[cards]]
+text = "Yahweh"
+
+[[cards]]
+text = "Chesed"
+
+[[cards]]
+text = "Sheol"
+
+[[cards]]
+text = "Shabbat"
+
+[[cards]]
+text = "Mitzvah"
+
+[[cards]]
+text = "Av"
+
+[[cards]]
+text = "Ben"
+
+[[cards]]
+text = "Bat"
+
+[[cards]]
+text = "Yom"
+
+[[cards]]
+text = "Laylah"
+
+[[cards]]
+text = "Mayim"
+
+[[cards]]
+text = "Shamayim"
+
+[[cards]]
+text = "Etz"
+
+[[cards]]
+text = "Ish"
+
+[[cards]]
+text = "Ishah"
+
+[[cards]]
+text = "Lev"
+
+[[cards]]
+text = "Nefesh"
+
+[[cards]]
+text = "Kol"
+
+[[cards]]
+text = "Har"
+
+[[cards]]
+text = "Midbar"
+
+[[cards]]
+text = "Mishpachah"
+
+[[cards]]
+text = "Berakhah"
+
+[[cards]]
+text = "Chayim"
+
+[[cards]]
+text = "Zahav"
+
+[[cards]]
+text = "Kesef"
+
+[[cards]]
+text = "Even"
+
+[[cards]]
+text = "Shir"
+
+[[cards]]
+text = "Hekhal"
+
+[[cards]]
+text = "Mizbeach"
+
+[[cards]]
+text = "Kadosh"
+
+[[cards]]
+text = "Shophar"
+
+[[cards]]
+text = "Aron"
+
+[[cards]]
+text = "Chokhmah"
+
+[[cards]]
+text = "Binah"
+
+[[cards]]
+text = "Da'at"
+
+[[cards]]
+text = "Tzedakah"
+
+[[cards]]
+text = "Mishpat"
+
+[[cards]]
+text = "Kavod"
+
+[[cards]]
+text = "Mal'akh"
+
+[[cards]]
+text = "Satan"
+
+[[cards]]
+text = "Cheruv"
+
+[[cards]]
+text = "Eved"
+
+[[cards]]
+text = "Ba'al"
+
+[[cards]]
+text = "Am"
+
+[[cards]]
+text = "Goy"
+
+[[cards]]
+text = "Ger"
+
+[[cards]]
+text = "Zera"
+
+[[cards]]
+text = "Lechem"
+
+[[cards]]
+text = "Yayin"
+
+[[cards]]
+text = "Shemen"
+
+[[cards]]
+text = "Devash"
+
+[[cards]]
+text = "Halav"
+
+[[cards]]
+text = "Basar"
+
+[[cards]]
+text = "Dam"
+
+[[cards]]
+text = "Mavet"
+
+[[cards]]
+text = "Cherev"
+
+[[cards]]
+text = "Keshet"
+
+[[cards]]
+text = "Magen"
+
+[[cards]]
+text = "Milchamah"
+
+[[cards]]
+text = "Machaneh"
+
+[[cards]]
+text = "Shevet"
+
+[[cards]]
+text = "Matteh"
+
+[[cards]]
+text = "Zaken"
+
+[[cards]]
+text = "Na'ar"
+
+[[cards]]
+text = "Betulah"
+
+[[cards]]
+text = "Almah"
+
+[[cards]]
+text = "Sadeh"
+
+[[cards]]
+text = "Kerem"
+
+[[cards]]
+text = "Mizmor"
+
+[[cards]]
+text = "Tefillah"
+
+[[cards]]
+text = "Tehillah"
+
+[[cards]]
+text = "Teshuvah"
+
+[[cards]]
+text = "Pesach"
+
+[[cards]]
+text = "Matzah"
+
+[[cards]]
+text = "Sukkot"
+
+[[cards]]
+text = "Shavuot"
+
+[[cards]]
+text = "Rosh"
+
+[[cards]]
+text = "Yad"
+
+[[cards]]
+text = "Regel"
+
+[[cards]]
+text = "Ayin"
+
+[[cards]]
+text = "Ozen"
+
+[[cards]]
+text = "Peh"
+
+[[cards]]
+text = "Mishkan"
+
+[[cards]]
+text = "Mashiach"
+
+[[cards]]
+text = "Gan Eden"
+
+[[cards]]
+text = "Menorah"
+
+[[cards]]
+text = "Kapporet"
+
+[[cards]]
+text = "Bereshit"
+
+[[cards]]
+text = "Leviathan"
+
+[[cards]]
+text = "Behemoth"
+
+[[cards]]
+text = "Teivah"
+
+[[cards]]
+text = "Ketonet Passim"
+
+[[cards]]
+text = "Urim ve-Tummim"
+
+[[cards]]
+text = "Ephod"
+
+[[cards]]
+text = "Tzevaot"
+
+[[cards]]
+text = "Nachash"
+
+[[cards]]
+text = "Aryeh"
+
+[[cards]]
+text = "Nesher"
+
+[[cards]]
+text = "Chamor"
+
+[[cards]]
+text = "Sus"
+
+[[cards]]
+text = "Gamal"
+
+[[cards]]
+text = "Tzipor"
+
+[[cards]]
+text = "Kelev"
+
+[[cards]]
+text = "Chazir"
+
+[[cards]]
+text = "Olah"
+
+[[cards]]
+text = "Minchah"
+
+[[cards]]
+text = "Chatat"
+
+[[cards]]
+text = "Asham"
+
+[[cards]]
+text = "Zebach"
+
+[[cards]]
+text = "Bamah"
+
+[[cards]]
+text = "Megillah"
+
+[[cards]]
+text = "Sefer"
+
+[[cards]]
+text = "Shmita"
+
+[[cards]]
+text = "Yovel"
+
+[[cards]]
+text = "Tzitzit"
+
+[[cards]]
+text = "Mezuzah"
+
+[[cards]]
+text = "Neshama"
+
+[[cards]]
+text = "Omer"
+
+[[cards]]
+text = "Bikkurim"
+
+[[cards]]
+text = "Chag"
+
+[[cards]]
+text = "Seraphim"
+
+[[cards]]
+text = "Nechoshet"
+
+[[cards]]
+text = "Barzel"
+
+[[cards]]
+text = "Akeidah"
+
+[[cards]]
+text = "Merkabah"
+
+[[cards]]
+text = "Parah Adumah"
+
+[[cards]]
+text = "Segulah"
+
+[[cards]]
+text = "Shekhinah"
+
+[[cards]]
+text = "Galut"
+
+[[cards]]
+text = "Shemot"
+
+[[cards]]
+text = "Vayikra"
+
+[[cards]]
+text = "Shoftim"
+
+[[cards]]
+text = "Yerushalayim"
+
+[[cards]]
+text = "Mitzrayim"
+
+[[cards]]
+text = "Yarden"
+
+[[cards]]
+text = "Sinai"
+
+[[cards]]
+text = "Tzion"
+
+[[cards]]
+text = "Or"
+
+[[cards]]
+text = "Choshek"
+
+[[cards]]
+text = "Esh"
+
+[[cards]]
+text = "Anan"
+
+[[cards]]
+text = "Ohel"
+
+[[cards]]
+text = "Sha'ar"
+
+[[cards]]
+text = "Ir"
+
+[[cards]]
+text = "Tzon"
+
+[[cards]]
+text = "Boker"
+
+[[cards]]
+text = "Erev"
+
+[[cards]]
+text = "Yam Suf"
+
+[[cards]]
+text = "Emet"
+
+[[cards]]
+text = "Simchah"
+
+[[cards]]
+text = "Yeshu'ah"
+
+[[cards]]
+text = "Rachamim"
+
+[[cards]]
+text = "Tov"
+
+[[cards]]
+text = "Gibbor"
+
+[[cards]]
+text = "Shanah"
+
+[[cards]]
+text = "Rasha"
+
+[[cards]]
+text = "Mabbul"

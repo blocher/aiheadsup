@@ -1,0 +1,381 @@
+id = "deck_chicago-bulls_14c2d6ec"
+revision = 2
+name = "Chicago Bulls"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Bulls history, the United Center, Chicago Stadium, uniforms, mascots, famous current and past players, championship moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Bulls facts."
+photo_file_name = "chicago-bulls-14c2d6ec-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "United Center"
+
+[[cards]]
+text = "Chicago Stadium"
+
+[[cards]]
+text = "The Madhouse on Madison"
+
+[[cards]]
+text = "Benny the Bull"
+
+[[cards]]
+text = "Da Bull"
+
+[[cards]]
+text = "LuvaBulls"
+
+[[cards]]
+text = "Michael Jordan Statue"
+
+[[cards]]
+text = "The Flu Game"
+
+[[cards]]
+text = "The Last Shot"
+
+[[cards]]
+text = "The Shot"
+
+[[cards]]
+text = "Three-Peat"
+
+[[cards]]
+text = "Triangle Offense"
+
+[[cards]]
+text = "Sirius Intro Song"
+
+[[cards]]
+text = "Seventy-Two Wins"
+
+[[cards]]
+text = "Black Playoff Shoes"
+
+[[cards]]
+text = "Red and Black"
+
+[[cards]]
+text = "Pinstripe Jersey"
+
+[[cards]]
+text = "See Red"
+
+[[cards]]
+text = "Detroit Pistons"
+
+[[cards]]
+text = "New York Knicks"
+
+[[cards]]
+text = "Michael Jordan"
+
+[[cards]]
+text = "Scottie Pippen"
+
+[[cards]]
+text = "Dennis Rodman"
+
+[[cards]]
+text = "Phil Jackson"
+
+[[cards]]
+text = "Derrick Rose"
+
+[[cards]]
+text = "Joakim Noah"
+
+[[cards]]
+text = "Jimmy Butler"
+
+[[cards]]
+text = "Zach LaVine"
+
+[[cards]]
+text = "DeMar DeRozan"
+
+[[cards]]
+text = "Toni Kukoc"
+
+[[cards]]
+text = "Horace Grant"
+
+[[cards]]
+text = "Steve Kerr"
+
+[[cards]]
+text = "Jerry Sloan"
+
+[[cards]]
+text = "Bob Love"
+
+[[cards]]
+text = "Artis Gilmore"
+
+[[cards]]
+text = "Jerry Krause"
+
+[[cards]]
+text = "Jerry Reinsdorf"
+
+[[cards]]
+text = "Stacey King"
+
+[[cards]]
+text = "Johnny Red Kerr"
+
+[[cards]]
+text = "Ring of Honor"
+
+[[cards]]
+text = "Windy City Bulls"
+
+[[cards]]
+text = "Berto Center"
+
+[[cards]]
+text = "Advocate Center"
+
+[[cards]]
+text = "Gimme the Hot Sauce"
+
+[[cards]]
+text = "The Shrug"
+
+[[cards]]
+text = "Six Championship Banners"
+
+[[cards]]
+text = "IncrediBulls"
+
+[[cards]]
+text = "Alan Parsons Project"
+
+[[cards]]
+text = "Running of the Bulls"
+
+[[cards]]
+text = "The Bench Mob"
+
+[[cards]]
+text = "Luol Deng"
+
+[[cards]]
+text = "Kirk Hinrich"
+
+[[cards]]
+text = "Utah Jazz"
+
+[[cards]]
+text = "Phoenix Suns"
+
+[[cards]]
+text = "Portland Trail Blazers"
+
+[[cards]]
+text = "Los Angeles Lakers"
+
+[[cards]]
+text = "Cleveland Cavaliers"
+
+[[cards]]
+text = "Indiana Pacers"
+
+[[cards]]
+text = "Miami Heat"
+
+[[cards]]
+text = "Boston Celtics"
+
+[[cards]]
+text = "Bulls Kidz"
+
+[[cards]]
+text = "The Chicago Matadors"
+
+[[cards]]
+text = "Number 23"
+
+[[cards]]
+text = "Number 33"
+
+[[cards]]
+text = "Number 4"
+
+[[cards]]
+text = "Number 10"
+
+[[cards]]
+text = "Tex Winter"
+
+[[cards]]
+text = "Rod Thorn"
+
+[[cards]]
+text = "GarPax"
+
+[[cards]]
+text = "Nate Robinson"
+
+[[cards]]
+text = "Rec Specs"
+
+[[cards]]
+text = "Headband Ban"
+
+[[cards]]
+text = "The Jordan Rules"
+
+[[cards]]
+text = "Doberman Defense"
+
+[[cards]]
+text = "Grant Park Rally"
+
+[[cards]]
+text = "WGN-TV"
+
+[[cards]]
+text = "Chicago Sports Network"
+
+[[cards]]
+text = "1997 Championship"
+
+[[cards]]
+text = "Seattle SuperSonics"
+
+[[cards]]
+text = "Milwaukee Bucks"
+
+[[cards]]
+text = "Baby Bulls"
+
+[[cards]]
+text = "Mascot Popcorn Prank"
+
+[[cards]]
+text = "WGN Radio"
+
+[[cards]]
+text = "Cursive Chicago Script"
+
+[[cards]]
+text = "Black Road Jersey"
+
+[[cards]]
+text = "Bull Horns"
+
+[[cards]]
+text = "Court Over Ice"
+
+[[cards]]
+text = "Craig Hodges"
+
+[[cards]]
+text = "Scott Skiles"
+
+[[cards]]
+text = "Reggie Theus"
+
+[[cards]]
+text = "Ray Clay"
+
+[[cards]]
+text = "Central Division"
+
+[[cards]]
+text = "Air Jordans"
+
+[[cards]]
+text = "Chicago Stadium Organ"
+
+[[cards]]
+text = "Championship Parade"
+
+[[cards]]
+text = "Tearaway Pants"
+
+[[cards]]
+text = "Laser Light Show"
+
+[[cards]]
+text = "Madison Street"
+
+[[cards]]
+text = "Eastern Conference"
+
+[[cards]]
+text = "Bulls Logo"
+
+[[cards]]
+text = "Player Introduction"
+
+[[cards]]
+text = "Bulls Banner"
+
+[[cards]]
+text = "United Center Atrium"
+
+[[cards]]
+text = "The Double Nickel"
+
+[[cards]]
+text = "Andres Nocioni"
+
+[[cards]]
+text = "Chet Walker"
+
+[[cards]]
+text = "Norm Van Lier"
+
+[[cards]]
+text = "Dick Motta"
+
+[[cards]]
+text = "Tommy Edwards"
+
+[[cards]]
+text = "Windy City Assassin"
+
+[[cards]]
+text = "Too Big Too Strong"
+
+[[cards]]
+text = "Stop It Sriracha"
+
+[[cards]]
+text = "International Amphitheatre"
+
+[[cards]]
+text = "The Spirit Statue"
+
+[[cards]]
+text = "Bulls Fest"
+
+[[cards]]
+text = "Bulls Drumline"
+
+[[cards]]
+text = "Inflatable Benny"
+
+[[cards]]
+text = "Acrobatic Dunk Team"
+
+[[cards]]
+text = "Red Stadium Seats"
+
+[[cards]]
+text = "St. Patrick's Day Uniform"
+
+[[cards]]
+text = "The Circus Trip"
+
+[[cards]]
+text = "Jay Williams"
+
+[[cards]]
+text = "Sam Smith"
+
+[[cards]]
+text = "Johnny Bach"

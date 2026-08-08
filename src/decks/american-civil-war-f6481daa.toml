@@ -1,0 +1,834 @@
+id = "deck_american-civil-war_f6481daa"
+revision = 2
+name = "American Civil War"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Civil War battles, generals, presidents, documents, politics, soldiers' life, landmarks, strategies, Reconstruction beginnings, and major events from the American Civil War. Prefer real historical people, places, and events."
+photo_file_name = "american-civil-war-f6481daa-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Robert E. Lee"
+
+[[cards]]
+text = "Ulysses S. Grant"
+
+[[cards]]
+text = "Stonewall Jackson"
+
+[[cards]]
+text = "Jefferson Davis"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Clara Barton"
+
+[[cards]]
+text = "Frederick Douglass"
+
+[[cards]]
+text = "Battle of Gettysburg"
+
+[[cards]]
+text = "Battle of Antietam"
+
+[[cards]]
+text = "Battle of Bull Run"
+
+[[cards]]
+text = "Siege of Vicksburg"
+
+[[cards]]
+text = "Fort Sumter"
+
+[[cards]]
+text = "Appomattox Court House"
+
+[[cards]]
+text = "Emancipation Proclamation"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "The Union"
+
+[[cards]]
+text = "The Confederacy"
+
+[[cards]]
+text = "Secession"
+
+[[cards]]
+text = "Reconstruction"
+
+[[cards]]
+text = "Thirteenth Amendment"
+
+[[cards]]
+text = "Hardtack"
+
+[[cards]]
+text = "Ironclad"
+
+[[cards]]
+text = "USS Monitor"
+
+[[cards]]
+text = "Gatling Gun"
+
+[[cards]]
+text = "Anaconda Plan"
+
+[[cards]]
+text = "March to the Sea"
+
+[[cards]]
+text = "Mason-Dixon Line"
+
+[[cards]]
+text = "Blue and Gray"
+
+[[cards]]
+text = "Minie Ball"
+
+[[cards]]
+text = "Cavalry"
+
+[[cards]]
+text = "Infantry"
+
+[[cards]]
+text = "Musket"
+
+[[cards]]
+text = "Bayonet"
+
+[[cards]]
+text = "Harpers Ferry"
+
+[[cards]]
+text = "Richmond, Virginia"
+
+[[cards]]
+text = "George McClellan"
+
+[[cards]]
+text = "William Tecumseh Sherman"
+
+[[cards]]
+text = "J.E.B. Stuart"
+
+[[cards]]
+text = "Battle of Shiloh"
+
+[[cards]]
+text = "Battle of Chancellorsville"
+
+[[cards]]
+text = "Ford's Theatre"
+
+[[cards]]
+text = "Drummer Boy"
+
+[[cards]]
+text = "Blockade Runner"
+
+[[cards]]
+text = "Cannon"
+
+[[cards]]
+text = "Canteen"
+
+[[cards]]
+text = "Wool Uniform"
+
+[[cards]]
+text = "Stovepipe Hat"
+
+[[cards]]
+text = "Kepi Cap"
+
+[[cards]]
+text = "Signal Flag"
+
+[[cards]]
+text = "John Brown"
+
+[[cards]]
+text = "Dred Scott"
+
+[[cards]]
+text = "Uncle Tom's Cabin"
+
+[[cards]]
+text = "Harriet Beecher Stowe"
+
+[[cards]]
+text = "John Wilkes Booth"
+
+[[cards]]
+text = "Andrew Johnson"
+
+[[cards]]
+text = "Carpetbagger"
+
+[[cards]]
+text = "Scalawag"
+
+[[cards]]
+text = "Freedmen's Bureau"
+
+[[cards]]
+text = "David Farragut"
+
+[[cards]]
+text = "George Meade"
+
+[[cards]]
+text = "Ambrose Burnside"
+
+[[cards]]
+text = "Joseph Hooker"
+
+[[cards]]
+text = "Philip Sheridan"
+
+[[cards]]
+text = "George Pickett"
+
+[[cards]]
+text = "James Longstreet"
+
+[[cards]]
+text = "P.G.T. Beauregard"
+
+[[cards]]
+text = "Joshua Lawrence Chamberlain"
+
+[[cards]]
+text = "Battle of Fredericksburg"
+
+[[cards]]
+text = "Battle of Chickamauga"
+
+[[cards]]
+text = "Battle of Atlanta"
+
+[[cards]]
+text = "Siege of Petersburg"
+
+[[cards]]
+text = "Battle of the Wilderness"
+
+[[cards]]
+text = "Little Round Top"
+
+[[cards]]
+text = "Devil's Den"
+
+[[cards]]
+text = "Cemetery Ridge"
+
+[[cards]]
+text = "CSS Virginia"
+
+[[cards]]
+text = "Julia Ward Howe"
+
+[[cards]]
+text = "Dixie"
+
+[[cards]]
+text = "Greenbacks"
+
+[[cards]]
+text = "Haversack"
+
+[[cards]]
+text = "Brogans"
+
+[[cards]]
+text = "Sutler"
+
+[[cards]]
+text = "Salt Pork"
+
+[[cards]]
+text = "Andersonville Prison"
+
+[[cards]]
+text = "Libby Prison"
+
+[[cards]]
+text = "Copperheads"
+
+[[cards]]
+text = "Radical Republicans"
+
+[[cards]]
+text = "Sharecropping"
+
+[[cards]]
+text = "CSS Alabama"
+
+[[cards]]
+text = "Enfield Rifle"
+
+[[cards]]
+text = "Pontoon Bridge"
+
+[[cards]]
+text = "Trench Warfare"
+
+[[cards]]
+text = "George Thomas"
+
+[[cards]]
+text = "Winfield Scott Hancock"
+
+[[cards]]
+text = "Battle of Mobile Bay"
+
+[[cards]]
+text = "Conscription Act"
+
+[[cards]]
+text = "Trent Affair"
+
+[[cards]]
+text = "Homestead Act"
+
+[[cards]]
+text = "Robert Smalls"
+
+[[cards]]
+text = "CSS Hunley"
+
+[[cards]]
+text = "54th Massachusetts"
+
+[[cards]]
+text = "Billy Yank"
+
+[[cards]]
+text = "Johnny Reb"
+
+[[cards]]
+text = "Mathew Brady"
+
+[[cards]]
+text = "Mary Todd Lincoln"
+
+[[cards]]
+text = "Sojourner Truth"
+
+[[cards]]
+text = "Braxton Bragg"
+
+[[cards]]
+text = "William H. Seward"
+
+[[cards]]
+text = "Zouave"
+
+[[cards]]
+text = "Cartridge Box"
+
+[[cards]]
+text = "Fourteenth Amendment"
+
+[[cards]]
+text = "Fifteenth Amendment"
+
+[[cards]]
+text = "New York Draft Riots"
+
+[[cards]]
+text = "John Bell Hood"
+
+[[cards]]
+text = "Joseph E. Johnston"
+
+[[cards]]
+text = "Battle of Cold Harbor"
+
+[[cards]]
+text = "Battle of Spotsylvania"
+
+[[cards]]
+text = "Fort Wagner"
+
+[[cards]]
+text = "Rose O'Neal Greenhow"
+
+[[cards]]
+text = "Belle Boyd"
+
+[[cards]]
+text = "Allan Pinkerton"
+
+[[cards]]
+text = "Knapsack"
+
+[[cards]]
+text = "Amputation Saw"
+
+[[cards]]
+text = "Chloroform"
+
+[[cards]]
+text = "Sanitary Commission"
+
+[[cards]]
+text = "Spencer Carbine"
+
+[[cards]]
+text = "Fort Pillow"
+
+[[cards]]
+text = "Robert Gould Shaw"
+
+[[cards]]
+text = "Edwin Stanton"
+
+[[cards]]
+text = "Springfield Rifle"
+
+[[cards]]
+text = "Black Codes"
+
+[[cards]]
+text = "Battle of Stones River"
+
+[[cards]]
+text = "Battle of Fort Donelson"
+
+[[cards]]
+text = "Washington, D.C."
+
+[[cards]]
+text = "Montgomery, Alabama"
+
+[[cards]]
+text = "Camp Douglas"
+
+[[cards]]
+text = "Elmira Prison"
+
+[[cards]]
+text = "Wilmer McLean"
+
+[[cards]]
+text = "Bummer"
+
+[[cards]]
+text = "Contraband"
+
+[[cards]]
+text = "Iron Brigade"
+
+[[cards]]
+text = "Orphan Brigade"
+
+[[cards]]
+text = "Irish Brigade"
+
+[[cards]]
+text = "Bread Riots"
+
+[[cards]]
+text = "Battle of Perryville"
+
+[[cards]]
+text = "Battle of Nashville"
+
+[[cards]]
+text = "Battle of Pea Ridge"
+
+[[cards]]
+text = "John C. Fremont"
+
+[[cards]]
+text = "Salmon P. Chase"
+
+[[cards]]
+text = "Border States"
+
+[[cards]]
+text = "Shenandoah Valley"
+
+[[cards]]
+text = "Military Telegraph"
+
+[[cards]]
+text = "Observation Balloon"
+
+[[cards]]
+text = "Hardee Hat"
+
+[[cards]]
+text = "Total War"
+
+[[cards]]
+text = "Cotton Diplomacy"
+
+[[cards]]
+text = "Winfield Scott"
+
+[[cards]]
+text = "Alexander Stephens"
+
+[[cards]]
+text = "The Hornet's Nest"
+
+[[cards]]
+text = "The Crater"
+
+[[cards]]
+text = "Bloody Lane"
+
+[[cards]]
+text = "Furlough"
+
+[[cards]]
+text = "Forage Cap"
+
+[[cards]]
+text = "Mary Surratt"
+
+[[cards]]
+text = "Cumberland Gap"
+
+[[cards]]
+text = "Fort Fisher"
+
+[[cards]]
+text = "Signal Corps"
+
+[[cards]]
+text = "Thaddeus Stevens"
+
+[[cards]]
+text = "Charles Sumner"
+
+[[cards]]
+text = "Mary Chesnut"
+
+[[cards]]
+text = "Abner Doubleday"
+
+[[cards]]
+text = "Benjamin Butler"
+
+[[cards]]
+text = "Nathan Bedford Forrest"
+
+[[cards]]
+text = "Jubal Early"
+
+[[cards]]
+text = "Albert Sidney Johnston"
+
+[[cards]]
+text = "Stand Watie"
+
+[[cards]]
+text = "David Dixon Porter"
+
+[[cards]]
+text = "Battle of Hampton Roads"
+
+[[cards]]
+text = "Battle of Wilson's Creek"
+
+[[cards]]
+text = "Battle of New Market"
+
+[[cards]]
+text = "Battle of Olustee"
+
+[[cards]]
+text = "Battle of Glorieta Pass"
+
+[[cards]]
+text = "Battle of Franklin"
+
+[[cards]]
+text = "Peninsula Campaign"
+
+[[cards]]
+text = "Overland Campaign"
+
+[[cards]]
+text = "Wade-Davis Bill"
+
+[[cards]]
+text = "Second Inaugural Address"
+
+[[cards]]
+text = "Cornerstone Speech"
+
+[[cards]]
+text = "Christian Commission"
+
+[[cards]]
+text = "Home Guard"
+
+[[cards]]
+text = "Union Blockade"
+
+[[cards]]
+text = "War Democrats"
+
+[[cards]]
+text = "Peace Democrats"
+
+[[cards]]
+text = "Abolitionist Movement"
+
+[[cards]]
+text = "Fire-Eaters"
+
+[[cards]]
+text = "Draft Wheel"
+
+[[cards]]
+text = "Mess Kit"
+
+[[cards]]
+text = "Bounty Jumper"
+
+[[cards]]
+text = "John C. Breckinridge"
+
+[[cards]]
+text = "Stephen A. Douglas"
+
+[[cards]]
+text = "House Divided Speech"
+
+[[cards]]
+text = "Suspension of Habeas Corpus"
+
+[[cards]]
+text = "Ten Percent Plan"
+
+[[cards]]
+text = "Tenure of Office Act"
+
+[[cards]]
+text = "Redeemers"
+
+[[cards]]
+text = "Crittenden Compromise"
+
+[[cards]]
+text = "General Irvin McDowell"
+
+[[cards]]
+text = "General John Pope"
+
+[[cards]]
+text = "General William Rosecrans"
+
+[[cards]]
+text = "General John Buford"
+
+[[cards]]
+text = "General John Hunt Morgan"
+
+[[cards]]
+text = "General Fitzhugh Lee"
+
+[[cards]]
+text = "General Patrick Cleburne"
+
+[[cards]]
+text = "General Daniel Sickles"
+
+[[cards]]
+text = "Hannibal Hamlin"
+
+[[cards]]
+text = "Gideon Welles"
+
+[[cards]]
+text = "Elizabeth Van Lew"
+
+[[cards]]
+text = "Sarah Emma Edmonds"
+
+[[cards]]
+text = "Pauline Cushman"
+
+[[cards]]
+text = "Clement Vallandigham"
+
+[[cards]]
+text = "Battle of South Mountain"
+
+[[cards]]
+text = "Battle of Champion Hill"
+
+[[cards]]
+text = "Siege of Port Hudson"
+
+[[cards]]
+text = "Battle of Lookout Mountain"
+
+[[cards]]
+text = "Battle of Missionary Ridge"
+
+[[cards]]
+text = "Battle of Monocacy"
+
+[[cards]]
+text = "Battle of Cedar Creek"
+
+[[cards]]
+text = "Battle of Bentonville"
+
+[[cards]]
+text = "Battle of Drewry's Bluff"
+
+[[cards]]
+text = "Battle of Ball's Bluff"
+
+[[cards]]
+text = "Battle of Belmont"
+
+[[cards]]
+text = "Picket Duty"
+
+[[cards]]
+text = "Fatigue Duty"
+
+[[cards]]
+text = "Housewife Kit"
+
+[[cards]]
+text = "Percussion Cap"
+
+[[cards]]
+text = "Paper Cartridge"
+
+[[cards]]
+text = "Ketchum Grenade"
+
+[[cards]]
+text = "Parrott Rifle"
+
+[[cards]]
+text = "Dahlgren Gun"
+
+[[cards]]
+text = "Grapeshot"
+
+[[cards]]
+text = "Canister Shot"
+
+[[cards]]
+text = "CSS Shenandoah"
+
+[[cards]]
+text = "CSS Florida"
+
+[[cards]]
+text = "Belle Isle Prison"
+
+[[cards]]
+text = "Point Lookout"
+
+[[cards]]
+text = "Camp Chase"
+
+[[cards]]
+text = "Rappahannock River"
+
+[[cards]]
+text = "Rapidan River"
+
+[[cards]]
+text = "Loyalty Oath"
+
+[[cards]]
+text = "General Lew Wallace"
+
+[[cards]]
+text = "Major Robert Anderson"
+
+[[cards]]
+text = "General Leonidas Polk"
+
+[[cards]]
+text = "Battle of Fort Henry"
+
+[[cards]]
+text = "Battle of Kennesaw Mountain"
+
+[[cards]]
+text = "Battle of Palmito Ranch"
+
+[[cards]]
+text = "Dr. Mary Edwards Walker"
+
+[[cards]]
+text = "Ex Parte Milligan"
+
+[[cards]]
+text = "General Richard Ewell"
+
+[[cards]]
+text = "Island Number Ten"
+
+[[cards]]
+text = "General George Custer"
+
+[[cards]]
+text = "St. Albans Raid"
+
+[[cards]]
+text = "General John A. Logan"
+
+[[cards]]
+text = "Fort Pulaski"
+
+[[cards]]
+text = "General Don Carlos Buell"
+
+[[cards]]
+text = "Battle of Corinth"
+
+[[cards]]
+text = "General John Pemberton"
+
+[[cards]]
+text = "Whitworth Rifle"
+
+[[cards]]
+text = "Civil War Tokens"
+
+[[cards]]
+text = "Battle of Mine Run"
+
+[[cards]]
+text = "CSS Arkansas"
+
+[[cards]]
+text = "General Simon Buckner"
+
+[[cards]]
+text = "Battle of Sabine Pass"
+
+[[cards]]
+text = "Thaddeus Lowe"
+
+[[cards]]
+text = "Great Locomotive Chase"

@@ -1,0 +1,756 @@
+id = "deck_1800s-american-history_8b6069a2"
+revision = 2
+name = "1800s American History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 19th-century American expansion, Civil War era, Reconstruction, industrialization, immigration, presidents, inventions, and major events from the 1800s. Prefer real historical people, places, and events."
+photo_file_name = "1800s-american-history-8b6069a2-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Louisiana Purchase"
+
+[[cards]]
+text = "Lewis and Clark"
+
+[[cards]]
+text = "War of 1812"
+
+[[cards]]
+text = "Erie Canal"
+
+[[cards]]
+text = "The Alamo"
+
+[[cards]]
+text = "Trail of Tears"
+
+[[cards]]
+text = "California Gold Rush"
+
+[[cards]]
+text = "Oregon Trail"
+
+[[cards]]
+text = "Pony Express"
+
+[[cards]]
+text = "Underground Railroad"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Frederick Douglass"
+
+[[cards]]
+text = "Sojourner Truth"
+
+[[cards]]
+text = "Uncle Tom's Cabin"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Fort Sumter"
+
+[[cards]]
+text = "Sherman's March"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "Emancipation Proclamation"
+
+[[cards]]
+text = "Ulysses S. Grant"
+
+[[cards]]
+text = "Robert E. Lee"
+
+[[cards]]
+text = "Clara Barton"
+
+[[cards]]
+text = "Ford's Theatre"
+
+[[cards]]
+text = "Reconstruction Era"
+
+[[cards]]
+text = "Transcontinental Railroad"
+
+[[cards]]
+text = "Homestead Act"
+
+[[cards]]
+text = "Sitting Bull"
+
+[[cards]]
+text = "Battle of Little Bighorn"
+
+[[cards]]
+text = "Buffalo Bill"
+
+[[cards]]
+text = "Annie Oakley"
+
+[[cards]]
+text = "Wyatt Earp"
+
+[[cards]]
+text = "Gilded Age"
+
+[[cards]]
+text = "Robber Barons"
+
+[[cards]]
+text = "Andrew Carnegie"
+
+[[cards]]
+text = "John D. Rockefeller"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Susan B. Anthony"
+
+[[cards]]
+text = "Thomas Edison"
+
+[[cards]]
+text = "Alexander Graham Bell"
+
+[[cards]]
+text = "The Telegraph"
+
+[[cards]]
+text = "Cotton Gin"
+
+[[cards]]
+text = "Steam Engine"
+
+[[cards]]
+text = "Brooklyn Bridge"
+
+[[cards]]
+text = "Phonograph"
+
+[[cards]]
+text = "Appomattox Court House"
+
+[[cards]]
+text = "Sacagawea"
+
+[[cards]]
+text = "Andrew Jackson"
+
+[[cards]]
+text = "Seneca Falls Convention"
+
+[[cards]]
+text = "Manifest Destiny"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "James Madison"
+
+[[cards]]
+text = "James Monroe"
+
+[[cards]]
+text = "John Quincy Adams"
+
+[[cards]]
+text = "James K. Polk"
+
+[[cards]]
+text = "Zachary Taylor"
+
+[[cards]]
+text = "Jefferson Davis"
+
+[[cards]]
+text = "Andrew Johnson"
+
+[[cards]]
+text = "Rutherford B. Hayes"
+
+[[cards]]
+text = "Grover Cleveland"
+
+[[cards]]
+text = "William McKinley"
+
+[[cards]]
+text = "Henry Clay"
+
+[[cards]]
+text = "John Brown"
+
+[[cards]]
+text = "Stonewall Jackson"
+
+[[cards]]
+text = "Booker T. Washington"
+
+[[cards]]
+text = "W.E.B. Du Bois"
+
+[[cards]]
+text = "Jane Addams"
+
+[[cards]]
+text = "Ida B. Wells"
+
+[[cards]]
+text = "Geronimo"
+
+[[cards]]
+text = "Chief Joseph"
+
+[[cards]]
+text = "Zebulon Pike"
+
+[[cards]]
+text = "Cornelius Vanderbilt"
+
+[[cards]]
+text = "J.P. Morgan"
+
+[[cards]]
+text = "Samuel Colt"
+
+[[cards]]
+text = "John Deere"
+
+[[cards]]
+text = "Nikola Tesla"
+
+[[cards]]
+text = "Charles Goodyear"
+
+[[cards]]
+text = "Battle of Bull Run"
+
+[[cards]]
+text = "Battle of Antietam"
+
+[[cards]]
+text = "Battle of Shiloh"
+
+[[cards]]
+text = "Missouri Compromise"
+
+[[cards]]
+text = "Compromise of 1850"
+
+[[cards]]
+text = "Bleeding Kansas"
+
+[[cards]]
+text = "Dred Scott Decision"
+
+[[cards]]
+text = "Panic of 1893"
+
+[[cards]]
+text = "Wounded Knee"
+
+[[cards]]
+text = "Spanish-American War"
+
+[[cards]]
+text = "Haymarket Riot"
+
+[[cards]]
+text = "Pullman Strike"
+
+[[cards]]
+text = "Comstock Lode"
+
+[[cards]]
+text = "Chisholm Trail"
+
+[[cards]]
+text = "Sewing Machine"
+
+[[cards]]
+text = "Kodak Camera"
+
+[[cards]]
+text = "Typewriter"
+
+[[cards]]
+text = "Castle Garden"
+
+[[cards]]
+text = "Promontory Summit"
+
+[[cards]]
+text = "Oregon Territory"
+
+[[cards]]
+text = "Temperance Movement"
+
+[[cards]]
+text = "Monroe Doctrine"
+
+[[cards]]
+text = "Whig Party"
+
+[[cards]]
+text = "Robert Fulton"
+
+[[cards]]
+text = "The Star-Spangled Banner"
+
+[[cards]]
+text = "Battle of New Orleans"
+
+[[cards]]
+text = "Uncle Sam"
+
+[[cards]]
+text = "Martin Van Buren"
+
+[[cards]]
+text = "William Henry Harrison"
+
+[[cards]]
+text = "John Tyler"
+
+[[cards]]
+text = "Franklin Pierce"
+
+[[cards]]
+text = "James Buchanan"
+
+[[cards]]
+text = "Stephen A. Douglas"
+
+[[cards]]
+text = "Davy Crockett"
+
+[[cards]]
+text = "Daniel Webster"
+
+[[cards]]
+text = "Lucretia Mott"
+
+[[cards]]
+text = "Elizabeth Cady Stanton"
+
+[[cards]]
+text = "William Lloyd Garrison"
+
+[[cards]]
+text = "The Liberator"
+
+[[cards]]
+text = "Sutter's Mill"
+
+[[cards]]
+text = "Levi Strauss"
+
+[[cards]]
+text = "Blue Jeans"
+
+[[cards]]
+text = "Clipper Ship"
+
+[[cards]]
+text = "Gadsden Purchase"
+
+[[cards]]
+text = "Mason-Dixon Line"
+
+[[cards]]
+text = "Harper's Ferry"
+
+[[cards]]
+text = "Secession"
+
+[[cards]]
+text = "Confederate States of America"
+
+[[cards]]
+text = "Union Army"
+
+[[cards]]
+text = "Siege of Vicksburg"
+
+[[cards]]
+text = "Andersonville Prison"
+
+[[cards]]
+text = "Monitor and Merrimack"
+
+[[cards]]
+text = "Ironclad Ship"
+
+[[cards]]
+text = "Carpetbaggers"
+
+[[cards]]
+text = "Scalawags"
+
+[[cards]]
+text = "Sharecropping"
+
+[[cards]]
+text = "Thirteenth Amendment"
+
+[[cards]]
+text = "Fourteenth Amendment"
+
+[[cards]]
+text = "Fifteenth Amendment"
+
+[[cards]]
+text = "Exodusters"
+
+[[cards]]
+text = "Ghost Dance"
+
+[[cards]]
+text = "Sod House"
+
+[[cards]]
+text = "Barbed Wire"
+
+[[cards]]
+text = "George Washington Carver"
+
+[[cards]]
+text = "Horace Mann"
+
+[[cards]]
+text = "Dorothea Dix"
+
+[[cards]]
+text = "Safety Elevator"
+
+[[cards]]
+text = "Bessemer Process"
+
+[[cards]]
+text = "Standard Oil Company"
+
+[[cards]]
+text = "Pullman Car"
+
+[[cards]]
+text = "Know-Nothing Party"
+
+[[cards]]
+text = "Populist Party"
+
+[[cards]]
+text = "Rough Riders"
+
+[[cards]]
+text = "Mark Twain"
+
+[[cards]]
+text = "Pioneer"
+
+[[cards]]
+text = "Covered Wagon"
+
+[[cards]]
+text = "Conestoga Wagon"
+
+[[cards]]
+text = "Gold Prospector"
+
+[[cards]]
+text = "Cowboy"
+
+[[cards]]
+text = "Saloon"
+
+[[cards]]
+text = "Stagecoach"
+
+[[cards]]
+text = "Morse Code"
+
+[[cards]]
+text = "Great Chicago Fire"
+
+[[cards]]
+text = "Yellowstone National Park"
+
+[[cards]]
+text = "Billy the Kid"
+
+[[cards]]
+text = "Calamity Jane"
+
+[[cards]]
+text = "Jesse James"
+
+[[cards]]
+text = "Wild Bill Hickok"
+
+[[cards]]
+text = "Edgar Allan Poe"
+
+[[cards]]
+text = "Tom Sawyer"
+
+[[cards]]
+text = "Huckleberry Finn"
+
+[[cards]]
+text = "Walt Whitman"
+
+[[cards]]
+text = "Emily Dickinson"
+
+[[cards]]
+text = "Moby Dick"
+
+[[cards]]
+text = "Herman Melville"
+
+[[cards]]
+text = "Oklahoma Land Rush"
+
+[[cards]]
+text = "Golden Spike"
+
+[[cards]]
+text = "Steamboat"
+
+[[cards]]
+text = "Abolitionists"
+
+[[cards]]
+text = "Suffragists"
+
+[[cards]]
+text = "Lowell Mill Girls"
+
+[[cards]]
+text = "John Henry"
+
+[[cards]]
+text = "Paul Bunyan"
+
+[[cards]]
+text = "Log Cabin"
+
+[[cards]]
+text = "Flatboat"
+
+[[cards]]
+text = "Texas Republic"
+
+[[cards]]
+text = "Battle of San Jacinto"
+
+[[cards]]
+text = "Ghost Town"
+
+[[cards]]
+text = "Boomtown"
+
+[[cards]]
+text = "Yellow Journalism"
+
+[[cards]]
+text = "Bicycle Craze"
+
+[[cards]]
+text = "Civil War Soldier"
+
+[[cards]]
+text = "Blue and Gray"
+
+[[cards]]
+text = "Dixie"
+
+[[cards]]
+text = "John Muir"
+
+[[cards]]
+text = "Sierra Club"
+
+[[cards]]
+text = "George Armstrong Custer"
+
+[[cards]]
+text = "Wild West Show"
+
+[[cards]]
+text = "Sodbuster"
+
+[[cards]]
+text = "Cattle Drive"
+
+[[cards]]
+text = "Transatlantic Cable"
+
+[[cards]]
+text = "Gatling Gun"
+
+[[cards]]
+text = "Gibson Girl"
+
+[[cards]]
+text = "Millard Fillmore"
+
+[[cards]]
+text = "James A. Garfield"
+
+[[cards]]
+text = "Chester A. Arthur"
+
+[[cards]]
+text = "Benjamin Harrison"
+
+[[cards]]
+text = "Carry Nation"
+
+[[cards]]
+text = "Eli Whitney"
+
+[[cards]]
+text = "Cyrus McCormick"
+
+[[cards]]
+text = "Mechanical Reaper"
+
+[[cards]]
+text = "Anaconda Plan"
+
+[[cards]]
+text = "Border States"
+
+[[cards]]
+text = "Copperheads"
+
+[[cards]]
+text = "Greenbacks"
+
+[[cards]]
+text = "Hunley Submarine"
+
+[[cards]]
+text = "General George McClellan"
+
+[[cards]]
+text = "Admiral David Farragut"
+
+[[cards]]
+text = "Minié Ball"
+
+[[cards]]
+text = "Santa Fe Trail"
+
+[[cards]]
+text = "Pikes Peak"
+
+[[cards]]
+text = "Seward's Folly"
+
+[[cards]]
+text = "Crazy Horse"
+
+[[cards]]
+text = "Donner Party"
+
+[[cards]]
+text = "Remember the Alamo"
+
+[[cards]]
+text = "General Santa Anna"
+
+[[cards]]
+text = "Declaration of Sentiments"
+
+[[cards]]
+text = "Free Soil Party"
+
+[[cards]]
+text = "Tammany Hall"
+
+[[cards]]
+text = "Boss Tweed"
+
+[[cards]]
+text = "Thomas Nast"
+
+[[cards]]
+text = "Irish Potato Famine"
+
+[[cards]]
+text = "Tenement House"
+
+[[cards]]
+text = "Jacob Riis"
+
+[[cards]]
+text = "Hull House"
+
+[[cards]]
+text = "Homestead Strike"
+
+[[cards]]
+text = "Knights of Labor"
+
+[[cards]]
+text = "Samuel Gompers"
+
+[[cards]]
+text = "John C. Calhoun"
+
+[[cards]]
+text = "Nullification Crisis"
+
+[[cards]]
+text = "Caning of Charles Sumner"
+
+[[cards]]
+text = "Radical Republicans"
+
+[[cards]]
+text = "Jim Crow Laws"
+
+[[cards]]
+text = "Plessy v. Ferguson"
+
+[[cards]]
+text = "Compromise of 1877"
+
+[[cards]]
+text = "John Marshall"
+
+[[cards]]
+text = "Marbury v. Madison"
+
+[[cards]]
+text = "Roger B. Taney"
+
+[[cards]]
+text = "Washington Irving"
+
+[[cards]]
+text = "John Wesley Powell"
+
+[[cards]]
+text = "B&O Railroad"
+
+[[cards]]
+text = "Standard Time Zones"

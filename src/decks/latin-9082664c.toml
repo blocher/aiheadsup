@@ -1,0 +1,606 @@
+id = "deck_latin_9082664c"
+revision = 2
+name = "Latin"
+category = "Languages"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be real Classical Latin vocabulary words and short phrases (1-4 words) commonly taught in introductory Latin. Put the Latin word or phrase itself on the card. Prefer well-attested textbook vocabulary. No invented Latin, no English-only prompts."
+photo_file_name = "latin-9082664c-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Amicus"
+
+[[cards]]
+text = "Gladius"
+
+[[cards]]
+text = "Pecunia"
+
+[[cards]]
+text = "Agricola"
+
+[[cards]]
+text = "Magister"
+
+[[cards]]
+text = "Discipulus"
+
+[[cards]]
+text = "Roma"
+
+[[cards]]
+text = "Canis"
+
+[[cards]]
+text = "Feles"
+
+[[cards]]
+text = "Taberna"
+
+[[cards]]
+text = "Villa"
+
+[[cards]]
+text = "Forum"
+
+[[cards]]
+text = "Via"
+
+[[cards]]
+text = "Aqua"
+
+[[cards]]
+text = "Ignis"
+
+[[cards]]
+text = "Terra"
+
+[[cards]]
+text = "Caelum"
+
+[[cards]]
+text = "Silva"
+
+[[cards]]
+text = "Equus"
+
+[[cards]]
+text = "Leo"
+
+[[cards]]
+text = "Pater"
+
+[[cards]]
+text = "Mater"
+
+[[cards]]
+text = "Filius"
+
+[[cards]]
+text = "Filia"
+
+[[cards]]
+text = "Rex"
+
+[[cards]]
+text = "Regina"
+
+[[cards]]
+text = "Senator"
+
+[[cards]]
+text = "Poeta"
+
+[[cards]]
+text = "Nauta"
+
+[[cards]]
+text = "Miles"
+
+[[cards]]
+text = "Urbs"
+
+[[cards]]
+text = "Oppidum"
+
+[[cards]]
+text = "Insula"
+
+[[cards]]
+text = "Mons"
+
+[[cards]]
+text = "Flumen"
+
+[[cards]]
+text = "Mare"
+
+[[cards]]
+text = "Navis"
+
+[[cards]]
+text = "Epistula"
+
+[[cards]]
+text = "Liber"
+
+[[cards]]
+text = "Templum"
+
+[[cards]]
+text = "Gladiator"
+
+[[cards]]
+text = "Amor"
+
+[[cards]]
+text = "Pax"
+
+[[cards]]
+text = "Bellum"
+
+[[cards]]
+text = "Scutum"
+
+[[cards]]
+text = "Arbor"
+
+[[cards]]
+text = "Panis"
+
+[[cards]]
+text = "Vinum"
+
+[[cards]]
+text = "Pugna"
+
+[[cards]]
+text = "Carpe diem"
+
+[[cards]]
+text = "Lupus"
+
+[[cards]]
+text = "Auxilium"
+
+[[cards]]
+text = "Galea"
+
+[[cards]]
+text = "Scribere"
+
+[[cards]]
+text = "Currere"
+
+[[cards]]
+text = "Dormire"
+
+[[cards]]
+text = "Ridere"
+
+[[cards]]
+text = "Clamare"
+
+[[cards]]
+text = "Nuntius"
+
+[[cards]]
+text = "Ianua"
+
+[[cards]]
+text = "Porta"
+
+[[cards]]
+text = "Fenestra"
+
+[[cards]]
+text = "Festina lente"
+
+[[cards]]
+text = "Avis"
+
+[[cards]]
+text = "Piscis"
+
+[[cards]]
+text = "Corona"
+
+[[cards]]
+text = "Toga"
+
+[[cards]]
+text = "Tunica"
+
+[[cards]]
+text = "Sella"
+
+[[cards]]
+text = "Mensa"
+
+[[cards]]
+text = "Cena"
+
+[[cards]]
+text = "Cibus"
+
+[[cards]]
+text = "Pila"
+
+[[cards]]
+text = "Somnus"
+
+[[cards]]
+text = "Ursa"
+
+[[cards]]
+text = "Serpens"
+
+[[cards]]
+text = "Veni vidi vici"
+
+[[cards]]
+text = "Lucerna"
+
+[[cards]]
+text = "Nota bene"
+
+[[cards]]
+text = "Servus"
+
+[[cards]]
+text = "Dominus"
+
+[[cards]]
+text = "Domina"
+
+[[cards]]
+text = "Senex"
+
+[[cards]]
+text = "Iuvenis"
+
+[[cards]]
+text = "Infans"
+
+[[cards]]
+text = "Ad astra"
+
+[[cards]]
+text = "Sol"
+
+[[cards]]
+text = "Luna"
+
+[[cards]]
+text = "Stella"
+
+[[cards]]
+text = "Pluvia"
+
+[[cards]]
+text = "Nix"
+
+[[cards]]
+text = "Umbra"
+
+[[cards]]
+text = "Monstrum"
+
+[[cards]]
+text = "Gemma"
+
+[[cards]]
+text = "Aurum"
+
+[[cards]]
+text = "Argentum"
+
+[[cards]]
+text = "Anulus"
+
+[[cards]]
+text = "Saccus"
+
+[[cards]]
+text = "Sagitta"
+
+[[cards]]
+text = "Arcus"
+
+[[cards]]
+text = "Puer"
+
+[[cards]]
+text = "Puella"
+
+[[cards]]
+text = "Vir"
+
+[[cards]]
+text = "Femina"
+
+[[cards]]
+text = "Homo"
+
+[[cards]]
+text = "Deus"
+
+[[cards]]
+text = "Dea"
+
+[[cards]]
+text = "Frater"
+
+[[cards]]
+text = "Soror"
+
+[[cards]]
+text = "Domus"
+
+[[cards]]
+text = "Hortus"
+
+[[cards]]
+text = "Patria"
+
+[[cards]]
+text = "Civis"
+
+[[cards]]
+text = "Lex"
+
+[[cards]]
+text = "Dux"
+
+[[cards]]
+text = "Hostis"
+
+[[cards]]
+text = "Castra"
+
+[[cards]]
+text = "Iter"
+
+[[cards]]
+text = "Caput"
+
+[[cards]]
+text = "Oculus"
+
+[[cards]]
+text = "Manus"
+
+[[cards]]
+text = "Pes"
+
+[[cards]]
+text = "Cor"
+
+[[cards]]
+text = "Vox"
+
+[[cards]]
+text = "Tempus"
+
+[[cards]]
+text = "Taurus"
+
+[[cards]]
+text = "Vulpes"
+
+[[cards]]
+text = "Ovis"
+
+[[cards]]
+text = "Mus"
+
+[[cards]]
+text = "Elephantus"
+
+[[cards]]
+text = "Flos"
+
+[[cards]]
+text = "Folium"
+
+[[cards]]
+text = "Fructus"
+
+[[cards]]
+text = "Ventus"
+
+[[cards]]
+text = "Nubes"
+
+[[cards]]
+text = "Glacies"
+
+[[cards]]
+text = "Lapis"
+
+[[cards]]
+text = "Ferrum"
+
+[[cards]]
+text = "Calceus"
+
+[[cards]]
+text = "Currus"
+
+[[cards]]
+text = "Hasta"
+
+[[cards]]
+text = "Pilum"
+
+[[cards]]
+text = "Statua"
+
+[[cards]]
+text = "Medicus"
+
+[[cards]]
+text = "Sacerdos"
+
+[[cards]]
+text = "Pirata"
+
+[[cards]]
+text = "Persona non grata"
+
+[[cards]]
+text = "Magnum opus"
+
+[[cards]]
+text = "Alma mater"
+
+[[cards]]
+text = "Habitare"
+
+[[cards]]
+text = "Docere"
+
+[[cards]]
+text = "Legere"
+
+[[cards]]
+text = "Audire"
+
+[[cards]]
+text = "Vincere"
+
+[[cards]]
+text = "Cantare"
+
+[[cards]]
+text = "Volare"
+
+[[cards]]
+text = "Ambulare"
+
+[[cards]]
+text = "Ludere"
+
+[[cards]]
+text = "Laborare"
+
+[[cards]]
+text = "Aquila"
+
+[[cards]]
+text = "Cervus"
+
+[[cards]]
+text = "Bestia"
+
+[[cards]]
+text = "Draco"
+
+[[cards]]
+text = "Delphinus"
+
+[[cards]]
+text = "Asinus"
+
+[[cards]]
+text = "Anas"
+
+[[cards]]
+text = "Lectus"
+
+[[cards]]
+text = "Poculum"
+
+[[cards]]
+text = "Clavis"
+
+[[cards]]
+text = "Stilus"
+
+[[cards]]
+text = "Cera"
+
+[[cards]]
+text = "Atrium"
+
+[[cards]]
+text = "Cubiculum"
+
+[[cards]]
+text = "Culina"
+
+[[cards]]
+text = "Theatrum"
+
+[[cards]]
+text = "Circus"
+
+[[cards]]
+text = "Bibliotheca"
+
+[[cards]]
+text = "Thermae"
+
+[[cards]]
+text = "Coquus"
+
+[[cards]]
+text = "Mercator"
+
+[[cards]]
+text = "Faber"
+
+[[cards]]
+text = "Tonsor"
+
+[[cards]]
+text = "Custos"
+
+[[cards]]
+text = "Captivus"
+
+[[cards]]
+text = "Socius"
+
+[[cards]]
+text = "Triumphus"
+
+[[cards]]
+text = "Lorica"
+
+[[cards]]
+text = "Quadriga"
+
+[[cards]]
+text = "Focus"
+
+[[cards]]
+text = "Murus"
+
+[[cards]]
+text = "Tectum"
+
+[[cards]]
+text = "Columna"
+
+[[cards]]
+text = "Tabula rasa"
+
+[[cards]]
+text = "Mea culpa"
+
+[[cards]]
+text = "Status quo"
+
+[[cards]]
+text = "Alter ego"
+
+[[cards]]
+text = "Bona fide"
+
+[[cards]]
+text = "Memento mori"
+
+[[cards]]
+text = "In medias res"

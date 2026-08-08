@@ -1,0 +1,384 @@
+id = "deck_african-countries_20cc9710"
+revision = 1
+name = "African Countries"
+category = "Geography"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be real African countries and well-known related geography such as capitals, major cities, landmarks, deserts, rivers, and regions. Prefer country names first. No invented countries."
+photo_file_name = "african-countries-20cc9710-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Egypt"
+
+[[cards]]
+text = "South Africa"
+
+[[cards]]
+text = "Kenya"
+
+[[cards]]
+text = "Morocco"
+
+[[cards]]
+text = "Nigeria"
+
+[[cards]]
+text = "Madagascar"
+
+[[cards]]
+text = "Ethiopia"
+
+[[cards]]
+text = "Algeria"
+
+[[cards]]
+text = "Ghana"
+
+[[cards]]
+text = "Tanzania"
+
+[[cards]]
+text = "Uganda"
+
+[[cards]]
+text = "Zimbabwe"
+
+[[cards]]
+text = "Senegal"
+
+[[cards]]
+text = "Sudan"
+
+[[cards]]
+text = "Angola"
+
+[[cards]]
+text = "Mozambique"
+
+[[cards]]
+text = "Tunisia"
+
+[[cards]]
+text = "Cameroon"
+
+[[cards]]
+text = "Ivory Coast"
+
+[[cards]]
+text = "Rwanda"
+
+[[cards]]
+text = "Democratic Republic of Congo"
+
+[[cards]]
+text = "Somalia"
+
+[[cards]]
+text = "Libya"
+
+[[cards]]
+text = "Zambia"
+
+[[cards]]
+text = "Botswana"
+
+[[cards]]
+text = "Namibia"
+
+[[cards]]
+text = "Cairo"
+
+[[cards]]
+text = "Cape Town"
+
+[[cards]]
+text = "Nairobi"
+
+[[cards]]
+text = "Marrakesh"
+
+[[cards]]
+text = "Lagos"
+
+[[cards]]
+text = "Johannesburg"
+
+[[cards]]
+text = "Casablanca"
+
+[[cards]]
+text = "Dakar"
+
+[[cards]]
+text = "Sahara Desert"
+
+[[cards]]
+text = "Nile River"
+
+[[cards]]
+text = "Mount Kilimanjaro"
+
+[[cards]]
+text = "Victoria Falls"
+
+[[cards]]
+text = "Serengeti National Park"
+
+[[cards]]
+text = "Congo River"
+
+[[cards]]
+text = "Table Mountain"
+
+[[cards]]
+text = "Lake Victoria"
+
+[[cards]]
+text = "Kalahari Desert"
+
+[[cards]]
+text = "Red Sea"
+
+[[cards]]
+text = "Great Rift Valley"
+
+[[cards]]
+text = "Suez Canal"
+
+[[cards]]
+text = "Horn of Africa"
+
+[[cards]]
+text = "Atlas Mountains"
+
+[[cards]]
+text = "Cape of Good Hope"
+
+[[cards]]
+text = "Mount Kenya"
+
+[[cards]]
+text = "Mali"
+
+[[cards]]
+text = "Mauritius"
+
+[[cards]]
+text = "Seychelles"
+
+[[cards]]
+text = "Cape Verde"
+
+[[cards]]
+text = "Malawi"
+
+[[cards]]
+text = "Gabon"
+
+[[cards]]
+text = "Sierra Leone"
+
+[[cards]]
+text = "Liberia"
+
+[[cards]]
+text = "Togo"
+
+[[cards]]
+text = "Benin"
+
+[[cards]]
+text = "Niger"
+
+[[cards]]
+text = "Chad"
+
+[[cards]]
+text = "Eritrea"
+
+[[cards]]
+text = "Djibouti"
+
+[[cards]]
+text = "South Sudan"
+
+[[cards]]
+text = "Republic of the Congo"
+
+[[cards]]
+text = "Mauritania"
+
+[[cards]]
+text = "Guinea"
+
+[[cards]]
+text = "Lesotho"
+
+[[cards]]
+text = "Eswatini"
+
+[[cards]]
+text = "Burkina Faso"
+
+[[cards]]
+text = "Burundi"
+
+[[cards]]
+text = "Comoros"
+
+[[cards]]
+text = "Equatorial Guinea"
+
+[[cards]]
+text = "Gambia"
+
+[[cards]]
+text = "Timbuktu"
+
+[[cards]]
+text = "Alexandria"
+
+[[cards]]
+text = "Zanzibar"
+
+[[cards]]
+text = "Lake Malawi"
+
+[[cards]]
+text = "Luanda"
+
+[[cards]]
+text = "Addis Ababa"
+
+[[cards]]
+text = "Accra"
+
+[[cards]]
+text = "Khartoum"
+
+[[cards]]
+text = "Maputo"
+
+[[cards]]
+text = "Windhoek"
+
+[[cards]]
+text = "Antananarivo"
+
+[[cards]]
+text = "Rabat"
+
+[[cards]]
+text = "Fes"
+
+[[cards]]
+text = "Kruger National Park"
+
+[[cards]]
+text = "Orange River"
+
+[[cards]]
+text = "Zambezi River"
+
+[[cards]]
+text = "Limpopo River"
+
+[[cards]]
+text = "Lake Tanganyika"
+
+[[cards]]
+text = "Okavango Delta"
+
+[[cards]]
+text = "Lake Chad"
+
+[[cards]]
+text = "Niger River"
+
+[[cards]]
+text = "Blue Nile"
+
+[[cards]]
+text = "Carthage"
+
+[[cards]]
+text = "Drakensberg Mountains"
+
+[[cards]]
+text = "Namib Desert"
+
+[[cards]]
+text = "Central African Republic"
+
+[[cards]]
+text = "Guinea-Bissau"
+
+[[cards]]
+text = "São Tomé and Príncipe"
+
+[[cards]]
+text = "Kampala"
+
+[[cards]]
+text = "Kigali"
+
+[[cards]]
+text = "Tripoli"
+
+[[cards]]
+text = "Mogadishu"
+
+[[cards]]
+text = "Harare"
+
+[[cards]]
+text = "Pretoria"
+
+[[cards]]
+text = "Abuja"
+
+[[cards]]
+text = "Mombasa"
+
+[[cards]]
+text = "Durban"
+
+[[cards]]
+text = "Luxor"
+
+[[cards]]
+text = "Lalibela"
+
+[[cards]]
+text = "Pyramids of Giza"
+
+[[cards]]
+text = "Great Sphinx"
+
+[[cards]]
+text = "Ngorongoro Crater"
+
+[[cards]]
+text = "Maasai Mara"
+
+[[cards]]
+text = "Valley of the Kings"
+
+[[cards]]
+text = "Rwenzori Mountains"
+
+[[cards]]
+text = "Skeleton Coast"
+
+[[cards]]
+text = "Abu Simbel"
+
+[[cards]]
+text = "Danakil Depression"
+
+[[cards]]
+text = "Cape Agulhas"
+
+[[cards]]
+text = "Lake Kivu"

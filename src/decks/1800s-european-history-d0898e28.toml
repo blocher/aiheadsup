@@ -1,0 +1,753 @@
+id = "deck_1800s-european-history_d0898e28"
+revision = 1
+name = "1800s European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 19th-century European industrialization, revolutions, empires, wars, nationalism, and major developments of the 1800s. Prefer real historical people, places, and events."
+photo_file_name = "1800s-european-history-d0898e28-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Napoleon Bonaparte"
+
+[[cards]]
+text = "Queen Victoria"
+
+[[cards]]
+text = "Otto von Bismarck"
+
+[[cards]]
+text = "Karl Marx"
+
+[[cards]]
+text = "Florence Nightingale"
+
+[[cards]]
+text = "Charles Darwin"
+
+[[cards]]
+text = "Louis Pasteur"
+
+[[cards]]
+text = "Giuseppe Garibaldi"
+
+[[cards]]
+text = "Tsar Alexander II"
+
+[[cards]]
+text = "Napoleon III"
+
+[[cards]]
+text = "Ada Lovelace"
+
+[[cards]]
+text = "Ludwig van Beethoven"
+
+[[cards]]
+text = "Battle of Waterloo"
+
+[[cards]]
+text = "Congress of Vienna"
+
+[[cards]]
+text = "Crimean War"
+
+[[cards]]
+text = "Franco-Prussian War"
+
+[[cards]]
+text = "Industrial Revolution"
+
+[[cards]]
+text = "Great Irish Famine"
+
+[[cards]]
+text = "Greek War of Independence"
+
+[[cards]]
+text = "The Light Brigade"
+
+[[cards]]
+text = "Steam Locomotive"
+
+[[cards]]
+text = "Electric Telegraph"
+
+[[cards]]
+text = "Big Ben"
+
+[[cards]]
+text = "Eiffel Tower"
+
+[[cards]]
+text = "Suez Canal"
+
+[[cards]]
+text = "The Communist Manifesto"
+
+[[cards]]
+text = "British Empire"
+
+[[cards]]
+text = "Victorian Era"
+
+[[cards]]
+text = "Austro-Hungarian Empire"
+
+[[cards]]
+text = "Ottoman Empire"
+
+[[cards]]
+text = "Unification of Italy"
+
+[[cards]]
+text = "Unification of Germany"
+
+[[cards]]
+text = "Pax Britannica"
+
+[[cards]]
+text = "Power Loom"
+
+[[cards]]
+text = "Trans-Siberian Railway"
+
+[[cards]]
+text = "Berlin Conference"
+
+[[cards]]
+text = "Great Exhibition"
+
+[[cards]]
+text = "Crystal Palace"
+
+[[cards]]
+text = "Origin of Species"
+
+[[cards]]
+text = "International Red Cross"
+
+[[cards]]
+text = "Impressionism"
+
+[[cards]]
+text = "Romanticism"
+
+[[cards]]
+text = "Suffragette Movement"
+
+[[cards]]
+text = "Penny Black"
+
+[[cards]]
+text = "Arc de Triomphe"
+
+[[cards]]
+text = "Ode to Joy"
+
+[[cards]]
+text = "Victor Hugo"
+
+[[cards]]
+text = "Leo Tolstoy"
+
+[[cards]]
+text = "Brothers Grimm"
+
+[[cards]]
+text = "Gas Lighting"
+
+[[cards]]
+text = "Battle of Trafalgar"
+
+[[cards]]
+text = "Battle of Austerlitz"
+
+[[cards]]
+text = "Concert of Europe"
+
+[[cards]]
+text = "Revolutions of 1848"
+
+[[cards]]
+text = "Paris Commune"
+
+[[cards]]
+text = "Dreyfus Affair"
+
+[[cards]]
+text = "July Revolution"
+
+[[cards]]
+text = "Prince Metternich"
+
+[[cards]]
+text = "Kaiser Wilhelm I"
+
+[[cards]]
+text = "King Leopold II"
+
+[[cards]]
+text = "Benjamin Disraeli"
+
+[[cards]]
+text = "William Gladstone"
+
+[[cards]]
+text = "Count Cavour"
+
+[[cards]]
+text = "Emperor Franz Joseph"
+
+[[cards]]
+text = "Tsar Nicholas I"
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Gregor Mendel"
+
+[[cards]]
+text = "Michael Faraday"
+
+[[cards]]
+text = "Alfred Nobel"
+
+[[cards]]
+text = "Mary Shelley"
+
+[[cards]]
+text = "Jane Austen"
+
+[[cards]]
+text = "Charles Dickens"
+
+[[cards]]
+text = "Jules Verne"
+
+[[cards]]
+text = "Arthur Conan Doyle"
+
+[[cards]]
+text = "Pyotr Ilyich Tchaikovsky"
+
+[[cards]]
+text = "Giuseppe Verdi"
+
+[[cards]]
+text = "Richard Wagner"
+
+[[cards]]
+text = "Vincent van Gogh"
+
+[[cards]]
+text = "Claude Monet"
+
+[[cards]]
+text = "Lord Byron"
+
+[[cards]]
+text = "Dynamite"
+
+[[cards]]
+text = "Penny Farthing"
+
+[[cards]]
+text = "Daguerreotype"
+
+[[cards]]
+text = "Orient Express"
+
+[[cards]]
+text = "Tower Bridge"
+
+[[cards]]
+text = "Trafalgar Square"
+
+[[cards]]
+text = "Zollverein"
+
+[[cards]]
+text = "Maxim Gun"
+
+[[cards]]
+text = "Chartists"
+
+[[cards]]
+text = "Bessemer Process"
+
+[[cards]]
+text = "Decembrist Revolt"
+
+[[cards]]
+text = "Great Game"
+
+[[cards]]
+text = "Triple Alliance"
+
+[[cards]]
+text = "Reform Act of 1832"
+
+[[cards]]
+text = "Hans Christian Andersen"
+
+[[cards]]
+text = "Elizabeth Fry"
+
+[[cards]]
+text = "Robert Peel"
+
+[[cards]]
+text = "Alexander Pushkin"
+
+[[cards]]
+text = "Karl Benz"
+
+[[cards]]
+text = "Duke of Wellington"
+
+[[cards]]
+text = "Charlotte Bronte"
+
+[[cards]]
+text = "Charles Babbage"
+
+[[cards]]
+text = "William Wilberforce"
+
+[[cards]]
+text = "King Ludwig II"
+
+[[cards]]
+text = "Isambard Kingdom Brunel"
+
+[[cards]]
+text = "Robert Koch"
+
+[[cards]]
+text = "Alexander von Humboldt"
+
+[[cards]]
+text = "Franz Liszt"
+
+[[cards]]
+text = "Friedrich Nietzsche"
+
+[[cards]]
+text = "Oscar Wilde"
+
+[[cards]]
+text = "Émile Zola"
+
+[[cards]]
+text = "Mary Anning"
+
+[[cards]]
+text = "Lumière Brothers"
+
+[[cards]]
+text = "Dmitri Mendeleev"
+
+[[cards]]
+text = "John Stuart Mill"
+
+[[cards]]
+text = "Luddites"
+
+[[cards]]
+text = "Neuschwanstein Castle"
+
+[[cards]]
+text = "Royal Albert Hall"
+
+[[cards]]
+text = "St. Pancras Station"
+
+[[cards]]
+text = "Palace of Westminster"
+
+[[cards]]
+text = "Peninsular War"
+
+[[cards]]
+text = "Battle of Leipzig"
+
+[[cards]]
+text = "Battle of Solferino"
+
+[[cards]]
+text = "Battle of Sedan"
+
+[[cards]]
+text = "Belgian Revolution"
+
+[[cards]]
+text = "Peterloo Massacre"
+
+[[cards]]
+text = "Corn Laws"
+
+[[cards]]
+text = "Young Italy"
+
+[[cards]]
+text = "Carbonari"
+
+[[cards]]
+text = "Abolition of Serfdom"
+
+[[cards]]
+text = "Franco-Russian Alliance"
+
+[[cards]]
+text = "Periodic Table"
+
+[[cards]]
+text = "Stethoscope"
+
+[[cards]]
+text = "Bunsen Burner"
+
+[[cards]]
+text = "Cinematograph"
+
+[[cards]]
+text = "X-Rays"
+
+[[cards]]
+text = "Safety Match"
+
+[[cards]]
+text = "Pneumatic Tyre"
+
+[[cards]]
+text = "Dracula"
+
+[[cards]]
+text = "The Time Machine"
+
+[[cards]]
+text = "The Blue Danube"
+
+[[cards]]
+text = "Realism"
+
+[[cards]]
+text = "Pointillism"
+
+[[cards]]
+text = "Velocipede"
+
+[[cards]]
+text = "Steam Hammer"
+
+[[cards]]
+text = "Irish Home Rule"
+
+[[cards]]
+text = "Kiel Canal"
+
+[[cards]]
+text = "Sewing Machine"
+
+[[cards]]
+text = "Scramble for Africa"
+
+[[cards]]
+text = "Giuseppe Mazzini"
+
+[[cards]]
+text = "Prince Albert"
+
+[[cards]]
+text = "Czar Nicholas II"
+
+[[cards]]
+text = "Jack the Ripper"
+
+[[cards]]
+text = "Scotland Yard"
+
+[[cards]]
+text = "The Great Stink"
+
+[[cards]]
+text = "London Underground"
+
+[[cards]]
+text = "SS Great Britain"
+
+[[cards]]
+text = "Joseph Lister"
+
+[[cards]]
+text = "John Snow"
+
+[[cards]]
+text = "Emmeline Pankhurst"
+
+[[cards]]
+text = "Davy Lamp"
+
+[[cards]]
+text = "Stephenson's Rocket"
+
+[[cards]]
+text = "Penny Post"
+
+[[cards]]
+text = "Daniel O'Connell"
+
+[[cards]]
+text = "Charles Stewart Parnell"
+
+[[cards]]
+text = "Austro-Prussian War"
+
+[[cards]]
+text = "Alsace-Lorraine"
+
+[[cards]]
+text = "Kaiser Wilhelm II"
+
+[[cards]]
+text = "Fyodor Dostoevsky"
+
+[[cards]]
+text = "Henrik Ibsen"
+
+[[cards]]
+text = "Anton Chekhov"
+
+[[cards]]
+text = "Edgar Degas"
+
+[[cards]]
+text = "Auguste Rodin"
+
+[[cards]]
+text = "William Morris"
+
+[[cards]]
+text = "Arts and Crafts Movement"
+
+[[cards]]
+text = "Louis Braille"
+
+[[cards]]
+text = "Johann Strauss II"
+
+[[cards]]
+text = "Bram Stoker"
+
+[[cards]]
+text = "H. G. Wells"
+
+[[cards]]
+text = "Friedrich Engels"
+
+[[cards]]
+text = "Geneva Convention"
+
+[[cards]]
+text = "Ironclad Warship"
+
+[[cards]]
+text = "Victorian Workhouse"
+
+[[cards]]
+text = "Sick Man of Europe"
+
+[[cards]]
+text = "Congress of Berlin"
+
+[[cards]]
+text = "Opium Wars"
+
+[[cards]]
+text = "Boxer Rebellion"
+
+[[cards]]
+text = "King Louis XVIII"
+
+[[cards]]
+text = "Louis Philippe"
+
+[[cards]]
+text = "Third French Republic"
+
+[[cards]]
+text = "Balmoral Castle"
+
+[[cards]]
+text = "Salvation Army"
+
+[[cards]]
+text = "Factory Acts"
+
+[[cards]]
+text = "Penny Dreadful"
+
+[[cards]]
+text = "Punch Magazine"
+
+[[cards]]
+text = "Rotten Boroughs"
+
+[[cards]]
+text = "Tolpuddle Martyrs"
+
+[[cards]]
+text = "Lord Kelvin"
+
+[[cards]]
+text = "James Clerk Maxwell"
+
+[[cards]]
+text = "Napoleonic Code"
+
+[[cards]]
+text = "Saint Helena"
+
+[[cards]]
+text = "Tsar Alexander I"
+
+[[cards]]
+text = "Battle of Borodino"
+
+[[cards]]
+text = "Elba"
+
+[[cards]]
+text = "The Rosetta Stone"
+
+[[cards]]
+text = "Regency Era"
+
+[[cards]]
+text = "King George IV"
+
+[[cards]]
+text = "King William IV"
+
+[[cards]]
+text = "George Stephenson"
+
+[[cards]]
+text = "Railway Mania"
+
+[[cards]]
+text = "Broad Gauge"
+
+[[cards]]
+text = "SS Great Eastern"
+
+[[cards]]
+text = "Transatlantic Cable"
+
+[[cards]]
+text = "Das Kapital"
+
+[[cards]]
+text = "Robert Owen"
+
+[[cards]]
+text = "People's Charter"
+
+[[cards]]
+text = "Poor Law"
+
+[[cards]]
+text = "Mines Act of 1842"
+
+[[cards]]
+text = "Ten Hours Act"
+
+[[cards]]
+text = "Edwin Chadwick"
+
+[[cards]]
+text = "Bobbies"
+
+[[cards]]
+text = "Penal Transportation"
+
+[[cards]]
+text = "Botany Bay"
+
+[[cards]]
+text = "Fenian Brotherhood"
+
+[[cards]]
+text = "Victor Emmanuel II"
+
+[[cards]]
+text = "Risorgimento"
+
+[[cards]]
+text = "Redshirts"
+
+[[cards]]
+text = "Expedition of the Thousand"
+
+[[cards]]
+text = "Ems Dispatch"
+
+[[cards]]
+text = "Helmuth von Moltke"
+
+[[cards]]
+text = "Siege of Paris"
+
+[[cards]]
+text = "Krupp Steel"
+
+[[cards]]
+text = "Alfred Dreyfus"
+
+[[cards]]
+text = "J'Accuse"
+
+[[cards]]
+text = "Tsar Alexander III"
+
+[[cards]]
+text = "Mikhail Bakunin"
+
+[[cards]]
+text = "Empress of India"
+
+[[cards]]
+text = "East India Company"
+
+[[cards]]
+text = "British Raj"
+
+[[cards]]
+text = "Treaty of Nanking"
+
+[[cards]]
+text = "Congo Free State"
+
+[[cards]]
+text = "Empress Elisabeth of Austria"
+
+[[cards]]
+text = "Young Turks"
+
+[[cards]]
+text = "Battle of Navarino"
+
+[[cards]]
+text = "Russo-Turkish War"
+
+[[cards]]
+text = "Splendid Isolation"
+
+[[cards]]
+text = "Fashoda Incident"
+
+[[cards]]
+text = "Boer Wars"

@@ -1,0 +1,802 @@
+id = "deck_a-series-of-unfortunate-events_b2df53e8"
+revision = 2
+name = "A Series of Unfortunate Events"
+category = "Books"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, places, books, villains, inventions, Baudelaire orphans' adventures, and memorable details from Lemony Snicket's A Series of Unfortunate Events books. Prefer book-series content; keep family-friendly. Tag every card with the earliest book installment where it is revealed."
+photo_file_name = "a-series-of-unfortunate-events-b2df53e8-cover.jpg"
+spoiler_mode = true
+spoiler_series = "a_series_of_unfortunate_events"
+
+[[cards]]
+text = "Violet Baudelaire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Klaus Baudelaire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sunny Baudelaire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Count Olaf"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mr. Poe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Justice Strauss"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lemony Snicket"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Violet's Ribbon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hook-Handed Man"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Theater Troupe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Uncle Monty"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Incredibly Deadly Viper"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Stephano"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Aunt Josephine"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lake Lachrymose"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lachrymose Leeches"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Captain Sham"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Curdling Cave"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Lucky Smells Lumbermill"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dr. Georgina Orwell"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Shirley the Receptionist"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Prufrock Prep"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Vice Principal Nero"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Carmelita Spats"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Duncan Quagmire"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Isadora Quagmire"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Orphan Shack"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Esme Squalor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Jerome Squalor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "667 Dark Avenue"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Ersatz Elevator"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Red Herring"
+first_revealed_installment = 6
+
+[[cards]]
+text = "V.F.D."
+first_revealed_installment = 5
+
+[[cards]]
+text = "Hector"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Village of Fowl Devotees"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Detective Dupin"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Heimlich Hospital"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Library of Records"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Caligari Carnival"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Madame Lulu"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Quigley Quagmire"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Snow Scouts"
+first_revealed_installment = 10
+
+[[cards]]
+text = "The Queequeg"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Medusoid Mycelium"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Captain Widdershins"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Hotel Denouement"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Dewey Denouement"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Ishmael"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Beatrice"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Baudelaire Mansion"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Briny Beach"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Marvelous Marriage"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Violet's Grappling Hook"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Justice Strauss's Library"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Edgar and Albert"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mamba du Mal"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dr. Montgomery's Jeep"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Anxious Clown Restaurant"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hurricane Herman"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Damocles Dock"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Cold Cucumber Soup"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fickle Ferry"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Foreman Flacutono"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Optimistic Phil"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sir"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Charles"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Coupons for Chewing Gum"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mrs. Bass"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mr. Remora"
+first_revealed_installment = 5
+
+[[cards]]
+text = "S.O.R.E. Exercises"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Sugar Bowl"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Pinstripe Suits"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Parsley Soda"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Café Diem"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The Daily Punctilio"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Jacques Snicket"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Officer Luciana"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Nevermore Tree"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Council of Elders"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Crow Fountain"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hal"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Babs"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Cranberry Juice"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Colette the Contortionist"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Hugo the Hunchback"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Kevin the Ambidextrous"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Hungry Lions"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Verdant Flammable Device"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Frozen Waterfall"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Snow Goggles"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Fiona Widdershins"
+first_revealed_installment = 11
+
+[[cards]]
+text = "The Great Unknown"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Kit Snicket"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Frank and Ernest"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Harpoon Gun"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Coconut Cordial"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Peppermint Allergy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Olaf's Eye Tattoo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Baudelaire Fortune"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Two Powder-Faced Women"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Bald Man"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lousy Lane"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Virginian Wolfsnake"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Peru"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cold Lime Soufflé"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Josephine's Sailboat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Optometrist Office"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Hypnotism"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sunny's Stapler Teeth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Schism"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Aqueous Martini"
+first_revealed_installment = 6
+
+[[cards]]
+text = "The In Auction"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Hot Air Mobile Home"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Village Rules"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Operating Theater"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Patient List"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Volunteers Fighting Disease"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Chabo the Wolf Baby"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Beverly and Elliot"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Tarot Cards"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Fortune Teller"
+first_revealed_installment = 9
+
+[[cards]]
+text = "Mortmain Mountains"
+first_revealed_installment = 10
+
+[[cards]]
+text = "False Spring"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Sunny's Whisk"
+first_revealed_installment = 10
+
+[[cards]]
+text = "V.F.D. Headquarters"
+first_revealed_installment = 10
+
+[[cards]]
+text = "Wasabi"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Horseradish"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Submarine"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Deep-Sea Diving Suit"
+first_revealed_installment = 11
+
+[[cards]]
+text = "The Laundry Room"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Dewey Decimal System"
+first_revealed_installment = 12
+
+[[cards]]
+text = "High Court Trial"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Island Sheep"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Bitter Apple Tree"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Friday"
+first_revealed_installment = 13
+
+[[cards]]
+text = "The Bad Beginning"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Reptile Room"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Wide Window"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Miserable Mill"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Austere Academy"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Vile Village"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Hostile Hospital"
+first_revealed_installment = 8
+
+[[cards]]
+text = "The Carnivorous Carnival"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Slippery Slope"
+first_revealed_installment = 10
+
+[[cards]]
+text = "The Grim Grotto"
+first_revealed_installment = 11
+
+[[cards]]
+text = "The Penultimate Peril"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The End"
+first_revealed_installment = 13
+
+[[cards]]
+text = "Pasta Puttanesca"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mr. Poe's Cough"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ankle Tattoo"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Peppermint Candies"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Baudelaire Parents"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Inventing"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Reading"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Biting"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Count Olaf's Disguises"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Justice Strauss's Garden"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Reptile Collection"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Herpetology"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Aunt Josephine's Grammar"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Pegleg"
+first_revealed_installment = 3
+
+[[cards]]
+text = "House on the Cliff"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Eye-Shaped Building"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Nero's Violin"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Running Laps"
+first_revealed_installment = 5
+
+[[cards]]
+text = "In Fashion"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Duchess of Winnipeg"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Very Fancy Doilies"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Crows"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Hector's Workshop"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Snicket File"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Hal's Keys"
+first_revealed_installment = 8
+
+[[cards]]
+text = "Roller Coaster"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Sled"
+first_revealed_installment = 10
+
+[[cards]]
+text = "V.F.D. Eagles"
+first_revealed_installment = 10
+
+[[cards]]
+text = "The Mushroom Cave"
+first_revealed_installment = 11
+
+[[cards]]
+text = "Blindfolds"
+first_revealed_installment = 12
+
+[[cards]]
+text = "Hotel Fire"
+first_revealed_installment = 12
+
+[[cards]]
+text = "The Island"
+first_revealed_installment = 13
+
+[[cards]]
+text = "The Quagmire Notebooks"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Baudelaire Library"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Polly Poe"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Reptile Hall"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Herpetological Society"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ike Anwhistle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Giant Eye Sign"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Buzzsaw"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Dead Weasel Mascot"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Quagmire Sapphires"
+first_revealed_installment = 5
+
+[[cards]]
+text = "The Brass Cage"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Geraldine Julienne"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Empty Elevator Shaft"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mr. Lesko"
+first_revealed_installment = 7
+
+[[cards]]
+text = "Mrs. Morrow"
+first_revealed_installment = 7
+
+[[cards]]
+text = "The Lion Pit"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Freak Show Caravan"
+first_revealed_installment = 9
+
+[[cards]]
+text = "The Medusoid Spore"
+first_revealed_installment = 11
+
+[[cards]]
+text = "The Diving Helmet"
+first_revealed_installment = 11

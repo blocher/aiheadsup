@@ -1,0 +1,750 @@
+id = "deck_lutheranism_f5920846"
+revision = 2
+name = "Lutheranism"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Lutheran theology, reformers, confessions, sacraments, liturgy, hymnody, church terms, historical figures, synods and church bodies, feast days, and recognizable Lutheran practices. Prefer real Lutheran terms and history."
+photo_file_name = "lutheranism-f5920846-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Martin Luther"
+
+[[cards]]
+text = "Katharina von Bora"
+
+[[cards]]
+text = "Philipp Melanchthon"
+
+[[cards]]
+text = "Frederick the Wise"
+
+[[cards]]
+text = "Wittenberg"
+
+[[cards]]
+text = "Wartburg Castle"
+
+[[cards]]
+text = "Diet of Worms"
+
+[[cards]]
+text = "Ninety-Five Theses"
+
+[[cards]]
+text = "Augsburg Confession"
+
+[[cards]]
+text = "Book of Concord"
+
+[[cards]]
+text = "Small Catechism"
+
+[[cards]]
+text = "Large Catechism"
+
+[[cards]]
+text = "Formula of Concord"
+
+[[cards]]
+text = "Sola Fide"
+
+[[cards]]
+text = "Sola Gratia"
+
+[[cards]]
+text = "Sola Scriptura"
+
+[[cards]]
+text = "Solus Christus"
+
+[[cards]]
+text = "Justification by Faith"
+
+[[cards]]
+text = "Law and Gospel"
+
+[[cards]]
+text = "Priesthood of All Believers"
+
+[[cards]]
+text = "Theology of the Cross"
+
+[[cards]]
+text = "Holy Baptism"
+
+[[cards]]
+text = "Holy Communion"
+
+[[cards]]
+text = "Real Presence"
+
+[[cards]]
+text = "Sacramental Union"
+
+[[cards]]
+text = "Divine Service"
+
+[[cards]]
+text = "Kyrie Eleison"
+
+[[cards]]
+text = "Sanctus"
+
+[[cards]]
+text = "Agnus Dei"
+
+[[cards]]
+text = "A Mighty Fortress"
+
+[[cards]]
+text = "Johann Sebastian Bach"
+
+[[cards]]
+text = "Paul Gerhardt"
+
+[[cards]]
+text = "Luther Rose"
+
+[[cards]]
+text = "Reformation Day"
+
+[[cards]]
+text = "All Saints Day"
+
+[[cards]]
+text = "Confirmation"
+
+[[cards]]
+text = "Liturgical Colors"
+
+[[cards]]
+text = "Altar Guild"
+
+[[cards]]
+text = "Baptismal Font"
+
+[[cards]]
+text = "Pulpit"
+
+[[cards]]
+text = "The Nave"
+
+[[cards]]
+text = "The Chancel"
+
+[[cards]]
+text = "Lutheran Potluck"
+
+[[cards]]
+text = "Church Council"
+
+[[cards]]
+text = "Missouri Synod"
+
+[[cards]]
+text = "Evangelical Lutheran Church"
+
+[[cards]]
+text = "Wisconsin Synod"
+
+[[cards]]
+text = "Castle Church Door"
+
+[[cards]]
+text = "Lucas Cranach"
+
+[[cards]]
+text = "Lutheran Hymnal"
+
+[[cards]]
+text = "Simul Justus et Peccator"
+
+[[cards]]
+text = "Bondage of the Will"
+
+[[cards]]
+text = "Two Kingdoms Doctrine"
+
+[[cards]]
+text = "Theology of Glory"
+
+[[cards]]
+text = "Smalcald Articles"
+
+[[cards]]
+text = "Martin Chemnitz"
+
+[[cards]]
+text = "Johannes Bugenhagen"
+
+[[cards]]
+text = "Dietrich Bonhoeffer"
+
+[[cards]]
+text = "C. F. W. Walther"
+
+[[cards]]
+text = "Heinrich Melchior Mühlenberg"
+
+[[cards]]
+text = "Argula von Grumbach"
+
+[[cards]]
+text = "Elisabeth Cruciger"
+
+[[cards]]
+text = "Vocation"
+
+[[cards]]
+text = "Means of Grace"
+
+[[cards]]
+text = "Adiaphora"
+
+[[cards]]
+text = "Sacristy"
+
+[[cards]]
+text = "Narthex"
+
+[[cards]]
+text = "Lectern"
+
+[[cards]]
+text = "Chalice"
+
+[[cards]]
+text = "Paten"
+
+[[cards]]
+text = "Ciborium"
+
+[[cards]]
+text = "Chasuble"
+
+[[cards]]
+text = "Stole"
+
+[[cards]]
+text = "Surplice"
+
+[[cards]]
+text = "Alb"
+
+[[cards]]
+text = "Corporal"
+
+[[cards]]
+text = "Purificator"
+
+[[cards]]
+text = "Paraments"
+
+[[cards]]
+text = "Nunc Dimittis"
+
+[[cards]]
+text = "Gloria in Excelsis"
+
+[[cards]]
+text = "Introit"
+
+[[cards]]
+text = "Collect of the Day"
+
+[[cards]]
+text = "Offertory"
+
+[[cards]]
+text = "Private Confession"
+
+[[cards]]
+text = "Absolution"
+
+[[cards]]
+text = "Advent Wreath"
+
+[[cards]]
+text = "Chrismon Tree"
+
+[[cards]]
+text = "Maundy Thursday"
+
+[[cards]]
+text = "Good Friday"
+
+[[cards]]
+text = "Easter Vigil"
+
+[[cards]]
+text = "Trinity Sunday"
+
+[[cards]]
+text = "Lutheran World Federation"
+
+[[cards]]
+text = "Coffee Hour"
+
+[[cards]]
+text = "Ushers"
+
+[[cards]]
+text = "Sexton"
+
+[[cards]]
+text = "Elders"
+
+[[cards]]
+text = "Chorale"
+
+[[cards]]
+text = "The Lutheran Hour"
+
+[[cards]]
+text = "Cruet"
+
+[[cards]]
+text = "Catechesis"
+
+[[cards]]
+text = "Epiphany"
+
+[[cards]]
+text = "Pentecost"
+
+[[cards]]
+text = "Ash Wednesday"
+
+[[cards]]
+text = "Holy Week"
+
+[[cards]]
+text = "Ascension Day"
+
+[[cards]]
+text = "Transfiguration Sunday"
+
+[[cards]]
+text = "Christ the King Sunday"
+
+[[cards]]
+text = "Soli Deo Gloria"
+
+[[cards]]
+text = "Infant Baptism"
+
+[[cards]]
+text = "Visible Church"
+
+[[cards]]
+text = "Invisible Church"
+
+[[cards]]
+text = "Magnificat"
+
+[[cards]]
+text = "Benedicamus Domino"
+
+[[cards]]
+text = "Benediction"
+
+[[cards]]
+text = "Cantor"
+
+[[cards]]
+text = "Organist"
+
+[[cards]]
+text = "Prelude"
+
+[[cards]]
+text = "Postlude"
+
+[[cards]]
+text = "Altar Rail"
+
+[[cards]]
+text = "Credence Table"
+
+[[cards]]
+text = "Paschal Candle"
+
+[[cards]]
+text = "Sanctuary Lamp"
+
+[[cards]]
+text = "Pews"
+
+[[cards]]
+text = "Altar Cross"
+
+[[cards]]
+text = "Midweek Lenten Service"
+
+[[cards]]
+text = "Easter Breakfast"
+
+[[cards]]
+text = "Sunday School"
+
+[[cards]]
+text = "Vacation Bible School"
+
+[[cards]]
+text = "Ordination"
+
+[[cards]]
+text = "Installation Service"
+
+[[cards]]
+text = "Call Committee"
+
+[[cards]]
+text = "Parish Hall"
+
+[[cards]]
+text = "Altar Flowers"
+
+[[cards]]
+text = "Philipp Nicolai"
+
+[[cards]]
+text = "Nikolaj Grundtvig"
+
+[[cards]]
+text = "Georg Spalatin"
+
+[[cards]]
+text = "John the Steadfast"
+
+[[cards]]
+text = "Justus Jonas"
+
+[[cards]]
+text = "Katharina Zell"
+
+[[cards]]
+text = "Gustavus Adolphus"
+
+[[cards]]
+text = "Hans Nielsen Hauge"
+
+[[cards]]
+text = "Nathan Söderblom"
+
+[[cards]]
+text = "General Absolution"
+
+[[cards]]
+text = "Liturgical Calendar"
+
+[[cards]]
+text = "Vicar"
+
+[[cards]]
+text = "Marburg Colloquy"
+
+[[cards]]
+text = "Table Talk"
+
+[[cards]]
+text = "Smalcald League"
+
+[[cards]]
+text = "Words of Institution"
+
+[[cards]]
+text = "Acolyte"
+
+[[cards]]
+text = "Johann Tetzel"
+
+[[cards]]
+text = "Pope Leo X"
+
+[[cards]]
+text = "Charles V"
+
+[[cards]]
+text = "Eisleben"
+
+[[cards]]
+text = "Erfurt"
+
+[[cards]]
+text = "Augustinian Cloister"
+
+[[cards]]
+text = "Exsurge Domine"
+
+[[cards]]
+text = "Leipzig Debate"
+
+[[cards]]
+text = "Johann Eck"
+
+[[cards]]
+text = "Elector John Frederick"
+
+[[cards]]
+text = "Coburg Fortress"
+
+[[cards]]
+text = "Jan Hus"
+
+[[cards]]
+text = "Lutheran Service Book"
+
+[[cards]]
+text = "Mite Box"
+
+[[cards]]
+text = "LWML"
+
+[[cards]]
+text = "Walther League"
+
+[[cards]]
+text = "Hotdish"
+
+[[cards]]
+text = "Jell-O Salad"
+
+[[cards]]
+text = "Church Basement Ladies"
+
+[[cards]]
+text = "Piscina"
+
+[[cards]]
+text = "Thurible"
+
+[[cards]]
+text = "Sanctus Bell"
+
+[[cards]]
+text = "Processional Cross"
+
+[[cards]]
+text = "Black Cloister"
+
+[[cards]]
+text = "Superintendent"
+
+[[cards]]
+text = "Archbishop of Uppsala"
+
+[[cards]]
+text = "The Third Use"
+
+[[cards]]
+text = "Christian Liberty"
+
+[[cards]]
+text = "Alien Righteousness"
+
+[[cards]]
+text = "Happy Exchange"
+
+[[cards]]
+text = "Laetare Sunday"
+
+[[cards]]
+text = "Gaudete Sunday"
+
+[[cards]]
+text = "Michaelmas"
+
+[[cards]]
+text = "St. Martin's Day"
+
+[[cards]]
+text = "Presentation of Our Lord"
+
+[[cards]]
+text = "Shrove Tuesday"
+
+[[cards]]
+text = "Holy Saturday"
+
+[[cards]]
+text = "From Heaven Above"
+
+[[cards]]
+text = "O Sacred Head"
+
+[[cards]]
+text = "Wake, Awake"
+
+[[cards]]
+text = "Christ Jesus Lay"
+
+[[cards]]
+text = "Antependium"
+
+[[cards]]
+text = "Superfrontal"
+
+[[cards]]
+text = "Chalice Veil"
+
+[[cards]]
+text = "Burse"
+
+[[cards]]
+text = "Ambo"
+
+[[cards]]
+text = "Handbell Choir"
+
+[[cards]]
+text = "Brass Choir"
+
+[[cards]]
+text = "Church Banner"
+
+[[cards]]
+text = "Quatenus Subscription"
+
+[[cards]]
+text = "Lutefisk"
+
+[[cards]]
+text = "Lefse"
+
+[[cards]]
+text = "Portals of Prayer"
+
+[[cards]]
+text = "Clerical Collar"
+
+[[cards]]
+text = "Lutheran World Relief"
+
+[[cards]]
+text = "Thrivent Financial"
+
+[[cards]]
+text = "Soren Kierkegaard"
+
+[[cards]]
+text = "Pietism"
+
+[[cards]]
+text = "St. Lucia Crown"
+
+[[cards]]
+text = "Lenten Soup Supper"
+
+[[cards]]
+text = "Luther Bible"
+
+[[cards]]
+text = "Peace of Augsburg"
+
+[[cards]]
+text = "Thirty Years' War"
+
+[[cards]]
+text = "Crucifer"
+
+[[cards]]
+text = "Hymn Board"
+
+[[cards]]
+text = "Communion Wafer"
+
+[[cards]]
+text = "Augustana College"
+
+[[cards]]
+text = "St. Olaf College"
+
+[[cards]]
+text = "Concordia Seminary"
+
+[[cards]]
+text = "Unaltered Augsburg Confession"
+
+[[cards]]
+text = "Concordia Publishing House"
+
+[[cards]]
+text = "Deaconess"
+
+[[cards]]
+text = "Parsonage"
+
+[[cards]]
+text = "Knight George"
+
+[[cards]]
+text = "German Mass"
+
+[[cards]]
+text = "Consubstantiation"
+
+[[cards]]
+text = "Imputed Righteousness"
+
+[[cards]]
+text = "Mask of God"
+
+[[cards]]
+text = "Diet of Speyer"
+
+[[cards]]
+text = "Andreas Karlstadt"
+
+[[cards]]
+text = "Thomas Müntzer"
+
+[[cards]]
+text = "Peasants' War"
+
+[[cards]]
+text = "Heidelberg Disputation"
+
+[[cards]]
+text = "Common Table Prayer"
+
+[[cards]]
+text = "Catechumen"
+
+[[cards]]
+text = "First Communion"
+
+[[cards]]
+text = "Processional Torch"
+
+[[cards]]
+text = "District President"
+
+[[cards]]
+text = "Presiding Bishop"
+
+[[cards]]
+text = "Seminarian"
+
+[[cards]]
+text = "Lutheran Study Bible"
+
+[[cards]]
+text = "Gnesio-Lutherans"
+
+[[cards]]
+text = "Philippists"
+
+[[cards]]
+text = "Augustana Synod"
+
+[[cards]]
+text = "Heinrich Schütz"
+
+[[cards]]
+text = "Dietrich Buxtehude"
+
+[[cards]]
+text = "Cookie Walk"

@@ -1,0 +1,309 @@
+id = "deck_european-countries_0a9b8bea"
+revision = 1
+name = "European Countries"
+category = "Geography"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real European countries and well-known related geography such as capitals, major cities, landmarks, seas, and regions. Prefer country names first. No invented countries."
+photo_file_name = "european-countries-0a9b8bea-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "France"
+
+[[cards]]
+text = "Italy"
+
+[[cards]]
+text = "Spain"
+
+[[cards]]
+text = "Germany"
+
+[[cards]]
+text = "United Kingdom"
+
+[[cards]]
+text = "Greece"
+
+[[cards]]
+text = "Ireland"
+
+[[cards]]
+text = "Portugal"
+
+[[cards]]
+text = "Switzerland"
+
+[[cards]]
+text = "Netherlands"
+
+[[cards]]
+text = "Sweden"
+
+[[cards]]
+text = "Norway"
+
+[[cards]]
+text = "Denmark"
+
+[[cards]]
+text = "Austria"
+
+[[cards]]
+text = "Belgium"
+
+[[cards]]
+text = "Poland"
+
+[[cards]]
+text = "Finland"
+
+[[cards]]
+text = "Iceland"
+
+[[cards]]
+text = "Croatia"
+
+[[cards]]
+text = "Ukraine"
+
+[[cards]]
+text = "Turkey"
+
+[[cards]]
+text = "Romania"
+
+[[cards]]
+text = "Hungary"
+
+[[cards]]
+text = "Czech Republic"
+
+[[cards]]
+text = "Monaco"
+
+[[cards]]
+text = "Paris"
+
+[[cards]]
+text = "London"
+
+[[cards]]
+text = "Rome"
+
+[[cards]]
+text = "Berlin"
+
+[[cards]]
+text = "Madrid"
+
+[[cards]]
+text = "Athens"
+
+[[cards]]
+text = "Dublin"
+
+[[cards]]
+text = "Amsterdam"
+
+[[cards]]
+text = "Vienna"
+
+[[cards]]
+text = "Prague"
+
+[[cards]]
+text = "Eiffel Tower"
+
+[[cards]]
+text = "Colosseum"
+
+[[cards]]
+text = "Big Ben"
+
+[[cards]]
+text = "Parthenon"
+
+[[cards]]
+text = "Leaning Tower of Pisa"
+
+[[cards]]
+text = "Mediterranean Sea"
+
+[[cards]]
+text = "The Alps"
+
+[[cards]]
+text = "Loch Ness"
+
+[[cards]]
+text = "Stonehenge"
+
+[[cards]]
+text = "Venice Canals"
+
+[[cards]]
+text = "Black Forest"
+
+[[cards]]
+text = "Rhine River"
+
+[[cards]]
+text = "Mount Etna"
+
+[[cards]]
+text = "Baltic Sea"
+
+[[cards]]
+text = "Vatican City"
+
+[[cards]]
+text = "Luxembourg"
+
+[[cards]]
+text = "Malta"
+
+[[cards]]
+text = "Bulgaria"
+
+[[cards]]
+text = "Slovakia"
+
+[[cards]]
+text = "Cyprus"
+
+[[cards]]
+text = "Slovenia"
+
+[[cards]]
+text = "Estonia"
+
+[[cards]]
+text = "Latvia"
+
+[[cards]]
+text = "Lithuania"
+
+[[cards]]
+text = "Andorra"
+
+[[cards]]
+text = "Liechtenstein"
+
+[[cards]]
+text = "San Marino"
+
+[[cards]]
+text = "Serbia"
+
+[[cards]]
+text = "Albania"
+
+[[cards]]
+text = "Bosnia and Herzegovina"
+
+[[cards]]
+text = "Barcelona"
+
+[[cards]]
+text = "Munich"
+
+[[cards]]
+text = "Milan"
+
+[[cards]]
+text = "Florence"
+
+[[cards]]
+text = "Edinburgh"
+
+[[cards]]
+text = "Lisbon"
+
+[[cards]]
+text = "Brussels"
+
+[[cards]]
+text = "Stockholm"
+
+[[cards]]
+text = "Copenhagen"
+
+[[cards]]
+text = "Oslo"
+
+[[cards]]
+text = "Geneva"
+
+[[cards]]
+text = "Zurich"
+
+[[cards]]
+text = "Naples"
+
+[[cards]]
+text = "Budapest"
+
+[[cards]]
+text = "Warsaw"
+
+[[cards]]
+text = "Louvre Museum"
+
+[[cards]]
+text = "Sagrada Familia"
+
+[[cards]]
+text = "Tower of London"
+
+[[cards]]
+text = "Palace of Versailles"
+
+[[cards]]
+text = "Brandenburg Gate"
+
+[[cards]]
+text = "Neuschwanstein Castle"
+
+[[cards]]
+text = "Giant's Causeway"
+
+[[cards]]
+text = "Cliffs of Moher"
+
+[[cards]]
+text = "Matterhorn"
+
+[[cards]]
+text = "Mount Vesuvius"
+
+[[cards]]
+text = "Buckingham Palace"
+
+[[cards]]
+text = "St. Mark's Basilica"
+
+[[cards]]
+text = "Danube River"
+
+[[cards]]
+text = "Seine River"
+
+[[cards]]
+text = "English Channel"
+
+[[cards]]
+text = "Black Sea"
+
+[[cards]]
+text = "Aegean Sea"
+
+[[cards]]
+text = "Tuscany"
+
+[[cards]]
+text = "Sicily"
+
+[[cards]]
+text = "Pyrenees"

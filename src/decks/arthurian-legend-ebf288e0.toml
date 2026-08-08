@@ -1,0 +1,627 @@
+id = "deck_arthurian-legend_ebf288e0"
+revision = 1
+name = "Arthurian Legend"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include King Arthur, knights of the Round Table, Camelot, Merlin, legendary quests, magical objects, places, villains, and well-known figures from Arthurian legend. Prefer traditional legend over modern reinventions unless widely known."
+photo_file_name = "arthurian-legend-ebf288e0-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "King Arthur"
+
+[[cards]]
+text = "Merlin"
+
+[[cards]]
+text = "Queen Guinevere"
+
+[[cards]]
+text = "Sir Lancelot"
+
+[[cards]]
+text = "Sir Galahad"
+
+[[cards]]
+text = "Sir Gawain"
+
+[[cards]]
+text = "Sir Percival"
+
+[[cards]]
+text = "Sir Bedivere"
+
+[[cards]]
+text = "Sir Tristan"
+
+[[cards]]
+text = "Lady of the Lake"
+
+[[cards]]
+text = "Morgan le Fay"
+
+[[cards]]
+text = "Mordred"
+
+[[cards]]
+text = "Uther Pendragon"
+
+[[cards]]
+text = "The Green Knight"
+
+[[cards]]
+text = "The Fisher King"
+
+[[cards]]
+text = "Sir Kay"
+
+[[cards]]
+text = "Sir Bors"
+
+[[cards]]
+text = "Sir Gareth"
+
+[[cards]]
+text = "Excalibur"
+
+[[cards]]
+text = "The Holy Grail"
+
+[[cards]]
+text = "The Round Table"
+
+[[cards]]
+text = "Sword in the Stone"
+
+[[cards]]
+text = "Camelot"
+
+[[cards]]
+text = "Avalon"
+
+[[cards]]
+text = "Tintagel Castle"
+
+[[cards]]
+text = "The Siege Perilous"
+
+[[cards]]
+text = "The Questing Beast"
+
+[[cards]]
+text = "Battle of Camlann"
+
+[[cards]]
+text = "Lady of Shalott"
+
+[[cards]]
+text = "Joyous Gard"
+
+[[cards]]
+text = "Excalibur's Scabbard"
+
+[[cards]]
+text = "Chivalry"
+
+[[cards]]
+text = "Courtly Love"
+
+[[cards]]
+text = "Brocéliande Forest"
+
+[[cards]]
+text = "Castle Carbonek"
+
+[[cards]]
+text = "Sir Balin"
+
+[[cards]]
+text = "The White Hart"
+
+[[cards]]
+text = "Holy Grail Quest"
+
+[[cards]]
+text = "Sir Ector"
+
+[[cards]]
+text = "Nimue"
+
+[[cards]]
+text = "Sir Lamorak"
+
+[[cards]]
+text = "The Saxons"
+
+[[cards]]
+text = "Knight Errant"
+
+[[cards]]
+text = "The Dolorous Stroke"
+
+[[cards]]
+text = "Sir Palamedes"
+
+[[cards]]
+text = "Lady Isolde"
+
+[[cards]]
+text = "Glastonbury Tor"
+
+[[cards]]
+text = "Sir Ywain"
+
+[[cards]]
+text = "Sir Gaheris"
+
+[[cards]]
+text = "Sir Agravain"
+
+[[cards]]
+text = "Morgause"
+
+[[cards]]
+text = "King Lot"
+
+[[cards]]
+text = "Igraine"
+
+[[cards]]
+text = "Gorlois"
+
+[[cards]]
+text = "Castle of Maidens"
+
+[[cards]]
+text = "The Green Chapel"
+
+[[cards]]
+text = "Lady Bertilak"
+
+[[cards]]
+text = "The Bleeding Spear"
+
+[[cards]]
+text = "Glastonbury Abbey"
+
+[[cards]]
+text = "Caerleon"
+
+[[cards]]
+text = "King Ban"
+
+[[cards]]
+text = "Elaine of Astolat"
+
+[[cards]]
+text = "Elaine of Corbenic"
+
+[[cards]]
+text = "Sir Dagonet"
+
+[[cards]]
+text = "Lyonesse"
+
+[[cards]]
+text = "The Grail Maiden"
+
+[[cards]]
+text = "King Mark"
+
+[[cards]]
+text = "Sir Sagramore"
+
+[[cards]]
+text = "Sir Lucan"
+
+[[cards]]
+text = "Sir Griflet"
+
+[[cards]]
+text = "King Pellinore"
+
+[[cards]]
+text = "Emperor Lucius"
+
+[[cards]]
+text = "Merlin's Cave"
+
+[[cards]]
+text = "Lady of the Fountain"
+
+[[cards]]
+text = "Sir Hector de Maris"
+
+[[cards]]
+text = "The Wasteland"
+
+[[cards]]
+text = "Sarras"
+
+[[cards]]
+text = "The Magic Mantle"
+
+[[cards]]
+text = "Cauldron of Rebirth"
+
+[[cards]]
+text = "Logres"
+
+[[cards]]
+text = "Battle of Mount Badon"
+
+[[cards]]
+text = "The Black Knight"
+
+[[cards]]
+text = "The Red Knight"
+
+[[cards]]
+text = "Knight of the Kitchen"
+
+[[cards]]
+text = "Sir Brunor"
+
+[[cards]]
+text = "Joseph of Arimathea"
+
+[[cards]]
+text = "The Red Dragon"
+
+[[cards]]
+text = "The White Dragon"
+
+[[cards]]
+text = "Vortigern"
+
+[[cards]]
+text = "King Claudas"
+
+[[cards]]
+text = "Sword of David"
+
+[[cards]]
+text = "Knight of the Cart"
+
+[[cards]]
+text = "King Uriens"
+
+[[cards]]
+text = "Sir Dinadan"
+
+[[cards]]
+text = "Sir Lionel"
+
+[[cards]]
+text = "Sir Erec"
+
+[[cards]]
+text = "Lady Enide"
+
+[[cards]]
+text = "The Pentecostal Oath"
+
+[[cards]]
+text = "Sir Marrok"
+
+[[cards]]
+text = "The Wondrous Bed"
+
+[[cards]]
+text = "Castle of Wonders"
+
+[[cards]]
+text = "The Green Girdle"
+
+[[cards]]
+text = "The Sword Bridge"
+
+[[cards]]
+text = "The Water Bridge"
+
+[[cards]]
+text = "The Giant Ritho"
+
+[[cards]]
+text = "Cloak of Beards"
+
+[[cards]]
+text = "The Roman Campaign"
+
+[[cards]]
+text = "Culhwch"
+
+[[cards]]
+text = "Olwen"
+
+[[cards]]
+text = "Ysbaddaden"
+
+[[cards]]
+text = "Twrch Trwyth"
+
+[[cards]]
+text = "Sword of Strange Girdles"
+
+[[cards]]
+text = "Ship of Solomon"
+
+[[cards]]
+text = "Spindles of Solomon"
+
+[[cards]]
+text = "Shield of Evalach"
+
+[[cards]]
+text = "The Pentecostal Feast"
+
+[[cards]]
+text = "The Maimed King"
+
+[[cards]]
+text = "The Dolorous Guard"
+
+[[cards]]
+text = "Queen of Northgales"
+
+[[cards]]
+text = "Le Chevalier Mal Fait"
+
+[[cards]]
+text = "Knight with Two Swords"
+
+[[cards]]
+text = "Sir Balan"
+
+[[cards]]
+text = "The Leprous Lady"
+
+[[cards]]
+text = "Sleeve of Astolat"
+
+[[cards]]
+text = "Sir Brastias"
+
+[[cards]]
+text = "Castle of Terrabil"
+
+[[cards]]
+text = "The Eleven Kings"
+
+[[cards]]
+text = "The Poisoned Apple"
+
+[[cards]]
+text = "Sir Patrise"
+
+[[cards]]
+text = "The Queen's Champion"
+
+[[cards]]
+text = "Trial of Guinevere"
+
+[[cards]]
+text = "Forest of Celidon"
+
+[[cards]]
+text = "Esplumoir Merlin"
+
+[[cards]]
+text = "Enchantment of Merlin"
+
+[[cards]]
+text = "Damsel of the Cart"
+
+[[cards]]
+text = "Dwarf of the Cart"
+
+[[cards]]
+text = "Sir Ironside"
+
+[[cards]]
+text = "Sir Pertolope"
+
+[[cards]]
+text = "Sir Perimones"
+
+[[cards]]
+text = "Sir Persant"
+
+[[cards]]
+text = "Gornemant of Gohort"
+
+[[cards]]
+text = "Ring of Eluned"
+
+[[cards]]
+text = "Pridwen"
+
+[[cards]]
+text = "Rhongomyniad"
+
+[[cards]]
+text = "Carnwennan"
+
+[[cards]]
+text = "Gringolet"
+
+[[cards]]
+text = "The Saint Michael Giant"
+
+[[cards]]
+text = "Sir Accolon"
+
+[[cards]]
+text = "Sir Pelleas"
+
+[[cards]]
+text = "Lady Ettarre"
+
+[[cards]]
+text = "The Chapel Perilous"
+
+[[cards]]
+text = "The Love Potion"
+
+[[cards]]
+text = "Sir Galehaut"
+
+[[cards]]
+text = "Sir Meleagant"
+
+[[cards]]
+text = "Sir Caradoc"
+
+[[cards]]
+text = "The Chastity Test"
+
+[[cards]]
+text = "The Forest Hermit"
+
+[[cards]]
+text = "The Grail Temple"
+
+[[cards]]
+text = "Feirefiz"
+
+[[cards]]
+text = "Lohengrin"
+
+[[cards]]
+text = "Knight of the Swan"
+
+[[cards]]
+text = "Llamrei"
+
+[[cards]]
+text = "Cavall"
+
+[[cards]]
+text = "Sir Brandiles"
+
+[[cards]]
+text = "The Queen of Eastland"
+
+[[cards]]
+text = "Queen of Outer Isles"
+
+[[cards]]
+text = "King Anguish of Ireland"
+
+[[cards]]
+text = "Sir Baudwin"
+
+[[cards]]
+text = "Battle of Salisbury Plain"
+
+[[cards]]
+text = "The Magic Chessboard"
+
+[[cards]]
+text = "Sir Cliges"
+
+[[cards]]
+text = "Laudine"
+
+[[cards]]
+text = "Lunete"
+
+[[cards]]
+text = "Sir Mador"
+
+[[cards]]
+text = "Sir Colgrevance"
+
+[[cards]]
+text = "The Queen of Orkney"
+
+[[cards]]
+text = "The Archbishop of Canterbury"
+
+[[cards]]
+text = "Sir Garlon"
+
+[[cards]]
+text = "King Pelles"
+
+[[cards]]
+text = "The Cauldron of Annwn"
+
+[[cards]]
+text = "The Horn of Bran"
+
+[[cards]]
+text = "Sir Morholt"
+
+[[cards]]
+text = "Sir Safir"
+
+[[cards]]
+text = "Sir Segwarides"
+
+[[cards]]
+text = "Knight of the Sparrowhawk"
+
+[[cards]]
+text = "King Arthur's Tomb"
+
+[[cards]]
+text = "The Sword of Galahad"
+
+[[cards]]
+text = "Knight of the Lion"
+
+[[cards]]
+text = "King of Norgales"
+
+[[cards]]
+text = "The White Knight"
+
+[[cards]]
+text = "Sir Constantine"
+
+[[cards]]
+text = "King of Hundred Knights"
+
+[[cards]]
+text = "Le Morte d'Arthur"
+
+[[cards]]
+text = "Sir Thomas Malory"
+
+[[cards]]
+text = "Geoffrey of Monmouth"
+
+[[cards]]
+text = "King Leodegrance"
+
+[[cards]]
+text = "The House of Pendragon"
+
+[[cards]]
+text = "Sir Cador"
+
+[[cards]]
+text = "Cadbury Castle"
+
+[[cards]]
+text = "Arthur's Seat"
+
+[[cards]]
+text = "Valley of No Return"
+
+[[cards]]
+text = "Sir Tor"
+
+[[cards]]
+text = "Sir Bleoberis"
+
+[[cards]]
+text = "Pentangle Shield"
+
+[[cards]]
+text = "King Bagdemagus"
+
+[[cards]]
+text = "Sir Dodinas"

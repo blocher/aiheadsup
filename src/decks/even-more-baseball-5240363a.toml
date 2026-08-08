@@ -1,0 +1,690 @@
+id = "deck_even-more-baseball_5240363a"
+revision = 2
+name = "Even More Baseball"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should expand beyond the general Baseball deck with additional positions depth, obscure rules, historic moments, ballpark features, awards, strategies, and baseball culture. Do NOT duplicate any card from the general Baseball deck. Prefer terms not already covered there."
+photo_file_name = "even-more-baseball-5240363a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Utility Player"
+
+[[cards]]
+text = "Pinch Runner"
+
+[[cards]]
+text = "Setup Man"
+
+[[cards]]
+text = "Closer"
+
+[[cards]]
+text = "Third Base Coach"
+
+[[cards]]
+text = "First Base Coach"
+
+[[cards]]
+text = "Bullpen Catcher"
+
+[[cards]]
+text = "Batting Donut"
+
+[[cards]]
+text = "Fungo Bat"
+
+[[cards]]
+text = "Sliding Mitt"
+
+[[cards]]
+text = "PitchCom"
+
+[[cards]]
+text = "Radar Gun"
+
+[[cards]]
+text = "Batting Tee"
+
+[[cards]]
+text = "Changeup"
+
+[[cards]]
+text = "Cutter"
+
+[[cards]]
+text = "Sinker"
+
+[[cards]]
+text = "Splitter"
+
+[[cards]]
+text = "Eephus Pitch"
+
+[[cards]]
+text = "Spitball"
+
+[[cards]]
+text = "Rookie of the Year"
+
+[[cards]]
+text = "Gold Glove"
+
+[[cards]]
+text = "Silver Slugger"
+
+[[cards]]
+text = "Triple Crown"
+
+[[cards]]
+text = "Grapefruit League"
+
+[[cards]]
+text = "Cactus League"
+
+[[cards]]
+text = "Ivy Wall"
+
+[[cards]]
+text = "McCovey Cove"
+
+[[cards]]
+text = "Pesky's Pole"
+
+[[cards]]
+text = "Bernie's Slide"
+
+[[cards]]
+text = "Bullpen Cart"
+
+[[cards]]
+text = "Rally Cap"
+
+[[cards]]
+text = "Sausage Race"
+
+[[cards]]
+text = "Bleacher Creatures"
+
+[[cards]]
+text = "Rally Monkey"
+
+[[cards]]
+text = "Frozen Rope"
+
+[[cards]]
+text = "Worm Burner"
+
+[[cards]]
+text = "Texas Leaguer"
+
+[[cards]]
+text = "Moonshot"
+
+[[cards]]
+text = "Baltimore Chop"
+
+[[cards]]
+text = "Ducks on the Pond"
+
+[[cards]]
+text = "Defensive Shift"
+
+[[cards]]
+text = "Pitch Out"
+
+[[cards]]
+text = "Tagging Up"
+
+[[cards]]
+text = "Sacrifice Fly"
+
+[[cards]]
+text = "Pickoff Attempt"
+
+[[cards]]
+text = "Dropped Third Strike"
+
+[[cards]]
+text = "Cleanup Hitter"
+
+[[cards]]
+text = "Leadoff Hitter"
+
+[[cards]]
+text = "Position Player Pitching"
+
+[[cards]]
+text = "Groundskeeper"
+
+[[cards]]
+text = "Official Scorer"
+
+[[cards]]
+text = "First Base Umpire"
+
+[[cards]]
+text = "Batter's Interference"
+
+[[cards]]
+text = "Passed Ball"
+
+[[cards]]
+text = "Wild Pitch"
+
+[[cards]]
+text = "Immaculate Inning"
+
+[[cards]]
+text = "Hitting for the Cycle"
+
+[[cards]]
+text = "Quality Start"
+
+[[cards]]
+text = "Save Opportunity"
+
+[[cards]]
+text = "Rubbing Mud"
+
+[[cards]]
+text = "L-Screen"
+
+[[cards]]
+text = "Curse of the Bambino"
+
+[[cards]]
+text = "Billy Goat Curse"
+
+[[cards]]
+text = "Disco Demolition Night"
+
+[[cards]]
+text = "Ten Cent Beer Night"
+
+[[cards]]
+text = "Bobblehead Night"
+
+[[cards]]
+text = "The San Diego Chicken"
+
+[[cards]]
+text = "Pierogi Race"
+
+[[cards]]
+text = "Presidents Race"
+
+[[cards]]
+text = "Wrigley Field Marquee"
+
+[[cards]]
+text = "Sweet Spot"
+
+[[cards]]
+text = "Web Gem"
+
+[[cards]]
+text = "High Five"
+
+[[cards]]
+text = "Cup of Coffee"
+
+[[cards]]
+text = "Farm System"
+
+[[cards]]
+text = "Winter League"
+
+[[cards]]
+text = "Big League Chew"
+
+[[cards]]
+text = "Sunflower Seeds"
+
+[[cards]]
+text = "Eye Black"
+
+[[cards]]
+text = "Stirrup Socks"
+
+[[cards]]
+text = "Pennant Race"
+
+[[cards]]
+text = "Magic Number"
+
+[[cards]]
+text = "Wild Card Game"
+
+[[cards]]
+text = "Hot Stove League"
+
+[[cards]]
+text = "Winter Meetings"
+
+[[cards]]
+text = "Designated for Assignment"
+
+[[cards]]
+text = "Mendoza Line"
+
+[[cards]]
+text = "Tools of Ignorance"
+
+[[cards]]
+text = "Brushback Pitch"
+
+[[cards]]
+text = "Bench-Clearing Brawl"
+
+[[cards]]
+text = "Platinum Sombrero"
+
+[[cards]]
+text = "Five-Tool Player"
+
+[[cards]]
+text = "Called Shot"
+
+[[cards]]
+text = "The Catch"
+
+[[cards]]
+text = "Black Sox Scandal"
+
+[[cards]]
+text = "Big Red Machine"
+
+[[cards]]
+text = "Murderers' Row"
+
+[[cards]]
+text = "Boys of Summer"
+
+[[cards]]
+text = "The Rubber"
+
+[[cards]]
+text = "The Keystone"
+
+[[cards]]
+text = "Hot Corner"
+
+[[cards]]
+text = "Backstop"
+
+[[cards]]
+text = "Clubhouse"
+
+[[cards]]
+text = "Coaches' Box"
+
+[[cards]]
+text = "Foul Territory"
+
+[[cards]]
+text = "Rain Tarp"
+
+[[cards]]
+text = "Tarp Slide"
+
+[[cards]]
+text = "Pitch Clock"
+
+[[cards]]
+text = "Umpire Indicator"
+
+[[cards]]
+text = "Pitching Machine"
+
+[[cards]]
+text = "Weighted Bat"
+
+[[cards]]
+text = "Baseball Card"
+
+[[cards]]
+text = "T206 Honus Wagner"
+
+[[cards]]
+text = "Foam Finger"
+
+[[cards]]
+text = "Helmet Nachos"
+
+[[cards]]
+text = "Dodger Dog"
+
+[[cards]]
+text = "Ballpark Mustard"
+
+[[cards]]
+text = "Mascot Race"
+
+[[cards]]
+text = "Walk-Up Song"
+
+[[cards]]
+text = "Bat Flip"
+
+[[cards]]
+text = "Gatorade Shower"
+
+[[cards]]
+text = "Rally Towel"
+
+[[cards]]
+text = "Kangaroo Court"
+
+[[cards]]
+text = "Unwritten Rules"
+
+[[cards]]
+text = "Sticky Stuff"
+
+[[cards]]
+text = "Hidden Ball Trick"
+
+[[cards]]
+text = "Bloop Single"
+
+[[cards]]
+text = "Opposite Field Hit"
+
+[[cards]]
+text = "Pull Hitter"
+
+[[cards]]
+text = "Pitcher's Duel"
+
+[[cards]]
+text = "Ghost Runner"
+
+[[cards]]
+text = "Obstruction"
+
+[[cards]]
+text = "Fan Interference"
+
+[[cards]]
+text = "Three-Batter Minimum"
+
+[[cards]]
+text = "Manager's Challenge"
+
+[[cards]]
+text = "Screwball"
+
+[[cards]]
+text = "Sweeper"
+
+[[cards]]
+text = "Earned Run Average"
+
+[[cards]]
+text = "Wins Above Replacement"
+
+[[cards]]
+text = "Ceremonial First Pitch"
+
+[[cards]]
+text = "Wiffle Ball"
+
+[[cards]]
+text = "The Subway Series"
+
+[[cards]]
+text = "Monument Park"
+
+[[cards]]
+text = "The Warehouse"
+
+[[cards]]
+text = "Tal's Hill"
+
+[[cards]]
+text = "Chase Field Pool"
+
+[[cards]]
+text = "Roberto Clemente"
+
+[[cards]]
+text = "Yogi Berra"
+
+[[cards]]
+text = "Satchel Paige"
+
+[[cards]]
+text = "Roberto Clemente Award"
+
+[[cards]]
+text = "Hank Aaron Award"
+
+[[cards]]
+text = "Manager of the Year"
+
+[[cards]]
+text = "Platinum Glove Award"
+
+[[cards]]
+text = "The Maddux"
+
+[[cards]]
+text = "Forkball"
+
+[[cards]]
+text = "Palmball"
+
+[[cards]]
+text = "Slurve"
+
+[[cards]]
+text = "Gyroball"
+
+[[cards]]
+text = "TOOTBLAN"
+
+[[cards]]
+text = "Dying Quail"
+
+[[cards]]
+text = "Tape Measure Blast"
+
+[[cards]]
+text = "Merkle's Boner"
+
+[[cards]]
+text = "Ten-Run Rule"
+
+[[cards]]
+text = "Jaw Guard"
+
+[[cards]]
+text = "Chest Protector"
+
+[[cards]]
+text = "Shin Guards"
+
+[[cards]]
+text = "Rawlings"
+
+[[cards]]
+text = "Orbit the Mascot"
+
+[[cards]]
+text = "Garlic Fries"
+
+[[cards]]
+text = "Cup Snake"
+
+[[cards]]
+text = "K-Board"
+
+[[cards]]
+text = "LOOGY"
+
+[[cards]]
+text = "The Opener"
+
+[[cards]]
+text = "Foul Tip"
+
+[[cards]]
+text = "Chalk Line"
+
+[[cards]]
+text = "Green Light"
+
+[[cards]]
+text = "Golden Spikes Award"
+
+[[cards]]
+text = "Cape Cod League"
+
+[[cards]]
+text = "Rule 5 Draft"
+
+[[cards]]
+text = "Bench Coach"
+
+[[cards]]
+text = "Walk-Off Walk"
+
+[[cards]]
+text = "Ballpark Organist"
+
+[[cards]]
+text = "Baseball Stitching"
+
+[[cards]]
+text = "Submarine Pitcher"
+
+[[cards]]
+text = "Switch Hitter"
+
+[[cards]]
+text = "Fielder's Choice"
+
+[[cards]]
+text = "Checked Swing"
+
+[[cards]]
+text = "Complete Game"
+
+[[cards]]
+text = "Shutout"
+
+[[cards]]
+text = "Blown Save"
+
+[[cards]]
+text = "Hold"
+
+[[cards]]
+text = "Player-Manager"
+
+[[cards]]
+text = "Emergency Catcher"
+
+[[cards]]
+text = "Batting Practice"
+
+[[cards]]
+text = "Pepper Game"
+
+[[cards]]
+text = "Four-Seam Fastball"
+
+[[cards]]
+text = "12-6 Curveball"
+
+[[cards]]
+text = "Circle Change"
+
+[[cards]]
+text = "Knuckle-Curve"
+
+[[cards]]
+text = "Appeal Play"
+
+[[cards]]
+text = "Headfirst Slide"
+
+[[cards]]
+text = "Hook Slide"
+
+[[cards]]
+text = "Pitching Coach"
+
+[[cards]]
+text = "The Fall Classic"
+
+[[cards]]
+text = "The Bash Brothers"
+
+[[cards]]
+text = "The Gashouse Gang"
+
+[[cards]]
+text = "Home Run Apple"
+
+[[cards]]
+text = "Mariner Moose"
+
+[[cards]]
+text = "The Dot Race"
+
+[[cards]]
+text = "Tarp Crew"
+
+[[cards]]
+text = "Flip-Up Sunglasses"
+
+[[cards]]
+text = "Elbow Guard"
+
+[[cards]]
+text = "Pine Tar Incident"
+
+[[cards]]
+text = "Exit Velocity"
+
+[[cards]]
+text = "Launch Angle"
+
+[[cards]]
+text = "Statcast"
+
+[[cards]]
+text = "Base Path"
+
+[[cards]]
+text = "Outfield Wall"
+
+[[cards]]
+text = "Clubhouse Attendant"
+
+[[cards]]
+text = "Reliever of the Year"
+
+[[cards]]
+text = "Bullpen Session"
+
+[[cards]]
+text = "Simulated Game"
+
+[[cards]]
+text = "Caught Looking"
+
+[[cards]]
+text = "Swinging Strike"
+
+[[cards]]
+text = "Double Play Depth"
+
+[[cards]]
+text = "Wheel Play"
+
+[[cards]]
+text = "Rundown"

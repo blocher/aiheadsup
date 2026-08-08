@@ -1,0 +1,231 @@
+id = "deck_pittsburgh-s-fourth-of-july_1ebec55a"
+revision = 2
+name = "Pittsburgh's Fourth of July"
+category = "USA 250"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Pittsburgh Fourth of July events, fireworks locations, Point State Park celebrations, riverfront traditions, local parades, Regatta references, neighborhood gatherings, and western Pennsylvania Independence Day customs."
+photo_file_name = "pittsburgh-s-fourth-of-july-1ebec55a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Point State Park"
+
+[[cards]]
+text = "Zambelli Fireworks"
+
+[[cards]]
+text = "Three Rivers Regatta"
+
+[[cards]]
+text = "Gateway Clipper"
+
+[[cards]]
+text = "Mt. Washington Overlook"
+
+[[cards]]
+text = "Canonsburg Parade"
+
+[[cards]]
+text = "Kennywood Celebrate America"
+
+[[cards]]
+text = "Duquesne Incline"
+
+[[cards]]
+text = "Brentwood Parade"
+
+[[cards]]
+text = "EQT Flashes of Freedom"
+
+[[cards]]
+text = "Roberto Clemente Bridge"
+
+[[cards]]
+text = "Fort Pitt Blockhouse"
+
+[[cards]]
+text = "Monongahela River"
+
+[[cards]]
+text = "Allegheny River"
+
+[[cards]]
+text = "Ohio River"
+
+[[cards]]
+text = "North Shore Tailgate"
+
+[[cards]]
+text = "West End Overlook"
+
+[[cards]]
+text = "Carnegie Science Center"
+
+[[cards]]
+text = "Patriotic Smiley Cookie"
+
+[[cards]]
+text = "Pierogy Eating Contest"
+
+[[cards]]
+text = "Potato Patch Fries"
+
+[[cards]]
+text = "Sandcastle Waterpark"
+
+[[cards]]
+text = "Idlewild Park"
+
+[[cards]]
+text = "PNC Park Fireworks"
+
+[[cards]]
+text = "Grandview Avenue"
+
+[[cards]]
+text = "Schenley Park Picnic"
+
+[[cards]]
+text = "North Park Lake"
+
+[[cards]]
+text = "South Park Wave Pool"
+
+[[cards]]
+text = "Fort Pitt Museum"
+
+[[cards]]
+text = "Three Rivers Heritage Trail"
+
+[[cards]]
+text = "Pittsburgh Symphony Concert"
+
+[[cards]]
+text = "Mount Lebanon Fireworks"
+
+[[cards]]
+text = "Lawrenceville Celebration"
+
+[[cards]]
+text = "Monroeville Parade"
+
+[[cards]]
+text = "Shaler Community Day"
+
+[[cards]]
+text = "Anything That Floats Race"
+
+[[cards]]
+text = "West End Bridge"
+
+[[cards]]
+text = "Hartwood Acres Concert"
+
+[[cards]]
+text = "Flagstaff Hill"
+
+[[cards]]
+text = "Dormont Pool"
+
+[[cards]]
+text = "Boyce Park Cookout"
+
+[[cards]]
+text = "Settlers Cabin Park"
+
+[[cards]]
+text = "Big Butler Fair"
+
+[[cards]]
+text = "Station Square"
+
+[[cards]]
+text = "Three Rivers Confluence"
+
+[[cards]]
+text = "Monongahela Wharf"
+
+[[cards]]
+text = "Fineview Overlook"
+
+[[cards]]
+text = "Eat'n Park Restaurant"
+
+[[cards]]
+text = "Cranberry Township Park"
+
+[[cards]]
+text = "Bethel Park Parade"
+
+[[cards]]
+text = "Green Tree Park"
+
+[[cards]]
+text = "McKeesport Renzie Park"
+
+[[cards]]
+text = "Turner's Iced Tea"
+
+[[cards]]
+text = "Westmoreland Heritage Festival"
+
+[[cards]]
+text = "Mount Washington Neighborhood"
+
+[[cards]]
+text = "Fort Duquesne Bridge"
+
+[[cards]]
+text = "Citiparks Pool"
+
+[[cards]]
+text = "Iron City Beer"
+
+[[cards]]
+text = "Pittsburgh Pierogi Mascot"
+
+[[cards]]
+text = "Rivers Casino Riverwalk"
+
+[[cards]]
+text = "Pittsburgh Style Salad"
+
+[[cards]]
+text = "Kayak Pittsburgh"
+
+[[cards]]
+text = "North Park Boathouse"
+
+[[cards]]
+text = "South Park Amphitheater"
+
+[[cards]]
+text = "KDKA TV News"
+
+[[cards]]
+text = "The Pirate Parrot"
+
+[[cards]]
+text = "Mister Rogers Statue"
+
+[[cards]]
+text = "PPG Place Fountain"
+
+[[cards]]
+text = "Duquesne Heights"
+
+[[cards]]
+text = "Honus Wagner Statue"
+
+[[cards]]
+text = "Three Rivers Yacht"
+
+[[cards]]
+text = "Point State Park Fountain"
+
+[[cards]]
+text = "Kennywood Funnel Cake"
+
+[[cards]]
+text = "Mon River Towboat"

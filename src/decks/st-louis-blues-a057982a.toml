@@ -1,0 +1,348 @@
+id = "deck_st-louis-blues_a057982a"
+revision = 2
+name = "St. Louis Blues"
+category = "St. Louis Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Blues history, Enterprise Center, Kiel Center / Scottrade Center, uniforms, mascots, famous current and past players, Stanley Cup moments, nicknames, fan traditions including Gloria, rivalries, and famous plays, but should not be mostly player names. Only include real Blues facts."
+photo_file_name = "st-louis-blues-a057982a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Brett Hull"
+
+[[cards]]
+text = "Bernie Federko"
+
+[[cards]]
+text = "Al MacInnis"
+
+[[cards]]
+text = "Chris Pronger"
+
+[[cards]]
+text = "Jordan Binnington"
+
+[[cards]]
+text = "Ryan O'Reilly"
+
+[[cards]]
+text = "Keith Tkachuk"
+
+[[cards]]
+text = "Curtis Joseph"
+
+[[cards]]
+text = "Glenn Hall"
+
+[[cards]]
+text = "Alex Pietrangelo"
+
+[[cards]]
+text = "Craig Berube"
+
+[[cards]]
+text = "Scotty Bowman"
+
+[[cards]]
+text = "Charles Glenn"
+
+[[cards]]
+text = "Laila Anderson"
+
+[[cards]]
+text = "Towel Man"
+
+[[cards]]
+text = "Enterprise Center"
+
+[[cards]]
+text = "Scottrade Center"
+
+[[cards]]
+text = "Kiel Center"
+
+[[cards]]
+text = "St. Louis Arena"
+
+[[cards]]
+text = "Play Gloria"
+
+[[cards]]
+text = "Louie"
+
+[[cards]]
+text = "The Blue Note"
+
+[[cards]]
+text = "Let's Go Blues"
+
+[[cards]]
+text = "We Went Blues"
+
+[[cards]]
+text = "2019 Stanley Cup"
+
+[[cards]]
+text = "Monday Night Miracle"
+
+[[cards]]
+text = "1967 Expansion"
+
+[[cards]]
+text = "Winter Classic"
+
+[[cards]]
+text = "The Plager Brothers"
+
+[[cards]]
+text = "Chicago Blackhawks"
+
+[[cards]]
+text = "Boston Bruins"
+
+[[cards]]
+text = "Detroit Red Wings"
+
+[[cards]]
+text = "Vladimir Tarasenko"
+
+[[cards]]
+text = "Heritage Jersey"
+
+[[cards]]
+text = "Trumpet Shoulder Patch"
+
+[[cards]]
+text = "Al MacInnis Slapshot"
+
+[[cards]]
+text = "Blue and Yellow"
+
+[[cards]]
+text = "T.J. Oshie"
+
+[[cards]]
+text = "Doug Wickenheiser"
+
+[[cards]]
+text = "Dallas Stars"
+
+[[cards]]
+text = "Nashville Predators"
+
+[[cards]]
+text = "San Jose Sharks"
+
+[[cards]]
+text = "Colorado Avalanche"
+
+[[cards]]
+text = "Minnesota Wild"
+
+[[cards]]
+text = "Power Play Dance"
+
+[[cards]]
+text = "Jaden Schwartz"
+
+[[cards]]
+text = "David Perron"
+
+[[cards]]
+text = "Pat Maroon"
+
+[[cards]]
+text = "Adam Oates"
+
+[[cards]]
+text = "Wayne Gretzky"
+
+[[cards]]
+text = "Tony Twist"
+
+[[cards]]
+text = "Brian Sutter"
+
+[[cards]]
+text = "Darren Pang"
+
+[[cards]]
+text = "Kelly Chase"
+
+[[cards]]
+text = "Alexander Steen"
+
+[[cards]]
+text = "Mike Liut"
+
+[[cards]]
+text = "Jay Bouwmeester"
+
+[[cards]]
+text = "Hull and Oates"
+
+[[cards]]
+text = "Savvis Center"
+
+[[cards]]
+text = "Checkerdome"
+
+[[cards]]
+text = "Ralston Purina"
+
+[[cards]]
+text = "Centene Community Ice Center"
+
+[[cards]]
+text = "Springfield Thunderbirds"
+
+[[cards]]
+text = "Peoria Rivermen"
+
+[[cards]]
+text = "Blues for Kids"
+
+[[cards]]
+text = "Barclay the Dog"
+
+[[cards]]
+text = "KMOX"
+
+[[cards]]
+text = "Dan Kelly"
+
+[[cards]]
+text = "Ken Wilson"
+
+[[cards]]
+text = "Kiel Garage"
+
+[[cards]]
+text = "Rally Towel"
+
+[[cards]]
+text = "101 ESPN"
+
+[[cards]]
+text = "Stifel Theatre"
+
+[[cards]]
+text = "Shovel Patrol"
+
+[[cards]]
+text = "Norris Division"
+
+[[cards]]
+text = "The Bruise Brothers"
+
+[[cards]]
+text = "The Old Barn"
+
+[[cards]]
+text = "Clown Jersey"
+
+[[cards]]
+text = "The Ice Zone"
+
+[[cards]]
+text = "Organ Loft"
+
+[[cards]]
+text = "Torey Krug"
+
+[[cards]]
+text = "Pavel Buchnevich"
+
+[[cards]]
+text = "Brandon Saad"
+
+[[cards]]
+text = "Justin Faulk"
+
+[[cards]]
+text = "Jake Allen"
+
+[[cards]]
+text = "Brian Elliott"
+
+[[cards]]
+text = "Jacques Plante"
+
+[[cards]]
+text = "Pierre Turgeon"
+
+[[cards]]
+text = "Scott Stevens"
+
+[[cards]]
+text = "Doug Gilmour"
+
+[[cards]]
+text = "Paul Kariya"
+
+[[cards]]
+text = "Joey Vitale"
+
+[[cards]]
+text = "Chris Kerber"
+
+[[cards]]
+text = "Laura Branigan"
+
+[[cards]]
+text = "Saskatoon Relocation"
+
+[[cards]]
+text = "St. Patrick's Day Brawl"
+
+[[cards]]
+text = "Winged Note Crest"
+
+[[cards]]
+text = "The STL Line"
+
+[[cards]]
+text = "Sutter Family"
+
+[[cards]]
+text = "Harry Ornest"
+
+[[cards]]
+text = "Sid Salomon Jr."
+
+[[cards]]
+text = "Ron Caron"
+
+[[cards]]
+text = "Lord Stanley's Cup"
+
+[[cards]]
+text = "St. Louis Cardinals Night"
+
+[[cards]]
+text = "Blues Brass Band"
+
+[[cards]]
+text = "Gloria"
+
+[[cards]]
+text = "June 12, 2019"
+
+[[cards]]
+text = "Oskar Sundqvist"
+
+[[cards]]
+text = "Vince Dunn"
+
+[[cards]]
+text = "Carl Gunnarsson"
+
+[[cards]]
+text = "Robert Bortuzzo"
+
+[[cards]]
+text = "Tyler Bozak"
+
+[[cards]]
+text = "Steve Ott"

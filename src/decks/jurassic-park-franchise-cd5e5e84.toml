@@ -1,0 +1,834 @@
+id = "deck_jurassic-park-franchise_cd5e5e84"
+revision = 2
+name = "Jurassic Park Franchise"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, dinosaurs, parks, vehicles, locations, objects, and memorable moments from the Jurassic Park and Jurassic World movies. Keep content family-friendly. Tag every card with the earliest movie installment where it is revealed."
+photo_file_name = "jurassic-park-franchise-cd5e5e84-cover.jpg"
+spoiler_mode = true
+spoiler_series = "jurassic_park"
+
+[[cards]]
+text = "Alan Grant"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ellie Sattler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ian Malcolm"
+first_revealed_installment = 1
+
+[[cards]]
+text = "John Hammond"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dennis Nedry"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lex Murphy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tim Murphy"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Robert Muldoon"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ray Arnold"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Owen Grady"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Claire Dearing"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Maisie Lockwood"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Tyrannosaurus Rex"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Velociraptor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Triceratops"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Brachiosaurus"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dilophosaurus"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gallimimus"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Compsognathus"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Spinosaurus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Pteranodon"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ankylosaurus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mosasaurus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Indominus Rex"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Indoraptor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Blue the Raptor"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Carnotaurus"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Giganotosaurus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Therizinosaurus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dimorphodon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Baryonyx"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Pyroraptor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Isla Nublar"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Isla Sorna"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lockwood Manor"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Biosyn Valley"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Mount Sibo"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Jurassic Park Jeep"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ford Explorer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gyrosphere"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mobile Lab RV"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Barbasol Shaving Can"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mosquito in Amber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mr. DNA"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Night Vision Goggles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Clever Girl"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Life Finds a Way"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dinosaur Egg"
+first_revealed_installment = 1
+
+[[cards]]
+text = "San Diego Incident"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Baby Raptor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dr. Henry Wu"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Donald Gennaro"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lewis Dodgson"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sarah Harding"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Nick Van Owen"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Roland Tembo"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Billy Brennan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Paul Kirby"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Amanda Kirby"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Simon Masrani"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Lowery Cruthers"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Barry Sembène"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Vic Hoskins"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Zach and Gray"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Franklin Webb"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dr. Zia Rodriguez"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Eli Mills"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Sir Benjamin Lockwood"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Kayla Watts"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Ramsay Cole"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Stegosaurus"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Parasaurolophus"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Pachycephalosaurus"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ceratosaurus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Corythosaurus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Apatosaurus"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stygimoloch"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Allosaurus"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dimetrodon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Quetzalcoatlus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Atrociraptor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Dreadnoughtus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Microceratus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Nasutoceratops"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Raptor Paddock"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jurassic World Lagoon"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Main Street"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Aviary"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Worker Village"
+first_revealed_installment = 2
+
+[[cards]]
+text = "InGen Lab"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rippling Water Cup"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Amber Cane"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Goat on a Chain"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Satellite Phone"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Monorail"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Red Flare"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Spared No Expense"
+first_revealed_installment = 1
+
+[[cards]]
+text = "High Hide"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dinosaur Embryos"
+first_revealed_installment = 1
+
+[[cards]]
+text = "InGen Helicopter"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hold Onto Your Butts"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Welcome to Jurassic Park"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Must Go Faster"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Long Grass"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chaos Theory"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lysine Contingency"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jurassic Park Gates"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mano de Dios Mine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Badlands of Montana"
+first_revealed_installment = 1
+
+[[cards]]
+text = "InGen"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kelly Curtis"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Eric Kirby"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Dieter Stark"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Zara Young"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ken Wheatley"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Mamenchisaurus"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sinoceratops"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lystrosaurus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Moros Intrepidus"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Oviraptor"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Iguanodon"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Suchomimus"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Electric Fence"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Paddock Gate"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fossil Dig"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Biosyn Genetics"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cretaceous Cruise"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Helipad"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gentle Giants Petting Zoo"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Shock Rifle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dinosaur Protection Group"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Asset Auction"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Locust Plague"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Malta Black Market"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Biosyn Hyperloop"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Research Trailer"
+first_revealed_installment = 2
+
+[[cards]]
+text = "East Dock"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Taser Staff"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Tracking Implant"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Laser Pointer"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Cargo Plane"
+first_revealed_installment = 3
+
+[[cards]]
+text = "InGen Humvee"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cattle Prod"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Magic Word"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Costa Rica"
+first_revealed_installment = 1
+
+[[cards]]
+text = "InGen Boardroom"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Clicker"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Visitor Center"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Control Room"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Electric Tour Car"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kitchen Chase"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Yellow Raincoat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dinosaur Dung"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Paleontologist"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Paleobotanist"
+first_revealed_installment = 1
+
+[[cards]]
+text = "DNA Strand"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stampede"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Amber Mine"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jeep Wrangler"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Jelly Dessert"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cryogenic Chamber"
+first_revealed_installment = 1
+
+[[cards]]
+text = "InGen Harvester"
+first_revealed_installment = 2
+
+[[cards]]
+text = "S.S. Venture"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gymnastics Kick"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dinosaur Nest"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Tranq Gun"
+first_revealed_installment = 2
+
+[[cards]]
+text = "InGen Mercenaries"
+first_revealed_installment = 2
+
+[[cards]]
+text = "San Diego Dock"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Snare ATV"
+first_revealed_installment = 2
+
+[[cards]]
+text = "San Diego Amphitheater"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Resonating Chamber"
+first_revealed_installment = 3
+
+[[cards]]
+text = "River Boat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "InGen Airfield"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Paraglider"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bird Cage"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Innovation Center"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Margarita Guy"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Holoscape"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Raptor Squad"
+first_revealed_installment = 4
+
+[[cards]]
+text = "ACU Trooper"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Indominus Camouflage"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Raptor Muzzle"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Volcanic Ash"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Dinosaur Auctioneer"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Arcadia Ship"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Lava Flow"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Raptor Claw"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Chilean Sea Bass"
+first_revealed_installment = 1
+
+[[cards]]
+text = "West Indian Lilac"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Embryo Cold Storage"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Snakewater Montana"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Park Gift Shop"
+first_revealed_installment = 1
+
+[[cards]]
+text = "InGen ID Badge"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Five Deaths"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sorna Operations Center"
+first_revealed_installment = 2
+
+[[cards]]
+text = "InGen Mercedes SUV"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dr. Robert Burke"
+first_revealed_installment = 2
+
+[[cards]]
+text = "T-Rex Urine"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ben Hildebrand"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Udesky"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Abandoned Runway"
+first_revealed_installment = 3
+
+[[cards]]
+text = "More Teeth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Charlotte Lockwood"
+first_revealed_installment = 5
+
+[[cards]]
+text = "Soyona Santos"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Rainn Delacourt"
+first_revealed_installment = 6
+
+[[cards]]
+text = "Tranquilizer Dart"
+first_revealed_installment = 1

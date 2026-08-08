@@ -1,0 +1,591 @@
+id = "deck_university-of-minnesota_f93f380f"
+revision = 2
+name = "University of Minnesota"
+category = "Colleges and Universities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include campus landmarks, Golden Gophers athletics, mascots, school history, academic traditions, notable alumni, Twin Cities connections, and recognizable University of Minnesota references."
+photo_file_name = "university-of-minnesota-f93f380f-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Goldy Gopher"
+
+[[cards]]
+text = "Ski-U-Mah"
+
+[[cards]]
+text = "Northrop Auditorium"
+
+[[cards]]
+text = "Dinkytown"
+
+[[cards]]
+text = "Weisman Art Museum"
+
+[[cards]]
+text = "Huntington Bank Stadium"
+
+[[cards]]
+text = "Williams Arena"
+
+[[cards]]
+text = "Mariucci Arena"
+
+[[cards]]
+text = "Washington Avenue Bridge"
+
+[[cards]]
+text = "Coffman Memorial Union"
+
+[[cards]]
+text = "Floyd of Rosedale"
+
+[[cards]]
+text = "Paul Bunyan's Axe"
+
+[[cards]]
+text = "Little Brown Jug"
+
+[[cards]]
+text = "The Block M"
+
+[[cards]]
+text = "Maroon and Gold"
+
+[[cards]]
+text = "Minnesota Rouser"
+
+[[cards]]
+text = "East Bank"
+
+[[cards]]
+text = "West Bank"
+
+[[cards]]
+text = "St. Paul Campus"
+
+[[cards]]
+text = "Minnesota Daily"
+
+[[cards]]
+text = "Spring Jam"
+
+[[cards]]
+text = "Hubert H. Humphrey"
+
+[[cards]]
+text = "Walter Mondale"
+
+[[cards]]
+text = "Herb Brooks"
+
+[[cards]]
+text = "Lindsay Whalen"
+
+[[cards]]
+text = "PJ Fleck"
+
+[[cards]]
+text = "Bob Dylan"
+
+[[cards]]
+text = "Norman Borlaug"
+
+[[cards]]
+text = "The Raptor Center"
+
+[[cards]]
+text = "Bell Museum"
+
+[[cards]]
+text = "Carlson School"
+
+[[cards]]
+text = "Goldy Statue"
+
+[[cards]]
+text = "Rubbing Goldy's Nose"
+
+[[cards]]
+text = "Stone Arch Bridge"
+
+[[cards]]
+text = "Mississippi River"
+
+[[cards]]
+text = "Stadium Village"
+
+[[cards]]
+text = "Walter Library"
+
+[[cards]]
+text = "Pillsbury Hall"
+
+[[cards]]
+text = "McNamara Alumni Center"
+
+[[cards]]
+text = "The Superblock"
+
+[[cards]]
+text = "Centennial Hall"
+
+[[cards]]
+text = "Gopher Football"
+
+[[cards]]
+text = "Gopher Hockey"
+
+[[cards]]
+text = "Minnesota State Fair"
+
+[[cards]]
+text = "Pride of Minnesota"
+
+[[cards]]
+text = "Goldy's Headshake"
+
+[[cards]]
+text = "Maroon Out"
+
+[[cards]]
+text = "Row The Boat"
+
+[[cards]]
+text = "Bruininks Hall"
+
+[[cards]]
+text = "Moos Tower"
+
+[[cards]]
+text = "Al's Breakfast"
+
+[[cards]]
+text = "Campus Connector"
+
+[[cards]]
+text = "Rarig Center"
+
+[[cards]]
+text = "Washington Avenue Mall"
+
+[[cards]]
+text = "Gopher Way"
+
+[[cards]]
+text = "Folwell Hall"
+
+[[cards]]
+text = "Radio K"
+
+[[cards]]
+text = "Gopher Volleyball"
+
+[[cards]]
+text = "Welcome Week"
+
+[[cards]]
+text = "Paint the Bridge"
+
+[[cards]]
+text = "Varsity Theater"
+
+[[cards]]
+text = "Bronko Nagurski"
+
+[[cards]]
+text = "Gable Steveson"
+
+[[cards]]
+text = "Pioneer Hall"
+
+[[cards]]
+text = "Territorial Hall"
+
+[[cards]]
+text = "Frontier Hall"
+
+[[cards]]
+text = "Bailey Hall"
+
+[[cards]]
+text = "Middlebrook Hall"
+
+[[cards]]
+text = "Tony Dungy"
+
+[[cards]]
+text = "Patty Berg"
+
+[[cards]]
+text = "Sally's Saloon"
+
+[[cards]]
+text = "Stub and Herb's"
+
+[[cards]]
+text = "Witch's Hat Water Tower"
+
+[[cards]]
+text = "Green Line"
+
+[[cards]]
+text = "Solar Vehicle Project"
+
+[[cards]]
+text = "Ridder Arena"
+
+[[cards]]
+text = "Siebert Field"
+
+[[cards]]
+text = "The Barnyard"
+
+[[cards]]
+text = "Gopher Wrestling"
+
+[[cards]]
+text = "St. Anthony Falls"
+
+[[cards]]
+text = "Scholars Walk"
+
+[[cards]]
+text = "Wall of Discovery"
+
+[[cards]]
+text = "College of Liberal Arts"
+
+[[cards]]
+text = "Gopher Pep Band"
+
+[[cards]]
+text = "Blegen Hall"
+
+[[cards]]
+text = "Keller Hall"
+
+[[cards]]
+text = "Nicholson Hall"
+
+[[cards]]
+text = "Amundson Hall"
+
+[[cards]]
+text = "Sanford Hall"
+
+[[cards]]
+text = "Elizabeth Lyle Robbie Stadium"
+
+[[cards]]
+text = "Gibson-Nagurski Complex"
+
+[[cards]]
+text = "Bierman Field"
+
+[[cards]]
+text = "Jane Sage Cowles Stadium"
+
+[[cards]]
+text = "Annie's Parlour"
+
+[[cards]]
+text = "Dave Winfield"
+
+[[cards]]
+text = "Kevin McHale"
+
+[[cards]]
+text = "Garrison Keillor"
+
+[[cards]]
+text = "Paul Giel"
+
+[[cards]]
+text = "The Rec Well"
+
+[[cards]]
+text = "University Bookstores"
+
+[[cards]]
+text = "U-Card"
+
+[[cards]]
+text = "Coffey Hall"
+
+[[cards]]
+text = "Memorial Stadium"
+
+[[cards]]
+text = "Eddy Hall"
+
+[[cards]]
+text = "Willey Hall"
+
+[[cards]]
+text = "Boynton Health"
+
+[[cards]]
+text = "Burton Hall"
+
+[[cards]]
+text = "Tate Hall"
+
+[[cards]]
+text = "Smith Hall"
+
+[[cards]]
+text = "Murphy Hall"
+
+[[cards]]
+text = "Johnston Hall"
+
+[[cards]]
+text = "Minnesota Landscape Arboretum"
+
+[[cards]]
+text = "Gopher Women's Basketball"
+
+[[cards]]
+text = "Gopher Women's Hockey"
+
+[[cards]]
+text = "Gopher Baseball"
+
+[[cards]]
+text = "Gopher Gymnastics"
+
+[[cards]]
+text = "One Stop"
+
+[[cards]]
+text = "University Avenue"
+
+[[cards]]
+text = "Prospect Park"
+
+[[cards]]
+text = "Marcy-Holmes"
+
+[[cards]]
+text = "Southeast Como"
+
+[[cards]]
+text = "Gopher Dairy Bar"
+
+[[cards]]
+text = "M Health Fairview"
+
+[[cards]]
+text = "The Wake Magazine"
+
+[[cards]]
+text = "Mesa Pizza"
+
+[[cards]]
+text = "Shevlin Hall"
+
+[[cards]]
+text = "Appleby Hall"
+
+[[cards]]
+text = "Nolte Center"
+
+[[cards]]
+text = "Jones Hall"
+
+[[cards]]
+text = "Peik Gym"
+
+[[cards]]
+text = "Oak Street Ramp"
+
+[[cards]]
+text = "Go Gophers"
+
+[[cards]]
+text = "University Grove"
+
+[[cards]]
+text = "The Knoll"
+
+[[cards]]
+text = "The Campus Mall"
+
+[[cards]]
+text = "M Club"
+
+[[cards]]
+text = "Wilson Library"
+
+[[cards]]
+text = "Rapson Hall"
+
+[[cards]]
+text = "Yudof Hall"
+
+[[cards]]
+text = "Comstock Hall"
+
+[[cards]]
+text = "17th Avenue Residence"
+
+[[cards]]
+text = "Ted Mann Concert Hall"
+
+[[cards]]
+text = "Ferguson Hall"
+
+[[cards]]
+text = "Regis Center for Art"
+
+[[cards]]
+text = "Falcon Heights"
+
+[[cards]]
+text = "Eric Decker"
+
+[[cards]]
+text = "Tyler Johnson"
+
+[[cards]]
+text = "Darrell Thompson"
+
+[[cards]]
+text = "Rashod Bateman"
+
+[[cards]]
+text = "Phil Kessel"
+
+[[cards]]
+text = "Neal Broten"
+
+[[cards]]
+text = "Natalie Darwitz"
+
+[[cards]]
+text = "Amanda Kessel"
+
+[[cards]]
+text = "Rachel Banham"
+
+[[cards]]
+text = "Gigi Marvin"
+
+[[cards]]
+text = "Clem Haskins"
+
+[[cards]]
+text = "Hugh McCutcheon"
+
+[[cards]]
+text = "Mayo Memorial Building"
+
+[[cards]]
+text = "Akerman Hall"
+
+[[cards]]
+text = "Shepard Laboratories"
+
+[[cards]]
+text = "Hasselmo Hall"
+
+[[cards]]
+text = "Lind Hall"
+
+[[cards]]
+text = "Diehl Hall"
+
+[[cards]]
+text = "Cooke Hall"
+
+[[cards]]
+text = "Wilkins Hall"
+
+[[cards]]
+text = "Keeler Apartments"
+
+[[cards]]
+text = "Radius Apartments"
+
+[[cards]]
+text = "Magrath Library"
+
+[[cards]]
+text = "Peters Hall"
+
+[[cards]]
+text = "McNeal Hall"
+
+[[cards]]
+text = "Haecker Hall"
+
+[[cards]]
+text = "Stakman Hall"
+
+[[cards]]
+text = "Ruttan Hall"
+
+[[cards]]
+text = "Cargill Building"
+
+[[cards]]
+text = "Minnesota Student Association"
+
+[[cards]]
+text = "Minneapolis Campus"
+
+[[cards]]
+text = "Minnesota Golden Gophers"
+
+[[cards]]
+text = "Bud Grant"
+
+[[cards]]
+text = "The Metrodome"
+
+[[cards]]
+text = "Seven Corners"
+
+[[cards]]
+text = "Cedar-Riverside"
+
+[[cards]]
+text = "Blarney Pub"
+
+[[cards]]
+text = "John Pillsbury"
+
+[[cards]]
+text = "Goldy's Run"
+
+[[cards]]
+text = "U-Pass"
+
+[[cards]]
+text = "Miracle on Ice"
+
+[[cards]]
+text = "Hail! Minnesota"
+
+[[cards]]
+text = "Governor's Victory Bell"
+
+[[cards]]
+text = "Bernie Bierman"
+
+[[cards]]
+text = "Marion Barber III"
+
+[[cards]]
+text = "Roy Wilkins"
+
+[[cards]]
+text = "U of M Morris"
+
+[[cards]]
+text = "U of M Duluth"
+
+[[cards]]
+text = "Gopher Men's Basketball"

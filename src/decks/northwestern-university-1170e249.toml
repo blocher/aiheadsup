@@ -1,0 +1,624 @@
+id = "deck_northwestern-university_1170e249"
+revision = 2
+name = "Northwestern University"
+category = "Colleges and Universities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include campus landmarks, Wildcats athletics, mascots, school history, academic traditions, notable alumni, Evanston and Chicago connections, and recognizable Northwestern University references."
+photo_file_name = "northwestern-university-1170e249-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Willie the Wildcat"
+
+[[cards]]
+text = "The Arch"
+
+[[cards]]
+text = "The Rock"
+
+[[cards]]
+text = "The Lakefill"
+
+[[cards]]
+text = "Deering Library"
+
+[[cards]]
+text = "Dillo Day"
+
+[[cards]]
+text = "University Hall"
+
+[[cards]]
+text = "Evanston"
+
+[[cards]]
+text = "Lake Michigan"
+
+[[cards]]
+text = "Sheridan Road"
+
+[[cards]]
+text = "Stephen Colbert"
+
+[[cards]]
+text = "Julia Louis-Dreyfus"
+
+[[cards]]
+text = "Meghan Markle"
+
+[[cards]]
+text = "David Schwimmer"
+
+[[cards]]
+text = "Seth Meyers"
+
+[[cards]]
+text = "George R.R. Martin"
+
+[[cards]]
+text = "Medill School of Journalism"
+
+[[cards]]
+text = "Kellogg School of Management"
+
+[[cards]]
+text = "Bienen School of Music"
+
+[[cards]]
+text = "Feinberg School of Medicine"
+
+[[cards]]
+text = "Purple and White"
+
+[[cards]]
+text = "Wildcat Welcome"
+
+[[cards]]
+text = "Dance Marathon"
+
+[[cards]]
+text = "Primal Scream"
+
+[[cards]]
+text = "Painting the Rock"
+
+[[cards]]
+text = "Ryan Field"
+
+[[cards]]
+text = "Welsh-Ryan Arena"
+
+[[cards]]
+text = "Purple Line"
+
+[[cards]]
+text = "Technological Institute"
+
+[[cards]]
+text = "Shakespeare Garden"
+
+[[cards]]
+text = "Alice Millar Chapel"
+
+[[cards]]
+text = "Norris University Center"
+
+[[cards]]
+text = "Mustard's Last Stand"
+
+[[cards]]
+text = "Chicago Campus"
+
+[[cards]]
+text = "Big Ten Conference"
+
+[[cards]]
+text = "Northwestern Wildcats"
+
+[[cards]]
+text = "Purple Pride"
+
+[[cards]]
+text = "Rebecca Crown Center"
+
+[[cards]]
+text = "Wirtz Center"
+
+[[cards]]
+text = "Wildcat Dash"
+
+[[cards]]
+text = "The Daily Northwestern"
+
+[[cards]]
+text = "Ryan Fieldhouse"
+
+[[cards]]
+text = "Dearborn Observatory"
+
+[[cards]]
+text = "Gothic Architecture"
+
+[[cards]]
+text = "Wildcats Marching Band"
+
+[[cards]]
+text = "Wildcat Alley"
+
+[[cards]]
+text = "Ford Engineering Design Center"
+
+[[cards]]
+text = "Joy Yee"
+
+[[cards]]
+text = "Northwestern Sailing Center"
+
+[[cards]]
+text = "Cindy Crawford"
+
+[[cards]]
+text = "Warren Beatty"
+
+[[cards]]
+text = "Charlton Heston"
+
+[[cards]]
+text = "Cloris Leachman"
+
+[[cards]]
+text = "Gillian Flynn"
+
+[[cards]]
+text = "Veronica Roth"
+
+[[cards]]
+text = "Zach Braff"
+
+[[cards]]
+text = "Billy Eichner"
+
+[[cards]]
+text = "Kathryn Hahn"
+
+[[cards]]
+text = "Ana Gasteyer"
+
+[[cards]]
+text = "Garry Marshall"
+
+[[cards]]
+text = "Joe Girardi"
+
+[[cards]]
+text = "Luke Donald"
+
+[[cards]]
+text = "Mike Greenberg"
+
+[[cards]]
+text = "Michael Wilbon"
+
+[[cards]]
+text = "Block Museum of Art"
+
+[[cards]]
+text = "Patten Gymnasium"
+
+[[cards]]
+text = "Fisk Hall"
+
+[[cards]]
+text = "Kresge Centennial Hall"
+
+[[cards]]
+text = "Henry Crown Sports Pavilion"
+
+[[cards]]
+text = "Cahn Auditorium"
+
+[[cards]]
+text = "Lutkin Hall"
+
+[[cards]]
+text = "Segal Visitors Center"
+
+[[cards]]
+text = "Pancoe Pavilion"
+
+[[cards]]
+text = "Lunt Hall"
+
+[[cards]]
+text = "Swift Hall"
+
+[[cards]]
+text = "Foster-Walker Complex"
+
+[[cards]]
+text = "Willard Residential College"
+
+[[cards]]
+text = "Bobb-McCulloch Hall"
+
+[[cards]]
+text = "Elder Hall"
+
+[[cards]]
+text = "Mee-Ow Show"
+
+[[cards]]
+text = "Dolphin Show"
+
+[[cards]]
+text = "Go U Northwestern"
+
+[[cards]]
+text = "Wildcat Claw"
+
+[[cards]]
+text = "Reading Period"
+
+[[cards]]
+text = "WNUR"
+
+[[cards]]
+text = "A&O Productions"
+
+[[cards]]
+text = "Push-up Crew"
+
+[[cards]]
+text = "Cardiac Cats"
+
+[[cards]]
+text = "Intercampus Shuttle"
+
+[[cards]]
+text = "Wildcat Growl"
+
+[[cards]]
+text = "Weinberg College"
+
+[[cards]]
+text = "McCormick School"
+
+[[cards]]
+text = "School of Communication"
+
+[[cards]]
+text = "Pritzker School of Law"
+
+[[cards]]
+text = "Grosse Point Lighthouse"
+
+[[cards]]
+text = "Clark Street Beach"
+
+[[cards]]
+text = "Noyes Street"
+
+[[cards]]
+text = "Davis Street"
+
+[[cards]]
+text = "Central Street"
+
+[[cards]]
+text = "Sorority Quad"
+
+[[cards]]
+text = "The Waa-Mu Show"
+
+[[cards]]
+text = "John Evans"
+
+[[cards]]
+text = "Sarkis Cafe"
+
+[[cards]]
+text = "Buffalo Joe's"
+
+[[cards]]
+text = "The Garage"
+
+[[cards]]
+text = "Adlai Stevenson II"
+
+[[cards]]
+text = "Dermot Mulroney"
+
+[[cards]]
+text = "Kelly Amonte Hiller"
+
+[[cards]]
+text = "Land of Lincoln Trophy"
+
+[[cards]]
+text = "The Deuce"
+
+[[cards]]
+text = "Frances Willard"
+
+[[cards]]
+text = "Ara Parseghian"
+
+[[cards]]
+text = "Otto Graham"
+
+[[cards]]
+text = "Morton Schapiro"
+
+[[cards]]
+text = "Mayfest"
+
+[[cards]]
+text = "Syllabus Yearbook"
+
+[[cards]]
+text = "Annenberg Hall"
+
+[[cards]]
+text = "Harris Hall"
+
+[[cards]]
+text = "Sargent Hall"
+
+[[cards]]
+text = "Allison Hall"
+
+[[cards]]
+text = "Shepard Hall"
+
+[[cards]]
+text = "Jones Residential College"
+
+[[cards]]
+text = "Slivka Hall"
+
+[[cards]]
+text = "Ayers Residential College"
+
+[[cards]]
+text = "Orrington Avenue"
+
+[[cards]]
+text = "Rocky Miller Park"
+
+[[cards]]
+text = "Drysdale Field"
+
+[[cards]]
+text = "Martin Stadium"
+
+[[cards]]
+text = "Abbott Hall"
+
+[[cards]]
+text = "Wieboldt Hall"
+
+[[cards]]
+text = "Ward Memorial Building"
+
+[[cards]]
+text = "Rubloff Hall"
+
+[[cards]]
+text = "Edzo's Burger Shop"
+
+[[cards]]
+text = "Unicorn Cafe"
+
+[[cards]]
+text = "Bat 17"
+
+[[cards]]
+text = "The Celtic Knot"
+
+[[cards]]
+text = "Ann-Margret"
+
+[[cards]]
+text = "Jerry Springer"
+
+[[cards]]
+text = "Craig Sager"
+
+[[cards]]
+text = "Heather Headley"
+
+[[cards]]
+text = "Gwynne Shotwell"
+
+[[cards]]
+text = "John Paul Stevens"
+
+[[cards]]
+text = "Chris Collins"
+
+[[cards]]
+text = "Boo Buie"
+
+[[cards]]
+text = "Sherman Avenue"
+
+[[cards]]
+text = "Tony Randall"
+
+[[cards]]
+text = "The Flipside"
+
+[[cards]]
+text = "Wildcard"
+
+[[cards]]
+text = "SESP"
+
+[[cards]]
+text = "RTVF"
+
+[[cards]]
+text = "The Medill F"
+
+[[cards]]
+text = "Cherubs"
+
+[[cards]]
+text = "The Lagoon"
+
+[[cards]]
+text = "SPAC"
+
+[[cards]]
+text = "Plex"
+
+[[cards]]
+text = "Kemper Hall"
+
+[[cards]]
+text = "Shanley Pavilion"
+
+[[cards]]
+text = "Mudd Library"
+
+[[cards]]
+text = "Lakeside Field"
+
+[[cards]]
+text = "Pick-Staiger Concert Hall"
+
+[[cards]]
+text = "Lighthouse Beach"
+
+[[cards]]
+text = "Lincoln Street Beach"
+
+[[cards]]
+text = "The Keg of Evanston"
+
+[[cards]]
+text = "Tomate Fresh Kitchen"
+
+[[cards]]
+text = "Chicken Shack"
+
+[[cards]]
+text = "Loretta Sandwich"
+
+[[cards]]
+text = "Wildcat Lacrosse"
+
+[[cards]]
+text = "Sweet Sioux Trophy"
+
+[[cards]]
+text = "Boomshaka"
+
+[[cards]]
+text = "North by Northwestern"
+
+[[cards]]
+text = "The Black House"
+
+[[cards]]
+text = "Rose Bowl Game"
+
+[[cards]]
+text = "J.B. Pritzker"
+
+[[cards]]
+text = "Harold Washington"
+
+[[cards]]
+text = "Rahm Emanuel"
+
+[[cards]]
+text = "Arthur Goldberg"
+
+[[cards]]
+text = "Megan Mullally"
+
+[[cards]]
+text = "Shelley Long"
+
+[[cards]]
+text = "Thomas Lennon"
+
+[[cards]]
+text = "Jerry Orbach"
+
+[[cards]]
+text = "McLean Stevenson"
+
+[[cards]]
+text = "William Daniels"
+
+[[cards]]
+text = "Marg Helgenberger"
+
+[[cards]]
+text = "Dave Revsine"
+
+[[cards]]
+text = "J.A. Adande"
+
+[[cards]]
+text = "Edwin G. Booz"
+
+[[cards]]
+text = "Peter G. Peterson"
+
+[[cards]]
+text = "Pat Fitzgerald"
+
+[[cards]]
+text = "CAESAR"
+
+[[cards]]
+text = "Streeterville"
+
+[[cards]]
+text = "Walker Bros."
+
+[[cards]]
+text = "Tapas Barcelona"
+
+[[cards]]
+text = "David Crane"
+
+[[cards]]
+text = "Greg Berlanti"
+
+[[cards]]
+text = "Sheldon Harnick"
+
+[[cards]]
+text = "Northwestern Memorial Hospital"
+
+[[cards]]
+text = "President Michael Schill"
+
+[[cards]]
+text = "Newton Minow"
+
+[[cards]]
+text = "Shirley Ryan AbilityLab"
+
+[[cards]]
+text = "Northwestern University Press"
+
+[[cards]]
+text = "NSTV"
+
+[[cards]]
+text = "Purple Haze"
+
+[[cards]]
+text = "Baha'i House of Worship"
+
+[[cards]]
+text = "Wilmette"
+
+[[cards]]
+text = "Jacobs Center"

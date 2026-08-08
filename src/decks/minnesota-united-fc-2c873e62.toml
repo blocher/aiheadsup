@@ -1,0 +1,300 @@
+id = "deck_minnesota-united-fc_2c873e62"
+revision = 2
+name = "Minnesota United FC"
+category = "Minnesota Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Minnesota United FC history, Allianz Field, uniforms, mascots, famous current and past players, MLS moments, supporters groups, soccer terms, rivalries, and matchday traditions, but should not be mostly player names. Only include real Minnesota United facts."
+photo_file_name = "minnesota-united-fc-2c873e62-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Allianz Field"
+
+[[cards]]
+text = "The Wonderwall"
+
+[[cards]]
+text = "PK the Loon"
+
+[[cards]]
+text = "Dark Clouds"
+
+[[cards]]
+text = "True North Elite"
+
+[[cards]]
+text = "Singing Wonderwall"
+
+[[cards]]
+text = "TCF Bank Stadium"
+
+[[cards]]
+text = "Adrian Heath"
+
+[[cards]]
+text = "Sporting Kansas City"
+
+[[cards]]
+text = "Black and Blue"
+
+[[cards]]
+text = "The Brew Hall"
+
+[[cards]]
+text = "Snow Opener"
+
+[[cards]]
+text = "Northern Lights Kit"
+
+[[cards]]
+text = "River Lit Kit"
+
+[[cards]]
+text = "Dayne St. Clair"
+
+[[cards]]
+text = "Teemu Pukki"
+
+[[cards]]
+text = "Michael Boxall"
+
+[[cards]]
+text = "Robin Lod"
+
+[[cards]]
+text = "Emanuel Reynoso"
+
+[[cards]]
+text = "Christian Ramirez"
+
+[[cards]]
+text = "Miguel Ibarra"
+
+[[cards]]
+text = "Ike Opara"
+
+[[cards]]
+text = "Bongokuhle Hlongwane"
+
+[[cards]]
+text = "Vito Mannone"
+
+[[cards]]
+text = "Minnesota Thunder"
+
+[[cards]]
+text = "Minnesota Stars FC"
+
+[[cards]]
+text = "U.S. Open Cup"
+
+[[cards]]
+text = "Dr. Bill McGuire"
+
+[[cards]]
+text = "Eric Ramsay"
+
+[[cards]]
+text = "Scarves Up"
+
+[[cards]]
+text = "The Great Lawn"
+
+[[cards]]
+text = "Midway Neighborhood"
+
+[[cards]]
+text = "Red Loons"
+
+[[cards]]
+text = "Saint Paul"
+
+[[cards]]
+text = "The Loons"
+
+[[cards]]
+text = "L'Étoile du Nord"
+
+[[cards]]
+text = "Capo Stand"
+
+[[cards]]
+text = "Target Logo"
+
+[[cards]]
+text = "NASL Era"
+
+[[cards]]
+text = "Loon Call"
+
+[[cards]]
+text = "Hassani Dotson"
+
+[[cards]]
+text = "Brent Kallman"
+
+[[cards]]
+text = "Bobby Shuttleworth"
+
+[[cards]]
+text = "Ethan Finlay"
+
+[[cards]]
+text = "Sang Bin Jeong"
+
+[[cards]]
+text = "Manny Lagos"
+
+[[cards]]
+text = "Buzz Lagos"
+
+[[cards]]
+text = "National Sports Center"
+
+[[cards]]
+text = "The Drift Kit"
+
+[[cards]]
+text = "The Wing Kit"
+
+[[cards]]
+text = "Grey and Sky Blue"
+
+[[cards]]
+text = "Snelling Avenue"
+
+[[cards]]
+text = "Thunderwall Drums"
+
+[[cards]]
+text = "March to the Match"
+
+[[cards]]
+text = "PTFE Stadium Skin"
+
+[[cards]]
+text = "Dynamic LED Lights"
+
+[[cards]]
+text = "Jan Gregus"
+
+[[cards]]
+text = "Kelvin Yeboah"
+
+[[cards]]
+text = "Joseph Rosales"
+
+[[cards]]
+text = "Franco Fragapane"
+
+[[cards]]
+text = "Minnesota United 2"
+
+[[cards]]
+text = "Portland Timbers"
+
+[[cards]]
+text = "North Star State"
+
+[[cards]]
+text = "United Crest"
+
+[[cards]]
+text = "Minnesota Kicks"
+
+[[cards]]
+text = "Wil Trapp"
+
+[[cards]]
+text = "Kevin Molino"
+
+[[cards]]
+text = "Ozzie Alonso"
+
+[[cards]]
+text = "Tani Oluwaseyi"
+
+[[cards]]
+text = "Ibson"
+
+[[cards]]
+text = "Jerry Thiesson"
+
+[[cards]]
+text = "Post-Match Serenade"
+
+[[cards]]
+text = "Safe Standing Zone"
+
+[[cards]]
+text = "Seattle Sounders"
+
+[[cards]]
+text = "2019 Open Cup Final"
+
+[[cards]]
+text = "2022 All-Star Game"
+
+[[cards]]
+text = "Inaugural MLS Season"
+
+[[cards]]
+text = "Green Line LRT"
+
+[[cards]]
+text = "Twin Cities"
+
+[[cards]]
+text = "Snelling and University"
+
+[[cards]]
+text = "SuperDraft Pick"
+
+[[cards]]
+text = "Generation Adidas"
+
+[[cards]]
+text = "Brace"
+
+[[cards]]
+text = "Goal Kick"
+
+[[cards]]
+text = "Throw-In"
+
+[[cards]]
+text = "Penalty Kick"
+
+[[cards]]
+text = "Direct Free Kick"
+
+[[cards]]
+text = "Shutout"
+
+[[cards]]
+text = "Super Sub"
+
+[[cards]]
+text = "Starting Eleven"
+
+[[cards]]
+text = "Video Assistant Referee"
+
+[[cards]]
+text = "Stoppage Time"
+
+[[cards]]
+text = "Away Supporter Section"
+
+[[cards]]
+text = "Captain's Armband"
+
+[[cards]]
+text = "Souvenir Scarf"
+
+[[cards]]
+text = "Two-Pole Banners"
+
+[[cards]]
+text = "Starry Night Kit"

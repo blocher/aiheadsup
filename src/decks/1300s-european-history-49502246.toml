@@ -1,0 +1,528 @@
+id = "deck_1300s-european-history_49502246"
+revision = 2
+name = "1300s European History"
+category = "History"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include 14th-century European events, rulers, wars, plagues, religion, art, and major developments of the 1300s. Prefer real historical people, places, and events."
+photo_file_name = "1300s-european-history-49502246-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "The Black Death"
+
+[[cards]]
+text = "Avignon Papacy"
+
+[[cards]]
+text = "Battle of Crécy"
+
+[[cards]]
+text = "Dante Alighieri"
+
+[[cards]]
+text = "Geoffrey Chaucer"
+
+[[cards]]
+text = "Peasants' Revolt"
+
+[[cards]]
+text = "Battle of Bannockburn"
+
+[[cards]]
+text = "Edward the Black Prince"
+
+[[cards]]
+text = "The Divine Comedy"
+
+[[cards]]
+text = "Western Schism"
+
+[[cards]]
+text = "Giotto di Bondone"
+
+[[cards]]
+text = "Golden Bull of 1356"
+
+[[cards]]
+text = "Giovanni Boccaccio"
+
+[[cards]]
+text = "Battle of Poitiers"
+
+[[cards]]
+text = "Robert the Bruce"
+
+[[cards]]
+text = "Petrarch"
+
+[[cards]]
+text = "Great Famine of 1315"
+
+[[cards]]
+text = "Pope Boniface VIII"
+
+[[cards]]
+text = "The Decameron"
+
+[[cards]]
+text = "Wat Tyler"
+
+[[cards]]
+text = "Battle of Kosovo"
+
+[[cards]]
+text = "Jacquerie Rebellion"
+
+[[cards]]
+text = "King Edward III"
+
+[[cards]]
+text = "King Philip IV"
+
+[[cards]]
+text = "Battle of Sluys"
+
+[[cards]]
+text = "Emperor Charles IV"
+
+[[cards]]
+text = "Hanseatic League"
+
+[[cards]]
+text = "Battle of Morgarten"
+
+[[cards]]
+text = "Flagellants"
+
+[[cards]]
+text = "Danse Macabre"
+
+[[cards]]
+text = "Grand Duchy of Lithuania"
+
+[[cards]]
+text = "Treaty of Brétigny"
+
+[[cards]]
+text = "Catherine of Siena"
+
+[[cards]]
+text = "John Wycliffe"
+
+[[cards]]
+text = "Lollards"
+
+[[cards]]
+text = "Republic of Venice"
+
+[[cards]]
+text = "Battle of Kulikovo"
+
+[[cards]]
+text = "Philip VI of France"
+
+[[cards]]
+text = "Kingdom of Bohemia"
+
+[[cards]]
+text = "Charles Robert of Hungary"
+
+[[cards]]
+text = "Margaret I of Denmark"
+
+[[cards]]
+text = "Kalmar Union"
+
+[[cards]]
+text = "Richard II of England"
+
+[[cards]]
+text = "Battle of Nicopolis"
+
+[[cards]]
+text = "Bertrand du Guesclin"
+
+[[cards]]
+text = "Sir John Mandeville"
+
+[[cards]]
+text = "Guillaume de Machaut"
+
+[[cards]]
+text = "Battle of Halidon Hill"
+
+[[cards]]
+text = "Swiss Confederacy"
+
+[[cards]]
+text = "Ars Nova"
+
+[[cards]]
+text = "William of Ockham"
+
+[[cards]]
+text = "Queen Isabella of France"
+
+[[cards]]
+text = "King Edward II"
+
+[[cards]]
+text = "Jean Froissart"
+
+[[cards]]
+text = "John of Gaunt"
+
+[[cards]]
+text = "Roger Mortimer"
+
+[[cards]]
+text = "Casimir the Great"
+
+[[cards]]
+text = "Louis the Great"
+
+[[cards]]
+text = "Stefan Dušan"
+
+[[cards]]
+text = "Sir John Hawkwood"
+
+[[cards]]
+text = "White Company"
+
+[[cards]]
+text = "Ciompi Revolt"
+
+[[cards]]
+text = "Statute of Laborers"
+
+[[cards]]
+text = "Battle of Aljubarrota"
+
+[[cards]]
+text = "Battle of Neville's Cross"
+
+[[cards]]
+text = "Battle of Nájera"
+
+[[cards]]
+text = "Battle of Auray"
+
+[[cards]]
+text = "Breton War of Succession"
+
+[[cards]]
+text = "King Charles the Wise"
+
+[[cards]]
+text = "Charles the Bad"
+
+[[cards]]
+text = "Battle of Otterburn"
+
+[[cards]]
+text = "Pope Gregory XI"
+
+[[cards]]
+text = "Pope Urban VI"
+
+[[cards]]
+text = "Meister Eckhart"
+
+[[cards]]
+text = "Simone Martini"
+
+[[cards]]
+text = "Ambrogio Lorenzetti"
+
+[[cards]]
+text = "John Ball"
+
+[[cards]]
+text = "Jack Straw"
+
+[[cards]]
+text = "Combat of the Thirty"
+
+[[cards]]
+text = "Battle of Winchelsea"
+
+[[cards]]
+text = "Duchy of Athens"
+
+[[cards]]
+text = "Catalan Company"
+
+[[cards]]
+text = "David II of Scotland"
+
+[[cards]]
+text = "Edward Balliol"
+
+[[cards]]
+text = "Battle of Dupplin Moor"
+
+[[cards]]
+text = "Hugh Despenser the Younger"
+
+[[cards]]
+text = "Thomas of Lancaster"
+
+[[cards]]
+text = "Lords Appellant"
+
+[[cards]]
+text = "Merciless Parliament"
+
+[[cards]]
+text = "Wonderful Parliament"
+
+[[cards]]
+text = "Despenser Crusade"
+
+[[cards]]
+text = "King Peter of Castile"
+
+[[cards]]
+text = "Henry of Trastámara"
+
+[[cards]]
+text = "Battle of Rovine"
+
+[[cards]]
+text = "Sultan Bayezid I"
+
+[[cards]]
+text = "Sultan Murad I"
+
+[[cards]]
+text = "Battle of Rio Salado"
+
+[[cards]]
+text = "Birgitta of Sweden"
+
+[[cards]]
+text = "Republic of Genoa"
+
+[[cards]]
+text = "Battle of Boroughbridge"
+
+[[cards]]
+text = "Order of the Garter"
+
+[[cards]]
+text = "Palace of the Popes"
+
+[[cards]]
+text = "English Longbow"
+
+[[cards]]
+text = "Good Parliament"
+
+[[cards]]
+text = "Genoese Crossbowmen"
+
+[[cards]]
+text = "Dmitry Donskoy"
+
+[[cards]]
+text = "Grand Duchy of Moscow"
+
+[[cards]]
+text = "Teutonic Knights"
+
+[[cards]]
+text = "Jadwiga of Poland"
+
+[[cards]]
+text = "Union of Krewo"
+
+[[cards]]
+text = "Charles Bridge"
+
+[[cards]]
+text = "Karlstejn Castle"
+
+[[cards]]
+text = "Janissaries"
+
+[[cards]]
+text = "Capture of Gallipoli"
+
+[[cards]]
+text = "Piers Plowman"
+
+[[cards]]
+text = "The Cloud of Unknowing"
+
+[[cards]]
+text = "Christine de Pizan"
+
+[[cards]]
+text = "Florentine Florin"
+
+[[cards]]
+text = "Hanseatic Cog"
+
+[[cards]]
+text = "Philip the Bold"
+
+[[cards]]
+text = "Jeanne de Clisson"
+
+[[cards]]
+text = "Ypres Cloth Hall"
+
+[[cards]]
+text = "Salic Law"
+
+[[cards]]
+text = "Battle of Cassel"
+
+[[cards]]
+text = "Flemish Revolt"
+
+[[cards]]
+text = "John XXII"
+
+[[cards]]
+text = "Clement VII"
+
+[[cards]]
+text = "Charles VI of France"
+
+[[cards]]
+text = "Isabeau of Bavaria"
+
+[[cards]]
+text = "Jean de Berry"
+
+[[cards]]
+text = "Battle of Montiel"
+
+[[cards]]
+text = "Treaty of Noteborg"
+
+[[cards]]
+text = "Klaus Stortebeker"
+
+[[cards]]
+text = "Victual Brothers"
+
+[[cards]]
+text = "Ponte Vecchio"
+
+[[cards]]
+text = "Philip van Artevelde"
+
+[[cards]]
+text = "Battle of Roosebeke"
+
+[[cards]]
+text = "Tuchin Revolt"
+
+[[cards]]
+text = "Maillotin Revolt"
+
+[[cards]]
+text = "Perpendicular Gothic"
+
+[[cards]]
+text = "Livre de Chasse"
+
+[[cards]]
+text = "The Bastille"
+
+[[cards]]
+text = "Order of the Star"
+
+[[cards]]
+text = "Treaty of Northampton"
+
+[[cards]]
+text = "Battle of Laupen"
+
+[[cards]]
+text = "Duchy of Burgundy"
+
+[[cards]]
+text = "Gian Galeazzo Visconti"
+
+[[cards]]
+text = "Battle of Plowce"
+
+[[cards]]
+text = "Battle of Sempach"
+
+[[cards]]
+text = "The Canterbury Tales"
+
+[[cards]]
+text = "Battle of Golden Spurs"
+
+[[cards]]
+text = "John the Blind"
+
+[[cards]]
+text = "Doge's Palace"
+
+[[cards]]
+text = "Marino Faliero"
+
+[[cards]]
+text = "Guelphs and Ghibellines"
+
+[[cards]]
+text = "Treaty of Windsor"
+
+[[cards]]
+text = "Ines de Castro"
+
+[[cards]]
+text = "Pope Clement V"
+
+[[cards]]
+text = "Condottieri"
+
+[[cards]]
+text = "Siege of Caffa"
+
+[[cards]]
+text = "War of Chioggia"
+
+[[cards]]
+text = "Alexandrian Crusade"
+
+[[cards]]
+text = "Geoffroi de Charny"
+
+[[cards]]
+text = "The Oriflamme"
+
+[[cards]]
+text = "Battle of Halmyros"
+
+[[cards]]
+text = "Gaston Phoebus"
+
+[[cards]]
+text = "Palazzo Vecchio"
+
+[[cards]]
+text = "Battle of Cocherel"
+
+[[cards]]
+text = "Elizabeth of Poland"
+
+[[cards]]
+text = "Lubeck Law"
+
+[[cards]]
+text = "Siege of Algeciras"
+
+[[cards]]
+text = "Filippo Calendario"
+
+[[cards]]
+text = "Amadeus VI of Savoy"

@@ -1,0 +1,429 @@
+id = "deck_nancy-drew_ecb9ed33"
+revision = 2
+name = "Nancy Drew"
+category = "Books"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, places, mysteries, book titles, clues, and memorable details from the Nancy Drew books. Prefer classic series content; keep family-friendly."
+photo_file_name = "nancy-drew-ecb9ed33-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Nancy Drew"
+
+[[cards]]
+text = "Carson Drew"
+
+[[cards]]
+text = "Bess Marvin"
+
+[[cards]]
+text = "George Fayne"
+
+[[cards]]
+text = "Ned Nickerson"
+
+[[cards]]
+text = "Hannah Gruen"
+
+[[cards]]
+text = "Togo"
+
+[[cards]]
+text = "Carolyn Keene"
+
+[[cards]]
+text = "River Heights"
+
+[[cards]]
+text = "Blue Roadster"
+
+[[cards]]
+text = "Magnifying Glass"
+
+[[cards]]
+text = "The Old Clock"
+
+[[cards]]
+text = "The Hidden Staircase"
+
+[[cards]]
+text = "Secret Passage"
+
+[[cards]]
+text = "Shadow Ranch"
+
+[[cards]]
+text = "Lilac Inn"
+
+[[cards]]
+text = "Larkspur Lane"
+
+[[cards]]
+text = "Red Gate Farm"
+
+[[cards]]
+text = "Twin Elms"
+
+[[cards]]
+text = "Skeleton Key"
+
+[[cards]]
+text = "Broken Locket"
+
+[[cards]]
+text = "Brass-Bound Trunk"
+
+[[cards]]
+text = "Chief McGinnis"
+
+[[cards]]
+text = "Helen Corning"
+
+[[cards]]
+text = "Dave Evans"
+
+[[cards]]
+text = "Burt Eddleton"
+
+[[cards]]
+text = "Whispering Statue"
+
+[[cards]]
+text = "Ivory Charm"
+
+[[cards]]
+text = "Twisted Candles"
+
+[[cards]]
+text = "Crumbling Wall"
+
+[[cards]]
+text = "Tolling Bell"
+
+[[cards]]
+text = "Velvet Mask"
+
+[[cards]]
+text = "Ringmaster's Secret"
+
+[[cards]]
+text = "Scarlet Slipper"
+
+[[cards]]
+text = "Witch Tree Symbol"
+
+[[cards]]
+text = "Hidden Compartment"
+
+[[cards]]
+text = "Secret Code"
+
+[[cards]]
+text = "Flashlight"
+
+[[cards]]
+text = "Ransom Note"
+
+[[cards]]
+text = "Mysterious Letter"
+
+[[cards]]
+text = "Old Attic"
+
+[[cards]]
+text = "Blackwood Hall"
+
+[[cards]]
+text = "Double Jinx"
+
+[[cards]]
+text = "Glowing Eye"
+
+[[cards]]
+text = "Crooked Banister"
+
+[[cards]]
+text = "Whistling Bagpipes"
+
+[[cards]]
+text = "Strange Message"
+
+[[cards]]
+text = "Aunt Eloise"
+
+[[cards]]
+text = "Professor Hotchkiss"
+
+[[cards]]
+text = "The Bungalow Mystery"
+
+[[cards]]
+text = "Secret of Mirror Bay"
+
+[[cards]]
+text = "The Haunted Showboat"
+
+[[cards]]
+text = "The Spider Sapphire"
+
+[[cards]]
+text = "The Mysterious Mannequin"
+
+[[cards]]
+text = "The Wooden Lady"
+
+[[cards]]
+text = "The Leaning Chimney"
+
+[[cards]]
+text = "The Invisible Intruder"
+
+[[cards]]
+text = "The Hollow Oak"
+
+[[cards]]
+text = "The Jewel Box"
+
+[[cards]]
+text = "Emerson College"
+
+[[cards]]
+text = "Yellow Spine"
+
+[[cards]]
+text = "Stratemeyer Syndicate"
+
+[[cards]]
+text = "Ghostwriter"
+
+[[cards]]
+text = "Trap Door"
+
+[[cards]]
+text = "Secret Panel"
+
+[[cards]]
+text = "Invisible Ink"
+
+[[cards]]
+text = "Fingerprint Powder"
+
+[[cards]]
+text = "Darkroom"
+
+[[cards]]
+text = "Binoculars"
+
+[[cards]]
+text = "Locked Drawer"
+
+[[cards]]
+text = "Old Diary"
+
+[[cards]]
+text = "Lost Will"
+
+[[cards]]
+text = "Stolen Jewels"
+
+[[cards]]
+text = "Counterfeit Bill"
+
+[[cards]]
+text = "Red Herring"
+
+[[cards]]
+text = "Teen Detective"
+
+[[cards]]
+text = "Smuggler's Cove"
+
+[[cards]]
+text = "Secret Knock"
+
+[[cards]]
+text = "Disguise Kit"
+
+[[cards]]
+text = "Torn Photo"
+
+[[cards]]
+text = "Footprints in Mud"
+
+[[cards]]
+text = "Carrier Pigeon"
+
+[[cards]]
+text = "Old Map"
+
+[[cards]]
+text = "Iron Gate"
+
+[[cards]]
+text = "Haunted House"
+
+[[cards]]
+text = "Grandfather Clock"
+
+[[cards]]
+text = "Note in a Bottle"
+
+[[cards]]
+text = "Detective Notebook"
+
+[[cards]]
+text = "Chinatown"
+
+[[cards]]
+text = "Lake Taft"
+
+[[cards]]
+text = "The Tapping Heels"
+
+[[cards]]
+text = "The Fire Dragon"
+
+[[cards]]
+text = "The Golden Pavilion"
+
+[[cards]]
+text = "The Crossword Cipher"
+
+[[cards]]
+text = "Dusty Ledger"
+
+[[cards]]
+text = "Escape Route"
+
+[[cards]]
+text = "Moss-Covered Mansion"
+
+[[cards]]
+text = "Old Stagecoach"
+
+[[cards]]
+text = "The 99 Steps"
+
+[[cards]]
+text = "Crocodile Island"
+
+[[cards]]
+text = "Gypsy Shawl"
+
+[[cards]]
+text = "Forgotten City"
+
+[[cards]]
+text = "Sky Phantom"
+
+[[cards]]
+text = "Thirteenth Pearl"
+
+[[cards]]
+text = "Kachina Doll"
+
+[[cards]]
+text = "Silver Cobweb"
+
+[[cards]]
+text = "Dancing Puppet"
+
+[[cards]]
+text = "The Haunted Carousel"
+
+[[cards]]
+text = "Blue Convertible"
+
+[[cards]]
+text = "Codicil"
+
+[[cards]]
+text = "Cameo Brooch"
+
+[[cards]]
+text = "False Bottom"
+
+[[cards]]
+text = "Secret Tunnel"
+
+[[cards]]
+text = "Brass Key"
+
+[[cards]]
+text = "Girl Detective"
+
+[[cards]]
+text = "Sleuth"
+
+[[cards]]
+text = "Missing Map"
+
+[[cards]]
+text = "Chum"
+
+[[cards]]
+text = "Defense Attorney"
+
+[[cards]]
+text = "Laura Pendleton"
+
+[[cards]]
+text = "Effie Schneider"
+
+[[cards]]
+text = "The Haunted Bridge"
+
+[[cards]]
+text = "Mildred Wirt Benson"
+
+[[cards]]
+text = "Harriet Adams"
+
+[[cards]]
+text = "Grosset and Dunlap"
+
+[[cards]]
+text = "Phantom of Pine Hill"
+
+[[cards]]
+text = "The Black Keys"
+
+[[cards]]
+text = "The Triple Hoax"
+
+[[cards]]
+text = "The Flying Saucer Mystery"
+
+[[cards]]
+text = "Secret in Old Lace"
+
+[[cards]]
+text = "The Haunted Lagoon"
+
+[[cards]]
+text = "The Emerald-Eyed Cat"
+
+[[cards]]
+text = "Blue Mustang"
+
+[[cards]]
+text = "Boyish Haircut"
+
+[[cards]]
+text = "Sweet Tooth"
+
+[[cards]]
+text = "Amateur Detective"
+
+[[cards]]
+text = "The Clue Crew"
+
+[[cards]]
+text = "Applewood Books"
+
+[[cards]]
+text = "Blue Cover"
+
+[[cards]]
+text = "Footprint Cast"

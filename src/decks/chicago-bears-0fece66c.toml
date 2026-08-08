@@ -1,0 +1,498 @@
+id = "deck_chicago-bears_0fece66c"
+revision = 2
+name = "Chicago Bears"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Bears history, Soldier Field, uniforms, mascots, famous current and past players, Super Bowl moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Bears facts."
+photo_file_name = "chicago-bears-0fece66c-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Soldier Field"
+
+[[cards]]
+text = "Monsters of the Midway"
+
+[[cards]]
+text = "Staley Da Bear"
+
+[[cards]]
+text = "Da Bears"
+
+[[cards]]
+text = "The Fridge"
+
+[[cards]]
+text = "Navy Blue and Orange"
+
+[[cards]]
+text = "GSH Decal"
+
+[[cards]]
+text = "Green Bay Packers"
+
+[[cards]]
+text = "The Fog Bowl"
+
+[[cards]]
+text = "Super Bowl XX"
+
+[[cards]]
+text = "The Super Bowl Shuffle"
+
+[[cards]]
+text = "Bear Down"
+
+[[cards]]
+text = "George Halas"
+
+[[cards]]
+text = "Walter Payton"
+
+[[cards]]
+text = "Mike Ditka"
+
+[[cards]]
+text = "Brian Urlacher"
+
+[[cards]]
+text = "Dick Butkus"
+
+[[cards]]
+text = "Gale Sayers"
+
+[[cards]]
+text = "Sid Luckman"
+
+[[cards]]
+text = "Devin Hester"
+
+[[cards]]
+text = "Mike Singletary"
+
+[[cards]]
+text = "Halas Hall"
+
+[[cards]]
+text = "Honey Bears"
+
+[[cards]]
+text = "Orange Helmet"
+
+[[cards]]
+text = "Throwback Uniforms"
+
+[[cards]]
+text = "Bill Swerski's Superfans"
+
+[[cards]]
+text = "Ditka's Sweater Vest"
+
+[[cards]]
+text = "Bear Weather"
+
+[[cards]]
+text = "Decatur Staleys"
+
+[[cards]]
+text = "Red Grange"
+
+[[cards]]
+text = "Double Doink"
+
+[[cards]]
+text = "Soldier Field Columns"
+
+[[cards]]
+text = "1985 Bears"
+
+[[cards]]
+text = "Detroit Lions"
+
+[[cards]]
+text = "Minnesota Vikings"
+
+[[cards]]
+text = "Jim McMahon"
+
+[[cards]]
+text = "Charles Tillman"
+
+[[cards]]
+text = "Peanut Punch"
+
+[[cards]]
+text = "Lovie Smith"
+
+[[cards]]
+text = "Caleb Williams"
+
+[[cards]]
+text = "Black and Blue Division"
+
+[[cards]]
+text = "Soldier Field Grass"
+
+[[cards]]
+text = "Club Dub"
+
+[[cards]]
+text = "Wrigley Field"
+
+[[cards]]
+text = "The 46 Defense"
+
+[[cards]]
+text = "The Wishbone C"
+
+[[cards]]
+text = "Virginia Halas McCaskey"
+
+[[cards]]
+text = "Halas Trophy"
+
+[[cards]]
+text = "73-0 Championship"
+
+[[cards]]
+text = "Buddy Ryan"
+
+[[cards]]
+text = "The South Lot"
+
+[[cards]]
+text = "Super Bowl XLI"
+
+[[cards]]
+text = "Opening Kickoff Return"
+
+[[cards]]
+text = "Bronko Nagurski"
+
+[[cards]]
+text = "T-Formation"
+
+[[cards]]
+text = "Orange Alternate Jersey"
+
+[[cards]]
+text = "Arlington Heights"
+
+[[cards]]
+text = "Museum Campus"
+
+[[cards]]
+text = "Bourbonnais"
+
+[[cards]]
+text = "Retired Jersey Numbers"
+
+[[cards]]
+text = "The Soldier Field Cannon"
+
+[[cards]]
+text = "Doughboy Statue"
+
+[[cards]]
+text = "Orange Friday"
+
+[[cards]]
+text = "Staley Starch Company"
+
+[[cards]]
+text = "NFL Charter Member"
+
+[[cards]]
+text = "Chicago Cardinals"
+
+[[cards]]
+text = "Midnight Navy"
+
+[[cards]]
+text = "NFC North"
+
+[[cards]]
+text = "Brian Piccolo"
+
+[[cards]]
+text = "Brian's Song"
+
+[[cards]]
+text = "Polish Sausage"
+
+[[cards]]
+text = "Go Bears!"
+
+[[cards]]
+text = "Pork Chop Sandwich"
+
+[[cards]]
+text = "Original NFL Franchise"
+
+[[cards]]
+text = "Brandon Marshall"
+
+[[cards]]
+text = "Alshon Jeffery"
+
+[[cards]]
+text = "Super Bowl Ring"
+
+[[cards]]
+text = "A.E. Staley"
+
+[[cards]]
+text = "Dutch Sternaman"
+
+[[cards]]
+text = "Coach Neil Armstrong"
+
+[[cards]]
+text = "Leather Helmet"
+
+[[cards]]
+text = "Sleeve Stripes"
+
+[[cards]]
+text = "George McCaskey"
+
+[[cards]]
+text = "Lakefront Cold"
+
+[[cards]]
+text = "Bears Pep Band"
+
+[[cards]]
+text = "NFC Central"
+
+[[cards]]
+text = "Jeff Joniak"
+
+[[cards]]
+text = "Tom Thayer"
+
+[[cards]]
+text = "Touchdown Bears"
+
+[[cards]]
+text = "Windy City Gridiron"
+
+[[cards]]
+text = "Hard Knocks Bears"
+
+[[cards]]
+text = "Rex Grossman"
+
+[[cards]]
+text = "Thomas Jones"
+
+[[cards]]
+text = "Kevin Butler"
+
+[[cards]]
+text = "Willie Gault"
+
+[[cards]]
+text = "Kyle Long"
+
+[[cards]]
+text = "Jaylon Johnson"
+
+[[cards]]
+text = "Rome Odunze"
+
+[[cards]]
+text = "Keenan Allen"
+
+[[cards]]
+text = "Tremaine Edmunds"
+
+[[cards]]
+text = "D'Andre Swift"
+
+[[cards]]
+text = "Tarik Cohen"
+
+[[cards]]
+text = "Eddie Jackson"
+
+[[cards]]
+text = "Jerry Angelo"
+
+[[cards]]
+text = "Ted Phillips"
+
+[[cards]]
+text = "Waldron Deck"
+
+[[cards]]
+text = "Grand Colonnades"
+
+[[cards]]
+text = "Lakefront Stadium"
+
+[[cards]]
+text = "Navy Blue Helmet"
+
+[[cards]]
+text = "Classic C Logo"
+
+[[cards]]
+text = "Block Numbers"
+
+[[cards]]
+text = "Bears Radio Network"
+
+[[cards]]
+text = "Family Fest"
+
+[[cards]]
+text = "Bears Care"
+
+[[cards]]
+text = "Halas Family"
+
+[[cards]]
+text = "George Halas Jr."
+
+[[cards]]
+text = "1963 Championship"
+
+[[cards]]
+text = "1940 Title Game"
+
+[[cards]]
+text = "Lombardi Trophy"
+
+[[cards]]
+text = "Canton Ohio"
+
+[[cards]]
+text = "Monday Night Football"
+
+[[cards]]
+text = "Thanksgiving Game"
+
+[[cards]]
+text = "Chicago Staleys"
+
+[[cards]]
+text = "Bears Fight Song"
+
+[[cards]]
+text = "The Shuffling Crew"
+
+[[cards]]
+text = "Sideline Cape"
+
+[[cards]]
+text = "Middle Linebacker"
+
+[[cards]]
+text = "Bears Drumline"
+
+[[cards]]
+text = "Memorial Stadium Champaign"
+
+[[cards]]
+text = "Staley Field"
+
+[[cards]]
+text = "The Spaceship Stadium"
+
+[[cards]]
+text = "Bears Starter Jacket"
+
+[[cards]]
+text = "Iron Mike"
+
+[[cards]]
+text = "Ditka Sunglasses"
+
+[[cards]]
+text = "Bears-Packers Rivalry"
+
+[[cards]]
+text = "McCaskey Family"
+
+[[cards]]
+text = "Cover 2 Defense"
+
+[[cards]]
+text = "Bear Head Logo"
+
+[[cards]]
+text = "Lakefront Wind"
+
+[[cards]]
+text = "Grammy Nomination"
+
+[[cards]]
+text = "1921 Championship"
+
+[[cards]]
+text = "Bears Training Camp"
+
+[[cards]]
+text = "Charter Franchise"
+
+[[cards]]
+text = "Bears Helmet Logo"
+
+[[cards]]
+text = "The Punky QB"
+
+[[cards]]
+text = "The Grabowskis"
+
+[[cards]]
+text = "Brian Piccolo Award"
+
+[[cards]]
+text = "The Black Unicorn"
+
+[[cards]]
+text = "Platteville Wisconsin"
+
+[[cards]]
+text = "Dennis Green Rant"
+
+[[cards]]
+text = "1933 Championship Game"
+
+[[cards]]
+text = "The Red Grange Rule"
+
+[[cards]]
+text = "Hupmobile Showroom"
+
+[[cards]]
+text = "Walter Payton Statue"
+
+[[cards]]
+text = "Ditka's Restaurant"
+
+[[cards]]
+text = "George Halas Statue"
+
+[[cards]]
+text = "Number 41"
+
+[[cards]]
+text = "Number 89"
+
+[[cards]]
+text = "Number 7"
+
+[[cards]]
+text = "Mike Brown"
+
+[[cards]]
+text = "Julius Peppers"
+
+[[cards]]
+text = "Bears Convention"
+
+[[cards]]
+text = "1985 White House Visit"

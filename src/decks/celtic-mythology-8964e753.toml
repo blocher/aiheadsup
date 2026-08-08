@@ -1,0 +1,666 @@
+id = "deck_celtic-mythology_8964e753"
+revision = 2
+name = "Celtic Mythology"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Celtic gods, goddesses, heroes, monsters, sacred places, legends from Irish, Welsh, Scottish, and broader Celtic traditions, mythical objects, and well-known Celtic myth stories. Prefer real mythological figures and places."
+photo_file_name = "celtic-mythology-8964e753-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Cú Chulainn"
+
+[[cards]]
+text = "The Morrigan"
+
+[[cards]]
+text = "Leprechaun"
+
+[[cards]]
+text = "Banshee"
+
+[[cards]]
+text = "Tír na nÓg"
+
+[[cards]]
+text = "Fionn mac Cumhaill"
+
+[[cards]]
+text = "The Dagda"
+
+[[cards]]
+text = "Selkie"
+
+[[cards]]
+text = "Kelpie"
+
+[[cards]]
+text = "Salmon of Knowledge"
+
+[[cards]]
+text = "Tuatha Dé Danann"
+
+[[cards]]
+text = "Brigid"
+
+[[cards]]
+text = "Lugh"
+
+[[cards]]
+text = "Hill of Tara"
+
+[[cards]]
+text = "Oisín"
+
+[[cards]]
+text = "Rhiannon"
+
+[[cards]]
+text = "Ceridwen"
+
+[[cards]]
+text = "Blodeuwedd"
+
+[[cards]]
+text = "Bran the Blessed"
+
+[[cards]]
+text = "The Cailleach"
+
+[[cards]]
+text = "Cauldron of Rebirth"
+
+[[cards]]
+text = "Gae Bulg"
+
+[[cards]]
+text = "Lia Fáil"
+
+[[cards]]
+text = "Dullahan"
+
+[[cards]]
+text = "Púca"
+
+[[cards]]
+text = "Newgrange"
+
+[[cards]]
+text = "Giant's Causeway"
+
+[[cards]]
+text = "Ogham"
+
+[[cards]]
+text = "The Fianna"
+
+[[cards]]
+text = "Golden-Haired Niamh"
+
+[[cards]]
+text = "Arawn"
+
+[[cards]]
+text = "Annwn"
+
+[[cards]]
+text = "Clurichaun"
+
+[[cards]]
+text = "Cat Sìth"
+
+[[cards]]
+text = "Cú Sìth"
+
+[[cards]]
+text = "Danu"
+
+[[cards]]
+text = "Manannán mac Lir"
+
+[[cards]]
+text = "Nuada the Silver Hand"
+
+[[cards]]
+text = "The Children of Lir"
+
+[[cards]]
+text = "Merrow"
+
+[[cards]]
+text = "Changeling"
+
+[[cards]]
+text = "Wicker Man"
+
+[[cards]]
+text = "Fairy Mound"
+
+[[cards]]
+text = "Gwydion"
+
+[[cards]]
+text = "Druid"
+
+[[cards]]
+text = "Tír fo Thuinn"
+
+[[cards]]
+text = "Spear of Lugh"
+
+[[cards]]
+text = "Sword of Light"
+
+[[cards]]
+text = "Scáthach"
+
+[[cards]]
+text = "Cernunnos"
+
+[[cards]]
+text = "Epona"
+
+[[cards]]
+text = "Taranis"
+
+[[cards]]
+text = "Balor"
+
+[[cards]]
+text = "Queen Medb"
+
+[[cards]]
+text = "Deirdre of the Sorrows"
+
+[[cards]]
+text = "Taliesin"
+
+[[cards]]
+text = "Aengus"
+
+[[cards]]
+text = "Goibniu"
+
+[[cards]]
+text = "Dian Cecht"
+
+[[cards]]
+text = "Airmed"
+
+[[cards]]
+text = "Eriu"
+
+[[cards]]
+text = "Pwyll"
+
+[[cards]]
+text = "Pryderi"
+
+[[cards]]
+text = "Arianrhod"
+
+[[cards]]
+text = "Culhwch"
+
+[[cards]]
+text = "Olwen"
+
+[[cards]]
+text = "Ysbaddaden"
+
+[[cards]]
+text = "Math fab Mathonwy"
+
+[[cards]]
+text = "Diarmuid"
+
+[[cards]]
+text = "Gráinne"
+
+[[cards]]
+text = "King Conchobar"
+
+[[cards]]
+text = "Fergus mac Roich"
+
+[[cards]]
+text = "Bricriu"
+
+[[cards]]
+text = "Emer"
+
+[[cards]]
+text = "Sadb"
+
+[[cards]]
+text = "Goll mac Morna"
+
+[[cards]]
+text = "Tailtiu"
+
+[[cards]]
+text = "Bres"
+
+[[cards]]
+text = "Caer Ibormeith"
+
+[[cards]]
+text = "Enbarr"
+
+[[cards]]
+text = "Fragarach"
+
+[[cards]]
+text = "Brown Bull of Cooley"
+
+[[cards]]
+text = "White-Horned Bull"
+
+[[cards]]
+text = "Emain Macha"
+
+[[cards]]
+text = "Cruachan"
+
+[[cards]]
+text = "Glastonbury Tor"
+
+[[cards]]
+text = "Nuckelavee"
+
+[[cards]]
+text = "Afanc"
+
+[[cards]]
+text = "Bodach"
+
+[[cards]]
+text = "Glaistig"
+
+[[cards]]
+text = "Abhartach"
+
+[[cards]]
+text = "Avalon"
+
+[[cards]]
+text = "Mag Mell"
+
+[[cards]]
+text = "Cian"
+
+[[cards]]
+text = "Conall Cernach"
+
+[[cards]]
+text = "Midir"
+
+[[cards]]
+text = "Étaín"
+
+[[cards]]
+text = "Ogma"
+
+[[cards]]
+text = "Fand"
+
+[[cards]]
+text = "Fomorians"
+
+[[cards]]
+text = "Fir Bolg"
+
+[[cards]]
+text = "Milesians"
+
+[[cards]]
+text = "Cauldron of Plenty"
+
+[[cards]]
+text = "Naoise"
+
+[[cards]]
+text = "Cathbad"
+
+[[cards]]
+text = "Fionnuala"
+
+[[cards]]
+text = "Aoife"
+
+[[cards]]
+text = "Caílte"
+
+[[cards]]
+text = "Conan Maol"
+
+[[cards]]
+text = "Banba"
+
+[[cards]]
+text = "Fódla"
+
+[[cards]]
+text = "Nechtan"
+
+[[cards]]
+text = "Well of Segais"
+
+[[cards]]
+text = "Llyr"
+
+[[cards]]
+text = "Branwen"
+
+[[cards]]
+text = "Efnisien"
+
+[[cards]]
+text = "Caswallawn"
+
+[[cards]]
+text = "Manawydan"
+
+[[cards]]
+text = "Goewin"
+
+[[cards]]
+text = "Lleu Llaw Gyffes"
+
+[[cards]]
+text = "Gronw Pebr"
+
+[[cards]]
+text = "Dylan Ail Don"
+
+[[cards]]
+text = "Creiddylad"
+
+[[cards]]
+text = "Gwyn ap Nudd"
+
+[[cards]]
+text = "Gwion Bach"
+
+[[cards]]
+text = "Elffin"
+
+[[cards]]
+text = "Battle of the Trees"
+
+[[cards]]
+text = "Twrch Trwyth"
+
+[[cards]]
+text = "Ghillie Dhu"
+
+[[cards]]
+text = "Redcap"
+
+[[cards]]
+text = "Baobhan Sith"
+
+[[cards]]
+text = "Beira"
+
+[[cards]]
+text = "Each-Uisge"
+
+[[cards]]
+text = "Wulver"
+
+[[cards]]
+text = "Belenus"
+
+[[cards]]
+text = "Toutatis"
+
+[[cards]]
+text = "Sirona"
+
+[[cards]]
+text = "Sucellus"
+
+[[cards]]
+text = "Cornish Knocker"
+
+[[cards]]
+text = "Questing Beast"
+
+[[cards]]
+text = "Wild Hunt"
+
+[[cards]]
+text = "Samhain"
+
+[[cards]]
+text = "Beltane"
+
+[[cards]]
+text = "Golden Torc"
+
+[[cards]]
+text = "Imbolc"
+
+[[cards]]
+text = "Lughnasadh"
+
+[[cards]]
+text = "Loch Ness Monster"
+
+[[cards]]
+text = "Bean Nighe"
+
+[[cards]]
+text = "Blue Men of Minch"
+
+[[cards]]
+text = "Sluagh"
+
+[[cards]]
+text = "Fachan"
+
+[[cards]]
+text = "Artio"
+
+[[cards]]
+text = "Arduinna"
+
+[[cards]]
+text = "Gundestrup Cauldron"
+
+[[cards]]
+text = "Caladbolg"
+
+[[cards]]
+text = "Uther Pendragon"
+
+[[cards]]
+text = "Mabon ap Modron"
+
+[[cards]]
+text = "Modron"
+
+[[cards]]
+text = "Clíodhna"
+
+[[cards]]
+text = "Donn"
+
+[[cards]]
+text = "Tech Duinn"
+
+[[cards]]
+text = "Prydwen"
+
+[[cards]]
+text = "Cafall"
+
+[[cards]]
+text = "Amaethon"
+
+[[cards]]
+text = "Gofannon"
+
+[[cards]]
+text = "Boobrie"
+
+[[cards]]
+text = "Corryvreckan"
+
+[[cards]]
+text = "Rosmerta"
+
+[[cards]]
+text = "Sequana"
+
+[[cards]]
+text = "Maponos"
+
+[[cards]]
+text = "Partholón"
+
+[[cards]]
+text = "Fintan mac Bóchra"
+
+[[cards]]
+text = "Cormac mac Airt"
+
+[[cards]]
+text = "Crane Bag"
+
+[[cards]]
+text = "Cloak of Mist"
+
+[[cards]]
+text = "Badb"
+
+[[cards]]
+text = "Da Derga's Hostel"
+
+[[cards]]
+text = "Conaire Mór"
+
+[[cards]]
+text = "Turoe Stone"
+
+[[cards]]
+text = "Matholwch"
+
+[[cards]]
+text = "Tegid Foel"
+
+[[cards]]
+text = "Creirwy"
+
+[[cards]]
+text = "Rhitta Gawr"
+
+[[cards]]
+text = "Nemetona"
+
+[[cards]]
+text = "Borvo"
+
+[[cards]]
+text = "Mug Ruith"
+
+[[cards]]
+text = "Liath Macha"
+
+[[cards]]
+text = "Dub Sainglend"
+
+[[cards]]
+text = "Camulos"
+
+[[cards]]
+text = "Andarta"
+
+[[cards]]
+text = "Tethra"
+
+[[cards]]
+text = "Ethniu"
+
+[[cards]]
+text = "Miach"
+
+[[cards]]
+text = "Battersea Shield"
+
+[[cards]]
+text = "Mabinogion"
+
+[[cards]]
+text = "The Táin"
+
+[[cards]]
+text = "Book of Invasions"
+
+[[cards]]
+text = "Sulis"
+
+[[cards]]
+text = "Nodens"
+
+[[cards]]
+text = "Andraste"
+
+[[cards]]
+text = "Esus"
+
+[[cards]]
+text = "Moccus"
+
+[[cards]]
+text = "Nantosuelta"
+
+[[cards]]
+text = "Grannus"
+
+[[cards]]
+text = "Damona"
+
+[[cards]]
+text = "City of Ys"
+
+[[cards]]
+text = "Ankou"
+
+[[cards]]
+text = "Korrigan"
+
+[[cards]]
+text = "Tylwyth Teg"
+
+[[cards]]
+text = "Coblynau"
+
+[[cards]]
+text = "Gwrach y Rhibyn"
+
+[[cards]]
+text = "Hill of Uisneach"
+
+[[cards]]
+text = "Tlachtga"
+
+[[cards]]
+text = "Sacred Grove"
+
+[[cards]]
+text = "Fingal's Cave"
+
+[[cards]]
+text = "Far Darrig"
+
+[[cards]]
+text = "Keening"
+
+[[cards]]
+text = "Ailill"
+
+[[cards]]
+text = "Celtic Cross"

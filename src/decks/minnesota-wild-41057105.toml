@@ -1,0 +1,375 @@
+id = "deck_minnesota-wild_41057105"
+revision = 2
+name = "Minnesota Wild"
+category = "Minnesota Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Wild history, Xcel Energy Center, uniforms, mascots, famous current and past players, playoff moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Minnesota Wild facts."
+photo_file_name = "minnesota-wild-41057105-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Xcel Energy Center"
+
+[[cards]]
+text = "Nordy"
+
+[[cards]]
+text = "State of Hockey"
+
+[[cards]]
+text = "Kirill Kaprizov"
+
+[[cards]]
+text = "Mikko Koivu"
+
+[[cards]]
+text = "Marian Gaborik"
+
+[[cards]]
+text = "Jacques Lemaire"
+
+[[cards]]
+text = "The Goal Horn"
+
+[[cards]]
+text = "Forest Green"
+
+[[cards]]
+text = "Iron Range Red"
+
+[[cards]]
+text = "Hockey Day Minnesota"
+
+[[cards]]
+text = "Marc-Andre Fleury"
+
+[[cards]]
+text = "Zach Parise"
+
+[[cards]]
+text = "Ryan Suter"
+
+[[cards]]
+text = "Jared Spurgeon"
+
+[[cards]]
+text = "Mats Zuccarello"
+
+[[cards]]
+text = "Devan Dubnyk"
+
+[[cards]]
+text = "The Trap"
+
+[[cards]]
+text = "Colorado Avalanche"
+
+[[cards]]
+text = "Chicago Blackhawks"
+
+[[cards]]
+text = "Dallas Stars"
+
+[[cards]]
+text = "Winter Classic"
+
+[[cards]]
+text = "Reverse Retro"
+
+[[cards]]
+text = "Let's Go Wild"
+
+[[cards]]
+text = "Pierre-Marc Bouchard"
+
+[[cards]]
+text = "Derek Boogaard"
+
+[[cards]]
+text = "Bill Guerin"
+
+[[cards]]
+text = "Cal Clutterbuck"
+
+[[cards]]
+text = "Wes Walz"
+
+[[cards]]
+text = "Saint Paul"
+
+[[cards]]
+text = "Expansion Draft"
+
+[[cards]]
+text = "Target Field"
+
+[[cards]]
+text = "Tom Reid"
+
+[[cards]]
+text = "Number Nine"
+
+[[cards]]
+text = "Andrew Brunette"
+
+[[cards]]
+text = "Nino Niederreiter"
+
+[[cards]]
+text = "Goal Song"
+
+[[cards]]
+text = "Craig Leipold"
+
+[[cards]]
+text = "Filip Gustavsson"
+
+[[cards]]
+text = "The Bear Head"
+
+[[cards]]
+text = "Harvest Gold"
+
+[[cards]]
+text = "Minnesota North Stars"
+
+[[cards]]
+text = "Green and Gold"
+
+[[cards]]
+text = "St. Louis Blues"
+
+[[cards]]
+text = "Winnipeg Jets"
+
+[[cards]]
+text = "Our Ice"
+
+[[cards]]
+text = "Team Dog"
+
+[[cards]]
+text = "Western Conference Finals"
+
+[[cards]]
+text = "Brock Faber"
+
+[[cards]]
+text = "Matt Boldy"
+
+[[cards]]
+text = "Joel Eriksson Ek"
+
+[[cards]]
+text = "Jonas Brodin"
+
+[[cards]]
+text = "Marcus Foligno"
+
+[[cards]]
+text = "Jake Middleton"
+
+[[cards]]
+text = "TRIA Rink"
+
+[[cards]]
+text = "Let's Play Hockey"
+
+[[cards]]
+text = "Chuck-A-Puck"
+
+[[cards]]
+text = "Mites On Ice"
+
+[[cards]]
+text = "The Lighthouse"
+
+[[cards]]
+text = "Niklas Backstrom"
+
+[[cards]]
+text = "Manny Fernandez"
+
+[[cards]]
+text = "Darby Hendrickson"
+
+[[cards]]
+text = "Game Seven"
+
+[[cards]]
+text = "Inaugural Season"
+
+[[cards]]
+text = "Central Division"
+
+[[cards]]
+text = "Vancouver Canucks"
+
+[[cards]]
+text = "Dean Evason"
+
+[[cards]]
+text = "Mike Yeo"
+
+[[cards]]
+text = "Anthony Lapanta"
+
+[[cards]]
+text = "Ryan Carter"
+
+[[cards]]
+text = "Kevin Gorg"
+
+[[cards]]
+text = "Herbie's On The Park"
+
+[[cards]]
+text = "Wild Crest"
+
+[[cards]]
+text = "Bally Sports North"
+
+[[cards]]
+text = "Iowa Wild"
+
+[[cards]]
+text = "Houston Aeros"
+
+[[cards]]
+text = "Iowa Heartlanders"
+
+[[cards]]
+text = "Eagle Street Grille"
+
+[[cards]]
+text = "Herb Brooks Statue"
+
+[[cards]]
+text = "Bruce Boudreau"
+
+[[cards]]
+text = "Doug Risebrough"
+
+[[cards]]
+text = "Chuck Fletcher"
+
+[[cards]]
+text = "Eric Staal"
+
+[[cards]]
+text = "Mikael Granlund"
+
+[[cards]]
+text = "Jason Zucker"
+
+[[cards]]
+text = "Matt Dumba"
+
+[[cards]]
+text = "Brent Burns"
+
+[[cards]]
+text = "Ryan Hartman"
+
+[[cards]]
+text = "Marco Rossi"
+
+[[cards]]
+text = "The Buyouts"
+
+[[cards]]
+text = "Northwest Division"
+
+[[cards]]
+text = "Plaza Party"
+
+[[cards]]
+text = "Wild Walk"
+
+[[cards]]
+text = "The Hockey Lodge"
+
+[[cards]]
+text = "State High School Tournament"
+
+[[cards]]
+text = "Pine Tree Silhouette"
+
+[[cards]]
+text = "River Logo Element"
+
+[[cards]]
+text = "Loon Call"
+
+[[cards]]
+text = "Securian Club"
+
+[[cards]]
+text = "Playoff Smash Car"
+
+[[cards]]
+text = "Nordy's Bass Drum"
+
+[[cards]]
+text = "Nordy's Mustache"
+
+[[cards]]
+text = "Bob Kurtz"
+
+[[cards]]
+text = "Matt Cullen"
+
+[[cards]]
+text = "Charlie Coyle"
+
+[[cards]]
+text = "Richard Park"
+
+[[cards]]
+text = "Lighthouse Foghorn"
+
+[[cards]]
+text = "Wild Faithful"
+
+[[cards]]
+text = "High School Jerseys"
+
+[[cards]]
+text = "Crowd Chant"
+
+[[cards]]
+text = "2003 Playoff Run"
+
+[[cards]]
+text = "The Star Eye"
+
+[[cards]]
+text = "Script Minnesota Jersey"
+
+[[cards]]
+text = "The Ping Goal"
+
+[[cards]]
+text = "Bob Naegele Jr."
+
+[[cards]]
+text = "John Hynes"
+
+[[cards]]
+text = "Brian Rolston"
+
+[[cards]]
+text = "Josh Harding"
+
+[[cards]]
+text = "Three-One Series Comeback"
+
+[[cards]]
+text = "Patrick Roy's Last Game"
+
+[[cards]]
+text = "Mike Greenlay"
+
+[[cards]]
+text = "Jon Merrill's Mullet"

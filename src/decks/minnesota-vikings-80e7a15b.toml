@@ -1,0 +1,543 @@
+id = "deck_minnesota-vikings_80e7a15b"
+revision = 2
+name = "Minnesota Vikings"
+category = "Minnesota Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Vikings history, U.S. Bank Stadium, Metrodome, uniforms, mascots, famous current and past players, playoff moments, nicknames, Skol traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Vikings facts."
+photo_file_name = "minnesota-vikings-80e7a15b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "U.S. Bank Stadium"
+
+[[cards]]
+text = "The Metrodome"
+
+[[cards]]
+text = "Metropolitan Stadium"
+
+[[cards]]
+text = "Bud Grant"
+
+[[cards]]
+text = "Viktor the Viking"
+
+[[cards]]
+text = "The Gjallarhorn"
+
+[[cards]]
+text = "The Skol Chant"
+
+[[cards]]
+text = "Purple People Eaters"
+
+[[cards]]
+text = "Minneapolis Miracle"
+
+[[cards]]
+text = "Justin Jefferson"
+
+[[cards]]
+text = "Randy Moss"
+
+[[cards]]
+text = "Fran Tarkenton"
+
+[[cards]]
+text = "Adrian Peterson"
+
+[[cards]]
+text = "Cris Carter"
+
+[[cards]]
+text = "Alan Page"
+
+[[cards]]
+text = "John Randle"
+
+[[cards]]
+text = "Green Bay Packers"
+
+[[cards]]
+text = "The Border Battle"
+
+[[cards]]
+text = "Chicago Bears"
+
+[[cards]]
+text = "Detroit Lions"
+
+[[cards]]
+text = "The Griddy"
+
+[[cards]]
+text = "Purple and Gold"
+
+[[cards]]
+text = "Helga Hats"
+
+[[cards]]
+text = "Ragnar"
+
+[[cards]]
+text = "Three Deep"
+
+[[cards]]
+text = "Mankato"
+
+[[cards]]
+text = "TCO Performance Center"
+
+[[cards]]
+text = "Ring of Honor"
+
+[[cards]]
+text = "Winter Warrior Uniforms"
+
+[[cards]]
+text = "Horns on Helmet"
+
+[[cards]]
+text = "NFC North"
+
+[[cards]]
+text = "Dennis Green"
+
+[[cards]]
+text = "Kevin O'Connell"
+
+[[cards]]
+text = "Daunte Culpepper"
+
+[[cards]]
+text = "Jared Allen"
+
+[[cards]]
+text = "Harrison Smith"
+
+[[cards]]
+text = "Stefon Diggs"
+
+[[cards]]
+text = "Wrong Way Run"
+
+[[cards]]
+text = "Skol Vikings"
+
+[[cards]]
+text = "Purple Pride"
+
+[[cards]]
+text = "Super Bowl IV"
+
+[[cards]]
+text = "Valhalla"
+
+[[cards]]
+text = "Legacy Ship"
+
+[[cards]]
+text = "The Metrodome Roof"
+
+[[cards]]
+text = "White Out Game"
+
+[[cards]]
+text = "Purple Reign"
+
+[[cards]]
+text = "Kirk Cousins"
+
+[[cards]]
+text = "The Randy Ratio"
+
+[[cards]]
+text = "Norseman Logo"
+
+[[cards]]
+text = "Brett Favre"
+
+[[cards]]
+text = "Adam Thielen"
+
+[[cards]]
+text = "Jim Marshall"
+
+[[cards]]
+text = "Carl Eller"
+
+[[cards]]
+text = "Four Super Bowls"
+
+[[cards]]
+text = "Skol Drum"
+
+[[cards]]
+text = "Vikings Cheerleaders"
+
+[[cards]]
+text = "TCF Bank Stadium"
+
+[[cards]]
+text = "Mike Zimmer"
+
+[[cards]]
+text = "Ahmad Rashad"
+
+[[cards]]
+text = "Fred Cox"
+
+[[cards]]
+text = "T.J. Hockenson"
+
+[[cards]]
+text = "Minneapolis"
+
+[[cards]]
+text = "Tommy Kramer"
+
+[[cards]]
+text = "Jerry Burns"
+
+[[cards]]
+text = "Randall Cunningham"
+
+[[cards]]
+text = "Brad Childress"
+
+[[cards]]
+text = "The Purple Gang"
+
+[[cards]]
+text = "Chris Doleman"
+
+[[cards]]
+text = "Dalvin Cook"
+
+[[cards]]
+text = "Case Keenum"
+
+[[cards]]
+text = "Blair Walsh"
+
+[[cards]]
+text = "Miracle at the Met"
+
+[[cards]]
+text = "Winter Park"
+
+[[cards]]
+text = "Zygi Wilf"
+
+[[cards]]
+text = "Norse Mythology"
+
+[[cards]]
+text = "Viking Helmet"
+
+[[cards]]
+text = "Self-Completed Pass"
+
+[[cards]]
+text = "Skol Line"
+
+[[cards]]
+text = "Teddy Bridgewater"
+
+[[cards]]
+text = "Williams Wall"
+
+[[cards]]
+text = "Vikings Shield"
+
+[[cards]]
+text = "Jake Reed"
+
+[[cards]]
+text = "Purple Jersey"
+
+[[cards]]
+text = "Paul Allen"
+
+[[cards]]
+text = "KFAN"
+
+[[cards]]
+text = "NFC Central"
+
+[[cards]]
+text = "Purple Pants"
+
+[[cards]]
+text = "Matte Purple Helmet"
+
+[[cards]]
+text = "Vikings World Order"
+
+[[cards]]
+text = "Legacy Bricks"
+
+[[cards]]
+text = "No Heated Benches"
+
+[[cards]]
+text = "Sub-Zero Temperatures"
+
+[[cards]]
+text = "Medtronic Plaza"
+
+[[cards]]
+text = "Ed Thorp Trophy"
+
+[[cards]]
+text = "Purple Out"
+
+[[cards]]
+text = "Gray Facemask"
+
+[[cards]]
+text = "Vikings Museum"
+
+[[cards]]
+text = "Kirko Chainz"
+
+[[cards]]
+text = "You Like That"
+
+[[cards]]
+text = "Gary Anderson"
+
+[[cards]]
+text = "The 1998 Offense"
+
+[[cards]]
+text = "The 296 Yard Record"
+
+[[cards]]
+text = "All Day"
+
+[[cards]]
+text = "The 33 Point Comeback"
+
+[[cards]]
+text = "Greg Joseph's 61 Yarder"
+
+[[cards]]
+text = "Sid Hartman"
+
+[[cards]]
+text = "The Dome Dog"
+
+[[cards]]
+text = "The Metrodome Collapse"
+
+[[cards]]
+text = "ETFE Roof"
+
+[[cards]]
+text = "The Great Truss"
+
+[[cards]]
+text = "Super Bowl Twenty Six"
+
+[[cards]]
+text = "Super Bowl Fifty Two"
+
+[[cards]]
+text = "The Bold North"
+
+[[cards]]
+text = "1969 NFL Championship"
+
+[[cards]]
+text = "Paul Krause"
+
+[[cards]]
+text = "The Drew Pearson Push"
+
+[[cards]]
+text = "The 2009 Interception"
+
+[[cards]]
+text = "The Bountygate Scandal"
+
+[[cards]]
+text = "Sean Payton's Mock"
+
+[[cards]]
+text = "The 4th and 18"
+
+[[cards]]
+text = "Voice of the Vikings"
+
+[[cards]]
+text = "Eagan, Minnesota"
+
+[[cards]]
+text = "The 2003 Draft Mistake"
+
+[[cards]]
+text = "Black and Blue Division"
+
+[[cards]]
+text = "Short Sleeves in Winter"
+
+[[cards]]
+text = "The Minus Six Game"
+
+[[cards]]
+text = "The Bird Safe Glass"
+
+[[cards]]
+text = "Danielle Hunter"
+
+[[cards]]
+text = "Chad Greenway"
+
+[[cards]]
+text = "Chuck Foreman"
+
+[[cards]]
+text = "Mick Tingelhoff"
+
+[[cards]]
+text = "Rhodes Closed"
+
+[[cards]]
+text = "The Hitman"
+
+[[cards]]
+text = "Antoine Winfield"
+
+[[cards]]
+text = "C.J. Ham"
+
+[[cards]]
+text = "The Purple Jacket"
+
+[[cards]]
+text = "The 15-1 Record"
+
+[[cards]]
+text = "The Inflatable Tunnel"
+
+[[cards]]
+text = "The Red Zone Reindeer"
+
+[[cards]]
+text = "Everson Griffen"
+
+[[cards]]
+text = "Brian Robison"
+
+[[cards]]
+text = "Eric Kendricks"
+
+[[cards]]
+text = "Anthony Barr"
+
+[[cards]]
+text = "Marcus Sherels"
+
+[[cards]]
+text = "Cordarrelle Patterson"
+
+[[cards]]
+text = "Percy Harvin"
+
+[[cards]]
+text = "Jordan Addison"
+
+[[cards]]
+text = "Herschel Walker"
+
+[[cards]]
+text = "The Herschel Walker Trade"
+
+[[cards]]
+text = "The Love Boat Scandal"
+
+[[cards]]
+text = "The Dome Air Pressure"
+
+[[cards]]
+text = "The Revolving Doors"
+
+[[cards]]
+text = "Prince"
+
+[[cards]]
+text = "The Color Rush Uniforms"
+
+[[cards]]
+text = "The Gold Pants"
+
+[[cards]]
+text = "The Shattered Gjallarhorn"
+
+[[cards]]
+text = "Wally the Beerman"
+
+[[cards]]
+text = "The Gage Hall"
+
+[[cards]]
+text = "The 1998 Draft"
+
+[[cards]]
+text = "The Lambeau Moon"
+
+[[cards]]
+text = "The Culpepper Roll"
+
+[[cards]]
+text = "The Calf Rope Celebration"
+
+[[cards]]
+text = "The Pizza Ranch Commercials"
+
+[[cards]]
+text = "The Skol Banner"
+
+[[cards]]
+text = "Purple Zubaz"
+
+[[cards]]
+text = "Wide Left"
+
+[[cards]]
+text = "Super Bowl XI"
+
+[[cards]]
+text = "Super Bowl IX"
+
+[[cards]]
+text = "Yarn Braids"
+
+[[cards]]
+text = "First Down Horn"
+
+[[cards]]
+text = "Eden Prairie"
+
+[[cards]]
+text = "Purple Wig"
+
+[[cards]]
+text = "Viking Ship"
+
+[[cards]]
+text = "Glass Roof"
+
+[[cards]]
+text = "Dome Noise"
+
+[[cards]]
+text = "Purple Stadium Lights"
+
+[[cards]]
+text = "SKOL Lettering"
+
+[[cards]]
+text = "Skyline View"

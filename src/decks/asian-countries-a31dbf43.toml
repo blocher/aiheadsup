@@ -1,0 +1,384 @@
+id = "deck_asian-countries_a31dbf43"
+revision = 1
+name = "Asian Countries"
+category = "Geography"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be real Asian countries and well-known related geography such as capitals, major cities, landmarks, seas, mountains, and regions. Prefer country names first. No invented countries."
+photo_file_name = "asian-countries-a31dbf43-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Japan"
+
+[[cards]]
+text = "India"
+
+[[cards]]
+text = "China"
+
+[[cards]]
+text = "South Korea"
+
+[[cards]]
+text = "Thailand"
+
+[[cards]]
+text = "Vietnam"
+
+[[cards]]
+text = "Philippines"
+
+[[cards]]
+text = "Indonesia"
+
+[[cards]]
+text = "Singapore"
+
+[[cards]]
+text = "Malaysia"
+
+[[cards]]
+text = "Nepal"
+
+[[cards]]
+text = "Sri Lanka"
+
+[[cards]]
+text = "Maldives"
+
+[[cards]]
+text = "Mongolia"
+
+[[cards]]
+text = "Turkey"
+
+[[cards]]
+text = "Saudi Arabia"
+
+[[cards]]
+text = "Israel"
+
+[[cards]]
+text = "Jordan"
+
+[[cards]]
+text = "Cambodia"
+
+[[cards]]
+text = "Laos"
+
+[[cards]]
+text = "Myanmar"
+
+[[cards]]
+text = "Bangladesh"
+
+[[cards]]
+text = "Pakistan"
+
+[[cards]]
+text = "Kazakhstan"
+
+[[cards]]
+text = "Iran"
+
+[[cards]]
+text = "North Korea"
+
+[[cards]]
+text = "Taiwan"
+
+[[cards]]
+text = "Tokyo"
+
+[[cards]]
+text = "Bangkok"
+
+[[cards]]
+text = "Beijing"
+
+[[cards]]
+text = "Seoul"
+
+[[cards]]
+text = "New Delhi"
+
+[[cards]]
+text = "Manila"
+
+[[cards]]
+text = "Jakarta"
+
+[[cards]]
+text = "Kyoto"
+
+[[cards]]
+text = "Mumbai"
+
+[[cards]]
+text = "Mount Everest"
+
+[[cards]]
+text = "Taj Mahal"
+
+[[cards]]
+text = "Great Wall of China"
+
+[[cards]]
+text = "Mount Fuji"
+
+[[cards]]
+text = "Gobi Desert"
+
+[[cards]]
+text = "Dead Sea"
+
+[[cards]]
+text = "Caspian Sea"
+
+[[cards]]
+text = "Himalayas"
+
+[[cards]]
+text = "Mekong River"
+
+[[cards]]
+text = "Angkor Wat"
+
+[[cards]]
+text = "Petra"
+
+[[cards]]
+text = "Bali"
+
+[[cards]]
+text = "Siberia"
+
+[[cards]]
+text = "Halong Bay"
+
+[[cards]]
+text = "Bhutan"
+
+[[cards]]
+text = "Brunei"
+
+[[cards]]
+text = "United Arab Emirates"
+
+[[cards]]
+text = "Qatar"
+
+[[cards]]
+text = "Kuwait"
+
+[[cards]]
+text = "Lebanon"
+
+[[cards]]
+text = "Iraq"
+
+[[cards]]
+text = "Uzbekistan"
+
+[[cards]]
+text = "Oman"
+
+[[cards]]
+text = "Yemen"
+
+[[cards]]
+text = "Hong Kong"
+
+[[cards]]
+text = "Macau"
+
+[[cards]]
+text = "Shanghai"
+
+[[cards]]
+text = "Dubai"
+
+[[cards]]
+text = "Abu Dhabi"
+
+[[cards]]
+text = "Hanoi"
+
+[[cards]]
+text = "Kuala Lumpur"
+
+[[cards]]
+text = "Ho Chi Minh City"
+
+[[cards]]
+text = "Taipei"
+
+[[cards]]
+text = "Phnom Penh"
+
+[[cards]]
+text = "Kathmandu"
+
+[[cards]]
+text = "Tibet"
+
+[[cards]]
+text = "Forbidden City"
+
+[[cards]]
+text = "Terracotta Army"
+
+[[cards]]
+text = "Burj Khalifa"
+
+[[cards]]
+text = "Borobudur"
+
+[[cards]]
+text = "Hiroshima"
+
+[[cards]]
+text = "Mount K2"
+
+[[cards]]
+text = "Ganges River"
+
+[[cards]]
+text = "Yangtze River"
+
+[[cards]]
+text = "Yellow River"
+
+[[cards]]
+text = "Red Sea"
+
+[[cards]]
+text = "Persian Gulf"
+
+[[cards]]
+text = "Arabian Sea"
+
+[[cards]]
+text = "Bay of Bengal"
+
+[[cards]]
+text = "Cappadocia"
+
+[[cards]]
+text = "Jeju Island"
+
+[[cards]]
+text = "Phuket"
+
+[[cards]]
+text = "Shwedagon Pagoda"
+
+[[cards]]
+text = "Mount Ararat"
+
+[[cards]]
+text = "Western Wall"
+
+[[cards]]
+text = "Ural Mountains"
+
+[[cards]]
+text = "Chocolate Hills"
+
+[[cards]]
+text = "Osaka"
+
+[[cards]]
+text = "Riyadh"
+
+[[cards]]
+text = "Jerusalem"
+
+[[cards]]
+text = "Baghdad"
+
+[[cards]]
+text = "Cyprus"
+
+[[cards]]
+text = "Armenia"
+
+[[cards]]
+text = "Kyrgyzstan"
+
+[[cards]]
+text = "Azerbaijan"
+
+[[cards]]
+text = "Tajikistan"
+
+[[cards]]
+text = "Turkmenistan"
+
+[[cards]]
+text = "Timor-Leste"
+
+[[cards]]
+text = "Syria"
+
+[[cards]]
+text = "Bahrain"
+
+[[cards]]
+text = "Ulaanbaatar"
+
+[[cards]]
+text = "Tehran"
+
+[[cards]]
+text = "Beirut"
+
+[[cards]]
+text = "Damascus"
+
+[[cards]]
+text = "Doha"
+
+[[cards]]
+text = "Islamabad"
+
+[[cards]]
+text = "Ankara"
+
+[[cards]]
+text = "Borneo"
+
+[[cards]]
+text = "Sumatra"
+
+[[cards]]
+text = "Java"
+
+[[cards]]
+text = "Hokkaido"
+
+[[cards]]
+text = "Okinawa"
+
+[[cards]]
+text = "Lake Baikal"
+
+[[cards]]
+text = "Tigris River"
+
+[[cards]]
+text = "Euphrates River"
+
+[[cards]]
+text = "South China Sea"
+
+[[cards]]
+text = "Sea of Japan"
+
+[[cards]]
+text = "Marina Bay Sands"
+
+[[cards]]
+text = "Sigiriya"

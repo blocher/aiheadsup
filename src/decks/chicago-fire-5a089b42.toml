@@ -1,0 +1,243 @@
+id = "deck_chicago-fire_5a089b42"
+revision = 2
+name = "Chicago Fire"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Chicago Fire FC history, Soldier Field and SeatGeek Stadium, uniforms, mascots, famous current and past players, MLS Cup moments, supporters groups, soccer terms, rivalries, and matchday traditions, but should not be mostly player names. Only include real Chicago Fire facts."
+photo_file_name = "chicago-fire-5a089b42-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Soldier Field"
+
+[[cards]]
+text = "SeatGeek Stadium"
+
+[[cards]]
+text = "Sparky the Mascot"
+
+[[cards]]
+text = "Section 8 Chicago"
+
+[[cards]]
+text = "Brimstone Cup"
+
+[[cards]]
+text = "MLS Cup Trophy"
+
+[[cards]]
+text = "U.S. Open Cup"
+
+[[cards]]
+text = "Bastian Schweinsteiger"
+
+[[cards]]
+text = "Cuauhtémoc Blanco"
+
+[[cards]]
+text = "Bob Bradley"
+
+[[cards]]
+text = "Frank Klopas"
+
+[[cards]]
+text = "Ring of Fire"
+
+[[cards]]
+text = "Sector Latino"
+
+[[cards]]
+text = "Red Jersey"
+
+[[cards]]
+text = "Florian Cross"
+
+[[cards]]
+text = "CIBC Fire Pitch"
+
+[[cards]]
+text = "Goal Horn"
+
+[[cards]]
+text = "Smoke Bombs"
+
+[[cards]]
+text = "Tailgate Party"
+
+[[cards]]
+text = "Hristo Stoichkov"
+
+[[cards]]
+text = "Brian McBride"
+
+[[cards]]
+text = "Piotr Nowak"
+
+[[cards]]
+text = "Zach Thornton"
+
+[[cards]]
+text = "Ante Razov"
+
+[[cards]]
+text = "Chris Armas"
+
+[[cards]]
+text = "Xherdan Shaqiri"
+
+[[cards]]
+text = "Mike Magee"
+
+[[cards]]
+text = "Fire Academy"
+
+[[cards]]
+text = "Navy Blue Kit"
+
+[[cards]]
+text = "White Chest Stripe"
+
+[[cards]]
+text = "MLS Cup 1998"
+
+[[cards]]
+text = "The Double"
+
+[[cards]]
+text = "Bridgeview, Illinois"
+
+[[cards]]
+text = "Fire Crown"
+
+[[cards]]
+text = "Designated Player"
+
+[[cards]]
+text = "Supporters Shield"
+
+[[cards]]
+text = "Columbus Crew"
+
+[[cards]]
+text = "Fire Engine"
+
+[[cards]]
+text = "Matchday Scarf"
+
+[[cards]]
+text = "Pub to Pitch Bus"
+
+[[cards]]
+text = "DaMarcus Beasley"
+
+[[cards]]
+text = "Carlos Bocanegra"
+
+[[cards]]
+text = "Peter Wilt"
+
+[[cards]]
+text = "Toyota Park"
+
+[[cards]]
+text = "Cardinal Stadium"
+
+[[cards]]
+text = "Waldron Deck"
+
+[[cards]]
+text = "Chicago Flag Star"
+
+[[cards]]
+text = "Light Blue Kit"
+
+[[cards]]
+text = "Tifo Display"
+
+[[cards]]
+text = "Drum Line"
+
+[[cards]]
+text = "Supporter Section"
+
+[[cards]]
+text = "Red Line SG"
+
+[[cards]]
+text = "FC Dallas"
+
+[[cards]]
+text = "New England Revolution"
+
+[[cards]]
+text = "St. Louis City SC"
+
+[[cards]]
+text = "LA Galaxy"
+
+[[cards]]
+text = "Homegrown Player"
+
+[[cards]]
+text = "MLS SuperDraft"
+
+[[cards]]
+text = "Polish Heritage Night"
+
+[[cards]]
+text = "Chicago Fire Foundation"
+
+[[cards]]
+text = "The Harlem End"
+
+[[cards]]
+text = "MLS Cup MVP"
+
+[[cards]]
+text = "Starting Eleven"
+
+[[cards]]
+text = "I-55 Derby"
+
+[[cards]]
+text = "Great Chicago Fire"
+
+[[cards]]
+text = "Stadium Colonnades"
+
+[[cards]]
+text = "The Midway Club"
+
+[[cards]]
+text = "Fireman's Axe"
+
+[[cards]]
+text = "Rookie of the Year"
+
+[[cards]]
+text = "C.J. Brown"
+
+[[cards]]
+text = "Open Cup Final"
+
+[[cards]]
+text = "Expansion Draft"
+
+[[cards]]
+text = "La Banda"
+
+[[cards]]
+text = "Inaugural Game"
+
+[[cards]]
+text = "Windy City"
+
+[[cards]]
+text = "Fire Engine Red"
+
+[[cards]]
+text = "South Side"
+
+[[cards]]
+text = "Chicagoland"

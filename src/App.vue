@@ -1,5 +1,5 @@
 <script setup>
-import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { Capacitor } from '@capacitor/core'
 import GameScreen from './components/GameScreen.vue'
 import TutorialOverlay from './components/TutorialOverlay.vue'
@@ -19,6 +19,7 @@ import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedC
 import { prepareEndCueAudio, setCueVolume } from './lib/end-cues.js'
 import { setRoundOutcome, DEFAULT_TILT_SENSITIVITY, TILT_SENSITIVITY_MIN, TILT_SENSITIVITY_MAX } from './lib/game-engine.js'
 import { requestMotionPermission } from './lib/motion-permissions.js'
+import { planScreenScroll } from './lib/screen-scroll.js'
 import { defaultSpoilerLimits, spoilerProgressLabel, spoilerSeriesOptions } from './lib/spoiler-series.js'
 
 const screen = ref('library')
@@ -86,8 +87,19 @@ let confirmDialogResolve = null
 const showTutorial = ref(false)
 const tutorialManual = ref(false)
 
-watch(screen, () => {
-  window.scrollTo({ top: 0, left: 0, behavior: 'auto' })
+let libraryScrollY = 0
+watch(screen, (to, from) => {
+  const plan = planScreenScroll({
+    from,
+    to,
+    currentY: window.scrollY,
+    savedLibraryY: libraryScrollY
+  })
+  libraryScrollY = plan.savedLibraryY
+  // flush after the v-else-if screen template remounts so restore isn't clamped
+  nextTick(() => {
+    window.scrollTo({ top: plan.scrollTop, left: 0, behavior: 'auto' })
+  })
 })
 
 const packCounts = ref({})

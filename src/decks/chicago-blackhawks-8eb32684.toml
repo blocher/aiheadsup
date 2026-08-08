@@ -1,0 +1,495 @@
+id = "deck_chicago-blackhawks_8eb32684"
+revision = 2
+name = "Chicago Blackhawks"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Blackhawks history, the United Center, Chicago Stadium, uniforms, mascots, famous current and past players, Stanley Cup moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Blackhawks facts."
+photo_file_name = "chicago-blackhawks-8eb32684-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Patrick Kane"
+
+[[cards]]
+text = "Jonathan Toews"
+
+[[cards]]
+text = "Stan Mikita"
+
+[[cards]]
+text = "Bobby Hull"
+
+[[cards]]
+text = "Tony Esposito"
+
+[[cards]]
+text = "Marian Hossa"
+
+[[cards]]
+text = "Connor Bedard"
+
+[[cards]]
+text = "Duncan Keith"
+
+[[cards]]
+text = "Brent Seabrook"
+
+[[cards]]
+text = "Corey Crawford"
+
+[[cards]]
+text = "Denis Savard"
+
+[[cards]]
+text = "Chris Chelios"
+
+[[cards]]
+text = "Glenn Hall"
+
+[[cards]]
+text = "Patrick Sharp"
+
+[[cards]]
+text = "United Center"
+
+[[cards]]
+text = "Chicago Stadium"
+
+[[cards]]
+text = "Madison Street"
+
+[[cards]]
+text = "Fifth Third Arena"
+
+[[cards]]
+text = "Madhouse on Madison"
+
+[[cards]]
+text = "Tommy Hawk"
+
+[[cards]]
+text = "Jim Cornelison"
+
+[[cards]]
+text = "Joel Quenneville"
+
+[[cards]]
+text = "Rocky Wirtz"
+
+[[cards]]
+text = "Seventeen Seconds"
+
+[[cards]]
+text = "2010 Stanley Cup"
+
+[[cards]]
+text = "2013 Stanley Cup"
+
+[[cards]]
+text = "2015 Stanley Cup"
+
+[[cards]]
+text = "Original Six"
+
+[[cards]]
+text = "Winter Classic"
+
+[[cards]]
+text = "Captain Serious"
+
+[[cards]]
+text = "Showtime"
+
+[[cards]]
+text = "The Golden Jet"
+
+[[cards]]
+text = "Tony O"
+
+[[cards]]
+text = "One Goal"
+
+[[cards]]
+text = "Chelsea Dagger"
+
+[[cards]]
+text = "National Anthem Cheering"
+
+[[cards]]
+text = "Shoot the Puck"
+
+[[cards]]
+text = "The Blackhawks Organ"
+
+[[cards]]
+text = "Ice Crew"
+
+[[cards]]
+text = "Indian Head Logo"
+
+[[cards]]
+text = "Detroit Red Wings"
+
+[[cards]]
+text = "St. Louis Blues"
+
+[[cards]]
+text = "Stanley Cup"
+
+[[cards]]
+text = "Clarence S. Campbell Bowl"
+
+[[cards]]
+text = "Presidents' Trophy"
+
+[[cards]]
+text = "Tomahawk C Logo"
+
+[[cards]]
+text = "Barber Pole Jersey"
+
+[[cards]]
+text = "Bill Mosienko"
+
+[[cards]]
+text = "Jeremy Roenick"
+
+[[cards]]
+text = "Ed Belfour"
+
+[[cards]]
+text = "Dustin Byfuglien"
+
+[[cards]]
+text = "Dave Bolland"
+
+[[cards]]
+text = "Eddie Olczyk"
+
+[[cards]]
+text = "Pat Foley"
+
+[[cards]]
+text = "Major Frederic McLaughlin"
+
+[[cards]]
+text = "Chicago Coliseum"
+
+[[cards]]
+text = "Johnny's IceHouse"
+
+[[cards]]
+text = "Grant Park Rally"
+
+[[cards]]
+text = "Soldier Field"
+
+[[cards]]
+text = "Goal Horn"
+
+[[cards]]
+text = "The Eagle"
+
+[[cards]]
+text = "Big Buff"
+
+[[cards]]
+text = "Vancouver Canucks"
+
+[[cards]]
+text = "Minnesota Wild"
+
+[[cards]]
+text = "Norris Division"
+
+[[cards]]
+text = "Central Division"
+
+[[cards]]
+text = "Fastest Hat Trick"
+
+[[cards]]
+text = "Blackhawks Convention"
+
+[[cards]]
+text = "Art Institute Lions"
+
+[[cards]]
+text = "Conn Smythe Trophy"
+
+[[cards]]
+text = "Calder Memorial Trophy"
+
+[[cards]]
+text = "James Norris Trophy"
+
+[[cards]]
+text = "Vezina Trophy"
+
+[[cards]]
+text = "Black Hawk"
+
+[[cards]]
+text = "Sauk Nation"
+
+[[cards]]
+text = "The Spin-o-rama"
+
+[[cards]]
+text = "Hart Memorial Trophy"
+
+[[cards]]
+text = "1934 Stanley Cup"
+
+[[cards]]
+text = "1938 Stanley Cup"
+
+[[cards]]
+text = "1961 Stanley Cup"
+
+[[cards]]
+text = "Irene Castle"
+
+[[cards]]
+text = "Portland Rosebuds"
+
+[[cards]]
+text = "The Party Line"
+
+[[cards]]
+text = "The Pony Line"
+
+[[cards]]
+text = "Dollar Bill"
+
+[[cards]]
+text = "Luke Richardson"
+
+[[cards]]
+text = "Nick Foligno"
+
+[[cards]]
+text = "Seth Jones"
+
+[[cards]]
+text = "Antti Niemi"
+
+[[cards]]
+text = "Scott Darling"
+
+[[cards]]
+text = "Scott Foster"
+
+[[cards]]
+text = "Emergency Backup Goalie"
+
+[[cards]]
+text = "The Bulin Wall"
+
+[[cards]]
+text = "Tony Amonte"
+
+[[cards]]
+text = "Eric Daze"
+
+[[cards]]
+text = "Bob Probert"
+
+[[cards]]
+text = "Dirk Graham"
+
+[[cards]]
+text = "Troy Murray"
+
+[[cards]]
+text = "Brian Campbell"
+
+[[cards]]
+text = "Marcus Kruger"
+
+[[cards]]
+text = "Red Carpet Walk"
+
+[[cards]]
+text = "Western Conference"
+
+[[cards]]
+text = "Boston Bruins"
+
+[[cards]]
+text = "Montreal Canadiens"
+
+[[cards]]
+text = "Toronto Maple Leafs"
+
+[[cards]]
+text = "New York Rangers"
+
+[[cards]]
+text = "Nashville Predators"
+
+[[cards]]
+text = "Stanley Cup Parade"
+
+[[cards]]
+text = "Barton Pipe Organ"
+
+[[cards]]
+text = "The Roar"
+
+[[cards]]
+text = "Here Come the Hawks"
+
+[[cards]]
+text = "Two-Word Era"
+
+[[cards]]
+text = "Wayne and Garth"
+
+[[cards]]
+text = "The Red Sea"
+
+[[cards]]
+text = "Wrigley Field"
+
+[[cards]]
+text = "WGN Radio"
+
+[[cards]]
+text = "NBC Sports Chicago"
+
+[[cards]]
+text = "John Wiedeman"
+
+[[cards]]
+text = "Darren Pang"
+
+[[cards]]
+text = "Kyle Davidson"
+
+[[cards]]
+text = "The Wirtz Family"
+
+[[cards]]
+text = "Tommy Ivan"
+
+[[cards]]
+text = "The Atrium"
+
+[[cards]]
+text = "Michael Jordan Statue"
+
+[[cards]]
+text = "The Goal Song"
+
+[[cards]]
+text = "Chicago Sports Network"
+
+[[cards]]
+text = "Charlie Gardiner"
+
+[[cards]]
+text = "Mike Karakas"
+
+[[cards]]
+text = "Pierre Pilote"
+
+[[cards]]
+text = "Doug Wilson"
+
+[[cards]]
+text = "Al Secord"
+
+[[cards]]
+text = "Bryan Bickell"
+
+[[cards]]
+text = "Ray Emery"
+
+[[cards]]
+text = "Michal Rozsival"
+
+[[cards]]
+text = "Kimmo Timonen"
+
+[[cards]]
+text = "Alex DeBrincat"
+
+[[cards]]
+text = "Mush March"
+
+[[cards]]
+text = "Pit Martin"
+
+[[cards]]
+text = "Eric Nesterenko"
+
+[[cards]]
+text = "Alexei Zhamnov"
+
+[[cards]]
+text = "Jocelyn Thibault"
+
+[[cards]]
+text = "Tuomo Ruutu"
+
+[[cards]]
+text = "Martin Havlat"
+
+[[cards]]
+text = "Michael Frolik"
+
+[[cards]]
+text = "Teuvo Teravainen"
+
+[[cards]]
+text = "Phil Esposito"
+
+[[cards]]
+text = "Bobby Orr"
+
+[[cards]]
+text = "Dennis Hull"
+
+[[cards]]
+text = "Rockford IceHogs"
+
+[[cards]]
+text = "The Fratellis"
+
+[[cards]]
+text = "Philadelphia Flyers"
+
+[[cards]]
+text = "Tampa Bay Lightning"
+
+[[cards]]
+text = "Notre Dame Stadium"
+
+[[cards]]
+text = "Indy Fuel"
+
+[[cards]]
+text = "Billy Reay"
+
+[[cards]]
+text = "Artyom Levshunov"
+
+[[cards]]
+text = "Frank Nazar"
+
+[[cards]]
+text = "Chris Vosters"
+
+[[cards]]
+text = "Caley Chelios"
+
+[[cards]]
+text = "Alpo Suhonen"
+
+[[cards]]
+text = "Stan Bowman"
+
+[[cards]]
+text = "Johnny Oduya"

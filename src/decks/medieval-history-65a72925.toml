@@ -1,0 +1,801 @@
+id = "deck_medieval-history_65a72925"
+revision = 1
+name = "Medieval History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include medieval kings, queens, knights, castles, wars, plagues, religion, trade, peasants' life, explorers of the era, and major events roughly from the fall of Rome through the late Middle Ages. Prefer real historical people, places, and events."
+photo_file_name = "medieval-history-65a72925-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Charlemagne"
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "William the Conqueror"
+
+[[cards]]
+text = "Richard the Lionheart"
+
+[[cards]]
+text = "Eleanor of Aquitaine"
+
+[[cards]]
+text = "King John"
+
+[[cards]]
+text = "Marco Polo"
+
+[[cards]]
+text = "Leif Erikson"
+
+[[cards]]
+text = "The Black Death"
+
+[[cards]]
+text = "The Crusades"
+
+[[cards]]
+text = "Magna Carta"
+
+[[cards]]
+text = "Battle of Hastings"
+
+[[cards]]
+text = "Hundred Years' War"
+
+[[cards]]
+text = "Fall of Constantinople"
+
+[[cards]]
+text = "Feudalism"
+
+[[cards]]
+text = "Knight in Armor"
+
+[[cards]]
+text = "Stone Castle"
+
+[[cards]]
+text = "Trebuchet"
+
+[[cards]]
+text = "Drawbridge"
+
+[[cards]]
+text = "Moat"
+
+[[cards]]
+text = "Jousting Tournament"
+
+[[cards]]
+text = "Chainmail"
+
+[[cards]]
+text = "Longbow"
+
+[[cards]]
+text = "Squire"
+
+[[cards]]
+text = "Coat of Arms"
+
+[[cards]]
+text = "Catapult"
+
+[[cards]]
+text = "Monastery"
+
+[[cards]]
+text = "Cathedral"
+
+[[cards]]
+text = "Monk"
+
+[[cards]]
+text = "Pilgrimage"
+
+[[cards]]
+text = "Holy Roman Empire"
+
+[[cards]]
+text = "Gothic Architecture"
+
+[[cards]]
+text = "Serf"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Guild"
+
+[[cards]]
+text = "Merchant"
+
+[[cards]]
+text = "Silk Road"
+
+[[cards]]
+text = "Thatch Roof"
+
+[[cards]]
+text = "Troubadour"
+
+[[cards]]
+text = "Scribe"
+
+[[cards]]
+text = "Tapestry"
+
+[[cards]]
+text = "Crown Jewels"
+
+[[cards]]
+text = "Viking Longship"
+
+[[cards]]
+text = "Alchemist"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "Peasant Farmers"
+
+[[cards]]
+text = "Page Boy"
+
+[[cards]]
+text = "Alfred the Great"
+
+[[cards]]
+text = "Emperor Justinian"
+
+[[cards]]
+text = "Empress Theodora"
+
+[[cards]]
+text = "Genghis Khan"
+
+[[cards]]
+text = "Robert the Bruce"
+
+[[cards]]
+text = "William Wallace"
+
+[[cards]]
+text = "Saladin"
+
+[[cards]]
+text = "Mansa Musa"
+
+[[cards]]
+text = "Isabella of Castile"
+
+[[cards]]
+text = "Geoffrey Chaucer"
+
+[[cards]]
+text = "Ibn Battuta"
+
+[[cards]]
+text = "Eric the Red"
+
+[[cards]]
+text = "Battle of Agincourt"
+
+[[cards]]
+text = "Wars of the Roses"
+
+[[cards]]
+text = "Norman Conquest"
+
+[[cards]]
+text = "Reconquista"
+
+[[cards]]
+text = "Domesday Book"
+
+[[cards]]
+text = "Tower of London"
+
+[[cards]]
+text = "Kievan Rus"
+
+[[cards]]
+text = "Hanseatic League"
+
+[[cards]]
+text = "Jester"
+
+[[cards]]
+text = "Plague Doctor"
+
+[[cards]]
+text = "Caliphate"
+
+[[cards]]
+text = "Chivalry"
+
+[[cards]]
+text = "Vassal"
+
+[[cards]]
+text = "Baron"
+
+[[cards]]
+text = "Stonemason"
+
+[[cards]]
+text = "Falconer"
+
+[[cards]]
+text = "Apothecary"
+
+[[cards]]
+text = "Miller"
+
+[[cards]]
+text = "Minstrel"
+
+[[cards]]
+text = "Herald"
+
+[[cards]]
+text = "Yeoman"
+
+[[cards]]
+text = "Portcullis"
+
+[[cards]]
+text = "Arrow Slit"
+
+[[cards]]
+text = "Crossbow"
+
+[[cards]]
+text = "Halberd"
+
+[[cards]]
+text = "Mace"
+
+[[cards]]
+text = "Gauntlet"
+
+[[cards]]
+text = "Siege Tower"
+
+[[cards]]
+text = "Broadsword"
+
+[[cards]]
+text = "Bastion"
+
+[[cards]]
+text = "Morningstar"
+
+[[cards]]
+text = "Illuminated Manuscript"
+
+[[cards]]
+text = "Astrolabe"
+
+[[cards]]
+text = "Spinning Wheel"
+
+[[cards]]
+text = "Pope Urban II"
+
+[[cards]]
+text = "Saint Francis of Assisi"
+
+[[cards]]
+text = "Knights Templar"
+
+[[cards]]
+text = "Flying Buttress"
+
+[[cards]]
+text = "Stained Glass Window"
+
+[[cards]]
+text = "Gargoyle"
+
+[[cards]]
+text = "Lute"
+
+[[cards]]
+text = "Parchment"
+
+[[cards]]
+text = "Quill Pen"
+
+[[cards]]
+text = "Castle Keep"
+
+[[cards]]
+text = "Castle Dungeon"
+
+[[cards]]
+text = "Murder Hole"
+
+[[cards]]
+text = "Motte-and-Bailey"
+
+[[cards]]
+text = "Stocks and Pillory"
+
+[[cards]]
+text = "Great Helm"
+
+[[cards]]
+text = "Viking Axe"
+
+[[cards]]
+text = "Runestone"
+
+[[cards]]
+text = "Vinland"
+
+[[cards]]
+text = "Reliquary"
+
+[[cards]]
+text = "Thomas Becket"
+
+[[cards]]
+text = "Canterbury Tales"
+
+[[cards]]
+text = "Divine Comedy"
+
+[[cards]]
+text = "El Cid"
+
+[[cards]]
+text = "Anglo-Saxons"
+
+[[cards]]
+text = "Visigoths"
+
+[[cards]]
+text = "Peasants' Revolt"
+
+[[cards]]
+text = "Scriptorium"
+
+[[cards]]
+text = "Excommunication"
+
+[[cards]]
+text = "Heretic"
+
+[[cards]]
+text = "Watermill"
+
+[[cards]]
+text = "Lord of the Manor"
+
+[[cards]]
+text = "Lady in Waiting"
+
+[[cards]]
+text = "Hurdy-Gurdy"
+
+[[cards]]
+text = "Merchant Cog"
+
+[[cards]]
+text = "Caravel"
+
+[[cards]]
+text = "Flagellants"
+
+[[cards]]
+text = "Danse Macabre"
+
+[[cards]]
+text = "Abbot"
+
+[[cards]]
+text = "Abbess"
+
+[[cards]]
+text = "Sutton Hoo"
+
+[[cards]]
+text = "Attila the Hun"
+
+[[cards]]
+text = "King Clovis"
+
+[[cards]]
+text = "Charles Martel"
+
+[[cards]]
+text = "Battle of Tours"
+
+[[cards]]
+text = "The Golden Horde"
+
+[[cards]]
+text = "Prester John"
+
+[[cards]]
+text = "House of Wisdom"
+
+[[cards]]
+text = "The Anarchy"
+
+[[cards]]
+text = "Harold Godwinson"
+
+[[cards]]
+text = "Edward the Confessor"
+
+[[cards]]
+text = "King Ferdinand"
+
+[[cards]]
+text = "Teutonic Knights"
+
+[[cards]]
+text = "Henry V"
+
+[[cards]]
+text = "Richard III"
+
+[[cards]]
+text = "Edward III"
+
+[[cards]]
+text = "The Black Prince"
+
+[[cards]]
+text = "Empress Matilda"
+
+[[cards]]
+text = "Margaret of Anjou"
+
+[[cards]]
+text = "Henry II"
+
+[[cards]]
+text = "Dante Alighieri"
+
+[[cards]]
+text = "Kublai Khan"
+
+[[cards]]
+text = "Harun al-Rashid"
+
+[[cards]]
+text = "Wat Tyler"
+
+[[cards]]
+text = "Zheng He"
+
+[[cards]]
+text = "Saint Augustine"
+
+[[cards]]
+text = "Sheriff of Nottingham"
+
+[[cards]]
+text = "John Wycliffe"
+
+[[cards]]
+text = "Jan Hus"
+
+[[cards]]
+text = "Crenellations"
+
+[[cards]]
+text = "Carcassonne"
+
+[[cards]]
+text = "Belfry"
+
+[[cards]]
+text = "Siege of Orleans"
+
+[[cards]]
+text = "Greaves"
+
+[[cards]]
+text = "Hauberk"
+
+[[cards]]
+text = "Caltrop"
+
+[[cards]]
+text = "Shield Wall"
+
+[[cards]]
+text = "Battle of Bannockburn"
+
+[[cards]]
+text = "Battle of Crecy"
+
+[[cards]]
+text = "Siege of Jerusalem"
+
+[[cards]]
+text = "Treaty of Verdun"
+
+[[cards]]
+text = "Great Schism"
+
+[[cards]]
+text = "Spanish Inquisition"
+
+[[cards]]
+text = "Avignon Papacy"
+
+[[cards]]
+text = "Monastic Tonsure"
+
+[[cards]]
+text = "Notre-Dame de Paris"
+
+[[cards]]
+text = "Three-Field System"
+
+[[cards]]
+text = "Barber Surgeon"
+
+[[cards]]
+text = "Fairs of Champagne"
+
+[[cards]]
+text = "Venetian Traders"
+
+[[cards]]
+text = "Gallowglass"
+
+[[cards]]
+text = "Timbuktu"
+
+[[cards]]
+text = "Offa's Dyke"
+
+[[cards]]
+text = "The Danelaw"
+
+[[cards]]
+text = "Varangian Guard"
+
+[[cards]]
+text = "Miasma Theory"
+
+[[cards]]
+text = "Wimple"
+
+[[cards]]
+text = "Doublet"
+
+[[cards]]
+text = "The Great Famine"
+
+[[cards]]
+text = "Carolingian Renaissance"
+
+[[cards]]
+text = "Duchy of Normandy"
+
+[[cards]]
+text = "Chamberlain"
+
+[[cards]]
+text = "Frederick Barbarossa"
+
+[[cards]]
+text = "King Cnut"
+
+[[cards]]
+text = "Aethelflaed"
+
+[[cards]]
+text = "William Marshal"
+
+[[cards]]
+text = "King Louis IX"
+
+[[cards]]
+text = "Thomas Aquinas"
+
+[[cards]]
+text = "Vlad the Impaler"
+
+[[cards]]
+text = "Mehmed the Conqueror"
+
+[[cards]]
+text = "Venerable Bede"
+
+[[cards]]
+text = "Christine de Pizan"
+
+[[cards]]
+text = "Hagia Sophia"
+
+[[cards]]
+text = "Krak des Chevaliers"
+
+[[cards]]
+text = "Mont Saint-Michel"
+
+[[cards]]
+text = "Alhambra"
+
+[[cards]]
+text = "Windsor Castle"
+
+[[cards]]
+text = "Westminster Abbey"
+
+[[cards]]
+text = "Santiago de Compostela"
+
+[[cards]]
+text = "Battle of Stamford Bridge"
+
+[[cards]]
+text = "Battle of Bosworth Field"
+
+[[cards]]
+text = "Children's Crusade"
+
+[[cards]]
+text = "Sack of Rome"
+
+[[cards]]
+text = "Viking Raid"
+
+[[cards]]
+text = "Battering Ram"
+
+[[cards]]
+text = "Knighthood Ceremony"
+
+[[cards]]
+text = "The Danegeld"
+
+[[cards]]
+text = "Plate Armor"
+
+[[cards]]
+text = "Warhorse"
+
+[[cards]]
+text = "Dauphin"
+
+[[cards]]
+text = "Heater Shield"
+
+[[cards]]
+text = "Wax Seal"
+
+[[cards]]
+text = "Signet Ring"
+
+[[cards]]
+text = "Tithe"
+
+[[cards]]
+text = "Indulgence"
+
+[[cards]]
+text = "Papal Bull"
+
+[[cards]]
+text = "Holy Relic"
+
+[[cards]]
+text = "Mead Hall"
+
+[[cards]]
+text = "Pottage"
+
+[[cards]]
+text = "Trencher"
+
+[[cards]]
+text = "Wassail"
+
+[[cards]]
+text = "Town Crier"
+
+[[cards]]
+text = "Night Watchman"
+
+[[cards]]
+text = "Tax Collector"
+
+[[cards]]
+text = "Outlaw"
+
+[[cards]]
+text = "Flail"
+
+[[cards]]
+text = "Surcoat"
+
+[[cards]]
+text = "Gallows"
+
+[[cards]]
+text = "Toll Bridge"
+
+[[cards]]
+text = "Tithe Barn"
+
+[[cards]]
+text = "Leather Jerkin"
+
+[[cards]]
+text = "Johannes Gutenberg"
+
+[[cards]]
+text = "Baldwin IV"
+
+[[cards]]
+text = "Saint Patrick"
+
+[[cards]]
+text = "Saint Benedict"
+
+[[cards]]
+text = "Windmill"
+
+[[cards]]
+text = "Cooper"
+
+[[cards]]
+text = "Fletcher"
+
+[[cards]]
+text = "Chandler"
+
+[[cards]]
+text = "Goldsmith"
+
+[[cards]]
+text = "Spices"
+
+[[cards]]
+text = "Yule Log"
+
+[[cards]]
+text = "Maypole"
+
+[[cards]]
+text = "Gambeson"
+
+[[cards]]
+text = "Kingdom of Jerusalem"
+
+[[cards]]
+text = "Scythe"
+
+[[cards]]
+text = "Leper Colony"
+
+[[cards]]
+text = "Sundial"
+
+[[cards]]
+text = "Hourglass"
+
+[[cards]]
+text = "Genoa"
+
+[[cards]]
+text = "Romanesque Architecture"
+
+[[cards]]
+text = "Pewter Mug"

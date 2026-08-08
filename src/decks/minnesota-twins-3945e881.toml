@@ -1,0 +1,387 @@
+id = "deck_minnesota-twins_3945e881"
+revision = 2
+name = "Minnesota Twins"
+category = "Minnesota Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Twins history, Target Field, Metrodome, Metropolitan Stadium, uniforms, mascots, famous current and past players, World Series moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Twins facts."
+photo_file_name = "minnesota-twins-3945e881-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Target Field"
+
+[[cards]]
+text = "Hubert H. Humphrey Metrodome"
+
+[[cards]]
+text = "Metropolitan Stadium"
+
+[[cards]]
+text = "Minnie and Paul"
+
+[[cards]]
+text = "The Homer Hanky"
+
+[[cards]]
+text = "T.C. Bear"
+
+[[cards]]
+text = "Kirby Puckett"
+
+[[cards]]
+text = "Joe Mauer"
+
+[[cards]]
+text = "Harmon Killebrew"
+
+[[cards]]
+text = "Tony Oliva"
+
+[[cards]]
+text = "Rod Carew"
+
+[[cards]]
+text = "Kent Hrbek"
+
+[[cards]]
+text = "Justin Morneau"
+
+[[cards]]
+text = "Torii Hunter"
+
+[[cards]]
+text = "Johan Santana"
+
+[[cards]]
+text = "Byron Buxton"
+
+[[cards]]
+text = "Bert Blyleven"
+
+[[cards]]
+text = "Tom Kelly"
+
+[[cards]]
+text = "Rocco Baldelli"
+
+[[cards]]
+text = "1987 World Series"
+
+[[cards]]
+text = "1991 World Series"
+
+[[cards]]
+text = "The Bomba Squad"
+
+[[cards]]
+text = "The M&M Boys"
+
+[[cards]]
+text = "Circle Me Bert"
+
+[[cards]]
+text = "The Hefty Bag"
+
+[[cards]]
+text = "Powder Blue Uniforms"
+
+[[cards]]
+text = "Target Plaza"
+
+[[cards]]
+text = "Gene Larkin's Single"
+
+[[cards]]
+text = "Jack Morris"
+
+[[cards]]
+text = "Sweet Music"
+
+[[cards]]
+text = "The Twin Cities"
+
+[[cards]]
+text = "TC Logo"
+
+[[cards]]
+text = "New York Yankees"
+
+[[cards]]
+text = "Chicago White Sox"
+
+[[cards]]
+text = "Detroit Tigers"
+
+[[cards]]
+text = "Cleveland Guardians"
+
+[[cards]]
+text = "Dick Bremer"
+
+[[cards]]
+text = "Herb Carneal"
+
+[[cards]]
+text = "Minnesota Twins"
+
+[[cards]]
+text = "The Summer Sausage"
+
+[[cards]]
+text = "Pinstripe Jerseys"
+
+[[cards]]
+text = "The Met Flagpole"
+
+[[cards]]
+text = "The Puckett Leap"
+
+[[cards]]
+text = "Hrbek and Gant"
+
+[[cards]]
+text = "Twins Hall of Fame"
+
+[[cards]]
+text = "Carew's Stealing Home"
+
+[[cards]]
+text = "Champions Club"
+
+[[cards]]
+text = "The Washington Senators"
+
+[[cards]]
+text = "1965 World Series"
+
+[[cards]]
+text = "Game 163"
+
+[[cards]]
+text = "The Red Seat"
+
+[[cards]]
+text = "Mall of America"
+
+[[cards]]
+text = "Fort Myers"
+
+[[cards]]
+text = "Hammond Stadium"
+
+[[cards]]
+text = "St. Paul Saints"
+
+[[cards]]
+text = "Kasota Limestone"
+
+[[cards]]
+text = "Town Ball Tavern"
+
+[[cards]]
+text = "Gate 34"
+
+[[cards]]
+text = "Sue Nelson"
+
+[[cards]]
+text = "John Gordon"
+
+[[cards]]
+text = "The Teflon Ceiling"
+
+[[cards]]
+text = "Dollar Dog Night"
+
+[[cards]]
+text = "Little Big League"
+
+[[cards]]
+text = "The Retro M Cap"
+
+[[cards]]
+text = "Cream Alternate Jerseys"
+
+[[cards]]
+text = "Script Jerseys"
+
+[[cards]]
+text = "La Tortuga"
+
+[[cards]]
+text = "Two Triple Plays"
+
+[[cards]]
+text = "The Dome Dog"
+
+[[cards]]
+text = "Kramarczuk's Sausages"
+
+[[cards]]
+text = "The Giant Glove Statue"
+
+[[cards]]
+text = "The Left Field Firepit"
+
+[[cards]]
+text = "The Metrodome Doors"
+
+[[cards]]
+text = "The Hanging Speakers"
+
+[[cards]]
+text = "The Spruce Trees"
+
+[[cards]]
+text = "The Metrodome Roof Collapse"
+
+[[cards]]
+text = "Nickelodeon Universe Home Plate"
+
+[[cards]]
+text = "The Plaza Statues"
+
+[[cards]]
+text = "The Twin Killing"
+
+[[cards]]
+text = "The Winter Caravan"
+
+[[cards]]
+text = "Twins Fest"
+
+[[cards]]
+text = "Cotton Eyed Joe"
+
+[[cards]]
+text = "The Boomstick"
+
+[[cards]]
+text = "The Lost Fly Ball"
+
+[[cards]]
+text = "The Snow Opener"
+
+[[cards]]
+text = "The Mighty Mussels"
+
+[[cards]]
+text = "The Cedar Rapids Kernels"
+
+[[cards]]
+text = "The Wichita Wind Surge"
+
+[[cards]]
+text = "The Minneapolis Millers"
+
+[[cards]]
+text = "The Shaking Hands Sign"
+
+[[cards]]
+text = "The Victory Flag"
+
+[[cards]]
+text = "The Home Run Foghorn"
+
+[[cards]]
+text = "The Kansas City Royals"
+
+[[cards]]
+text = "The Twinkies"
+
+[[cards]]
+text = "WCCO Radio"
+
+[[cards]]
+text = "Bally Sports North"
+
+[[cards]]
+text = "Milwaukee Brewers"
+
+[[cards]]
+text = "Atlanta Braves"
+
+[[cards]]
+text = "St. Louis Cardinals"
+
+[[cards]]
+text = "Los Angeles Dodgers"
+
+[[cards]]
+text = "AL Central Division"
+
+[[cards]]
+text = "Rochester Red Wings"
+
+[[cards]]
+text = "New Britain Rock Cats"
+
+[[cards]]
+text = "Ten Inning Shutout"
+
+[[cards]]
+text = "The 1987 Victory Parade"
+
+[[cards]]
+text = "The 2014 All-Star Game"
+
+[[cards]]
+text = "The 1985 All-Star Game"
+
+[[cards]]
+text = "The 2010 Opener"
+
+[[cards]]
+text = "Terry Ryan"
+
+[[cards]]
+text = "Andy MacPhail"
+
+[[cards]]
+text = "Zoilo Versalles"
+
+[[cards]]
+text = "Jim Perry"
+
+[[cards]]
+text = "Mudcat Grant"
+
+[[cards]]
+text = "The Tri-Color Cap"
+
+[[cards]]
+text = "Kris Atteberry"
+
+[[cards]]
+text = "FCL Twins"
+
+[[cards]]
+text = "David Ortiz"
+
+[[cards]]
+text = "Dave Winfield"
+
+[[cards]]
+text = "A.J. Pierzynski"
+
+[[cards]]
+text = "Doug Mientkiewicz"
+
+[[cards]]
+text = "Shannon Stewart"
+
+[[cards]]
+text = "Miguel Sano"
+
+[[cards]]
+text = "Earl Battey"
+
+[[cards]]
+text = "Cheese Curds"
+
+[[cards]]
+text = "Walleye Sandwich"
+
+[[cards]]
+text = "The Blue Baggie"

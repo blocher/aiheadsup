@@ -1,0 +1,678 @@
+id = "deck_90s-kids-shows_0f8bec83"
+revision = 2
+name = "90s Kids Shows"
+category = "Kids"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include popular 1990s children's TV shows, characters, settings, catchphrases, toys tied to those shows, and memorable family-friendly 90s kids-TV references."
+photo_file_name = "90s-kids-shows-0f8bec83-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Rugrats"
+
+[[cards]]
+text = "Power Rangers"
+
+[[cards]]
+text = "Pokémon"
+
+[[cards]]
+text = "Sailor Moon"
+
+[[cards]]
+text = "Animaniacs"
+
+[[cards]]
+text = "Hey Arnold!"
+
+[[cards]]
+text = "Blue's Clues"
+
+[[cards]]
+text = "Kenan & Kel"
+
+[[cards]]
+text = "Double Dare"
+
+[[cards]]
+text = "Goosebumps"
+
+[[cards]]
+text = "Dexter's Laboratory"
+
+[[cards]]
+text = "Recess"
+
+[[cards]]
+text = "Arthur"
+
+[[cards]]
+text = "The Magic School Bus"
+
+[[cards]]
+text = "Bill Nye"
+
+[[cards]]
+text = "The Powerpuff Girls"
+
+[[cards]]
+text = "Courage the Cowardly Dog"
+
+[[cards]]
+text = "Johnny Bravo"
+
+[[cards]]
+text = "Doug"
+
+[[cards]]
+text = "Pinky and the Brain"
+
+[[cards]]
+text = "Nickelodeon Guts"
+
+[[cards]]
+text = "Wishbone"
+
+[[cards]]
+text = "Teletubbies"
+
+[[cards]]
+text = "Barney & Friends"
+
+[[cards]]
+text = "Captain Planet"
+
+[[cards]]
+text = "Tommy Pickles"
+
+[[cards]]
+text = "Pikachu"
+
+[[cards]]
+text = "Reptar"
+
+[[cards]]
+text = "Ms. Frizzle"
+
+[[cards]]
+text = "Green Slime"
+
+[[cards]]
+text = "The Aggro Crag"
+
+[[cards]]
+text = "Orange Soda"
+
+[[cards]]
+text = "Poké Ball"
+
+[[cards]]
+text = "Tinky Winky"
+
+[[cards]]
+text = "Dee Dee"
+
+[[cards]]
+text = "Skeeter Valentine"
+
+[[cards]]
+text = "Mojo Jojo"
+
+[[cards]]
+text = "Aaaahh!!! Real Monsters"
+
+[[cards]]
+text = "CatDog"
+
+[[cards]]
+text = "Temple Guard"
+
+[[cards]]
+text = "The Silver Monkey"
+
+[[cards]]
+text = "Quailman"
+
+[[cards]]
+text = "Zordon"
+
+[[cards]]
+text = "Rita Repulsa"
+
+[[cards]]
+text = "Elmo's World"
+
+[[cards]]
+text = "Rocko's Modern Life"
+
+[[cards]]
+text = "Ed, Edd n Eddy"
+
+[[cards]]
+text = "Clarissa Explains It All"
+
+[[cards]]
+text = "Chuckie Finster"
+
+[[cards]]
+text = "Angelica Pickles"
+
+[[cards]]
+text = "Helga Pataki"
+
+[[cards]]
+text = "Olmec"
+
+[[cards]]
+text = "Ash Ketchum"
+
+[[cards]]
+text = "Tuxedo Mask"
+
+[[cards]]
+text = "Salem the Cat"
+
+[[cards]]
+text = "Mr. Feeny"
+
+[[cards]]
+text = "Zack Morris"
+
+[[cards]]
+text = "Spike the Dog"
+
+[[cards]]
+text = "Team Rocket"
+
+[[cards]]
+text = "D.W. Read"
+
+[[cards]]
+text = "Porkchop"
+
+[[cards]]
+text = "Patty Mayonnaise"
+
+[[cards]]
+text = "Spinelli"
+
+[[cards]]
+text = "Slappy the Dummy"
+
+[[cards]]
+text = "Thinking Chair"
+
+[[cards]]
+text = "Steve from Blue's Clues"
+
+[[cards]]
+text = "The Midnight Society"
+
+[[cards]]
+text = "Buster Bunny"
+
+[[cards]]
+text = "Darkwing Duck"
+
+[[cards]]
+text = "Goliath"
+
+[[cards]]
+text = "Pepper Ann"
+
+[[cards]]
+text = "Topanga Lawrence"
+
+[[cards]]
+text = "Megazord"
+
+[[cards]]
+text = "Alpha 5"
+
+[[cards]]
+text = "Yakko, Wakko and Dot"
+
+[[cards]]
+text = "Mandark"
+
+[[cards]]
+text = "Pierre Escargot"
+
+[[cards]]
+text = "Good Burger"
+
+[[cards]]
+text = "Misty"
+
+[[cards]]
+text = "Charizard"
+
+[[cards]]
+text = "Baby Bop"
+
+[[cards]]
+text = "Harvey Kinkle"
+
+[[cards]]
+text = "Stoop Kid"
+
+[[cards]]
+text = "Gerald Johanssen"
+
+[[cards]]
+text = "Buster Baxter"
+
+[[cards]]
+text = "Liz the Lizard"
+
+[[cards]]
+text = "T.J. Detweiler"
+
+[[cards]]
+text = "Roger Klotz"
+
+[[cards]]
+text = "The Beets"
+
+[[cards]]
+text = "Honker Burger"
+
+[[cards]]
+text = "Slappy Squirrel"
+
+[[cards]]
+text = "Ask Ashley"
+
+[[cards]]
+text = "Repairman Man"
+
+[[cards]]
+text = "Prometheus and Bob"
+
+[[cards]]
+text = "Action League Now"
+
+[[cards]]
+text = "Marc Summers"
+
+[[cards]]
+text = "Tia and Tamera"
+
+[[cards]]
+text = "Cynthia Doll"
+
+[[cards]]
+text = "The Wild Thornberrys"
+
+[[cards]]
+text = "Rocket Power"
+
+[[cards]]
+text = "Tiny Toon Adventures"
+
+[[cards]]
+text = "Gargoyles"
+
+[[cards]]
+text = "Bobby's World"
+
+[[cards]]
+text = "Gullah Gullah Island"
+
+[[cards]]
+text = "Street Sharks"
+
+[[cards]]
+text = "Rolie Polie Olie"
+
+[[cards]]
+text = "Out of the Box"
+
+[[cards]]
+text = "Carmen Sandiego"
+
+[[cards]]
+text = "Cow and Chicken"
+
+[[cards]]
+text = "TaleSpin"
+
+[[cards]]
+text = "Stick Stickly"
+
+[[cards]]
+text = "Face"
+
+[[cards]]
+text = "Eliza Thornberry"
+
+[[cards]]
+text = "Darwin the Chimpanzee"
+
+[[cards]]
+text = "Otto Rocket"
+
+[[cards]]
+text = "Reggie Rocket"
+
+[[cards]]
+text = "Phil and Lil"
+
+[[cards]]
+text = "Susie Carmichael"
+
+[[cards]]
+text = "Grandpa Lou"
+
+[[cards]]
+text = "Tommy Oliver"
+
+[[cards]]
+text = "Lord Zedd"
+
+[[cards]]
+text = "Goldar"
+
+[[cards]]
+text = "Putty Patrol"
+
+[[cards]]
+text = "Brock"
+
+[[cards]]
+text = "Meowth"
+
+[[cards]]
+text = "Jigglypuff"
+
+[[cards]]
+text = "Bulbasaur"
+
+[[cards]]
+text = "Squirtle"
+
+[[cards]]
+text = "Sailor Mars"
+
+[[cards]]
+text = "Sailor Mercury"
+
+[[cards]]
+text = "Plucky Duck"
+
+[[cards]]
+text = "Elmyra Duff"
+
+[[cards]]
+text = "Grandpa Phil"
+
+[[cards]]
+text = "Phoebe Heyerdahl"
+
+[[cards]]
+text = "Harold Berman"
+
+[[cards]]
+text = "Mailbox"
+
+[[cards]]
+text = "Mr. Salt"
+
+[[cards]]
+text = "Slippery Soap"
+
+[[cards]]
+text = "Tickety Tock"
+
+[[cards]]
+text = "Magenta"
+
+[[cards]]
+text = "Lamb Chop"
+
+[[cards]]
+text = "Dipsy"
+
+[[cards]]
+text = "Laa-Laa"
+
+[[cards]]
+text = "Po"
+
+[[cards]]
+text = "Wheeler"
+
+[[cards]]
+text = "Bubbles"
+
+[[cards]]
+text = "Blossom"
+
+[[cards]]
+text = "Buttercup"
+
+[[cards]]
+text = "Saved by the Bell"
+
+[[cards]]
+text = "Kelly Kapowski"
+
+[[cards]]
+text = "A.C. Slater"
+
+[[cards]]
+text = "Screech Powers"
+
+[[cards]]
+text = "Mr. Belding"
+
+[[cards]]
+text = "Bayside High"
+
+[[cards]]
+text = "The Max"
+
+[[cards]]
+text = "Boy Meets World"
+
+[[cards]]
+text = "Shawn Hunter"
+
+[[cards]]
+text = "Eric Matthews"
+
+[[cards]]
+text = "All That"
+
+[[cards]]
+text = "Vital Information"
+
+[[cards]]
+text = "Super Dude"
+
+[[cards]]
+text = "Lori Beth Denberg"
+
+[[cards]]
+text = "The Ghastly Grinner"
+
+[[cards]]
+text = "Zeebo the Clown"
+
+[[cards]]
+text = "Sardo"
+
+[[cards]]
+text = "Dr. Vink"
+
+[[cards]]
+text = "Green Monkeys"
+
+[[cards]]
+text = "Red Jaguars"
+
+[[cards]]
+text = "Blue Barracudas"
+
+[[cards]]
+text = "Silver Snakes"
+
+[[cards]]
+text = "Pendant of Life"
+
+[[cards]]
+text = "Figure It Out"
+
+[[cards]]
+text = "Secret Slime Action"
+
+[[cards]]
+text = "Summer Sanders"
+
+[[cards]]
+text = "Angry Beavers"
+
+[[cards]]
+text = "Daggett Beaver"
+
+[[cards]]
+text = "Norbert Beaver"
+
+[[cards]]
+text = "SpongeBob SquarePants"
+
+[[cards]]
+text = "Bikini Bottom"
+
+[[cards]]
+text = "Patrick Star"
+
+[[cards]]
+text = "Squidward Tentacles"
+
+[[cards]]
+text = "Mr. Krabs"
+
+[[cards]]
+text = "Plankton"
+
+[[cards]]
+text = "Gary the Snail"
+
+[[cards]]
+text = "Krabby Patty"
+
+[[cards]]
+text = "The Chum Bucket"
+
+[[cards]]
+text = "Mighty Morphin Power Rangers"
+
+[[cards]]
+text = "Angel Grove"
+
+[[cards]]
+text = "Bulk and Skull"
+
+[[cards]]
+text = "Kimberly Hart"
+
+[[cards]]
+text = "Dragonzord"
+
+[[cards]]
+text = "Gotta Catch 'Em All"
+
+[[cards]]
+text = "Professor Oak"
+
+[[cards]]
+text = "Pokedex"
+
+[[cards]]
+text = "Nurse Joy"
+
+[[cards]]
+text = "Mewtwo"
+
+[[cards]]
+text = "The Haunted Mask"
+
+[[cards]]
+text = "Monster Blood"
+
+[[cards]]
+text = "Steve Urkel"
+
+[[cards]]
+text = "Nigel Thornberry"
+
+[[cards]]
+text = "Cory Matthews"
+
+[[cards]]
+text = "The Carlton Dance"
+
+[[cards]]
+text = "Uncle Jesse"
+
+[[cards]]
+text = "Michelle Tanner"
+
+[[cards]]
+text = "Plank"
+
+[[cards]]
+text = "Goku"
+
+[[cards]]
+text = "Super Saiyan"
+
+[[cards]]
+text = "Togepi"
+
+[[cards]]
+text = "Babs Bunny"
+
+[[cards]]
+text = "Chemical X"
+
+[[cards]]
+text = "Pink Ranger"
+
+[[cards]]
+text = "Jawbreakers"
+
+[[cards]]
+text = "Handy Dandy Notebook"
+
+[[cards]]
+text = "Tubby Custard"
+
+[[cards]]
+text = "Jessie Spano"
+
+[[cards]]
+text = "Uncle Phil"
+
+[[cards]]
+text = "Binky Barnes"
+
+[[cards]]
+text = "Purple Parrots"
+
+[[cards]]
+text = "Kamehameha"
+
+[[cards]]
+text = "Heffer Wolfe"
+
+[[cards]]
+text = "Sabrina Spellman"
+
+[[cards]]
+text = "How Rude"
+
+[[cards]]
+text = "Physical Challenge"

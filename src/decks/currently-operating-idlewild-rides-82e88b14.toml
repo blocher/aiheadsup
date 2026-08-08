@@ -1,0 +1,102 @@
+id = "deck_currently-operating-idlewild-rides_82e88b14"
+revision = 2
+name = "Currently Operating Idlewild Rides"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include ONLY rides and attractions currently operating at Idlewild and SoakZone. Include roller coasters, family rides, water attractions, and themed-area rides that are open now. Do NOT include retired, removed, or permanently closed rides."
+photo_file_name = "currently-operating-idlewild-rides-82e88b14-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Rollo Coaster"
+
+[[cards]]
+text = "Howler"
+
+[[cards]]
+text = "Caterpillar"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "Grand Carousel"
+
+[[cards]]
+text = "Scrambler"
+
+[[cards]]
+text = "Tilt-A-Whirl"
+
+[[cards]]
+text = "Flying Aces"
+
+[[cards]]
+text = "Spider"
+
+[[cards]]
+text = "Super Round-Up"
+
+[[cards]]
+text = "Balloon Race"
+
+[[cards]]
+text = "Loyalhanna Limited Railroad"
+
+[[cards]]
+text = "Confusion Hill"
+
+[[cards]]
+text = "Daniel Tiger's Trolley"
+
+[[cards]]
+text = "Story Book Forest"
+
+[[cards]]
+text = "Jumpin' Jungle"
+
+[[cards]]
+text = "Doodlebug"
+
+[[cards]]
+text = "Dino Soars"
+
+[[cards]]
+text = "Red Baron"
+
+[[cards]]
+text = "Pollywog Regatta"
+
+[[cards]]
+text = "Ricky's Racers"
+
+[[cards]]
+text = "Kiddie Whip"
+
+[[cards]]
+text = "Kiddie Handcars"
+
+[[cards]]
+text = "Little Squealers"
+
+[[cards]]
+text = "Pipeline Plunge"
+
+[[cards]]
+text = "Float Away Bay"
+
+[[cards]]
+text = "Hydro Racers"
+
+[[cards]]
+text = "Slide Winder"
+
+[[cards]]
+text = "Captain Kid's Shipwreck Cove"
+
+[[cards]]
+text = "Wowabunga Family Slides"
+
+[[cards]]
+text = "Skooters Bumper Cars"

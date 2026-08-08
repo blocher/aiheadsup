@@ -1,0 +1,459 @@
+id = "deck_tanzania_1aab81e8"
+revision = 1
+name = "Tanzania"
+category = "Geography"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Tanzanian cities, regions, landmarks, national parks, lakes, mountains, wildlife, culture, history, and recognizable geography of Tanzania. Prefer real places and terms."
+photo_file_name = "tanzania-1aab81e8-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Mount Kilimanjaro"
+
+[[cards]]
+text = "Serengeti National Park"
+
+[[cards]]
+text = "Ngorongoro Crater"
+
+[[cards]]
+text = "Dar es Salaam"
+
+[[cards]]
+text = "Zanzibar"
+
+[[cards]]
+text = "Lake Victoria"
+
+[[cards]]
+text = "Lake Tanganyika"
+
+[[cards]]
+text = "Stone Town"
+
+[[cards]]
+text = "Dodoma"
+
+[[cards]]
+text = "Mount Meru"
+
+[[cards]]
+text = "Wildebeest Migration"
+
+[[cards]]
+text = "Maasai People"
+
+[[cards]]
+text = "Pemba Island"
+
+[[cards]]
+text = "Mafia Island"
+
+[[cards]]
+text = "Tarangire National Park"
+
+[[cards]]
+text = "Lake Manyara"
+
+[[cards]]
+text = "Selous Game Reserve"
+
+[[cards]]
+text = "Ruaha National Park"
+
+[[cards]]
+text = "Gombe Stream"
+
+[[cards]]
+text = "Arusha"
+
+[[cards]]
+text = "Moshi"
+
+[[cards]]
+text = "Mwanza"
+
+[[cards]]
+text = "Lake Natron"
+
+[[cards]]
+text = "Ol Doinyo Lengai"
+
+[[cards]]
+text = "Bagamoyo"
+
+[[cards]]
+text = "Kilwa Kisiwani"
+
+[[cards]]
+text = "Julius Nyerere"
+
+[[cards]]
+text = "Swahili Language"
+
+[[cards]]
+text = "Mount Hanang"
+
+[[cards]]
+text = "Usambara Mountains"
+
+[[cards]]
+text = "Lake Eyasi"
+
+[[cards]]
+text = "Lake Nyasa"
+
+[[cards]]
+text = "Great Rift Valley"
+
+[[cards]]
+text = "Kizimkazi"
+
+[[cards]]
+text = "Mikumi National Park"
+
+[[cards]]
+text = "Mahale Mountains"
+
+[[cards]]
+text = "Kigoma"
+
+[[cards]]
+text = "Morogoro"
+
+[[cards]]
+text = "Tanga"
+
+[[cards]]
+text = "Iringa"
+
+[[cards]]
+text = "Mbeya"
+
+[[cards]]
+text = "Rufiji River"
+
+[[cards]]
+text = "Changuu Island"
+
+[[cards]]
+text = "Udzungwa Mountains"
+
+[[cards]]
+text = "Kitenge Cloth"
+
+[[cards]]
+text = "Ugali"
+
+[[cards]]
+text = "Tingatinga Art"
+
+[[cards]]
+text = "Olduvai Gorge"
+
+[[cards]]
+text = "Tree-Climbing Lions"
+
+[[cards]]
+text = "Saadani National Park"
+
+[[cards]]
+text = "Tanzanite"
+
+[[cards]]
+text = "Baobab Tree"
+
+[[cards]]
+text = "Katavi National Park"
+
+[[cards]]
+text = "Kanga"
+
+[[cards]]
+text = "Sukuma People"
+
+[[cards]]
+text = "Dhow Boat"
+
+[[cards]]
+text = "Kalambo Falls"
+
+[[cards]]
+text = "Uhuru Torch"
+
+[[cards]]
+text = "Askari Monument"
+
+[[cards]]
+text = "Jozani Forest"
+
+[[cards]]
+text = "Mkomazi National Park"
+
+[[cards]]
+text = "Rubondo Island"
+
+[[cards]]
+text = "Kitulo National Park"
+
+[[cards]]
+text = "Uluguru Mountains"
+
+[[cards]]
+text = "Mara River"
+
+[[cards]]
+text = "Kariakoo Market"
+
+[[cards]]
+text = "Makonde Carving"
+
+[[cards]]
+text = "Stoney Tangawizi"
+
+[[cards]]
+text = "Nyama Choma"
+
+[[cards]]
+text = "Pilau"
+
+[[cards]]
+text = "Hadzabe Tribe"
+
+[[cards]]
+text = "Chief Mkwawa"
+
+[[cards]]
+text = "Amboni Caves"
+
+[[cards]]
+text = "Tabora"
+
+[[cards]]
+text = "Shinyanga"
+
+[[cards]]
+text = "Singida"
+
+[[cards]]
+text = "Musoma"
+
+[[cards]]
+text = "Bukoba"
+
+[[cards]]
+text = "Songea"
+
+[[cards]]
+text = "Sumbawanga"
+
+[[cards]]
+text = "Lindi"
+
+[[cards]]
+text = "Mtwara"
+
+[[cards]]
+text = "Kondoa Rock Art"
+
+[[cards]]
+text = "Pangani"
+
+[[cards]]
+text = "Lake Rukwa"
+
+[[cards]]
+text = "Ruvuma River"
+
+[[cards]]
+text = "Sanje Falls"
+
+[[cards]]
+text = "Chumbe Island"
+
+[[cards]]
+text = "Misali Island"
+
+[[cards]]
+text = "Kipengere Range"
+
+[[cards]]
+text = "Livingstone Mountains"
+
+[[cards]]
+text = "Red Colobus Monkey"
+
+[[cards]]
+text = "Chagga People"
+
+[[cards]]
+text = "Coconut Crab"
+
+[[cards]]
+text = "Wami River"
+
+[[cards]]
+text = "Babati"
+
+[[cards]]
+text = "Njombe"
+
+[[cards]]
+text = "Geita"
+
+[[cards]]
+text = "Kibaha"
+
+[[cards]]
+text = "Kahama"
+
+[[cards]]
+text = "Unguja"
+
+[[cards]]
+text = "House of Wonders"
+
+[[cards]]
+text = "Forodhani Gardens"
+
+[[cards]]
+text = "Kibo Peak"
+
+[[cards]]
+text = "Mawenzi Peak"
+
+[[cards]]
+text = "Empakaai Crater"
+
+[[cards]]
+text = "Olmoti Crater"
+
+[[cards]]
+text = "Rumanyika-Karagwe National Park"
+
+[[cards]]
+text = "Burigi-Chato National Park"
+
+[[cards]]
+text = "Ibanda-Kyerwa National Park"
+
+[[cards]]
+text = "Kaole Ruins"
+
+[[cards]]
+text = "Songo Mnara"
+
+[[cards]]
+text = "Tongoni Ruins"
+
+[[cards]]
+text = "Lake Chala"
+
+[[cards]]
+text = "Lake Jipe"
+
+[[cards]]
+text = "Lake Kitangiri"
+
+[[cards]]
+text = "Kilombero River"
+
+[[cards]]
+text = "Kagera River"
+
+[[cards]]
+text = "Malagarasi River"
+
+[[cards]]
+text = "Chips Mayai"
+
+[[cards]]
+text = "Maandazi"
+
+[[cards]]
+text = "Mshikaki"
+
+[[cards]]
+text = "Kashata"
+
+[[cards]]
+text = "Ndizi Kaanga"
+
+[[cards]]
+text = "Bongo Flava"
+
+[[cards]]
+text = "Taarab"
+
+[[cards]]
+text = "Singeli"
+
+[[cards]]
+text = "Kanzu"
+
+[[cards]]
+text = "Hehe People"
+
+[[cards]]
+text = "Gogo People"
+
+[[cards]]
+text = "Haya People"
+
+[[cards]]
+text = "Nyamwezi People"
+
+[[cards]]
+text = "Zaramo People"
+
+[[cards]]
+text = "Giant Tortoise"
+
+[[cards]]
+text = "African Wild Dog"
+
+[[cards]]
+text = "Sable Antelope"
+
+[[cards]]
+text = "Greater Kudu"
+
+[[cards]]
+text = "Amani Nature Reserve"
+
+[[cards]]
+text = "Lushoto"
+
+[[cards]]
+text = "Tukuyu"
+
+[[cards]]
+text = "Kigamboni"
+
+[[cards]]
+text = "Oyster Bay"
+
+[[cards]]
+text = "Selander Bridge"
+
+[[cards]]
+text = "Saba Saba Day"
+
+[[cards]]
+text = "Nane Nane Day"
+
+[[cards]]
+text = "Miombo Woodland"
+
+[[cards]]
+text = "Darajani Market"
+
+[[cards]]
+text = "Aders' Duiker"
+
+[[cards]]
+text = "Serval Cat"
+
+[[cards]]
+text = "African Civet"

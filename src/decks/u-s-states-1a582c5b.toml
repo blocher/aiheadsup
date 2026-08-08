@@ -1,0 +1,309 @@
+id = "deck_u-s-states_1a582c5b"
+revision = 1
+name = "U.S. States"
+category = "Geography"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be the 50 U.S. states and well-known related geography such as state capitals, major cities, nicknames, landmarks, and regions. Prefer real state names and clearly associated places. No invented states or fake nicknames."
+photo_file_name = "u-s-states-1a582c5b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Alabama"
+
+[[cards]]
+text = "Alaska"
+
+[[cards]]
+text = "Arizona"
+
+[[cards]]
+text = "Arkansas"
+
+[[cards]]
+text = "California"
+
+[[cards]]
+text = "Colorado"
+
+[[cards]]
+text = "Connecticut"
+
+[[cards]]
+text = "Delaware"
+
+[[cards]]
+text = "Florida"
+
+[[cards]]
+text = "Georgia"
+
+[[cards]]
+text = "Hawaii"
+
+[[cards]]
+text = "Idaho"
+
+[[cards]]
+text = "Illinois"
+
+[[cards]]
+text = "Indiana"
+
+[[cards]]
+text = "Iowa"
+
+[[cards]]
+text = "Kansas"
+
+[[cards]]
+text = "Kentucky"
+
+[[cards]]
+text = "Louisiana"
+
+[[cards]]
+text = "Maine"
+
+[[cards]]
+text = "Maryland"
+
+[[cards]]
+text = "Massachusetts"
+
+[[cards]]
+text = "Michigan"
+
+[[cards]]
+text = "Minnesota"
+
+[[cards]]
+text = "Mississippi"
+
+[[cards]]
+text = "Missouri"
+
+[[cards]]
+text = "Montana"
+
+[[cards]]
+text = "Nebraska"
+
+[[cards]]
+text = "Nevada"
+
+[[cards]]
+text = "New Hampshire"
+
+[[cards]]
+text = "New Jersey"
+
+[[cards]]
+text = "New Mexico"
+
+[[cards]]
+text = "New York"
+
+[[cards]]
+text = "North Carolina"
+
+[[cards]]
+text = "North Dakota"
+
+[[cards]]
+text = "Ohio"
+
+[[cards]]
+text = "Oklahoma"
+
+[[cards]]
+text = "Oregon"
+
+[[cards]]
+text = "Pennsylvania"
+
+[[cards]]
+text = "Rhode Island"
+
+[[cards]]
+text = "South Carolina"
+
+[[cards]]
+text = "South Dakota"
+
+[[cards]]
+text = "Tennessee"
+
+[[cards]]
+text = "Texas"
+
+[[cards]]
+text = "Utah"
+
+[[cards]]
+text = "Vermont"
+
+[[cards]]
+text = "Virginia"
+
+[[cards]]
+text = "Washington"
+
+[[cards]]
+text = "West Virginia"
+
+[[cards]]
+text = "Wisconsin"
+
+[[cards]]
+text = "Wyoming"
+
+[[cards]]
+text = "Grand Canyon"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Yellowstone"
+
+[[cards]]
+text = "Great Lakes"
+
+[[cards]]
+text = "Rocky Mountains"
+
+[[cards]]
+text = "Appalachian Mountains"
+
+[[cards]]
+text = "Niagara Falls"
+
+[[cards]]
+text = "Hollywood Sign"
+
+[[cards]]
+text = "Space Needle"
+
+[[cards]]
+text = "Death Valley"
+
+[[cards]]
+text = "The Everglades"
+
+[[cards]]
+text = "Times Square"
+
+[[cards]]
+text = "The Alamo"
+
+[[cards]]
+text = "Los Angeles"
+
+[[cards]]
+text = "Chicago"
+
+[[cards]]
+text = "Houston"
+
+[[cards]]
+text = "Miami"
+
+[[cards]]
+text = "Boston"
+
+[[cards]]
+text = "San Francisco"
+
+[[cards]]
+text = "Seattle"
+
+[[cards]]
+text = "Pittsburgh"
+
+[[cards]]
+text = "Atlanta"
+
+[[cards]]
+text = "New Orleans"
+
+[[cards]]
+text = "Nashville"
+
+[[cards]]
+text = "Denver"
+
+[[cards]]
+text = "Honolulu"
+
+[[cards]]
+text = "Philadelphia"
+
+[[cards]]
+text = "Phoenix"
+
+[[cards]]
+text = "Austin"
+
+[[cards]]
+text = "Dallas"
+
+[[cards]]
+text = "Detroit"
+
+[[cards]]
+text = "Portland"
+
+[[cards]]
+text = "Salt Lake City"
+
+[[cards]]
+text = "Orlando"
+
+[[cards]]
+text = "San Diego"
+
+[[cards]]
+text = "St. Louis"
+
+[[cards]]
+text = "Minneapolis"
+
+[[cards]]
+text = "Baltimore"
+
+[[cards]]
+text = "Anchorage"
+
+[[cards]]
+text = "Key West"
+
+[[cards]]
+text = "Lake Tahoe"
+
+[[cards]]
+text = "Alcatraz"
+
+[[cards]]
+text = "Yosemite"
+
+[[cards]]
+text = "Mount Rainier"
+
+[[cards]]
+text = "Redwood Forest"
+
+[[cards]]
+text = "Central Park"
+
+[[cards]]
+text = "Route 66"
+
+[[cards]]
+text = "French Quarter"

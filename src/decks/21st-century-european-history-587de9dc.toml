@@ -1,0 +1,504 @@
+id = "deck_21st-century-european-history_587de9dc"
+revision = 2
+name = "21st Century European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include broad 21st-century European themes: EU expansion, politics, migration, technology, culture, conflicts, and major figures and events from 2001 onward. Prefer real historical people, places, and events."
+photo_file_name = "21st-century-european-history-587de9dc-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Brexit"
+
+[[cards]]
+text = "Angela Merkel"
+
+[[cards]]
+text = "Volodymyr Zelenskyy"
+
+[[cards]]
+text = "The Euro"
+
+[[cards]]
+text = "Eurovision Song Contest"
+
+[[cards]]
+text = "Large Hadron Collider"
+
+[[cards]]
+text = "2012 London Olympics"
+
+[[cards]]
+text = "Notre-Dame Fire"
+
+[[cards]]
+text = "Greta Thunberg"
+
+[[cards]]
+text = "Queen Elizabeth II"
+
+[[cards]]
+text = "Emmanuel Macron"
+
+[[cards]]
+text = "Spotify"
+
+[[cards]]
+text = "Schengen Zone"
+
+[[cards]]
+text = "Pope Francis"
+
+[[cards]]
+text = "Svalbard Seed Vault"
+
+[[cards]]
+text = "Treaty of Lisbon"
+
+[[cards]]
+text = "European Green Deal"
+
+[[cards]]
+text = "Higgs Boson"
+
+[[cards]]
+text = "Tony Blair"
+
+[[cards]]
+text = "European Central Bank"
+
+[[cards]]
+text = "Boris Johnson"
+
+[[cards]]
+text = "King Charles III"
+
+[[cards]]
+text = "Ursula von der Leyen"
+
+[[cards]]
+text = "European Parliament"
+
+[[cards]]
+text = "Erasmus Programme"
+
+[[cards]]
+text = "Skype"
+
+[[cards]]
+text = "Minecraft"
+
+[[cards]]
+text = "Paris Climate Agreement"
+
+[[cards]]
+text = "2004 EU Expansion"
+
+[[cards]]
+text = "Pope Benedict XVI"
+
+[[cards]]
+text = "David Cameron"
+
+[[cards]]
+text = "The Shard"
+
+[[cards]]
+text = "Concorde Retirement"
+
+[[cards]]
+text = "2006 World Cup Germany"
+
+[[cards]]
+text = "Venice Flood Barrier"
+
+[[cards]]
+text = "European Space Agency"
+
+[[cards]]
+text = "Mario Draghi"
+
+[[cards]]
+text = "Silvio Berlusconi"
+
+[[cards]]
+text = "Eurozone Crisis"
+
+[[cards]]
+text = "2004 Athens Olympics"
+
+[[cards]]
+text = "Elbphilharmonie"
+
+[[cards]]
+text = "European Capital of Culture"
+
+[[cards]]
+text = "Nicolas Sarkozy"
+
+[[cards]]
+text = "CERN"
+
+[[cards]]
+text = "Queen's Diamond Jubilee"
+
+[[cards]]
+text = "European Migrant Crisis"
+
+[[cards]]
+text = "Euromaidan"
+
+[[cards]]
+text = "Russo-Ukrainian War"
+
+[[cards]]
+text = "Sanna Marin"
+
+[[cards]]
+text = "Olaf Scholz"
+
+[[cards]]
+text = "Theresa May"
+
+[[cards]]
+text = "Rishi Sunak"
+
+[[cards]]
+text = "Liz Truss"
+
+[[cards]]
+text = "Giorgia Meloni"
+
+[[cards]]
+text = "Donald Tusk"
+
+[[cards]]
+text = "Viktor Orbán"
+
+[[cards]]
+text = "Adele"
+
+[[cards]]
+text = "Daft Punk"
+
+[[cards]]
+text = "Banksy"
+
+[[cards]]
+text = "Roger Federer"
+
+[[cards]]
+text = "Rafael Nadal"
+
+[[cards]]
+text = "Novak Djokovic"
+
+[[cards]]
+text = "Icelandic Volcano Eruption"
+
+[[cards]]
+text = "Gotthard Base Tunnel"
+
+[[cards]]
+text = "Airbus A380"
+
+[[cards]]
+text = "The Gherkin"
+
+[[cards]]
+text = "Acropolis Museum"
+
+[[cards]]
+text = "Eden Project"
+
+[[cards]]
+text = "GDPR"
+
+[[cards]]
+text = "COVID-19 Lockdowns"
+
+[[cards]]
+text = "Swedish NATO Accession"
+
+[[cards]]
+text = "Finland NATO Accession"
+
+[[cards]]
+text = "E-Estonia"
+
+[[cards]]
+text = "Galileo Satellite System"
+
+[[cards]]
+text = "Giga Berlin"
+
+[[cards]]
+text = "King Frederik X"
+
+[[cards]]
+text = "Estonian E-Residency"
+
+[[cards]]
+text = "Tomorrowland Festival"
+
+[[cards]]
+text = "Harry Potter Movies"
+
+[[cards]]
+text = "The Crown"
+
+[[cards]]
+text = "Elizabeth Line"
+
+[[cards]]
+text = "Croatia EU Accession"
+
+[[cards]]
+text = "EU Nobel Peace Prize"
+
+[[cards]]
+text = "Nord Stream Pipeline"
+
+[[cards]]
+text = "Yellow Vests Movement"
+
+[[cards]]
+text = "François Hollande"
+
+[[cards]]
+text = "Gordon Brown"
+
+[[cards]]
+text = "Ryanair"
+
+[[cards]]
+text = "EasyJet"
+
+[[cards]]
+text = "Web Summit Lisbon"
+
+[[cards]]
+text = "Glasgow Climate Pact"
+
+[[cards]]
+text = "Venice Cruise Ship Ban"
+
+[[cards]]
+text = "Christine Lagarde"
+
+[[cards]]
+text = "Charles Michel"
+
+[[cards]]
+text = "Catalan Independence Referendum"
+
+[[cards]]
+text = "Scottish Independence Referendum"
+
+[[cards]]
+text = "Kosovo Independence"
+
+[[cards]]
+text = "Montenegro Independence"
+
+[[cards]]
+text = "North Macedonia"
+
+[[cards]]
+text = "2024 Paris Olympics"
+
+[[cards]]
+text = "2018 Russia World Cup"
+
+[[cards]]
+text = "Euro 2020"
+
+[[cards]]
+text = "Cristiano Ronaldo"
+
+[[cards]]
+text = "Lewis Hamilton"
+
+[[cards]]
+text = "Max Verstappen"
+
+[[cards]]
+text = "Zlatan Ibrahimović"
+
+[[cards]]
+text = "Erling Haaland"
+
+[[cards]]
+text = "Kylian Mbappé"
+
+[[cards]]
+text = "Andy Murray"
+
+[[cards]]
+text = "Ed Sheeran"
+
+[[cards]]
+text = "Dua Lipa"
+
+[[cards]]
+text = "Stromae"
+
+[[cards]]
+text = "Candy Crush Saga"
+
+[[cards]]
+text = "Angry Birds"
+
+[[cards]]
+text = "Rosetta Space Probe"
+
+[[cards]]
+text = "Philae Comet Lander"
+
+[[cards]]
+text = "Ariane 6"
+
+[[cards]]
+text = "Berlin Brandenburg Airport"
+
+[[cards]]
+text = "Lakhta Center"
+
+[[cards]]
+text = "Walkie Talkie Building"
+
+[[cards]]
+text = "Humboldt Forum"
+
+[[cards]]
+text = "Fondation Louis Vuitton"
+
+[[cards]]
+text = "King Felipe VI"
+
+[[cards]]
+text = "King Willem-Alexander"
+
+[[cards]]
+text = "King Philippe of Belgium"
+
+[[cards]]
+text = "Mark Rutte"
+
+[[cards]]
+text = "Leo Varadkar"
+
+[[cards]]
+text = "Pedro Sánchez"
+
+[[cards]]
+text = "Kaja Kallas"
+
+[[cards]]
+text = "Alexis Tsipras"
+
+[[cards]]
+text = "Yanis Varoufakis"
+
+[[cards]]
+text = "Jean-Claude Juncker"
+
+[[cards]]
+text = "José Manuel Barroso"
+
+[[cards]]
+text = "Herman Van Rompuy"
+
+[[cards]]
+text = "BioNTech"
+
+[[cards]]
+text = "Oxford-AstraZeneca"
+
+[[cards]]
+text = "Klarna"
+
+[[cards]]
+text = "Revolut"
+
+[[cards]]
+text = "Rimac Automobili"
+
+[[cards]]
+text = "ASML"
+
+[[cards]]
+text = "Extinction Rebellion"
+
+[[cards]]
+text = "Fridays for Future"
+
+[[cards]]
+text = "Orange Revolution"
+
+[[cards]]
+text = "Rose Revolution"
+
+[[cards]]
+text = "Keir Starmer"
+
+[[cards]]
+text = "Prince Harry"
+
+[[cards]]
+text = "Michel Barnier"
+
+[[cards]]
+text = "Jacques Chirac"
+
+[[cards]]
+text = "London Congestion Charge"
+
+[[cards]]
+text = "Queen Margrethe II"
+
+[[cards]]
+text = "Annexation of Crimea"
+
+[[cards]]
+text = "Abba Voyage"
+
+[[cards]]
+text = "Clash of Clans"
+
+[[cards]]
+text = "SoundCloud"
+
+[[cards]]
+text = "Grand Theft Auto V"
+
+[[cards]]
+text = "Just Stop Oil"
+
+[[cards]]
+text = "Five Star Movement"
+
+[[cards]]
+text = "Jens Stoltenberg"
+
+[[cards]]
+text = "Michael D. Higgins"
+
+[[cards]]
+text = "Millau Viaduct"
+
+[[cards]]
+text = "Wizz Air"
+
+[[cards]]
+text = "Sochi Winter Olympics"
+
+[[cards]]
+text = "Icelandic Financial Crisis"
+
+[[cards]]
+text = "Stormzy"
+
+[[cards]]
+text = "European Super League"

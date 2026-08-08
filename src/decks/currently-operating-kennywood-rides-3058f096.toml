@@ -1,0 +1,147 @@
+id = "deck_currently-operating-kennywood-rides_3058f096"
+revision = 2
+name = "Currently Operating Kennywood Rides"
+category = "Western PA Themeparks"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include ONLY rides and attractions currently operating at Kennywood. Include roller coasters, thrill rides, family rides, water rides, and kiddie rides that are open now. Do NOT include retired, removed, or permanently closed rides."
+photo_file_name = "currently-operating-kennywood-rides-3058f096-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Phantom's Revenge"
+
+[[cards]]
+text = "Thunderbolt"
+
+[[cards]]
+text = "Jack Rabbit"
+
+[[cards]]
+text = "Racer"
+
+[[cards]]
+text = "Sky Rocket"
+
+[[cards]]
+text = "Steel Curtain"
+
+[[cards]]
+text = "Exterminator"
+
+[[cards]]
+text = "Spinvasion"
+
+[[cards]]
+text = "Noah's Ark"
+
+[[cards]]
+text = "Ghostwood Estate"
+
+[[cards]]
+text = "Kangaroo"
+
+[[cards]]
+text = "Auto Race"
+
+[[cards]]
+text = "The Whip"
+
+[[cards]]
+text = "Turtle"
+
+[[cards]]
+text = "Grand Carousel"
+
+[[cards]]
+text = "Aero 360"
+
+[[cards]]
+text = "Black Widow"
+
+[[cards]]
+text = "Swing Shot"
+
+[[cards]]
+text = "Cosmic Chaos"
+
+[[cards]]
+text = "Musik Express"
+
+[[cards]]
+text = "Wave Swinger"
+
+[[cards]]
+text = "Pirate"
+
+[[cards]]
+text = "Gran Prix"
+
+[[cards]]
+text = "Skycoaster"
+
+[[cards]]
+text = "Raging Rapids"
+
+[[cards]]
+text = "Pittsburgh Plunge"
+
+[[cards]]
+text = "Lil' Phantom"
+
+[[cards]]
+text = "Crazy Trolley"
+
+[[cards]]
+text = "SS Kenny"
+
+[[cards]]
+text = "Whippersnapper"
+
+[[cards]]
+text = "Orby's Space Chase"
+
+[[cards]]
+text = "Wacky Wheel"
+
+[[cards]]
+text = "Red Baron"
+
+[[cards]]
+text = "Steel City Choppers"
+
+[[cards]]
+text = "Elephant Parade"
+
+[[cards]]
+text = "Kenny's Karousel"
+
+[[cards]]
+text = "Dizzy Dynamo"
+
+[[cards]]
+text = "Flying Clipper"
+
+[[cards]]
+text = "Kiddie Whip"
+
+[[cards]]
+text = "Kiddie Cadillac"
+
+[[cards]]
+text = "Journey with Thomas"
+
+[[cards]]
+text = "Cranky's Drop Tower"
+
+[[cards]]
+text = "Harold's Helicopter Tour"
+
+[[cards]]
+text = "Flynn's Fire Fight"
+
+[[cards]]
+text = "Kennywood Railroad"
+
+[[cards]]
+text = "The Old Mill"

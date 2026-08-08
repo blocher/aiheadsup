@@ -1,0 +1,717 @@
+id = "deck_episcopalianism-anglicanism_a372920a"
+revision = 2
+name = "Episcopalianism & Anglicanism"
+category = "Religion and Mythology"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Anglican and Episcopal theology, Book of Common Prayer, liturgy, sacraments, church governance, historic figures, cathedrals, vestments, feast days, provinces of the Anglican Communion, and recognizable Episcopal and Anglican practices. Prefer real Anglican and Episcopal terms and history."
+photo_file_name = "episcopalianism-anglicanism-a372920a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Book of Common Prayer"
+
+[[cards]]
+text = "Archbishop of Canterbury"
+
+[[cards]]
+text = "Presiding Bishop"
+
+[[cards]]
+text = "Washington National Cathedral"
+
+[[cards]]
+text = "Canterbury Cathedral"
+
+[[cards]]
+text = "Westminster Abbey"
+
+[[cards]]
+text = "Thomas Cranmer"
+
+[[cards]]
+text = "King Henry VIII"
+
+[[cards]]
+text = "Queen Elizabeth I"
+
+[[cards]]
+text = "Samuel Seabury"
+
+[[cards]]
+text = "Richard Hooker"
+
+[[cards]]
+text = "C.S. Lewis"
+
+[[cards]]
+text = "Via Media"
+
+[[cards]]
+text = "Coffee Hour"
+
+[[cards]]
+text = "The Episcopal Shield"
+
+[[cards]]
+text = "Baptismal Covenant"
+
+[[cards]]
+text = "Holy Eucharist"
+
+[[cards]]
+text = "The Peace"
+
+[[cards]]
+text = "Morning Prayer"
+
+[[cards]]
+text = "Evening Prayer"
+
+[[cards]]
+text = "Vestry"
+
+[[cards]]
+text = "Senior Warden"
+
+[[cards]]
+text = "Junior Warden"
+
+[[cards]]
+text = "Rector"
+
+[[cards]]
+text = "Deacon"
+
+[[cards]]
+text = "Priest"
+
+[[cards]]
+text = "Bishop"
+
+[[cards]]
+text = "Chasuble"
+
+[[cards]]
+text = "Surplice"
+
+[[cards]]
+text = "Cassock"
+
+[[cards]]
+text = "Mitre"
+
+[[cards]]
+text = "Crozier"
+
+[[cards]]
+text = "Thurible"
+
+[[cards]]
+text = "Chalice"
+
+[[cards]]
+text = "Baptismal Font"
+
+[[cards]]
+text = "General Convention"
+
+[[cards]]
+text = "Lambeth Conference"
+
+[[cards]]
+text = "Anglican Communion"
+
+[[cards]]
+text = "Diocese"
+
+[[cards]]
+text = "Parish"
+
+[[cards]]
+text = "Episcopalian"
+
+[[cards]]
+text = "Rite Two"
+
+[[cards]]
+text = "Ash Wednesday"
+
+[[cards]]
+text = "Advent Wreath"
+
+[[cards]]
+text = "Epiphany"
+
+[[cards]]
+text = "Liturgy of the Table"
+
+[[cards]]
+text = "Book of Occasional Services"
+
+[[cards]]
+text = "The Hymnal 1982"
+
+[[cards]]
+text = "Stole"
+
+[[cards]]
+text = "Sanctus Bell"
+
+[[cards]]
+text = "Rite One"
+
+[[cards]]
+text = "Compline"
+
+[[cards]]
+text = "Altar Guild"
+
+[[cards]]
+text = "Acolyte"
+
+[[cards]]
+text = "Verger"
+
+[[cards]]
+text = "Sexton"
+
+[[cards]]
+text = "Curate"
+
+[[cards]]
+text = "Canon"
+
+[[cards]]
+text = "Dean"
+
+[[cards]]
+text = "Vicar"
+
+[[cards]]
+text = "Alb"
+
+[[cards]]
+text = "Paten"
+
+[[cards]]
+text = "Nave"
+
+[[cards]]
+text = "Sanctuary"
+
+[[cards]]
+text = "Chancel"
+
+[[cards]]
+text = "Sacristy"
+
+[[cards]]
+text = "Pulpit"
+
+[[cards]]
+text = "Lectern"
+
+[[cards]]
+text = "Credence Table"
+
+[[cards]]
+text = "Cruet"
+
+[[cards]]
+text = "Paschal Candle"
+
+[[cards]]
+text = "Choral Evensong"
+
+[[cards]]
+text = "Thirty-Nine Articles"
+
+[[cards]]
+text = "Lambeth Quadrilateral"
+
+[[cards]]
+text = "High Church"
+
+[[cards]]
+text = "Low Church"
+
+[[cards]]
+text = "Broad Church"
+
+[[cards]]
+text = "Anglo-Catholic"
+
+[[cards]]
+text = "John Wesley"
+
+[[cards]]
+text = "Oxford Movement"
+
+[[cards]]
+text = "St. Augustine of Canterbury"
+
+[[cards]]
+text = "Church of England"
+
+[[cards]]
+text = "St. Paul's Cathedral"
+
+[[cards]]
+text = "York Minster"
+
+[[cards]]
+text = "Shrove Tuesday"
+
+[[cards]]
+text = "Maundy Thursday"
+
+[[cards]]
+text = "Good Friday"
+
+[[cards]]
+text = "Trinity Sunday"
+
+[[cards]]
+text = "Michaelmas"
+
+[[cards]]
+text = "All Saints' Day"
+
+[[cards]]
+text = "Pentecost"
+
+[[cards]]
+text = "Confirmation"
+
+[[cards]]
+text = "Holy Matrimony"
+
+[[cards]]
+text = "Holy Orders"
+
+[[cards]]
+text = "Unction"
+
+[[cards]]
+text = "Nicene Creed"
+
+[[cards]]
+text = "Apostles' Creed"
+
+[[cards]]
+text = "Daily Office"
+
+[[cards]]
+text = "The Collect"
+
+[[cards]]
+text = "Rood Screen"
+
+[[cards]]
+text = "The Great Litany"
+
+[[cards]]
+text = "Desmond Tutu"
+
+[[cards]]
+text = "Trinity Church Wall Street"
+
+[[cards]]
+text = "Grace Cathedral"
+
+[[cards]]
+text = "St. George's Chapel"
+
+[[cards]]
+text = "Compass Rose"
+
+[[cards]]
+text = "The Catechism"
+
+[[cards]]
+text = "Eucharistic Prayer"
+
+[[cards]]
+text = "Liturgy of the Word"
+
+[[cards]]
+text = "The Great Thanksgiving"
+
+[[cards]]
+text = "Prayer of Humble Access"
+
+[[cards]]
+text = "The Comfortable Words"
+
+[[cards]]
+text = "Magnificat"
+
+[[cards]]
+text = "Nunc Dimittis"
+
+[[cards]]
+text = "The Gloria"
+
+[[cards]]
+text = "The Doxology"
+
+[[cards]]
+text = "General Confession"
+
+[[cards]]
+text = "Absolution"
+
+[[cards]]
+text = "Sign of the Cross"
+
+[[cards]]
+text = "Genuflection"
+
+[[cards]]
+text = "Processional Cross"
+
+[[cards]]
+text = "Crucifer"
+
+[[cards]]
+text = "Thurifer"
+
+[[cards]]
+text = "Torchbearer"
+
+[[cards]]
+text = "Cope"
+
+[[cards]]
+text = "Cincture"
+
+[[cards]]
+text = "Biretta"
+
+[[cards]]
+text = "Purificator"
+
+[[cards]]
+text = "Corporal"
+
+[[cards]]
+text = "Funeral Pall"
+
+[[cards]]
+text = "Ciborium"
+
+[[cards]]
+text = "Monstrance"
+
+[[cards]]
+text = "Aspergillum"
+
+[[cards]]
+text = "Fair Linen"
+
+[[cards]]
+text = "Gospel Book"
+
+[[cards]]
+text = "Mothering Sunday"
+
+[[cards]]
+text = "Christingle"
+
+[[cards]]
+text = "John Donne"
+
+[[cards]]
+text = "George Herbert"
+
+[[cards]]
+text = "William Laud"
+
+[[cards]]
+text = "John Keble"
+
+[[cards]]
+text = "Postulant"
+
+[[cards]]
+text = "The Episcopal Church"
+
+[[cards]]
+text = "St. George's Day"
+
+[[cards]]
+text = "Three-Legged Stool"
+
+[[cards]]
+text = "Candlemas"
+
+[[cards]]
+text = "Blessing of the Animals"
+
+[[cards]]
+text = "United Thank Offering"
+
+[[cards]]
+text = "Daughters of the King"
+
+[[cards]]
+text = "Real Presence"
+
+[[cards]]
+text = "The Lectionary"
+
+[[cards]]
+text = "Rubric"
+
+[[cards]]
+text = "Reredos"
+
+[[cards]]
+text = "Lavabo Bowl"
+
+[[cards]]
+text = "House of Deputies"
+
+[[cards]]
+text = "Tippet"
+
+[[cards]]
+text = "Chimere"
+
+[[cards]]
+text = "Every Member Canvass"
+
+[[cards]]
+text = "Pledge Card"
+
+[[cards]]
+text = "Aumbry"
+
+[[cards]]
+text = "Sedilia"
+
+[[cards]]
+text = "Rowan Williams"
+
+[[cards]]
+text = "N. T. Wright"
+
+[[cards]]
+text = "Evelyn Underhill"
+
+[[cards]]
+text = "Christina Rossetti"
+
+[[cards]]
+text = "Lancelot Andrewes"
+
+[[cards]]
+text = "John Henry Newman"
+
+[[cards]]
+text = "Sarum Rite"
+
+[[cards]]
+text = "Instruments of Communion"
+
+[[cards]]
+text = "Primates' Meeting"
+
+[[cards]]
+text = "Gafcon"
+
+[[cards]]
+text = "Sewanee"
+
+[[cards]]
+text = "Nashotah House"
+
+[[cards]]
+text = "Forward Day by Day"
+
+[[cards]]
+text = "Common Worship"
+
+[[cards]]
+text = "Burse"
+
+[[cards]]
+text = "Antependium"
+
+[[cards]]
+text = "Piscina"
+
+[[cards]]
+text = "Lychgate"
+
+[[cards]]
+text = "Garth"
+
+[[cards]]
+text = "Chapter House"
+
+[[cards]]
+text = "Lady Chapel"
+
+[[cards]]
+text = "Quiet Day"
+
+[[cards]]
+text = "Undercroft"
+
+[[cards]]
+text = "Ordinand"
+
+[[cards]]
+text = "Ember Days"
+
+[[cards]]
+text = "The Anglican Rosary"
+
+[[cards]]
+text = "The Altar Rail"
+
+[[cards]]
+text = "Episcopal Youth Event"
+
+[[cards]]
+text = "Episcopal Relief and Development"
+
+[[cards]]
+text = "Lambeth Palace"
+
+[[cards]]
+text = "Florence Li Tim-Oi"
+
+[[cards]]
+text = "Absalom Jones"
+
+[[cards]]
+text = "The King James Bible"
+
+[[cards]]
+text = "Flower Guild"
+
+[[cards]]
+text = "Boat Bearer"
+
+[[cards]]
+text = "T. S. Eliot"
+
+[[cards]]
+text = "Coventry Cathedral"
+
+[[cards]]
+text = "Holy Saturday"
+
+[[cards]]
+text = "Reconciliation of a Penitent"
+
+[[cards]]
+text = "Canterbury Cross"
+
+[[cards]]
+text = "Standing Committee"
+
+[[cards]]
+text = "Anglican Consultative Council"
+
+[[cards]]
+text = "Executive Council"
+
+[[cards]]
+text = "Choirmaster"
+
+[[cards]]
+text = "Season of Lent"
+
+[[cards]]
+text = "Rogation Days"
+
+[[cards]]
+text = "Tractarianism"
+
+[[cards]]
+text = "Rochet"
+
+[[cards]]
+text = "Sanctuary Lamp"
+
+[[cards]]
+text = "English Hymnal"
+
+[[cards]]
+text = "Ralph Vaughan Williams"
+
+[[cards]]
+text = "Charles Wesley"
+
+[[cards]]
+text = "Prie-dieu"
+
+[[cards]]
+text = "Gospel Procession"
+
+[[cards]]
+text = "Litany of Penitence"
+
+[[cards]]
+text = "Liturgical Colors"
+
+[[cards]]
+text = "Rose Vestments"
+
+[[cards]]
+text = "Catechumen"
+
+[[cards]]
+text = "Seminarian"
+
+[[cards]]
+text = "Cycle of Prayer"
+
+[[cards]]
+text = "Ecumenical Dialogue"
+
+[[cards]]
+text = "Lord's Supper"
+
+[[cards]]
+text = "Virginia Theological Seminary"
+
+[[cards]]
+text = "General Theological Seminary"
+
+[[cards]]
+text = "Intinction"
+
+[[cards]]
+text = "Sacramental Bread"
+
+[[cards]]
+text = "Lay Eucharistic Minister"
+
+[[cards]]
+text = "Intercessory Prayer"
+
+[[cards]]
+text = "Bidding Prayer"
+
+[[cards]]
+text = "St. George's Cross"
+
+[[cards]]
+text = "Canterbury Cap"
+
+[[cards]]
+text = "Ritualism"
+
+[[cards]]
+text = "Enmegahbowh"
+
+[[cards]]
+text = "William White"
+
+[[cards]]
+text = "Church Pension Fund"

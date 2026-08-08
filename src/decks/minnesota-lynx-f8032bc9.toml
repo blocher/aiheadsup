@@ -1,0 +1,189 @@
+id = "deck_minnesota-lynx_f8032bc9"
+revision = 2
+name = "Minnesota Lynx"
+category = "Minnesota Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Lynx history, Target Center, uniforms, famous current and past players, WNBA championship moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Minnesota Lynx facts."
+photo_file_name = "minnesota-lynx-f8032bc9-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Target Center"
+
+[[cards]]
+text = "Prowl the Mascot"
+
+[[cards]]
+text = "Maya Moore"
+
+[[cards]]
+text = "Cheryl Reeve"
+
+[[cards]]
+text = "Seimone Augustus"
+
+[[cards]]
+text = "Sylvia Fowles"
+
+[[cards]]
+text = "Lindsay Whalen"
+
+[[cards]]
+text = "Rebekkah Brunson"
+
+[[cards]]
+text = "Napheesa Collier"
+
+[[cards]]
+text = "Four WNBA Titles"
+
+[[cards]]
+text = "Aurora Green"
+
+[[cards]]
+text = "Midnight Blue"
+
+[[cards]]
+text = "Los Angeles Sparks"
+
+[[cards]]
+text = "WNBA Finals MVP"
+
+[[cards]]
+text = "Commissioner's Cup"
+
+[[cards]]
+text = "The Whalen Spin"
+
+[[cards]]
+text = "Championship Parade"
+
+[[cards]]
+text = "Inaugural 1999 Season"
+
+[[cards]]
+text = "Ring Ceremony"
+
+[[cards]]
+text = "Rookie of the Year"
+
+[[cards]]
+text = "Defensive Player of Year"
+
+[[cards]]
+text = "Phoenix Mercury"
+
+[[cards]]
+text = "Seattle Storm"
+
+[[cards]]
+text = "Coach of the Year"
+
+[[cards]]
+text = "Lynx Faithful"
+
+[[cards]]
+text = "Glen Taylor"
+
+[[cards]]
+text = "Katie Smith"
+
+[[cards]]
+text = "Hall of Fame"
+
+[[cards]]
+text = "USA Olympic Team"
+
+[[cards]]
+text = "Championship Banner"
+
+[[cards]]
+text = "White House Visit"
+
+[[cards]]
+text = "WNBA Draft"
+
+[[cards]]
+text = "Marney Gellner"
+
+[[cards]]
+text = "Lea B. Olsen"
+
+[[cards]]
+text = "Mayo Clinic Square"
+
+[[cards]]
+text = "Blue and Silver"
+
+[[cards]]
+text = "Hunter Green"
+
+[[cards]]
+text = "The Lynx Logo"
+
+[[cards]]
+text = "Roar With Us"
+
+[[cards]]
+text = "Western Conference Champions"
+
+[[cards]]
+text = "Playoff Whiteout"
+
+[[cards]]
+text = "Minnesota Timberwolves"
+
+[[cards]]
+text = "New York Liberty"
+
+[[cards]]
+text = "Atlanta Dream"
+
+[[cards]]
+text = "Pride Night"
+
+[[cards]]
+text = "Inspiring Women Night"
+
+[[cards]]
+text = "Jersey Retirement"
+
+[[cards]]
+text = "Number Twenty Three"
+
+[[cards]]
+text = "Number Thirty Three"
+
+[[cards]]
+text = "Number Thirty Four"
+
+[[cards]]
+text = "Lynx Drumline"
+
+[[cards]]
+text = "Lynx Dance Team"
+
+[[cards]]
+text = "Gold Medalist"
+
+[[cards]]
+text = "All-WNBA First Team"
+
+[[cards]]
+text = "Jim Petersen"
+
+[[cards]]
+text = "Rebel Edition Jersey"
+
+[[cards]]
+text = "Explorer Edition Jersey"
+
+[[cards]]
+text = "Heroine Edition Jersey"
+
+[[cards]]
+text = "Odd Year Dynasty"
+
+[[cards]]
+text = "Game Three Buzzer Beater"

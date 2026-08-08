@@ -1,0 +1,165 @@
+id = "deck_chicago-sky_88df68ed"
+revision = 2
+name = "Chicago Sky"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Chicago Sky history, Wintrust Arena, uniforms, famous current and past players, WNBA championship moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Chicago Sky facts."
+photo_file_name = "chicago-sky-88df68ed-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Wintrust Arena"
+
+[[cards]]
+text = "Sky Guy"
+
+[[cards]]
+text = "Skytown"
+
+[[cards]]
+text = "Candace Parker"
+
+[[cards]]
+text = "2021 WNBA Championship"
+
+[[cards]]
+text = "Angel Reese"
+
+[[cards]]
+text = "Courtney Vandersloot"
+
+[[cards]]
+text = "Allie Quigley"
+
+[[cards]]
+text = "Kahleah Copper"
+
+[[cards]]
+text = "Teresa Weatherspoon"
+
+[[cards]]
+text = "Rebel Edition Jersey"
+
+[[cards]]
+text = "Heroine Edition Jersey"
+
+[[cards]]
+text = "Explorer Edition Jersey"
+
+[[cards]]
+text = "Sylvia Fowles"
+
+[[cards]]
+text = "Elena Delle Donne"
+
+[[cards]]
+text = "Kamilla Cardoso"
+
+[[cards]]
+text = "Chennedy Carter"
+
+[[cards]]
+text = "Allstate Arena"
+
+[[cards]]
+text = "UIC Pavilion"
+
+[[cards]]
+text = "Sky Blue and Gold"
+
+[[cards]]
+text = "Championship Parade"
+
+[[cards]]
+text = "James Wade"
+
+[[cards]]
+text = "WNBA Finals MVP"
+
+[[cards]]
+text = "Commissioner's Cup"
+
+[[cards]]
+text = "Sky Cares"
+
+[[cards]]
+text = "The Sloot Troop"
+
+[[cards]]
+text = "Three-Point Shootout"
+
+[[cards]]
+text = "Phoenix Mercury Rivalry"
+
+[[cards]]
+text = "Indiana Fever Rivalry"
+
+[[cards]]
+text = "Sky High"
+
+[[cards]]
+text = "Double-Double"
+
+[[cards]]
+text = "WNBA All-Star Game"
+
+[[cards]]
+text = "McCormick Place"
+
+[[cards]]
+text = "South Loop"
+
+[[cards]]
+text = "Eastern Conference"
+
+[[cards]]
+text = "Swin Cash"
+
+[[cards]]
+text = "Diamond DeShields"
+
+[[cards]]
+text = "Epiphanny Prince"
+
+[[cards]]
+text = "Pokey Chatman"
+
+[[cards]]
+text = "Sky Drumline"
+
+[[cards]]
+text = "Sachs Recreation Center"
+
+[[cards]]
+text = "Dave Cowens"
+
+[[cards]]
+text = "Tyler Marsh"
+
+[[cards]]
+text = "Expansion Draft"
+
+[[cards]]
+text = "Sky Patrol"
+
+[[cards]]
+text = "WNBA Finals"
+
+[[cards]]
+text = "Tunnel Fits"
+
+[[cards]]
+text = "Michael Alter"
+
+[[cards]]
+text = "Pinstripe Uniform"
+
+[[cards]]
+text = "WNBA Playoffs"
+
+[[cards]]
+text = "Skyline Logo"
+
+[[cards]]
+text = "WNBA MVP"

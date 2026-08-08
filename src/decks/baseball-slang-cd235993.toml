@@ -1,0 +1,489 @@
+id = "deck_baseball-slang_cd235993"
+revision = 2
+name = "Baseball Slang"
+category = "Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be baseball slang, nicknames for pitches and plays, colorful announcer phrases, and informal baseball jargon. Do NOT include basic positions, standard equipment, formal rules terms, or famous player names. Do NOT duplicate any card from the general Baseball deck."
+photo_file_name = "baseball-slang-cd235993-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Frozen Rope"
+
+[[cards]]
+text = "Dinger"
+
+[[cards]]
+text = "Eephus Pitch"
+
+[[cards]]
+text = "Hot Corner"
+
+[[cards]]
+text = "Tools of Ignorance"
+
+[[cards]]
+text = "Texas Leaguer"
+
+[[cards]]
+text = "Worm Burner"
+
+[[cards]]
+text = "Meatball"
+
+[[cards]]
+text = "High Cheese"
+
+[[cards]]
+text = "Wheelhouse"
+
+[[cards]]
+text = "Rake"
+
+[[cards]]
+text = "Mendoza Line"
+
+[[cards]]
+text = "Uncle Charlie"
+
+[[cards]]
+text = "Heater"
+
+[[cards]]
+text = "Cup of Coffee"
+
+[[cards]]
+text = "Crooked Number"
+
+[[cards]]
+text = "Circus Catch"
+
+[[cards]]
+text = "Web Gem"
+
+[[cards]]
+text = "Junkballer"
+
+[[cards]]
+text = "Riding the Pine"
+
+[[cards]]
+text = "Bleacher Bums"
+
+[[cards]]
+text = "Flash the Leather"
+
+[[cards]]
+text = "Baltimore Chop"
+
+[[cards]]
+text = "Tape Measure Blast"
+
+[[cards]]
+text = "Gopher Ball"
+
+[[cards]]
+text = "In the Hole"
+
+[[cards]]
+text = "Submariner"
+
+[[cards]]
+text = "Bush League"
+
+[[cards]]
+text = "Dying Quail"
+
+[[cards]]
+text = "Paint the Black"
+
+[[cards]]
+text = "Spitter"
+
+[[cards]]
+text = "Moonshot"
+
+[[cards]]
+text = "Tater"
+
+[[cards]]
+text = "Big Fly"
+
+[[cards]]
+text = "Cellar Dweller"
+
+[[cards]]
+text = "Rubber Arm"
+
+[[cards]]
+text = "Lollipop"
+
+[[cards]]
+text = "Screamer"
+
+[[cards]]
+text = "Duster"
+
+[[cards]]
+text = "Keystone Combo"
+
+[[cards]]
+text = "Yakker"
+
+[[cards]]
+text = "Banjo Hitter"
+
+[[cards]]
+text = "Fireman"
+
+[[cards]]
+text = "Ribeye Steaks"
+
+[[cards]]
+text = "Table Setter"
+
+[[cards]]
+text = "Duck Snort"
+
+[[cards]]
+text = "The Show"
+
+[[cards]]
+text = "Grand Salami"
+
+[[cards]]
+text = "Oppo Taco"
+
+[[cards]]
+text = "Ducks on the Pond"
+
+[[cards]]
+text = "Rally Cap"
+
+[[cards]]
+text = "Pull the String"
+
+[[cards]]
+text = "Snowcone"
+
+[[cards]]
+text = "Twin Bill"
+
+[[cards]]
+text = "Throwing Smoke"
+
+[[cards]]
+text = "Bender"
+
+[[cards]]
+text = "Cheddar"
+
+[[cards]]
+text = "Pickle"
+
+[[cards]]
+text = "Tootblan"
+
+[[cards]]
+text = "Oppo"
+
+[[cards]]
+text = "Going Yard"
+
+[[cards]]
+text = "Two-Bagger"
+
+[[cards]]
+text = "Three-Bagger"
+
+[[cards]]
+text = "Base Knock"
+
+[[cards]]
+text = "Bang-Bang Play"
+
+[[cards]]
+text = "Yer Out"
+
+[[cards]]
+text = "Ring Him Up"
+
+[[cards]]
+text = "Yellow Hammer"
+
+[[cards]]
+text = "The Carpet"
+
+[[cards]]
+text = "Cheap Seats"
+
+[[cards]]
+text = "Rhubarb"
+
+[[cards]]
+text = "Skipper"
+
+[[cards]]
+text = "Blue"
+
+[[cards]]
+text = "Cowhide"
+
+[[cards]]
+text = "Apple"
+
+[[cards]]
+text = "Sweeper"
+
+[[cards]]
+text = "Cement Mixer"
+
+[[cards]]
+text = "Beanball"
+
+[[cards]]
+text = "Brushback"
+
+[[cards]]
+text = "Crafty Lefty"
+
+[[cards]]
+text = "Flame Thrower"
+
+[[cards]]
+text = "Tarp Slide"
+
+[[cards]]
+text = "Fall Classic"
+
+[[cards]]
+text = "Boys of Summer"
+
+[[cards]]
+text = "Midsummer Classic"
+
+[[cards]]
+text = "Hot Stove"
+
+[[cards]]
+text = "Five-Tool Player"
+
+[[cards]]
+text = "Phenom"
+
+[[cards]]
+text = "Bases Juiced"
+
+[[cards]]
+text = "No-Doubter"
+
+[[cards]]
+text = "Gapper"
+
+[[cards]]
+text = "Punch and Judy Hitter"
+
+[[cards]]
+text = "Laser Show"
+
+[[cards]]
+text = "Seeing-Eye Single"
+
+[[cards]]
+text = "Ghost Runner"
+
+[[cards]]
+text = "Sticky Stuff"
+
+[[cards]]
+text = "Bat Flip"
+
+[[cards]]
+text = "Twin Killing"
+
+[[cards]]
+text = "Speed Merchant"
+
+[[cards]]
+text = "The Bump"
+
+[[cards]]
+text = "Plunked"
+
+[[cards]]
+text = "Mop-Up Duty"
+
+[[cards]]
+text = "Innings Eater"
+
+[[cards]]
+text = "Bandbox"
+
+[[cards]]
+text = "Short Porch"
+
+[[cards]]
+text = "Splash Hit"
+
+[[cards]]
+text = "Ballhawk"
+
+[[cards]]
+text = "LOOGY"
+
+[[cards]]
+text = "Swiping a Bag"
+
+[[cards]]
+text = "Caught Napping"
+
+[[cards]]
+text = "Hidden Ball Trick"
+
+[[cards]]
+text = "Shagging Flies"
+
+[[cards]]
+text = "Pepper"
+
+[[cards]]
+text = "Pound the Zone"
+
+[[cards]]
+text = "Painting the Corners"
+
+[[cards]]
+text = "Nibbling"
+
+[[cards]]
+text = "Hit the Showers"
+
+[[cards]]
+text = "Windmill"
+
+[[cards]]
+text = "Green Light"
+
+[[cards]]
+text = "Grooved Pitch"
+
+[[cards]]
+text = "Wallscraper"
+
+[[cards]]
+text = "Bleeder"
+
+[[cards]]
+text = "Dribbler"
+
+[[cards]]
+text = "Squibber"
+
+[[cards]]
+text = "Basket Catch"
+
+[[cards]]
+text = "Shoestring Catch"
+
+[[cards]]
+text = "Punchout"
+
+[[cards]]
+text = "Backward K"
+
+[[cards]]
+text = "Whiff"
+
+[[cards]]
+text = "Platinum Sombrero"
+
+[[cards]]
+text = "Big Leagues"
+
+[[cards]]
+text = "No-No"
+
+[[cards]]
+text = "Payoff Pitch"
+
+[[cards]]
+text = "Touch 'Em All"
+
+[[cards]]
+text = "Swing and a Miss"
+
+[[cards]]
+text = "Walk-Off"
+
+[[cards]]
+text = "Warning Track Power"
+
+[[cards]]
+text = "Short Hop"
+
+[[cards]]
+text = "Stone Fingers"
+
+[[cards]]
+text = "Station to Station"
+
+[[cards]]
+text = "Swinging Bunt"
+
+[[cards]]
+text = "Toe the Rubber"
+
+[[cards]]
+text = "Out Pitch"
+
+[[cards]]
+text = "Mistake Pitch"
+
+[[cards]]
+text = "Meat of the Order"
+
+[[cards]]
+text = "Lumber"
+
+[[cards]]
+text = "Leather"
+
+[[cards]]
+text = "Interstate"
+
+[[cards]]
+text = "Hanger"
+
+[[cards]]
+text = "Hit the Dirt"
+
+[[cards]]
+text = "Free Pass"
+
+[[cards]]
+text = "Fireballer"
+
+[[cards]]
+text = "Filthy Pitch"
+
+[[cards]]
+text = "Electric Stuff"
+
+[[cards]]
+text = "Double Clutch"
+
+[[cards]]
+text = "Doctoring the Ball"
+
+[[cards]]
+text = "Deuce"
+
+[[cards]]
+text = "Dead Red"
+
+[[cards]]
+text = "Blow the Save"
+
+[[cards]]
+text = "Bloop Single"

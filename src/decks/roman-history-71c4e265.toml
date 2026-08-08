@@ -1,0 +1,834 @@
+id = "deck_roman-history_71c4e265"
+revision = 1
+name = "Roman History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Roman Republic and Empire figures, emperors, senators, wars, battles, provinces, laws, engineering, daily life, landmarks, political terms, and major events from Roman history. Prefer real historical people, places, and events over mythology."
+photo_file_name = "roman-history-71c4e265-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Julius Caesar"
+
+[[cards]]
+text = "Augustus"
+
+[[cards]]
+text = "Nero"
+
+[[cards]]
+text = "Marcus Aurelius"
+
+[[cards]]
+text = "Constantine the Great"
+
+[[cards]]
+text = "Spartacus"
+
+[[cards]]
+text = "Cicero"
+
+[[cards]]
+text = "Hadrian"
+
+[[cards]]
+text = "Trajan"
+
+[[cards]]
+text = "Marc Antony"
+
+[[cards]]
+text = "Pompey the Great"
+
+[[cards]]
+text = "Caligula"
+
+[[cards]]
+text = "Scipio Africanus"
+
+[[cards]]
+text = "Boudica"
+
+[[cards]]
+text = "Hannibal Barca"
+
+[[cards]]
+text = "Cleopatra"
+
+[[cards]]
+text = "Colosseum"
+
+[[cards]]
+text = "Pantheon"
+
+[[cards]]
+text = "Roman Forum"
+
+[[cards]]
+text = "Pompeii"
+
+[[cards]]
+text = "Circus Maximus"
+
+[[cards]]
+text = "Hadrian's Wall"
+
+[[cards]]
+text = "Mount Vesuvius"
+
+[[cards]]
+text = "The Rubicon"
+
+[[cards]]
+text = "Gladiator"
+
+[[cards]]
+text = "Patrician"
+
+[[cards]]
+text = "Plebeian"
+
+[[cards]]
+text = "Roman Senate"
+
+[[cards]]
+text = "Consul"
+
+[[cards]]
+text = "Centurion"
+
+[[cards]]
+text = "Roman Legion"
+
+[[cards]]
+text = "Toga"
+
+[[cards]]
+text = "Aqueduct"
+
+[[cards]]
+text = "Chariot Race"
+
+[[cards]]
+text = "Pax Romana"
+
+[[cards]]
+text = "Triumvirate"
+
+[[cards]]
+text = "Vestal Virgins"
+
+[[cards]]
+text = "Catacombs"
+
+[[cards]]
+text = "Punic Wars"
+
+[[cards]]
+text = "Ides of March"
+
+[[cards]]
+text = "Battle of Actium"
+
+[[cards]]
+text = "Twelve Tables"
+
+[[cards]]
+text = "Edict of Milan"
+
+[[cards]]
+text = "Great Fire of Rome"
+
+[[cards]]
+text = "Appian Way"
+
+[[cards]]
+text = "Praetorian Guard"
+
+[[cards]]
+text = "Roman Baths"
+
+[[cards]]
+text = "Denarius"
+
+[[cards]]
+text = "Fall of Rome"
+
+[[cards]]
+text = "Carthage"
+
+[[cards]]
+text = "Claudius"
+
+[[cards]]
+text = "Vespasian"
+
+[[cards]]
+text = "Diocletian"
+
+[[cards]]
+text = "Tiberius"
+
+[[cards]]
+text = "Commodus"
+
+[[cards]]
+text = "Crassus"
+
+[[cards]]
+text = "Cincinnatus"
+
+[[cards]]
+text = "Livia"
+
+[[cards]]
+text = "Agrippina"
+
+[[cards]]
+text = "Tiberius Gracchus"
+
+[[cards]]
+text = "Gaius Gracchus"
+
+[[cards]]
+text = "Sulla"
+
+[[cards]]
+text = "Lepidus"
+
+[[cards]]
+text = "Cato the Younger"
+
+[[cards]]
+text = "Battle of Cannae"
+
+[[cards]]
+text = "Battle of Zama"
+
+[[cards]]
+text = "Battle of Teutoburg Forest"
+
+[[cards]]
+text = "Battle of Pharsalus"
+
+[[cards]]
+text = "Gallic Wars"
+
+[[cards]]
+text = "Britannia"
+
+[[cards]]
+text = "Gaul"
+
+[[cards]]
+text = "Hispania"
+
+[[cards]]
+text = "Constantinople"
+
+[[cards]]
+text = "Alexandria"
+
+[[cards]]
+text = "Ostia Antica"
+
+[[cards]]
+text = "Tribune of the Plebs"
+
+[[cards]]
+text = "Dictator"
+
+[[cards]]
+text = "Censor"
+
+[[cards]]
+text = "Pontifex Maximus"
+
+[[cards]]
+text = "Roman Triumph"
+
+[[cards]]
+text = "Equestrians"
+
+[[cards]]
+text = "Gladius"
+
+[[cards]]
+text = "Scutum"
+
+[[cards]]
+text = "Testudo Formation"
+
+[[cards]]
+text = "Lorica Segmentata"
+
+[[cards]]
+text = "Ballista"
+
+[[cards]]
+text = "Garum"
+
+[[cards]]
+text = "Insula"
+
+[[cards]]
+text = "Domus"
+
+[[cards]]
+text = "Triclinium"
+
+[[cards]]
+text = "Hypocaust"
+
+[[cards]]
+text = "Arch of Titus"
+
+[[cards]]
+text = "Sestertius"
+
+[[cards]]
+text = "Villa"
+
+[[cards]]
+text = "Rostra"
+
+[[cards]]
+text = "Curia"
+
+[[cards]]
+text = "Pyrrhic Victory"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "Justinian Code"
+
+[[cards]]
+text = "Tarpeian Rock"
+
+[[cards]]
+text = "Romulus"
+
+[[cards]]
+text = "Remus"
+
+[[cards]]
+text = "Tarquin the Proud"
+
+[[cards]]
+text = "Germanicus"
+
+[[cards]]
+text = "Pliny the Elder"
+
+[[cards]]
+text = "Virgil"
+
+[[cards]]
+text = "Seneca"
+
+[[cards]]
+text = "Vercingetorix"
+
+[[cards]]
+text = "Attila the Hun"
+
+[[cards]]
+text = "Alaric the Goth"
+
+[[cards]]
+text = "Romulus Augustulus"
+
+[[cards]]
+text = "Zenobia"
+
+[[cards]]
+text = "Septimius Severus"
+
+[[cards]]
+text = "Caracalla"
+
+[[cards]]
+text = "Elagabalus"
+
+[[cards]]
+text = "Tiber River"
+
+[[cards]]
+text = "Capitoline Hill"
+
+[[cards]]
+text = "Palatine Hill"
+
+[[cards]]
+text = "Campus Martius"
+
+[[cards]]
+text = "Herculaneum"
+
+[[cards]]
+text = "Subura"
+
+[[cards]]
+text = "Rhine River"
+
+[[cards]]
+text = "Danube River"
+
+[[cards]]
+text = "Londinium"
+
+[[cards]]
+text = "Palmyra"
+
+[[cards]]
+text = "SPQR"
+
+[[cards]]
+text = "Domus Aurea"
+
+[[cards]]
+text = "Cloaca Maxima"
+
+[[cards]]
+text = "Aquila"
+
+[[cards]]
+text = "Pilum"
+
+[[cards]]
+text = "Pugio"
+
+[[cards]]
+text = "Caligae"
+
+[[cards]]
+text = "Lorica Hamata"
+
+[[cards]]
+text = "Bulla"
+
+[[cards]]
+text = "Stola"
+
+[[cards]]
+text = "Amphora"
+
+[[cards]]
+text = "Strigil"
+
+[[cards]]
+text = "Saturnalia"
+
+[[cards]]
+text = "Lupercalia"
+
+[[cards]]
+text = "Laurel Wreath"
+
+[[cards]]
+text = "Curule Chair"
+
+[[cards]]
+text = "Fasces"
+
+[[cards]]
+text = "Lictor"
+
+[[cards]]
+text = "Cohort"
+
+[[cards]]
+text = "Trireme"
+
+[[cards]]
+text = "Decimation"
+
+[[cards]]
+text = "Naumachia"
+
+[[cards]]
+text = "Retiarius"
+
+[[cards]]
+text = "Roman Roads"
+
+[[cards]]
+text = "Battle of Milvian Bridge"
+
+[[cards]]
+text = "Cursus Honorum"
+
+[[cards]]
+text = "Paterfamilias"
+
+[[cards]]
+text = "Aurelian"
+
+[[cards]]
+text = "Antoninus Pius"
+
+[[cards]]
+text = "Praetor"
+
+[[cards]]
+text = "Aedile"
+
+[[cards]]
+text = "Quaestor"
+
+[[cards]]
+text = "Battle of Carrhae"
+
+[[cards]]
+text = "Battle of Philippi"
+
+[[cards]]
+text = "Conspiracy of Catiline"
+
+[[cards]]
+text = "Secession of the Plebs"
+
+[[cards]]
+text = "Vitellius"
+
+[[cards]]
+text = "Social War"
+
+[[cards]]
+text = "Mithridatic Wars"
+
+[[cards]]
+text = "Dacia"
+
+[[cards]]
+text = "Judea"
+
+[[cards]]
+text = "Macedonia"
+
+[[cards]]
+text = "Aventine Hill"
+
+[[cards]]
+text = "Quirinal Hill"
+
+[[cards]]
+text = "Via Sacra"
+
+[[cards]]
+text = "Porta Nigra"
+
+[[cards]]
+text = "Leptis Magna"
+
+[[cards]]
+text = "Baiae"
+
+[[cards]]
+text = "Belisarius"
+
+[[cards]]
+text = "Quintus Fabius Maximus"
+
+[[cards]]
+text = "Camillus"
+
+[[cards]]
+text = "Sejanus"
+
+[[cards]]
+text = "Messalina"
+
+[[cards]]
+text = "Julia Domna"
+
+[[cards]]
+text = "Galla Placidia"
+
+[[cards]]
+text = "Proscription"
+
+[[cards]]
+text = "Client King"
+
+[[cards]]
+text = "Lararium"
+
+[[cards]]
+text = "Atrium"
+
+[[cards]]
+text = "Peristyle"
+
+[[cards]]
+text = "Opus Caementicium"
+
+[[cards]]
+text = "Onager"
+
+[[cards]]
+text = "Corvus"
+
+[[cards]]
+text = "Legatus"
+
+[[cards]]
+text = "Contubernium"
+
+[[cards]]
+text = "Murmillo"
+
+[[cards]]
+text = "Secutor"
+
+[[cards]]
+text = "Venatio"
+
+[[cards]]
+text = "Aureus"
+
+[[cards]]
+text = "Libertus"
+
+[[cards]]
+text = "Mos Maiorum"
+
+[[cards]]
+text = "Lex Frumentaria"
+
+[[cards]]
+text = "Princeps Senatus"
+
+[[cards]]
+text = "Nerva"
+
+[[cards]]
+text = "Galba"
+
+[[cards]]
+text = "Roman Republic"
+
+[[cards]]
+text = "Roman Empire"
+
+[[cards]]
+text = "Roman Tunic"
+
+[[cards]]
+text = "Roman Helmet"
+
+[[cards]]
+text = "Roman Shield"
+
+[[cards]]
+text = "Catapult"
+
+[[cards]]
+text = "Battering Ram"
+
+[[cards]]
+text = "Siege Tower"
+
+[[cards]]
+text = "Roman Concrete"
+
+[[cards]]
+text = "Roman Arch"
+
+[[cards]]
+text = "Roman Dome"
+
+[[cards]]
+text = "Roman Numerals"
+
+[[cards]]
+text = "Julian Calendar"
+
+[[cards]]
+text = "Amphitheater"
+
+[[cards]]
+text = "Basilica"
+
+[[cards]]
+text = "Roman Citizen"
+
+[[cards]]
+text = "Barbarian"
+
+[[cards]]
+text = "Vandal Invasion"
+
+[[cards]]
+text = "Third Century Crisis"
+
+[[cards]]
+text = "Year of Four Emperors"
+
+[[cards]]
+text = "Empress Theodora"
+
+[[cards]]
+text = "Ovid"
+
+[[cards]]
+text = "Livy"
+
+[[cards]]
+text = "Tacitus"
+
+[[cards]]
+text = "Suetonius"
+
+[[cards]]
+text = "Octavia"
+
+[[cards]]
+text = "Fulvia"
+
+[[cards]]
+text = "Emperor Valerian"
+
+[[cards]]
+text = "King Mithridates"
+
+[[cards]]
+text = "Cornelia"
+
+[[cards]]
+text = "Arminius"
+
+[[cards]]
+text = "King Jugurtha"
+
+[[cards]]
+text = "General Stilicho"
+
+[[cards]]
+text = "General Aetius"
+
+[[cards]]
+text = "Roman Syria"
+
+[[cards]]
+text = "Roman Egypt"
+
+[[cards]]
+text = "Ravenna"
+
+[[cards]]
+text = "Mediolanum"
+
+[[cards]]
+text = "Capua"
+
+[[cards]]
+text = "Roman Numidia"
+
+[[cards]]
+text = "Illyricum"
+
+[[cards]]
+text = "Apennine Mountains"
+
+[[cards]]
+text = "Roman Sicily"
+
+[[cards]]
+text = "Massilia"
+
+[[cards]]
+text = "Lusitania"
+
+[[cards]]
+text = "Augur"
+
+[[cards]]
+text = "Haruspex"
+
+[[cards]]
+text = "Auxilia"
+
+[[cards]]
+text = "Proconsul"
+
+[[cards]]
+text = "Emperor Domitian"
+
+[[cards]]
+text = "Brutus"
+
+[[cards]]
+text = "Agrippa"
+
+[[cards]]
+text = "Pliny the Younger"
+
+[[cards]]
+text = "Theodosius I"
+
+[[cards]]
+text = "Julian the Apostate"
+
+[[cards]]
+text = "Odoacer"
+
+[[cards]]
+text = "Lucretia"
+
+[[cards]]
+text = "Pyrrhus of Epirus"
+
+[[cards]]
+text = "Sack of Rome"
+
+[[cards]]
+text = "Mithraism"
+
+[[cards]]
+text = "Gladiatrix"
+
+[[cards]]
+text = "Pont du Gard"
+
+[[cards]]
+text = "Library of Celsus"
+
+[[cards]]
+text = "Mausoleum of Augustus"
+
+[[cards]]
+text = "Servian Wall"
+
+[[cards]]
+text = "Roman Mosaics"
+
+[[cards]]
+text = "Roman Fresco"
+
+[[cards]]
+text = "Quinquereme"
+
+[[cards]]
+text = "Velites"
+
+[[cards]]
+text = "Caldarium"
+
+[[cards]]
+text = "Satyricon"
+
+[[cards]]
+text = "Horace"
+
+[[cards]]
+text = "Catullus"
+
+[[cards]]
+text = "Mucius Scaevola"
+
+[[cards]]
+text = "Penates"

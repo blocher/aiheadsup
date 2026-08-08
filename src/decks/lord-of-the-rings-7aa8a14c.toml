@@ -1,0 +1,1010 @@
+id = "deck_lord-of-the-rings_7aa8a14c"
+revision = 2
+name = "Lord of the Rings"
+category = "Books"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, places, creatures, objects, peoples, and memorable details from J.R.R. Tolkien's The Hobbit and The Lord of the Rings books. Prefer book content over film-only additions; keep family-friendly. Tag every card with the earliest book installment where it is revealed (Hobbit=1, Fellowship=2, Two Towers=3, Return of the King=4)."
+photo_file_name = "lord-of-the-rings-7aa8a14c-cover.jpg"
+spoiler_mode = true
+spoiler_series = "lord_of_the_rings"
+
+[[cards]]
+text = "Bilbo Baggins"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gandalf"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gollum"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Smaug"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Thorin Oakenshield"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Sting"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beorn"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Arkenstone"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bag End"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Rivendell"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Elrond"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mirkwood"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lake-town"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bard the Bowman"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mithril Coat"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Frodo Baggins"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Samwise Gamgee"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Merry Brandybuck"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Pippin Took"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Aragorn"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Legolas"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gimli"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Boromir"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The One Ring"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Tom Bombadil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Galadriel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mines of Moria"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Balrog"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Prancing Pony"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ringwraiths"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Treebeard"
+first_revealed_installment = 3
+
+[[cards]]
+text = "King Théoden"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Éomer"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Éowyn"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gríma Wormtongue"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Helm's Deep"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Fangorn Forest"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Edoras"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Faramir"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Shelob"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Minas Tirith"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Denethor"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Paths of the Dead"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Grey Havens"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Beregond"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Ghân-buri-Ghân"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Battle of Pelennor Fields"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Mouth of Sauron"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Prince Imrahil"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Dunharrow"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Lonely Mountain"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Glamdring"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Orcrist"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Black Arrow"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wargs"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Great Eagles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Stone-trolls"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Carrock"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Kili"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Fili"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Balin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bombur"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Elvenking"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Roac the Raven"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dale"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Goldberry"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Barrow-wights"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Old Man Willow"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Barliman Butterbur"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bill the Pony"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Weathertop"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Glorfindel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Anduril"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lothlorien"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Celeborn"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gaffer Gamgee"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lembas Bread"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shadowfax"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Argonath"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Farmer Maggot"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Old Forest"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Isildur"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elendil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Sauron"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Saruman"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Isengard"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bucklebury Ferry"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lobelia Sackville-Baggins"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Uruk-hai"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ents"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Quickbeam"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Dead Marshes"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Mumakil"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ithilien"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Henneth Annun"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Palantir"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grond"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Scouring of the Shire"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Houses of Healing"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Grey Company"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Erebor"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Esgaroth"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Goblin-town"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Great Goblin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dwalin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Gloin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Necromancer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Enchanted River"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Mount Gundabad"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Arwen Undomiel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fatty Bolger"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Crickhollow"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Brandy Hall"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Green Dragon"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Morgul-blade"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Ford of Bruinen"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Witch-king of Angmar"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Barrow-downs"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Withywindle"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Earendil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elros"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gil-galad"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Anarion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Doors of Durin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Chamber of Mazarbul"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Caradhras"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Anduin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Amon Hen"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Bill Ferny"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Orthanc"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Meduseld"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Simbelmyne"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Huorns"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ugluk"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Grishnakh"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Emyn Muil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cirith Ungol"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Easterlings"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Haradrim"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Shagrat"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Gorbag"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Glittering Caves"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Ioreth"
+first_revealed_installment = 4
+
+[[cards]]
+text = "The Red Arrow"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Halbarad"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rose Cotton"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Farmer Cotton"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sammath Naur"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Rath Dinen"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Red Book of Westmarch"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Thror's Map"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dain Ironfoot"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Oin"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bofur"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bifur"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Nori"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ori"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dori"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bandobras Took"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Iron Hills"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Ravenhill"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Thrain"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bolg"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Azog"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Dorwinion"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Beorn's Hall"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Bywater"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Hobbiton"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Shire"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Narsil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cirdan"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Nenya"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Vilya"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Narya"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Asfaloth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Beren"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Luthien"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Michel Delving"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Buckland"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Brandywine River"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Osgiliath"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Minas Morgul"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mount Doom"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Barad-dur"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Caras Galadhon"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Galadriel's Mirror"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Longbottom Leaf"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Old Toby"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mathom-house"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Oliphaunt"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Arod"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hasufel"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Snowmane"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Hama"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Erkenbrand"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Dunlendings"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Derndingle"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Bergil"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Stone of Erech"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Sharkey"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Radagast the Brown"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Thranduil"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Misty Mountains"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Battle of Five Armies"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Last Homely House"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Durin's Day"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Cram"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Lord of the Eagles"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Wood-elves"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Goblin-cleaver"
+first_revealed_installment = 1
+
+[[cards]]
+text = "Foe-hammer"
+first_revealed_installment = 1
+
+[[cards]]
+text = "The Trollshaws"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Great East Road"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dúnedain"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Rohirrim"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The White Council"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Eregion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Watcher in the Water"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dimrill Dale"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Mirrormere"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Cerin Amroth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Elfstone"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Phial of Galadriel"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Ring of Barahir"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Gildor Inglorion"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Elladan and Elrohir"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Haldir"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Black Gate"
+first_revealed_installment = 2
+
+[[cards]]
+text = "White Tree of Gondor"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Durin's Bane"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fornost"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Midgewater Marshes"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Ivy Bush"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lotho Sackville-Baggins"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Shirriffs"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Bounders"
+first_revealed_installment = 2
+
+[[cards]]
+text = "The Black Riders"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Fimbrethil"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Entwash"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Wold of Rohan"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Damrod"
+first_revealed_installment = 3
+
+[[cards]]
+text = "The Forbidden Pool"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Torech Ungol"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Sea of Nurnen"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Firefoot"
+first_revealed_installment = 3
+
+[[cards]]
+text = "Stybba"
+first_revealed_installment = 4
+
+[[cards]]
+text = "Pelargir"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Dol Amroth"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Lebennin"
+first_revealed_installment = 2
+
+[[cards]]
+text = "Forlong the Fat"
+first_revealed_installment = 4

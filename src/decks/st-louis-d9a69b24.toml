@@ -1,0 +1,753 @@
+id = "deck_st-louis_d9a69b24"
+revision = 1
+name = "St. Louis"
+category = "Cities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include neighborhoods, the Gateway Arch, museums, sports teams, foods, universities, festivals, transit, the Mississippi River, Forest Park, historical events, and family-friendly St. Louis references."
+photo_file_name = "st-louis-d9a69b24-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "The Gateway Arch"
+
+[[cards]]
+text = "Forest Park"
+
+[[cards]]
+text = "Saint Louis Zoo"
+
+[[cards]]
+text = "City Museum"
+
+[[cards]]
+text = "Toasted Ravioli"
+
+[[cards]]
+text = "Gooey Butter Cake"
+
+[[cards]]
+text = "St. Louis Cardinals"
+
+[[cards]]
+text = "St. Louis Blues"
+
+[[cards]]
+text = "Mississippi River"
+
+[[cards]]
+text = "Ted Drewes"
+
+[[cards]]
+text = "Busch Stadium"
+
+[[cards]]
+text = "The Muny"
+
+[[cards]]
+text = "Missouri Botanical Garden"
+
+[[cards]]
+text = "The Hill"
+
+[[cards]]
+text = "Delmar Loop"
+
+[[cards]]
+text = "Union Station"
+
+[[cards]]
+text = "Grant's Farm"
+
+[[cards]]
+text = "Fredbird"
+
+[[cards]]
+text = "St. Louis Style Pizza"
+
+[[cards]]
+text = "Saint Louis Art Museum"
+
+[[cards]]
+text = "Old Courthouse"
+
+[[cards]]
+text = "Budweiser Clydesdales"
+
+[[cards]]
+text = "1904 World's Fair"
+
+[[cards]]
+text = "Spirit of St. Louis"
+
+[[cards]]
+text = "MetroLink"
+
+[[cards]]
+text = "Eads Bridge"
+
+[[cards]]
+text = "Soulard Mardi Gras"
+
+[[cards]]
+text = "Saint Louis University"
+
+[[cards]]
+text = "Washington University"
+
+[[cards]]
+text = "The Magic House"
+
+[[cards]]
+text = "Saint Louis Science Center"
+
+[[cards]]
+text = "Fitz's Root Beer"
+
+[[cards]]
+text = "Missouri History Museum"
+
+[[cards]]
+text = "Tower Grove Park"
+
+[[cards]]
+text = "Central West End"
+
+[[cards]]
+text = "Cathedral Basilica"
+
+[[cards]]
+text = "Butterfly House"
+
+[[cards]]
+text = "Lafayette Square"
+
+[[cards]]
+text = "Laclede's Landing"
+
+[[cards]]
+text = "St. Louis City SC"
+
+[[cards]]
+text = "Chain of Rocks Bridge"
+
+[[cards]]
+text = "Provel Cheese"
+
+[[cards]]
+text = "Forest Park Balloon Glow"
+
+[[cards]]
+text = "Enterprise Center"
+
+[[cards]]
+text = "The Grand Basin"
+
+[[cards]]
+text = "The Jewel Box"
+
+[[cards]]
+text = "National Blues Museum"
+
+[[cards]]
+text = "Lewis and Clark"
+
+[[cards]]
+text = "Lone Elk Park"
+
+[[cards]]
+text = "St. Louis Battlehawks"
+
+[[cards]]
+text = "The Fox Theatre"
+
+[[cards]]
+text = "Chuck Berry"
+
+[[cards]]
+text = "Nelly"
+
+[[cards]]
+text = "Stan Musial"
+
+[[cards]]
+text = "Bevo Mill"
+
+[[cards]]
+text = "Laumeier Sculpture Park"
+
+[[cards]]
+text = "Creve Coeur Lake"
+
+[[cards]]
+text = "Dogtown"
+
+[[cards]]
+text = "Fair Saint Louis"
+
+[[cards]]
+text = "Lambert Airport"
+
+[[cards]]
+text = "Dred Scott"
+
+[[cards]]
+text = "Pork Steak"
+
+[[cards]]
+text = "St. Paul Sandwich"
+
+[[cards]]
+text = "Soulard Market"
+
+[[cards]]
+text = "Turtle Playground"
+
+[[cards]]
+text = "Anheuser-Busch Brewery"
+
+[[cards]]
+text = "The Loop Trolley"
+
+[[cards]]
+text = "Charles Lindbergh"
+
+[[cards]]
+text = "Missouri River"
+
+[[cards]]
+text = "City Foundry"
+
+[[cards]]
+text = "Crown Candy Kitchen"
+
+[[cards]]
+text = "Ozzie Smith"
+
+[[cards]]
+text = "Chess Hall of Fame"
+
+[[cards]]
+text = "Jefferson Barracks"
+
+[[cards]]
+text = "Cherokee Street"
+
+[[cards]]
+text = "Shakespeare in the Park"
+
+[[cards]]
+text = "Festival of Nations"
+
+[[cards]]
+text = "Webster University"
+
+[[cards]]
+text = "Clementine's Creamery"
+
+[[cards]]
+text = "Purina Farms"
+
+[[cards]]
+text = "Gus' Pretzel Shop"
+
+[[cards]]
+text = "The Armory"
+
+[[cards]]
+text = "Albert Pujols"
+
+[[cards]]
+text = "Jon Hamm"
+
+[[cards]]
+text = "John Goodman"
+
+[[cards]]
+text = "Stan Musial Bridge"
+
+[[cards]]
+text = "Benton Park"
+
+[[cards]]
+text = "Maryville University"
+
+[[cards]]
+text = "Carondelet Park"
+
+[[cards]]
+text = "Lou Brock"
+
+[[cards]]
+text = "Endangered Wolf Center"
+
+[[cards]]
+text = "UMSL"
+
+[[cards]]
+text = "Slinger"
+
+[[cards]]
+text = "Kirkwood Train Station"
+
+[[cards]]
+text = "Powell Hall"
+
+[[cards]]
+text = "Sheldon Concert Hall"
+
+[[cards]]
+text = "Campbell House Museum"
+
+[[cards]]
+text = "Webster Groves"
+
+[[cards]]
+text = "Grand Center"
+
+[[cards]]
+text = "Yogi Berra"
+
+[[cards]]
+text = "Imo's Pizza"
+
+[[cards]]
+text = "Lion's Choice"
+
+[[cards]]
+text = "The St. Louis Wheel"
+
+[[cards]]
+text = "St. Louis Aquarium"
+
+[[cards]]
+text = "St. Louis Rams"
+
+[[cards]]
+text = "The Billiken"
+
+[[cards]]
+text = "Art Hill"
+
+[[cards]]
+text = "Steinberg Ice Rink"
+
+[[cards]]
+text = "Kirkwood Farmers Market"
+
+[[cards]]
+text = "Eckert's Orchard"
+
+[[cards]]
+text = "Rally Squirrel"
+
+[[cards]]
+text = "Play Gloria"
+
+[[cards]]
+text = "St. Louis Hills"
+
+[[cards]]
+text = "Old North St. Louis"
+
+[[cards]]
+text = "The Grove"
+
+[[cards]]
+text = "University City"
+
+[[cards]]
+text = "Clayton"
+
+[[cards]]
+text = "Ladue"
+
+[[cards]]
+text = "Kirkwood"
+
+[[cards]]
+text = "Augusta"
+
+[[cards]]
+text = "Main Street Saint Charles"
+
+[[cards]]
+text = "Robert Wadlow"
+
+[[cards]]
+text = "Piasa Bird"
+
+[[cards]]
+text = "Elijah P. Lovejoy"
+
+[[cards]]
+text = "Compton Hill Water Tower"
+
+[[cards]]
+text = "Old Cathedral"
+
+[[cards]]
+text = "Bellefontaine Cemetery"
+
+[[cards]]
+text = "Calvary Cemetery"
+
+[[cards]]
+text = "Saint Louis Galleria"
+
+[[cards]]
+text = "Plaza Frontenac"
+
+[[cards]]
+text = "Hi-Pointe Theatre"
+
+[[cards]]
+text = "Tivoli Theatre"
+
+[[cards]]
+text = "St. Louis Post-Dispatch"
+
+[[cards]]
+text = "Riverfront Times"
+
+[[cards]]
+text = "KMOX"
+
+[[cards]]
+text = "KSHE 95"
+
+[[cards]]
+text = "KSDK Channel 5"
+
+[[cards]]
+text = "St. Louis Bread Co."
+
+[[cards]]
+text = "Schnucks"
+
+[[cards]]
+text = "Dierbergs"
+
+[[cards]]
+text = "Red Hot Riplets"
+
+[[cards]]
+text = "Vess Soda"
+
+[[cards]]
+text = "St. Louis Style Ribs"
+
+[[cards]]
+text = "The Boathouse"
+
+[[cards]]
+text = "Francis Field"
+
+[[cards]]
+text = "Vintage Vinyl"
+
+[[cards]]
+text = "Greentree Festival"
+
+[[cards]]
+text = "Turkey Day Game"
+
+[[cards]]
+text = "Great Flood of 1993"
+
+[[cards]]
+text = "Scott Joplin"
+
+[[cards]]
+text = "Cahokia Mounds"
+
+[[cards]]
+text = "Monks Mound"
+
+[[cards]]
+text = "Lemp Mansion"
+
+[[cards]]
+text = "Katy Trail"
+
+[[cards]]
+text = "Blueberry Hill"
+
+[[cards]]
+text = "The Climatron"
+
+[[cards]]
+text = "MonstroCity"
+
+[[cards]]
+text = "Frozen Custard Concrete"
+
+[[cards]]
+text = "The Pageant"
+
+[[cards]]
+text = "St. Louis Symphony"
+
+[[cards]]
+text = "Maull's BBQ Sauce"
+
+[[cards]]
+text = "Gioia's Deli"
+
+[[cards]]
+text = "Pappy's Smokehouse"
+
+[[cards]]
+text = "Yadier Molina"
+
+[[cards]]
+text = "Brett Hull"
+
+[[cards]]
+text = "Tina Turner"
+
+[[cards]]
+text = "Miles Davis"
+
+[[cards]]
+text = "T. S. Eliot"
+
+[[cards]]
+text = "Tennessee Williams"
+
+[[cards]]
+text = "The Glass Menagerie"
+
+[[cards]]
+text = "Maya Angelou"
+
+[[cards]]
+text = "Joseph Pulitzer"
+
+[[cards]]
+text = "Pierre Laclede"
+
+[[cards]]
+text = "Auguste Chouteau"
+
+[[cards]]
+text = "Six Flags St. Louis"
+
+[[cards]]
+text = "Meramec Caverns"
+
+[[cards]]
+text = "Zombie Road"
+
+[[cards]]
+text = "Faust Park"
+
+[[cards]]
+text = "Castlewood State Park"
+
+[[cards]]
+text = "Great River Road"
+
+[[cards]]
+text = "Ballpark Village"
+
+[[cards]]
+text = "Wainwright Building"
+
+[[cards]]
+text = "Kiener Plaza"
+
+[[cards]]
+text = "Citygarden"
+
+[[cards]]
+text = "The Rep"
+
+[[cards]]
+text = "Walk of Fame"
+
+[[cards]]
+text = "Jenna Fischer"
+
+[[cards]]
+text = "Andy Cohen"
+
+[[cards]]
+text = "Bob Costas"
+
+[[cards]]
+text = "Jack Buck"
+
+[[cards]]
+text = "Louis Sullivan"
+
+[[cards]]
+text = "Bissinger's"
+
+[[cards]]
+text = "St. Louis Browns"
+
+[[cards]]
+text = "Sportsman's Park"
+
+[[cards]]
+text = "The Arena"
+
+[[cards]]
+text = "River Des Peres"
+
+[[cards]]
+text = "Taste of St. Louis"
+
+[[cards]]
+text = "Paint Louis"
+
+[[cards]]
+text = "Fast Eddie's Bon Air"
+
+[[cards]]
+text = "South Grand"
+
+[[cards]]
+text = "Maplewood"
+
+[[cards]]
+text = "Richmond Heights"
+
+[[cards]]
+text = "Grafton Illinois"
+
+[[cards]]
+text = "The Ville"
+
+[[cards]]
+text = "Lindenwood Park"
+
+[[cards]]
+text = "Shaw Neighborhood"
+
+[[cards]]
+text = "Southampton"
+
+[[cards]]
+text = "Downtown St. Louis"
+
+[[cards]]
+text = "McDonnell Planetarium"
+
+[[cards]]
+text = "Amighetti's Special"
+
+[[cards]]
+text = "Gerber Sandwich"
+
+[[cards]]
+text = "Balkan Treat Box"
+
+[[cards]]
+text = "The Fountain on Locust"
+
+[[cards]]
+text = "Hodak's Fried Chicken"
+
+[[cards]]
+text = "Mayfair Dressing"
+
+[[cards]]
+text = "Strange Donuts"
+
+[[cards]]
+text = "Donut Drive-In"
+
+[[cards]]
+text = "Billy Goat Chips"
+
+[[cards]]
+text = "Switzer's Licorice"
+
+[[cards]]
+text = "Moolah Bowling Lanes"
+
+[[cards]]
+text = "Saratoga Lanes"
+
+[[cards]]
+text = "St. Louis Ambush"
+
+[[cards]]
+text = "St. Louis Steamers"
+
+[[cards]]
+text = "St. Louis Stars"
+
+[[cards]]
+text = "St. Louis Surge"
+
+[[cards]]
+text = "WWT Raceway"
+
+[[cards]]
+text = "The Dome"
+
+[[cards]]
+text = "America's Center"
+
+[[cards]]
+text = "Cupples Station"
+
+[[cards]]
+text = "St. Louis County Library"
+
+[[cards]]
+text = "KDHX"
+
+[[cards]]
+text = "KMOV Channel 4"
+
+[[cards]]
+text = "Nine PBS"
+
+[[cards]]
+text = "KPLR Channel 11"
+
+[[cards]]
+text = "Sauce Magazine"
+
+[[cards]]
+text = "Feast Magazine"
+
+[[cards]]
+text = "Trattoria Marcella"
+
+[[cards]]
+text = "Zia's"
+
+[[cards]]
+text = "Rigazzi's"
+
+[[cards]]
+text = "Anthonino's Taverna"
+
+[[cards]]
+text = "Charlie Gitto's"
+
+[[cards]]
+text = "McGurk's Irish Pub"
+
+[[cards]]
+text = "O'Connell's Pub"
+
+[[cards]]
+text = "Iron Barley"
+
+[[cards]]
+text = "St. Louis Fish Fry"
+
+[[cards]]
+text = "St. Cecilia Fish Fry"
+
+[[cards]]
+text = "Mavrakos Candies"
+
+[[cards]]
+text = "Kimmswick"

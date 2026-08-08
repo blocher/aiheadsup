@@ -1,0 +1,495 @@
+id = "deck_common-latin-phrases_09fa48e7"
+revision = 2
+name = "Common Latin Phrases"
+category = "Languages"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be real, commonly used Latin phrases still seen in English (e.g. carpe diem, et cetera, vice versa, status quo). Keep each phrase to at most 4 words. Prefer well-known mottos, legal, religious, medical, academic, and everyday Latin phrases. No invented phrases."
+photo_file_name = "common-latin-phrases-09fa48e7-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Carpe diem"
+
+[[cards]]
+text = "Et cetera"
+
+[[cards]]
+text = "Vice versa"
+
+[[cards]]
+text = "Status quo"
+
+[[cards]]
+text = "Alter ego"
+
+[[cards]]
+text = "Bona fide"
+
+[[cards]]
+text = "Magna Carta"
+
+[[cards]]
+text = "Ad hoc"
+
+[[cards]]
+text = "Persona non grata"
+
+[[cards]]
+text = "Alma mater"
+
+[[cards]]
+text = "De facto"
+
+[[cards]]
+text = "Caveat emptor"
+
+[[cards]]
+text = "Pro bono"
+
+[[cards]]
+text = "Quid pro quo"
+
+[[cards]]
+text = "Mea culpa"
+
+[[cards]]
+text = "In vitro"
+
+[[cards]]
+text = "Post mortem"
+
+[[cards]]
+text = "Tabula rasa"
+
+[[cards]]
+text = "Curriculum vitae"
+
+[[cards]]
+text = "Habeas corpus"
+
+[[cards]]
+text = "Per diem"
+
+[[cards]]
+text = "Ad infinitum"
+
+[[cards]]
+text = "Verbatim"
+
+[[cards]]
+text = "Versus"
+
+[[cards]]
+text = "Veni vidi vici"
+
+[[cards]]
+text = "Ante bellum"
+
+[[cards]]
+text = "Vox populi"
+
+[[cards]]
+text = "In memoriam"
+
+[[cards]]
+text = "Non sequitur"
+
+[[cards]]
+text = "Per se"
+
+[[cards]]
+text = "Tempus fugit"
+
+[[cards]]
+text = "Semper fidelis"
+
+[[cards]]
+text = "Terra firma"
+
+[[cards]]
+text = "Modus operandi"
+
+[[cards]]
+text = "Magnum opus"
+
+[[cards]]
+text = "In situ"
+
+[[cards]]
+text = "Ex post facto"
+
+[[cards]]
+text = "Ad nauseam"
+
+[[cards]]
+text = "Alibi"
+
+[[cards]]
+text = "Post scriptum"
+
+[[cards]]
+text = "Memorandum"
+
+[[cards]]
+text = "Alias"
+
+[[cards]]
+text = "Veto"
+
+[[cards]]
+text = "Errata"
+
+[[cards]]
+text = "Prima facie"
+
+[[cards]]
+text = "Pro rata"
+
+[[cards]]
+text = "Addendum"
+
+[[cards]]
+text = "In toto"
+
+[[cards]]
+text = "Cum laude"
+
+[[cards]]
+text = "Cogito ergo sum"
+
+[[cards]]
+text = "Deus ex machina"
+
+[[cards]]
+text = "Sine qua non"
+
+[[cards]]
+text = "Ipso facto"
+
+[[cards]]
+text = "Sui generis"
+
+[[cards]]
+text = "De jure"
+
+[[cards]]
+text = "De novo"
+
+[[cards]]
+text = "Ad hominem"
+
+[[cards]]
+text = "In medias res"
+
+[[cards]]
+text = "Memento mori"
+
+[[cards]]
+text = "Amor vincit omnia"
+
+[[cards]]
+text = "A priori"
+
+[[cards]]
+text = "A posteriori"
+
+[[cards]]
+text = "In loco parentis"
+
+[[cards]]
+text = "In camera"
+
+[[cards]]
+text = "In flagrante delicto"
+
+[[cards]]
+text = "Dramatis personae"
+
+[[cards]]
+text = "Circa"
+
+[[cards]]
+text = "Pax Romana"
+
+[[cards]]
+text = "Amicus curiae"
+
+[[cards]]
+text = "Non compos mentis"
+
+[[cards]]
+text = "Reductio ad absurdum"
+
+[[cards]]
+text = "Nolo contendere"
+
+[[cards]]
+text = "Casus belli"
+
+[[cards]]
+text = "Anno Domini"
+
+[[cards]]
+text = "Quo vadis"
+
+[[cards]]
+text = "Ars longa vita brevis"
+
+[[cards]]
+text = "Ex nihilo"
+
+[[cards]]
+text = "Sic"
+
+[[cards]]
+text = "Stet"
+
+[[cards]]
+text = "Sub rosa"
+
+[[cards]]
+text = "O tempora o mores"
+
+[[cards]]
+text = "E pluribus unum"
+
+[[cards]]
+text = "Per capita"
+
+[[cards]]
+text = "Ex officio"
+
+[[cards]]
+text = "Subpoena"
+
+[[cards]]
+text = "In absentia"
+
+[[cards]]
+text = "Nota bene"
+
+[[cards]]
+text = "Ex libris"
+
+[[cards]]
+text = "Semper paratus"
+
+[[cards]]
+text = "Rigor mortis"
+
+[[cards]]
+text = "Terra incognita"
+
+[[cards]]
+text = "In vivo"
+
+[[cards]]
+text = "In vacuo"
+
+[[cards]]
+text = "Amor fati"
+
+[[cards]]
+text = "Exempli gratia"
+
+[[cards]]
+text = "Id est"
+
+[[cards]]
+text = "Inter nos"
+
+[[cards]]
+text = "Fiat"
+
+[[cards]]
+text = "Juris doctor"
+
+[[cards]]
+text = "Ad valorem"
+
+[[cards]]
+text = "In extremis"
+
+[[cards]]
+text = "In utero"
+
+[[cards]]
+text = "Pro tempore"
+
+[[cards]]
+text = "Ad astra"
+
+[[cards]]
+text = "Carpe noctem"
+
+[[cards]]
+text = "In vino veritas"
+
+[[cards]]
+text = "Ex tempore"
+
+[[cards]]
+text = "Modus vivendi"
+
+[[cards]]
+text = "Ex cathedra"
+
+[[cards]]
+text = "Ab initio"
+
+[[cards]]
+text = "In silico"
+
+[[cards]]
+text = "Pro se"
+
+[[cards]]
+text = "Passim"
+
+[[cards]]
+text = "Ceteris paribus"
+
+[[cards]]
+text = "Imprimatur"
+
+[[cards]]
+text = "In limine"
+
+[[cards]]
+text = "Sub judice"
+
+[[cards]]
+text = "Vincit omnia veritas"
+
+[[cards]]
+text = "Ab urbe condita"
+
+[[cards]]
+text = "Ad referendum"
+
+[[cards]]
+text = "Genius loci"
+
+[[cards]]
+text = "Interregnum"
+
+[[cards]]
+text = "Sua sponte"
+
+[[cards]]
+text = "Pro forma"
+
+[[cards]]
+text = "Quod erat demonstrandum"
+
+[[cards]]
+text = "Vae victis"
+
+[[cards]]
+text = "Post hoc"
+
+[[cards]]
+text = "Corpus juris"
+
+[[cards]]
+text = "Deo volente"
+
+[[cards]]
+text = "Emeritus"
+
+[[cards]]
+text = "Ex gratia"
+
+[[cards]]
+text = "Affidavit"
+
+[[cards]]
+text = "Annus horribilis"
+
+[[cards]]
+text = "Annus mirabilis"
+
+[[cards]]
+text = "Ante meridiem"
+
+[[cards]]
+text = "Post meridiem"
+
+[[cards]]
+text = "Aqua vitae"
+
+[[cards]]
+text = "Ars gratia artis"
+
+[[cards]]
+text = "Ave Maria"
+
+[[cards]]
+text = "Ave Caesar"
+
+[[cards]]
+text = "Deus vult"
+
+[[cards]]
+text = "Divide et impera"
+
+[[cards]]
+text = "Dulce et decorum est"
+
+[[cards]]
+text = "Ex animo"
+
+[[cards]]
+text = "Gloria in excelsis Deo"
+
+[[cards]]
+text = "Ignis fatuus"
+
+[[cards]]
+text = "Labor omnia vincit"
+
+[[cards]]
+text = "Lex talionis"
+
+[[cards]]
+text = "Mirabile dictu"
+
+[[cards]]
+text = "Morituri te salutant"
+
+[[cards]]
+text = "Ne plus ultra"
+
+[[cards]]
+text = "Nil desperandum"
+
+[[cards]]
+text = "Novus ordo seclorum"
+
+[[cards]]
+text = "Pater familias"
+
+[[cards]]
+text = "Pater noster"
+
+[[cards]]
+text = "Pax Americana"
+
+[[cards]]
+text = "Per annum"
+
+[[cards]]
+text = "Primum non nocere"
+
+[[cards]]
+text = "Sanctum sanctorum"
+
+[[cards]]
+text = "Stare decisis"
+
+[[cards]]
+text = "Summum bonum"
+
+[[cards]]
+text = "Urbi et orbi"

@@ -1,0 +1,534 @@
+id = "deck_1400s-european-history_91e349c6"
+revision = 1
+name = "1400s European History"
+category = "History"
+audience = "Family"
+difficulty = "Hard"
+special_prompt_note = "Cards should include 15th-century European events, rulers, exploration beginnings, Renaissance starts, wars, religion, and major developments of the 1400s. Prefer real historical people, places, and events."
+photo_file_name = "1400s-european-history-91e349c6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Joan of Arc"
+
+[[cards]]
+text = "Gutenberg Press"
+
+[[cards]]
+text = "Fall of Constantinople"
+
+[[cards]]
+text = "Battle of Agincourt"
+
+[[cards]]
+text = "Wars of the Roses"
+
+[[cards]]
+text = "Lorenzo de' Medici"
+
+[[cards]]
+text = "Spanish Inquisition"
+
+[[cards]]
+text = "Treaty of Tordesillas"
+
+[[cards]]
+text = "Christopher Columbus"
+
+[[cards]]
+text = "Henry V of England"
+
+[[cards]]
+text = "Richard III"
+
+[[cards]]
+text = "Ferdinand and Isabella"
+
+[[cards]]
+text = "Mehmed the Conqueror"
+
+[[cards]]
+text = "Battle of Bosworth Field"
+
+[[cards]]
+text = "Vlad the Impaler"
+
+[[cards]]
+text = "Gutenberg Bible"
+
+[[cards]]
+text = "Council of Constance"
+
+[[cards]]
+text = "Hussite Wars"
+
+[[cards]]
+text = "Vasco da Gama"
+
+[[cards]]
+text = "Cosimo de' Medici"
+
+[[cards]]
+text = "Pazzi Conspiracy"
+
+[[cards]]
+text = "Fall of Granada"
+
+[[cards]]
+text = "Caravel"
+
+[[cards]]
+text = "Tomas de Torquemada"
+
+[[cards]]
+text = "Henry VII of England"
+
+[[cards]]
+text = "Charles the Bold"
+
+[[cards]]
+text = "Louis XI of France"
+
+[[cards]]
+text = "Sistine Chapel"
+
+[[cards]]
+text = "Sandro Botticelli"
+
+[[cards]]
+text = "Filippo Brunelleschi"
+
+[[cards]]
+text = "Leonardo da Vinci"
+
+[[cards]]
+text = "House of York"
+
+[[cards]]
+text = "House of Lancaster"
+
+[[cards]]
+text = "Great Schism"
+
+[[cards]]
+text = "Hanseatic League"
+
+[[cards]]
+text = "Republic of Venice"
+
+[[cards]]
+text = "Medici Bank"
+
+[[cards]]
+text = "John Hunyadi"
+
+[[cards]]
+text = "George of Poděbrady"
+
+[[cards]]
+text = "Battle of Castillon"
+
+[[cards]]
+text = "Elizabeth of York"
+
+[[cards]]
+text = "Maximilian I"
+
+[[cards]]
+text = "Jan Hus"
+
+[[cards]]
+text = "Girolamo Savonarola"
+
+[[cards]]
+text = "Treaty of Alcaçovas"
+
+[[cards]]
+text = "Kingdom of Castile"
+
+[[cards]]
+text = "Kingdom of Aragon"
+
+[[cards]]
+text = "Duchy of Burgundy"
+
+[[cards]]
+text = "Astrolabe"
+
+[[cards]]
+text = "Princes in the Tower"
+
+[[cards]]
+text = "Prince Henry the Navigator"
+
+[[cards]]
+text = "Bartolomeu Dias"
+
+[[cards]]
+text = "Warwick the Kingmaker"
+
+[[cards]]
+text = "Margaret of Anjou"
+
+[[cards]]
+text = "John Cabot"
+
+[[cards]]
+text = "Pope Alexander VI"
+
+[[cards]]
+text = "Ivan III of Russia"
+
+[[cards]]
+text = "Matthias Corvinus"
+
+[[cards]]
+text = "Malleus Maleficarum"
+
+[[cards]]
+text = "William Caxton"
+
+[[cards]]
+text = "Donatello"
+
+[[cards]]
+text = "Charles VII of France"
+
+[[cards]]
+text = "Peace of Lodi"
+
+[[cards]]
+text = "Battle of Barnet"
+
+[[cards]]
+text = "Battle of Tewkesbury"
+
+[[cards]]
+text = "Jan van Eyck"
+
+[[cards]]
+text = "Christine de Pizan"
+
+[[cards]]
+text = "Treaty of Troyes"
+
+[[cards]]
+text = "Thomas à Kempis"
+
+[[cards]]
+text = "Stand on the Ugra"
+
+[[cards]]
+text = "Condottieri"
+
+[[cards]]
+text = "Amerigo Vespucci"
+
+[[cards]]
+text = "Pico della Mirandola"
+
+[[cards]]
+text = "Emperor Frederick III"
+
+[[cards]]
+text = "Pope Sixtus IV"
+
+[[cards]]
+text = "Ludovico Sforza"
+
+[[cards]]
+text = "Perkin Warbeck"
+
+[[cards]]
+text = "Lambert Simnel"
+
+[[cards]]
+text = "Stephen the Great"
+
+[[cards]]
+text = "Jacques Cœur"
+
+[[cards]]
+text = "Battle of Varna"
+
+[[cards]]
+text = "Thirteen Years' War"
+
+[[cards]]
+text = "Second Treaty of Thorn"
+
+[[cards]]
+text = "Aldus Manutius"
+
+[[cards]]
+text = "Battle of Patay"
+
+[[cards]]
+text = "Council of Basel"
+
+[[cards]]
+text = "Thomas Malory"
+
+[[cards]]
+text = "Edward IV of England"
+
+[[cards]]
+text = "Henry VI of England"
+
+[[cards]]
+text = "Charles VIII of France"
+
+[[cards]]
+text = "Isabella of Portugal"
+
+[[cards]]
+text = "Emperor Sigismund"
+
+[[cards]]
+text = "Leon Battista Alberti"
+
+[[cards]]
+text = "Battle of Formigny"
+
+[[cards]]
+text = "Jean Fouquet"
+
+[[cards]]
+text = "Alhambra Decree"
+
+[[cards]]
+text = "Battle of Towton"
+
+[[cards]]
+text = "Doge Francesco Foscari"
+
+[[cards]]
+text = "Robert Campin"
+
+[[cards]]
+text = "Elizabeth Woodville"
+
+[[cards]]
+text = "Battle of Grunwald"
+
+[[cards]]
+text = "Ghent Altarpiece"
+
+[[cards]]
+text = "Kalmar Union"
+
+[[cards]]
+text = "Gates of Paradise"
+
+[[cards]]
+text = "Philip the Good"
+
+[[cards]]
+text = "Mary of Burgundy"
+
+[[cards]]
+text = "John the Fearless"
+
+[[cards]]
+text = "Lorenzo Ghiberti"
+
+[[cards]]
+text = "Masaccio"
+
+[[cards]]
+text = "Piero della Francesca"
+
+[[cards]]
+text = "Fra Angelico"
+
+[[cards]]
+text = "Duchy of Milan"
+
+[[cards]]
+text = "Kingdom of Naples"
+
+[[cards]]
+text = "Battle of Stoke Field"
+
+[[cards]]
+text = "Francesco Sforza"
+
+[[cards]]
+text = "Pope Martin V"
+
+[[cards]]
+text = "Council of Florence"
+
+[[cards]]
+text = "Treaty of Arras"
+
+[[cards]]
+text = "Jack Cade's Rebellion"
+
+[[cards]]
+text = "Siege of Orléans"
+
+[[cards]]
+text = "Gilles de Rais"
+
+[[cards]]
+text = "Pope Nicholas V"
+
+[[cards]]
+text = "Alfonso the Magnanimous"
+
+[[cards]]
+text = "Rogier van der Weyden"
+
+[[cards]]
+text = "Hans Memling"
+
+[[cards]]
+text = "Guillaume Dufay"
+
+[[cards]]
+text = "Josquin des Prez"
+
+[[cards]]
+text = "Marsilio Ficino"
+
+[[cards]]
+text = "Battle of Verneuil"
+
+[[cards]]
+text = "Battle of Nancy"
+
+[[cards]]
+text = "Battle of Grandson"
+
+[[cards]]
+text = "Battle of Morat"
+
+[[cards]]
+text = "Carrack"
+
+[[cards]]
+text = "Portolan Chart"
+
+[[cards]]
+text = "Giovanni de' Medici"
+
+[[cards]]
+text = "Sofia Palaiologina"
+
+[[cards]]
+text = "Casimir IV Jagiellon"
+
+[[cards]]
+text = "Swiss Confederacy"
+
+[[cards]]
+text = "Palazzo Medici"
+
+[[cards]]
+text = "Charles d'Orléans"
+
+[[cards]]
+text = "Burgundian Wars"
+
+[[cards]]
+text = "Andrea del Verrocchio"
+
+[[cards]]
+text = "Michelozzo"
+
+[[cards]]
+text = "Domenico Ghirlandaio"
+
+[[cards]]
+text = "Halberd"
+
+[[cards]]
+text = "Full Plate Armor"
+
+[[cards]]
+text = "Grand Duchy of Moscow"
+
+[[cards]]
+text = "Pope Pius II"
+
+[[cards]]
+text = "King René of Anjou"
+
+[[cards]]
+text = "Movable Type"
+
+[[cards]]
+text = "The Azores"
+
+[[cards]]
+text = "Old Zürich War"
+
+[[cards]]
+text = "Arquebus"
+
+[[cards]]
+text = "Battle of Lipany"
+
+[[cards]]
+text = "The Tribute Money"
+
+[[cards]]
+text = "King Christian I"
+
+[[cards]]
+text = "Byzantine Empire"
+
+[[cards]]
+text = "The Mad War"
+
+[[cards]]
+text = "The Nuremberg Chronicle"
+
+[[cards]]
+text = "Kingdom of Navarre"
+
+[[cards]]
+text = "João Gonçalves Zarco"
+
+[[cards]]
+text = "The Santa Hermandad"
+
+[[cards]]
+text = "Bonfire of the Vanities"
+
+[[cards]]
+text = "Siege of Belgrade"
+
+[[cards]]
+text = "Florence Cathedral"
+
+[[cards]]
+text = "Duchy of Urbino"
+
+[[cards]]
+text = "Federico da Montefeltro"
+
+[[cards]]
+text = "King James III"
+
+[[cards]]
+text = "Council of Pisa"
+
+[[cards]]
+text = "Treaty of Senlis"
+
+[[cards]]
+text = "Bombard"
+
+[[cards]]
+text = "The Vitruvian Man"
+
+[[cards]]
+text = "Lorenzo Valla"
+
+[[cards]]
+text = "Cape of Good Hope"
+
+[[cards]]
+text = "Battle of the Herrings"

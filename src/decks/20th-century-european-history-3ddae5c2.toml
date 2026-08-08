@@ -1,0 +1,816 @@
+id = "deck_20th-century-european-history_3ddae5c2"
+revision = 2
+name = "20th Century European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include broad 20th-century European themes: world wars, fascism, communism, Cold War, decolonization links, culture, and major figures and events across Europe from about 1900 to 2000. Prefer real historical people, places, and events."
+photo_file_name = "20th-century-european-history-3ddae5c2-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Archduke Franz Ferdinand"
+
+[[cards]]
+text = "Treaty of Versailles"
+
+[[cards]]
+text = "Winston Churchill"
+
+[[cards]]
+text = "Adolf Hitler"
+
+[[cards]]
+text = "Joseph Stalin"
+
+[[cards]]
+text = "Benito Mussolini"
+
+[[cards]]
+text = "League of Nations"
+
+[[cards]]
+text = "The Blitz"
+
+[[cards]]
+text = "D-Day"
+
+[[cards]]
+text = "Battle of Stalingrad"
+
+[[cards]]
+text = "Trench Warfare"
+
+[[cards]]
+text = "Charles de Gaulle"
+
+[[cards]]
+text = "Berlin Wall"
+
+[[cards]]
+text = "Iron Curtain"
+
+[[cards]]
+text = "Nikita Khrushchev"
+
+[[cards]]
+text = "Margaret Thatcher"
+
+[[cards]]
+text = "Mikhail Gorbachev"
+
+[[cards]]
+text = "Sputnik"
+
+[[cards]]
+text = "Solidarity Movement"
+
+[[cards]]
+text = "Warsaw Pact"
+
+[[cards]]
+text = "NATO"
+
+[[cards]]
+text = "Checkpoint Charlie"
+
+[[cards]]
+text = "Prague Spring"
+
+[[cards]]
+text = "Chernobyl"
+
+[[cards]]
+text = "Velvet Revolution"
+
+[[cards]]
+text = "European Union"
+
+[[cards]]
+text = "Marshall Plan"
+
+[[cards]]
+text = "Euro Currency"
+
+[[cards]]
+text = "Schengen Area"
+
+[[cards]]
+text = "Albert Einstein"
+
+[[cards]]
+text = "Marie Curie"
+
+[[cards]]
+text = "Pablo Picasso"
+
+[[cards]]
+text = "The Beatles"
+
+[[cards]]
+text = "Concorde"
+
+[[cards]]
+text = "Queen Elizabeth II"
+
+[[cards]]
+text = "Sigmund Freud"
+
+[[cards]]
+text = "Russian Revolution"
+
+[[cards]]
+text = "Spanish Civil War"
+
+[[cards]]
+text = "Yuri Gagarin"
+
+[[cards]]
+text = "Tsar Nicholas II"
+
+[[cards]]
+text = "Vladimir Lenin"
+
+[[cards]]
+text = "Anne Frank"
+
+[[cards]]
+text = "Pope John Paul II"
+
+[[cards]]
+text = "German Reunification"
+
+[[cards]]
+text = "Princess Diana"
+
+[[cards]]
+text = "Battle of Britain"
+
+[[cards]]
+text = "The Suffragettes"
+
+[[cards]]
+text = "Franz Kafka"
+
+[[cards]]
+text = "Sinking of the Titanic"
+
+[[cards]]
+text = "Nobel Peace Prize"
+
+[[cards]]
+text = "Battle of the Somme"
+
+[[cards]]
+text = "Grigori Rasputin"
+
+[[cards]]
+text = "The Red Baron"
+
+[[cards]]
+text = "Weimar Republic"
+
+[[cards]]
+text = "Leon Trotsky"
+
+[[cards]]
+text = "Spanish Influenza"
+
+[[cards]]
+text = "Irish Free State"
+
+[[cards]]
+text = "Maginot Line"
+
+[[cards]]
+text = "Dunkirk Evacuation"
+
+[[cards]]
+text = "French Resistance"
+
+[[cards]]
+text = "Nuremberg Trials"
+
+[[cards]]
+text = "Alan Turing"
+
+[[cards]]
+text = "Enigma Machine"
+
+[[cards]]
+text = "Vichy France"
+
+[[cards]]
+text = "Berlin Airlift"
+
+[[cards]]
+text = "KGB"
+
+[[cards]]
+text = "Stasi"
+
+[[cards]]
+text = "Josip Broz Tito"
+
+[[cards]]
+text = "Hungarian Uprising"
+
+[[cards]]
+text = "Nicolae Ceaușescu"
+
+[[cards]]
+text = "Boris Yeltsin"
+
+[[cards]]
+text = "Willy Brandt"
+
+[[cards]]
+text = "Suez Crisis"
+
+[[cards]]
+text = "Good Friday Agreement"
+
+[[cards]]
+text = "Maastricht Treaty"
+
+[[cards]]
+text = "Coco Chanel"
+
+[[cards]]
+text = "Salvador Dalí"
+
+[[cards]]
+text = "Jean-Paul Sartre"
+
+[[cards]]
+text = "George Orwell"
+
+[[cards]]
+text = "Penicillin"
+
+[[cards]]
+text = "Stephen Hawking"
+
+[[cards]]
+text = "J.R.R. Tolkien"
+
+[[cards]]
+text = "ABBA"
+
+[[cards]]
+text = "Eurovision Song Contest"
+
+[[cards]]
+text = "Vespa"
+
+[[cards]]
+text = "1936 Berlin Olympics"
+
+[[cards]]
+text = "Simone de Beauvoir"
+
+[[cards]]
+text = "Agatha Christie"
+
+[[cards]]
+text = "Audrey Hepburn"
+
+[[cards]]
+text = "Grace Kelly"
+
+[[cards]]
+text = "The Lusitania"
+
+[[cards]]
+text = "U-boat"
+
+[[cards]]
+text = "Gallipoli Campaign"
+
+[[cards]]
+text = "Blackshirts"
+
+[[cards]]
+text = "Space Race"
+
+[[cards]]
+text = "Operation Barbarossa"
+
+[[cards]]
+text = "Algerian War"
+
+[[cards]]
+text = "Bosnian War"
+
+[[cards]]
+text = "CERN"
+
+[[cards]]
+text = "Kaiser Wilhelm II"
+
+[[cards]]
+text = "David Lloyd George"
+
+[[cards]]
+text = "King George V"
+
+[[cards]]
+text = "The Triple Entente"
+
+[[cards]]
+text = "Battle of Verdun"
+
+[[cards]]
+text = "The Munich Agreement"
+
+[[cards]]
+text = "General Franco"
+
+[[cards]]
+text = "Philippe Pétain"
+
+[[cards]]
+text = "Neville Chamberlain"
+
+[[cards]]
+text = "King George VI"
+
+[[cards]]
+text = "Yalta Conference"
+
+[[cards]]
+text = "Potsdam Conference"
+
+[[cards]]
+text = "Vyacheslav Molotov"
+
+[[cards]]
+text = "The Brandenburg Gate"
+
+[[cards]]
+text = "Dolly the Sheep"
+
+[[cards]]
+text = "James Joyce"
+
+[[cards]]
+text = "Virginia Woolf"
+
+[[cards]]
+text = "The Great Smog"
+
+[[cards]]
+text = "The Rolling Stones"
+
+[[cards]]
+text = "Punk Rock"
+
+[[cards]]
+text = "Brigitte Bardot"
+
+[[cards]]
+text = "Sophia Loren"
+
+[[cards]]
+text = "Federico Fellini"
+
+[[cards]]
+text = "Bauhaus"
+
+[[cards]]
+text = "Gustav Klimt"
+
+[[cards]]
+text = "Marcel Proust"
+
+[[cards]]
+text = "Albert Camus"
+
+[[cards]]
+text = "Niels Bohr"
+
+[[cards]]
+text = "Orient Express"
+
+[[cards]]
+text = "John Maynard Keynes"
+
+[[cards]]
+text = "Tour de France"
+
+[[cards]]
+text = "The Troubles"
+
+[[cards]]
+text = "West Germany"
+
+[[cards]]
+text = "East Germany"
+
+[[cards]]
+text = "Soviet Union"
+
+[[cards]]
+text = "Red Army"
+
+[[cards]]
+text = "Gulag"
+
+[[cards]]
+text = "MI6"
+
+[[cards]]
+text = "Ian Fleming"
+
+[[cards]]
+text = "Abdication Crisis"
+
+[[cards]]
+text = "Wallis Simpson"
+
+[[cards]]
+text = "Erwin Rommel"
+
+[[cards]]
+text = "Warsaw Ghetto Uprising"
+
+[[cards]]
+text = "Velvet Divorce"
+
+[[cards]]
+text = "The Singing Revolution"
+
+[[cards]]
+text = "Lech Wałęsa"
+
+[[cards]]
+text = "Vatican II"
+
+[[cards]]
+text = "Channel Tunnel"
+
+[[cards]]
+text = "Zimmermann Telegram"
+
+[[cards]]
+text = "Easter Rising"
+
+[[cards]]
+text = "Emmeline Pankhurst"
+
+[[cards]]
+text = "Treaty of Brest-Litovsk"
+
+[[cards]]
+text = "The Bolsheviks"
+
+[[cards]]
+text = "Bletchley Park"
+
+[[cards]]
+text = "The Gestapo"
+
+[[cards]]
+text = "The Axis Powers"
+
+[[cards]]
+text = "The Allies"
+
+[[cards]]
+text = "Battle of the Atlantic"
+
+[[cards]]
+text = "The Bismarck"
+
+[[cards]]
+text = "Guernica"
+
+[[cards]]
+text = "The White Rose"
+
+[[cards]]
+text = "The Kindertransport"
+
+[[cards]]
+text = "The Berlin Blockade"
+
+[[cards]]
+text = "The Cold War"
+
+[[cards]]
+text = "Treaty of Rome"
+
+[[cards]]
+text = "European Parliament"
+
+[[cards]]
+text = "The Falklands War"
+
+[[cards]]
+text = "The Yugoslav Wars"
+
+[[cards]]
+text = "Commonwealth of Nations"
+
+[[cards]]
+text = "Decolonization"
+
+[[cards]]
+text = "The Cod Wars"
+
+[[cards]]
+text = "May 1968"
+
+[[cards]]
+text = "Alexander Fleming"
+
+[[cards]]
+text = "C.S. Lewis"
+
+[[cards]]
+text = "Aldous Huxley"
+
+[[cards]]
+text = "Carl Jung"
+
+[[cards]]
+text = "Erwin Schrödinger"
+
+[[cards]]
+text = "Valentina Tereshkova"
+
+[[cards]]
+text = "Laika"
+
+[[cards]]
+text = "Cannes Film Festival"
+
+[[cards]]
+text = "Pink Floyd"
+
+[[cards]]
+text = "U2"
+
+[[cards]]
+text = "The Sex Pistols"
+
+[[cards]]
+text = "Art Deco"
+
+[[cards]]
+text = "Surrealism"
+
+[[cards]]
+text = "Existentialism"
+
+[[cards]]
+text = "Marlene Dietrich"
+
+[[cards]]
+text = "Ingmar Bergman"
+
+[[cards]]
+text = "The Mini Cooper"
+
+[[cards]]
+text = "King Edward VIII"
+
+[[cards]]
+text = "The Vatican City"
+
+[[cards]]
+text = "Anglo-Irish Treaty"
+
+[[cards]]
+text = "Non-Aligned Movement"
+
+[[cards]]
+text = "Romanian Revolution"
+
+[[cards]]
+text = "The Winter War"
+
+[[cards]]
+text = "Schlieffen Plan"
+
+[[cards]]
+text = "Battle of Jutland"
+
+[[cards]]
+text = "Georges Clemenceau"
+
+[[cards]]
+text = "Thomas Mann"
+
+[[cards]]
+text = "Dmitri Shostakovich"
+
+[[cards]]
+text = "Leonid Brezhnev"
+
+[[cards]]
+text = "Konrad Adenauer"
+
+[[cards]]
+text = "Helmut Kohl"
+
+[[cards]]
+text = "François Mitterrand"
+
+[[cards]]
+text = "Helsinki Accords"
+
+[[cards]]
+text = "Henri Matisse"
+
+[[cards]]
+text = "Igor Stravinsky"
+
+[[cards]]
+text = "Edith Piaf"
+
+[[cards]]
+text = "David Bowie"
+
+[[cards]]
+text = "Elton John"
+
+[[cards]]
+text = "U-2 Incident"
+
+[[cards]]
+text = "Beer Hall Putsch"
+
+[[cards]]
+text = "Anschluss"
+
+[[cards]]
+text = "Reichstag Fire"
+
+[[cards]]
+text = "Vidkun Quisling"
+
+[[cards]]
+text = "Oskar Schindler"
+
+[[cards]]
+text = "Raoul Wallenberg"
+
+[[cards]]
+text = "Battle of Kursk"
+
+[[cards]]
+text = "Siege of Leningrad"
+
+[[cards]]
+text = "Clement Attlee"
+
+[[cards]]
+text = "Harold Wilson"
+
+[[cards]]
+text = "Rubik's Cube"
+
+[[cards]]
+text = "Volkswagen Beetle"
+
+[[cards]]
+text = "Max Planck"
+
+[[cards]]
+text = "Werner Heisenberg"
+
+[[cards]]
+text = "Lise Meitner"
+
+[[cards]]
+text = "Samuel Beckett"
+
+[[cards]]
+text = "George Bernard Shaw"
+
+[[cards]]
+text = "Luciano Pavarotti"
+
+[[cards]]
+text = "Maria Callas"
+
+[[cards]]
+text = "Joan Miró"
+
+[[cards]]
+text = "René Magritte"
+
+[[cards]]
+text = "Fritz Lang"
+
+[[cards]]
+text = "Jean-Luc Godard"
+
+[[cards]]
+text = "Jean Monnet"
+
+[[cards]]
+text = "Robert Schuman"
+
+[[cards]]
+text = "1972 Munich Olympics"
+
+[[cards]]
+text = "Erich Honecker"
+
+[[cards]]
+text = "Andrei Sakharov"
+
+[[cards]]
+text = "Alexander Dubček"
+
+[[cards]]
+text = "King Juan Carlos"
+
+[[cards]]
+text = "Wembley Stadium"
+
+[[cards]]
+text = "Abbey Road"
+
+[[cards]]
+text = "Sudetenland"
+
+[[cards]]
+text = "Locarno Treaties"
+
+[[cards]]
+text = "Trabant"
+
+[[cards]]
+text = "Spitfire"
+
+[[cards]]
+text = "The Kremlin"
+
+[[cards]]
+text = "Luftwaffe"
+
+[[cards]]
+text = "House of Windsor"
+
+[[cards]]
+text = "The Hindenburg"
+
+[[cards]]
+text = "The Mensheviks"
+
+[[cards]]
+text = "The Black Hand"
+
+[[cards]]
+text = "V-E Day"
+
+[[cards]]
+text = "The Rhineland"
+
+[[cards]]
+text = "Red Square"
+
+[[cards]]
+text = "The Dreadnought"
+
+[[cards]]
+text = "Battle of the Marne"
+
+[[cards]]
+text = "Tehran Conference"
+
+[[cards]]
+text = "Irish Republican Army"
+
+[[cards]]
+text = "The Big Three"
+
+[[cards]]
+text = "Sinn Féin"
+
+[[cards]]
+text = "The Home Guard"
+
+[[cards]]
+text = "Prince Charles"
+
+[[cards]]
+text = "French Foreign Legion"
+
+[[cards]]
+text = "The Triple Alliance"
+
+[[cards]]
+text = "The Winter Palace"
+
+[[cards]]
+text = "The Partisans"
+
+[[cards]]
+text = "Council of Europe"
+
+[[cards]]
+text = "Kellogg-Briand Pact"

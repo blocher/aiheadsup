@@ -1,0 +1,486 @@
+id = "deck_chicago-foods_f8ab24bc"
+revision = 2
+name = "Chicago Foods"
+category = "Food"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include iconic Chicago dishes, sandwiches, desserts, street foods, neighborhood specialties, restaurants and food traditions, and recognizable Chicago food terms. Prefer real Chicago foods and food culture."
+photo_file_name = "chicago-foods-f8ab24bc-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Deep Dish Pizza"
+
+[[cards]]
+text = "Chicago Hot Dog"
+
+[[cards]]
+text = "Italian Beef"
+
+[[cards]]
+text = "Garrett Popcorn"
+
+[[cards]]
+text = "Rainbow Cone"
+
+[[cards]]
+text = "Maxwell Street Polish"
+
+[[cards]]
+text = "Giardiniera"
+
+[[cards]]
+text = "Tavern Style Pizza"
+
+[[cards]]
+text = "Pizza Puff"
+
+[[cards]]
+text = "Portillo's"
+
+[[cards]]
+text = "Lou Malnati's"
+
+[[cards]]
+text = "Giordano's"
+
+[[cards]]
+text = "Frango Mints"
+
+[[cards]]
+text = "Eli's Cheesecake"
+
+[[cards]]
+text = "Chicken Vesuvio"
+
+[[cards]]
+text = "Shrimp De Jonghe"
+
+[[cards]]
+text = "Gym Shoe Sandwich"
+
+[[cards]]
+text = "Jibarito"
+
+[[cards]]
+text = "Rib Tips"
+
+[[cards]]
+text = "Chicago Mild Sauce"
+
+[[cards]]
+text = "Superdawg"
+
+[[cards]]
+text = "Billy Goat Tavern"
+
+[[cards]]
+text = "Green River Soda"
+
+[[cards]]
+text = "Atomic Cake"
+
+[[cards]]
+text = "Pizza Pot Pie"
+
+[[cards]]
+text = "Harold's Chicken Shack"
+
+[[cards]]
+text = "Pepper and Egg Sandwich"
+
+[[cards]]
+text = "Sport Peppers"
+
+[[cards]]
+text = "Celery Salt"
+
+[[cards]]
+text = "Neon Green Relish"
+
+[[cards]]
+text = "Poppy Seed Bun"
+
+[[cards]]
+text = "Char Dog"
+
+[[cards]]
+text = "Gene & Jude's"
+
+[[cards]]
+text = "The Wiener's Circle"
+
+[[cards]]
+text = "Maxwell Street Pork Chop"
+
+[[cards]]
+text = "Mario's Italian Lemonade"
+
+[[cards]]
+text = "Manny's Deli"
+
+[[cards]]
+text = "Paczki"
+
+[[cards]]
+text = "Cheezborger"
+
+[[cards]]
+text = "Fannie May Chocolates"
+
+[[cards]]
+text = "Flaming Saganaki"
+
+[[cards]]
+text = "Gravy Bread"
+
+[[cards]]
+text = "Pizzeria Uno"
+
+[[cards]]
+text = "Stan's Donuts"
+
+[[cards]]
+text = "Do-Rite Donuts"
+
+[[cards]]
+text = "Pizza Bread"
+
+[[cards]]
+text = "Palmer House Brownie"
+
+[[cards]]
+text = "The Tamale Guy"
+
+[[cards]]
+text = "Mother-in-Law Sandwich"
+
+[[cards]]
+text = "Calumet Fisheries"
+
+[[cards]]
+text = "Pequod's Pizza"
+
+[[cards]]
+text = "Margie's Candies"
+
+[[cards]]
+text = "Jay's Potato Chips"
+
+[[cards]]
+text = "Vitner's Potato Chips"
+
+[[cards]]
+text = "Taste of Chicago"
+
+[[cards]]
+text = "Kolacky"
+
+[[cards]]
+text = "Depression Dog"
+
+[[cards]]
+text = "Hot Doug's"
+
+[[cards]]
+text = "Gibsons Steakhouse"
+
+[[cards]]
+text = "Gene & Georgetti"
+
+[[cards]]
+text = "Valois Restaurant"
+
+[[cards]]
+text = "Berghoff Root Beer"
+
+[[cards]]
+text = "Honey Butter Fried Chicken"
+
+[[cards]]
+text = "El Milagro Tortillas"
+
+[[cards]]
+text = "Bang Bang Pie"
+
+[[cards]]
+text = "Lao Sze Chuan"
+
+[[cards]]
+text = "Twin Anchors"
+
+[[cards]]
+text = "Lem's BBQ"
+
+[[cards]]
+text = "Freddy Sandwich"
+
+[[cards]]
+text = "Smoked Chub"
+
+[[cards]]
+text = "Smoque BBQ"
+
+[[cards]]
+text = "Maxwell Street Market"
+
+[[cards]]
+text = "Sweet Mandy B's"
+
+[[cards]]
+text = "Chicago Style Ribs"
+
+[[cards]]
+text = "Chocolate Cake Shake"
+
+[[cards]]
+text = "Vito & Nick's"
+
+[[cards]]
+text = "Chiu Quon Bakery"
+
+[[cards]]
+text = "Aquarium Smoker"
+
+[[cards]]
+text = "Geja's Cafe"
+
+[[cards]]
+text = "Lou Mitchell's"
+
+[[cards]]
+text = "Greektown Gyros"
+
+[[cards]]
+text = "Alinea"
+
+[[cards]]
+text = "Uncle John's BBQ"
+
+[[cards]]
+text = "Alliance Bakery"
+
+[[cards]]
+text = "Jarosch Bakery"
+
+[[cards]]
+text = "Vienna Beef Hot Dog"
+
+[[cards]]
+text = "Drag Through the Garden"
+
+[[cards]]
+text = "No Ketchup"
+
+[[cards]]
+text = "Beef Combo Sandwich"
+
+[[cards]]
+text = "Ricobene's"
+
+[[cards]]
+text = "Breaded Steak Sandwich"
+
+[[cards]]
+text = "Square Cut Pizza"
+
+[[cards]]
+text = "Gino's East"
+
+[[cards]]
+text = "Stuffed Pizza"
+
+[[cards]]
+text = "Art of Pizza"
+
+[[cards]]
+text = "Bacci Jumbo Slice"
+
+[[cards]]
+text = "Merkts Cheddar"
+
+[[cards]]
+text = "Chicago Mix Popcorn"
+
+[[cards]]
+text = "Taffy Grapes"
+
+[[cards]]
+text = "Affy Tapple"
+
+[[cards]]
+text = "Jim's Original"
+
+[[cards]]
+text = "Express Grill"
+
+[[cards]]
+text = "Potbelly Sandwich Shop"
+
+[[cards]]
+text = "Doughnut Vault"
+
+[[cards]]
+text = "Dat Donut"
+
+[[cards]]
+text = "The Big Dat"
+
+[[cards]]
+text = "Au Cheval Burger"
+
+[[cards]]
+text = "Small Cheval"
+
+[[cards]]
+text = "The Loyalist Burger"
+
+[[cards]]
+text = "Chicago Diner"
+
+[[cards]]
+text = "Rick Bayless"
+
+[[cards]]
+text = "Frontera Grill"
+
+[[cards]]
+text = "Topolobampo"
+
+[[cards]]
+text = "Xoco"
+
+[[cards]]
+text = "Carnitas Uruapan"
+
+[[cards]]
+text = "Carnitas by the Pound"
+
+[[cards]]
+text = "Birrieria Zaragoza"
+
+[[cards]]
+text = "Sox Park Elotes"
+
+[[cards]]
+text = "Old Style Beer"
+
+[[cards]]
+text = "Goose Island 312"
+
+[[cards]]
+text = "Bourbon County Stout"
+
+[[cards]]
+text = "Chicago Handshake"
+
+[[cards]]
+text = "Malört Face"
+
+[[cards]]
+text = "Sultan's Market"
+
+[[cards]]
+text = "Ghareeb Nawaz"
+
+[[cards]]
+text = "Chinatown Dim Sum"
+
+[[cards]]
+text = "Sun Wah Peking Duck"
+
+[[cards]]
+text = "Argyle Street Pho"
+
+[[cards]]
+text = "Ba Le Banh Mi"
+
+[[cards]]
+text = "Caramelized Cheese Crust"
+
+[[cards]]
+text = "Gonnella Roll"
+
+[[cards]]
+text = "Turano French Roll"
+
+[[cards]]
+text = "Sausage Patty Pizza"
+
+[[cards]]
+text = "Garbage Salad"
+
+[[cards]]
+text = "The Walnut Room"
+
+[[cards]]
+text = "Walnut Room Pot Pie"
+
+[[cards]]
+text = "Mint Meltaway"
+
+[[cards]]
+text = "Taylor Street Lemonade"
+
+[[cards]]
+text = "Potato Pierogi"
+
+[[cards]]
+text = "Ukrainian Village Borscht"
+
+[[cards]]
+text = "Andersonville Glogg"
+
+[[cards]]
+text = "Devon Avenue Samosa"
+
+[[cards]]
+text = "Albany Park Shawarma"
+
+[[cards]]
+text = "Green City Market"
+
+[[cards]]
+text = "Taste of Randolph"
+
+[[cards]]
+text = "Ribfest Chicago"
+
+[[cards]]
+text = "Ed Debevic's"
+
+[[cards]]
+text = "Lemon Cake Shake"
+
+[[cards]]
+text = "Paleta Cart"
+
+[[cards]]
+text = "Red Cooler Tamales"
+
+[[cards]]
+text = "Budlong Hot Chicken"
+
+[[cards]]
+text = "Daisy Cutter"
+
+[[cards]]
+text = "Anti-Hero IPA"
+
+[[cards]]
+text = "Ninja vs. Unicorn"
+
+[[cards]]
+text = "Canfield's 50/50"
+
+[[cards]]
+text = "Diet Fudge Soda"
+
+[[cards]]
+text = "Kosher Pickle Spear"
+
+[[cards]]
+text = "Gold Coast Ribeye"
+
+[[cards]]
+text = "Hagen's Fish Market"

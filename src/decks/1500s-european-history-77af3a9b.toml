@@ -1,0 +1,594 @@
+id = "deck_1500s-european-history_77af3a9b"
+revision = 2
+name = "1500s European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 16th-century European Reformation, exploration, rulers, wars, art, science, and major developments of the 1500s. Prefer real historical people, places, and events."
+photo_file_name = "1500s-european-history-77af3a9b-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "King Henry VIII"
+
+[[cards]]
+text = "Queen Elizabeth I"
+
+[[cards]]
+text = "Martin Luther"
+
+[[cards]]
+text = "Michelangelo"
+
+[[cards]]
+text = "Nicolaus Copernicus"
+
+[[cards]]
+text = "Spanish Armada"
+
+[[cards]]
+text = "Spanish Inquisition"
+
+[[cards]]
+text = "Leonardo da Vinci"
+
+[[cards]]
+text = "Ninety-Five Theses"
+
+[[cards]]
+text = "Ferdinand Magellan"
+
+[[cards]]
+text = "Suleiman the Magnificent"
+
+[[cards]]
+text = "Mary, Queen of Scots"
+
+[[cards]]
+text = "Sir Francis Drake"
+
+[[cards]]
+text = "Ivan the Terrible"
+
+[[cards]]
+text = "Catherine de' Medici"
+
+[[cards]]
+text = "William Shakespeare"
+
+[[cards]]
+text = "Diet of Worms"
+
+[[cards]]
+text = "Council of Trent"
+
+[[cards]]
+text = "Gregorian Calendar"
+
+[[cards]]
+text = "Globe Theatre"
+
+[[cards]]
+text = "Sistine Chapel Ceiling"
+
+[[cards]]
+text = "Mona Lisa"
+
+[[cards]]
+text = "Emperor Charles V"
+
+[[cards]]
+text = "King Philip II"
+
+[[cards]]
+text = "John Calvin"
+
+[[cards]]
+text = "Protestant Reformation"
+
+[[cards]]
+text = "Hernán Cortés"
+
+[[cards]]
+text = "Francisco Pizarro"
+
+[[cards]]
+text = "Jacques Cartier"
+
+[[cards]]
+text = "Lost Colony of Roanoke"
+
+[[cards]]
+text = "Andreas Vesalius"
+
+[[cards]]
+text = "Tycho Brahe"
+
+[[cards]]
+text = "Battle of Lepanto"
+
+[[cards]]
+text = "St. Bartholomew's Day Massacre"
+
+[[cards]]
+text = "French Wars of Religion"
+
+[[cards]]
+text = "Act of Supremacy"
+
+[[cards]]
+text = "Jesuit Order"
+
+[[cards]]
+text = "Church of England"
+
+[[cards]]
+text = "Galleon"
+
+[[cards]]
+text = "Raphael"
+
+[[cards]]
+text = "Albrecht Dürer"
+
+[[cards]]
+text = "Miguel de Cervantes"
+
+[[cards]]
+text = "Sir Walter Raleigh"
+
+[[cards]]
+text = "Elizabethan Era"
+
+[[cards]]
+text = "King Francis I"
+
+[[cards]]
+text = "Thomas More"
+
+[[cards]]
+text = "Utopia"
+
+[[cards]]
+text = "Siege of Vienna"
+
+[[cards]]
+text = "Anne Boleyn"
+
+[[cards]]
+text = "Queen Mary I"
+
+[[cards]]
+text = "King Edward VI"
+
+[[cards]]
+text = "Lady Jane Grey"
+
+[[cards]]
+text = "Catherine of Aragon"
+
+[[cards]]
+text = "Jane Seymour"
+
+[[cards]]
+text = "Anne of Cleves"
+
+[[cards]]
+text = "Catherine Howard"
+
+[[cards]]
+text = "Catherine Parr"
+
+[[cards]]
+text = "Cardinal Thomas Wolsey"
+
+[[cards]]
+text = "Niccolò Machiavelli"
+
+[[cards]]
+text = "The Prince"
+
+[[cards]]
+text = "Huguenots"
+
+[[cards]]
+text = "Puritans"
+
+[[cards]]
+text = "Peace of Augsburg"
+
+[[cards]]
+text = "Edict of Nantes"
+
+[[cards]]
+text = "Pope Leo X"
+
+[[cards]]
+text = "Thomas Cranmer"
+
+[[cards]]
+text = "John Knox"
+
+[[cards]]
+text = "Huldrych Zwingli"
+
+[[cards]]
+text = "William the Silent"
+
+[[cards]]
+text = "Gustav Vasa"
+
+[[cards]]
+text = "Ponce de León"
+
+[[cards]]
+text = "Vasco Núñez de Balboa"
+
+[[cards]]
+text = "Amerigo Vespucci"
+
+[[cards]]
+text = "Conquistador"
+
+[[cards]]
+text = "El Dorado"
+
+[[cards]]
+text = "Caravel"
+
+[[cards]]
+text = "Astrolabe"
+
+[[cards]]
+text = "Mercator Projection"
+
+[[cards]]
+text = "Titian"
+
+[[cards]]
+text = "El Greco"
+
+[[cards]]
+text = "Hans Holbein"
+
+[[cards]]
+text = "Pieter Bruegel"
+
+[[cards]]
+text = "Christopher Marlowe"
+
+[[cards]]
+text = "Giordano Bruno"
+
+[[cards]]
+text = "Paracelsus"
+
+[[cards]]
+text = "Sack of Rome"
+
+[[cards]]
+text = "Eighty Years' War"
+
+[[cards]]
+text = "German Peasants' War"
+
+[[cards]]
+text = "Schmalkaldic League"
+
+[[cards]]
+text = "El Escorial"
+
+[[cards]]
+text = "English Bible"
+
+[[cards]]
+text = "Battle of Pavia"
+
+[[cards]]
+text = "Tudor Rose"
+
+[[cards]]
+text = "Doublet and Hose"
+
+[[cards]]
+text = "Ruff Collar"
+
+[[cards]]
+text = "Spanish Doubloon"
+
+[[cards]]
+text = "Pope Julius II"
+
+[[cards]]
+text = "Pedro Álvares Cabral"
+
+[[cards]]
+text = "Thomas Cromwell"
+
+[[cards]]
+text = "The Spanish Main"
+
+[[cards]]
+text = "Treaty of Tordesillas"
+
+[[cards]]
+text = "The Spice Trade"
+
+[[cards]]
+text = "Farthingale"
+
+[[cards]]
+text = "Codpiece"
+
+[[cards]]
+text = "Hieronymus Bosch"
+
+[[cards]]
+text = "Isabella d'Este"
+
+[[cards]]
+text = "Matchlock Musket"
+
+[[cards]]
+text = "Halberd"
+
+[[cards]]
+text = "Rapier"
+
+[[cards]]
+text = "Madrigal"
+
+[[cards]]
+text = "The Lute"
+
+[[cards]]
+text = "Harpsichord"
+
+[[cards]]
+text = "Johannes Kepler"
+
+[[cards]]
+text = "Michel de Montaigne"
+
+[[cards]]
+text = "The Babington Plot"
+
+[[cards]]
+text = "The Ridolfi Plot"
+
+[[cards]]
+text = "Battle of Flodden"
+
+[[cards]]
+text = "Battle of Mohács"
+
+[[cards]]
+text = "The Italian Wars"
+
+[[cards]]
+text = "Mannerism"
+
+[[cards]]
+text = "Union of Utrecht"
+
+[[cards]]
+text = "Union of Lublin"
+
+[[cards]]
+text = "The Low Countries"
+
+[[cards]]
+text = "Scurvy"
+
+[[cards]]
+text = "Cross-staff"
+
+[[cards]]
+text = "Portolan Chart"
+
+[[cards]]
+text = "Carrack"
+
+[[cards]]
+text = "Wheellock Pistol"
+
+[[cards]]
+text = "Pomander"
+
+[[cards]]
+text = "Alchemy"
+
+[[cards]]
+text = "Philipp Melanchthon"
+
+[[cards]]
+text = "Auto-da-fé"
+
+[[cards]]
+text = "Don John of Austria"
+
+[[cards]]
+text = "Henry II of France"
+
+[[cards]]
+text = "Robert Dudley"
+
+[[cards]]
+text = "William Cecil"
+
+[[cards]]
+text = "King Sebastian"
+
+[[cards]]
+text = "Mary of Guise"
+
+[[cards]]
+text = "Sofonisba Anguissola"
+
+[[cards]]
+text = "The Courtier"
+
+[[cards]]
+text = "Baldassare Castiglione"
+
+[[cards]]
+text = "Münster Rebellion"
+
+[[cards]]
+text = "The Spanish Road"
+
+[[cards]]
+text = "Broadside Ballad"
+
+[[cards]]
+text = "Jeanne d'Albret"
+
+[[cards]]
+text = "Paolo Veronese"
+
+[[cards]]
+text = "Mary Rose"
+
+[[cards]]
+text = "Morion Helmet"
+
+[[cards]]
+text = "Commedia dell'arte"
+
+[[cards]]
+text = "Pike and Shot"
+
+[[cards]]
+text = "Henry IV of France"
+
+[[cards]]
+text = "James VI of Scotland"
+
+[[cards]]
+text = "Arquebus"
+
+[[cards]]
+text = "Tenochtitlan"
+
+[[cards]]
+text = "Pope Clement VII"
+
+[[cards]]
+text = "Andrea Palladio"
+
+[[cards]]
+text = "Giorgio Vasari"
+
+[[cards]]
+text = "Giovanni Palestrina"
+
+[[cards]]
+text = "Ambroise Paré"
+
+[[cards]]
+text = "New Spain"
+
+[[cards]]
+text = "Pilgrimage of Grace"
+
+[[cards]]
+text = "Mary Tudor of France"
+
+[[cards]]
+text = "Benvenuto Cellini"
+
+[[cards]]
+text = "Pocket Watch"
+
+[[cards]]
+text = "Manila Galleon"
+
+[[cards]]
+text = "Potosí"
+
+[[cards]]
+text = "Venetian Glass"
+
+[[cards]]
+text = "Manuel I of Portugal"
+
+[[cards]]
+text = "Isabella I of Castile"
+
+[[cards]]
+text = "Margaret of Navarre"
+
+[[cards]]
+text = "Robert Devereux"
+
+[[cards]]
+text = "Don Carlos of Spain"
+
+[[cards]]
+text = "Charles IX of France"
+
+[[cards]]
+text = "Henry III of France"
+
+[[cards]]
+text = "University of Wittenberg"
+
+[[cards]]
+text = "War of Three Henrys"
+
+[[cards]]
+text = "The Northern Rebellion"
+
+[[cards]]
+text = "Gresham College"
+
+[[cards]]
+text = "Girolamo Cardano"
+
+[[cards]]
+text = "Andrea Doria"
+
+[[cards]]
+text = "Pope Paul III"
+
+[[cards]]
+text = "Viceroyalty of Peru"
+
+[[cards]]
+text = "The Rose Theatre"
+
+[[cards]]
+text = "Great Harry"
+
+[[cards]]
+text = "Flyboat"
+
+[[cards]]
+text = "Demi-culverin"
+
+[[cards]]
+text = "Jerkin"
+
+[[cards]]
+text = "Morisco"
+
+[[cards]]
+text = "Orlando di Lasso"
+
+[[cards]]
+text = "Conrad Gessner"
+
+[[cards]]
+text = "Treaty of Cateau-Cambrésis"
+
+[[cards]]
+text = "Northern Renaissance"
+
+[[cards]]
+text = "Union of Kalmar"
+
+[[cards]]
+text = "Anabaptists"
+
+[[cards]]
+text = "The Tudor Navy"

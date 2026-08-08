@@ -1,0 +1,534 @@
+id = "deck_hardy-boys_2813d6bf"
+revision = 2
+name = "Hardy Boys"
+category = "Books"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include characters, places, mysteries, book titles, clues, vehicles, and memorable details from the Hardy Boys books. Prefer classic series content; keep family-friendly."
+photo_file_name = "hardy-boys-2813d6bf-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Frank Hardy"
+
+[[cards]]
+text = "Joe Hardy"
+
+[[cards]]
+text = "Fenton Hardy"
+
+[[cards]]
+text = "Aunt Gertrude"
+
+[[cards]]
+text = "Chet Morton"
+
+[[cards]]
+text = "Callie Shaw"
+
+[[cards]]
+text = "Iola Morton"
+
+[[cards]]
+text = "Bayport"
+
+[[cards]]
+text = "Barmet Bay"
+
+[[cards]]
+text = "Chet's Jalopy"
+
+[[cards]]
+text = "The Sleuth"
+
+[[cards]]
+text = "The Tower Treasure"
+
+[[cards]]
+text = "Chief Collig"
+
+[[cards]]
+text = "Biff Hooper"
+
+[[cards]]
+text = "Tony Prito"
+
+[[cards]]
+text = "Phil Cohen"
+
+[[cards]]
+text = "Laura Hardy"
+
+[[cards]]
+text = "Tower Mansion"
+
+[[cards]]
+text = "House on the Cliff"
+
+[[cards]]
+text = "Secret of the Caves"
+
+[[cards]]
+text = "Shore Road Mystery"
+
+[[cards]]
+text = "Cabin Island"
+
+[[cards]]
+text = "Hurd Applegate"
+
+[[cards]]
+text = "Shortwave Radio"
+
+[[cards]]
+text = "Magnifying Glass"
+
+[[cards]]
+text = "Skeleton Key"
+
+[[cards]]
+text = "Counterfeit Money"
+
+[[cards]]
+text = "Secret Compartment"
+
+[[cards]]
+text = "Black Ledge"
+
+[[cards]]
+text = "Detective Notebook"
+
+[[cards]]
+text = "Motorcycle"
+
+[[cards]]
+text = "Red Crow Tavern"
+
+[[cards]]
+text = "Clue in the Embers"
+
+[[cards]]
+text = "Footprints"
+
+[[cards]]
+text = "Microfilm"
+
+[[cards]]
+text = "Haunted Fort"
+
+[[cards]]
+text = "The Flying Express"
+
+[[cards]]
+text = "Gold Doubloons"
+
+[[cards]]
+text = "Willow River"
+
+[[cards]]
+text = "Detective Smuff"
+
+[[cards]]
+text = "Secret Passage"
+
+[[cards]]
+text = "Binoculars"
+
+[[cards]]
+text = "The Missing Chums"
+
+[[cards]]
+text = "Hunting for Hidden Gold"
+
+[[cards]]
+text = "Great Dune"
+
+[[cards]]
+text = "The Old Mill"
+
+[[cards]]
+text = "The Sinister Signpost"
+
+[[cards]]
+text = "Bayport Police"
+
+[[cards]]
+text = "The Flickering Torch"
+
+[[cards]]
+text = "Disguise Kit"
+
+[[cards]]
+text = "Sam Radley"
+
+[[cards]]
+text = "Jack Wayne"
+
+[[cards]]
+text = "Con Riley"
+
+[[cards]]
+text = "Red Jackley"
+
+[[cards]]
+text = "Adelia Applegate"
+
+[[cards]]
+text = "Perry Robinson"
+
+[[cards]]
+text = "Secret of Wildcat Swamp"
+
+[[cards]]
+text = "The Broken Blade"
+
+[[cards]]
+text = "Yellow Feather Mystery"
+
+[[cards]]
+text = "The Spiral Bridge"
+
+[[cards]]
+text = "The Hooded Hawk"
+
+[[cards]]
+text = "The Wailing Siren"
+
+[[cards]]
+text = "The Phantom Freighter"
+
+[[cards]]
+text = "Secret of Lost Tunnel"
+
+[[cards]]
+text = "The Crooked Arrow"
+
+[[cards]]
+text = "The Secret Warning"
+
+[[cards]]
+text = "The Mysterious Caravan"
+
+[[cards]]
+text = "The Witchmaster's Key"
+
+[[cards]]
+text = "The Disappearing Floor"
+
+[[cards]]
+text = "The Masked Monkey"
+
+[[cards]]
+text = "The Shattered Helmet"
+
+[[cards]]
+text = "The Screeching Owl"
+
+[[cards]]
+text = "Viking Symbol Mystery"
+
+[[cards]]
+text = "What Happened at Midnight"
+
+[[cards]]
+text = "The Aztec Warrior"
+
+[[cards]]
+text = "While the Clock Ticked"
+
+[[cards]]
+text = "A Figure in Hiding"
+
+[[cards]]
+text = "Secret of Skull Mountain"
+
+[[cards]]
+text = "Fingerprint Powder"
+
+[[cards]]
+text = "Walkie Talkie"
+
+[[cards]]
+text = "Handcuffs"
+
+[[cards]]
+text = "Compass"
+
+[[cards]]
+text = "Invisible Ink"
+
+[[cards]]
+text = "Code Wheel"
+
+[[cards]]
+text = "Lock Pick"
+
+[[cards]]
+text = "Flashlight"
+
+[[cards]]
+text = "Speedboat"
+
+[[cards]]
+text = "Biplane"
+
+[[cards]]
+text = "Devil's Tail"
+
+[[cards]]
+text = "Smugglers' Cove"
+
+[[cards]]
+text = "Coyote Canyon"
+
+[[cards]]
+text = "Honeycomb Caves"
+
+[[cards]]
+text = "Rocky Isle"
+
+[[cards]]
+text = "Secret Panel"
+
+[[cards]]
+text = "Hidden Camera"
+
+[[cards]]
+text = "False Bottom Trunk"
+
+[[cards]]
+text = "Kidnapped Detective"
+
+[[cards]]
+text = "Anonymous Tip"
+
+[[cards]]
+text = "The Crisscross Shadow"
+
+[[cards]]
+text = "Franklin W. Dixon"
+
+[[cards]]
+text = "Leslie McFarlane"
+
+[[cards]]
+text = "Nancy Drew"
+
+[[cards]]
+text = "Teen Detectives"
+
+[[cards]]
+text = "Stratemeyer Syndicate"
+
+[[cards]]
+text = "Elm Street"
+
+[[cards]]
+text = "Amateur Sleuths"
+
+[[cards]]
+text = "The Melted Coins"
+
+[[cards]]
+text = "Undercover Agent"
+
+[[cards]]
+text = "The Hidden Harbor Mystery"
+
+[[cards]]
+text = "Skeleton Rock"
+
+[[cards]]
+text = "The Desert Giant"
+
+[[cards]]
+text = "The Chinese Junk"
+
+[[cards]]
+text = "The Whale Tattoo"
+
+[[cards]]
+text = "The Hissing Serpent"
+
+[[cards]]
+text = "The Bombay Boomerang"
+
+[[cards]]
+text = "Danger on Vampire Trail"
+
+[[cards]]
+text = "The Jungle Pyramid"
+
+[[cards]]
+text = "The Firebird Rocket"
+
+[[cards]]
+text = "Sting of the Scorpion"
+
+[[cards]]
+text = "Codebook"
+
+[[cards]]
+text = "Casefiles Series"
+
+[[cards]]
+text = "Art Forgers"
+
+[[cards]]
+text = "Bank Robbers"
+
+[[cards]]
+text = "Cat Burglar"
+
+[[cards]]
+text = "The Coast Guard"
+
+[[cards]]
+text = "False Mustache"
+
+[[cards]]
+text = "Trench Coat"
+
+[[cards]]
+text = "Stakeout"
+
+[[cards]]
+text = "Chloroform"
+
+[[cards]]
+text = "Warning Note"
+
+[[cards]]
+text = "Ransom Note"
+
+[[cards]]
+text = "Stolen Jewels"
+
+[[cards]]
+text = "Stolen Artifacts"
+
+[[cards]]
+text = "Ham Radio"
+
+[[cards]]
+text = "Morse Code"
+
+[[cards]]
+text = "S.O.S. Signal"
+
+[[cards]]
+text = "Hidden Room"
+
+[[cards]]
+text = "Trapdoor"
+
+[[cards]]
+text = "Abandoned Mine"
+
+[[cards]]
+text = "Crime Lab"
+
+[[cards]]
+text = "Front Page News"
+
+[[cards]]
+text = "Morton Farm"
+
+[[cards]]
+text = "Bayport High"
+
+[[cards]]
+text = "Chet's Barn"
+
+[[cards]]
+text = "The Lighthouse"
+
+[[cards]]
+text = "Eavesdropping"
+
+[[cards]]
+text = "The Boathouse"
+
+[[cards]]
+text = "Microscope"
+
+[[cards]]
+text = "Chemical Test"
+
+[[cards]]
+text = "Blueprints"
+
+[[cards]]
+text = "Deed to Property"
+
+[[cards]]
+text = "Gold Ingots"
+
+[[cards]]
+text = "Silver Bars"
+
+[[cards]]
+text = "Diamond Necklace"
+
+[[cards]]
+text = "Cryptogram"
+
+[[cards]]
+text = "Threatening Letter"
+
+[[cards]]
+text = "Torn Photo"
+
+[[cards]]
+text = "Footprint Cast"
+
+[[cards]]
+text = "Fingerprint Card"
+
+[[cards]]
+text = "Kerosene Lantern"
+
+[[cards]]
+text = "The Hardy Attic"
+
+[[cards]]
+text = "Bayport Harbor"
+
+[[cards]]
+text = "County Jail"
+
+[[cards]]
+text = "Sheriff's Office"
+
+[[cards]]
+text = "The Train Station"
+
+[[cards]]
+text = "The Airport Hangar"
+
+[[cards]]
+text = "The Clock Tower"
+
+[[cards]]
+text = "The Old Shipyard"
+
+[[cards]]
+text = "The Quarry"
+
+[[cards]]
+text = "The Marshes"
+
+[[cards]]
+text = "The General Store"
+
+[[cards]]
+text = "The Blacksmith Shop"
+
+[[cards]]
+text = "The Yacht Club"
+
+[[cards]]
+text = "Fenton's Office"
+
+[[cards]]
+text = "Wiretapping"

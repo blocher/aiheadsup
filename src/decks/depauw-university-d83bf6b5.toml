@@ -1,0 +1,369 @@
+id = "deck_depauw-university_d83bf6b5"
+revision = 2
+name = "DePauw University"
+category = "Colleges and Universities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include campus landmarks, Tigers athletics, school history, academic traditions, notable alumni, Greencastle and Indiana connections, and recognizable DePauw University references."
+photo_file_name = "depauw-university-d83bf6b5-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "East College"
+
+[[cards]]
+text = "The Monon Bell"
+
+[[cards]]
+text = "DePauw Tigers"
+
+[[cards]]
+text = "Greencastle"
+
+[[cards]]
+text = "Percy Julian"
+
+[[cards]]
+text = "Old Gold Weekend"
+
+[[cards]]
+text = "Marvin's"
+
+[[cards]]
+text = "Garlic Cheeseburger"
+
+[[cards]]
+text = "Kappa Alpha Theta"
+
+[[cards]]
+text = "The Boulder"
+
+[[cards]]
+text = "Roy O. West Library"
+
+[[cards]]
+text = "Winter Term"
+
+[[cards]]
+text = "Eli Lilly"
+
+[[cards]]
+text = "Prindle Institute"
+
+[[cards]]
+text = "Indiana Asbury University"
+
+[[cards]]
+text = "Dan Quayle"
+
+[[cards]]
+text = "Vernon Jordan"
+
+[[cards]]
+text = "McKim Observatory"
+
+[[cards]]
+text = "DePauw Nature Park"
+
+[[cards]]
+text = "Brad Stevens"
+
+[[cards]]
+text = "Blackstock Stadium"
+
+[[cards]]
+text = "Gold and Black"
+
+[[cards]]
+text = "Green Center"
+
+[[cards]]
+text = "Peeler Art Center"
+
+[[cards]]
+text = "Bowman Pond"
+
+[[cards]]
+text = "Tyler the Tiger"
+
+[[cards]]
+text = "Gobin Memorial Church"
+
+[[cards]]
+text = "Alpha Chi Omega"
+
+[[cards]]
+text = "Julian Science Center"
+
+[[cards]]
+text = "Pulliam Center"
+
+[[cards]]
+text = "Emison Building"
+
+[[cards]]
+text = "The Boulder Run"
+
+[[cards]]
+text = "Lilly Center"
+
+[[cards]]
+text = "Ferid Murad"
+
+[[cards]]
+text = "Barbara Kingsolver"
+
+[[cards]]
+text = "Joseph P. Allen"
+
+[[cards]]
+text = "Asbury Hall"
+
+[[cards]]
+text = "Harrison Hall"
+
+[[cards]]
+text = "Olin Hall"
+
+[[cards]]
+text = "Putnam County Courthouse"
+
+[[cards]]
+text = "Buzz Bomb"
+
+[[cards]]
+text = "Almost Home"
+
+[[cards]]
+text = "Monon Railroad"
+
+[[cards]]
+text = "Inn at DePauw"
+
+[[cards]]
+text = "Myers Market"
+
+[[cards]]
+text = "WGRE"
+
+[[cards]]
+text = "The DePauw"
+
+[[cards]]
+text = "Rector Hall"
+
+[[cards]]
+text = "Wabash College"
+
+[[cards]]
+text = "Little Giants"
+
+[[cards]]
+text = "Hoover Hall"
+
+[[cards]]
+text = "Meharry Hall"
+
+[[cards]]
+text = "Locust Street"
+
+[[cards]]
+text = "South Quad"
+
+[[cards]]
+text = "Ubben Lecture Series"
+
+[[cards]]
+text = "Moore's Bar"
+
+[[cards]]
+text = "Cataract Falls"
+
+[[cards]]
+text = "Kresge Auditorium"
+
+[[cards]]
+text = "Neal Fieldhouse"
+
+[[cards]]
+text = "Management Fellows"
+
+[[cards]]
+text = "Media Fellows"
+
+[[cards]]
+text = "Science Research Fellows"
+
+[[cards]]
+text = "Bridges Craft Pizza"
+
+[[cards]]
+text = "Robe-Ann Park"
+
+[[cards]]
+text = "Big Walnut Creek"
+
+[[cards]]
+text = "Tenzer Hub"
+
+[[cards]]
+text = "Music on the Square"
+
+[[cards]]
+text = "Hartman Center"
+
+[[cards]]
+text = "Reavis Stadium"
+
+[[cards]]
+text = "Tiger Girls"
+
+[[cards]]
+text = "Erdmann Natatorium"
+
+[[cards]]
+text = "Memorial Student Union"
+
+[[cards]]
+text = "Campus Golf"
+
+[[cards]]
+text = "Walker Cup"
+
+[[cards]]
+text = "Honor Scholars"
+
+[[cards]]
+text = "Environmental Fellows"
+
+[[cards]]
+text = "Matthew Simpson"
+
+[[cards]]
+text = "David Lilienthal"
+
+[[cards]]
+text = "Bernard Kilgore"
+
+[[cards]]
+text = "Longden Hall"
+
+[[cards]]
+text = "Humbert Hall"
+
+[[cards]]
+text = "Hogate Hall"
+
+[[cards]]
+text = "Bishop Roberts Hall"
+
+[[cards]]
+text = "Mason Hall"
+
+[[cards]]
+text = "Sweet Shop"
+
+[[cards]]
+text = "People Pathways"
+
+[[cards]]
+text = "NCAC Conference"
+
+[[cards]]
+text = "Lori S. White"
+
+[[cards]]
+text = "Sigma Nu"
+
+[[cards]]
+text = "Delta Gamma"
+
+[[cards]]
+text = "Pi Beta Phi"
+
+[[cards]]
+text = "Delta Delta Delta"
+
+[[cards]]
+text = "The Mirage"
+
+[[cards]]
+text = "Shakespeare Garden"
+
+[[cards]]
+text = "Robert G. Bottoms"
+
+[[cards]]
+text = "Wasser Brewing"
+
+[[cards]]
+text = "Scoops"
+
+[[cards]]
+text = "Phi Gamma Delta"
+
+[[cards]]
+text = "Washington C. DePauw"
+
+[[cards]]
+text = "Rector Scholar"
+
+[[cards]]
+text = "Mourouzis Field"
+
+[[cards]]
+text = "Coach Bill Fenlon"
+
+[[cards]]
+text = "James B. Stewart"
+
+[[cards]]
+text = "McDermond Center"
+
+[[cards]]
+text = "Watson Forum"
+
+[[cards]]
+text = "Thompson Recital Hall"
+
+[[cards]]
+text = "Beta Theta Pi"
+
+[[cards]]
+text = "Kappa Kappa Gamma"
+
+[[cards]]
+text = "Phi Delta Theta"
+
+[[cards]]
+text = "Delta Upsilon"
+
+[[cards]]
+text = "Greencastle Square"
+
+[[cards]]
+text = "Putnam County"
+
+[[cards]]
+text = "Ashley Square Cinema"
+
+[[cards]]
+text = "The Quarry"
+
+[[cards]]
+text = "Fern Cliff Nature Preserve"
+
+[[cards]]
+text = "Lieber State Park"
+
+[[cards]]
+text = "Forest Hill Cemetery"
+
+[[cards]]
+text = "College Street"
+
+[[cards]]
+text = "Ethics Bowl"
+
+[[cards]]
+text = "Charter Day"

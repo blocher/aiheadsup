@@ -1,0 +1,660 @@
+id = "deck_harvard-university_49fad4a6"
+revision = 2
+name = "Harvard University"
+category = "Colleges and Universities"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include campus landmarks, Crimson athletics, school history, academic traditions, notable alumni, Harvard Yard, Cambridge and Boston connections, and recognizable Harvard University references."
+photo_file_name = "harvard-university-49fad4a6-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "John Harvard Statue"
+
+[[cards]]
+text = "Harvard Yard"
+
+[[cards]]
+text = "Widener Library"
+
+[[cards]]
+text = "Harvard Square"
+
+[[cards]]
+text = "Charles River"
+
+[[cards]]
+text = "Harvard Crimson"
+
+[[cards]]
+text = "Veritas"
+
+[[cards]]
+text = "Harvard Law School"
+
+[[cards]]
+text = "Harvard Business School"
+
+[[cards]]
+text = "Memorial Hall"
+
+[[cards]]
+text = "Annenberg Hall"
+
+[[cards]]
+text = "The Game"
+
+[[cards]]
+text = "Harvard Stadium"
+
+[[cards]]
+text = "Hasty Pudding Theatricals"
+
+[[cards]]
+text = "Harvard Lampoon"
+
+[[cards]]
+text = "Cambridge, Massachusetts"
+
+[[cards]]
+text = "Massachusetts Hall"
+
+[[cards]]
+text = "John F. Kennedy"
+
+[[cards]]
+text = "Barack Obama"
+
+[[cards]]
+text = "Natalie Portman"
+
+[[cards]]
+text = "Bill Gates"
+
+[[cards]]
+text = "Mark Zuckerberg"
+
+[[cards]]
+text = "Yo-Yo Ma"
+
+[[cards]]
+text = "Conan O'Brien"
+
+[[cards]]
+text = "Radcliffe College"
+
+[[cards]]
+text = "Harvard Medical School"
+
+[[cards]]
+text = "Housing Day"
+
+[[cards]]
+text = "Harvard Coop"
+
+[[cards]]
+text = "Sanders Theatre"
+
+[[cards]]
+text = "Weld Boathouse"
+
+[[cards]]
+text = "Memorial Church"
+
+[[cards]]
+text = "Arnold Arboretum"
+
+[[cards]]
+text = "Peabody Museum"
+
+[[cards]]
+text = "Dunster House"
+
+[[cards]]
+text = "Eliot House"
+
+[[cards]]
+text = "Harvard Divinity School"
+
+[[cards]]
+text = "Memorial Drive"
+
+[[cards]]
+text = "Harvard Art Museums"
+
+[[cards]]
+text = "Ivy League"
+
+[[cards]]
+text = "Commencement"
+
+[[cards]]
+text = "Helen Keller"
+
+[[cards]]
+text = "Harvard Band"
+
+[[cards]]
+text = "Red Line Subway"
+
+[[cards]]
+text = "Harvard Extension School"
+
+[[cards]]
+text = "Harvard Kennedy School"
+
+[[cards]]
+text = "Science Center Plaza"
+
+[[cards]]
+text = "Johnston Gate"
+
+[[cards]]
+text = "Harvard Glee Club"
+
+[[cards]]
+text = "Harvard Krokodiloes"
+
+[[cards]]
+text = "Harvard Radcliffe Orchestra"
+
+[[cards]]
+text = "The Social Network"
+
+[[cards]]
+text = "Legally Blonde"
+
+[[cards]]
+text = "Good Will Hunting"
+
+[[cards]]
+text = "The Glass Flowers"
+
+[[cards]]
+text = "Matt Damon"
+
+[[cards]]
+text = "Franklin D. Roosevelt"
+
+[[cards]]
+text = "Theodore Roosevelt"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "John Quincy Adams"
+
+[[cards]]
+text = "Sever Hall"
+
+[[cards]]
+text = "Primal Scream"
+
+[[cards]]
+text = "Lowell House"
+
+[[cards]]
+text = "Adams House"
+
+[[cards]]
+text = "Kirkland House"
+
+[[cards]]
+text = "Winthrop House"
+
+[[cards]]
+text = "Harvard Shield"
+
+[[cards]]
+text = "The Quad"
+
+[[cards]]
+text = "W.E.B. Du Bois"
+
+[[cards]]
+text = "Al Gore"
+
+[[cards]]
+text = "Neil deGrasse Tyson"
+
+[[cards]]
+text = "Jeremy Lin"
+
+[[cards]]
+text = "Amanda Gorman"
+
+[[cards]]
+text = "Tommy Lee Jones"
+
+[[cards]]
+text = "Rashida Jones"
+
+[[cards]]
+text = "Harvard Observatory"
+
+[[cards]]
+text = "Holden Chapel"
+
+[[cards]]
+text = "University Hall"
+
+[[cards]]
+text = "Lamont Library"
+
+[[cards]]
+text = "Houghton Library"
+
+[[cards]]
+text = "Harvard Dental School"
+
+[[cards]]
+text = "Harvard Education School"
+
+[[cards]]
+text = "Harvard Design School"
+
+[[cards]]
+text = "Harvard Public Health"
+
+[[cards]]
+text = "Smith Campus Center"
+
+[[cards]]
+text = "Harvard Din and Tonics"
+
+[[cards]]
+text = "Harvard Yale Rivalry"
+
+[[cards]]
+text = "Harvard Forest"
+
+[[cards]]
+text = "Mather House"
+
+[[cards]]
+text = "Dexter Gate"
+
+[[cards]]
+text = "Harvard Bridge"
+
+[[cards]]
+text = "Love Story"
+
+[[cards]]
+text = "Harvard Rowing"
+
+[[cards]]
+text = "Tercentenary Theatre"
+
+[[cards]]
+text = "Harvard Faculty Club"
+
+[[cards]]
+text = "Harvard Alumni Association"
+
+[[cards]]
+text = "Harvard Athletics"
+
+[[cards]]
+text = "Porcellian Club"
+
+[[cards]]
+text = "Weeks Footbridge"
+
+[[cards]]
+text = "Head of the Charles"
+
+[[cards]]
+text = "Fly Club"
+
+[[cards]]
+text = "Delphic Club"
+
+[[cards]]
+text = "Grolier Poetry Book Shop"
+
+[[cards]]
+text = "The Pit"
+
+[[cards]]
+text = "Brattle Theatre"
+
+[[cards]]
+text = "Club Passim"
+
+[[cards]]
+text = "Out of Town News"
+
+[[cards]]
+text = "Quincy House"
+
+[[cards]]
+text = "Cabot House"
+
+[[cards]]
+text = "Currier House"
+
+[[cards]]
+text = "Pforzheimer House"
+
+[[cards]]
+text = "Leverett House"
+
+[[cards]]
+text = "Dudley Community"
+
+[[cards]]
+text = "Wigglesworth Hall"
+
+[[cards]]
+text = "Lionel Hall"
+
+[[cards]]
+text = "Straus Hall"
+
+[[cards]]
+text = "Matthews Hall"
+
+[[cards]]
+text = "Grays Hall"
+
+[[cards]]
+text = "Thayer Hall"
+
+[[cards]]
+text = "Holworthy Hall"
+
+[[cards]]
+text = "Stoughton Hall"
+
+[[cards]]
+text = "William James"
+
+[[cards]]
+text = "Oliver Wendell Holmes"
+
+[[cards]]
+text = "Henry Kissinger"
+
+[[cards]]
+text = "Mitt Romney"
+
+[[cards]]
+text = "Ban Ki-moon"
+
+[[cards]]
+text = "Benazir Bhutto"
+
+[[cards]]
+text = "Robert Frost"
+
+[[cards]]
+text = "E. E. Cummings"
+
+[[cards]]
+text = "Ruth Bader Ginsburg"
+
+[[cards]]
+text = "John Roberts"
+
+[[cards]]
+text = "Elena Kagan"
+
+[[cards]]
+text = "Stephen Breyer"
+
+[[cards]]
+text = "Antonin Scalia"
+
+[[cards]]
+text = "Pete Buttigieg"
+
+[[cards]]
+text = "Chuck Schumer"
+
+[[cards]]
+text = "Leonard Bernstein"
+
+[[cards]]
+text = "T. S. Eliot"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "Samuel Adams"
+
+[[cards]]
+text = "Ralph Waldo Emerson"
+
+[[cards]]
+text = "Henry David Thoreau"
+
+[[cards]]
+text = "Harvard Natural History Museum"
+
+[[cards]]
+text = "Barker Center"
+
+[[cards]]
+text = "George W. Bush"
+
+[[cards]]
+text = "J. Robert Oppenheimer"
+
+[[cards]]
+text = "Michael Crichton"
+
+[[cards]]
+text = "Margaret Atwood"
+
+[[cards]]
+text = "Gertrude Stein"
+
+[[cards]]
+text = "Colin Jost"
+
+[[cards]]
+text = "B.J. Novak"
+
+[[cards]]
+text = "Henry Wadsworth Longfellow"
+
+[[cards]]
+text = "Ryan Fitzpatrick"
+
+[[cards]]
+text = "Henry Louis Gates Jr."
+
+[[cards]]
+text = "Langdell Hall"
+
+[[cards]]
+text = "Baker Library"
+
+[[cards]]
+text = "Austin Hall"
+
+[[cards]]
+text = "Jefferson Laboratory"
+
+[[cards]]
+text = "Boylston Hall"
+
+[[cards]]
+text = "Wadsworth House"
+
+[[cards]]
+text = "Carpenter Center"
+
+[[cards]]
+text = "Gund Hall"
+
+[[cards]]
+text = "Newell Boathouse"
+
+[[cards]]
+text = "Malkin Athletic Center"
+
+[[cards]]
+text = "Loeb Drama Center"
+
+[[cards]]
+text = "Harvard Station"
+
+[[cards]]
+text = "Larz Anderson Bridge"
+
+[[cards]]
+text = "Semitic Museum"
+
+[[cards]]
+text = "Canaday Hall"
+
+[[cards]]
+text = "Pennypacker Hall"
+
+[[cards]]
+text = "Hollis Hall"
+
+[[cards]]
+text = "Dana-Palmer House"
+
+[[cards]]
+text = "Harvard Law Review"
+
+[[cards]]
+text = "Harvard Business Review"
+
+[[cards]]
+text = "Harvard Advocate"
+
+[[cards]]
+text = "Harvard Political Review"
+
+[[cards]]
+text = "Crimson Key Society"
+
+[[cards]]
+text = "Harvard Student Agencies"
+
+[[cards]]
+text = "Harvard College"
+
+[[cards]]
+text = "Radcliffe Choral Society"
+
+[[cards]]
+text = "The Harvard Shop"
+
+[[cards]]
+text = "Meyer Gate"
+
+[[cards]]
+text = "Class Day"
+
+[[cards]]
+text = "HUPD"
+
+[[cards]]
+text = "Mass Ave"
+
+[[cards]]
+text = "Apley Court"
+
+[[cards]]
+text = "Murr Center"
+
+[[cards]]
+text = "Yardfest"
+
+[[cards]]
+text = "Concentration"
+
+[[cards]]
+text = "Faculty Dean"
+
+[[cards]]
+text = "Harvard Proctor"
+
+[[cards]]
+text = "Harvard Corporation"
+
+[[cards]]
+text = "Board of Overseers"
+
+[[cards]]
+text = "Spee Club"
+
+[[cards]]
+text = "1636"
+
+[[cards]]
+text = "Tanner Fountain"
+
+[[cards]]
+text = "Fogg Museum"
+
+[[cards]]
+text = "Mr. Bartley's Burgers"
+
+[[cards]]
+text = "Pinocchio's Pizza"
+
+[[cards]]
+text = "Grendel's Den"
+
+[[cards]]
+text = "Ancient Eight"
+
+[[cards]]
+text = "Dorm Crew"
+
+[[cards]]
+text = "Brain Break"
+
+[[cards]]
+text = "Punch Season"
+
+[[cards]]
+text = "River Houses"
+
+[[cards]]
+text = "Schlesinger Library"
+
+[[cards]]
+text = "Harvard University Press"
+
+[[cards]]
+text = "Allston Campus"
+
+[[cards]]
+text = "Yardlings"
+
+[[cards]]
+text = "Drew Gilpin Faust"
+
+[[cards]]
+text = "Lawrence Summers"
+
+[[cards]]
+text = "First-Year Outdoor Program"
+
+[[cards]]
+text = "Michael Bloomberg"
+
+[[cards]]
+text = "The Hong Kong"
+
+[[cards]]
+text = "Resident Tutor"
+
+[[cards]]
+text = "Harvard Book Store"
+
+[[cards]]
+text = "Tom Morello"
+
+[[cards]]
+text = "Agassiz Theatre"

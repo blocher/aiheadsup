@@ -1,0 +1,819 @@
+id = "deck_1900s-american-history_1fac9883"
+revision = 1
+name = "1900s American History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 20th-century American wars, civil rights, presidents, technology, culture, economy, and major events from the 1900s. Prefer real historical people, places, and events."
+photo_file_name = "1900s-american-history-1fac9883-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Teddy Roosevelt"
+
+[[cards]]
+text = "The Wright Brothers"
+
+[[cards]]
+text = "Model T"
+
+[[cards]]
+text = "Henry Ford"
+
+[[cards]]
+text = "World War I"
+
+[[cards]]
+text = "Prohibition"
+
+[[cards]]
+text = "Flappers"
+
+[[cards]]
+text = "Jazz Age"
+
+[[cards]]
+text = "Harlem Renaissance"
+
+[[cards]]
+text = "Great Depression"
+
+[[cards]]
+text = "Dust Bowl"
+
+[[cards]]
+text = "New Deal"
+
+[[cards]]
+text = "Pearl Harbor"
+
+[[cards]]
+text = "World War II"
+
+[[cards]]
+text = "D-Day"
+
+[[cards]]
+text = "Franklin D. Roosevelt"
+
+[[cards]]
+text = "Rosie the Riveter"
+
+[[cards]]
+text = "United Nations"
+
+[[cards]]
+text = "Cold War"
+
+[[cards]]
+text = "Jackie Robinson"
+
+[[cards]]
+text = "Dwight D. Eisenhower"
+
+[[cards]]
+text = "Rosa Parks"
+
+[[cards]]
+text = "Elvis Presley"
+
+[[cards]]
+text = "John F. Kennedy"
+
+[[cards]]
+text = "Space Race"
+
+[[cards]]
+text = "Martin Luther King Jr."
+
+[[cards]]
+text = "Civil Rights Act"
+
+[[cards]]
+text = "Cuban Missile Crisis"
+
+[[cards]]
+text = "Vietnam War"
+
+[[cards]]
+text = "Woodstock"
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Apollo 11"
+
+[[cards]]
+text = "Richard Nixon"
+
+[[cards]]
+text = "Watergate Scandal"
+
+[[cards]]
+text = "Route 66"
+
+[[cards]]
+text = "Ronald Reagan"
+
+[[cards]]
+text = "Berlin Wall"
+
+[[cards]]
+text = "Charles Lindbergh"
+
+[[cards]]
+text = "Amelia Earhart"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Baby Boomers"
+
+[[cards]]
+text = "Silicon Valley"
+
+[[cards]]
+text = "Sandra Day O'Connor"
+
+[[cards]]
+text = "Suffragette Movement"
+
+[[cards]]
+text = "San Francisco Earthquake"
+
+[[cards]]
+text = "Harry S. Truman"
+
+[[cards]]
+text = "Hollywood Sign"
+
+[[cards]]
+text = "Disney World"
+
+[[cards]]
+text = "Rock and Roll"
+
+[[cards]]
+text = "Woodrow Wilson"
+
+[[cards]]
+text = "Panama Canal"
+
+[[cards]]
+text = "Sinking of the Titanic"
+
+[[cards]]
+text = "Assembly Line"
+
+[[cards]]
+text = "Babe Ruth"
+
+[[cards]]
+text = "Wall Street Crash"
+
+[[cards]]
+text = "Al Capone"
+
+[[cards]]
+text = "Hoover Dam"
+
+[[cards]]
+text = "Jesse Owens"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "Empire State Building"
+
+[[cards]]
+text = "Fireside Chats"
+
+[[cards]]
+text = "Manhattan Project"
+
+[[cards]]
+text = "G.I. Bill"
+
+[[cards]]
+text = "Marshall Plan"
+
+[[cards]]
+text = "Korean War"
+
+[[cards]]
+text = "Jonas Salk"
+
+[[cards]]
+text = "Montgomery Bus Boycott"
+
+[[cards]]
+text = "McCarthyism"
+
+[[cards]]
+text = "Sally Ride"
+
+[[cards]]
+text = "Malcolm X"
+
+[[cards]]
+text = "March on Washington"
+
+[[cards]]
+text = "Lyndon B. Johnson"
+
+[[cards]]
+text = "Cesar Chavez"
+
+[[cards]]
+text = "Thurgood Marshall"
+
+[[cards]]
+text = "Super Bowl I"
+
+[[cards]]
+text = "Buzz Aldrin"
+
+[[cards]]
+text = "Boeing 747"
+
+[[cards]]
+text = "Berlin Airlift"
+
+[[cards]]
+text = "Jimmy Carter"
+
+[[cards]]
+text = "Camp David Accords"
+
+[[cards]]
+text = "Iran Hostage Crisis"
+
+[[cards]]
+text = "Disco"
+
+[[cards]]
+text = "Microwave Oven"
+
+[[cards]]
+text = "Personal Computer"
+
+[[cards]]
+text = "Christa McAuliffe"
+
+[[cards]]
+text = "Jane Addams"
+
+[[cards]]
+text = "W.E.B. Du Bois"
+
+[[cards]]
+text = "Booker T. Washington"
+
+[[cards]]
+text = "Robert F. Kennedy"
+
+[[cards]]
+text = "Helen Keller"
+
+[[cards]]
+text = "Chuck Yeager"
+
+[[cards]]
+text = "Eleanor Roosevelt"
+
+[[cards]]
+text = "Pentagon Papers"
+
+[[cards]]
+text = "Kent State Shootings"
+
+[[cards]]
+text = "Bay of Pigs"
+
+[[cards]]
+text = "Alice Paul"
+
+[[cards]]
+text = "Monopoly Board Game"
+
+[[cards]]
+text = "Talkies"
+
+[[cards]]
+text = "Persian Gulf War"
+
+[[cards]]
+text = "Roaring Twenties"
+
+[[cards]]
+text = "Brown v. Board"
+
+[[cards]]
+text = "Speakeasy"
+
+[[cards]]
+text = "Scopes Monkey Trial"
+
+[[cards]]
+text = "Teapot Dome Scandal"
+
+[[cards]]
+text = "NASA"
+
+[[cards]]
+text = "Selma to Montgomery March"
+
+[[cards]]
+text = "Little Rock Nine"
+
+[[cards]]
+text = "Tet Offensive"
+
+[[cards]]
+text = "Challenger Disaster"
+
+[[cards]]
+text = "Lusitania"
+
+[[cards]]
+text = "League of Nations"
+
+[[cards]]
+text = "Voting Rights Act"
+
+[[cards]]
+text = "Roe v. Wade"
+
+[[cards]]
+text = "Levittown"
+
+[[cards]]
+text = "Alcatraz"
+
+[[cards]]
+text = "Hoovervilles"
+
+[[cards]]
+text = "The Great Migration"
+
+[[cards]]
+text = "Green Book"
+
+[[cards]]
+text = "Motown"
+
+[[cards]]
+text = "Y2K Bug"
+
+[[cards]]
+text = "Hula Hoop"
+
+[[cards]]
+text = "Slinky"
+
+[[cards]]
+text = "Disneyland"
+
+[[cards]]
+text = "Victory Gardens"
+
+[[cards]]
+text = "Trinity Test"
+
+[[cards]]
+text = "Generation X"
+
+[[cards]]
+text = "Lou Gehrig"
+
+[[cards]]
+text = "Bessie Coleman"
+
+[[cards]]
+text = "Hull House"
+
+[[cards]]
+text = "NAACP"
+
+[[cards]]
+text = "Operation Desert Storm"
+
+[[cards]]
+text = "Microchip"
+
+[[cards]]
+text = "Floppy Disk"
+
+[[cards]]
+text = "The Jazz Singer"
+
+[[cards]]
+text = "Chrysler Building"
+
+[[cards]]
+text = "Freedom Riders"
+
+[[cards]]
+text = "Greensboro Sit-ins"
+
+[[cards]]
+text = "Iron Curtain"
+
+[[cards]]
+text = "Truman Doctrine"
+
+[[cards]]
+text = "Iran-Contra Affair"
+
+[[cards]]
+text = "Angel Island"
+
+[[cards]]
+text = "Three Mile Island"
+
+[[cards]]
+text = "Bill Clinton"
+
+[[cards]]
+text = "George H.W. Bush"
+
+[[cards]]
+text = "Gerald Ford"
+
+[[cards]]
+text = "Calvin Coolidge"
+
+[[cards]]
+text = "Herbert Hoover"
+
+[[cards]]
+text = "Douglas MacArthur"
+
+[[cards]]
+text = "George Patton"
+
+[[cards]]
+text = "William McKinley"
+
+[[cards]]
+text = "William Howard Taft"
+
+[[cards]]
+text = "Warren G. Harding"
+
+[[cards]]
+text = "Trustbusters"
+
+[[cards]]
+text = "Triangle Shirtwaist Fire"
+
+[[cards]]
+text = "Nineteenth Amendment"
+
+[[cards]]
+text = "Eighteenth Amendment"
+
+[[cards]]
+text = "Black Tuesday"
+
+[[cards]]
+text = "Bonus Army"
+
+[[cards]]
+text = "Works Progress Administration"
+
+[[cards]]
+text = "Civilian Conservation Corps"
+
+[[cards]]
+text = "Social Security Act"
+
+[[cards]]
+text = "Lend-Lease Act"
+
+[[cards]]
+text = "Tuskegee Airmen"
+
+[[cards]]
+text = "Navajo Code Talkers"
+
+[[cards]]
+text = "Japanese Internment Camps"
+
+[[cards]]
+text = "J. Robert Oppenheimer"
+
+[[cards]]
+text = "NATO"
+
+[[cards]]
+text = "Warsaw Pact"
+
+[[cards]]
+text = "Duck and Cover"
+
+[[cards]]
+text = "John Glenn"
+
+[[cards]]
+text = "Interstate Highway System"
+
+[[cards]]
+text = "The Great Society"
+
+[[cards]]
+text = "Peace Corps"
+
+[[cards]]
+text = "Gulf of Tonkin Resolution"
+
+[[cards]]
+text = "Agent Orange"
+
+[[cards]]
+text = "Draft Lottery"
+
+[[cards]]
+text = "Silent Majority"
+
+[[cards]]
+text = "Saturday Night Massacre"
+
+[[cards]]
+text = "Equal Rights Amendment"
+
+[[cards]]
+text = "Title IX"
+
+[[cards]]
+text = "Reaganomics"
+
+[[cards]]
+text = "Strategic Defense Initiative"
+
+[[cards]]
+text = "Exxon Valdez"
+
+[[cards]]
+text = "Americans with Disabilities Act"
+
+[[cards]]
+text = "NAFTA"
+
+[[cards]]
+text = "Oklahoma City Bombing"
+
+[[cards]]
+text = "Dot-com Bubble"
+
+[[cards]]
+text = "The Great Gatsby"
+
+[[cards]]
+text = "Langston Hughes"
+
+[[cards]]
+text = "Duke Ellington"
+
+[[cards]]
+text = "Norman Rockwell"
+
+[[cards]]
+text = "The Wizard of Oz"
+
+[[cards]]
+text = "Muhammad Ali"
+
+[[cards]]
+text = "Billie Jean King"
+
+[[cards]]
+text = "Miracle on Ice"
+
+[[cards]]
+text = "The Ed Sullivan Show"
+
+[[cards]]
+text = "MTV"
+
+[[cards]]
+text = "Polaroid Camera"
+
+[[cards]]
+text = "Space Shuttle Columbia"
+
+[[cards]]
+text = "Upton Sinclair"
+
+[[cards]]
+text = "The Jungle"
+
+[[cards]]
+text = "Teddy Bear"
+
+[[cards]]
+text = "Federal Bureau of Investigation"
+
+[[cards]]
+text = "Muckrakers"
+
+[[cards]]
+text = "Great White Fleet"
+
+[[cards]]
+text = "Doughboys"
+
+[[cards]]
+text = "Shirley Temple"
+
+[[cards]]
+text = "Betty Friedan"
+
+[[cards]]
+text = "The Feminine Mystique"
+
+[[cards]]
+text = "Stonewall Riots"
+
+[[cards]]
+text = "Roswell UFO Incident"
+
+[[cards]]
+text = "Louis Armstrong"
+
+[[cards]]
+text = "Andy Warhol"
+
+[[cards]]
+text = "Steve Jobs"
+
+[[cards]]
+text = "Bill Gates"
+
+[[cards]]
+text = "Atari 2600"
+
+[[cards]]
+text = "Jim Thorpe"
+
+[[cards]]
+text = "Hank Aaron"
+
+[[cards]]
+text = "Ernest Hemingway"
+
+[[cards]]
+text = "The Beat Generation"
+
+[[cards]]
+text = "Jack Kerouac"
+
+[[cards]]
+text = "Jacqueline Kennedy"
+
+[[cards]]
+text = "Nancy Reagan"
+
+[[cards]]
+text = "Hillary Clinton"
+
+[[cards]]
+text = "Battle of Midway"
+
+[[cards]]
+text = "Battle of Iwo Jima"
+
+[[cards]]
+text = "Battle of the Bulge"
+
+[[cards]]
+text = "St. Valentine's Day Massacre"
+
+[[cards]]
+text = "Lindbergh Kidnapping"
+
+[[cards]]
+text = "Hubble Space Telescope"
+
+[[cards]]
+text = "Global Positioning System"
+
+[[cards]]
+text = "Email"
+
+[[cards]]
+text = "Cable Television"
+
+[[cards]]
+text = "American Indian Movement"
+
+[[cards]]
+text = "Harvey Milk"
+
+[[cards]]
+text = "Frank Sinatra"
+
+[[cards]]
+text = "Michael Jackson"
+
+[[cards]]
+text = "Aretha Franklin"
+
+[[cards]]
+text = "Ella Fitzgerald"
+
+[[cards]]
+text = "Woody Guthrie"
+
+[[cards]]
+text = "F. Scott Fitzgerald"
+
+[[cards]]
+text = "Georgia O'Keeffe"
+
+[[cards]]
+text = "War Bonds"
+
+[[cards]]
+text = "Los Alamos"
+
+[[cards]]
+text = "Sputnik"
+
+[[cards]]
+text = "I Love Lucy"
+
+[[cards]]
+text = "Zimmermann Telegram"
+
+[[cards]]
+text = "Kitty Hawk"
+
+[[cards]]
+text = "Standard Oil"
+
+[[cards]]
+text = "The Charleston"
+
+[[cards]]
+text = "Spirit of St. Louis"
+
+[[cards]]
+text = "Bootlegger"
+
+[[cards]]
+text = "Breadline"
+
+[[cards]]
+text = "The Grapes of Wrath"
+
+[[cards]]
+text = "Hindenburg Disaster"
+
+[[cards]]
+text = "Smokey Bear"
+
+[[cards]]
+text = "Poodle Skirt"
+
+[[cards]]
+text = "Polio Vaccine"
+
+[[cards]]
+text = "TV Dinner"
+
+[[cards]]
+text = "Kitchen Debate"
+
+[[cards]]
+text = "Space Needle"
+
+[[cards]]
+text = "British Invasion"
+
+[[cards]]
+text = "Gateway Arch"
+
+[[cards]]
+text = "Miranda Warning"
+
+[[cards]]
+text = "Peace Sign"
+
+[[cards]]
+text = "Hawks and Doves"
+
+[[cards]]
+text = "Earth Day"
+
+[[cards]]
+text = "Studio 54"
+
+[[cards]]
+text = "Yuppies"

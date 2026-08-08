@@ -1,0 +1,795 @@
+id = "deck_patriotic-america_186d6445"
+revision = 2
+name = "Patriotic America"
+category = "USA 250"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include American symbols, patriotic songs, national holidays, famous speeches, monuments, military branches, civic virtues, national parks, presidents, and broad family-friendly patriotic American themes."
+photo_file_name = "patriotic-america-186d6445-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Bald Eagle"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Uncle Sam"
+
+[[cards]]
+text = "The Liberty Bell"
+
+[[cards]]
+text = "The White House"
+
+[[cards]]
+text = "The Star-Spangled Banner"
+
+[[cards]]
+text = "Pledge of Allegiance"
+
+[[cards]]
+text = "Independence Day"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Abraham Lincoln"
+
+[[cards]]
+text = "Gettysburg Address"
+
+[[cards]]
+text = "Grand Canyon"
+
+[[cards]]
+text = "Yellowstone National Park"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "US Constitution"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "Memorial Day"
+
+[[cards]]
+text = "Thanksgiving Day"
+
+[[cards]]
+text = "Veterans Day"
+
+[[cards]]
+text = "US Army"
+
+[[cards]]
+text = "US Navy"
+
+[[cards]]
+text = "US Air Force"
+
+[[cards]]
+text = "US Marine Corps"
+
+[[cards]]
+text = "NASA"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "America the Beautiful"
+
+[[cards]]
+text = "Yankee Doodle"
+
+[[cards]]
+text = "God Bless America"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Route 66"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Plymouth Rock"
+
+[[cards]]
+text = "Old Glory"
+
+[[cards]]
+text = "Supreme Court"
+
+[[cards]]
+text = "US Capitol"
+
+[[cards]]
+text = "Lincoln Memorial"
+
+[[cards]]
+text = "Washington Monument"
+
+[[cards]]
+text = "Gateway Arch"
+
+[[cards]]
+text = "Arlington National Cemetery"
+
+[[cards]]
+text = "Yosemite National Park"
+
+[[cards]]
+text = "Independence Hall"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "Space Shuttle"
+
+[[cards]]
+text = "The Liberty Tree"
+
+[[cards]]
+text = "Stars and Stripes"
+
+[[cards]]
+text = "Theodore Roosevelt"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "Harriet Tubman"
+
+[[cards]]
+text = "Susan B. Anthony"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "Sacagawea"
+
+[[cards]]
+text = "Lewis and Clark"
+
+[[cards]]
+text = "Neil Armstrong"
+
+[[cards]]
+text = "Frederick Douglass"
+
+[[cards]]
+text = "John F. Kennedy"
+
+[[cards]]
+text = "Abigail Adams"
+
+[[cards]]
+text = "Franklin D. Roosevelt"
+
+[[cards]]
+text = "The Alamo"
+
+[[cards]]
+text = "Hoover Dam"
+
+[[cards]]
+text = "Fort McHenry"
+
+[[cards]]
+text = "Freedom Trail"
+
+[[cards]]
+text = "Smithsonian Institution"
+
+[[cards]]
+text = "Golden Spike"
+
+[[cards]]
+text = "Cape Canaveral"
+
+[[cards]]
+text = "Everglades National Park"
+
+[[cards]]
+text = "Mount Rainier"
+
+[[cards]]
+text = "Acadia National Park"
+
+[[cards]]
+text = "Zion National Park"
+
+[[cards]]
+text = "Redwood National Park"
+
+[[cards]]
+text = "Great Smoky Mountains"
+
+[[cards]]
+text = "Labor Day"
+
+[[cards]]
+text = "Flag Day"
+
+[[cards]]
+text = "Election Day"
+
+[[cards]]
+text = "Arbor Day"
+
+[[cards]]
+text = "Presidents' Day"
+
+[[cards]]
+text = "Grand Old Flag"
+
+[[cards]]
+text = "Shenandoah"
+
+[[cards]]
+text = "Anchors Aweigh"
+
+[[cards]]
+text = "Oh! Susanna"
+
+[[cards]]
+text = "The Marine's Hymn"
+
+[[cards]]
+text = "American Bison"
+
+[[cards]]
+text = "The Great Seal"
+
+[[cards]]
+text = "Purple Heart"
+
+[[cards]]
+text = "Medal of Honor"
+
+[[cards]]
+text = "US Coast Guard"
+
+[[cards]]
+text = "US Space Force"
+
+[[cards]]
+text = "National Guard"
+
+[[cards]]
+text = "Tuskegee Airmen"
+
+[[cards]]
+text = "Voting Booth"
+
+[[cards]]
+text = "I Have a Dream"
+
+[[cards]]
+text = "Emancipation Proclamation"
+
+[[cards]]
+text = "Mayflower Compact"
+
+[[cards]]
+text = "Federalist Papers"
+
+[[cards]]
+text = "Monroe Doctrine"
+
+[[cards]]
+text = "Covered Wagon"
+
+[[cards]]
+text = "The Oval Office"
+
+[[cards]]
+text = "Tomb of the Unknowns"
+
+[[cards]]
+text = "Bunker Hill Monument"
+
+[[cards]]
+text = "Semper Fidelis"
+
+[[cards]]
+text = "Over There"
+
+[[cards]]
+text = "Valley Forge"
+
+[[cards]]
+text = "E Pluribus Unum"
+
+[[cards]]
+text = "Red, White, and Blue"
+
+[[cards]]
+text = "Air Force One"
+
+[[cards]]
+text = "The Midnight Ride"
+
+[[cards]]
+text = "Juneteenth"
+
+[[cards]]
+text = "Patriots' Day"
+
+[[cards]]
+text = "Armed Forces Day"
+
+[[cards]]
+text = "Denali National Park"
+
+[[cards]]
+text = "Rocky Mountain National Park"
+
+[[cards]]
+text = "Glacier National Park"
+
+[[cards]]
+text = "Mesa Verde"
+
+[[cards]]
+text = "Death Valley"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "James Madison"
+
+[[cards]]
+text = "Ulysses S. Grant"
+
+[[cards]]
+text = "Dwight D. Eisenhower"
+
+[[cards]]
+text = "Eleanor Roosevelt"
+
+[[cards]]
+text = "Clara Barton"
+
+[[cards]]
+text = "Rosa Parks"
+
+[[cards]]
+text = "Patrick Henry"
+
+[[cards]]
+text = "The Electoral College"
+
+[[cards]]
+text = "Freedom of Speech"
+
+[[cards]]
+text = "The Senate Chamber"
+
+[[cards]]
+text = "House of Representatives"
+
+[[cards]]
+text = "In God We Trust"
+
+[[cards]]
+text = "Columbia"
+
+[[cards]]
+text = "Hail to the Chief"
+
+[[cards]]
+text = "God Bless the U.S.A."
+
+[[cards]]
+text = "Home on the Range"
+
+[[cards]]
+text = "Jamestown Settlement"
+
+[[cards]]
+text = "Oregon Trail"
+
+[[cards]]
+text = "Transcontinental Railroad"
+
+[[cards]]
+text = "Devils Tower"
+
+[[cards]]
+text = "Seattle Space Needle"
+
+[[cards]]
+text = "Niagara Falls"
+
+[[cards]]
+text = "Kitty Hawk"
+
+[[cards]]
+text = "Crazy Horse Memorial"
+
+[[cards]]
+text = "Angel Island"
+
+[[cards]]
+text = "Liberty Pole"
+
+[[cards]]
+text = "The Pentagon"
+
+[[cards]]
+text = "Camp David"
+
+[[cards]]
+text = "The Spirit of '76"
+
+[[cards]]
+text = "The Wright Brothers"
+
+[[cards]]
+text = "Martin Luther King Jr."
+
+[[cards]]
+text = "The Brooklyn Bridge"
+
+[[cards]]
+text = "The Empire State Building"
+
+[[cards]]
+text = "The Mississippi River"
+
+[[cards]]
+text = "The Great Lakes"
+
+[[cards]]
+text = "The Mojave Desert"
+
+[[cards]]
+text = "Pikes Peak"
+
+[[cards]]
+text = "The First Amendment"
+
+[[cards]]
+text = "The Log Cabin"
+
+[[cards]]
+text = "The Wild Turkey"
+
+[[cards]]
+text = "The Lone Star State"
+
+[[cards]]
+text = "The Golden State"
+
+[[cards]]
+text = "The Empire State"
+
+[[cards]]
+text = "The Sunshine State"
+
+[[cards]]
+text = "The Louisiana Purchase"
+
+[[cards]]
+text = "The Gold Rush"
+
+[[cards]]
+text = "The Pony Express"
+
+[[cards]]
+text = "The Boston Common"
+
+[[cards]]
+text = "The National Mall"
+
+[[cards]]
+text = "The Cherry Blossoms"
+
+[[cards]]
+text = "Davy Crockett"
+
+[[cards]]
+text = "Daniel Boone"
+
+[[cards]]
+text = "Amelia Earhart"
+
+[[cards]]
+text = "Thomas Edison"
+
+[[cards]]
+text = "Alexander Graham Bell"
+
+[[cards]]
+text = "Jackie Robinson"
+
+[[cards]]
+text = "Johnny Appleseed"
+
+[[cards]]
+text = "Paul Bunyan"
+
+[[cards]]
+text = "The Revolutionary War"
+
+[[cards]]
+text = "The Civil War"
+
+[[cards]]
+text = "The Moon Landing"
+
+[[cards]]
+text = "The Erie Canal"
+
+[[cards]]
+text = "The French Quarter"
+
+[[cards]]
+text = "The Great Plains"
+
+[[cards]]
+text = "The Jazz Age"
+
+[[cards]]
+text = "The Suffragettes"
+
+[[cards]]
+text = "The State Fair"
+
+[[cards]]
+text = "The Bronze Star"
+
+[[cards]]
+text = "Martin Luther King Day"
+
+[[cards]]
+text = "Sojourner Truth"
+
+[[cards]]
+text = "Helen Keller"
+
+[[cards]]
+text = "George Washington Carver"
+
+[[cards]]
+text = "Badlands National Park"
+
+[[cards]]
+text = "Bryce Canyon National Park"
+
+[[cards]]
+text = "The Space Race"
+
+[[cards]]
+text = "Rosie the Riveter"
+
+[[cards]]
+text = "Olympic National Park"
+
+[[cards]]
+text = "Jefferson Memorial"
+
+[[cards]]
+text = "Old Faithful"
+
+[[cards]]
+text = "Founding Fathers"
+
+[[cards]]
+text = "The American Dream"
+
+[[cards]]
+text = "The National Archives"
+
+[[cards]]
+text = "The Library of Congress"
+
+[[cards]]
+text = "The Minutemen"
+
+[[cards]]
+text = "The Continental Congress"
+
+[[cards]]
+text = "The U.S. Mint"
+
+[[cards]]
+text = "The Secret Service"
+
+[[cards]]
+text = "The Blue Angels"
+
+[[cards]]
+text = "West Point"
+
+[[cards]]
+text = "The Blue Ridge Mountains"
+
+[[cards]]
+text = "The Resolute Desk"
+
+[[cards]]
+text = "The Appalachian Trail"
+
+[[cards]]
+text = "The Potomac River"
+
+[[cards]]
+text = "Joshua Tree National Park"
+
+[[cards]]
+text = "Crater Lake National Park"
+
+[[cards]]
+text = "The Grand Teton"
+
+[[cards]]
+text = "Pearl Harbor"
+
+[[cards]]
+text = "USS Arizona Memorial"
+
+[[cards]]
+text = "Eagle Scout"
+
+[[cards]]
+text = "Apollo 11"
+
+[[cards]]
+text = "The Buffalo Nickel"
+
+[[cards]]
+text = "The Cabinet"
+
+[[cards]]
+text = "The West Wing"
+
+[[cards]]
+text = "The Chief Justice"
+
+[[cards]]
+text = "The Marshall Plan"
+
+[[cards]]
+text = "The G.I. Bill"
+
+[[cards]]
+text = "The Peace Corps"
+
+[[cards]]
+text = "The American Red Cross"
+
+[[cards]]
+text = "The Boy Scouts"
+
+[[cards]]
+text = "The Girl Scouts"
+
+[[cards]]
+text = "The Super Bowl"
+
+[[cards]]
+text = "The World Series"
+
+[[cards]]
+text = "The Hollywood Sign"
+
+[[cards]]
+text = "The Grand Ole Opry"
+
+[[cards]]
+text = "The Wild West"
+
+[[cards]]
+text = "The Santa Fe Trail"
+
+[[cards]]
+text = "Apple Pie"
+
+[[cards]]
+text = "Baseball"
+
+[[cards]]
+text = "The Hot Dog"
+
+[[cards]]
+text = "S'mores"
+
+[[cards]]
+text = "Philly Cheesesteak"
+
+[[cards]]
+text = "Sons of Liberty"
+
+[[cards]]
+text = "The Boston Massacre"
+
+[[cards]]
+text = "Old Ironsides"
+
+[[cards]]
+text = "The National Anthem"
+
+[[cards]]
+text = "The Rose Garden"
+
+[[cards]]
+text = "The New Deal"
+
+[[cards]]
+text = "Vietnam Veterans Memorial"
+
+[[cards]]
+text = "World War II Memorial"
+
+[[cards]]
+text = "The Thunderbirds"
+
+[[cards]]
+text = "The Navajo Code Talkers"
+
+[[cards]]
+text = "The Buffalo Soldiers"
+
+[[cards]]
+text = "Sally Ride"
+
+[[cards]]
+text = "Carlsbad Caverns"
+
+[[cards]]
+text = "Fort Sumter"
+
+[[cards]]
+text = "Ford's Theatre"
+
+[[cards]]
+text = "Samuel Adams"
+
+[[cards]]
+text = "Booker T. Washington"
+
+[[cards]]
+text = "Ronald Reagan"
+
+[[cards]]
+text = "Times Square"
+
+[[cards]]
+text = "Green Berets"
+
+[[cards]]
+text = "Navy SEALs"
+
+[[cards]]
+text = "The Jefferson Nickel"

@@ -1,0 +1,588 @@
+id = "deck_chicago-cubs_7feff59e"
+revision = 2
+name = "Chicago Cubs"
+category = "Chicago Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Cubs history, Wrigley Field, uniforms, mascots, famous current and past players, World Series moments, nicknames, North Side fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Cubs facts."
+photo_file_name = "chicago-cubs-7feff59e-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Wrigley Field"
+
+[[cards]]
+text = "The Ivy"
+
+[[cards]]
+text = "The Bleacher Bums"
+
+[[cards]]
+text = "The W Flag"
+
+[[cards]]
+text = "The Red Marquee"
+
+[[cards]]
+text = "The Friendly Confines"
+
+[[cards]]
+text = "Wrigley Rooftops"
+
+[[cards]]
+text = "Manual Scoreboard"
+
+[[cards]]
+text = "Go Cubs Go"
+
+[[cards]]
+text = "Harry Caray"
+
+[[cards]]
+text = "Seventh-Inning Stretch"
+
+[[cards]]
+text = "The Billy Goat Curse"
+
+[[cards]]
+text = "Clark the Mascot"
+
+[[cards]]
+text = "Ernie Banks"
+
+[[cards]]
+text = "Ron Santo"
+
+[[cards]]
+text = "Ryne Sandberg"
+
+[[cards]]
+text = "Sammy Sosa"
+
+[[cards]]
+text = "Anthony Rizzo"
+
+[[cards]]
+text = "Kris Bryant"
+
+[[cards]]
+text = "Javier Báez"
+
+[[cards]]
+text = "Crosstown Classic"
+
+[[cards]]
+text = "Cubs Cardinals Rivalry"
+
+[[cards]]
+text = "Tinker to Evers"
+
+[[cards]]
+text = "2016 World Series"
+
+[[cards]]
+text = "1908 World Series"
+
+[[cards]]
+text = "Lovable Losers"
+
+[[cards]]
+text = "Game Seven Rain Delay"
+
+[[cards]]
+text = "Babe Ruth's Called Shot"
+
+[[cards]]
+text = "Twenty Strikeout Game"
+
+[[cards]]
+text = "Pat Hughes"
+
+[[cards]]
+text = "Ronnie Woo-Woo"
+
+[[cards]]
+text = "Steve Goodman"
+
+[[cards]]
+text = "Waveland Avenue"
+
+[[cards]]
+text = "Sheffield Avenue"
+
+[[cards]]
+text = "Jack Brickhouse"
+
+[[cards]]
+text = "Fergie Jenkins"
+
+[[cards]]
+text = "Billy Williams"
+
+[[cards]]
+text = "Hack Wilson"
+
+[[cards]]
+text = "Three Finger Brown"
+
+[[cards]]
+text = "Bleacher Cup Snakes"
+
+[[cards]]
+text = "The North Side"
+
+[[cards]]
+text = "The Outfield Basket"
+
+[[cards]]
+text = "Chalking the Wall"
+
+[[cards]]
+text = "Holy Cow"
+
+[[cards]]
+text = "Hey Hey"
+
+[[cards]]
+text = "Blue Pinstripes"
+
+[[cards]]
+text = "Chicago Whales"
+
+[[cards]]
+text = "West Side Park"
+
+[[cards]]
+text = "Gallagher Way"
+
+[[cards]]
+text = "Murphy's Bleachers"
+
+[[cards]]
+text = "The Cubby Bear"
+
+[[cards]]
+text = "The Red Line Train"
+
+[[cards]]
+text = "Under-Bleacher Bullpens"
+
+[[cards]]
+text = "Billy Goat Tavern"
+
+[[cards]]
+text = "Throwing Back Home Runs"
+
+[[cards]]
+text = "Chicago Style Hot Dog"
+
+[[cards]]
+text = "Old Style Beer"
+
+[[cards]]
+text = "Walking Bear Logo"
+
+[[cards]]
+text = "Bronze Player Statues"
+
+[[cards]]
+text = "Engraved Plaza Bricks"
+
+[[cards]]
+text = "Bullpen Dance"
+
+[[cards]]
+text = "Federal League"
+
+[[cards]]
+text = "1945 World Series"
+
+[[cards]]
+text = "The 1969 Cubs"
+
+[[cards]]
+text = "1984 NLCS"
+
+[[cards]]
+text = "2003 NLCS"
+
+[[cards]]
+text = "Merkle's Mistake"
+
+[[cards]]
+text = "College of Coaches"
+
+[[cards]]
+text = "Black Cat Incident"
+
+[[cards]]
+text = "Joe Maddon"
+
+[[cards]]
+text = "Lou Piniella"
+
+[[cards]]
+text = "Don Zimmer"
+
+[[cards]]
+text = "Craig Counsell"
+
+[[cards]]
+text = "William Sianis"
+
+[[cards]]
+text = "Yosh Kawano"
+
+[[cards]]
+text = "Ron Coomer"
+
+[[cards]]
+text = "Len Kasper"
+
+[[cards]]
+text = "Ben Zobrist"
+
+[[cards]]
+text = "Kerry Wood"
+
+[[cards]]
+text = "Andre Dawson"
+
+[[cards]]
+text = "Greg Maddux"
+
+[[cards]]
+text = "David Ross"
+
+[[cards]]
+text = "Carlos Zambrano"
+
+[[cards]]
+text = "Moises Alou"
+
+[[cards]]
+text = "Kyle Hendricks"
+
+[[cards]]
+text = "Dansby Swanson"
+
+[[cards]]
+text = "Cody Bellinger"
+
+[[cards]]
+text = "Shota Imanaga"
+
+[[cards]]
+text = "Jake Arrieta"
+
+[[cards]]
+text = "Kyle Schwarber"
+
+[[cards]]
+text = "Jon Lester"
+
+[[cards]]
+text = "Dexter Fowler"
+
+[[cards]]
+text = "Bruce Sutter"
+
+[[cards]]
+text = "Sloan Park"
+
+[[cards]]
+text = "Nico Hoerner"
+
+[[cards]]
+text = "Seiya Suzuki"
+
+[[cards]]
+text = "Ian Happ"
+
+[[cards]]
+text = "Justin Steele"
+
+[[cards]]
+text = "Mark Grace"
+
+[[cards]]
+text = "Aramis Ramirez"
+
+[[cards]]
+text = "Derrek Lee"
+
+[[cards]]
+text = "Starlin Castro"
+
+[[cards]]
+text = "Alfonso Soriano"
+
+[[cards]]
+text = "Mark Prior"
+
+[[cards]]
+text = "Joe Tinker"
+
+[[cards]]
+text = "Johnny Evers"
+
+[[cards]]
+text = "Frank Chance"
+
+[[cards]]
+text = "Gabby Hartnett"
+
+[[cards]]
+text = "Rick Sutcliffe"
+
+[[cards]]
+text = "Homer in the Gloamin'"
+
+[[cards]]
+text = "Shawon-O-Meter"
+
+[[cards]]
+text = "The 108-Year Drought"
+
+[[cards]]
+text = "Wait 'Til Next Year"
+
+[[cards]]
+text = "First Night Game"
+
+[[cards]]
+text = "Rain Delay Tarp Slide"
+
+[[cards]]
+text = "Outfield Clock"
+
+[[cards]]
+text = "Brick Backstop"
+
+[[cards]]
+text = "Knothole Gang"
+
+[[cards]]
+text = "Cactus League"
+
+[[cards]]
+text = "Bleacher Seats"
+
+[[cards]]
+text = "The Varsity C"
+
+[[cards]]
+text = "Real Bear Cub"
+
+[[cards]]
+text = "Cubs Convention"
+
+[[cards]]
+text = "Wrigleyville"
+
+[[cards]]
+text = "Mesa, Arizona"
+
+[[cards]]
+text = "Marquee Sports Network"
+
+[[cards]]
+text = "Wind Blowing Out"
+
+[[cards]]
+text = "Wind Blowing In"
+
+[[cards]]
+text = "Guest Conductor"
+
+[[cards]]
+text = "Friday Afternoon Game"
+
+[[cards]]
+text = "Outfield Ballhawks"
+
+[[cards]]
+text = "Third Base Dugout"
+
+[[cards]]
+text = "Cubs Cap"
+
+[[cards]]
+text = "Cubs Caravan"
+
+[[cards]]
+text = "Iowa Cubs"
+
+[[cards]]
+text = "Tennessee Smokies"
+
+[[cards]]
+text = "South Bend Cubs"
+
+[[cards]]
+text = "Myrtle Beach Pelicans"
+
+[[cards]]
+text = "Retired Number Flags"
+
+[[cards]]
+text = "Lake Michigan Breeze"
+
+[[cards]]
+text = "Cubs Yearbook"
+
+[[cards]]
+text = "National League Central"
+
+[[cards]]
+text = "Cubs Charities"
+
+[[cards]]
+text = "CTA L Station"
+
+[[cards]]
+text = "Wrigleyville Bar"
+
+[[cards]]
+text = "Weeghman Park"
+
+[[cards]]
+text = "William Wrigley Jr."
+
+[[cards]]
+text = "Catalina Island"
+
+[[cards]]
+text = "The Blue L Flag"
+
+[[cards]]
+text = "1907 World Series"
+
+[[cards]]
+text = "1932 World Series"
+
+[[cards]]
+text = "Wrigley Field Lights"
+
+[[cards]]
+text = "August 8 1988"
+
+[[cards]]
+text = "Ryno"
+
+[[cards]]
+text = "The Hawk"
+
+[[cards]]
+text = "Steve Bartman"
+
+[[cards]]
+text = "The Bartman Ball"
+
+[[cards]]
+text = "Let's Play Two"
+
+[[cards]]
+text = "Boston Ivy"
+
+[[cards]]
+text = "Bill Veeck Jr."
+
+[[cards]]
+text = "Lakeview Chicago"
+
+[[cards]]
+text = "1937 Wrigley Renovation"
+
+[[cards]]
+text = "The Memorial Chalk Wall"
+
+[[cards]]
+text = "Gary Pressy"
+
+[[cards]]
+text = "Wrigley Field Organist"
+
+[[cards]]
+text = "The I-94 Rivalry"
+
+[[cards]]
+text = "Crosstown Cup"
+
+[[cards]]
+text = "Hohokam Park"
+
+[[cards]]
+text = "Cubs Ring of Honor"
+
+[[cards]]
+text = "Tiny Visitors Locker Room"
+
+[[cards]]
+text = "1906 Cubs"
+
+[[cards]]
+text = "191 RBI Record"
+
+[[cards]]
+text = "Chicago Orphans"
+
+[[cards]]
+text = "Chicago Colts"
+
+[[cards]]
+text = "Chicago White Stockings"
+
+[[cards]]
+text = "Dyeing the River Blue"
+
+[[cards]]
+text = "Jason Heyward's Speech"
+
+[[cards]]
+text = "The 10th Inning Rally"
+
+[[cards]]
+text = "Aroldis Chapman"
+
+[[cards]]
+text = "Mike Montgomery"
+
+[[cards]]
+text = "2016 Final Out"
+
+[[cards]]
+text = "108 Diamonds"
+
+[[cards]]
+text = "Dying Cub Fan's Song"
+
+[[cards]]
+text = "National Historic Landmark"
+
+[[cards]]
+text = "Inside the Scoreboard"
+
+[[cards]]
+text = "Manual Scoreboard Operator"
+
+[[cards]]
+text = "Wrigley Field Green"
+
+[[cards]]
+text = "NL Standings Flags"
+
+[[cards]]
+text = "Outfielder Bleacher Bow"
+
+[[cards]]
+text = "WGN Superstation"
+
+[[cards]]
+text = "Albert Spalding"
+
+[[cards]]
+text = "Clark and Addison"
+
+[[cards]]
+text = "Cubs Hall of Fame"

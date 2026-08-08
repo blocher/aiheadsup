@@ -1,0 +1,609 @@
+id = "deck_western-movies_b3af1ac3"
+revision = 1
+name = "Western Movies"
+category = "Movies"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include classic Western movie titles, characters, actors, settings, tropes, props, towns, and memorable Western film moments. Prefer well-known Western movies and keep content family-friendly."
+photo_file_name = "western-movies-b3af1ac3-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "John Wayne"
+
+[[cards]]
+text = "Clint Eastwood"
+
+[[cards]]
+text = "Sheriff Badge"
+
+[[cards]]
+text = "Tumbleweed"
+
+[[cards]]
+text = "High Noon"
+
+[[cards]]
+text = "True Grit"
+
+[[cards]]
+text = "Butch Cassidy"
+
+[[cards]]
+text = "Sundance Kid"
+
+[[cards]]
+text = "Tombstone"
+
+[[cards]]
+text = "Doc Holliday"
+
+[[cards]]
+text = "Wyatt Earp"
+
+[[cards]]
+text = "Blazing Saddles"
+
+[[cards]]
+text = "Stagecoach"
+
+[[cards]]
+text = "Cowboy Boots"
+
+[[cards]]
+text = "Spurs"
+
+[[cards]]
+text = "Stetson Hat"
+
+[[cards]]
+text = "Saloon Doors"
+
+[[cards]]
+text = "Wanted Poster"
+
+[[cards]]
+text = "Monument Valley"
+
+[[cards]]
+text = "Quick Draw"
+
+[[cards]]
+text = "Showdown at Noon"
+
+[[cards]]
+text = "Gold Rush"
+
+[[cards]]
+text = "The Magnificent Seven"
+
+[[cards]]
+text = "Dances with Wolves"
+
+[[cards]]
+text = "Shane"
+
+[[cards]]
+text = "Rango"
+
+[[cards]]
+text = "Rooster Cogburn"
+
+[[cards]]
+text = "Lone Ranger"
+
+[[cards]]
+text = "Tonto"
+
+[[cards]]
+text = "Ghost Town"
+
+[[cards]]
+text = "Dodge City"
+
+[[cards]]
+text = "Lasso"
+
+[[cards]]
+text = "Horseshoe"
+
+[[cards]]
+text = "Campfire"
+
+[[cards]]
+text = "Steam Locomotive"
+
+[[cards]]
+text = "Silver Bullet"
+
+[[cards]]
+text = "Rio Bravo"
+
+[[cards]]
+text = "Maverick"
+
+[[cards]]
+text = "Silverado"
+
+[[cards]]
+text = "Unforgiven"
+
+[[cards]]
+text = "Man with No Name"
+
+[[cards]]
+text = "Outlaw"
+
+[[cards]]
+text = "Deputy Sheriff"
+
+[[cards]]
+text = "Cattle Drive"
+
+[[cards]]
+text = "Covered Wagon"
+
+[[cards]]
+text = "Gold Nugget"
+
+[[cards]]
+text = "Train Robbery"
+
+[[cards]]
+text = "Cactus"
+
+[[cards]]
+text = "Texas Rangers"
+
+[[cards]]
+text = "Gary Cooper"
+
+[[cards]]
+text = "3:10 to Yuma"
+
+[[cards]]
+text = "The Searchers"
+
+[[cards]]
+text = "Lonesome Dove"
+
+[[cards]]
+text = "High Plains Drifter"
+
+[[cards]]
+text = "My Darling Clementine"
+
+[[cards]]
+text = "Red River"
+
+[[cards]]
+text = "The Outlaw Josey Wales"
+
+[[cards]]
+text = "Fievel Goes West"
+
+[[cards]]
+text = "The Alamo"
+
+[[cards]]
+text = "Pale Rider"
+
+[[cards]]
+text = "City Slickers"
+
+[[cards]]
+text = "Cat Ballou"
+
+[[cards]]
+text = "Hidalgo"
+
+[[cards]]
+text = "El Dorado"
+
+[[cards]]
+text = "The Wild Bunch"
+
+[[cards]]
+text = "Billy the Kid"
+
+[[cards]]
+text = "Jesse James"
+
+[[cards]]
+text = "Calamity Jane"
+
+[[cards]]
+text = "Annie Oakley"
+
+[[cards]]
+text = "Buffalo Bill"
+
+[[cards]]
+text = "Roy Rogers"
+
+[[cards]]
+text = "Gene Autry"
+
+[[cards]]
+text = "James Stewart"
+
+[[cards]]
+text = "Henry Fonda"
+
+[[cards]]
+text = "Charles Bronson"
+
+[[cards]]
+text = "Paul Newman"
+
+[[cards]]
+text = "Robert Redford"
+
+[[cards]]
+text = "Sam Elliott"
+
+[[cards]]
+text = "Trigger"
+
+[[cards]]
+text = "Cisco Kid"
+
+[[cards]]
+text = "Pecos Bill"
+
+[[cards]]
+text = "Bounty Hunter"
+
+[[cards]]
+text = "Spittoon"
+
+[[cards]]
+text = "Hitching Post"
+
+[[cards]]
+text = "Water Trough"
+
+[[cards]]
+text = "Chuckwagon"
+
+[[cards]]
+text = "Branding Iron"
+
+[[cards]]
+text = "Saddlebags"
+
+[[cards]]
+text = "Tin Cup"
+
+[[cards]]
+text = "Coyote Howl"
+
+[[cards]]
+text = "Dust Storm"
+
+[[cards]]
+text = "Stampede"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Undertaker"
+
+[[cards]]
+text = "General Store"
+
+[[cards]]
+text = "Sheriff's Office"
+
+[[cards]]
+text = "Jail Cell"
+
+[[cards]]
+text = "Gold Pan"
+
+[[cards]]
+text = "Wanted Dead or Alive"
+
+[[cards]]
+text = "Desperado"
+
+[[cards]]
+text = "O.K. Corral"
+
+[[cards]]
+text = "Gunslinger"
+
+[[cards]]
+text = "Colt Revolver"
+
+[[cards]]
+text = "Pony Express"
+
+[[cards]]
+text = "Winchester Rifle"
+
+[[cards]]
+text = "Bonanza"
+
+[[cards]]
+text = "Gunsmoke"
+
+[[cards]]
+text = "A Fistful of Dollars"
+
+[[cards]]
+text = "McLintock!"
+
+[[cards]]
+text = "The Iron Horse"
+
+[[cards]]
+text = "Rawhide"
+
+[[cards]]
+text = "Wild Bill Hickok"
+
+[[cards]]
+text = "Yul Brynner"
+
+[[cards]]
+text = "Steve McQueen"
+
+[[cards]]
+text = "Lee Van Cleef"
+
+[[cards]]
+text = "John Ford"
+
+[[cards]]
+text = "Eli Wallach"
+
+[[cards]]
+text = "Kirk Douglas"
+
+[[cards]]
+text = "Burt Lancaster"
+
+[[cards]]
+text = "Cattle Rustler"
+
+[[cards]]
+text = "Saloon Brawl"
+
+[[cards]]
+text = "Gold Fever"
+
+[[cards]]
+text = "Prospector"
+
+[[cards]]
+text = "Chaps"
+
+[[cards]]
+text = "Bandana"
+
+[[cards]]
+text = "Saddle Horn"
+
+[[cards]]
+text = "Holster"
+
+[[cards]]
+text = "Gun Belt"
+
+[[cards]]
+text = "Standoff"
+
+[[cards]]
+text = "Bank Heist"
+
+[[cards]]
+text = "Texas Longhorn"
+
+[[cards]]
+text = "Ponderosa Ranch"
+
+[[cards]]
+text = "Deadwood"
+
+[[cards]]
+text = "Yuma Territorial Prison"
+
+[[cards]]
+text = "Sierra Madre"
+
+[[cards]]
+text = "Oregon Trail"
+
+[[cards]]
+text = "Rattlesnake"
+
+[[cards]]
+text = "Gila Monster"
+
+[[cards]]
+text = "Bison"
+
+[[cards]]
+text = "Mustang"
+
+[[cards]]
+text = "Poncho"
+
+[[cards]]
+text = "Bolo Tie"
+
+[[cards]]
+text = "Derringer"
+
+[[cards]]
+text = "Stirrups"
+
+[[cards]]
+text = "Hopalong Cassidy"
+
+[[cards]]
+text = "Zorro"
+
+[[cards]]
+text = "Pat Garrett"
+
+[[cards]]
+text = "Bat Masterson"
+
+[[cards]]
+text = "Harmonica"
+
+[[cards]]
+text = "Destry Rides Again"
+
+[[cards]]
+text = "Spaghetti Western"
+
+[[cards]]
+text = "Riding into the Sunset"
+
+[[cards]]
+text = "Six-Shooter"
+
+[[cards]]
+text = "Sheriff Woody"
+
+[[cards]]
+text = "Boot Hill"
+
+[[cards]]
+text = "Ennio Morricone"
+
+[[cards]]
+text = "Shanghai Noon"
+
+[[cards]]
+text = "The Apple Dumpling Gang"
+
+[[cards]]
+text = "Johnny Guitar"
+
+[[cards]]
+text = "Sergio Leone"
+
+[[cards]]
+text = "Duster Coat"
+
+[[cards]]
+text = "Geronimo"
+
+[[cards]]
+text = "Wild Wild West"
+
+[[cards]]
+text = "The Gunfighter"
+
+[[cards]]
+text = "Red Sun"
+
+[[cards]]
+text = "Fort Apache"
+
+[[cards]]
+text = "Liberty Valance"
+
+[[cards]]
+text = "The Shootist"
+
+[[cards]]
+text = "The Westerner"
+
+[[cards]]
+text = "Maureen O'Hara"
+
+[[cards]]
+text = "Randolph Scott"
+
+[[cards]]
+text = "Walter Brennan"
+
+[[cards]]
+text = "Canteen"
+
+[[cards]]
+text = "Lariat"
+
+[[cards]]
+text = "Vulture"
+
+[[cards]]
+text = "Prairie Dog"
+
+[[cards]]
+text = "Pack Mule"
+
+[[cards]]
+text = "Trading Post"
+
+[[cards]]
+text = "Livery Stable"
+
+[[cards]]
+text = "Barber Shop"
+
+[[cards]]
+text = "Tepee"
+
+[[cards]]
+text = "Pocket Watch"
+
+[[cards]]
+text = "Bullwhip"
+
+[[cards]]
+text = "The Tin Star"
+
+[[cards]]
+text = "Lee Marvin"
+
+[[cards]]
+text = "Jack Palance"
+
+[[cards]]
+text = "Alan Ladd"
+
+[[cards]]
+text = "Bullseye the Horse"
+
+[[cards]]
+text = "Sitting Bull"
+
+[[cards]]
+text = "Cochise"
+
+[[cards]]
+text = "Home on the Range"
+
+[[cards]]
+text = "The Cowboys"
+
+[[cards]]
+text = "Leather Vest"
+
+[[cards]]
+text = "Cavalry Charge"
+
+[[cards]]
+text = "Pistol Duel"
+
+[[cards]]
+text = "Watering Hole"
+
+[[cards]]
+text = "Railroad Tracks"
+
+[[cards]]
+text = "Saddle Blanket"
+
+[[cards]]
+text = "Card Game"
+
+[[cards]]
+text = "Peace Pipe"

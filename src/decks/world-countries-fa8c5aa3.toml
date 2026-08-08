@@ -1,0 +1,702 @@
+id = "deck_world-countries_fa8c5aa3"
+revision = 2
+name = "World Countries"
+category = "Geography"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should be real countries from around the world, plus a mix of well-known capitals and continents for replayability. Prefer widely recognized country names. No invented countries, micronations that are not widely known, or fake place names."
+photo_file_name = "world-countries-fa8c5aa3-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Canada"
+
+[[cards]]
+text = "France"
+
+[[cards]]
+text = "Japan"
+
+[[cards]]
+text = "Brazil"
+
+[[cards]]
+text = "Egypt"
+
+[[cards]]
+text = "Italy"
+
+[[cards]]
+text = "India"
+
+[[cards]]
+text = "Australia"
+
+[[cards]]
+text = "Germany"
+
+[[cards]]
+text = "Mexico"
+
+[[cards]]
+text = "China"
+
+[[cards]]
+text = "United Kingdom"
+
+[[cards]]
+text = "Spain"
+
+[[cards]]
+text = "Greece"
+
+[[cards]]
+text = "Russia"
+
+[[cards]]
+text = "South Africa"
+
+[[cards]]
+text = "New Zealand"
+
+[[cards]]
+text = "Argentina"
+
+[[cards]]
+text = "Peru"
+
+[[cards]]
+text = "Madagascar"
+
+[[cards]]
+text = "Switzerland"
+
+[[cards]]
+text = "Sweden"
+
+[[cards]]
+text = "Thailand"
+
+[[cards]]
+text = "Kenya"
+
+[[cards]]
+text = "Iceland"
+
+[[cards]]
+text = "Ireland"
+
+[[cards]]
+text = "Turkey"
+
+[[cards]]
+text = "Colombia"
+
+[[cards]]
+text = "Vietnam"
+
+[[cards]]
+text = "Paris"
+
+[[cards]]
+text = "London"
+
+[[cards]]
+text = "Tokyo"
+
+[[cards]]
+text = "Rome"
+
+[[cards]]
+text = "Cairo"
+
+[[cards]]
+text = "Washington D.C."
+
+[[cards]]
+text = "Beijing"
+
+[[cards]]
+text = "Athens"
+
+[[cards]]
+text = "Ottawa"
+
+[[cards]]
+text = "Berlin"
+
+[[cards]]
+text = "New Delhi"
+
+[[cards]]
+text = "Moscow"
+
+[[cards]]
+text = "Bangkok"
+
+[[cards]]
+text = "Amsterdam"
+
+[[cards]]
+text = "Dublin"
+
+[[cards]]
+text = "Africa"
+
+[[cards]]
+text = "Antarctica"
+
+[[cards]]
+text = "Asia"
+
+[[cards]]
+text = "Europe"
+
+[[cards]]
+text = "North America"
+
+[[cards]]
+text = "South America"
+
+[[cards]]
+text = "Norway"
+
+[[cards]]
+text = "Finland"
+
+[[cards]]
+text = "Denmark"
+
+[[cards]]
+text = "Portugal"
+
+[[cards]]
+text = "Belgium"
+
+[[cards]]
+text = "Austria"
+
+[[cards]]
+text = "Poland"
+
+[[cards]]
+text = "Hungary"
+
+[[cards]]
+text = "Czech Republic"
+
+[[cards]]
+text = "Croatia"
+
+[[cards]]
+text = "Morocco"
+
+[[cards]]
+text = "Nigeria"
+
+[[cards]]
+text = "Ethiopia"
+
+[[cards]]
+text = "Saudi Arabia"
+
+[[cards]]
+text = "Israel"
+
+[[cards]]
+text = "South Korea"
+
+[[cards]]
+text = "Singapore"
+
+[[cards]]
+text = "Malaysia"
+
+[[cards]]
+text = "Indonesia"
+
+[[cards]]
+text = "Philippines"
+
+[[cards]]
+text = "Chile"
+
+[[cards]]
+text = "Venezuela"
+
+[[cards]]
+text = "Cuba"
+
+[[cards]]
+text = "Jamaica"
+
+[[cards]]
+text = "Costa Rica"
+
+[[cards]]
+text = "Panama"
+
+[[cards]]
+text = "Ukraine"
+
+[[cards]]
+text = "Ecuador"
+
+[[cards]]
+text = "Nepal"
+
+[[cards]]
+text = "Taiwan"
+
+[[cards]]
+text = "Oslo"
+
+[[cards]]
+text = "Helsinki"
+
+[[cards]]
+text = "Copenhagen"
+
+[[cards]]
+text = "Lisbon"
+
+[[cards]]
+text = "Brussels"
+
+[[cards]]
+text = "Vienna"
+
+[[cards]]
+text = "Warsaw"
+
+[[cards]]
+text = "Budapest"
+
+[[cards]]
+text = "Prague"
+
+[[cards]]
+text = "Seoul"
+
+[[cards]]
+text = "Jakarta"
+
+[[cards]]
+text = "Manila"
+
+[[cards]]
+text = "Santiago"
+
+[[cards]]
+text = "Havana"
+
+[[cards]]
+text = "Kingston"
+
+[[cards]]
+text = "Kyiv"
+
+[[cards]]
+text = "Beirut"
+
+[[cards]]
+text = "Baghdad"
+
+[[cards]]
+text = "Kuala Lumpur"
+
+[[cards]]
+text = "Oceania"
+
+[[cards]]
+text = "Netherlands"
+
+[[cards]]
+text = "Scotland"
+
+[[cards]]
+text = "Wales"
+
+[[cards]]
+text = "Mongolia"
+
+[[cards]]
+text = "Greenland"
+
+[[cards]]
+text = "Bolivia"
+
+[[cards]]
+text = "Uruguay"
+
+[[cards]]
+text = "Paraguay"
+
+[[cards]]
+text = "Guatemala"
+
+[[cards]]
+text = "Bahamas"
+
+[[cards]]
+text = "Haiti"
+
+[[cards]]
+text = "Monaco"
+
+[[cards]]
+text = "Luxembourg"
+
+[[cards]]
+text = "Cambodia"
+
+[[cards]]
+text = "Sri Lanka"
+
+[[cards]]
+text = "Iran"
+
+[[cards]]
+text = "Iraq"
+
+[[cards]]
+text = "Pakistan"
+
+[[cards]]
+text = "Jordan"
+
+[[cards]]
+text = "Romania"
+
+[[cards]]
+text = "Bulgaria"
+
+[[cards]]
+text = "Slovakia"
+
+[[cards]]
+text = "Algeria"
+
+[[cards]]
+text = "Libya"
+
+[[cards]]
+text = "Ghana"
+
+[[cards]]
+text = "Zimbabwe"
+
+[[cards]]
+text = "Dominican Republic"
+
+[[cards]]
+text = "Puerto Rico"
+
+[[cards]]
+text = "Madrid"
+
+[[cards]]
+text = "Buenos Aires"
+
+[[cards]]
+text = "Lima"
+
+[[cards]]
+text = "Mexico City"
+
+[[cards]]
+text = "Canberra"
+
+[[cards]]
+text = "Wellington"
+
+[[cards]]
+text = "Bogota"
+
+[[cards]]
+text = "Stockholm"
+
+[[cards]]
+text = "Bern"
+
+[[cards]]
+text = "Nairobi"
+
+[[cards]]
+text = "Reykjavik"
+
+[[cards]]
+text = "Ankara"
+
+[[cards]]
+text = "Edinburgh"
+
+[[cards]]
+text = "Bucharest"
+
+[[cards]]
+text = "Papua New Guinea"
+
+[[cards]]
+text = "Maldives"
+
+[[cards]]
+text = "Fiji"
+
+[[cards]]
+text = "Samoa"
+
+[[cards]]
+text = "Tonga"
+
+[[cards]]
+text = "Malta"
+
+[[cards]]
+text = "Cyprus"
+
+[[cards]]
+text = "Liechtenstein"
+
+[[cards]]
+text = "Vatican City"
+
+[[cards]]
+text = "United Arab Emirates"
+
+[[cards]]
+text = "Honduras"
+
+[[cards]]
+text = "El Salvador"
+
+[[cards]]
+text = "Nicaragua"
+
+[[cards]]
+text = "Belize"
+
+[[cards]]
+text = "Laos"
+
+[[cards]]
+text = "Myanmar"
+
+[[cards]]
+text = "Afghanistan"
+
+[[cards]]
+text = "Syria"
+
+[[cards]]
+text = "Yemen"
+
+[[cards]]
+text = "Qatar"
+
+[[cards]]
+text = "Kuwait"
+
+[[cards]]
+text = "Bangladesh"
+
+[[cards]]
+text = "Lebanon"
+
+[[cards]]
+text = "Tanzania"
+
+[[cards]]
+text = "Uganda"
+
+[[cards]]
+text = "Somalia"
+
+[[cards]]
+text = "Senegal"
+
+[[cards]]
+text = "Cameroon"
+
+[[cards]]
+text = "Ivory Coast"
+
+[[cards]]
+text = "Angola"
+
+[[cards]]
+text = "Sudan"
+
+[[cards]]
+text = "Tunisia"
+
+[[cards]]
+text = "Estonia"
+
+[[cards]]
+text = "Latvia"
+
+[[cards]]
+text = "Lithuania"
+
+[[cards]]
+text = "Belarus"
+
+[[cards]]
+text = "Georgia"
+
+[[cards]]
+text = "Armenia"
+
+[[cards]]
+text = "Azerbaijan"
+
+[[cards]]
+text = "Serbia"
+
+[[cards]]
+text = "Bosnia and Herzegovina"
+
+[[cards]]
+text = "Albania"
+
+[[cards]]
+text = "Slovenia"
+
+[[cards]]
+text = "Andorra"
+
+[[cards]]
+text = "Trinidad and Tobago"
+
+[[cards]]
+text = "Barbados"
+
+[[cards]]
+text = "Tehran"
+
+[[cards]]
+text = "Riyadh"
+
+[[cards]]
+text = "Abu Dhabi"
+
+[[cards]]
+text = "Kabul"
+
+[[cards]]
+text = "Islamabad"
+
+[[cards]]
+text = "Kathmandu"
+
+[[cards]]
+text = "Hanoi"
+
+[[cards]]
+text = "Taipei"
+
+[[cards]]
+text = "Quito"
+
+[[cards]]
+text = "Caracas"
+
+[[cards]]
+text = "Montevideo"
+
+[[cards]]
+text = "La Paz"
+
+[[cards]]
+text = "England"
+
+[[cards]]
+text = "North Korea"
+
+[[cards]]
+text = "Kazakhstan"
+
+[[cards]]
+text = "San Marino"
+
+[[cards]]
+text = "Cape Town"
+
+[[cards]]
+text = "Mali"
+
+[[cards]]
+text = "Botswana"
+
+[[cards]]
+text = "Namibia"
+
+[[cards]]
+text = "Uzbekistan"
+
+[[cards]]
+text = "Bhutan"
+
+[[cards]]
+text = "South Sudan"
+
+[[cards]]
+text = "Guyana"
+
+[[cards]]
+text = "Suriname"
+
+[[cards]]
+text = "Montenegro"
+
+[[cards]]
+text = "North Macedonia"
+
+[[cards]]
+text = "Kosovo"
+
+[[cards]]
+text = "Moldova"
+
+[[cards]]
+text = "Mauritius"
+
+[[cards]]
+text = "Seychelles"
+
+[[cards]]
+text = "Gambia"
+
+[[cards]]
+text = "Gabon"
+
+[[cards]]
+text = "Eritrea"
+
+[[cards]]
+text = "Djibouti"
+
+[[cards]]
+text = "Rwanda"
+
+[[cards]]
+text = "Burundi"
+
+[[cards]]
+text = "Zambia"
+
+[[cards]]
+text = "Malawi"
+
+[[cards]]
+text = "Lesotho"
+
+[[cards]]
+text = "Eswatini"
+
+[[cards]]
+text = "Mozambique"
+
+[[cards]]
+text = "Brunei"

@@ -1,0 +1,603 @@
+id = "deck_great-depression_415c9066"
+revision = 2
+name = "Great Depression"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Great Depression causes, New Deal programs, presidents, dust bowl, unemployment, famous figures, cultural moments, and major events of the 1930s economic crisis. Prefer real historical people, places, and events."
+photo_file_name = "great-depression-415c9066-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Stock Market Crash"
+
+[[cards]]
+text = "Black Tuesday"
+
+[[cards]]
+text = "Herbert Hoover"
+
+[[cards]]
+text = "Franklin D. Roosevelt"
+
+[[cards]]
+text = "Eleanor Roosevelt"
+
+[[cards]]
+text = "Hoovervilles"
+
+[[cards]]
+text = "Breadlines"
+
+[[cards]]
+text = "Soup Kitchens"
+
+[[cards]]
+text = "Bank Run"
+
+[[cards]]
+text = "The New Deal"
+
+[[cards]]
+text = "Civilian Conservation Corps"
+
+[[cards]]
+text = "Works Progress Administration"
+
+[[cards]]
+text = "Social Security Act"
+
+[[cards]]
+text = "Tennessee Valley Authority"
+
+[[cards]]
+text = "Dust Bowl"
+
+[[cards]]
+text = "Black Blizzard"
+
+[[cards]]
+text = "Migrant Mother"
+
+[[cards]]
+text = "John Steinbeck"
+
+[[cards]]
+text = "The Grapes of Wrath"
+
+[[cards]]
+text = "Okies"
+
+[[cards]]
+text = "Route 66"
+
+[[cards]]
+text = "Fireside Chats"
+
+[[cards]]
+text = "Bonus Army"
+
+[[cards]]
+text = "Frances Perkins"
+
+[[cards]]
+text = "Huey Long"
+
+[[cards]]
+text = "Riding the Rails"
+
+[[cards]]
+text = "Hobo Signs"
+
+[[cards]]
+text = "FDIC"
+
+[[cards]]
+text = "Wall Street"
+
+[[cards]]
+text = "Buying on Margin"
+
+[[cards]]
+text = "Monopoly Board Game"
+
+[[cards]]
+text = "Shirley Temple"
+
+[[cards]]
+text = "Jesse Owens"
+
+[[cards]]
+text = "Amelia Earhart"
+
+[[cards]]
+text = "Seabiscuit"
+
+[[cards]]
+text = "Woody Guthrie"
+
+[[cards]]
+text = "Dorothea Lange"
+
+[[cards]]
+text = "First Hundred Days"
+
+[[cards]]
+text = "Apple Sellers"
+
+[[cards]]
+text = "Gold Standard"
+
+[[cards]]
+text = "Smoot-Hawley Tariff"
+
+[[cards]]
+text = "Securities and Exchange Commission"
+
+[[cards]]
+text = "Federal Reserve"
+
+[[cards]]
+text = "Court-Packing Plan"
+
+[[cards]]
+text = "Prohibition Repeal"
+
+[[cards]]
+text = "King Kong"
+
+[[cards]]
+text = "The Wizard of Oz"
+
+[[cards]]
+text = "Empire State Building"
+
+[[cards]]
+text = "Golden Gate Bridge"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Hoover Dam"
+
+[[cards]]
+text = "American Gothic"
+
+[[cards]]
+text = "Bonnie and Clyde"
+
+[[cards]]
+text = "John Dillinger"
+
+[[cards]]
+text = "The Hindenburg"
+
+[[cards]]
+text = "Gone with the Wind"
+
+[[cards]]
+text = "Glass-Steagall Act"
+
+[[cards]]
+text = "National Recovery Administration"
+
+[[cards]]
+text = "Agricultural Adjustment Act"
+
+[[cards]]
+text = "Public Works Administration"
+
+[[cards]]
+text = "Federal Housing Administration"
+
+[[cards]]
+text = "National Youth Administration"
+
+[[cards]]
+text = "Civil Works Administration"
+
+[[cards]]
+text = "Bank Holiday"
+
+[[cards]]
+text = "Hoover Blanket"
+
+[[cards]]
+text = "Hoover Flag"
+
+[[cards]]
+text = "Hoover Leather"
+
+[[cards]]
+text = "Shantytown"
+
+[[cards]]
+text = "Migrant Worker"
+
+[[cards]]
+text = "Penny Auction"
+
+[[cards]]
+text = "Eviction Notice"
+
+[[cards]]
+text = "Farm Foreclosure"
+
+[[cards]]
+text = "Deflation"
+
+[[cards]]
+text = "Share Our Wealth"
+
+[[cards]]
+text = "Wagner Act"
+
+[[cards]]
+text = "Fair Labor Standards Act"
+
+[[cards]]
+text = "Emergency Banking Act"
+
+[[cards]]
+text = "Indian Reorganization Act"
+
+[[cards]]
+text = "Father Charles Coughlin"
+
+[[cards]]
+text = "Grant Wood"
+
+[[cards]]
+text = "Walker Evans"
+
+[[cards]]
+text = "Margaret Bourke-White"
+
+[[cards]]
+text = "Orson Welles"
+
+[[cards]]
+text = "War of the Worlds"
+
+[[cards]]
+text = "Fred Astaire"
+
+[[cards]]
+text = "Ginger Rogers"
+
+[[cards]]
+text = "Duke Ellington"
+
+[[cards]]
+text = "Benny Goodman"
+
+[[cards]]
+text = "Count Basie"
+
+[[cards]]
+text = "Joe Louis"
+
+[[cards]]
+text = "Lou Gehrig"
+
+[[cards]]
+text = "Babe Ruth"
+
+[[cards]]
+text = "Clark Gable"
+
+[[cards]]
+text = "Judy Garland"
+
+[[cards]]
+text = "Snow White"
+
+[[cards]]
+text = "Little Orphan Annie"
+
+[[cards]]
+text = "J. Edgar Hoover"
+
+[[cards]]
+text = "Baby Face Nelson"
+
+[[cards]]
+text = "Pretty Boy Floyd"
+
+[[cards]]
+text = "Chrysler Building"
+
+[[cards]]
+text = "Black Thursday"
+
+[[cards]]
+text = "Brain Trust"
+
+[[cards]]
+text = "Rural Electrification Administration"
+
+[[cards]]
+text = "Federal Emergency Relief Administration"
+
+[[cards]]
+text = "National Labor Relations Board"
+
+[[cards]]
+text = "Soil Conservation Service"
+
+[[cards]]
+text = "Shelterbelt Project"
+
+[[cards]]
+text = "Home Owners Loan Corporation"
+
+[[cards]]
+text = "Harry Hopkins"
+
+[[cards]]
+text = "Harold Ickes"
+
+[[cards]]
+text = "Henry A. Wallace"
+
+[[cards]]
+text = "Alf Landon"
+
+[[cards]]
+text = "Wendell Willkie"
+
+[[cards]]
+text = "John Nance Garner"
+
+[[cards]]
+text = "Twenty-First Amendment"
+
+[[cards]]
+text = "Twentieth Amendment"
+
+[[cards]]
+text = "Flint Sit-Down Strike"
+
+[[cards]]
+text = "John L. Lewis"
+
+[[cards]]
+text = "Congress of Industrial Organizations"
+
+[[cards]]
+text = "Dr. Francis Townsend"
+
+[[cards]]
+text = "Warm Springs"
+
+[[cards]]
+text = "Douglas MacArthur"
+
+[[cards]]
+text = "Anacostia Flats"
+
+[[cards]]
+text = "Al Capone"
+
+[[cards]]
+text = "Machine Gun Kelly"
+
+[[cards]]
+text = "Ma Barker"
+
+[[cards]]
+text = "Melvin Purvis"
+
+[[cards]]
+text = "G-Men"
+
+[[cards]]
+text = "Alcatraz Federal Penitentiary"
+
+[[cards]]
+text = "Dust Pneumonia"
+
+[[cards]]
+text = "Tumbleweeds"
+
+[[cards]]
+text = "Radio City Music Hall"
+
+[[cards]]
+text = "The Rockettes"
+
+[[cards]]
+text = "Rockefeller Center"
+
+[[cards]]
+text = "1939 World's Fair"
+
+[[cards]]
+text = "Trylon and Perisphere"
+
+[[cards]]
+text = "Drive-In Theater"
+
+[[cards]]
+text = "Technicolor"
+
+[[cards]]
+text = "Streamliner"
+
+[[cards]]
+text = "Superman"
+
+[[cards]]
+text = "Batman"
+
+[[cards]]
+text = "Dick Tracy"
+
+[[cards]]
+text = "The Shadow"
+
+[[cards]]
+text = "Jack Benny"
+
+[[cards]]
+text = "Glenn Miller"
+
+[[cards]]
+text = "Billie Holiday"
+
+[[cards]]
+text = "Lindy Hop"
+
+[[cards]]
+text = "Marathon Dancing"
+
+[[cards]]
+text = "Fiorello La Guardia"
+
+[[cards]]
+text = "Stock Market"
+
+[[cards]]
+text = "Ticker Tape"
+
+[[cards]]
+text = "Financial Panic"
+
+[[cards]]
+text = "Bank Failure"
+
+[[cards]]
+text = "Bankruptcy"
+
+[[cards]]
+text = "Foreclosure"
+
+[[cards]]
+text = "Unemployment Line"
+
+[[cards]]
+text = "The Dole"
+
+[[cards]]
+text = "Relief Checks"
+
+[[cards]]
+text = "Hoover Wagon"
+
+[[cards]]
+text = "Hooverette"
+
+[[cards]]
+text = "Flour Sack Dresses"
+
+[[cards]]
+text = "Hobo Jungle"
+
+[[cards]]
+text = "Boxcar"
+
+[[cards]]
+text = "Railroad Bull"
+
+[[cards]]
+text = "Drought"
+
+[[cards]]
+text = "Dust Storm"
+
+[[cards]]
+text = "Soil Erosion"
+
+[[cards]]
+text = "Sharecropper"
+
+[[cards]]
+text = "Tenant Farmer"
+
+[[cards]]
+text = "Weedpatch Camp"
+
+[[cards]]
+text = "The Blue Eagle"
+
+[[cards]]
+text = "Federal Art Project"
+
+[[cards]]
+text = "Federal Theatre Project"
+
+[[cards]]
+text = "Federal Writers' Project"
+
+[[cards]]
+text = "Tree Army"
+
+[[cards]]
+text = "Keynesian Economics"
+
+[[cards]]
+text = "John Maynard Keynes"
+
+[[cards]]
+text = "Upton Sinclair"
+
+[[cards]]
+text = "Norman Thomas"
+
+[[cards]]
+text = "Charles Lindbergh"
+
+[[cards]]
+text = "Lindbergh Kidnapping"
+
+[[cards]]
+text = "Jitterbug"
+
+[[cards]]
+text = "Big Band Music"
+
+[[cards]]
+text = "Swing Music"
+
+[[cards]]
+text = "Jukebox"
+
+[[cards]]
+text = "Soap Operas"
+
+[[cards]]
+text = "Newsreels"
+
+[[cards]]
+text = "Double Feature"
+
+[[cards]]
+text = "Dish Night"
+
+[[cards]]
+text = "Golden Age of Radio"
+
+[[cards]]
+text = "Golden Age of Hollywood"
+
+[[cards]]
+text = "Frankenstein"
+
+[[cards]]
+text = "Dracula"
+
+[[cards]]
+text = "Charlie Chaplin"
+
+[[cards]]
+text = "James Braddock"
+
+[[cards]]
+text = "Max Schmeling"
+
+[[cards]]
+text = "Babe Didrikson"
+
+[[cards]]
+text = "Nancy Drew"

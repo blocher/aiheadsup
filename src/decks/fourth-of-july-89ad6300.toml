@@ -1,0 +1,579 @@
+id = "deck_fourth-of-july_89ad6300"
+revision = 2
+name = "Fourth of July"
+category = "USA 250"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should include Independence Day traditions, fireworks, parades, barbecues, patriotic songs, flags, national symbols, summer celebrations, and family-friendly Fourth of July activities."
+photo_file_name = "fourth-of-july-89ad6300-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Sparklers"
+
+[[cards]]
+text = "Fireworks"
+
+[[cards]]
+text = "Uncle Sam"
+
+[[cards]]
+text = "Statue of Liberty"
+
+[[cards]]
+text = "Bald Eagle"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Barbecue"
+
+[[cards]]
+text = "Hot Dogs"
+
+[[cards]]
+text = "Apple Pie"
+
+[[cards]]
+text = "American Flag"
+
+[[cards]]
+text = "Red, White, and Blue"
+
+[[cards]]
+text = "Parade"
+
+[[cards]]
+text = "Marching Band"
+
+[[cards]]
+text = "Picnic"
+
+[[cards]]
+text = "Watermelon"
+
+[[cards]]
+text = "Lemonade"
+
+[[cards]]
+text = "Cotton Candy"
+
+[[cards]]
+text = "Ice Cream"
+
+[[cards]]
+text = "Hamburger"
+
+[[cards]]
+text = "Corn on the Cob"
+
+[[cards]]
+text = "Stars and Stripes"
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "Philadelphia"
+
+[[cards]]
+text = "Washington, D.C."
+
+[[cards]]
+text = "National Anthem"
+
+[[cards]]
+text = "Yankee Doodle"
+
+[[cards]]
+text = "Face Painting"
+
+[[cards]]
+text = "Three-Legged Race"
+
+[[cards]]
+text = "Sack Race"
+
+[[cards]]
+text = "Lawn Chairs"
+
+[[cards]]
+text = "Campfire"
+
+[[cards]]
+text = "S'mores"
+
+[[cards]]
+text = "Pool Party"
+
+[[cards]]
+text = "Grill Master"
+
+[[cards]]
+text = "Water Balloon Fight"
+
+[[cards]]
+text = "Frisbee"
+
+[[cards]]
+text = "Glow Sticks"
+
+[[cards]]
+text = "Firecrackers"
+
+[[cards]]
+text = "Sparkling Cider"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "Founding Fathers"
+
+[[cards]]
+text = "Mount Rushmore"
+
+[[cards]]
+text = "Patriotic Hat"
+
+[[cards]]
+text = "Independence Day"
+
+[[cards]]
+text = "America the Beautiful"
+
+[[cards]]
+text = "Star-Spangled Banner"
+
+[[cards]]
+text = "Grand Finale"
+
+[[cards]]
+text = "Pledge of Allegiance"
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "White House"
+
+[[cards]]
+text = "Constitution"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Cookout"
+
+[[cards]]
+text = "Block Party"
+
+[[cards]]
+text = "Cooler"
+
+[[cards]]
+text = "Air Show"
+
+[[cards]]
+text = "Fifty Stars"
+
+[[cards]]
+text = "Thirteen Stripes"
+
+[[cards]]
+text = "Liberty"
+
+[[cards]]
+text = "Freedom"
+
+[[cards]]
+text = "Patriotic T-Shirt"
+
+[[cards]]
+text = "Baton Twirler"
+
+[[cards]]
+text = "Trumpet"
+
+[[cards]]
+text = "Bugle"
+
+[[cards]]
+text = "Drummer"
+
+[[cards]]
+text = "Pinwheel"
+
+[[cards]]
+text = "Confetti"
+
+[[cards]]
+text = "Streamers"
+
+[[cards]]
+text = "Party Popper"
+
+[[cards]]
+text = "Lightning Bug"
+
+[[cards]]
+text = "Hammock"
+
+[[cards]]
+text = "Porch Swing"
+
+[[cards]]
+text = "Red Wagon"
+
+[[cards]]
+text = "Cornhole"
+
+[[cards]]
+text = "Horseshoes"
+
+[[cards]]
+text = "Tug of War"
+
+[[cards]]
+text = "Sprinkler"
+
+[[cards]]
+text = "Water Slide"
+
+[[cards]]
+text = "Beach Ball"
+
+[[cards]]
+text = "Sunglasses"
+
+[[cards]]
+text = "Popsicle"
+
+[[cards]]
+text = "Root Beer Float"
+
+[[cards]]
+text = "Strawberry Shortcake"
+
+[[cards]]
+text = "Cherry Pie"
+
+[[cards]]
+text = "Potato Salad"
+
+[[cards]]
+text = "Grilled Chicken"
+
+[[cards]]
+text = "Kabobs"
+
+[[cards]]
+text = "Sweet Tea"
+
+[[cards]]
+text = "Coleslaw"
+
+[[cards]]
+text = "Macaroni Salad"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "Abigail Adams"
+
+[[cards]]
+text = "Martha Washington"
+
+[[cards]]
+text = "Ellis Island"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Capitol Building"
+
+[[cards]]
+text = "The Pentagon"
+
+[[cards]]
+text = "American Bison"
+
+[[cards]]
+text = "Rose"
+
+[[cards]]
+text = "Oak Tree"
+
+[[cards]]
+text = "New York City"
+
+[[cards]]
+text = "Boston"
+
+[[cards]]
+text = "Grill Tongs"
+
+[[cards]]
+text = "Pork Ribs"
+
+[[cards]]
+text = "Baked Beans"
+
+[[cards]]
+text = "Cornbread"
+
+[[cards]]
+text = "Deviled Eggs"
+
+[[cards]]
+text = "Blueberry Cobbler"
+
+[[cards]]
+text = "Peach Cobbler"
+
+[[cards]]
+text = "Snow Cone"
+
+[[cards]]
+text = "Fruit Salad"
+
+[[cards]]
+text = "Ketchup"
+
+[[cards]]
+text = "Mustard"
+
+[[cards]]
+text = "Relish"
+
+[[cards]]
+text = "Toasted Marshmallow"
+
+[[cards]]
+text = "Flagpole"
+
+[[cards]]
+text = "Cymbals"
+
+[[cards]]
+text = "Trombone"
+
+[[cards]]
+text = "Flute"
+
+[[cards]]
+text = "Patio Umbrella"
+
+[[cards]]
+text = "Wicker Basket"
+
+[[cards]]
+text = "Sunscreen Lotion"
+
+[[cards]]
+text = "Beach Towel"
+
+[[cards]]
+text = "Flip Flops"
+
+[[cards]]
+text = "Sun Hat"
+
+[[cards]]
+text = "Splash Pad"
+
+[[cards]]
+text = "Hula Hoop Contest"
+
+[[cards]]
+text = "Ring Toss"
+
+[[cards]]
+text = "Limbo Game"
+
+[[cards]]
+text = "Egg and Spoon Race"
+
+[[cards]]
+text = "Fire Pit"
+
+[[cards]]
+text = "God Bless America"
+
+[[cards]]
+text = "Laser Show"
+
+[[cards]]
+text = "Flashlight Tag"
+
+[[cards]]
+text = "Outdoor Movie"
+
+[[cards]]
+text = "Bottle Rocket"
+
+[[cards]]
+text = "Washington Monument"
+
+[[cards]]
+text = "America's Birthday"
+
+[[cards]]
+text = "Smoke Bomb"
+
+[[cards]]
+text = "Roman Candle"
+
+[[cards]]
+text = "Bug Zapper"
+
+[[cards]]
+text = "Citronella Candle"
+
+[[cards]]
+text = "Bomb Pop"
+
+[[cards]]
+text = "Banana Split"
+
+[[cards]]
+text = "Waffle Cone"
+
+[[cards]]
+text = "Whipped Cream"
+
+[[cards]]
+text = "Sprinkles"
+
+[[cards]]
+text = "Checkered Tablecloth"
+
+[[cards]]
+text = "Spatula"
+
+[[cards]]
+text = "Propane Tank"
+
+[[cards]]
+text = "Chef Apron"
+
+[[cards]]
+text = "Soda Pop"
+
+[[cards]]
+text = "Ice Cubes"
+
+[[cards]]
+text = "Potato Chips"
+
+[[cards]]
+text = "Chips and Dip"
+
+[[cards]]
+text = "Salsa"
+
+[[cards]]
+text = "Guacamole"
+
+[[cards]]
+text = "Red Velvet Cupcakes"
+
+[[cards]]
+text = "Pie Eating Contest"
+
+[[cards]]
+text = "Wheelbarrow Race"
+
+[[cards]]
+text = "Water Gun"
+
+[[cards]]
+text = "Super Soaker"
+
+[[cards]]
+text = "Pool Noodle"
+
+[[cards]]
+text = "Diving Board"
+
+[[cards]]
+text = "Cannonball"
+
+[[cards]]
+text = "Belly Flop"
+
+[[cards]]
+text = "Sunburn"
+
+[[cards]]
+text = "Aloe Vera"
+
+[[cards]]
+text = "Beach Umbrella"
+
+[[cards]]
+text = "Sandcastle"
+
+[[cards]]
+text = "Seashells"
+
+[[cards]]
+text = "Boardwalk"
+
+[[cards]]
+text = "Garden Hose"
+
+[[cards]]
+text = "Freshly Cut Grass"
+
+[[cards]]
+text = "Tiki Torches"
+
+[[cards]]
+text = "String Lights"
+
+[[cards]]
+text = "Stargazing"
+
+[[cards]]
+text = "Shooting Star"
+
+[[cards]]
+text = "Oohs and Aahs"
+
+[[cards]]
+text = "Decorated Bicycle"
+
+[[cards]]
+text = "Antique Car"
+
+[[cards]]
+text = "Fire Truck"
+
+[[cards]]
+text = "Candy Toss"
+
+[[cards]]
+text = "Color Guard"
+
+[[cards]]
+text = "Sousaphone"

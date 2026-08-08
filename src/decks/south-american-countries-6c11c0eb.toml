@@ -1,0 +1,231 @@
+id = "deck_south-american-countries_6c11c0eb"
+revision = 1
+name = "South American Countries"
+category = "Geography"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real South American countries and well-known related geography such as capitals, major cities, landmarks, rivers, mountains, and regions. Prefer country names first. No invented countries."
+photo_file_name = "south-american-countries-6c11c0eb-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Brazil"
+
+[[cards]]
+text = "Argentina"
+
+[[cards]]
+text = "Peru"
+
+[[cards]]
+text = "Colombia"
+
+[[cards]]
+text = "Chile"
+
+[[cards]]
+text = "Venezuela"
+
+[[cards]]
+text = "Ecuador"
+
+[[cards]]
+text = "Bolivia"
+
+[[cards]]
+text = "Paraguay"
+
+[[cards]]
+text = "Uruguay"
+
+[[cards]]
+text = "Guyana"
+
+[[cards]]
+text = "Suriname"
+
+[[cards]]
+text = "French Guiana"
+
+[[cards]]
+text = "Machu Picchu"
+
+[[cards]]
+text = "Amazon Rainforest"
+
+[[cards]]
+text = "Amazon River"
+
+[[cards]]
+text = "Andes Mountains"
+
+[[cards]]
+text = "Galapagos Islands"
+
+[[cards]]
+text = "Christ the Redeemer"
+
+[[cards]]
+text = "Iguazu Falls"
+
+[[cards]]
+text = "Angel Falls"
+
+[[cards]]
+text = "Lake Titicaca"
+
+[[cards]]
+text = "Patagonia"
+
+[[cards]]
+text = "Atacama Desert"
+
+[[cards]]
+text = "Buenos Aires"
+
+[[cards]]
+text = "Rio de Janeiro"
+
+[[cards]]
+text = "Lima"
+
+[[cards]]
+text = "Bogota"
+
+[[cards]]
+text = "Santiago"
+
+[[cards]]
+text = "Caracas"
+
+[[cards]]
+text = "Quito"
+
+[[cards]]
+text = "La Paz"
+
+[[cards]]
+text = "Montevideo"
+
+[[cards]]
+text = "Asuncion"
+
+[[cards]]
+text = "Brasilia"
+
+[[cards]]
+text = "Sao Paulo"
+
+[[cards]]
+text = "Cusco"
+
+[[cards]]
+text = "Easter Island"
+
+[[cards]]
+text = "Tierra del Fuego"
+
+[[cards]]
+text = "Mount Aconcagua"
+
+[[cards]]
+text = "Salar de Uyuni"
+
+[[cards]]
+text = "Sugarloaf Mountain"
+
+[[cards]]
+text = "Falkland Islands"
+
+[[cards]]
+text = "Cape Horn"
+
+[[cards]]
+text = "Strait of Magellan"
+
+[[cards]]
+text = "Orinoco River"
+
+[[cards]]
+text = "Medellin"
+
+[[cards]]
+text = "Cartagena"
+
+[[cards]]
+text = "Copacabana Beach"
+
+[[cards]]
+text = "Nazca Lines"
+
+[[cards]]
+text = "The Pampas"
+
+[[cards]]
+text = "Pantanal"
+
+[[cards]]
+text = "Perito Moreno Glacier"
+
+[[cards]]
+text = "Manaus"
+
+[[cards]]
+text = "Lake Maracaibo"
+
+[[cards]]
+text = "Georgetown"
+
+[[cards]]
+text = "Paramaribo"
+
+[[cards]]
+text = "Sucre"
+
+[[cards]]
+text = "Valparaiso"
+
+[[cards]]
+text = "Cali"
+
+[[cards]]
+text = "Guayaquil"
+
+[[cards]]
+text = "Arequipa"
+
+[[cards]]
+text = "Cotopaxi"
+
+[[cards]]
+text = "Huacachina"
+
+[[cards]]
+text = "Salvador da Bahia"
+
+[[cards]]
+text = "Bariloche"
+
+[[cards]]
+text = "Mendoza"
+
+[[cards]]
+text = "Ipanema Beach"
+
+[[cards]]
+text = "Magdalena River"
+
+[[cards]]
+text = "Sacred Valley"
+
+[[cards]]
+text = "Colca Canyon"
+
+[[cards]]
+text = "Fernando de Noronha"
+
+[[cards]]
+text = "Chimborazo"
+
+[[cards]]
+text = "Cordoba"

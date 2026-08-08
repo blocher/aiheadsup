@@ -1,0 +1,588 @@
+id = "deck_2000s-american-history_640ce3c1"
+revision = 2
+name = "2000s American History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 21st-century American politics, technology, wars, culture, disasters, elections, and major events from 2000 onward. Prefer real historical people, places, and events."
+photo_file_name = "2000s-american-history-640ce3c1-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Barack Obama"
+
+[[cards]]
+text = "George W. Bush"
+
+[[cards]]
+text = "Hurricane Katrina"
+
+[[cards]]
+text = "September 11 Attacks"
+
+[[cards]]
+text = "The Great Recession"
+
+[[cards]]
+text = "Apple iPhone"
+
+[[cards]]
+text = "Facebook"
+
+[[cards]]
+text = "War in Afghanistan"
+
+[[cards]]
+text = "Iraq War"
+
+[[cards]]
+text = "John McCain"
+
+[[cards]]
+text = "Sarah Palin"
+
+[[cards]]
+text = "Space Shuttle Columbia"
+
+[[cards]]
+text = "New Orleans Superdome"
+
+[[cards]]
+text = "Ground Zero"
+
+[[cards]]
+text = "Homeland Security"
+
+[[cards]]
+text = "Affordable Care Act"
+
+[[cards]]
+text = "Boston Marathon Bombing"
+
+[[cards]]
+text = "Donald Trump"
+
+[[cards]]
+text = "Hillary Clinton"
+
+[[cards]]
+text = "Joe Biden"
+
+[[cards]]
+text = "Mars Curiosity Rover"
+
+[[cards]]
+text = "Deepwater Horizon"
+
+[[cards]]
+text = "Occupy Wall Street"
+
+[[cards]]
+text = "Same-Sex Marriage"
+
+[[cards]]
+text = "SEAL Team Six"
+
+[[cards]]
+text = "Edward Snowden"
+
+[[cards]]
+text = "YouTube"
+
+[[cards]]
+text = "Netflix"
+
+[[cards]]
+text = "Wikipedia"
+
+[[cards]]
+text = "Tesla Motors"
+
+[[cards]]
+text = "TSA"
+
+[[cards]]
+text = "The 2000 Florida Recount"
+
+[[cards]]
+text = "Colin Powell"
+
+[[cards]]
+text = "Condoleezza Rice"
+
+[[cards]]
+text = "Nancy Pelosi"
+
+[[cards]]
+text = "Michelle Obama"
+
+[[cards]]
+text = "Swine Flu"
+
+[[cards]]
+text = "Hurricane Sandy"
+
+[[cards]]
+text = "Bitcoin"
+
+[[cards]]
+text = "SpaceX"
+
+[[cards]]
+text = "The Housing Bubble"
+
+[[cards]]
+text = "Osama bin Laden"
+
+[[cards]]
+text = "Flight 93"
+
+[[cards]]
+text = "High School Musical"
+
+[[cards]]
+text = "American Idol"
+
+[[cards]]
+text = "Wikileaks"
+
+[[cards]]
+text = "Red and Blue States"
+
+[[cards]]
+text = "2004 Boston Red Sox"
+
+[[cards]]
+text = "Miracle on the Hudson"
+
+[[cards]]
+text = "Uber"
+
+[[cards]]
+text = "Y2K Bug"
+
+[[cards]]
+text = "Al Gore"
+
+[[cards]]
+text = "Dick Cheney"
+
+[[cards]]
+text = "Hanging Chads"
+
+[[cards]]
+text = "The Patriot Act"
+
+[[cards]]
+text = "No Child Left Behind"
+
+[[cards]]
+text = "Saddam Hussein"
+
+[[cards]]
+text = "Weapons of Mass Destruction"
+
+[[cards]]
+text = "Guantanamo Bay"
+
+[[cards]]
+text = "The War on Terror"
+
+[[cards]]
+text = "John Kerry"
+
+[[cards]]
+text = "Swift Boat Veterans"
+
+[[cards]]
+text = "Hurricane Rita"
+
+[[cards]]
+text = "The Toyota Prius"
+
+[[cards]]
+text = "MySpace"
+
+[[cards]]
+text = "The iPod Classic"
+
+[[cards]]
+text = "The Motorola Razr"
+
+[[cards]]
+text = "The Nintendo Wii"
+
+[[cards]]
+text = "Pluto Demoted"
+
+[[cards]]
+text = "An Inconvenient Truth"
+
+[[cards]]
+text = "International Space Station"
+
+[[cards]]
+text = "Michael Phelps"
+
+[[cards]]
+text = "Sonia Sotomayor"
+
+[[cards]]
+text = "The Tea Party Movement"
+
+[[cards]]
+text = "Cash for Clunkers"
+
+[[cards]]
+text = "The 2008 Election"
+
+[[cards]]
+text = "Lehman Brothers"
+
+[[cards]]
+text = "The iPad"
+
+[[cards]]
+text = "The Digital TV Transition"
+
+[[cards]]
+text = "Amazon Kindle"
+
+[[cards]]
+text = "Captain Phillips"
+
+[[cards]]
+text = "Somali Pirates"
+
+[[cards]]
+text = "Haiti Earthquake"
+
+[[cards]]
+text = "Arab Spring"
+
+[[cards]]
+text = "Mitt Romney"
+
+[[cards]]
+text = "Ice Bucket Challenge"
+
+[[cards]]
+text = "Google Glass"
+
+[[cards]]
+text = "The App Store"
+
+[[cards]]
+text = "Flint Water Crisis"
+
+[[cards]]
+text = "Ebola Outbreak"
+
+[[cards]]
+text = "Chicago Cubs World Series"
+
+[[cards]]
+text = "The Great American Eclipse"
+
+[[cards]]
+text = "Tiger Woods"
+
+[[cards]]
+text = "Blockbuster Video"
+
+[[cards]]
+text = "TiVo"
+
+[[cards]]
+text = "Blackberry Phone"
+
+[[cards]]
+text = "Microsoft Zune"
+
+[[cards]]
+text = "DACA"
+
+[[cards]]
+text = "The Women's March"
+
+[[cards]]
+text = "Keystone XL Pipeline"
+
+[[cards]]
+text = "Steve Jobs"
+
+[[cards]]
+text = "Twitter"
+
+[[cards]]
+text = "Siri"
+
+[[cards]]
+text = "Enron Scandal"
+
+[[cards]]
+text = "Bernie Madoff"
+
+[[cards]]
+text = "Arnold Schwarzenegger"
+
+[[cards]]
+text = "Silly Bandz"
+
+[[cards]]
+text = "Fidget Spinner"
+
+[[cards]]
+text = "Guitar Hero"
+
+[[cards]]
+text = "World of Warcraft"
+
+[[cards]]
+text = "Hulu"
+
+[[cards]]
+text = "Instagram"
+
+[[cards]]
+text = "Snapchat"
+
+[[cards]]
+text = "Airbnb"
+
+[[cards]]
+text = "The Dark Knight"
+
+[[cards]]
+text = "Avatar"
+
+[[cards]]
+text = "The Office"
+
+[[cards]]
+text = "Lost"
+
+[[cards]]
+text = "Survivor"
+
+[[cards]]
+text = "Napster"
+
+[[cards]]
+text = "Segway"
+
+[[cards]]
+text = "Flash Mob"
+
+[[cards]]
+text = "Planking"
+
+[[cards]]
+text = "John Roberts"
+
+[[cards]]
+text = "Bernie Sanders"
+
+[[cards]]
+text = "Ted Cruz"
+
+[[cards]]
+text = "Elizabeth Warren"
+
+[[cards]]
+text = "Salt Lake City Olympics"
+
+[[cards]]
+text = "Simone Biles"
+
+[[cards]]
+text = "Barry Bonds"
+
+[[cards]]
+text = "Lance Armstrong"
+
+[[cards]]
+text = "Hurricane Harvey"
+
+[[cards]]
+text = "Hurricane Maria"
+
+[[cards]]
+text = "The Mueller Report"
+
+[[cards]]
+text = "United States Space Force"
+
+[[cards]]
+text = "Paris Climate Agreement"
+
+[[cards]]
+text = "Space Shuttle Discovery"
+
+[[cards]]
+text = "James Webb Space Telescope"
+
+[[cards]]
+text = "The Dean Scream"
+
+[[cards]]
+text = "California Recall Election"
+
+[[cards]]
+text = "General Motors Bailout"
+
+[[cards]]
+text = "Blu-ray"
+
+[[cards]]
+text = "The Huffington Post"
+
+[[cards]]
+text = "BuzzFeed"
+
+[[cards]]
+text = "Kickstarter"
+
+[[cards]]
+text = "Bush v. Gore"
+
+[[cards]]
+text = "The Dot-Com Crash"
+
+[[cards]]
+text = "9/11 Commission Report"
+
+[[cards]]
+text = "FEMA"
+
+[[cards]]
+text = "Abu Ghraib Scandal"
+
+[[cards]]
+text = "Terror Alert Scale"
+
+[[cards]]
+text = "Space Shuttle Atlantis"
+
+[[cards]]
+text = "The Opportunity Rover"
+
+[[cards]]
+text = "New Horizons Probe"
+
+[[cards]]
+text = "The Falcon Heavy"
+
+[[cards]]
+text = "Human Genome Project"
+
+[[cards]]
+text = "2003 Northeast Blackout"
+
+[[cards]]
+text = "Subprime Mortgage Crisis"
+
+[[cards]]
+text = "TARP Bailout"
+
+[[cards]]
+text = "Lilly Ledbetter Act"
+
+[[cards]]
+text = "Citizens United Case"
+
+[[cards]]
+text = "Obergefell v. Hodges"
+
+[[cards]]
+text = "The Joplin Tornado"
+
+[[cards]]
+text = "Hurricane Wilma"
+
+[[cards]]
+text = "The Polar Vortex"
+
+[[cards]]
+text = "Shaun White"
+
+[[cards]]
+text = "New England Patriots"
+
+[[cards]]
+text = "The Deflategate Scandal"
+
+[[cards]]
+text = "LeBron's The Decision"
+
+[[cards]]
+text = "Sully Sullenberger"
+
+[[cards]]
+text = "The MacBook Air"
+
+[[cards]]
+text = "Xbox 360"
+
+[[cards]]
+text = "Android Operating System"
+
+[[cards]]
+text = "Google Maps"
+
+[[cards]]
+text = "Myspace Tom"
+
+[[cards]]
+text = "Vine"
+
+[[cards]]
+text = "Zoom"
+
+[[cards]]
+text = "The Amazon Echo"
+
+[[cards]]
+text = "The Apple Watch"
+
+[[cards]]
+text = "Marvel Cinematic Universe"
+
+[[cards]]
+text = "Breaking Bad"
+
+[[cards]]
+text = "Parks and Recreation"
+
+[[cards]]
+text = "Jersey Shore"
+
+[[cards]]
+text = "The Kardashians"
+
+[[cards]]
+text = "Shark Tank"
+
+[[cards]]
+text = "The Podcast Boom"
+
+[[cards]]
+text = "LimeWire"
+
+[[cards]]
+text = "First Trump Impeachment"
+
+[[cards]]
+text = "Hillary Clinton Emails"
+
+[[cards]]
+text = "The Benghazi Attack"
+
+[[cards]]
+text = "Iran Nuclear Deal"
+
+[[cards]]
+text = "Me Too Movement"
+
+[[cards]]
+text = "January 6 Capitol Riot"

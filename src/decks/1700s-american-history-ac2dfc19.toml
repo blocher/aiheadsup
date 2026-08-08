@@ -1,0 +1,678 @@
+id = "deck_1700s-american-history_ac2dfc19"
+revision = 2
+name = "1700s American History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 18th-century American colonial life, the Revolution, founding documents, leaders, battles, and major events from the 1700s in American history. Prefer real historical people, places, and events."
+photo_file_name = "1700s-american-history-ac2dfc19-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "George Washington"
+
+[[cards]]
+text = "Thomas Jefferson"
+
+[[cards]]
+text = "Benjamin Franklin"
+
+[[cards]]
+text = "John Adams"
+
+[[cards]]
+text = "Alexander Hamilton"
+
+[[cards]]
+text = "Paul Revere"
+
+[[cards]]
+text = "Samuel Adams"
+
+[[cards]]
+text = "Patrick Henry"
+
+[[cards]]
+text = "Abigail Adams"
+
+[[cards]]
+text = "Betsy Ross"
+
+[[cards]]
+text = "King George III"
+
+[[cards]]
+text = "Benedict Arnold"
+
+[[cards]]
+text = "Marquis de Lafayette"
+
+[[cards]]
+text = "Molly Pitcher"
+
+[[cards]]
+text = "Thomas Paine"
+
+[[cards]]
+text = "Boston Tea Party"
+
+[[cards]]
+text = "Boston Massacre"
+
+[[cards]]
+text = "Battle of Yorktown"
+
+[[cards]]
+text = "Battle of Bunker Hill"
+
+[[cards]]
+text = "Battle of Saratoga"
+
+[[cards]]
+text = "Crossing the Delaware"
+
+[[cards]]
+text = "Valley Forge"
+
+[[cards]]
+text = "Constitutional Convention"
+
+[[cards]]
+text = "Whiskey Rebellion"
+
+[[cards]]
+text = "Stamp Act"
+
+[[cards]]
+text = "First Continental Congress"
+
+[[cards]]
+text = "Battle of Lexington"
+
+[[cards]]
+text = "Battle of Concord"
+
+[[cards]]
+text = "French and Indian War"
+
+[[cards]]
+text = "Declaration of Independence"
+
+[[cards]]
+text = "US Constitution"
+
+[[cards]]
+text = "Bill of Rights"
+
+[[cards]]
+text = "Articles of Confederation"
+
+[[cards]]
+text = "Common Sense"
+
+[[cards]]
+text = "Federalist Papers"
+
+[[cards]]
+text = "Liberty Bell"
+
+[[cards]]
+text = "Boston Harbor"
+
+[[cards]]
+text = "No Taxation Without Representation"
+
+[[cards]]
+text = "Minutemen"
+
+[[cards]]
+text = "Colonial Williamsburg"
+
+[[cards]]
+text = "Independence Hall"
+
+[[cards]]
+text = "Mount Vernon"
+
+[[cards]]
+text = "Monticello"
+
+[[cards]]
+text = "Redcoats"
+
+[[cards]]
+text = "Patriots"
+
+[[cards]]
+text = "Loyalists"
+
+[[cards]]
+text = "Town Crier"
+
+[[cards]]
+text = "Tricorn Hat"
+
+[[cards]]
+text = "Quill Pen"
+
+[[cards]]
+text = "James Madison"
+
+[[cards]]
+text = "John Hancock"
+
+[[cards]]
+text = "Nathan Hale"
+
+[[cards]]
+text = "Crispus Attucks"
+
+[[cards]]
+text = "John Paul Jones"
+
+[[cards]]
+text = "Sybil Ludington"
+
+[[cards]]
+text = "Baron von Steuben"
+
+[[cards]]
+text = "General Cornwallis"
+
+[[cards]]
+text = "Aaron Burr"
+
+[[cards]]
+text = "Phillis Wheatley"
+
+[[cards]]
+text = "Daniel Boone"
+
+[[cards]]
+text = "James Otis"
+
+[[cards]]
+text = "John Jay"
+
+[[cards]]
+text = "George Mason"
+
+[[cards]]
+text = "Deborah Sampson"
+
+[[cards]]
+text = "Battle of Trenton"
+
+[[cards]]
+text = "Battle of Princeton"
+
+[[cards]]
+text = "Battle of Cowpens"
+
+[[cards]]
+text = "Battle of Monmouth"
+
+[[cards]]
+text = "Battle of Brandywine"
+
+[[cards]]
+text = "Fort Ticonderoga"
+
+[[cards]]
+text = "Fort Necessity"
+
+[[cards]]
+text = "Treaty of Paris"
+
+[[cards]]
+text = "Shays' Rebellion"
+
+[[cards]]
+text = "Intolerable Acts"
+
+[[cards]]
+text = "Townshend Acts"
+
+[[cards]]
+text = "Quartering Act"
+
+[[cards]]
+text = "Sugar Act"
+
+[[cards]]
+text = "Albany Plan of Union"
+
+[[cards]]
+text = "Olive Branch Petition"
+
+[[cards]]
+text = "Great Awakening"
+
+[[cards]]
+text = "Sons of Liberty"
+
+[[cards]]
+text = "Daughters of Liberty"
+
+[[cards]]
+text = "Committees of Correspondence"
+
+[[cards]]
+text = "Hessian Soldiers"
+
+[[cards]]
+text = "Continental Army"
+
+[[cards]]
+text = "Poor Richard's Almanack"
+
+[[cards]]
+text = "Proclamation of 1763"
+
+[[cards]]
+text = "Virginia Plan"
+
+[[cards]]
+text = "New Jersey Plan"
+
+[[cards]]
+text = "Gadsden Flag"
+
+[[cards]]
+text = "Powder Horn"
+
+[[cards]]
+text = "Flintlock Musket"
+
+[[cards]]
+text = "Bayonet"
+
+[[cards]]
+text = "Spinning Wheel"
+
+[[cards]]
+text = "Blacksmith"
+
+[[cards]]
+text = "Privateer"
+
+[[cards]]
+text = "Continental Currency"
+
+[[cards]]
+text = "Cobbler"
+
+[[cards]]
+text = "Wigmaker"
+
+[[cards]]
+text = "Francis Marion"
+
+[[cards]]
+text = "Ethan Allen"
+
+[[cards]]
+text = "Henry Knox"
+
+[[cards]]
+text = "Nathanael Greene"
+
+[[cards]]
+text = "Mercy Otis Warren"
+
+[[cards]]
+text = "Benjamin Banneker"
+
+[[cards]]
+text = "Roger Sherman"
+
+[[cards]]
+text = "Robert Morris"
+
+[[cards]]
+text = "George Rogers Clark"
+
+[[cards]]
+text = "John André"
+
+[[cards]]
+text = "James Monroe"
+
+[[cards]]
+text = "Comte de Rochambeau"
+
+[[cards]]
+text = "Peter Salem"
+
+[[cards]]
+text = "House of Burgesses"
+
+[[cards]]
+text = "Alien and Sedition Acts"
+
+[[cards]]
+text = "XYZ Affair"
+
+[[cards]]
+text = "Northwest Ordinance"
+
+[[cards]]
+text = "Judiciary Act of 1789"
+
+[[cards]]
+text = "Tea Act"
+
+[[cards]]
+text = "Battle of Long Island"
+
+[[cards]]
+text = "Battle of Germantown"
+
+[[cards]]
+text = "Battle of King's Mountain"
+
+[[cards]]
+text = "Battle of Oriskany"
+
+[[cards]]
+text = "Battle of Bennington"
+
+[[cards]]
+text = "Gaspee Affair"
+
+[[cards]]
+text = "Annapolis Convention"
+
+[[cards]]
+text = "Butter Churn"
+
+[[cards]]
+text = "Pewter Mug"
+
+[[cards]]
+text = "Tallow Candle"
+
+[[cards]]
+text = "Silversmith"
+
+[[cards]]
+text = "Cooper"
+
+[[cards]]
+text = "Shipwright"
+
+[[cards]]
+text = "Hornbook"
+
+[[cards]]
+text = "Warming Pan"
+
+[[cards]]
+text = "Knee Breeches"
+
+[[cards]]
+text = "Waistcoat"
+
+[[cards]]
+text = "Petticoat"
+
+[[cards]]
+text = "Tinderbox"
+
+[[cards]]
+text = "Colonial Tavern"
+
+[[cards]]
+text = "Stagecoach"
+
+[[cards]]
+text = "Town Meeting"
+
+[[cards]]
+text = "Indentured Servant"
+
+[[cards]]
+text = "Bonnet"
+
+[[cards]]
+text = "Cider Press"
+
+[[cards]]
+text = "Root Cellar"
+
+[[cards]]
+text = "Militia"
+
+[[cards]]
+text = "Log Cabin"
+
+[[cards]]
+text = "Musket Ball"
+
+[[cards]]
+text = "Loom"
+
+[[cards]]
+text = "Wheelwright"
+
+[[cards]]
+text = "Second Continental Congress"
+
+[[cards]]
+text = "Martha Washington"
+
+[[cards]]
+text = "Turtle Submarine"
+
+[[cards]]
+text = "Liberty Tree"
+
+[[cards]]
+text = "Green Mountain Boys"
+
+[[cards]]
+text = "Culper Spy Ring"
+
+[[cards]]
+text = "James Armistead"
+
+[[cards]]
+text = "Drummer Boy"
+
+[[cards]]
+text = "Triangular Trade"
+
+[[cards]]
+text = "Conestoga Wagon"
+
+[[cards]]
+text = "Jonathan Edwards"
+
+[[cards]]
+text = "George Whitefield"
+
+[[cards]]
+text = "John Peter Zenger"
+
+[[cards]]
+text = "Quaker Meeting House"
+
+[[cards]]
+text = "Stono Rebellion"
+
+[[cards]]
+text = "War of Jenkins' Ear"
+
+[[cards]]
+text = "James Oglethorpe"
+
+[[cards]]
+text = "Pennsylvania Gazette"
+
+[[cards]]
+text = "Join or Die"
+
+[[cards]]
+text = "Liberty Pole"
+
+[[cards]]
+text = "Quebec Act"
+
+[[cards]]
+text = "Declaratory Act"
+
+[[cards]]
+text = "William Dawes"
+
+[[cards]]
+text = "Dorchester Heights"
+
+[[cards]]
+text = "Battle of Quebec"
+
+[[cards]]
+text = "The American Crisis"
+
+[[cards]]
+text = "Bonhomme Richard"
+
+[[cards]]
+text = "Comte de Grasse"
+
+[[cards]]
+text = "Battle of the Chesapeake"
+
+[[cards]]
+text = "Redoubt 10"
+
+[[cards]]
+text = "Newburgh Conspiracy"
+
+[[cards]]
+text = "Great Compromise"
+
+[[cards]]
+text = "Three-Fifths Compromise"
+
+[[cards]]
+text = "Federalist Party"
+
+[[cards]]
+text = "Anti-Federalists"
+
+[[cards]]
+text = "Publius"
+
+[[cards]]
+text = "National Bank"
+
+[[cards]]
+text = "Proclamation of Neutrality"
+
+[[cards]]
+text = "Citizen Genêt"
+
+[[cards]]
+text = "Battle of Fallen Timbers"
+
+[[cards]]
+text = "Mad Anthony Wayne"
+
+[[cards]]
+text = "Pinckney's Treaty"
+
+[[cards]]
+text = "Quasi-War"
+
+[[cards]]
+text = "Fries's Rebellion"
+
+[[cards]]
+text = "Barn Raising"
+
+[[cards]]
+text = "Quilting Bee"
+
+[[cards]]
+text = "Pillory"
+
+[[cards]]
+text = "Mob Cap"
+
+[[cards]]
+text = "Colonial Stays"
+
+[[cards]]
+text = "Faneuil Hall"
+
+[[cards]]
+text = "Old North Church"
+
+[[cards]]
+text = "Wax Seal"
+
+[[cards]]
+text = "Chamber Pot"
+
+[[cards]]
+text = "Inkwell"
+
+[[cards]]
+text = "Parchment"
+
+[[cards]]
+text = "General John Burgoyne"
+
+[[cards]]
+text = "General William Howe"
+
+[[cards]]
+text = "General Thomas Gage"
+
+[[cards]]
+text = "Lord North"
+
+[[cards]]
+text = "Old South Meeting House"
+
+[[cards]]
+text = "West Point"
+
+[[cards]]
+text = "Carpenters' Hall"
+
+[[cards]]
+text = "Gouverneur Morris"
+
+[[cards]]
+text = "John Dickinson"
+
+[[cards]]
+text = "Peggy Shippen"
+
+[[cards]]
+text = "Haym Salomon"
+
+[[cards]]
+text = "Stocks"
+
+[[cards]]
+text = "Hudson River"
+
+[[cards]]
+text = "Broadside"
+
+[[cards]]
+text = "Saddlebag"
+
+[[cards]]
+text = "Gristmill"
+
+[[cards]]
+text = "Elbridge Gerry"
+
+[[cards]]
+text = "Battle of Guilford Courthouse"
+
+[[cards]]
+text = "Treaty of Alliance"

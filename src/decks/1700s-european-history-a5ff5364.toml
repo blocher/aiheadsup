@@ -1,0 +1,660 @@
+id = "deck_1700s-european-history_a5ff5364"
+revision = 2
+name = "1700s European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 18th-century European Enlightenment, revolutions, rulers, wars, science, and major developments of the 1700s. Prefer real historical people, places, and events."
+photo_file_name = "1700s-european-history-a5ff5364-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Marie Antoinette"
+
+[[cards]]
+text = "Catherine the Great"
+
+[[cards]]
+text = "Peter the Great"
+
+[[cards]]
+text = "Louis XVI"
+
+[[cards]]
+text = "King George III"
+
+[[cards]]
+text = "Frederick the Great"
+
+[[cards]]
+text = "Maria Theresa"
+
+[[cards]]
+text = "Wolfgang Amadeus Mozart"
+
+[[cards]]
+text = "Johann Sebastian Bach"
+
+[[cards]]
+text = "Ludwig van Beethoven"
+
+[[cards]]
+text = "Voltaire"
+
+[[cards]]
+text = "Jean-Jacques Rousseau"
+
+[[cards]]
+text = "Adam Smith"
+
+[[cards]]
+text = "Maximilien Robespierre"
+
+[[cards]]
+text = "James Watt"
+
+[[cards]]
+text = "Edward Jenner"
+
+[[cards]]
+text = "French Revolution"
+
+[[cards]]
+text = "Seven Years' War"
+
+[[cards]]
+text = "Storming of the Bastille"
+
+[[cards]]
+text = "Reign of Terror"
+
+[[cards]]
+text = "Guillotine"
+
+[[cards]]
+text = "Palace of Versailles"
+
+[[cards]]
+text = "St. Petersburg"
+
+[[cards]]
+text = "The Enlightenment"
+
+[[cards]]
+text = "Hot Air Balloon"
+
+[[cards]]
+text = "Spinning Jenny"
+
+[[cards]]
+text = "Steam Engine"
+
+[[cards]]
+text = "Lisbon Earthquake"
+
+[[cards]]
+text = "Sanssouci Palace"
+
+[[cards]]
+text = "Encyclopedia"
+
+[[cards]]
+text = "Absolute Monarchy"
+
+[[cards]]
+text = "Jacobins"
+
+[[cards]]
+text = "Rococo"
+
+[[cards]]
+text = "Industrial Revolution"
+
+[[cards]]
+text = "Smallpox Vaccine"
+
+[[cards]]
+text = "HMS Victory"
+
+[[cards]]
+text = "Vienna"
+
+[[cards]]
+text = "Robinson Crusoe"
+
+[[cards]]
+text = "Gulliver's Travels"
+
+[[cards]]
+text = "Stradivarius Violin"
+
+[[cards]]
+text = "Harpsichord"
+
+[[cards]]
+text = "Mary Wollstonecraft"
+
+[[cards]]
+text = "Joseph Haydn"
+
+[[cards]]
+text = "Antoine Lavoisier"
+
+[[cards]]
+text = "London Coffeehouse"
+
+[[cards]]
+text = "Madame de Pompadour"
+
+[[cards]]
+text = "Daniel Defoe"
+
+[[cards]]
+text = "Antonio Vivaldi"
+
+[[cards]]
+text = "Grand Tour"
+
+[[cards]]
+text = "Montesquieu"
+
+[[cards]]
+text = "Immanuel Kant"
+
+[[cards]]
+text = "Denis Diderot"
+
+[[cards]]
+text = "George Frideric Handel"
+
+[[cards]]
+text = "Samuel Johnson"
+
+[[cards]]
+text = "Jonathan Swift"
+
+[[cards]]
+text = "William Herschel"
+
+[[cards]]
+text = "Carl Linnaeus"
+
+[[cards]]
+text = "Anders Celsius"
+
+[[cards]]
+text = "Daniel Gabriel Fahrenheit"
+
+[[cards]]
+text = "Napoleon Bonaparte"
+
+[[cards]]
+text = "Georges Danton"
+
+[[cards]]
+text = "Jean-Paul Marat"
+
+[[cards]]
+text = "Charlotte Corday"
+
+[[cards]]
+text = "Tennis Court Oath"
+
+[[cards]]
+text = "National Assembly"
+
+[[cards]]
+text = "The Winter Palace"
+
+[[cards]]
+text = "Robert Walpole"
+
+[[cards]]
+text = "Treaty of Utrecht"
+
+[[cards]]
+text = "Great Northern War"
+
+[[cards]]
+text = "Battle of Poltava"
+
+[[cards]]
+text = "Jacobites"
+
+[[cards]]
+text = "South Sea Bubble"
+
+[[cards]]
+text = "Mississippi Bubble"
+
+[[cards]]
+text = "Thomas Paine"
+
+[[cards]]
+text = "William Hogarth"
+
+[[cards]]
+text = "Casanova"
+
+[[cards]]
+text = "Johann Wolfgang von Goethe"
+
+[[cards]]
+text = "Friedrich Schiller"
+
+[[cards]]
+text = "William Pitt the Younger"
+
+[[cards]]
+text = "George I"
+
+[[cards]]
+text = "George II"
+
+[[cards]]
+text = "Louis XV"
+
+[[cards]]
+text = "Partition of Poland"
+
+[[cards]]
+text = "Neoclassicism"
+
+[[cards]]
+text = "Madame Geoffrin"
+
+[[cards]]
+text = "The Paris Salon"
+
+[[cards]]
+text = "Edward Gibbon"
+
+[[cards]]
+text = "Thomas Newcomen"
+
+[[cards]]
+text = "John Wesley"
+
+[[cards]]
+text = "Emelyan Pugachev"
+
+[[cards]]
+text = "Flight to Varennes"
+
+[[cards]]
+text = "Committee of Public Safety"
+
+[[cards]]
+text = "French Directory"
+
+[[cards]]
+text = "Alessandro Volta"
+
+[[cards]]
+text = "Luigi Galvani"
+
+[[cards]]
+text = "James Boswell"
+
+[[cards]]
+text = "Battle of Culloden"
+
+[[cards]]
+text = "The Magic Flute"
+
+[[cards]]
+text = "Brandenburg Gate"
+
+[[cards]]
+text = "Spanish Succession War"
+
+[[cards]]
+text = "Austrian Succession War"
+
+[[cards]]
+text = "King Charles XII"
+
+[[cards]]
+text = "Emperor Joseph II"
+
+[[cards]]
+text = "Sans-Culottes"
+
+[[cards]]
+text = "Tuileries Palace"
+
+[[cards]]
+text = "Act of Union"
+
+[[cards]]
+text = "Blackbeard"
+
+[[cards]]
+text = "David Hume"
+
+[[cards]]
+text = "Captain James Cook"
+
+[[cards]]
+text = "HMS Endeavour"
+
+[[cards]]
+text = "Count Cagliostro"
+
+[[cards]]
+text = "Duke of Marlborough"
+
+[[cards]]
+text = "Henry Cavendish"
+
+[[cards]]
+text = "Joseph Priestley"
+
+[[cards]]
+text = "John Harrison"
+
+[[cards]]
+text = "Marine Chronometer"
+
+[[cards]]
+text = "Seed Drill"
+
+[[cards]]
+text = "Jethro Tull"
+
+[[cards]]
+text = "Agricultural Revolution"
+
+[[cards]]
+text = "King Gustav III"
+
+[[cards]]
+text = "Peter III of Russia"
+
+[[cards]]
+text = "Empress Elizabeth"
+
+[[cards]]
+text = "The Louvre"
+
+[[cards]]
+text = "The British Museum"
+
+[[cards]]
+text = "Kingdom of Prussia"
+
+[[cards]]
+text = "Gibraltar"
+
+[[cards]]
+text = "Habsburg Empire"
+
+[[cards]]
+text = "Schönbrunn Palace"
+
+[[cards]]
+text = "Peterhof Palace"
+
+[[cards]]
+text = "Hermitage Museum"
+
+[[cards]]
+text = "Pianoforte"
+
+[[cards]]
+text = "Thomas Gainsborough"
+
+[[cards]]
+text = "Jacques-Louis David"
+
+[[cards]]
+text = "Jean-Honoré Fragonard"
+
+[[cards]]
+text = "The French Consulate"
+
+[[cards]]
+text = "Estates-General"
+
+[[cards]]
+text = "The Three Estates"
+
+[[cards]]
+text = "French National Guard"
+
+[[cards]]
+text = "Liberty Cap"
+
+[[cards]]
+text = "Tricolor Cockade"
+
+[[cards]]
+text = "La Marseillaise"
+
+[[cards]]
+text = "Marquis de Lafayette"
+
+[[cards]]
+text = "William Wilberforce"
+
+[[cards]]
+text = "Edmund Burke"
+
+[[cards]]
+text = "Jeremy Bentham"
+
+[[cards]]
+text = "Olaudah Equiano"
+
+[[cards]]
+text = "French East India Company"
+
+[[cards]]
+text = "Methodism"
+
+[[cards]]
+text = "The Tricorne Hat"
+
+[[cards]]
+text = "The Powdered Wig"
+
+[[cards]]
+text = "The Flying Shuttle"
+
+[[cards]]
+text = "The Water Frame"
+
+[[cards]]
+text = "The Leyden Jar"
+
+[[cards]]
+text = "The Sextant"
+
+[[cards]]
+text = "Bonnie Prince Charlie"
+
+[[cards]]
+text = "The Gin Craze"
+
+[[cards]]
+text = "The Potato War"
+
+[[cards]]
+text = "The Flintlock Musket"
+
+[[cards]]
+text = "The Republic of Venice"
+
+[[cards]]
+text = "Canaletto"
+
+[[cards]]
+text = "The Royal Navy"
+
+[[cards]]
+text = "The Pragmatic Sanction"
+
+[[cards]]
+text = "The Potsdam Giants"
+
+[[cards]]
+text = "Olympe de Gouges"
+
+[[cards]]
+text = "The United Irishmen"
+
+[[cards]]
+text = "The Treaty of Paris"
+
+[[cards]]
+text = "Leonhard Euler"
+
+[[cards]]
+text = "The Bayonet"
+
+[[cards]]
+text = "The Snuffbox"
+
+[[cards]]
+text = "The Sedan Chair"
+
+[[cards]]
+text = "The Stagecoach"
+
+[[cards]]
+text = "The Iron Bridge"
+
+[[cards]]
+text = "The Girondins"
+
+[[cards]]
+text = "The Émigrés"
+
+[[cards]]
+text = "The Highwayman"
+
+[[cards]]
+text = "Tom Jones"
+
+[[cards]]
+text = "Chinoiserie"
+
+[[cards]]
+text = "The Daily Courant"
+
+[[cards]]
+text = "The Spectator"
+
+[[cards]]
+text = "Alexander Pope"
+
+[[cards]]
+text = "The Holy Roman Empire"
+
+[[cards]]
+text = "Madame du Barry"
+
+[[cards]]
+text = "The Petit Trianon"
+
+[[cards]]
+text = "Phlogiston Theory"
+
+[[cards]]
+text = "The Grenadiers"
+
+[[cards]]
+text = "The Hussars"
+
+[[cards]]
+text = "The Freemasons"
+
+[[cards]]
+text = "The Illuminati"
+
+[[cards]]
+text = "The Battle of Valmy"
+
+[[cards]]
+text = "The Battle of Blenheim"
+
+[[cards]]
+text = "The Dragoons"
+
+[[cards]]
+text = "The Rosetta Stone"
+
+[[cards]]
+text = "Horatio Nelson"
+
+[[cards]]
+text = "Robert Burns"
+
+[[cards]]
+text = "Josiah Wedgwood"
+
+[[cards]]
+text = "Meissen Porcelain"
+
+[[cards]]
+text = "Thomas Chippendale"
+
+[[cards]]
+text = "The Macaroni Fashion"
+
+[[cards]]
+text = "Beau Nash"
+
+[[cards]]
+text = "The Press Gang"
+
+[[cards]]
+text = "The Great Frost"
+
+[[cards]]
+text = "The Orrery"
+
+[[cards]]
+text = "Domenico Scarlatti"
+
+[[cards]]
+text = "The Frock Coat"
+
+[[cards]]
+text = "The Pannier Dress"
+
+[[cards]]
+text = "William Blake"
+
+[[cards]]
+text = "Talleyrand"
+
+[[cards]]
+text = "Abbé Sieyès"
+
+[[cards]]
+text = "Prince Eugene of Savoy"
+
+[[cards]]
+text = "Augustus the Strong"
+
+[[cards]]
+text = "The Gordon Riots"
+
+[[cards]]
+text = "Mercury Thermometer"
+
+[[cards]]
+text = "English Landscape Garden"
+
+[[cards]]
+text = "The Castrato"
+
+[[cards]]
+text = "The Bank of England"
+
+[[cards]]
+text = "Vauxhall Gardens"
+
+[[cards]]
+text = "Axel von Fersen"

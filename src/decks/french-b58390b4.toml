@@ -1,0 +1,684 @@
+id = "deck_french_b58390b4"
+revision = 1
+name = "French"
+category = "Languages"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real, commonly taught French words and short phrases (1-4 words) that English-speaking families might recognize or learn. Put the French word or phrase itself on the card. Include greetings, food, travel, school, home, numbers, colors, and everyday vocabulary. No invented words, no English-only prompts, no full sentences longer than 4 words."
+photo_file_name = "french-b58390b4-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Bonjour"
+
+[[cards]]
+text = "Merci"
+
+[[cards]]
+text = "Au revoir"
+
+[[cards]]
+text = "S'il vous plaît"
+
+[[cards]]
+text = "Oui"
+
+[[cards]]
+text = "Non"
+
+[[cards]]
+text = "Baguette"
+
+[[cards]]
+text = "Croissant"
+
+[[cards]]
+text = "Café"
+
+[[cards]]
+text = "Fromage"
+
+[[cards]]
+text = "Chocolat"
+
+[[cards]]
+text = "Un, deux, trois"
+
+[[cards]]
+text = "Bleu"
+
+[[cards]]
+text = "Rouge"
+
+[[cards]]
+text = "Vert"
+
+[[cards]]
+text = "Jaune"
+
+[[cards]]
+text = "Chat"
+
+[[cards]]
+text = "Chien"
+
+[[cards]]
+text = "La Tour Eiffel"
+
+[[cards]]
+text = "Paris"
+
+[[cards]]
+text = "Crêpe"
+
+[[cards]]
+text = "Garçon"
+
+[[cards]]
+text = "Fille"
+
+[[cards]]
+text = "Monsieur"
+
+[[cards]]
+text = "Madame"
+
+[[cards]]
+text = "Je t'aime"
+
+[[cards]]
+text = "Mon ami"
+
+[[cards]]
+text = "Escargot"
+
+[[cards]]
+text = "Salut"
+
+[[cards]]
+text = "Bonsoir"
+
+[[cards]]
+text = "Bonne nuit"
+
+[[cards]]
+text = "Bleu, blanc, rouge"
+
+[[cards]]
+text = "Le livre"
+
+[[cards]]
+text = "Le stylo"
+
+[[cards]]
+text = "Professeur"
+
+[[cards]]
+text = "Chapeau"
+
+[[cards]]
+text = "Pomme"
+
+[[cards]]
+text = "Soleil"
+
+[[cards]]
+text = "Lune"
+
+[[cards]]
+text = "Château"
+
+[[cards]]
+text = "Amour"
+
+[[cards]]
+text = "Fleur"
+
+[[cards]]
+text = "Musique"
+
+[[cards]]
+text = "Famille"
+
+[[cards]]
+text = "Maison"
+
+[[cards]]
+text = "Eau"
+
+[[cards]]
+text = "Merci beaucoup"
+
+[[cards]]
+text = "Bon appétit"
+
+[[cards]]
+text = "C'est la vie"
+
+[[cards]]
+text = "Enchanté"
+
+[[cards]]
+text = "Quatre"
+
+[[cards]]
+text = "Dix"
+
+[[cards]]
+text = "Orange"
+
+[[cards]]
+text = "Noir"
+
+[[cards]]
+text = "Rose"
+
+[[cards]]
+text = "Cheval"
+
+[[cards]]
+text = "Poisson"
+
+[[cards]]
+text = "Oiseau"
+
+[[cards]]
+text = "Papillon"
+
+[[cards]]
+text = "Lion"
+
+[[cards]]
+text = "Soupe"
+
+[[cards]]
+text = "Pain"
+
+[[cards]]
+text = "Lait"
+
+[[cards]]
+text = "Banane"
+
+[[cards]]
+text = "Fraise"
+
+[[cards]]
+text = "Gâteau"
+
+[[cards]]
+text = "Ça va ?"
+
+[[cards]]
+text = "À bientôt"
+
+[[cards]]
+text = "Bienvenue"
+
+[[cards]]
+text = "D'accord"
+
+[[cards]]
+text = "Excusez-moi"
+
+[[cards]]
+text = "De rien"
+
+[[cards]]
+text = "Maman"
+
+[[cards]]
+text = "Papa"
+
+[[cards]]
+text = "Bébé"
+
+[[cards]]
+text = "Frère"
+
+[[cards]]
+text = "Sœur"
+
+[[cards]]
+text = "Grand-père"
+
+[[cards]]
+text = "Grand-mère"
+
+[[cards]]
+text = "La table"
+
+[[cards]]
+text = "La chaise"
+
+[[cards]]
+text = "La porte"
+
+[[cards]]
+text = "La fenêtre"
+
+[[cards]]
+text = "Le sac"
+
+[[cards]]
+text = "L'école"
+
+[[cards]]
+text = "La classe"
+
+[[cards]]
+text = "Téléphone"
+
+[[cards]]
+text = "Hôtel"
+
+[[cards]]
+text = "Taxi"
+
+[[cards]]
+text = "Avion"
+
+[[cards]]
+text = "Train"
+
+[[cards]]
+text = "Gare"
+
+[[cards]]
+text = "Restaurant"
+
+[[cards]]
+text = "Plage"
+
+[[cards]]
+text = "Métro"
+
+[[cards]]
+text = "Jardin"
+
+[[cards]]
+text = "Forêt"
+
+[[cards]]
+text = "Ballon"
+
+[[cards]]
+text = "Vélo"
+
+[[cards]]
+text = "Cinéma"
+
+[[cards]]
+text = "Oh là là"
+
+[[cards]]
+text = "Déjà vu"
+
+[[cards]]
+text = "Bon voyage"
+
+[[cards]]
+text = "Joyeux Noël"
+
+[[cards]]
+text = "Bon anniversaire"
+
+[[cards]]
+text = "Le docteur"
+
+[[cards]]
+text = "Le chef"
+
+[[cards]]
+text = "Le singe"
+
+[[cards]]
+text = "L'éléphant"
+
+[[cards]]
+text = "Le tigre"
+
+[[cards]]
+text = "L'ours"
+
+[[cards]]
+text = "La vache"
+
+[[cards]]
+text = "Le canard"
+
+[[cards]]
+text = "Le lapin"
+
+[[cards]]
+text = "La tortue"
+
+[[cards]]
+text = "La mer"
+
+[[cards]]
+text = "La montagne"
+
+[[cards]]
+text = "Le lac"
+
+[[cards]]
+text = "La ville"
+
+[[cards]]
+text = "Le ciel"
+
+[[cards]]
+text = "La neige"
+
+[[cards]]
+text = "La pluie"
+
+[[cards]]
+text = "Le beurre"
+
+[[cards]]
+text = "La salade"
+
+[[cards]]
+text = "Le poulet"
+
+[[cards]]
+text = "Le jus"
+
+[[cards]]
+text = "Le thé"
+
+[[cards]]
+text = "La glace"
+
+[[cards]]
+text = "Le sucre"
+
+[[cards]]
+text = "Le sel"
+
+[[cards]]
+text = "Le poivre"
+
+[[cards]]
+text = "Le lit"
+
+[[cards]]
+text = "La clé"
+
+[[cards]]
+text = "La lampe"
+
+[[cards]]
+text = "Le miroir"
+
+[[cards]]
+text = "La télévision"
+
+[[cards]]
+text = "La robe"
+
+[[cards]]
+text = "Le pantalon"
+
+[[cards]]
+text = "La chemise"
+
+[[cards]]
+text = "Le manteau"
+
+[[cards]]
+text = "Les chaussures"
+
+[[cards]]
+text = "La tête"
+
+[[cards]]
+text = "Le nez"
+
+[[cards]]
+text = "La bouche"
+
+[[cards]]
+text = "La main"
+
+[[cards]]
+text = "Le pied"
+
+[[cards]]
+text = "Cinq"
+
+[[cards]]
+text = "Huit"
+
+[[cards]]
+text = "Neuf"
+
+[[cards]]
+text = "Violet"
+
+[[cards]]
+text = "La bicyclette"
+
+[[cards]]
+text = "Le parapluie"
+
+[[cards]]
+text = "L'arc-en-ciel"
+
+[[cards]]
+text = "Le zèbre"
+
+[[cards]]
+text = "La girafe"
+
+[[cards]]
+text = "Le dauphin"
+
+[[cards]]
+text = "La guitare"
+
+[[cards]]
+text = "Le piano"
+
+[[cards]]
+text = "Le violon"
+
+[[cards]]
+text = "La radio"
+
+[[cards]]
+text = "L'ordinateur"
+
+[[cards]]
+text = "La photo"
+
+[[cards]]
+text = "La valise"
+
+[[cards]]
+text = "Le passeport"
+
+[[cards]]
+text = "Le bus"
+
+[[cards]]
+text = "Le tennis"
+
+[[cards]]
+text = "Le parc"
+
+[[cards]]
+text = "La piscine"
+
+[[cards]]
+text = "Le musée"
+
+[[cards]]
+text = "La poste"
+
+[[cards]]
+text = "La banque"
+
+[[cards]]
+text = "La fourchette"
+
+[[cards]]
+text = "Le couteau"
+
+[[cards]]
+text = "La cuillère"
+
+[[cards]]
+text = "L'assiette"
+
+[[cards]]
+text = "La bouteille"
+
+[[cards]]
+text = "Le sandwich"
+
+[[cards]]
+text = "La pizza"
+
+[[cards]]
+text = "Le citron"
+
+[[cards]]
+text = "La tomate"
+
+[[cards]]
+text = "La carotte"
+
+[[cards]]
+text = "L'arbre"
+
+[[cards]]
+text = "La feuille"
+
+[[cards]]
+text = "L'étoile"
+
+[[cards]]
+text = "Le nuage"
+
+[[cards]]
+text = "La casquette"
+
+[[cards]]
+text = "La veste"
+
+[[cards]]
+text = "La montre"
+
+[[cards]]
+text = "Les lunettes"
+
+[[cards]]
+text = "Les yeux"
+
+[[cards]]
+text = "Le cœur"
+
+[[cards]]
+text = "Le roi"
+
+[[cards]]
+text = "La reine"
+
+[[cards]]
+text = "Le prince"
+
+[[cards]]
+text = "La princesse"
+
+[[cards]]
+text = "Le pirate"
+
+[[cards]]
+text = "Le trésor"
+
+[[cards]]
+text = "Le magicien"
+
+[[cards]]
+text = "Le fantôme"
+
+[[cards]]
+text = "Le cadeau"
+
+[[cards]]
+text = "Comme ci, comme ça"
+
+[[cards]]
+text = "Le crayon"
+
+[[cards]]
+text = "Le cahier"
+
+[[cards]]
+text = "Le supermarché"
+
+[[cards]]
+text = "Le pyjama"
+
+[[cards]]
+text = "La jupe"
+
+[[cards]]
+text = "Les frites"
+
+[[cards]]
+text = "Le cochon"
+
+[[cards]]
+text = "Le mouton"
+
+[[cards]]
+text = "La souris"
+
+[[cards]]
+text = "Le camping"
+
+[[cards]]
+text = "L'aéroport"
+
+[[cards]]
+text = "Le week-end"
+
+[[cards]]
+text = "Le matin"
+
+[[cards]]
+text = "Le cousin"
+
+[[cards]]
+text = "La tante"
+
+[[cards]]
+text = "Le bras"
+
+[[cards]]
+text = "La jambe"
+
+[[cards]]
+text = "Les cheveux"
+
+[[cards]]
+text = "Faux pas"
+
+[[cards]]
+text = "Carte blanche"
+
+[[cards]]
+text = "À la mode"
+
+[[cards]]
+text = "Le miel"
+
+[[cards]]
+text = "Le biscuit"
+
+[[cards]]
+text = "Le vent"

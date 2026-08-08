@@ -1,0 +1,525 @@
+id = "deck_st-louis-cardinals_c0121589"
+revision = 2
+name = "St. Louis Cardinals"
+category = "St. Louis Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include Cardinals history, Busch Stadium, Sportsman's Park, uniforms, mascots, famous current and past players, World Series moments, nicknames, fan traditions, rivalries, and famous plays, but should not be mostly player names. Only include real Cardinals facts."
+photo_file_name = "st-louis-cardinals-c0121589-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Fredbird"
+
+[[cards]]
+text = "Busch Stadium"
+
+[[cards]]
+text = "Sportsman's Park"
+
+[[cards]]
+text = "Birds on the Bat"
+
+[[cards]]
+text = "Budweiser Clydesdales"
+
+[[cards]]
+text = "Ballpark Village"
+
+[[cards]]
+text = "Rally Squirrel"
+
+[[cards]]
+text = "Game Six"
+
+[[cards]]
+text = "Cubs Rivalry"
+
+[[cards]]
+text = "Powder Blue Uniforms"
+
+[[cards]]
+text = "Go Crazy, Folks!"
+
+[[cards]]
+text = "Gashouse Gang"
+
+[[cards]]
+text = "Red Out"
+
+[[cards]]
+text = "That's a Winner!"
+
+[[cards]]
+text = "Stan Musial"
+
+[[cards]]
+text = "Ozzie Smith's Backflip"
+
+[[cards]]
+text = "Lou Brock"
+
+[[cards]]
+text = "Yadier Molina"
+
+[[cards]]
+text = "Albert Pujols"
+
+[[cards]]
+text = "Bob Gibson"
+
+[[cards]]
+text = "Enos Slaughter's Mad Dash"
+
+[[cards]]
+text = "KMOX Radio"
+
+[[cards]]
+text = "Jack Buck"
+
+[[cards]]
+text = "Mike Shannon"
+
+[[cards]]
+text = "Tony La Russa"
+
+[[cards]]
+text = "Cardinal Nation"
+
+[[cards]]
+text = "Red Schoendienst"
+
+[[cards]]
+text = "I-70 Series"
+
+[[cards]]
+text = "El Hombre"
+
+[[cards]]
+text = "Big Mac Land"
+
+[[cards]]
+text = "Stan Musial Statue"
+
+[[cards]]
+text = "Whiteyball"
+
+[[cards]]
+text = "Redbird Club"
+
+[[cards]]
+text = "Dizzy Dean"
+
+[[cards]]
+text = "David Freese"
+
+[[cards]]
+text = "Adam Wainwright"
+
+[[cards]]
+text = "Willie McGee"
+
+[[cards]]
+text = "Rogers Hornsby"
+
+[[cards]]
+text = "1926 World Series"
+
+[[cards]]
+text = "Cardinal Red"
+
+[[cards]]
+text = "St. Louis Browns"
+
+[[cards]]
+text = "Fredbird's T-Shirt Gun"
+
+[[cards]]
+text = "Gateway Arch View"
+
+[[cards]]
+text = "Jupiter Spring Training"
+
+[[cards]]
+text = "MV3"
+
+[[cards]]
+text = "Branch Rickey"
+
+[[cards]]
+text = "Curt Flood"
+
+[[cards]]
+text = "Chris Carpenter"
+
+[[cards]]
+text = "Opening Day Parade"
+
+[[cards]]
+text = "Cardinals Hall of Fame"
+
+[[cards]]
+text = "Winter Warm-Up"
+
+[[cards]]
+text = "Mark McGwire"
+
+[[cards]]
+text = "Jim Edmonds"
+
+[[cards]]
+text = "Scott Rolen"
+
+[[cards]]
+text = "Paul Goldschmidt"
+
+[[cards]]
+text = "Nolan Arenado"
+
+[[cards]]
+text = "Runnin' Redbirds"
+
+[[cards]]
+text = "11-Time Champions"
+
+[[cards]]
+text = "The Green Seats"
+
+[[cards]]
+text = "Red Jacket"
+
+[[cards]]
+text = "Keith Hernandez"
+
+[[cards]]
+text = "Bruce Sutter"
+
+[[cards]]
+text = "Vince Coleman"
+
+[[cards]]
+text = "Ted Simmons"
+
+[[cards]]
+text = "Joe Medwick"
+
+[[cards]]
+text = "Pepper Martin"
+
+[[cards]]
+text = "Orlando Cepeda"
+
+[[cards]]
+text = "Ford Plaza"
+
+[[cards]]
+text = "Cardinals Care"
+
+[[cards]]
+text = "Budweiser Terrace"
+
+[[cards]]
+text = "1967 World Series"
+
+[[cards]]
+text = "1982 World Series"
+
+[[cards]]
+text = "2006 World Series"
+
+[[cards]]
+text = "2011 World Series"
+
+[[cards]]
+text = "The Redbirds"
+
+[[cards]]
+text = "The Streetcar Series"
+
+[[cards]]
+text = "Gussie Busch"
+
+[[cards]]
+text = "Harry Caray"
+
+[[cards]]
+text = "Joe Buck"
+
+[[cards]]
+text = "The Cardinal Way"
+
+[[cards]]
+text = "St. Louis Perfectos"
+
+[[cards]]
+text = "St. Louis Brown Stockings"
+
+[[cards]]
+text = "1944 World Series"
+
+[[cards]]
+text = "1934 World Series"
+
+[[cards]]
+text = "1942 World Series"
+
+[[cards]]
+text = "1946 World Series"
+
+[[cards]]
+text = "1964 World Series"
+
+[[cards]]
+text = "Roger Maris"
+
+[[cards]]
+text = "Toasted Ravioli"
+
+[[cards]]
+text = "William DeWitt Jr."
+
+[[cards]]
+text = "John Mozeliak"
+
+[[cards]]
+text = "The Redbird Express"
+
+[[cards]]
+text = "The Neon Eagle"
+
+[[cards]]
+text = "The Budweiser Sign"
+
+[[cards]]
+text = "The Red Convertible"
+
+[[cards]]
+text = "Matt Carpenter's Salsa"
+
+[[cards]]
+text = "Tommy Edman"
+
+[[cards]]
+text = "The Fredbird Flight Crew"
+
+[[cards]]
+text = "The Cardinals Caravan"
+
+[[cards]]
+text = "The STL Hat Logo"
+
+[[cards]]
+text = "Anheuser-Busch Brewery"
+
+[[cards]]
+text = "The Florida Grapefruit League"
+
+[[cards]]
+text = "Whitey Herzog"
+
+[[cards]]
+text = "The Wizard"
+
+[[cards]]
+text = "The Machine"
+
+[[cards]]
+text = "Uncle Charlie"
+
+[[cards]]
+text = "Yadi"
+
+[[cards]]
+text = "The Gateway Arch"
+
+[[cards]]
+text = "Clark Avenue"
+
+[[cards]]
+text = "The 1968 World Series"
+
+[[cards]]
+text = "The 2004 Pennant"
+
+[[cards]]
+text = "Cream Uniforms"
+
+[[cards]]
+text = "The Knothole Gang"
+
+[[cards]]
+text = "Platinum Glove Award"
+
+[[cards]]
+text = "Cincinnati Reds"
+
+[[cards]]
+text = "Boston Red Sox"
+
+[[cards]]
+text = "Los Angeles Dodgers"
+
+[[cards]]
+text = "The San Francisco Giants"
+
+[[cards]]
+text = "Lars Nootbaar"
+
+[[cards]]
+text = "Masyn Winn"
+
+[[cards]]
+text = "Sonny Gray"
+
+[[cards]]
+text = "Willson Contreras"
+
+[[cards]]
+text = "Rick Ankiel"
+
+[[cards]]
+text = "Ken Boyer"
+
+[[cards]]
+text = "Jason Isringhausen"
+
+[[cards]]
+text = "Number Six"
+
+[[cards]]
+text = "The Mad Hungarian"
+
+[[cards]]
+text = "The Rally Cat"
+
+[[cards]]
+text = "Roger Dean Stadium"
+
+[[cards]]
+text = "One Cardinal Way"
+
+[[cards]]
+text = "The Secret Weapon"
+
+[[cards]]
+text = "Bally Sports Midwest"
+
+[[cards]]
+text = "The 1985 NLCS"
+
+[[cards]]
+text = "The Backflip"
+
+[[cards]]
+text = "Busch Memorial Stadium"
+
+[[cards]]
+text = "The AstroTurf Burn"
+
+[[cards]]
+text = "Cardinals Care 5K"
+
+[[cards]]
+text = "The Helmet Shuffle"
+
+[[cards]]
+text = "Here Comes the King"
+
+[[cards]]
+text = "The Musial Harmonica"
+
+[[cards]]
+text = "Retired Microphone Logo"
+
+[[cards]]
+text = "The London Series"
+
+[[cards]]
+text = "Memphis Redbirds"
+
+[[cards]]
+text = "Springfield Cardinals"
+
+[[cards]]
+text = "Robison Field"
+
+[[cards]]
+text = "1885 World Championship"
+
+[[cards]]
+text = "The Ground Crew Dance"
+
+[[cards]]
+text = "The Cardinals Museum"
+
+[[cards]]
+text = "Redbird Club Lounge"
+
+[[cards]]
+text = "The Lou Brock Award"
+
+[[cards]]
+text = "The Cardinals Team Store"
+
+[[cards]]
+text = "UMB Champions Club"
+
+[[cards]]
+text = "1926 World Series Ring"
+
+[[cards]]
+text = "The Single Bird Jersey"
+
+[[cards]]
+text = "Cardinals Spanish Radio"
+
+[[cards]]
+text = "The Shannonisms"
+
+[[cards]]
+text = "2011 Wild Card Chase"
+
+[[cards]]
+text = "The Redbird Kids Club"
+
+[[cards]]
+text = "The Peoria Chiefs"
+
+[[cards]]
+text = "The Clydesdale Hitch"
+
+[[cards]]
+text = "The Busch Stadium Tour"
+
+[[cards]]
+text = "The Chicago Cubs"
+
+[[cards]]
+text = "The 2011 Championship"
+
+[[cards]]
+text = "Baseball Heaven"
+
+[[cards]]
+text = "The Ozzie Smith Statue"
+
+[[cards]]
+text = "The Cardinals Clubhouse"
+
+[[cards]]
+text = "Fredbird's Beak Bite"
+
+[[cards]]
+text = "Cardinals Theme Night"
+
+[[cards]]
+text = "The Red Seats"
+
+[[cards]]
+text = "The Ballpark Organ"
+
+[[cards]]
+text = "The Bowtie Bar"
+
+[[cards]]
+text = "The St. Louis Stars"
