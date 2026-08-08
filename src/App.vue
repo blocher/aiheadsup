@@ -81,6 +81,9 @@ const creating = ref(false)
 const progress = ref(null)
 const importInput = ref(null)
 const selectedCategory = ref('all')
+const librarySearch = ref('')
+const libraryQuery = ref('')
+let librarySearchTimer
 const deleteAiOnReset = ref(false)
 const confirmDialog = ref(null)
 let confirmDialogResolve = null
@@ -156,13 +159,34 @@ const canSubmitCreation = computed(() => {
   return true
 })
 const aiPacks = computed(() => packs.value.filter((pack) => pack.isAiGenerated))
+function packMatchesLibraryQuery(pack, query) {
+  if (!query) return true
+  const haystack = [pack.title, pack.category, pack.difficulty, pack.audience].filter(Boolean).join(' ').toLocaleLowerCase()
+  return query.split(/\s+/).filter(Boolean).every((token) => haystack.includes(token))
+}
 const categoryGroups = computed(() => categories.value
   .filter((category) => selectedCategory.value === 'all' || selectedCategory.value === category)
   .map((category) => ({
     category,
-    packs: packs.value.filter((pack) => pack.category === category).sort((left, right) => left.title.localeCompare(right.title))
+    packs: packs.value
+      .filter((pack) => pack.category === category && packMatchesLibraryQuery(pack, libraryQuery.value))
+      .sort((left, right) => left.title.localeCompare(right.title))
   }))
   .filter((group) => group.packs.length))
+const visiblePackCount = computed(() => categoryGroups.value.reduce((count, group) => count + group.packs.length, 0))
+
+watch(librarySearch, (value) => {
+  window.clearTimeout(librarySearchTimer)
+  librarySearchTimer = window.setTimeout(() => {
+    libraryQuery.value = value.trim().toLocaleLowerCase()
+  }, 180)
+})
+
+function clearLibrarySearch() {
+  window.clearTimeout(librarySearchTimer)
+  librarySearch.value = ''
+  libraryQuery.value = ''
+}
 
 const categoryIcons = {
   'Harry Potter': '⚡',
@@ -724,6 +748,7 @@ onMounted(async () => {
 })
 
 onBeforeUnmount(() => {
+  window.clearTimeout(librarySearchTimer)
   window.removeEventListener('popstate', keepBrowserInsideApp)
   stopDeviceAiWatch?.()
 })
@@ -747,7 +772,14 @@ onBeforeUnmount(() => {
     <template v-else-if="screen === 'library'">
       <section class="hero"><p>Big cards. Loud clues. Zero setup.</p><h2>Pick a pack and get silly.</h2><button class="primary-button hero-ai-button" @click="openCreateScreen"><span class="hero-ai-spark" aria-hidden="true">✦</span><span>Make a pack with</span><span class="hero-ai-badge">AI</span></button><div class="deck-library-actions"><button @click="openImportPicker">Import TOML package</button><button v-if="aiPacks.length" @click="exportAllAiDecks">Export AI decks</button></div><input ref="importInput" class="visually-hidden" type="file" accept=".zip,application/zip" @change="importDecks" /></section>
       <section class="library-activity-actions"><button @click="screen = 'history'"><span class="activity-icon">◷</span><span><b>Recent rounds</b><small>{{ history.length }} played</small></span><em>›</em></button><button @click="screen = 'scores'"><span class="activity-icon">🏆</span><span><b>High scores</b><small>{{ highScores.length ? `${highScores[0].score} best score` : 'No scores yet' }}</small></span><em>›</em></button></section>
-      <section class="library-heading"><h2>Your packs</h2><span>{{ packs.length }} ready</span></section>
+      <section class="library-heading"><h2>Your packs</h2><span>{{ libraryQuery ? `${visiblePackCount} match${visiblePackCount === 1 ? '' : 'es'}` : `${packs.length} ready` }}</span></section>
+      <section class="library-search" role="search">
+        <label class="library-search-field">
+          <span class="library-search-icon" aria-hidden="true">⌕</span>
+          <input v-model="librarySearch" type="search" enterkeyhint="search" autocomplete="off" autocorrect="off" spellcheck="false" placeholder="Search packs…" aria-label="Search packs" />
+          <button v-if="librarySearch" type="button" class="library-search-clear" aria-label="Clear search" @click="clearLibrarySearch">×</button>
+        </label>
+      </section>
       <section class="library-heading"><h3>Categories</h3></section>
       <nav v-if="categories.length" class="category-filter" aria-label="Filter packs by category">
         <button :class="{ selected: selectedCategory === 'all' }" :aria-pressed="selectedCategory === 'all'" @click="selectedCategory = 'all'"><span class="category-filter-icon">✦</span><span>All packs</span><b>{{ packs.length }}</b></button>
@@ -765,7 +797,7 @@ onBeforeUnmount(() => {
           </div>
         </section>
       </section>
-      <p v-else class="empty-history">No packs in this category yet.</p>
+      <p v-else class="empty-history">{{ libraryQuery ? `No packs match “${librarySearch.trim()}”.` : 'No packs in this category yet.' }}</p>
   </template>
 
     <template v-else-if="screen === 'detail' && selectedPack">
