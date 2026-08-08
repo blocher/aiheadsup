@@ -1,0 +1,591 @@
+id = "deck_1600s-european-history_947b6dd7"
+revision = 1
+name = "1600s European History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 17th-century European events such as the Thirty Years' War, Baroque art and architecture, Scientific Revolution figures, absolute monarchs, colonial empires, religion, and major developments of the 1600s. Prefer real historical people, places, and events."
+photo_file_name = "1600s-european-history-947b6dd7-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Galileo Galilei"
+
+[[cards]]
+text = "Isaac Newton"
+
+[[cards]]
+text = "René Descartes"
+
+[[cards]]
+text = "Johannes Kepler"
+
+[[cards]]
+text = "King Louis XIV"
+
+[[cards]]
+text = "Peter the Great"
+
+[[cards]]
+text = "King Charles I"
+
+[[cards]]
+text = "Oliver Cromwell"
+
+[[cards]]
+text = "Cardinal Richelieu"
+
+[[cards]]
+text = "King Gustavus Adolphus"
+
+[[cards]]
+text = "Thirty Years' War"
+
+[[cards]]
+text = "English Civil War"
+
+[[cards]]
+text = "Defenestration of Prague"
+
+[[cards]]
+text = "Peace of Westphalia"
+
+[[cards]]
+text = "Gunpowder Plot"
+
+[[cards]]
+text = "Glorious Revolution"
+
+[[cards]]
+text = "Dutch Golden Age"
+
+[[cards]]
+text = "Siege of Vienna"
+
+[[cards]]
+text = "Versailles Palace"
+
+[[cards]]
+text = "Rembrandt"
+
+[[cards]]
+text = "Gian Lorenzo Bernini"
+
+[[cards]]
+text = "Caravaggio"
+
+[[cards]]
+text = "Johannes Vermeer"
+
+[[cards]]
+text = "Peter Paul Rubens"
+
+[[cards]]
+text = "St. Paul's Cathedral"
+
+[[cards]]
+text = "Dutch East India Company"
+
+[[cards]]
+text = "The Mayflower"
+
+[[cards]]
+text = "Molière"
+
+[[cards]]
+text = "King James Bible"
+
+[[cards]]
+text = "Thomas Hobbes"
+
+[[cards]]
+text = "John Locke"
+
+[[cards]]
+text = "The Telescope"
+
+[[cards]]
+text = "Pendulum Clock"
+
+[[cards]]
+text = "Gravity"
+
+[[cards]]
+text = "Tulip Mania"
+
+[[cards]]
+text = "Spanish Galleon"
+
+[[cards]]
+text = "Royal Society of London"
+
+[[cards]]
+text = "John Milton"
+
+[[cards]]
+text = "Guy Fawkes"
+
+[[cards]]
+text = "Don Quixote"
+
+[[cards]]
+text = "Blaise Pascal"
+
+[[cards]]
+text = "Robert Boyle"
+
+[[cards]]
+text = "Christiaan Huygens"
+
+[[cards]]
+text = "Cardinal Mazarin"
+
+[[cards]]
+text = "Great Plague of London"
+
+[[cards]]
+text = "Baruch Spinoza"
+
+[[cards]]
+text = "William of Orange"
+
+[[cards]]
+text = "Great Fire of London"
+
+[[cards]]
+text = "King James I"
+
+[[cards]]
+text = "King Charles II"
+
+[[cards]]
+text = "Queen Christina of Sweden"
+
+[[cards]]
+text = "Diego Velázquez"
+
+[[cards]]
+text = "Artemisia Gentileschi"
+
+[[cards]]
+text = "Frans Hals"
+
+[[cards]]
+text = "Claudio Monteverdi"
+
+[[cards]]
+text = "Francis Bacon"
+
+[[cards]]
+text = "William Harvey"
+
+[[cards]]
+text = "Antonie van Leeuwenhoek"
+
+[[cards]]
+text = "Robert Hooke"
+
+[[cards]]
+text = "Gottfried Wilhelm Leibniz"
+
+[[cards]]
+text = "Evangelista Torricelli"
+
+[[cards]]
+text = "Edmund Halley"
+
+[[cards]]
+text = "Divine Right of Kings"
+
+[[cards]]
+text = "Cavalier"
+
+[[cards]]
+text = "Roundhead"
+
+[[cards]]
+text = "Long Parliament"
+
+[[cards]]
+text = "Royal Observatory Greenwich"
+
+[[cards]]
+text = "French Academy of Sciences"
+
+[[cards]]
+text = "Dutch West India Company"
+
+[[cards]]
+text = "Barometer"
+
+[[cards]]
+text = "John Donne"
+
+[[cards]]
+text = "Jean Racine"
+
+[[cards]]
+text = "Francesco Borromini"
+
+[[cards]]
+text = "Nicolas Poussin"
+
+[[cards]]
+text = "King John III Sobieski"
+
+[[cards]]
+text = "Tsar Michael Romanov"
+
+[[cards]]
+text = "Hall of Mirrors"
+
+[[cards]]
+text = "Blood Circulation"
+
+[[cards]]
+text = "Air Pump"
+
+[[cards]]
+text = "Calculus"
+
+[[cards]]
+text = "Baroque Music"
+
+[[cards]]
+text = "Absolute Monarchy"
+
+[[cards]]
+text = "Inigo Jones"
+
+[[cards]]
+text = "Battle of Naseby"
+
+[[cards]]
+text = "Battle of Lützen"
+
+[[cards]]
+text = "Ship of the Line"
+
+[[cards]]
+text = "Chiaroscuro"
+
+[[cards]]
+text = "Puritans"
+
+[[cards]]
+text = "Harpsichord"
+
+[[cards]]
+text = "Globe Theatre"
+
+[[cards]]
+text = "Royal Navy"
+
+[[cards]]
+text = "Quakers"
+
+[[cards]]
+text = "Opera"
+
+[[cards]]
+text = "Violin"
+
+[[cards]]
+text = "Royal Mail"
+
+[[cards]]
+text = "The Fronde"
+
+[[cards]]
+text = "Edict of Nantes"
+
+[[cards]]
+text = "Huguenots"
+
+[[cards]]
+text = "Ottoman Empire"
+
+[[cards]]
+text = "Polish-Lithuanian Commonwealth"
+
+[[cards]]
+text = "Winged Hussars"
+
+[[cards]]
+text = "Microscope"
+
+[[cards]]
+text = "Alchemist"
+
+[[cards]]
+text = "Musketeer"
+
+[[cards]]
+text = "Pikeman"
+
+[[cards]]
+text = "Periwig"
+
+[[cards]]
+text = "Delftware"
+
+[[cards]]
+text = "English Commonwealth"
+
+[[cards]]
+text = "Cossacks"
+
+[[cards]]
+text = "Pilgrim's Progress"
+
+[[cards]]
+text = "Anglo-Dutch Wars"
+
+[[cards]]
+text = "Hudson's Bay Company"
+
+[[cards]]
+text = "Lute"
+
+[[cards]]
+text = "Anatomy Theater"
+
+[[cards]]
+text = "Witch Trials"
+
+[[cards]]
+text = "Stadtholder"
+
+[[cards]]
+text = "Romanov Dynasty"
+
+[[cards]]
+text = "Swedish Empire"
+
+[[cards]]
+text = "Flintlock Pistol"
+
+[[cards]]
+text = "Matchlock Musket"
+
+[[cards]]
+text = "Coffeehouse"
+
+[[cards]]
+text = "Drinking Chocolate"
+
+[[cards]]
+text = "The Grand Tour"
+
+[[cards]]
+text = "Still Life Painting"
+
+[[cards]]
+text = "Landscape Painting"
+
+[[cards]]
+text = "Broadsheet Newspaper"
+
+[[cards]]
+text = "Rump Parliament"
+
+[[cards]]
+text = "Whigs and Tories"
+
+[[cards]]
+text = "The Levellers"
+
+[[cards]]
+text = "Winter Queen"
+
+[[cards]]
+text = "Louvre Palace"
+
+[[cards]]
+text = "Marie de' Medici"
+
+[[cards]]
+text = "King Louis XIII"
+
+[[cards]]
+text = "Albrecht von Wallenstein"
+
+[[cards]]
+text = "Count Tilly"
+
+[[cards]]
+text = "King Christian IV"
+
+[[cards]]
+text = "Henry Purcell"
+
+[[cards]]
+text = "Jean-Baptiste Lully"
+
+[[cards]]
+text = "Lope de Vega"
+
+[[cards]]
+text = "El Escorial"
+
+[[cards]]
+text = "Treaty of the Pyrenees"
+
+[[cards]]
+text = "Rye House Plot"
+
+[[cards]]
+text = "New France"
+
+[[cards]]
+text = "Spanish Inquisition"
+
+[[cards]]
+text = "Habsburg Empire"
+
+[[cards]]
+text = "Samuel Pepys"
+
+[[cards]]
+text = "Sir Christopher Wren"
+
+[[cards]]
+text = "Pierre de Fermat"
+
+[[cards]]
+text = "Henry Hudson"
+
+[[cards]]
+text = "Samuel de Champlain"
+
+[[cards]]
+text = "Abel Tasman"
+
+[[cards]]
+text = "Peter Minuit"
+
+[[cards]]
+text = "Cyrano de Bergerac"
+
+[[cards]]
+text = "Jean-Baptiste Colbert"
+
+[[cards]]
+text = "Marquis de Vauban"
+
+[[cards]]
+text = "King Philip IV"
+
+[[cards]]
+text = "Queen Anne of Austria"
+
+[[cards]]
+text = "Emperor Ferdinand II"
+
+[[cards]]
+text = "The Restoration"
+
+[[cards]]
+text = "English Bill of Rights"
+
+[[cards]]
+text = "Battle of the Boyne"
+
+[[cards]]
+text = "The Deluge"
+
+[[cards]]
+text = "Khmelnytsky Uprising"
+
+[[cards]]
+text = "Sack of Magdeburg"
+
+[[cards]]
+text = "The Popish Plot"
+
+[[cards]]
+text = "Monmouth Rebellion"
+
+[[cards]]
+text = "John Napier"
+
+[[cards]]
+text = "Margaret Cavendish"
+
+[[cards]]
+text = "Cabinet of Curiosities"
+
+[[cards]]
+text = "Amsterdam Stock Exchange"
+
+[[cards]]
+text = "Bank of England"
+
+[[cards]]
+text = "Captain Kidd"
+
+[[cards]]
+text = "Dom Pérignon"
+
+[[cards]]
+text = "Ruff Collar"
+
+[[cards]]
+text = "Tricorne Hat"
+
+[[cards]]
+text = "Grenadier"
+
+[[cards]]
+text = "Bayonet"
+
+[[cards]]
+text = "Magic Lantern"
+
+[[cards]]
+text = "Slide Rule"
+
+[[cards]]
+text = "Pocket Watch"
+
+[[cards]]
+text = "Bodleian Library"
+
+[[cards]]
+text = "Ashmolean Museum"
+
+[[cards]]
+text = "Literary Salon"
+
+[[cards]]
+text = "Great Turkish War"
+
+[[cards]]
+text = "William Penn"
+
+[[cards]]
+text = "Stepan Razin"
+
+[[cards]]
+text = "Pope Urban VIII"
+
+[[cards]]
+text = "Saint Vincent de Paul"
+
+[[cards]]
+text = "Johan de Witt"
+
+[[cards]]
+text = "Frederick William"
+
+[[cards]]
+text = "Jan Steen"
+
+[[cards]]
+text = "Jacob van Ruisdael"
+
+[[cards]]
+text = "Queen Mary II"
+
+[[cards]]
+text = "New Sweden"

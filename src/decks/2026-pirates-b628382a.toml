@@ -1,0 +1,168 @@
+id = "deck_2026-pirates_b628382a"
+revision = 1
+name = "2026 Pirates"
+category = "Pittsburgh Sports"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Hand-curated 2026 Pittsburgh Pirates player names only (roster / depth as provided). Do not AI-regenerate."
+spoiler_mode = false
+photo_file_name = "2026-pirates-b628382a-cover.jpg"
+
+[[cards]]
+text = "Braxton Ashcraft"
+
+[[cards]]
+text = "Lake Bachar"
+
+[[cards]]
+text = "Hunter Barco"
+
+[[cards]]
+text = "Brandan Bidois"
+
+[[cards]]
+text = "Bubba Chandler"
+
+[[cards]]
+text = "Khristian Curtis"
+
+[[cards]]
+text = "Chris Devenski"
+
+[[cards]]
+text = "Camilo Doval"
+
+[[cards]]
+text = "Wilber Dotel"
+
+[[cards]]
+text = "Brandon Eisert"
+
+[[cards]]
+text = "Jared Jones"
+
+[[cards]]
+text = "Antwone Kelly"
+
+[[cards]]
+text = "Mitch Keller"
+
+[[cards]]
+text = "Justin Lawrence"
+
+[[cards]]
+text = "Ron Marinaccio"
+
+[[cards]]
+text = "Isaac Mattson"
+
+[[cards]]
+text = "Carmen Mlodzinski"
+
+[[cards]]
+text = "Mason Montgomery"
+
+[[cards]]
+text = "Noah Murdock"
+
+[[cards]]
+text = "Yohan Ramírez"
+
+[[cards]]
+text = "Dennis Santana"
+
+[[cards]]
+text = "Cam Sanders"
+
+[[cards]]
+text = "Paul Skenes"
+
+[[cards]]
+text = "Evan Sisk"
+
+[[cards]]
+text = "Gregory Soto"
+
+[[cards]]
+text = "Hunter Stratton"
+
+[[cards]]
+text = "José Urquidy"
+
+[[cards]]
+text = "Kirby Yates"
+
+[[cards]]
+text = "Joey Bart"
+
+[[cards]]
+text = "Jack Brannigan"
+
+[[cards]]
+text = "Tyler Callihan"
+
+[[cards]]
+text = "Billy Cook"
+
+[[cards]]
+text = "Oneil Cruz"
+
+[[cards]]
+text = "Henry Davis"
+
+[[cards]]
+text = "Rafael Flores Jr."
+
+[[cards]]
+text = "Jhostynxon Garcia"
+
+[[cards]]
+text = "Nick Gonzales"
+
+[[cards]]
+text = "Jacob Gonzalez"
+
+[[cards]]
+text = "Konnor Griffin"
+
+[[cards]]
+text = "Spencer Horwitz"
+
+[[cards]]
+text = "Brandon Lowe"
+
+[[cards]]
+text = "Jake Mangum"
+
+[[cards]]
+text = "Marcell Ozuna"
+
+[[cards]]
+text = "Ryan O'Hearn"
+
+[[cards]]
+text = "Bryan Reynolds"
+
+[[cards]]
+text = "Endy Rodríguez"
+
+[[cards]]
+text = "Shawn Ross"
+
+[[cards]]
+text = "Ronny Simon"
+
+[[cards]]
+text = "Jared Triolo"
+
+[[cards]]
+text = "Esmerlyn Valdez"
+
+[[cards]]
+text = "Davis Wendzel"
+
+[[cards]]
+text = "Nick Yorke"
+
+[[cards]]
+text = "Luke Weaver"

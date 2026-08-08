@@ -1,0 +1,684 @@
+id = "deck_german_d05f3c3a"
+revision = 1
+name = "German"
+category = "Languages"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real, commonly taught German words and short phrases (1-4 words) that English-speaking families might recognize or learn. Put the German word or phrase itself on the card. Include greetings, food, travel, school, home, numbers, colors, and everyday vocabulary. No invented words, no English-only prompts, no full sentences longer than 4 words."
+photo_file_name = "german-d05f3c3a-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Guten Tag"
+
+[[cards]]
+text = "Hallo"
+
+[[cards]]
+text = "Auf Wiedersehen"
+
+[[cards]]
+text = "Tschüss"
+
+[[cards]]
+text = "Danke"
+
+[[cards]]
+text = "Bitte"
+
+[[cards]]
+text = "Guten Morgen"
+
+[[cards]]
+text = "Gute Nacht"
+
+[[cards]]
+text = "Deutschland"
+
+[[cards]]
+text = "Kindergarten"
+
+[[cards]]
+text = "Oktoberfest"
+
+[[cards]]
+text = "Lederhosen"
+
+[[cards]]
+text = "Gesundheit"
+
+[[cards]]
+text = "Schnitzel"
+
+[[cards]]
+text = "Brezel"
+
+[[cards]]
+text = "Sauerkraut"
+
+[[cards]]
+text = "Apfelstrudel"
+
+[[cards]]
+text = "Wasser"
+
+[[cards]]
+text = "Brot"
+
+[[cards]]
+text = "Kartoffel"
+
+[[cards]]
+text = "Wurst"
+
+[[cards]]
+text = "Schokolade"
+
+[[cards]]
+text = "Kaffee"
+
+[[cards]]
+text = "Milch"
+
+[[cards]]
+text = "Hund"
+
+[[cards]]
+text = "Katze"
+
+[[cards]]
+text = "Haus"
+
+[[cards]]
+text = "Auto"
+
+[[cards]]
+text = "Zug"
+
+[[cards]]
+text = "Schule"
+
+[[cards]]
+text = "Buch"
+
+[[cards]]
+text = "Freund"
+
+[[cards]]
+text = "Mutter"
+
+[[cards]]
+text = "Vater"
+
+[[cards]]
+text = "Bruder"
+
+[[cards]]
+text = "Schwester"
+
+[[cards]]
+text = "Familie"
+
+[[cards]]
+text = "Eins, zwei, drei"
+
+[[cards]]
+text = "Rot"
+
+[[cards]]
+text = "Blau"
+
+[[cards]]
+text = "Gelb"
+
+[[cards]]
+text = "Grün"
+
+[[cards]]
+text = "Schwarz"
+
+[[cards]]
+text = "Weiß"
+
+[[cards]]
+text = "Ja"
+
+[[cards]]
+text = "Nein"
+
+[[cards]]
+text = "Willkommen"
+
+[[cards]]
+text = "Danke schön"
+
+[[cards]]
+text = "Wunderbar"
+
+[[cards]]
+text = "Guten Abend"
+
+[[cards]]
+text = "Vier"
+
+[[cards]]
+text = "Fünf"
+
+[[cards]]
+text = "Zehn"
+
+[[cards]]
+text = "Orange"
+
+[[cards]]
+text = "Rosa"
+
+[[cards]]
+text = "Braun"
+
+[[cards]]
+text = "Vogel"
+
+[[cards]]
+text = "Maus"
+
+[[cards]]
+text = "Pferd"
+
+[[cards]]
+text = "Fisch"
+
+[[cards]]
+text = "Bär"
+
+[[cards]]
+text = "Affe"
+
+[[cards]]
+text = "Käse"
+
+[[cards]]
+text = "Saft"
+
+[[cards]]
+text = "Apfel"
+
+[[cards]]
+text = "Banane"
+
+[[cards]]
+text = "Suppe"
+
+[[cards]]
+text = "Kuchen"
+
+[[cards]]
+text = "Eis"
+
+[[cards]]
+text = "Tee"
+
+[[cards]]
+text = "Baby"
+
+[[cards]]
+text = "Garten"
+
+[[cards]]
+text = "Bett"
+
+[[cards]]
+text = "Tür"
+
+[[cards]]
+text = "Fenster"
+
+[[cards]]
+text = "Tisch"
+
+[[cards]]
+text = "Stuhl"
+
+[[cards]]
+text = "Lampe"
+
+[[cards]]
+text = "Stift"
+
+[[cards]]
+text = "Papier"
+
+[[cards]]
+text = "Tasche"
+
+[[cards]]
+text = "Musik"
+
+[[cards]]
+text = "Telefon"
+
+[[cards]]
+text = "Computer"
+
+[[cards]]
+text = "Sonne"
+
+[[cards]]
+text = "Mond"
+
+[[cards]]
+text = "Sterne"
+
+[[cards]]
+text = "Blume"
+
+[[cards]]
+text = "Baum"
+
+[[cards]]
+text = "Schnee"
+
+[[cards]]
+text = "Wind"
+
+[[cards]]
+text = "Hotel"
+
+[[cards]]
+text = "Bahnhof"
+
+[[cards]]
+text = "Bus"
+
+[[cards]]
+text = "Fahrrad"
+
+[[cards]]
+text = "Stadt"
+
+[[cards]]
+text = "Bis bald"
+
+[[cards]]
+text = "Wie geht es?"
+
+[[cards]]
+text = "Viel Glück"
+
+[[cards]]
+text = "Alles Gute"
+
+[[cards]]
+text = "Sechs"
+
+[[cards]]
+text = "Sieben"
+
+[[cards]]
+text = "Acht"
+
+[[cards]]
+text = "Neun"
+
+[[cards]]
+text = "Elf"
+
+[[cards]]
+text = "Zwölf"
+
+[[cards]]
+text = "Grau"
+
+[[cards]]
+text = "Silber"
+
+[[cards]]
+text = "Gold"
+
+[[cards]]
+text = "Löwe"
+
+[[cards]]
+text = "Elefant"
+
+[[cards]]
+text = "Giraffe"
+
+[[cards]]
+text = "Kuh"
+
+[[cards]]
+text = "Schwein"
+
+[[cards]]
+text = "Schaf"
+
+[[cards]]
+text = "Ente"
+
+[[cards]]
+text = "Spinne"
+
+[[cards]]
+text = "Salat"
+
+[[cards]]
+text = "Tomate"
+
+[[cards]]
+text = "Salz"
+
+[[cards]]
+text = "Pfeffer"
+
+[[cards]]
+text = "Zucker"
+
+[[cards]]
+text = "Honig"
+
+[[cards]]
+text = "Entschuldigung"
+
+[[cards]]
+text = "Ich liebe dich"
+
+[[cards]]
+text = "Frohe Weihnachten"
+
+[[cards]]
+text = "Herzlichen Glückwunsch"
+
+[[cards]]
+text = "Bis später"
+
+[[cards]]
+text = "Prost"
+
+[[cards]]
+text = "Flughafen"
+
+[[cards]]
+text = "Taxi"
+
+[[cards]]
+text = "Schiff"
+
+[[cards]]
+text = "Strand"
+
+[[cards]]
+text = "Meer"
+
+[[cards]]
+text = "Berg"
+
+[[cards]]
+text = "Wald"
+
+[[cards]]
+text = "Park"
+
+[[cards]]
+text = "Straße"
+
+[[cards]]
+text = "Uhr"
+
+[[cards]]
+text = "Schlüssel"
+
+[[cards]]
+text = "Geld"
+
+[[cards]]
+text = "Spiegel"
+
+[[cards]]
+text = "Küche"
+
+[[cards]]
+text = "Zimmer"
+
+[[cards]]
+text = "Mann"
+
+[[cards]]
+text = "Frau"
+
+[[cards]]
+text = "Kind"
+
+[[cards]]
+text = "Junge"
+
+[[cards]]
+text = "Mädchen"
+
+[[cards]]
+text = "Sommer"
+
+[[cards]]
+text = "Winter"
+
+[[cards]]
+text = "Frühling"
+
+[[cards]]
+text = "Herbst"
+
+[[cards]]
+text = "Montag"
+
+[[cards]]
+text = "Samstag"
+
+[[cards]]
+text = "Sonntag"
+
+[[cards]]
+text = "Lila"
+
+[[cards]]
+text = "Zwanzig"
+
+[[cards]]
+text = "Hundert"
+
+[[cards]]
+text = "Schmetterling"
+
+[[cards]]
+text = "Biene"
+
+[[cards]]
+text = "Hase"
+
+[[cards]]
+text = "Fuchs"
+
+[[cards]]
+text = "Wolf"
+
+[[cards]]
+text = "Frosch"
+
+[[cards]]
+text = "Eule"
+
+[[cards]]
+text = "Pinguin"
+
+[[cards]]
+text = "Schildkröte"
+
+[[cards]]
+text = "Limonade"
+
+[[cards]]
+text = "Gemüse"
+
+[[cards]]
+text = "Obst"
+
+[[cards]]
+text = "Ei"
+
+[[cards]]
+text = "Butter"
+
+[[cards]]
+text = "Fleisch"
+
+[[cards]]
+text = "Nudeln"
+
+[[cards]]
+text = "Erdbeere"
+
+[[cards]]
+text = "Zitrone"
+
+[[cards]]
+text = "Reis"
+
+[[cards]]
+text = "Hemd"
+
+[[cards]]
+text = "Schuh"
+
+[[cards]]
+text = "Socke"
+
+[[cards]]
+text = "Hut"
+
+[[cards]]
+text = "Brille"
+
+[[cards]]
+text = "Bild"
+
+[[cards]]
+text = "Decke"
+
+[[cards]]
+text = "Kissen"
+
+[[cards]]
+text = "Glas"
+
+[[cards]]
+text = "Teller"
+
+[[cards]]
+text = "Gabel"
+
+[[cards]]
+text = "Löffel"
+
+[[cards]]
+text = "Messer"
+
+[[cards]]
+text = "Regen"
+
+[[cards]]
+text = "Wolke"
+
+[[cards]]
+text = "Fluss"
+
+[[cards]]
+text = "Insel"
+
+[[cards]]
+text = "Hand"
+
+[[cards]]
+text = "Fuß"
+
+[[cards]]
+text = "Nase"
+
+[[cards]]
+text = "Auge"
+
+[[cards]]
+text = "Ohr"
+
+[[cards]]
+text = "Dirndl"
+
+[[cards]]
+text = "Wanderlust"
+
+[[cards]]
+text = "Doppelgänger"
+
+[[cards]]
+text = "Poltergeist"
+
+[[cards]]
+text = "Rucksack"
+
+[[cards]]
+text = "Kaputt"
+
+[[cards]]
+text = "Müsli"
+
+[[cards]]
+text = "Keks"
+
+[[cards]]
+text = "Kakao"
+
+[[cards]]
+text = "Marmelade"
+
+[[cards]]
+text = "Kino"
+
+[[cards]]
+text = "Museum"
+
+[[cards]]
+text = "Lehrer"
+
+[[cards]]
+text = "Pause"
+
+[[cards]]
+text = "Finger"
+
+[[cards]]
+text = "Arm"
+
+[[cards]]
+text = "Haar"
+
+[[cards]]
+text = "Mund"
+
+[[cards]]
+text = "König"
+
+[[cards]]
+text = "Prinzessin"
+
+[[cards]]
+text = "Schloss"
+
+[[cards]]
+text = "Drache"
+
+[[cards]]
+text = "Heiß"
+
+[[cards]]
+text = "Kalt"
+
+[[cards]]
+text = "Gute Reise"

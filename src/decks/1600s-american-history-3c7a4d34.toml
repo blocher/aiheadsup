@@ -1,0 +1,603 @@
+id = "deck_1600s-american-history_3c7a4d34"
+revision = 1
+name = "1600s American History"
+category = "History"
+audience = "Family"
+difficulty = "Medium"
+special_prompt_note = "Cards should include 17th-century American colonial settlements, Jamestown, Plymouth, Puritans, Native American nations and encounters, early colonial life, explorers, and major events from the 1600s in American history. Prefer real historical people, places, and events."
+photo_file_name = "1600s-american-history-3c7a4d34-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Jamestown"
+
+[[cards]]
+text = "The Mayflower"
+
+[[cards]]
+text = "Pocahontas"
+
+[[cards]]
+text = "Captain John Smith"
+
+[[cards]]
+text = "Plymouth Colony"
+
+[[cards]]
+text = "Squanto"
+
+[[cards]]
+text = "Salem Witch Trials"
+
+[[cards]]
+text = "William Penn"
+
+[[cards]]
+text = "First Thanksgiving"
+
+[[cards]]
+text = "John Rolfe"
+
+[[cards]]
+text = "House of Burgesses"
+
+[[cards]]
+text = "Mayflower Compact"
+
+[[cards]]
+text = "Puritans"
+
+[[cards]]
+text = "Anne Hutchinson"
+
+[[cards]]
+text = "Roger Williams"
+
+[[cards]]
+text = "New Amsterdam"
+
+[[cards]]
+text = "Quakers"
+
+[[cards]]
+text = "William Bradford"
+
+[[cards]]
+text = "King Philip's War"
+
+[[cards]]
+text = "Bacon's Rebellion"
+
+[[cards]]
+text = "John Winthrop"
+
+[[cards]]
+text = "Henry Hudson"
+
+[[cards]]
+text = "Samuel de Champlain"
+
+[[cards]]
+text = "Peter Stuyvesant"
+
+[[cards]]
+text = "Indentured Servant"
+
+[[cards]]
+text = "Wampanoag"
+
+[[cards]]
+text = "Chief Powhatan"
+
+[[cards]]
+text = "Beaver Pelts"
+
+[[cards]]
+text = "Tobacco Crop"
+
+[[cards]]
+text = "The Starving Time"
+
+[[cards]]
+text = "Colonial Meetinghouse"
+
+[[cards]]
+text = "Lord Baltimore"
+
+[[cards]]
+text = "Pequot War"
+
+[[cards]]
+text = "Iroquois Confederacy"
+
+[[cards]]
+text = "City Upon a Hill"
+
+[[cards]]
+text = "Plymouth Rock"
+
+[[cards]]
+text = "Metacomet"
+
+[[cards]]
+text = "Chief Massasoit"
+
+[[cards]]
+text = "Hornbook"
+
+[[cards]]
+text = "Great Migration"
+
+[[cards]]
+text = "Robert de La Salle"
+
+[[cards]]
+text = "Charter Oak"
+
+[[cards]]
+text = "Colonial Blacksmith"
+
+[[cards]]
+text = "Log Cabin"
+
+[[cards]]
+text = "New England Primer"
+
+[[cards]]
+text = "Harvard College"
+
+[[cards]]
+text = "Wampum"
+
+[[cards]]
+text = "Susan Constant"
+
+[[cards]]
+text = "Mary Rowlandson"
+
+[[cards]]
+text = "Half-Way Covenant"
+
+[[cards]]
+text = "Virginia Company"
+
+[[cards]]
+text = "The Godspeed"
+
+[[cards]]
+text = "The Discovery"
+
+[[cards]]
+text = "Samoset"
+
+[[cards]]
+text = "Myles Standish"
+
+[[cards]]
+text = "John Alden"
+
+[[cards]]
+text = "Priscilla Mullins"
+
+[[cards]]
+text = "Massachusetts Bay Colony"
+
+[[cards]]
+text = "Thomas Hooker"
+
+[[cards]]
+text = "Fundamental Orders"
+
+[[cards]]
+text = "Maryland Toleration Act"
+
+[[cards]]
+text = "Sir Edmund Andros"
+
+[[cards]]
+text = "Dominion of New England"
+
+[[cards]]
+text = "Navigation Acts"
+
+[[cards]]
+text = "New Sweden"
+
+[[cards]]
+text = "Peter Minuit"
+
+[[cards]]
+text = "Patroon System"
+
+[[cards]]
+text = "Headright System"
+
+[[cards]]
+text = "Popham Colony"
+
+[[cards]]
+text = "Colonial Cooper"
+
+[[cards]]
+text = "Colonial Cobbler"
+
+[[cards]]
+text = "Butter Churn"
+
+[[cards]]
+text = "Spinning Wheel"
+
+[[cards]]
+text = "Pillory and Stocks"
+
+[[cards]]
+text = "Tithingman"
+
+[[cards]]
+text = "Cod Fishery"
+
+[[cards]]
+text = "Pitch and Tar"
+
+[[cards]]
+text = "Gristmill"
+
+[[cards]]
+text = "Sir William Berkeley"
+
+[[cards]]
+text = "Cotton Mather"
+
+[[cards]]
+text = "Increase Mather"
+
+[[cards]]
+text = "Tituba"
+
+[[cards]]
+text = "Giles Corey"
+
+[[cards]]
+text = "Mohawk Nation"
+
+[[cards]]
+text = "Lenape Tribe"
+
+[[cards]]
+text = "Mohegan Tribe"
+
+[[cards]]
+text = "Uncas"
+
+[[cards]]
+text = "New Haven Colony"
+
+[[cards]]
+text = "Treaty of Hartford"
+
+[[cards]]
+text = "Anne Bradstreet"
+
+[[cards]]
+text = "Margaret Brent"
+
+[[cards]]
+text = "Leonard Calvert"
+
+[[cards]]
+text = "Peregrine White"
+
+[[cards]]
+text = "Coureur des bois"
+
+[[cards]]
+text = "New France"
+
+[[cards]]
+text = "Thomas Morton"
+
+[[cards]]
+text = "The Boston Common"
+
+[[cards]]
+text = "Boston Latin School"
+
+[[cards]]
+text = "Pine Tree Shilling"
+
+[[cards]]
+text = "Narragansett Tribe"
+
+[[cards]]
+text = "The Speedwell"
+
+[[cards]]
+text = "New Netherland"
+
+[[cards]]
+text = "Providence Plantations"
+
+[[cards]]
+text = "Pueblo Revolt"
+
+[[cards]]
+text = "St. Mary's City"
+
+[[cards]]
+text = "Ark and Dove"
+
+[[cards]]
+text = "Joint-Stock Company"
+
+[[cards]]
+text = "Separatists"
+
+[[cards]]
+text = "Praying Towns"
+
+[[cards]]
+text = "Miantonomoh"
+
+[[cards]]
+text = "Weetamoo"
+
+[[cards]]
+text = "John Sassamon"
+
+[[cards]]
+text = "Antinomian Controversy"
+
+[[cards]]
+text = "The Bay Psalm Book"
+
+[[cards]]
+text = "Salem Village"
+
+[[cards]]
+text = "Spectral Evidence"
+
+[[cards]]
+text = "Gallows Hill"
+
+[[cards]]
+text = "Nathaniel Bacon"
+
+[[cards]]
+text = "Tobacco Brides"
+
+[[cards]]
+text = "The White Lion"
+
+[[cards]]
+text = "Hogshead"
+
+[[cards]]
+text = "Cavalier"
+
+[[cards]]
+text = "Plundering Time"
+
+[[cards]]
+text = "Duke of York"
+
+[[cards]]
+text = "Philadelphia"
+
+[[cards]]
+text = "Pequot Nation"
+
+[[cards]]
+text = "King William's War"
+
+[[cards]]
+text = "Beaver Wars"
+
+[[cards]]
+text = "Filles du Roi"
+
+[[cards]]
+text = "Black Robes"
+
+[[cards]]
+text = "Castillo de San Marcos"
+
+[[cards]]
+text = "Popé"
+
+[[cards]]
+text = "Wigwam"
+
+[[cards]]
+text = "Longhouse"
+
+[[cards]]
+text = "Succotash"
+
+[[cards]]
+text = "Hasty Pudding"
+
+[[cards]]
+text = "Johnnycake"
+
+[[cards]]
+text = "Matchlock Musket"
+
+[[cards]]
+text = "Smallpox Epidemic"
+
+[[cards]]
+text = "Apothecary Shop"
+
+[[cards]]
+text = "Ducking Stool"
+
+[[cards]]
+text = "Sumptuary Laws"
+
+[[cards]]
+text = "Thatch Roof"
+
+[[cards]]
+text = "Linsey-Woolsey"
+
+[[cards]]
+text = "Colonial Silversmith"
+
+[[cards]]
+text = "Colonial Chandler"
+
+[[cards]]
+text = "Small Beer"
+
+[[cards]]
+text = "Muster Day"
+
+[[cards]]
+text = "King James I"
+
+[[cards]]
+text = "King Charles I"
+
+[[cards]]
+text = "King Charles II"
+
+[[cards]]
+text = "King James II"
+
+[[cards]]
+text = "William and Mary"
+
+[[cards]]
+text = "Glorious Revolution"
+
+[[cards]]
+text = "Dutch West India Company"
+
+[[cards]]
+text = "New England Confederation"
+
+[[cards]]
+text = "Body of Liberties"
+
+[[cards]]
+text = "Blue Laws"
+
+[[cards]]
+text = "Maypole of Merrymount"
+
+[[cards]]
+text = "Flintlock Musket"
+
+[[cards]]
+text = "Powder Horn"
+
+[[cards]]
+text = "Pewter Mug"
+
+[[cards]]
+text = "Quill Pen"
+
+[[cards]]
+text = "Scurvy"
+
+[[cards]]
+text = "Saybrook Colony"
+
+[[cards]]
+text = "East Jersey"
+
+[[cards]]
+text = "West Jersey"
+
+[[cards]]
+text = "Charles Town"
+
+[[cards]]
+text = "Ferdinando Gorges"
+
+[[cards]]
+text = "John Mason"
+
+[[cards]]
+text = "Oceanus Hopkins"
+
+[[cards]]
+text = "Elizabeth Pole"
+
+[[cards]]
+text = "Lady Deborah Moody"
+
+[[cards]]
+text = "John Proctor"
+
+[[cards]]
+text = "Rebecca Nurse"
+
+[[cards]]
+text = "Samuel Parris"
+
+[[cards]]
+text = "Abigail Williams"
+
+[[cards]]
+text = "Oyer and Terminer"
+
+[[cards]]
+text = "Leisler's Rebellion"
+
+[[cards]]
+text = "Coode's Rebellion"
+
+[[cards]]
+text = "Culpeper's Rebellion"
+
+[[cards]]
+text = "Fort Orange"
+
+[[cards]]
+text = "Fort Christina"
+
+[[cards]]
+text = "Adriaen Block"
+
+[[cards]]
+text = "Witchcake"
+
+[[cards]]
+text = "Whipping Post"
+
+[[cards]]
+text = "Colonial Tanner"
+
+[[cards]]
+text = "Colonial Shipwright"
+
+[[cards]]
+text = "Colonial Mason"
+
+[[cards]]
+text = "Colonial Weaver"
+
+[[cards]]
+text = "Apprentice"
+
+[[cards]]
+text = "Yeoman Farmer"
+
+[[cards]]
+text = "Sassafras Root"
+
+[[cards]]
+text = "Oneida Nation"
+
+[[cards]]
+text = "Seneca Nation"
+
+[[cards]]
+text = "Cayuga Nation"
+
+[[cards]]
+text = "Onondaga Nation"
+
+[[cards]]
+text = "Abenaki Tribe"

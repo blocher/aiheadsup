@@ -1,0 +1,609 @@
+id = "deck_swahili_d1fc9687"
+revision = 1
+name = "Swahili"
+category = "Languages"
+audience = "Family"
+difficulty = "Easy"
+special_prompt_note = "Cards should be real, commonly taught Swahili (Kiswahili) words and short phrases (1-4 words) in Latin script that English-speaking families might recognize or learn. Put the Swahili word or phrase itself on the card. Include greetings, food, travel, school, home, numbers, colors, animals, and everyday East African vocabulary. No invented words, no English-only prompts, no full sentences longer than 4 words."
+photo_file_name = "swahili-d1fc9687-cover.jpg"
+spoiler_mode = false
+
+[[cards]]
+text = "Jambo"
+
+[[cards]]
+text = "Habari"
+
+[[cards]]
+text = "Karibu"
+
+[[cards]]
+text = "Asante"
+
+[[cards]]
+text = "Kwaheri"
+
+[[cards]]
+text = "Hakuna Matata"
+
+[[cards]]
+text = "Pole pole"
+
+[[cards]]
+text = "Sawa"
+
+[[cards]]
+text = "Simba"
+
+[[cards]]
+text = "Tembo"
+
+[[cards]]
+text = "Twiga"
+
+[[cards]]
+text = "Chui"
+
+[[cards]]
+text = "Kiboko"
+
+[[cards]]
+text = "Pundamilia"
+
+[[cards]]
+text = "Paka"
+
+[[cards]]
+text = "Mbwa"
+
+[[cards]]
+text = "Kuku"
+
+[[cards]]
+text = "Ndege"
+
+[[cards]]
+text = "Nyoka"
+
+[[cards]]
+text = "Safari"
+
+[[cards]]
+text = "Rafiki"
+
+[[cards]]
+text = "Baba"
+
+[[cards]]
+text = "Mama"
+
+[[cards]]
+text = "Mtoto"
+
+[[cards]]
+text = "Nyumba"
+
+[[cards]]
+text = "Shule"
+
+[[cards]]
+text = "Maji"
+
+[[cards]]
+text = "Chai"
+
+[[cards]]
+text = "Kahawa"
+
+[[cards]]
+text = "Chakula"
+
+[[cards]]
+text = "Ndizi"
+
+[[cards]]
+text = "Nazi"
+
+[[cards]]
+text = "Mkate"
+
+[[cards]]
+text = "Matunda"
+
+[[cards]]
+text = "Moja"
+
+[[cards]]
+text = "Mbili"
+
+[[cards]]
+text = "Tatu"
+
+[[cards]]
+text = "Nne"
+
+[[cards]]
+text = "Tano"
+
+[[cards]]
+text = "Kumi"
+
+[[cards]]
+text = "Baiskeli"
+
+[[cards]]
+text = "Gari"
+
+[[cards]]
+text = "Kitabu"
+
+[[cards]]
+text = "Meza"
+
+[[cards]]
+text = "Kiti"
+
+[[cards]]
+text = "Jua"
+
+[[cards]]
+text = "Mwezi"
+
+[[cards]]
+text = "Habari za asubuhi"
+
+[[cards]]
+text = "Asante sana"
+
+[[cards]]
+text = "Karibu tena"
+
+[[cards]]
+text = "Shikamoo"
+
+[[cards]]
+text = "Marahaba"
+
+[[cards]]
+text = "Mambo"
+
+[[cards]]
+text = "Poa"
+
+[[cards]]
+text = "Lala salama"
+
+[[cards]]
+text = "Safari njema"
+
+[[cards]]
+text = "Hodi"
+
+[[cards]]
+text = "Mwalimu"
+
+[[cards]]
+text = "Mwanafunzi"
+
+[[cards]]
+text = "Kalamu"
+
+[[cards]]
+text = "Daftari"
+
+[[cards]]
+text = "Darasa"
+
+[[cards]]
+text = "Mlima"
+
+[[cards]]
+text = "Bahari"
+
+[[cards]]
+text = "Mto"
+
+[[cards]]
+text = "Mti"
+
+[[cards]]
+text = "Maua"
+
+[[cards]]
+text = "Mvua"
+
+[[cards]]
+text = "Mpira"
+
+[[cards]]
+text = "Pesa"
+
+[[cards]]
+text = "Wali"
+
+[[cards]]
+text = "Maziwa"
+
+[[cards]]
+text = "Sukari"
+
+[[cards]]
+text = "Chumvi"
+
+[[cards]]
+text = "Nyama"
+
+[[cards]]
+text = "Embe"
+
+[[cards]]
+text = "Nanasi"
+
+[[cards]]
+text = "Machungwa"
+
+[[cards]]
+text = "Keki"
+
+[[cards]]
+text = "Samaki"
+
+[[cards]]
+text = "Kipepeo"
+
+[[cards]]
+text = "Tumbili"
+
+[[cards]]
+text = "Mamba"
+
+[[cards]]
+text = "Kobe"
+
+[[cards]]
+text = "Ng'ombe"
+
+[[cards]]
+text = "Mbuzi"
+
+[[cards]]
+text = "Chura"
+
+[[cards]]
+text = "Sita"
+
+[[cards]]
+text = "Saba"
+
+[[cards]]
+text = "Nane"
+
+[[cards]]
+text = "Tisa"
+
+[[cards]]
+text = "Nyekundu"
+
+[[cards]]
+text = "Bluu"
+
+[[cards]]
+text = "Njano"
+
+[[cards]]
+text = "Kijani"
+
+[[cards]]
+text = "Nyeupe"
+
+[[cards]]
+text = "Nyeusi"
+
+[[cards]]
+text = "Saa"
+
+[[cards]]
+text = "Kiatu"
+
+[[cards]]
+text = "Nguo"
+
+[[cards]]
+text = "Sungura"
+
+[[cards]]
+text = "Kifaru"
+
+[[cards]]
+text = "Tai"
+
+[[cards]]
+text = "Tausi"
+
+[[cards]]
+text = "Panya"
+
+[[cards]]
+text = "Mbuni"
+
+[[cards]]
+text = "Ngiri"
+
+[[cards]]
+text = "Kondoo"
+
+[[cards]]
+text = "Nguruwe"
+
+[[cards]]
+text = "Punda"
+
+[[cards]]
+text = "Nyuki"
+
+[[cards]]
+text = "Mboga"
+
+[[cards]]
+text = "Supu"
+
+[[cards]]
+text = "Mayai"
+
+[[cards]]
+text = "Parachichi"
+
+[[cards]]
+text = "Limau"
+
+[[cards]]
+text = "Kitunguu"
+
+[[cards]]
+text = "Tangawizi"
+
+[[cards]]
+text = "Pilipili"
+
+[[cards]]
+text = "Asali"
+
+[[cards]]
+text = "Mhogo"
+
+[[cards]]
+text = "Habari za mchana"
+
+[[cards]]
+text = "Habari za jioni"
+
+[[cards]]
+text = "Kwaheri ya kuonana"
+
+[[cards]]
+text = "Hujambo"
+
+[[cards]]
+text = "Sijambo"
+
+[[cards]]
+text = "Ndiyo"
+
+[[cards]]
+text = "Hapana"
+
+[[cards]]
+text = "Tafadhali"
+
+[[cards]]
+text = "Samahani"
+
+[[cards]]
+text = "Kaka"
+
+[[cards]]
+text = "Dada"
+
+[[cards]]
+text = "Babu"
+
+[[cards]]
+text = "Bibi"
+
+[[cards]]
+text = "Dirisha"
+
+[[cards]]
+text = "Mlango"
+
+[[cards]]
+text = "Ufunguo"
+
+[[cards]]
+text = "Sahani"
+
+[[cards]]
+text = "Kikombe"
+
+[[cards]]
+text = "Kijiko"
+
+[[cards]]
+text = "Kitanda"
+
+[[cards]]
+text = "Sabuni"
+
+[[cards]]
+text = "Nyota"
+
+[[cards]]
+text = "Barabara"
+
+[[cards]]
+text = "Mji"
+
+[[cards]]
+text = "Kijiji"
+
+[[cards]]
+text = "Soko"
+
+[[cards]]
+text = "Duka"
+
+[[cards]]
+text = "Bendera"
+
+[[cards]]
+text = "Leo"
+
+[[cards]]
+text = "Ugali"
+
+[[cards]]
+text = "Sukuma wiki"
+
+[[cards]]
+text = "Pilau"
+
+[[cards]]
+text = "Sambusa"
+
+[[cards]]
+text = "Chapati"
+
+[[cards]]
+text = "Mshikaki"
+
+[[cards]]
+text = "Kachumbari"
+
+[[cards]]
+text = "Duma"
+
+[[cards]]
+text = "Fisi"
+
+[[cards]]
+text = "Nyumbu"
+
+[[cards]]
+text = "Nyani"
+
+[[cards]]
+text = "Swala"
+
+[[cards]]
+text = "Papa"
+
+[[cards]]
+text = "Nyangumi"
+
+[[cards]]
+text = "Mbu"
+
+[[cards]]
+text = "Askari"
+
+[[cards]]
+text = "Daktari"
+
+[[cards]]
+text = "Fundi"
+
+[[cards]]
+text = "Rais"
+
+[[cards]]
+text = "Hongera"
+
+[[cards]]
+text = "Tutaonana"
+
+[[cards]]
+text = "Usiku mwema"
+
+[[cards]]
+text = "Kofia"
+
+[[cards]]
+text = "Shati"
+
+[[cards]]
+text = "Suruali"
+
+[[cards]]
+text = "Skati"
+
+[[cards]]
+text = "Kanga"
+
+[[cards]]
+text = "Kitenge"
+
+[[cards]]
+text = "Simu"
+
+[[cards]]
+text = "Televisheni"
+
+[[cards]]
+text = "Mwavuli"
+
+[[cards]]
+text = "Fagio"
+
+[[cards]]
+text = "Sufuria"
+
+[[cards]]
+text = "Kioo"
+
+[[cards]]
+text = "Kahawia"
+
+[[cards]]
+text = "Kijivu"
+
+[[cards]]
+text = "Zambarau"
+
+[[cards]]
+text = "Dhahabu"
+
+[[cards]]
+text = "Fedha"
+
+[[cards]]
+text = "Ishirini"
+
+[[cards]]
+text = "Mia"
+
+[[cards]]
+text = "Elfu"
+
+[[cards]]
+text = "Jangwa"
+
+[[cards]]
+text = "Kisiwa"
+
+[[cards]]
+text = "Ziwa"
+
+[[cards]]
+text = "Bonde"
+
+[[cards]]
+text = "Pwani"
+
+[[cards]]
+text = "Msitu"
+
+[[cards]]
+text = "Kichwa"
+
+[[cards]]
+text = "Mkono"
