@@ -53,6 +53,9 @@ const settingsTabs = [
 const gameScreen = ref(null)
 const provider = new AiProvider()
 const webBuild = !Capacitor.isNativePlatform()
+const nativePlatform = Capacitor.getPlatform()
+const secureStoreLabel = webBuild ? 'in this browser' : nativePlatform === 'android' ? 'in Android Keystore' : 'in iOS Keychain'
+const deviceNoun = nativePlatform === 'android' ? 'this phone' : 'this iPhone'
 const cloudAiProviders = CLOUD_AI_PROVIDERS
 const providerKeyState = ref(Object.fromEntries(CLOUD_AI_PROVIDERS.map((entry) => [entry.id, false])))
 const activeProviderId = ref(DEFAULT_PROVIDER_ID)
@@ -632,7 +635,7 @@ async function saveProviderKey(providerId) {
     keyDrafts.value = { ...keyDrafts.value, [providerId]: '' }
     await refreshKeys()
     if (keyedCloudProviders.value.length === 1 && !deviceAiReady.value) await selectProvider(providerId)
-    notice.value = webBuild ? `${meta.label} key saved in this browser.` : `${meta.label} key saved in iOS Keychain.`
+    notice.value = `${meta.label} key saved ${secureStoreLabel}.`
   } catch (error) { notice.value = error.message || `Could not save the ${meta.label} key.` }
 }
 
@@ -640,7 +643,7 @@ async function removeProviderKey(providerId) {
   const meta = getProvider(providerId)
   const confirmed = await askForConfirmation({
     title: `Remove the ${meta.label} key?`,
-    message: `Forget the saved ${meta.label} API key${webBuild ? ' from this browser' : ' from this iPhone'}? You can paste it again any time.`,
+    message: `Forget the saved ${meta.label} API key${webBuild ? ' from this browser' : ` from ${deviceNoun}`}? You can paste it again any time.`,
     confirmText: 'Remove key',
     tone: 'danger'
   })
@@ -1036,7 +1039,7 @@ onBeforeUnmount(() => {
           <header class="ai-settings-group-head">
             <div>
               <h3>Cloud AI</h3>
-              <p>Optional fallback. Keys stay {{ webBuild ? 'in this browser' : 'in iOS Keychain' }} and are only used when you pick Gemini or OpenAI.</p>
+              <p>Optional fallback. Keys stay {{ secureStoreLabel }} and are only used when you pick Gemini or OpenAI.</p>
             </div>
           </header>
           <div class="provider-list">

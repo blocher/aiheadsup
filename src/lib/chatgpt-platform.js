@@ -3,9 +3,10 @@ import { CHATGPT_AUTH, ChatGptAuthError } from './chatgpt-auth.js'
 import { ChatGptSession } from './chatgpt-session.js'
 import { SecureAi } from './secure-ai.js'
 
-// Wires the platform-neutral ChatGptSession to this app: in the iOS app tokens
-// go to Keychain and the loopback callback is served natively; in the browser
-// tokens stay in memory and the page itself is the 127.0.0.1 callback.
+// Wires the platform-neutral ChatGptSession to this app: in the iOS and Android
+// apps tokens go to Keychain / Keystore and the loopback callback is served
+// natively; in the browser tokens stay in memory and the page itself is the
+// 127.0.0.1 callback.
 
 const keychainTokenStore = {
   load: async () => (await SecureAi.loadChatGptSession())?.value || null,
@@ -13,7 +14,7 @@ const keychainTokenStore = {
   clear: () => SecureAi.clearChatGptSession()
 }
 
-// WKWebView fetches are subject to CORS and OpenAI's JWKS sends no CORS
+// WebView fetches are subject to CORS and OpenAI's JWKS sends no CORS
 // headers, so the app reads it with Capacitor's native HTTP client.
 async function loadJwksNatively() {
   const response = await CapacitorHttp.get({ url: CHATGPT_AUTH.jwksRemoteUrl, headers: { Accept: 'application/json' } })
@@ -39,7 +40,8 @@ export function getChatGptSession() {
 }
 
 // Native sign-in: start the 127.0.0.1 listener, build the authorize URL for
-// its port, show the system sign-in sheet, then finish with the callback URL.
+// its port, show the system sign-in page (ASWebAuthenticationSession on iOS, a
+// Custom Tab on Android), then finish with the callback URL.
 export async function signInNatively(session, { forceConsent = false } = {}) {
   const { redirectUri } = await SecureAi.prepareChatGptCallback()
   const url = await session.beginSignIn({ redirectUri, forceConsent })

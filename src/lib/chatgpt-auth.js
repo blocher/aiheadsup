@@ -49,17 +49,17 @@ export class ChatGptAuthError extends Error {
 }
 
 // OpenAI only accepts an HTTP loopback callback on 127.0.0.1 (not localhost,
-// not a custom URL scheme, not a hosted https page). The iOS app serves that
-// callback itself from a native listener while the sign-in sheet is open; the
-// browser build must itself be served from 127.0.0.1. Android has no native
-// listener yet. `nativeEnabled` is the VITE_CHATGPT_SIGN_IN build switch.
+// not a custom URL scheme, not a hosted https page). The iOS and Android apps
+// serve that callback from a native listener while the sign-in page is open;
+// the browser build must itself be served from 127.0.0.1.
+// `nativeEnabled` is the VITE_CHATGPT_SIGN_IN build switch.
 export function chatGptSignInSupport({ native = false, platform = 'web', location = null, nativeEnabled = true } = {}) {
   if (native) {
-    if (platform !== 'ios') {
+    if (platform !== 'ios' && platform !== 'android') {
       return {
         available: false,
         reason: 'platform',
-        message: 'ChatGPT sign-in is not available in the Android app yet. Use on-device AI or an API key instead.'
+        message: 'ChatGPT sign-in is not available on this platform. Use on-device AI or an API key instead.'
       }
     }
     if (!nativeEnabled) {
@@ -76,7 +76,7 @@ export function chatGptSignInSupport({ native = false, platform = 'web', locatio
     return {
       available: false,
       reason: 'not-loopback',
-      message: 'In a browser, ChatGPT sign-in only works when Forehead Frenzy runs locally at http://127.0.0.1 (for example `yarn dev --host 127.0.0.1`). Use the iPhone app, or on-device AI or an API key instead.'
+      message: 'In a browser, ChatGPT sign-in only works when Forehead Frenzy runs locally at http://127.0.0.1 (for example `yarn dev --host 127.0.0.1`). Use the iPhone or Android app, or on-device AI or an API key instead.'
     }
   }
   return { available: true, reason: null, message: '', mode: 'loopback', redirectUri }

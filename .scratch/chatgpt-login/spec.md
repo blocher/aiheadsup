@@ -68,11 +68,13 @@ See [ADR 0001](../../docs/adr/0001-chatgpt-sign-in-provider.md) and [ADR 0002](.
 - A third provider kind, `chatgpt`. On-device and API keys are unchanged.
 - **iOS app:** a native 127.0.0.1 listener plus `ASWebAuthenticationSession`. Tokens are kept in the iOS Keychain. It can be turned off with `VITE_CHATGPT_SIGN_IN=off`.
 - **Browser:** works when served from `http://127.0.0.1:<port>`, which is its own callback at `/auth/callback`. Tokens are kept in memory only.
-- **Android and hosted web builds:** shown as "Not yet available".
+- **Android app:** a new `SecureAi` plugin ([ADR 0003](../../docs/adr/0003-android-secure-ai-plugin.md)) with a 127.0.0.1 listener, a Custom Tab, and tokens in Android Keystore. It also fixes Gemini/OpenAI keys, which had no Android plugin before.
+- **Hosted web builds:** shown as "Not yet available".
 - No custom URL scheme or intent filter. No other product's client ID (Codex CLI etc.) and no undocumented endpoint.
 
 ## Open work
 
-- [01 — App Store release and Android](issues/01-native-chatgpt-sign-in.md)
+- [01 — Store releases need OpenAI approval](issues/01-native-chatgpt-sign-in.md)
 - [02 — Verify the browser build against a live ChatGPT account](issues/02-live-account-verification.md)
 - [03 — Test ChatGPT sign-in on a physical iPhone](issues/03-ios-device-test.md)
+- [04 — Test the Android app on a device](issues/04-android-device-test.md)

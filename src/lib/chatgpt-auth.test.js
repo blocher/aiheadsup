@@ -18,13 +18,15 @@ import { createSigningKey, signIdToken } from './chatgpt-test-helpers.js'
 const NOW = Date.UTC(2026, 9, 28, 12)
 
 describe('sign-in support', () => {
-  it('uses the native loopback listener in the iOS app unless switched off', () => {
-    expect(chatGptSignInSupport({ native: true, platform: 'ios' })).toEqual({ available: true, reason: null, message: '', mode: 'native' })
-    expect(chatGptSignInSupport({ native: true, platform: 'ios', nativeEnabled: false })).toMatchObject({ available: false, reason: 'disabled' })
+  it('uses the native loopback listener in the iOS and Android apps unless switched off', () => {
+    for (const platform of ['ios', 'android']) {
+      expect(chatGptSignInSupport({ native: true, platform })).toEqual({ available: true, reason: null, message: '', mode: 'native' })
+      expect(chatGptSignInSupport({ native: true, platform, nativeEnabled: false })).toMatchObject({ available: false, reason: 'disabled' })
+    }
   })
 
-  it('is unavailable in the Android app', () => {
-    expect(chatGptSignInSupport({ native: true, platform: 'android' })).toMatchObject({ available: false, reason: 'platform' })
+  it('is unavailable on other native platforms', () => {
+    expect(chatGptSignInSupport({ native: true, platform: 'electron' })).toMatchObject({ available: false, reason: 'platform' })
   })
 
   it('requires the page to be served from the 127.0.0.1 loopback address', () => {

@@ -22,6 +22,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
+            <!-- "Return to Forehead Frenzy" link on the ChatGPT sign-in callback
+                 page. Only reopens the app; the OAuth redirect itself goes to
+                 the 127.0.0.1 listener in SecureAiPlugin. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="com.benjaminlocher.foreheadfrenzy" android:host="chatgpt-return" />
+            </intent-filter>
+
         </activity>
 
         <provider

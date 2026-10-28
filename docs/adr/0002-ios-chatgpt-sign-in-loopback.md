@@ -17,7 +17,7 @@ OpenAI's ChatGPT plan-usage sign-in only redirects to `http://127.0.0.1:<port>/a
 - **Tokens persist in the iOS Keychain** (`saveChatGptSession` / `loadChatGptSession` / `clearChatGptSession`; `kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly`), so the user stays signed in across launches. Unlike API keys, the tokens pass through the WebView's memory, because the requests are made from JS. They are never written to WebView storage. Rotated refresh tokens are saved before they are used.
 - **The JWKS is fetched with `CapacitorHttp`** (native HTTP), since OpenAI's JWKS sends no CORS headers. The token, revoke and API endpoints do allow CORS, so `fetch` works for those.
 - **Refreshed ID tokens are checked.** A refresh can return a new ID token. It is verified (no nonce) and must name the same account, or the session ends.
-- **Android stays "not available"** until it gets an equivalent native listener (it has no `SecureAi` plugin at all yet).
+- **Android** got the same design in [0003](0003-android-secure-ai-plugin.md).
 - **Build switch: `VITE_CHATGPT_SIGN_IN=off`** hides the feature. It's on by default, for the developer's own device builds.
 
 ## Consequences
