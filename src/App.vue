@@ -5,7 +5,8 @@ import GameScreen from './components/GameScreen.vue'
 import TutorialOverlay from './components/TutorialOverlay.vue'
 import { AiProvider, generateCustomPack, generationBatchSize, warmupDeviceDeckSession } from './lib/ai-provider.js'
 import {
-  AI_PROVIDERS,
+  CHATGPT_AI_PROVIDER,
+  CHATGPT_PROVIDER_ID,
   CLOUD_AI_PROVIDERS,
   DEFAULT_CLOUD_PROVIDER_ID,
   DEFAULT_PROVIDER_ID,
@@ -13,6 +14,9 @@ import {
   DEVICE_PROVIDER_ID,
   getProvider
 } from './lib/ai-providers.js'
+import { availableProviders as listAvailableProviders, isProviderAvailable as isProviderAvailableFor, remoteFallbackProviderId, resolveActiveProviderId } from './lib/provider-selection.js'
+import { CHATGPT_AUTH, chatGptSignInSupport } from './lib/chatgpt-auth.js'
+import { getChatGptSession } from './lib/chatgpt-session.js'
 import { deviceBadgeLabel, deviceStatusHint, deviceStatusLabel, downloadDeviceAiModel, getDeviceAiStatus, startDeviceAiAvailabilityWatch } from './lib/local-llm.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
@@ -63,10 +67,19 @@ const infoProviderId = ref(null)
 const deviceAiReady = computed(() => deviceAiStatus.value === 'available')
 const keyedCloudProviders = computed(() => CLOUD_AI_PROVIDERS.filter((entry) => providerKeyState.value[entry.id]))
 const hasAnyCloudKey = computed(() => keyedCloudProviders.value.length > 0)
-const availableProviders = computed(() => AI_PROVIDERS.filter((entry) => {
-  if (entry.id === DEVICE_PROVIDER_ID) return deviceAiReady.value
-  return providerKeyState.value[entry.id]
-}))
+const chatGptSupport = chatGptSignInSupport({ native: !webBuild, location: window.location })
+const chatGptSession = getChatGptSession()
+const chatGptState = ref(chatGptSession.status())
+const chatGptBusy = ref(false)
+const chatGptConnected = computed(() => chatGptState.value.signedIn && chatGptState.value.planUsage)
+const chatGptBadgeText = computed(() => {
+  if (!chatGptSupport.available) return 'Not yet available'
+  if (chatGptConnected.value) return 'Connected'
+  if (chatGptState.value.signedIn) return 'Plan use off'
+  return 'Not connected'
+})
+const providerSelectionState = computed(() => ({ deviceReady: deviceAiReady.value, keyState: providerKeyState.value, chatGptConnected: chatGptConnected.value }))
+const availableProviders = computed(() => listAvailableProviders(providerSelectionState.value))
 const canGenerate = computed(() => availableProviders.value.length > 0)
 const activeProvider = computed(() => getProvider(activeProviderId.value) || availableProviders.value[0] || getProvider(DEFAULT_CLOUD_PROVIDER_ID))
 const deviceStatusText = computed(() => deviceStatusLabel(deviceAiStatus.value, { platform: deviceAiPlatform.value, webBuild: webBuild }))
@@ -292,18 +305,77 @@ async function refreshKeys() {
 }
 
 function isProviderAvailable(providerId) {
-  if (providerId === DEVICE_PROVIDER_ID) return deviceAiReady.value
-  return providerKeyState.value[providerId]
+  return isProviderAvailableFor(providerId, providerSelectionState.value)
 }
 
 function syncActiveProvider() {
-  if (isProviderAvailable(activeProviderId.value)) return
-  if (deviceAiReady.value) {
-    activeProviderId.value = DEVICE_PROVIDER_ID
-    return
+  activeProviderId.value = resolveActiveProviderId(activeProviderId.value, providerSelectionState.value)
+}
+
+chatGptSession.onChange = (status) => {
+  chatGptState.value = status
+  syncActiveProvider()
+}
+
+async function signInWithChatGpt({ forceConsent = false } = {}) {
+  if (!chatGptSupport.available) { notice.value = chatGptSupport.message; return }
+  chatGptBusy.value = true
+  try {
+    window.location.assign(await chatGptSession.beginSignIn({ redirectUri: chatGptSupport.redirectUri, forceConsent }))
+  } catch (error) {
+    chatGptBusy.value = false
+    notice.value = error.message || 'Could not start ChatGPT sign-in.'
   }
-  if (keyedCloudProviders.value.length) {
-    activeProviderId.value = keyedCloudProviders.value[0].id
+}
+
+// The loopback redirect lands on /auth/callback; finish sign-in, then put the
+// URL back to the app root before the history guard below records it.
+async function handleChatGptCallback() {
+  if (window.location.pathname !== CHATGPT_AUTH.callbackPath) return false
+  const callbackUrl = window.location.href
+  window.history.replaceState(null, '', '/')
+  try {
+    const status = await chatGptSession.completeSignIn(callbackUrl)
+    if (status.planUsage) {
+      await selectProvider(CHATGPT_PROVIDER_ID)
+      notice.value = `You're using your ChatGPT plan${status.email ? ` (${status.email})` : ''}. Eligible requests use your plan — manage usage in ChatGPT Settings.`
+    } else {
+      notice.value = 'Signed in with ChatGPT, but using your ChatGPT plan was not allowed. Allow it in Settings, or use on-device AI or an API key.'
+    }
+  } catch (error) {
+    notice.value = error.message || 'ChatGPT sign-in failed.'
+  }
+  return true
+}
+
+async function refreshChatGptSession() {
+  chatGptBusy.value = true
+  try {
+    await chatGptSession.refresh()
+    notice.value = 'ChatGPT session refreshed.'
+  } catch (error) {
+    notice.value = error.message || 'Could not refresh the ChatGPT session.'
+  } finally {
+    chatGptBusy.value = false
+  }
+}
+
+async function signOutOfChatGpt() {
+  const confirmed = await askForConfirmation({
+    title: 'Sign out of ChatGPT?',
+    message: 'Forehead Frenzy will stop using your ChatGPT plan until you sign in again.',
+    confirmText: 'Sign out',
+    tone: 'danger'
+  })
+  if (!confirmed) return
+  chatGptBusy.value = true
+  try {
+    const { revoked } = await chatGptSession.signOut()
+    notice.value = revoked
+      ? 'Signed out of ChatGPT.'
+      : 'Signed out here, but ChatGPT could not confirm it. You can also disconnect Forehead Frenzy in ChatGPT Settings.'
+  } finally {
+    chatGptBusy.value = false
   }
 }
 
@@ -672,7 +744,7 @@ async function createPack() {
     try {
       result = await runGeneration(activeProvider.value.id)
     } catch (error) {
-      const cloudFallback = keyedCloudProviders.value[0]
+      const cloudFallback = getProvider(remoteFallbackProviderId(providerSelectionState.value))
       if (error?.kind === 'model-unavailable' && activeProvider.value.id === DEVICE_PROVIDER_ID && cloudFallback) {
         await selectProvider(cloudFallback.id)
         notice.value = `On-device AI could not run here, so ${cloudFallback.label} is generating “${name}” instead…`
@@ -734,6 +806,10 @@ onMounted(async () => {
   endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
   activeProviderId.value = await getSetting('aiProvider', DEFAULT_PROVIDER_ID)
   await Promise.all([refreshPacks(), refreshHistory(), refreshCloudKeys()])
+  if (await handleChatGptCallback()) {
+    settingsTab.value = 'decks'
+    screen.value = 'settings'
+  }
   if (!isProviderAvailable(activeProviderId.value)) syncActiveProvider()
   window.history.replaceState({ foreheadFrenzy: true }, '', window.location.href)
   window.history.pushState({ foreheadFrenzy: true }, '', window.location.href)
@@ -828,8 +904,8 @@ onBeforeUnmount(() => {
         <button class="secondary-button wide" @click="goToAiSettings">{{ deviceAiStatus === 'downloadable' ? 'Or add a cloud API key' : 'Open AI settings' }}</button>
       </section>
       <section v-else :class="['form-card', { generating: creating }]">
-        <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Cards are generated privately on your phone — no API key needed.' : `${activeProvider.label} creates simple, 1–4 word cards and a cover image.` }} Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
-        <label v-if="availableProviders.length > 1">AI source<div class="segmented provider-picker"><button v-for="entry in availableProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div><small>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Recommended when available — private and offline.' : 'Uses your saved API key over the internet.' }}</small></label>
+        <p class="eyebrow">YOUR OWN DECK</p><h2>Make a pack worth replaying.</h2><p>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Cards are generated privately on your phone — no API key needed.' : activeProvider.id === CHATGPT_PROVIDER_ID ? 'Your ChatGPT plan creates simple, 1–4 word cards; the cover uses a generated design.' : `${activeProvider.label} creates simple, 1–4 word cards and a cover image.` }} Your pack stays {{ webBuild ? 'in this browser' : 'on this phone' }}.</p>
+        <label v-if="availableProviders.length > 1">AI source<div class="segmented provider-picker"><button v-for="entry in availableProviders" :key="entry.id" :class="{ selected: activeProviderId === entry.id }" :disabled="creating" @click="selectProvider(entry.id)">{{ entry.short }}</button></div><small v-if="activeProvider.id === CHATGPT_PROVIDER_ID">Using ChatGPT plan · <a :href="CHATGPT_AUTH.manageUsageUrl" target="_blank" rel="noopener noreferrer">Manage usage</a></small><small v-else>{{ activeProvider.id === DEVICE_PROVIDER_ID ? 'Recommended when available — private and offline.' : 'Uses your saved API key over the internet.' }}</small></label>
         <label>Deck name<input v-model="creation.name" maxlength="60" placeholder="e.g. Taylor Swift Songs" :disabled="creating" required /><small>Shown as the deck title and guides the cards the AI writes.</small></label>
         <label>Category<select v-model="creation.category" :disabled="creating" required><option value="" disabled>Choose a category…</option><option v-for="category in createCategoryOptions" :key="category" :value="category">{{ category }}</option><option value="__new__">Add a new category…</option></select></label><label v-if="creation.category === '__new__'">New category<input v-model="creation.newCategory" maxlength="60" placeholder="e.g. 90s movies" :disabled="creating" /></label><label>AI guidance (optional)<input v-model="creation.specialPromptNote" maxlength="180" placeholder="e.g. use movie titles only" :disabled="creating" /></label><label>Best for<select v-model="creation.audience" :disabled="creating"><option>Kids</option><option>Family</option><option>Teens+</option><option>Adults</option></select></label><label>Difficulty<div class="segmented"><button v-for="level in ['Easy', 'Medium', 'Hard']" :key="level" :class="{ selected: creation.difficulty === level }" :disabled="creating" @click="creation.difficulty = level">{{ level }}</button></div></label><label>Number of cards<select v-model.number="creation.cardCount" :disabled="creating" @change="onCardCountChange"><option v-for="count in [50, 100, 150, 200, 250, 300, 350]" :key="count" :value="count">{{ count }} cards</option></select><small v-if="activeProvider.id === DEVICE_PROVIDER_ID">On-device AI supports up to 50 cards per deck. Add a Gemini or OpenAI key for larger decks.</small></label><label>Spoiler protection<select v-model="creation.spoilerSeries" :disabled="creating"><option value="">None</option><option v-for="series in spoilerSeriesOptions" :key="series.id" :value="series.id">{{ series.label }}</option></select><small>Tags each card with its first-revealed installment and follows the matching setting.</small></label><div v-if="progress" class="progress"><span>{{ progress.phase === 'reviewing' ? `Reviewing batch ${progress.chunk} of ${progress.chunkCount}` : `Batch ${progress.batch} of ${progress.totalBatches}` }}</span><strong>{{ progress.phase === 'reviewing' ? `${progress.reviewedCount} / ${progress.targetCardCount} checked` : `${progress.cardCount} / ${progress.targetCardCount} cards` }}</strong><i><b :style="{ width: `${((progress.phase === 'reviewing' ? progress.reviewedCount : progress.cardCount) / progress.targetCardCount) * 100}%` }"></b></i></div><p class="tiny-note generation-hint">Generating takes a minute or two. Keep this screen open until it finishes.{{ activeProvider.id === DEVICE_PROVIDER_ID ? ' On-device generation can take longer on large decks.' : activeProvider.id === 'openai' ? ' OpenAI is usually slower than Gemini, so this may take a while.' : '' }}</p><p v-if="activeProvider.id === DEVICE_PROVIDER_ID" class="device-speed-note">Tip: adding a <button type="button" class="link-button" :disabled="creating" @click="goToAiSettings">Gemini or OpenAI key</button> makes generation noticeably faster and more accurate than on-device AI.</p><button class="primary-button wide" :disabled="!canSubmitCreation" @click="createPack">{{ creating ? 'Creating your pack…' : `Generate ${creation.cardCount} cards with ${activeProvider.short}` }}</button>
         <div v-if="creating" class="generating-overlay" role="status" aria-live="polite">
@@ -890,6 +966,50 @@ onBeforeUnmount(() => {
                 <button v-else-if="deviceAiReady && activeProviderId !== DEVICE_PROVIDER_ID" class="secondary-button wide" @click="selectProvider(DEVICE_PROVIDER_ID)">Use on-device for new decks</button>
                 <button v-else-if="deviceAiReady && activeProviderId === DEVICE_PROVIDER_ID" class="provider-active-pill" disabled>✓ Active for new decks</button>
               </div>
+            </div>
+          </article>
+        </section>
+
+        <section class="ai-settings-group">
+          <header class="ai-settings-group-head">
+            <div>
+              <h3>ChatGPT account</h3>
+              <p>Sign in with ChatGPT to generate decks with your ChatGPT Plus or Pro plan instead of an API key. This is separate from any Forehead Frenzy purchase.</p>
+            </div>
+          </header>
+          <article :class="['provider-card', 'chatgpt-provider-card', { connected: chatGptConnected, unavailable: !chatGptSupport.available, active: activeProviderId === CHATGPT_PROVIDER_ID }]">
+            <header class="provider-card-head">
+              <div class="provider-card-title">
+                <b>{{ CHATGPT_AI_PROVIDER.label }}</b>
+                <small>{{ chatGptState.signedIn ? `Signed in${chatGptState.email ? ` as ${chatGptState.email}` : ''}` : CHATGPT_AI_PROVIDER.description }}</small>
+              </div>
+              <span :class="['provider-badge', { connected: chatGptConnected, pending: chatGptState.signedIn && !chatGptConnected }]">{{ chatGptBadgeText }}</span>
+            </header>
+            <div class="provider-card-body">
+              <template v-if="!chatGptSupport.available">
+                <p class="provider-card-copy">{{ chatGptSupport.message }}</p>
+                <div class="provider-card-actions">
+                  <button type="button" class="secondary-button wide" disabled>Continue with ChatGPT</button>
+                </div>
+              </template>
+              <template v-else-if="chatGptState.signedIn">
+                <p v-if="chatGptConnected" class="provider-card-copy">Using ChatGPT plan. Eligible requests count toward your plan's usage for Forehead Frenzy. Cover art uses a generated design because ChatGPT plan usage does not include image generation.</p>
+                <p v-else class="provider-card-copy">You are signed in, but Forehead Frenzy is not allowed to use your ChatGPT plan. Allow it to generate decks with ChatGPT.</p>
+                <div class="provider-card-actions">
+                  <button v-if="!chatGptConnected" type="button" class="primary-button wide" :disabled="chatGptBusy" @click="signInWithChatGpt({ forceConsent: true })">Allow ChatGPT plan usage</button>
+                  <button v-else-if="availableProviders.length > 1 && activeProviderId === CHATGPT_PROVIDER_ID" class="provider-active-pill" disabled>✓ Active for new decks</button>
+                  <button v-else-if="availableProviders.length > 1" class="secondary-button wide" @click="selectProvider(CHATGPT_PROVIDER_ID)">Use for new decks</button>
+                  <button type="button" class="secondary-button wide" :disabled="chatGptBusy" @click="refreshChatGptSession">Refresh session</button>
+                  <a v-if="chatGptConnected" class="secondary-button wide info-open-link" :href="CHATGPT_AUTH.manageUsageUrl" target="_blank" rel="noopener noreferrer">Manage usage</a>
+                </div>
+                <button type="button" class="link-button danger" :disabled="chatGptBusy" @click="signOutOfChatGpt">Sign out of ChatGPT</button>
+              </template>
+              <template v-else>
+                <p class="provider-card-copy">{{ chatGptState.registered ? 'Sign-in tokens are kept in memory only, so sign in again after reloading the page.' : 'You will be sent to ChatGPT to sign in and choose whether Forehead Frenzy may use your plan.' }}</p>
+                <div class="provider-card-actions">
+                  <button type="button" class="primary-button wide" :disabled="chatGptBusy" @click="signInWithChatGpt()">{{ chatGptBusy ? 'Opening ChatGPT…' : 'Continue with ChatGPT' }}</button>
+                </div>
+              </template>
             </div>
           </article>
         </section>

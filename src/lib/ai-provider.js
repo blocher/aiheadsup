@@ -4,14 +4,18 @@ import { getSpoilerSeries } from './spoiler-series.js'
 import { coverPromptForDeck, deviceCoverConcept, generateCoverWithFallback } from './cover-prompts.js'
 import {
   AI_PROVIDERS,
+  CHATGPT_AI_PROVIDER,
   CLOUD_AI_PROVIDERS,
   DEFAULT_CLOUD_PROVIDER_ID,
   DEFAULT_PROVIDER_ID,
   DEVICE_PROVIDER_ID,
   getProvider,
+  isChatGptProviderId,
   isCloudProviderId,
   isDeviceProviderId
 } from './ai-providers.js'
+import { getChatGptSession } from './chatgpt-session.js'
+import { generateChatGptText } from './chatgpt-responses.js'
 import {
   generateDeviceImage,
   getDeviceAiStatus,
@@ -25,6 +29,7 @@ import { reviewDeckCards } from './card-accuracy.js'
 
 const SecureAi = registerPlugin('SecureAi')
 const DEVICE_SESSION_ID = 'forehead-frenzy-deck-gen'
+const CHATGPT_INSTRUCTIONS = 'You write Heads Up guessing-game card prompts and review them for accuracy. Reply with raw JSON only — no markdown fences, no commentary.'
 const DEVICE_INSTRUCTIONS = 'You write Heads Up guessing-game card prompts. Reply with raw JSON only — no markdown fences, no commentary, no code blocks. Use exactly this shape: {"cards":[{"prompt":"Example"}]}. Put every card in one cards array.'
 
 export function warmupDeviceDeckSession() {
@@ -107,6 +112,9 @@ async function requestDeviceText(prompt) {
 
 async function requestText(providerId, model, prompt) {
   if (isDeviceProviderId(providerId)) return { text: await requestDeviceText(prompt) }
+  if (isChatGptProviderId(providerId)) {
+    return { text: await generateChatGptText(getChatGptSession(), { instructions: CHATGPT_INSTRUCTIONS, prompt, preferredModels: CHATGPT_AI_PROVIDER.preferredTextModels }) }
+  }
   if (isNative()) return SecureAi.generateText({ provider: providerId, model, prompt })
   return webGenerate({ providerId, model, prompt, wantsImage: false })
 }
@@ -257,6 +265,7 @@ export class AiProvider {
 
   async hasKey(providerId) {
     if (isDeviceProviderId(providerId)) return this.isDeviceReady()
+    if (isChatGptProviderId(providerId)) return getChatGptSession().isConnected()
     if (isNative()) return (await SecureAi.hasApiKey({ provider: providerId })).hasKey
     return Boolean(localStorage.getItem(webKeyStorage(providerId)))
   }
@@ -268,12 +277,14 @@ export class AiProvider {
 
   async saveKey(providerId, apiKey) {
     if (isDeviceProviderId(providerId)) throw new Error('On-device AI does not use an API key.')
+    if (isChatGptProviderId(providerId)) throw new Error('ChatGPT uses sign-in, not an API key.')
     if (isNative()) return SecureAi.saveApiKey({ provider: providerId, apiKey })
     localStorage.setItem(webKeyStorage(providerId), apiKey)
   }
 
   async removeKey(providerId) {
     if (isDeviceProviderId(providerId)) throw new Error('On-device AI does not use an API key.')
+    if (isChatGptProviderId(providerId)) throw new Error('ChatGPT uses sign-in, not an API key.')
     if (isNative()) return SecureAi.removeApiKey({ provider: providerId })
     localStorage.removeItem(webKeyStorage(providerId))
   }
@@ -309,6 +320,9 @@ export class AiProvider {
       const bytes = Uint8Array.from(atob(result.base64), (char) => char.charCodeAt(0))
       return new Blob([bytes], { type: result.mimeType || 'image/png' })
     }
+    // ChatGPT plan usage does not cover image generation, so ChatGPT decks get
+    // the generated design cover.
+    if (isChatGptProviderId(meta.id)) return fallbackCover(category)
     if (isDeviceProviderId(meta.id)) {
       // Image Playground is slow and frequently unavailable, and long, negative,
       // franchise-heavy prompts make it fail outright. Try one short, concept
@@ -401,4 +415,4 @@ export async function generateCustomPack(provider, request, onProgress, { skipAc
   }
 }
 
-export { CLOUD_AI_PROVIDERS, DEFAULT_CLOUD_PROVIDER_ID, DEFAULT_PROVIDER_ID, DEVICE_PROVIDER_ID, isCloudProviderId, isDeviceProviderId }
+export { CLOUD_AI_PROVIDERS, DEFAULT_CLOUD_PROVIDER_ID, DEFAULT_PROVIDER_ID, DEVICE_PROVIDER_ID, isChatGptProviderId, isCloudProviderId, isDeviceProviderId }
