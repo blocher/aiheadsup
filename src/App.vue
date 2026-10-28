@@ -16,7 +16,7 @@ import {
 } from './lib/ai-providers.js'
 import { availableProviders as listAvailableProviders, isProviderAvailable as isProviderAvailableFor, remoteFallbackProviderId, resolveActiveProviderId } from './lib/provider-selection.js'
 import { CHATGPT_AUTH, chatGptSignInSupport } from './lib/chatgpt-auth.js'
-import { getChatGptSession } from './lib/chatgpt-session.js'
+import { getChatGptSession, signInNatively } from './lib/chatgpt-platform.js'
 import { deviceBadgeLabel, deviceStatusHint, deviceStatusLabel, downloadDeviceAiModel, getDeviceAiStatus, startDeviceAiAvailabilityWatch } from './lib/local-llm.js'
 import { parseDeckPackages, shareAllAiDeckPackages, shareDeckPackage } from './lib/deck-transfer.js'
 import { deleteCustomPack, getCards, getPacks, getRounds, getSetting, getUnusedCards, resetAllPacks, resetPack, saveCustomPack, saveImportedTomlDeck, saveRound, saveSetting, syncBundledDecks } from './lib/database.js'
@@ -67,7 +67,12 @@ const infoProviderId = ref(null)
 const deviceAiReady = computed(() => deviceAiStatus.value === 'available')
 const keyedCloudProviders = computed(() => CLOUD_AI_PROVIDERS.filter((entry) => providerKeyState.value[entry.id]))
 const hasAnyCloudKey = computed(() => keyedCloudProviders.value.length > 0)
-const chatGptSupport = chatGptSignInSupport({ native: !webBuild, location: window.location })
+const chatGptSupport = chatGptSignInSupport({
+  native: !webBuild,
+  platform: Capacitor.getPlatform(),
+  location: window.location,
+  nativeEnabled: import.meta.env.VITE_CHATGPT_SIGN_IN !== 'off'
+})
 const chatGptSession = getChatGptSession()
 const chatGptState = ref(chatGptSession.status())
 const chatGptBusy = ref(false)
@@ -317,9 +322,28 @@ chatGptSession.onChange = (status) => {
   syncActiveProvider()
 }
 
+async function announceChatGptSignIn(status) {
+  if (status.planUsage) {
+    await selectProvider(CHATGPT_PROVIDER_ID)
+    notice.value = `You're using your ChatGPT plan${status.email ? ` (${status.email})` : ''}. Eligible requests use your plan — manage usage in ChatGPT Settings.`
+  } else {
+    notice.value = 'Signed in with ChatGPT, but using your ChatGPT plan was not allowed. Allow it in Settings, or use on-device AI or an API key.'
+  }
+}
+
 async function signInWithChatGpt({ forceConsent = false } = {}) {
   if (!chatGptSupport.available) { notice.value = chatGptSupport.message; return }
   chatGptBusy.value = true
+  if (chatGptSupport.mode === 'native') {
+    try {
+      await announceChatGptSignIn(await signInNatively(chatGptSession, { forceConsent }))
+    } catch (error) {
+      notice.value = error.code === 'cancelled' ? 'ChatGPT sign-in was cancelled.' : (error.message || 'ChatGPT sign-in failed.')
+    } finally {
+      chatGptBusy.value = false
+    }
+    return
+  }
   try {
     window.location.assign(await chatGptSession.beginSignIn({ redirectUri: chatGptSupport.redirectUri, forceConsent }))
   } catch (error) {
@@ -328,20 +352,14 @@ async function signInWithChatGpt({ forceConsent = false } = {}) {
   }
 }
 
-// The loopback redirect lands on /auth/callback; finish sign-in, then put the
-// URL back to the app root before the history guard below records it.
+// In the browser the loopback redirect lands on /auth/callback; finish sign-in,
+// then put the URL back to the app root before the history guard records it.
 async function handleChatGptCallback() {
-  if (window.location.pathname !== CHATGPT_AUTH.callbackPath) return false
+  if (chatGptSupport.mode !== 'loopback' || window.location.pathname !== CHATGPT_AUTH.callbackPath) return false
   const callbackUrl = window.location.href
   window.history.replaceState(null, '', '/')
   try {
-    const status = await chatGptSession.completeSignIn(callbackUrl)
-    if (status.planUsage) {
-      await selectProvider(CHATGPT_PROVIDER_ID)
-      notice.value = `You're using your ChatGPT plan${status.email ? ` (${status.email})` : ''}. Eligible requests use your plan — manage usage in ChatGPT Settings.`
-    } else {
-      notice.value = 'Signed in with ChatGPT, but using your ChatGPT plan was not allowed. Allow it in Settings, or use on-device AI or an API key.'
-    }
+    await announceChatGptSignIn(await chatGptSession.completeSignIn(callbackUrl))
   } catch (error) {
     notice.value = error.message || 'ChatGPT sign-in failed.'
   }
@@ -805,7 +823,7 @@ onMounted(async () => {
   setCueVolume(cueVolume.value / 100)
   endCueMode.value = await getSetting('endCueMode', 'sound_haptics')
   activeProviderId.value = await getSetting('aiProvider', DEFAULT_PROVIDER_ID)
-  await Promise.all([refreshPacks(), refreshHistory(), refreshCloudKeys()])
+  await Promise.all([refreshPacks(), refreshHistory(), refreshCloudKeys(), chatGptSession.restore()])
   if (await handleChatGptCallback()) {
     settingsTab.value = 'decks'
     screen.value = 'settings'
@@ -1005,7 +1023,7 @@ onBeforeUnmount(() => {
                 <button type="button" class="link-button danger" :disabled="chatGptBusy" @click="signOutOfChatGpt">Sign out of ChatGPT</button>
               </template>
               <template v-else>
-                <p class="provider-card-copy">{{ chatGptState.registered ? 'Sign-in tokens are kept in memory only, so sign in again after reloading the page.' : 'You will be sent to ChatGPT to sign in and choose whether Forehead Frenzy may use your plan.' }}</p>
+                <p class="provider-card-copy">{{ chatGptState.registered && !chatGptState.persisted ? 'Sign-in tokens are kept in memory only, so sign in again after reloading the page.' : 'ChatGPT opens so you can sign in and choose whether Forehead Frenzy may use your plan.' }}</p>
                 <div class="provider-card-actions">
                   <button type="button" class="primary-button wide" :disabled="chatGptBusy" @click="signInWithChatGpt()">{{ chatGptBusy ? 'Opening ChatGPT…' : 'Continue with ChatGPT' }}</button>
                 </div>

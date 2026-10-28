@@ -18,8 +18,13 @@ import { createSigningKey, signIdToken } from './chatgpt-test-helpers.js'
 const NOW = Date.UTC(2026, 9, 28, 12)
 
 describe('sign-in support', () => {
-  it('is unavailable in the native apps', () => {
-    expect(chatGptSignInSupport({ native: true })).toMatchObject({ available: false, reason: 'native' })
+  it('uses the native loopback listener in the iOS app unless switched off', () => {
+    expect(chatGptSignInSupport({ native: true, platform: 'ios' })).toEqual({ available: true, reason: null, message: '', mode: 'native' })
+    expect(chatGptSignInSupport({ native: true, platform: 'ios', nativeEnabled: false })).toMatchObject({ available: false, reason: 'disabled' })
+  })
+
+  it('is unavailable in the Android app', () => {
+    expect(chatGptSignInSupport({ native: true, platform: 'android' })).toMatchObject({ available: false, reason: 'platform' })
   })
 
   it('requires the page to be served from the 127.0.0.1 loopback address', () => {
@@ -29,6 +34,7 @@ describe('sign-in support', () => {
       available: true,
       reason: null,
       message: '',
+      mode: 'loopback',
       redirectUri: 'http://127.0.0.1:5173/auth/callback'
     })
   })
@@ -180,5 +186,11 @@ describe('ID token verification', () => {
     await expect(verify(await signIdToken(key, claims({ nonce: 'replayed' })))).rejects.toThrow(/sign-in attempt/)
     await expect(verify(await signIdToken(key, claims({ exp: Math.floor(NOW / 1000) - 60 })))).rejects.toThrow(/expired/)
     await expect(verify('not-a-jwt')).rejects.toThrow(/malformed/)
+  })
+
+  it('skips the nonce check for an ID token returned by a refresh', async () => {
+    const key = await createSigningKey()
+    const token = await signIdToken(key, claims({ nonce: undefined }))
+    await expect(verifyIdToken(token, { jwks: key.jwks, clientId: 'oaiapp_1', now: NOW, cryptoImpl: crypto })).resolves.toMatchObject({ sub: 'user-1' })
   })
 })

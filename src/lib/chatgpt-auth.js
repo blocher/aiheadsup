@@ -22,7 +22,8 @@ export const CHATGPT_AUTH = {
   identityScopes: ['openid', 'profile', 'email'],
   planUsageScopes: ['offline_access', 'resource.invoke', 'chatgpt.tokens.use.direct'],
   planUsageScope: 'chatgpt.tokens.use.direct',
-  manageUsageUrl: 'https://chatgpt.com/#settings'
+  jwksRemoteUrl: 'https://auth.openai.com/.well-known/jwks.json',
+  manageUsageUrl: 'https://chatgpt.com/settings/usage'
 }
 
 // Refresh this long before the access token expires.
@@ -48,26 +49,37 @@ export class ChatGptAuthError extends Error {
 }
 
 // OpenAI only accepts an HTTP loopback callback on 127.0.0.1 (not localhost,
-// not a custom URL scheme, not a hosted https page), and documents plan usage
-// for open-source, locally hosted apps. That rules out the iOS/Android builds
-// and hosted web builds until OpenAI supports them.
-export function chatGptSignInSupport({ native = false, location = null } = {}) {
+// not a custom URL scheme, not a hosted https page). The iOS app serves that
+// callback itself from a native listener while the sign-in sheet is open; the
+// browser build must itself be served from 127.0.0.1. Android has no native
+// listener yet. `nativeEnabled` is the VITE_CHATGPT_SIGN_IN build switch.
+export function chatGptSignInSupport({ native = false, platform = 'web', location = null, nativeEnabled = true } = {}) {
   if (native) {
-    return {
-      available: false,
-      reason: 'native',
-      message: 'ChatGPT sign-in is not available in the iPhone or Android app yet. OpenAI currently only lets locally hosted open-source apps use a ChatGPT plan, with a sign-in that returns to 127.0.0.1 — app URL schemes are not supported. Use on-device AI or an API key instead.'
+    if (platform !== 'ios') {
+      return {
+        available: false,
+        reason: 'platform',
+        message: 'ChatGPT sign-in is not available in the Android app yet. Use on-device AI or an API key instead.'
+      }
     }
+    if (!nativeEnabled) {
+      return {
+        available: false,
+        reason: 'disabled',
+        message: 'ChatGPT sign-in is turned off in this build.'
+      }
+    }
+    return { available: true, reason: null, message: '', mode: 'native' }
   }
   const redirectUri = loopbackRedirectUri(location)
   if (!redirectUri) {
     return {
       available: false,
       reason: 'not-loopback',
-      message: 'ChatGPT sign-in only works when Forehead Frenzy runs locally at http://127.0.0.1 (for example `yarn dev --host 127.0.0.1`). OpenAI does not allow it on hosted websites yet.'
+      message: 'In a browser, ChatGPT sign-in only works when Forehead Frenzy runs locally at http://127.0.0.1 (for example `yarn dev --host 127.0.0.1`). Use the iPhone app, or on-device AI or an API key instead.'
     }
   }
-  return { available: true, reason: null, message: '', redirectUri }
+  return { available: true, reason: null, message: '', mode: 'loopback', redirectUri }
 }
 
 export function loopbackRedirectUri(location) {
@@ -272,8 +284,9 @@ export function decodeJwt(token) {
 }
 
 // Verifies the RS256 signature against OpenAI's JWKS, then the iss, aud, exp,
-// iat and nonce claims. Returns the ID token claims.
-export async function verifyIdToken(idToken, { jwks, clientId, nonce, now, cryptoImpl }) {
+// iat and nonce claims. Returns the ID token claims. `nonce` is omitted for an
+// ID token returned by a refresh, which carries none of ours.
+export async function verifyIdToken(idToken, { jwks, clientId, nonce = undefined, now, cryptoImpl }) {
   const { header, payload, signingInput, signature } = decodeJwt(idToken)
   const fail = (message) => { throw new ChatGptAuthError(message, { code: 'invalid_id_token' }) }
   if (header.alg !== 'RS256') fail('ChatGPT ID token uses an unexpected signing algorithm.')
@@ -288,7 +301,7 @@ export async function verifyIdToken(idToken, { jwks, clientId, nonce, now, crypt
   if (!audiences.includes(clientId)) fail('ChatGPT ID token was issued for a different app.')
   if (typeof payload.exp !== 'number' || payload.exp + ID_TOKEN_SKEW_SECONDS < nowSeconds) fail('ChatGPT ID token has expired.')
   if (typeof payload.iat !== 'number' || payload.iat - ID_TOKEN_SKEW_SECONDS > nowSeconds) fail('ChatGPT ID token was issued in the future.')
-  if (payload.nonce !== nonce) fail('ChatGPT ID token does not match this sign-in attempt.')
+  if (nonce !== undefined && payload.nonce !== nonce) fail('ChatGPT ID token does not match this sign-in attempt.')
   if (!payload.sub) fail('ChatGPT ID token is missing the account identity.')
   return payload
 }

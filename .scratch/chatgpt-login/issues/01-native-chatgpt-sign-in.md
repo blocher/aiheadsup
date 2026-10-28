@@ -1,18 +1,24 @@
-# 01 — Enable ChatGPT sign-in in the iOS/Android apps
+# 01 — ChatGPT sign-in in App Store builds and on Android
 
 Status: needs-info
 Type: task
 
-The native apps show ChatGPT as "Not yet available". To enable it we need, from OpenAI:
+ChatGPT sign-in works in iOS builds through a native 127.0.0.1 listener ([ADR 0002](../../../docs/adr/0002-ios-chatgpt-sign-in-loopback.md)). Two things remain.
 
-1. Approval for plan usage in a distributed (App Store / Play Store) app, via the [interest form](https://openai.com/form/sign-in-with-chatgpt-interest/).
-2. An officially supported mobile redirect, either a custom URL scheme (`com.benjaminlocher.foreheadfrenzy://auth/callback`) or a universal/app link. Today only `http://127.0.0.1` loopback is documented.
+## App Store / TestFlight release
 
-Once both exist:
+OpenAI's cookbook says paid or remotely hosted apps should join the waitlist before offering plan usage to users. Submit the [interest form](https://openai.com/form/sign-in-with-chatgpt-interest/) and ask:
 
-- Return the native redirect URI from `chatGptSignInSupport()` in `src/lib/chatgpt-auth.js`.
-- Add `CFBundleURLTypes` to `ios/App/App/Info.plist` and an intent filter to `android/app/src/main/AndroidManifest.xml`. Handle the callback with `@capacitor/app` `appUrlOpen` and open the authorize URL with `@capacitor/browser` or ASWebAuthenticationSession.
-- Store tokens in iOS Keychain / Android Keystore (extend the `SecureAi` plugin). Android has no `SecureAi` implementation yet.
-- Test on a physical iPhone and Android phone.
+- Is an App Store app using the loopback + `ASWebAuthenticationSession` pattern acceptable?
+- Is a dedicated client ID offered, instead of dynamic registration?
+
+Until OpenAI approves, build store releases with `VITE_CHATGPT_SIGN_IN=off`.
+
+## Android
+
+Android has no `SecureAi` plugin at all, so API keys likely fail there too. It needs:
+
+- a Kotlin/Java plugin with the same methods: a loopback listener on 127.0.0.1 (for example `ServerSocket` bound to `InetAddress.getLoopbackAddress()`), Custom Tabs for the sign-in page, and Keystore-backed storage;
+- a change to `chatGptSignInSupport()` so it allows `platform === 'android'`.
 
 ## Comments

@@ -53,7 +53,9 @@ Sources:
 
 ### Mobile / Capacitor
 
-Nothing in the docs covers iOS, Android, in-app browsers, custom URL schemes or universal links. The only redirect allowed is the 127.0.0.1 loopback. Forehead Frenzy ships through the App Store, so it is not "locally hosted" and falls under the interest-form path.
+The developer docs don't cover iOS, Android or custom URL schemes; the only redirect allowed is the 127.0.0.1 loopback. OpenAI's [cookbook](https://developers.openai.com/cookbook/articles/sign-in-with-chatgpt) and [devkit](https://github.com/openai/sign-in-with-chatgpt-devkit) (noncommercial license, so none of its code was copied) show a desktop app that starts a `127.0.0.1` listener and opens the system browser. The cookbook lists "open-source projects, personal projects that run locally, and selected private apps" as eligible for plan usage, says paid or remotely hosted apps should join the waitlist, and gives `https://chatgpt.com/settings/usage` as the Manage usage link.
+
+The iOS app follows the same pattern: a native `NWListener` on 127.0.0.1, with `ASWebAuthenticationSession` as the system browser ([ADR 0002](../../docs/adr/0002-ios-chatgpt-sign-in-loopback.md)).
 
 ### CORS (checked 2026-10-28 with curl)
 
@@ -61,16 +63,16 @@ The token, revoke and `api.openai.com/v1` endpoints return `Access-Control-Allow
 
 ## What we built
 
-See [ADR 0001](../../docs/adr/0001-chatgpt-sign-in-provider.md). In short:
+See [ADR 0001](../../docs/adr/0001-chatgpt-sign-in-provider.md) and [ADR 0002](../../docs/adr/0002-ios-chatgpt-sign-in-loopback.md). In short:
 
 - A third provider kind, `chatgpt`. On-device and API keys are unchanged.
-- It is fully implemented for a web build served from `http://127.0.0.1:<port>`. That build is its own loopback callback at `/auth/callback`.
-- The iOS/Android apps and hosted web builds show it as "Not yet available" and explain why.
-- Tokens stay in memory only; refreshes are serialized; sign-out revokes the refresh token.
-- No custom URL scheme or intent filter was added, because OpenAI does not accept them as redirect URIs.
-- We did not reuse any other product's client ID (Codex CLI etc.) or call any undocumented endpoint.
+- **iOS app:** a native 127.0.0.1 listener plus `ASWebAuthenticationSession`. Tokens are kept in the iOS Keychain. It can be turned off with `VITE_CHATGPT_SIGN_IN=off`.
+- **Browser:** works when served from `http://127.0.0.1:<port>`, which is its own callback at `/auth/callback`. Tokens are kept in memory only.
+- **Android and hosted web builds:** shown as "Not yet available".
+- No custom URL scheme or intent filter. No other product's client ID (Codex CLI etc.) and no undocumented endpoint.
 
 ## Open work
 
-- [01 — Enable ChatGPT sign-in in the native apps](issues/01-native-chatgpt-sign-in.md)
-- [02 — Verify against a live ChatGPT account](issues/02-live-account-verification.md)
+- [01 — App Store release and Android](issues/01-native-chatgpt-sign-in.md)
+- [02 — Verify the browser build against a live ChatGPT account](issues/02-live-account-verification.md)
+- [03 — Test ChatGPT sign-in on a physical iPhone](issues/03-ios-device-test.md)

@@ -1,11 +1,14 @@
+import AuthenticationServices
 import Capacitor
 import Foundation
+import Network
 import Security
 
 /**
  Keeps each AI provider credential in the device Keychain and makes the provider
  REST calls from native code. The WebView never receives the long-lived API keys.
- Supports Google Gemini and OpenAI.
+ Supports Google Gemini and OpenAI, plus the native half of Sign in with ChatGPT
+ (loopback callback listener and Keychain session storage).
  */
 @objc(AiSecurePlugin)
 public class AiSecurePlugin: CAPPlugin, CAPBridgedPlugin {
@@ -16,10 +19,18 @@ public class AiSecurePlugin: CAPPlugin, CAPBridgedPlugin {
         CAPPluginMethod(name: "saveApiKey", returnType: CAPPluginReturnPromise),
         CAPPluginMethod(name: "removeApiKey", returnType: CAPPluginReturnPromise),
         CAPPluginMethod(name: "generateText", returnType: CAPPluginReturnPromise),
-        CAPPluginMethod(name: "generateImage", returnType: CAPPluginReturnPromise)
+        CAPPluginMethod(name: "generateImage", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "prepareChatGptCallback", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "openChatGptAuthorization", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "saveChatGptSession", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "loadChatGptSession", returnType: CAPPluginReturnPromise),
+        CAPPluginMethod(name: "clearChatGptSession", returnType: CAPPluginReturnPromise)
     ]
 
     private let account = "api-key"
+    private let chatGptSessionService = "com.dailyoffice2019.foreheadfrenzy.chatgpt-session"
+    private var chatGptListener: ChatGptLoopbackListener?
+    private var chatGptAuthSession: ASWebAuthenticationSession?
 
     private func service(for provider: String) -> String? {
         switch provider {
@@ -204,4 +215,224 @@ public class AiSecurePlugin: CAPPlugin, CAPBridgedPlugin {
 
 private extension String {
     var nilIfEmpty: String? { isEmpty ? nil : self }
+}
+
+// MARK: - Sign in with ChatGPT
+
+/*
+ OpenAI's ChatGPT plan-usage sign-in only redirects to an HTTP loopback callback
+ (http://127.0.0.1:<port>/auth/callback); app URL schemes are not accepted. So
+ the app listens on 127.0.0.1 while the system sign-in sheet
+ (ASWebAuthenticationSession) is open. The app stays in the foreground, the
+ sheet's redirect reaches the listener, and the sheet is then dismissed. The
+ OAuth exchange itself runs in JS (src/lib/chatgpt-session.js); tokens are kept
+ in the Keychain between launches.
+ */
+extension AiSecurePlugin: ASWebAuthenticationPresentationContextProviding {
+    public func presentationAnchor(for session: ASWebAuthenticationSession) -> ASPresentationAnchor {
+        bridge?.webView?.window ?? ASPresentationAnchor()
+    }
+
+    @objc func prepareChatGptCallback(_ call: CAPPluginCall) {
+        chatGptListener?.stop()
+        let listener = ChatGptLoopbackListener()
+        chatGptListener = listener
+        listener.start { result in
+            switch result {
+            case .success(let port):
+                call.resolve(["redirectUri": "http://127.0.0.1:\(port)\(ChatGptLoopbackListener.callbackPath)"])
+            case .failure(let error):
+                call.reject("Could not prepare ChatGPT sign-in: \(error.localizedDescription)")
+            }
+        }
+    }
+
+    @objc func openChatGptAuthorization(_ call: CAPPluginCall) {
+        guard let urlString = call.getString("url"), let url = URL(string: urlString), url.scheme == "https" else {
+            call.reject("A ChatGPT sign-in URL is required.")
+            return
+        }
+        guard let listener = chatGptListener else {
+            call.reject("ChatGPT sign-in was not prepared. Please try again.")
+            return
+        }
+        // Only a callback carrying this attempt's state completes the sheet.
+        listener.expectedState = URLComponents(url: url, resolvingAgainstBaseURL: false)?.queryItems?.first(where: { $0.name == "state" })?.value
+
+        DispatchQueue.main.async {
+            var finished = false
+            let finish: (URL?, String?, String?) -> Void = { callbackURL, message, code in
+                if finished { return }
+                finished = true
+                if let callbackURL = callbackURL {
+                    call.resolve(["callbackUrl": callbackURL.absoluteString])
+                } else {
+                    call.reject(message ?? "ChatGPT sign-in failed.", code)
+                }
+                // Let the "return to the app" page render briefly, then close.
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.4) {
+                    self.chatGptAuthSession?.cancel()
+                    self.chatGptAuthSession = nil
+                    self.chatGptListener?.stop()
+                    self.chatGptListener = nil
+                }
+            }
+            listener.onCallback = { callbackURL in
+                DispatchQueue.main.async { finish(callbackURL, nil, nil) }
+            }
+            // No custom scheme: completion only fires when the user closes the
+            // sheet or it fails; success arrives through the loopback listener.
+            let session = ASWebAuthenticationSession(url: url, callbackURLScheme: nil) { _, error in
+                DispatchQueue.main.async {
+                    if let authError = error as? ASWebAuthenticationSessionError, authError.code == .canceledLogin {
+                        finish(nil, "ChatGPT sign-in was cancelled.", "cancelled")
+                    } else {
+                        finish(nil, error?.localizedDescription ?? "ChatGPT sign-in closed before it finished.", "cancelled")
+                    }
+                }
+            }
+            session.presentationContextProvider = self
+            // Share Safari's cookies so an existing ChatGPT login is reused.
+            session.prefersEphemeralWebBrowserSession = false
+            self.chatGptAuthSession = session
+            if !session.start() {
+                finish(nil, "Could not open ChatGPT sign-in.", nil)
+            }
+        }
+    }
+
+    @objc func saveChatGptSession(_ call: CAPPluginCall) {
+        guard let value = call.getString("value"), !value.isEmpty else {
+            call.reject("A ChatGPT session is required.")
+            return
+        }
+        do {
+            try saveKey(value, service: chatGptSessionService)
+            call.resolve()
+        } catch {
+            call.reject("Could not save the ChatGPT session to Keychain.", nil, error)
+        }
+    }
+
+    @objc func loadChatGptSession(_ call: CAPPluginCall) {
+        if let value = loadKey(service: chatGptSessionService) {
+            call.resolve(["value": value])
+        } else {
+            call.resolve([:])
+        }
+    }
+
+    @objc func clearChatGptSession(_ call: CAPPluginCall) {
+        let query: [String: Any] = [kSecClass as String: kSecClassGenericPassword, kSecAttrService as String: chatGptSessionService, kSecAttrAccount as String: account]
+        SecItemDelete(query as CFDictionary)
+        call.resolve()
+    }
+}
+
+/// A one-shot HTTP listener bound to 127.0.0.1 that waits for GET /auth/callback.
+final class ChatGptLoopbackListener {
+    static let callbackPath = "/auth/callback"
+
+    private let queue = DispatchQueue(label: "com.benjaminlocher.foreheadfrenzy.chatgpt-callback")
+    private var listener: NWListener?
+    private var port: UInt16 = 0
+    private var delivered = false
+    var expectedState: String?
+    var onCallback: ((URL) -> Void)?
+
+    func start(completion: @escaping (Result<UInt16, Error>) -> Void) {
+        let parameters = NWParameters.tcp
+        parameters.requiredLocalEndpoint = NWEndpoint.hostPort(host: .ipv4(.loopback), port: .any)
+        let listener: NWListener
+        do {
+            listener = try NWListener(using: parameters)
+        } catch {
+            completion(.failure(error))
+            return
+        }
+        self.listener = listener
+        var reported = false
+        listener.stateUpdateHandler = { [weak self] state in
+            guard let self = self else { return }
+            switch state {
+            case .ready:
+                guard !reported, let port = listener.port?.rawValue else { return }
+                reported = true
+                self.port = port
+                completion(.success(port))
+            case .failed(let error):
+                if !reported {
+                    reported = true
+                    completion(.failure(error))
+                }
+                listener.cancel()
+            default:
+                break
+            }
+        }
+        listener.newConnectionHandler = { [weak self] connection in
+            self?.handle(connection)
+        }
+        listener.start(queue: queue)
+    }
+
+    func stop() {
+        // Clear the handlers too: they capture the listener.
+        listener?.stateUpdateHandler = nil
+        listener?.newConnectionHandler = nil
+        listener?.cancel()
+        listener = nil
+        onCallback = nil
+    }
+
+    private func handle(_ connection: NWConnection) {
+        connection.start(queue: queue)
+        receive(on: connection, buffer: Data())
+    }
+
+    private func receive(on connection: NWConnection, buffer: Data) {
+        connection.receive(minimumIncompleteLength: 1, maximumLength: 16_384) { [weak self] data, _, isComplete, error in
+            guard let self = self else { connection.cancel(); return }
+            var buffer = buffer
+            if let data = data { buffer.append(data) }
+            let headerEnd = Data("\r\n\r\n".utf8)
+            if buffer.range(of: headerEnd) != nil || isComplete || error != nil || buffer.count > 32_768 {
+                self.respond(to: buffer, on: connection)
+            } else {
+                self.receive(on: connection, buffer: buffer)
+            }
+        }
+    }
+
+    private func respond(to request: Data, on connection: NWConnection) {
+        let text = String(decoding: request, as: UTF8.self)
+        let lines = text.components(separatedBy: "\r\n")
+        let requestLine = lines.first?.split(separator: " ").map(String.init) ?? []
+        let host = lines.dropFirst()
+            .first(where: { $0.lowercased().hasPrefix("host:") })
+            .map { $0.dropFirst(5).trimmingCharacters(in: .whitespaces) }
+        guard requestLine.count >= 2, requestLine[0] == "GET",
+              host == "127.0.0.1:\(port)",
+              let callbackURL = URL(string: "http://127.0.0.1:\(port)\(requestLine[1])"),
+              callbackURL.path == Self.callbackPath else {
+            send(status: "404 Not Found", body: "Not found", on: connection)
+            return
+        }
+        let state = URLComponents(url: callbackURL, resolvingAgainstBaseURL: false)?.queryItems?.first(where: { $0.name == "state" })?.value
+        guard !delivered, let expected = expectedState, state == expected else {
+            // Unrelated loopback requests must not end the pending sign-in.
+            send(status: "400 Bad Request", body: "This sign-in link does not match. Return to Forehead Frenzy and try again.", on: connection)
+            return
+        }
+        delivered = true
+        send(status: "200 OK", body: "<!doctype html><html lang=\"en\"><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width\"><title>Return to Forehead Frenzy</title><body style=\"font:17px system-ui;margin:20vh 24px;text-align:center\"><h1>Return to Forehead Frenzy</h1><p>Finishing your ChatGPT connection…</p></body></html>", on: connection)
+        onCallback?(callbackURL)
+    }
+
+    private func send(status: String, body: String, on connection: NWConnection) {
+        let bodyData = Data(body.utf8)
+        var response = Data("HTTP/1.1 \(status)\r\nContent-Type: text/html; charset=utf-8\r\nCache-Control: no-store\r\nReferrer-Policy: no-referrer\r\nConnection: close\r\nContent-Length: \(bodyData.count)\r\n\r\n".utf8)
+        response.append(bodyData)
+        connection.send(content: response, completion: .contentProcessed { _ in connection.cancel() })
+    }
 }

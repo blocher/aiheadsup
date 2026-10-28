@@ -1,4 +1,5 @@
-import { Capacitor, registerPlugin } from '@capacitor/core'
+import { Capacitor } from '@capacitor/core'
+import { SecureAi } from './secure-ai.js'
 import { createId, normalizePrompt } from './ids.js'
 import { getSpoilerSeries } from './spoiler-series.js'
 import { coverPromptForDeck, deviceCoverConcept, generateCoverWithFallback } from './cover-prompts.js'
@@ -14,7 +15,7 @@ import {
   isCloudProviderId,
   isDeviceProviderId
 } from './ai-providers.js'
-import { getChatGptSession } from './chatgpt-session.js'
+import { getChatGptSession } from './chatgpt-platform.js'
 import { generateChatGptText } from './chatgpt-responses.js'
 import {
   generateDeviceImage,
@@ -27,7 +28,6 @@ import {
 import { parseAiCardBatch, parseAiJsonObject } from './ai-json.js'
 import { reviewDeckCards } from './card-accuracy.js'
 
-const SecureAi = registerPlugin('SecureAi')
 const DEVICE_SESSION_ID = 'forehead-frenzy-deck-gen'
 const CHATGPT_INSTRUCTIONS = 'You write Heads Up guessing-game card prompts and review them for accuracy. Reply with raw JSON only — no markdown fences, no commentary.'
 const DEVICE_INSTRUCTIONS = 'You write Heads Up guessing-game card prompts. Reply with raw JSON only — no markdown fences, no commentary, no code blocks. Use exactly this shape: {"cards":[{"prompt":"Example"}]}. Put every card in one cards array.'

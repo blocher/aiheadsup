@@ -7,11 +7,10 @@ const REDIRECT = 'http://127.0.0.1:5173/auth/callback'
 const START = Date.UTC(2026, 9, 28, 12)
 
 // A fake auth.openai.com: records requests and answers from per-endpoint handlers.
-async function setup({ scope = 'openid profile email offline_access resource.invoke chatgpt.tokens.use.direct', sub = 'user-1' } = {}) {
+async function setup({ scope = 'openid profile email offline_access resource.invoke chatgpt.tokens.use.direct', sub = 'user-1', refreshIdTokenSub = null, tokenStore = null, jwksLoader = null, storage = new MemoryStorage() } = {}) {
   const key = await createSigningKey()
   const clock = { now: START }
   const requests = []
-  const storage = new MemoryStorage()
   const pendingStorage = new MemoryStorage()
   let refreshCount = 0
   const handlers = {
@@ -25,7 +24,10 @@ async function setup({ scope = 'openid profile email offline_access resource.inv
         return jsonResponse({ access_token: 'access-1', refresh_token: 'refresh-1', id_token: idToken, token_type: 'Bearer', expires_in: 3600, scope })
       }
       refreshCount += 1
-      return jsonResponse({ access_token: `access-${refreshCount + 1}`, refresh_token: `refresh-${refreshCount + 1}`, token_type: 'Bearer', expires_in: 3600 })
+      const idToken = refreshIdTokenSub && await signIdToken(key, {
+        iss: CHATGPT_AUTH.issuer, aud: form.get('client_id'), sub: refreshIdTokenSub, iat: Math.floor(clock.now / 1000), exp: Math.floor(clock.now / 1000) + 3600
+      })
+      return jsonResponse({ access_token: `access-${refreshCount + 1}`, refresh_token: `refresh-${refreshCount + 1}`, token_type: 'Bearer', expires_in: 3600, ...(idToken ? { id_token: idToken } : {}) })
     },
     revoke: async () => new Response('', { status: 200 })
   }
@@ -38,7 +40,8 @@ async function setup({ scope = 'openid profile email offline_access resource.inv
     throw new Error(`unexpected request to ${url}`)
   }
   const changes = []
-  const session = new ChatGptSession({ fetchImpl, cryptoImpl: crypto, storage, pendingStorage, now: () => clock.now, sleep: async () => {}, onChange: (status) => changes.push(status) })
+  const loader = jwksLoader && (() => jwksLoader(key.jwks))
+  const session = new ChatGptSession({ fetchImpl, cryptoImpl: crypto, storage, pendingStorage, tokenStore, jwksLoader: loader, now: () => clock.now, sleep: async () => {}, onChange: (status) => changes.push(status) })
 
   async function signIn(options) {
     const authorize = await session.beginSignIn({ redirectUri: REDIRECT, ...options })
@@ -51,7 +54,7 @@ async function setup({ scope = 'openid profile email offline_access resource.inv
     return { authorize: params, status: await session.completeSignIn(callback.toString()) }
   }
 
-  return { session, signIn, requests, storage, pendingStorage, clock, handlers, changes, tokenRequests: () => requests.filter((entry) => entry.url === CHATGPT_AUTH.tokenUrl) }
+  return { session, signIn, key, requests, storage, pendingStorage, clock, handlers, changes, tokenRequests: () => requests.filter((entry) => entry.url === CHATGPT_AUTH.tokenUrl) }
 }
 
 describe('ChatGPT session sign-in', () => {
@@ -166,5 +169,66 @@ describe('ChatGPT sign-out', () => {
     await expect(session.signOut()).resolves.toEqual({ revoked: false })
     expect(requests.filter((entry) => entry.url === CHATGPT_AUTH.revokeUrl)).toHaveLength(3)
     expect(session.status().signedIn).toBe(false)
+  })
+})
+
+class MemoryTokenStore {
+  constructor(value = null) { this.value = value }
+  async load() { return this.value }
+  async save(value) { this.value = value }
+  async clear() { this.value = null }
+}
+
+describe('ChatGPT session in the iOS app (Keychain token store)', () => {
+  it('saves tokens to the store and restores them on the next launch', async () => {
+    const tokenStore = new MemoryTokenStore()
+    const storage = new MemoryStorage()
+    const first = await setup({ tokenStore, storage })
+    await first.signIn()
+    expect(JSON.parse(tokenStore.value)).toMatchObject({ accessToken: 'access-1', refreshToken: 'refresh-1' })
+    expect(first.session.status().persisted).toBe(true)
+
+    const relaunch = await setup({ tokenStore, storage })
+    expect(relaunch.session.status().signedIn).toBe(false)
+    await expect(relaunch.session.restore()).resolves.toMatchObject({ signedIn: true, planUsage: true, email: 'player@example.com' })
+    expect(await relaunch.session.accessToken()).toBe('access-1')
+  })
+
+  it('saves the rotated refresh token and clears the store on sign-out', async () => {
+    const tokenStore = new MemoryTokenStore()
+    const { session, signIn } = await setup({ tokenStore })
+    await signIn()
+    await session.refresh()
+    expect(JSON.parse(tokenStore.value).refreshToken).toBe('refresh-2')
+    await session.signOut()
+    expect(tokenStore.value).toBe(null)
+  })
+
+  it('ignores an unreadable saved session', async () => {
+    const { session } = await setup({ tokenStore: new MemoryTokenStore('{not json') })
+    await expect(session.restore()).resolves.toMatchObject({ signedIn: false })
+  })
+
+  it('loads signing keys through the native loader instead of fetch', async () => {
+    const { signIn, requests } = await setup({ jwksLoader: async (jwks) => jwks })
+    await expect(signIn()).resolves.toMatchObject({ status: { signedIn: true } })
+    expect(requests.some((entry) => entry.url === CHATGPT_AUTH.jwksUrl)).toBe(false)
+  })
+})
+
+describe('ChatGPT refreshed identity', () => {
+  it('accepts a refreshed ID token for the same account', async () => {
+    const { session, signIn } = await setup({ refreshIdTokenSub: 'user-1' })
+    await signIn()
+    await expect(session.refresh()).resolves.toMatchObject({ signedIn: true })
+  })
+
+  it('signs out when a refresh returns a different account', async () => {
+    const tokenStore = new MemoryTokenStore()
+    const { session, signIn } = await setup({ refreshIdTokenSub: 'someone-else', tokenStore })
+    await signIn()
+    await expect(session.refresh()).rejects.toMatchObject({ code: 'sign_in_required' })
+    expect(session.status().signedIn).toBe(false)
+    expect(tokenStore.value).toBe(null)
   })
 })

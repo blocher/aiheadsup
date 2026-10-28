@@ -1,6 +1,6 @@
 # 0001 — ChatGPT account as a third AI provider
 
-Status: accepted (2026-10-28)
+Status: accepted (2026-10-28); native iOS part superseded by [0002](0002-ios-chatgpt-sign-in-loopback.md)
 
 ## Context
 
@@ -36,4 +36,4 @@ OpenAI documents this as "Sign in with ChatGPT" with "ChatGPT plan usage" ([over
 - Existing on-device and API-key behaviour is unchanged.
 - ChatGPT sign-in works today only for someone running the app locally (`yarn dev --host 127.0.0.1` or `yarn preview --host 127.0.0.1`). It is not tested against a live ChatGPT account. The browser test stubs OpenAI's endpoints.
 - Turning it on for the iOS/Android apps or a hosted web build needs OpenAI's approval (interest form) and an officially supported mobile or hosted redirect. When that exists, add the redirect to `chatGptSignInSupport()`, add native URL handling and config, and move native token storage to Keychain. See `.scratch/chatgpt-login/`.
-- The "Manage usage" link goes to `https://chatgpt.com/#settings`. OpenAI does not document a deep link straight to the usage page.
+- The "Manage usage" link goes to `https://chatgpt.com/settings/usage`, as given in OpenAI's [Sign in with ChatGPT cookbook](https://developers.openai.com/cookbook/articles/sign-in-with-chatgpt).
